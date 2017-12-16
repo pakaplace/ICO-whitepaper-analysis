@@ -1,0 +1,827 @@
+1
+
+Token sale
+Whitepaper
+| Whitepaper
+V3.04
+| www.SilentNotary.com
+| 09/30/2017
+
+SilentNotary is a blockchain-based service for
+confirmation of event existence, recorded in digital
+format. Communication in messenger, image,
+video file, and e-mail can be an event. SilentNotary
+converts an event into a legally significant evidence,
+excluding the possibility of falsification.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+2
+
+Content
+Introduction
+
+Our Product
+Use Cases
+User Interfaces
+
+Development of the System
+The Roadmap
+
+Token Sale
+The Future
+Conclusion
+
+3
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+Introduction
+Just a few years ago, a solution was found to build a Trust Machine – blockchain
+was a fact. The first thing that people began to write down in the blockchain were
+records about financial transaction, which everyone would trust, and so Bitcoin
+was born.
+We live in a world full of distrust. And in case of misfortune, we must prove that
+certain facts were in intact.
+We use blockchain technology for its intended purpose, trust.
+Data about the events that occurred are recorded. There is no more a need to
+prove anything, blockchain solves the problem of distrust.
+Suddenly we have a way to make the world better and our lives safer, with a
+global system of confirmation of event’s existence!
+Blockchain is a sophisticated technology. Bridges are needed between the user
+and the technology. These bridges are user interfaces, allowing users to transfer
+data to the system about events recorded in any form - photos, videos, chats,
+audio recordings or documents.
+Now, we have developed all the main interfaces possible for you.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+4
+
+Our Product
+SilentNotary is an ecosystem, which develops around Smart
+Contracts, ensuring the evidence of existence and permanence
+of certain events.
+
+To achieve the goal of a global solution,
+various user interfaces have been
+developed, which are as follows:
+
+To promote the product in the global
+market, it was necessary to adapt it for
+different categories of customers:
+
+1. 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+1. 	
+	
+	
+	
+
+B2C (Business to Consumer): The
+simplest interface, understandable to
+the common user and can be
+integrated with social networks.
+
+2. 	
+	
+	
+	
+	
+	
+
+B2B (Business to business): License
+scheme, corporate accounts
+(available in beta version), access
+delimitation, and API for integration
+with corporate document
+management systems available.
+
+Chatbots for Facebook messenger
+and Telegram bots are developed
+to record information and available in
+production and beta-versions.
+Chatbots are installed on almost
+all smartphones. They are convenient
+and common for users. They allow
+us to record video, send files, and
+communicate with many users in real
+time. Obviously, a chatbot with
+protocol writing and record of
+evidence to prove the existence of
+information, obtained during a dialog,
+supports the solution of event
+proving problem.
+
+2. 	 Web interface (developed and
+	
+available in beta-version).
+3. 	 Mobile applications for Android and
+	
+iOS Apps are being developed and
+	
+will be available soon.
+4. 	
+	
+	
+	
+	
+
+5
+
+Mail-bot has been developed and is
+available in production-version. It
+is used to certify e-mails and records
+written communication with any
+number of counter agents.
+
+SilentNotary worldwide market capacity:
+B2C: 2,3 billion users.
+
+B2B Sectors:
+Insurance companies
+
+11,388
+Online media
+
+1,371
+Banking insurance
+
+7,987
+Construction
+
+43,347
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+Use Cases
+During what cases do we need SilentNotary and what can it do
+to help? Let’s study several examples of legal relations, which
+may require delivery of evidence:
+
+1. Performed work, rendered services
+It will be easy to record the results at each stage of the process. Just launch the messenger
+and send images or video files of the results to the SilentNotary chatbot. You can share the
+received link with the employer. By doing so, you will be able to prove the fact that, at that
+moment, the work was completed. If the work was not finished within the agreed timescale
+or there were deficiencies detected, the employer can do the same and record the problem
+in the format of certified images or video. Certified records may be used for preparation of
+acceptance, certificates for work performed, or objections to quality and timescale claims.
+2. Communication via e-mail
+Letters of critical importance can be saved and certified by just adding the SilentNotary
+address into the list of recipients. The system certifies the letter content and data from the
+mailing servers (RFC-title of the letter). It means that the list of recipients, the fact of dispatch,
+delivery, and email routing will be recorded.
+3. Offers are made in a digital format
+Any company, selling anything via the Internet, makes a public offer to its clients. In this
+case, the text of the offer is just published on the website. This text may be changed at any
+time. There are many cases that require confirmation of the offer content and the fact of
+its publication on the website. Both the seller and the buyer may need it. You can use the
+SilentNotary website to certify the documents and the pages, where it was published. Just
+send a link to the page, and order a certification of the page content.
+4. Website content copyrights
+Almost every website shows the users a © symbol. As a matter of fact, placement of the
+copyright protection symbol is a meaningless ritual. It is very hard to prove that some
+content was present on the website at some time in the past. Just certify the website’s
+content using SilentNotary if you must need to protect your rights and fight against
+plagiarism. Just send a link to SilentNotary, and order a certification of the website’s pages
+and content. That will be enough. Afterwards, you can publish a link of the certified content,
+next to the notice of copyright protection.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+6
+
+5. Priority of authorship
+Code text, picture, story, music... Any intellectual property item, which can be represented
+in digital format, is subject to legal protection. SilentNotary cannot replace a patent solicitor,
+but it helps to prove precedence in the case of dispute. To certify the item, just send a file
+via email to the SilentNotary address, certify it by yourself on the website, or share it in a
+message to the chatbot.
+6. Agreements
+You can record any negotiation and decision taken. Just conduct negotiations through the
+multi-chat feature in our chatbot. The chatbot will prepare and certify the conversation
+protocol on your command.
+7. License agreement
+How many times has each of us agreed to the terms of use of some software program? That
+said, the text of the agreement is only a text on the website page, which can be replaced
+at any moment. If a user violates the terms of the agreement, it is hardly possible to prove
+which text was published at the moment the user agreed to it. Send a link of the page with
+the agreement to SilentNotary. We will record the fact of publication at a specified address,
+date of publication, and content of all the published documents.
+8. Whitepaper and other types of public statements
+Oftentimes, to refer to someone’s statement, we should prove that this exact text that
+existed in the past, during a certain action was performed. For example, to participate in an
+ICO, you should record the whitepaper content and the fact of its publication at the moment
+of the transaction. Just send a link of the published document to the SilentNotary website,
+and certify the fact of publication, date of publication, and document content.
+9. User guides
+Financial success of a product manufacturer depends on the accuracy of the user guide and
+the fact of its publication on the website. You can certify the page with the publication via the
+SilentNotary website by just sending a hyperlink to the page.
+10. Evidence gathering from an accident site
+In case of an incident (for example, a car crash), an acute need for records of the incident’s
+circumstances often arises. Just launch the SilentNotary chatbot and send images and video
+files of the relevant circumstances.
+11. Verbal agreements
+It is very hard to prove a verbal agreement in court. Do not risk it. During conclusion of the
+agreement, launch the SilentNotary chatbot and record your conversation. The audio file will
+be recorded and certified for you.
+Usage of SilentNotary service is not limited to the mentioned examples. There may be
+a need for evidence in all situations, resulting in rights and duties. We believe that the
+users will find a lot of new ways to use our service.
+Important! Warning! Usage of SilentNotary service should not contradict local norms, rules and laws. In
+case of wrongful use of the service, responsibility for its usage lies with the user.
+
+7
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+User Interfaces
+As stated in the previous section, the user interacts with the
+service using the following interfaces: chatbots, web, mobile
+apps, and email. The working schemes of these interfaces are
+presented in this section.
+
+Chatbots
+The capabilities of the chatbot are determined by the functionality that the messenger
+provides. In addition, during the development of the messenger, these opportunities may
+change. Our development plan involves working with all popular instant messengers. For
+implementation in the demo version, the Telegram and Facebook messenger have been
+selected. At the launch time of the chatbot, the Facebook messenger did not support group
+chat. To solve this problem, we implemented a synthetic multitask, allowing the participation
+of an unlimited number of users and an unlimited number of simultaneously running multichats. Each of the users communicates only with the chatbot, the chatbot collects two-way
+communication in the common multi-chat. The user can now switch between simultaneous
+conversations.
+Chatbot
+Conv 1..k
+
+Prot 1..k
+Smart
+Contracts
+
+Conv k+1..l
+
+Prot K+1..I
+
+Conv l+1..N
+
+Prot I+1..N
+
+Certified
+Protocols 1..N
+
+The service allows the conversation’s participants to assure the protocol in the blockchain
+and store it in the SilentNotary Vault. Archives will be available to users in their own personal
+account.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+8
+
+Web
+The scheme of working with SilentNotary through the web is the following: The registered
+user drags (drag & drop feature) the file to the appropriate area on the SilentNotary website
+or places the link of the file to the webpage that he wants to certify.
+
+www.silentnotary.com
+Smart
+Contracts
+
+When you save a file or page of a site, an archive is created with the content of the file or
+page, the hash value is calculated, user confirmation is requested, the service is paid, the
+hash of this archive is deployed into the Ethereum blockchain, and the archive is saved in
+the vault. The archive with the hash and the block number is available for downloading in the
+user’s own personal account.
+
+9
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+Mobile applications. Lightstamp technology
+During the development of the SilentNotary, it became necessary to determine the time
+range of a certified event. Using the hardware capabilities of the smartphones, a solution was
+found and the Lightstamp (tm) technology was developed to determine the time interval of
+the event recorded with the smartphone’s video camera and flashlight.
+The Lightstamp technology allows the following:
+1. 	 Counteracts forgery and any modification of the recorded video facts;
+2. 	 Records the time interval of the event (the time of beginning and end of the video); and
+3. 	 Provides evidence of a real video-shooting event.
+More information about LightStamp Technology will be provided soon as we are registering a
+patent.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+10
+
+Email
+The scheme of working with SilentNotary via e-mail is the following: The user sends an email
+directly to our mailbot address (go@silentnotary.com) or adds the mailbot address in cc
+(carbon copy). SilentNotary creates an archive with the email’s details, RFC-title, content, and
+attached documents. The hash of the archive is calculated, and then the user is required to
+confirm the saving by replying to a message.
+
+To: a@gmail.com
+
+CC: go@silentnotary.com
+
+Smart
+Contracts
+
+After the document is saved and payment
+for the service is confirmed by the user,
+DApp SilentNotary records data hash in
+the next block of blockchain Ethereum.
+
+The user then receives a link for the hash transaction. The archive is stored in the repository.
+(In the demo version, Google cloud storage is used, and in the main version, the possibility of
+using decentralized systems will be considered.) After the operation is completed, the user
+will be able to access the saved history in his/her personal account.
+
+11
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+Technical description of the product
+The scheme of operation of the service is quite simple. In accordance with various
+interactions with the user, an archive is formed, including the date of the event, details of the
+document, and the document itself (it can be a file and a protocol of correspondence, among
+others).
+Web
+
+Chatbot
+
+}
+
+Smart
+Contracts
+
+Block
+ID
+
+Block
+TxHash;0x156..
+
+Hash sd89qn..
+
+Input Data:
+Hash sd89qn..
+
+Email
+
+{
+
+Cloud
+Storage
+Hash sd89qn..
+Tx-Hash 0x158..
+
+Next, the hash of this archive is calculated by the algorithm SHA-256, with the help of a
+Smart Contract written into the Ethereum blockchain. The archive itself is saved in the cloud
+storage. The user receives a hash, which is the result of computing the hash function on the
+user’s archive. The TxHash of the transaction in the Ethereum blockchain and a link to the
+document in his/her personal account are then made available.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+12
+
+Given the known technical features of the Ethereum
+platform, we are planning to launch a duplicating
+system based on the Universa platform. This
+platform should provide high speed and low
+transaction costs, which is critical for a service with
+micro-transactions.
+
+13
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+Development of the System
+The main directions of development
+The main problems for the development of the system are the indefinite legal status of the
+record in the public stable blockchain and low awareness of potential customers about
+the new product. Accordingly, the following strands of work are planned for the successful
+development of the system:
+1. 	 To develop legal opinions, perform technical and legal expertise, create instructions
+	
+and ways of using the system, and legal support in case-based litigations with leading
+	
+legal companies;
+2. 	
+	
+
+To promote use of the blockchain notary in everyday life, develop recommendations,
+and collect and generalize judicial practices;
+
+3. 	
+	
+
+To create an ecosystem around the main application. This ecosystem would consist of
+service provider organizations, end users, and decentralized applications;
+
+4. 	 We have planned to include public notaries in the ecosystem to organize a remote
+	
+notarization of the existence of online and electronic documents to cover the
+	
+maximum range of needs for notary services. For this purpose, it is planned to create
+	
+a distributed ledger of notaries and organize interaction within the ecosystem. World
+	
+distributed ledger of public notaries will allow the users to remotely verify the existence
+	
+of electronic documents in a classical way, but with a more convenient user interface;
+	And
+5. 	
+
+To advertise and promote services that use the SilentNotary Smart Contract.
+
+These activities are financed by the sale of the system tokens.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+14
+
+SNTR tokens
+The system tokens (hereinafter referred as SNTR or tokens) are issued in a limited number of
+1*1012 tokens and are used to organize the interaction among the ecosystem participants.
+The main contract for its operation is required by SNTR. Only the SNTR token holder can use
+the services of the contract.
+
+The number of SNTR tokens needed to execute the contract are as follows:
+Main contract
+requirement in SNTR
+
+Rate ETH/USD
+
+Price of witness,
+$ USD
+
+Since the service is aimed at rendering its facilities in the real economy, the cost of services
+shall be denominated in fiat currencies. However, calculations within crypto-economics are
+made in crypto currencies. Compared to crypto currencies, the cost of fiat currencies is
+marked by high volatility. The following solution is proposed to resolve the issue of regulating
+the cost of services and linking it to the fiat currency: Control the SilentNotary contract
+execution costs by changing the basic cost for document certification (serves for recording
+the market conditions and competitive environment). Coefficients USD/ETH rate and
+certification costs are published on the webpage SilentNotary.com.
+For example, as per the calculation formula, if a basic cost of certification equals to 0.5 USD
+and USD/ETH exchange rate is 300, the requirement of the contract will be 1 667 SNTR.
+For the service of the ordinary user, it is planned to support the creation of independent
+service providers and commercial organizations that are acting as intermediaries between
+the end customer and the SilentNotary service. To render services, the providers must buy
+the SNTR tokens.
+These tokens can be obtained in the following two ways:
+1. 	 During the token sale, by exchanging ETH for tokens in accordance with the
+	
+rules of the sale.
+2. 	 Exchange from the existing owners in a transaction.
+
+15
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+Let’s consider a case were the Smart Contract of SilentNotary is used by a service provider.
+License
+agreement
+
+Blockchain
+
+Terms &
+Conditions
+
+general
+Smart contract
+Service
+provider
+
+Client
+
+Crypto
+exchange
+
+The service provider, a company rendering commercial services to end users, submits an
+offer (Terms & Conditions) to the user, according to which the user sends certified content to
+the provider and pays for the service in-line with the rate (USD).
+To provide services to its customers, the service provider uses the main Smart Contract of
+SilentNotary under the terms of the license agreement. The use of this contract as a software
+product is made for the benefit of the SilentNotary token holders.
+To execute the main contract, the service provider needs to transfer a certain number
+of SNTR tokens to SilentNotary. As a result of this main contract, the Service Provider will
+receive a link to
+TxHash and sends it to the user, while the information itself is stored in the Vault and made
+available to the user in his/her personal account.
+
+Important!
+The aforementioned calculation, its results, and assumptions do not constitute an obligation for a
+team to provide potential holders of tokens with some profit. The calculation just
+demonstrates the possibility of returning ETH during redemption of tokens in the event that tokens are
+not spent by the holder for using the service. Therefore, we do not recommend you to treat the token
+as an investment.
+
+The token Smart Contract is used to control the circulation of the tokens. A SNTR
+is issued in line with ERC20 standards, which makes it possible to use all the existing
+infrastructure and maintain the circulation of the tokens.
+After the number of tokens that is necessary for the application are transferred, the tokens
+received by the Smart Contract are deposited and, thus, withdrawn from circulation. In the
+future, the developers consider a possibility of putting the deposited tokens in circulation,
+purely for the purposes of the application’s development or its market promotion.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+16
+
+The Roadmap
+This section describes the sequence of steps which we intend
+to execute to create an ecosystem based on the main Smart
+Contract SilentNotary.
+
+ICO Silent Notary
+Stage One (Creating an SPV)
+2-3 Months
+The first step is to create the legal framework of the ecosystem. To do so, it is
+necessary to build a core institution – a non-profit organization. The following are
+the main objectives of this organization: to put the service into legal practice in the
+main jurisdictions (conducting technical and due diligence reviews, obtaining legal
+opinions, establishing the precedence of use, and carrying out legal researches), to
+support the organizations that use the SilentNotary service in their work (consultations,
+legal support, technical consulting, and grants), and to make the service popular
+(advertising).
+
+Stage Two (Service development: Services on UNIVERSA platform, App
+on RDE thnology & Services on B2B)
+6-8 Months
+The second step is to develop the main code of the Smart Contract SilentNotary
+(the prototype has been created and is ready for testing). It is necessary to add the
+evolution mechanism and carry out a technical audit.
+
+Stage Three (Testing and commissioning)
+9-12 Months
+The third step supposes the launch of the commercial projects (companies which are
+providers of the services) and the activation of the marketing campaign.
+
+17
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+Creation of the SilentNotary foundation
+An important stage in the SilentNotary service implementation is the creation of a non-profit
+organization, SilentNotary Foundation, which will aim at the development of the SilentNotary
+ecosystem (legal status of certification in the blockchain, expertise and introduction in legal
+practice). List of tasks of the first stage are as follows:
+-	
+	
+-	
+-	
+-	
+	
+	
+
+Registration acts connected with the SilentNotary Foundation – including the choice of
+jurisdiction, the choice of the legal entity form, and the choice of the taxation scheme-;
+Development of a standard offer for the service users;
+Development of the license agreements; and
+Legal elaboration of the service model to ensure its correct operation in
+various jurisdictions.
+
+This stage will take 2–3 months. The funds for this stage are written off a special purse with
+multi-signatures.
+
+Service development
+The second work stage is more focused on the technical challenges, including the expansion
+of the available service interfaces:
+-	
+	
+-	
+	
+-	
+	
+-	
+	
+-	
+-	
+-	
+-	
+	
+-	
+
+Development of the code for the main Smart Contract of the system and activation of
+the evolution mechanism;
+Development of chatbots for the main messengers, which ensure the functionality
+required for the service work;
+Further development of the website functionality – dealing not only with separate files,
+but also with hyperlinks, saving the structure of the website and its contents;
+Development of schemes for accepting payments from service users and the
+introduction of a flexible pricing system for services;
+Further development of the mail service, for example, file hashing by links;
+Development of the API interface;
+Improvement of the interface usability;
+Development of the code for the main Smart Contract of the system on
+the UNIVERSA platform; and
+Development of Lightstamp technology.
+
+This stage will take 4–6 months. The funds for this stage and the next one are written off a
+purse at the command of the Smart Contract, which is activated by two team members and
+one of the two Escrow agents involved in the project.
+
+Launching
+The third work stage includes creation (attraction) of the service providers, final testing of
+the service, development of the marketing program, recruitment of the companies working
+on the service promotion, and conclusion of the contracts with the key performers of the
+program.
+This stage will take 2–3 months. It ends with the commercial launch of the service.
+Token sale | Whitepaper | www.SilentNotary.com
+
+18
+
+Token Sale
+
+Important!
+This section is devoted to the issuing and exchange of the SNTR tokens. If the laws of the country you
+reside in involve certain requirements that for you, as a potential token holder, or for the process of
+tokens acquisition and exchange, we recommend you consult the lawyers with the relevant practice
+in your jurisdiction and make a decision about the tokens exchange based on their recommendation.
+Besides, we would like to bring to your notice that due to technical organization of token issuing and
+exchange, we do not collect, store, or make use of the potential token holders’ personal data, and,
+thus, we cannot control what jurisdiction they belong to and whether the laws of this jurisdiction are
+violated. As a result of such circumstances, the responsibility for exchanging tokens in your jurisdiction
+rests with you, as the token holder.
+
+19
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+Main characteristics of the Token Sale
+
+10
+
+12
+
+SNTR
+
+Total amount of tokens
+
+10
+
+6.5*
+
+11
+
+Total amount of tokens to sale
+
+Token sale details are as follows:
+-	
+-	
+	
+-	
+	
+-	
+
+The sales period will be divided in 3 phases;
+Each phase can last up to 14 days. The sale can be completed ahead of schedule if
+the exchange rate reaches its maximum or if all the tokens are sold;
+The start date of each phase will be announced in-time by the developers and will be
+published on the website and broadcasted in our social media channels; and
+Each phase can be extended by the developers, but it will not surpass 14 days.
+
+Additional provisions are as follows:
+-	
+-	
+-	
+	
+
+The hardcap is set for 100,000 ETH;.
+A hidden cap will be triggered once the hardcap is reached;
+All unsold tokens will be transferred to the team’s multi-signature-wallet to
+provide future development and team bonus.
+
+Sale procedures
+In order to purchase tokens during the token sale, you will need to send the required
+amount of ETH to the address which will be indicated on the official website www.
+silentnotary.com. The address will be published not earlier than 24 hours before the start of
+the sale. In response to your investment, STNR tokens will be deposited to your wallet.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+20
+
+The use of funds raised
+The use of wallets with multi-signatures and Escrow.
+Raising funds are transferred to a wallet with a multi-signature 3/3. One of the signatures
+is Escrow and the two others that are team leaders. Use of funds is done approximately
+as follows: 50% will be used for marketing and promotion of innovative products. 20% for
+the legal status, experts in different legislations, and introduction in legal practice. 20% for
+Research & Development. 10% will be used for staff and operational costs.
+
+Allocation of the Funds
+The wallet of token holders
+SNTR
+
+ETH
+
+Crowdsale Contract
+
+50%
+
+Marketing and promotion
+
+20%
+
+Research & development
+
+20%
+
+Legal matters
+
+10%
+
+Staff & operational costs
+
+ETH
+
+Multi-sign wallet (3/3)
+team’s
+signature
+
+Escrow’s
+signature
+
+Checklist
+
+Escrow checklist
+Escrow is contracted to control the fulfillment of the following liabilities:
+1. 	 The return of the raised funds is performed in the case when the minimum required
+	 amount is not reached during the token sale. The only permitted way to spend funds
+	 from the Development and Marketing Account for Escrow is to return the ETH to
+	 token buyers; and
+2. 	 The establishment of the non-commercial company (SilentNotary Foundation), whose
+	 statutory activity is to introduce legal practice of the technology for providing proof by
+	 making entries in the blockchain through SilentNotary Smart Contract, provide
+	 the necessary technical and legal expertise, obtain legal opinions, set use cases, conduct
+	 legal studies, and provide the following support for organizations that use the
+	 SilentNotary service: consultations, legal support, technical support, subsidies and
+	 promotion of the service.
+
+21
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+The Future of SilentNotary
+
+We believe that a whole system of services will emerge that will use SilentNotary,
+in particular, P2B, B2B, P2P credit systems, real estate management, insurance,
+evaluation of physical assets, and more.
+In fact, we are currently working on such a project – a system for the transfer of
+financial and legal documentation called the DebtBlock Project. These services will
+use documents certified by SilentNotary as their basis.
+We are willing to collaborate with other teams and projects. If your project needs
+solid proofs that certain events or documents took place, we will develop a
+convenient interaction interface.
+Become part of the revolution and join us in our journey.
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+22
+
+Conclusion
+
+The legal system is the basis of our society. We have come a long way and evolved
+from primitive tribes, where the rule of force prevailed, to the modern complex
+system of norms, which guarantees the rights to all individuals. The legal systems
+continue to evolve, but it cannot keep up with the technological progress. It is quite
+inert, which is natural, since any change in the legal system will cause significant
+consequences on the entire society.
+Obviously, the recently developed technology of data storage in a public
+blockchain is ideal to record facts. And the fact that almost every person today
+has a smartphone and uses messengers will make this technology accessible
+to everyone. The legal system is already beginning to accept blockchain as a
+method of trusted data storage, and once its reluctance is finally over, we will
+witness a revolution in numerous areas of our life. This will expand our possibilities
+significantly.
+Business practices will change. Contracts will be signed in messenger apps.
+Business procedures will become faster. By recording all the facts, corruption and
+fraud will be prevented. We would create a more stable and safe world. We have
+developed and keep on developing SilentNotary with zealous enthusiasm.
+Yours sincerely,
+The SilentNotary team
+Reach out to us at hello@silentnotary.com for any inquiries and ideas you may
+have.
+23
+
+Token sale | Whitepaper | www.SilentNotary.com
+
+

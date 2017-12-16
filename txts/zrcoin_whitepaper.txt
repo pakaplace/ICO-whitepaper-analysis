@@ -1,0 +1,508 @@
+Synergy of Advanced Financial and Industrial Technologies:
+First Investment Blockchain Option
+ZrCoin
+
+Abstract
+ZrCoin [1] is the world’s first investment-grade blockchain product. It is a
+derivative that leverages both cutting-edge financial and industrial technologies
+to manufacture and sell a highly in-demand product, synthetic zirconium dioxide
+(Synth. ZrО2), which is traded on the global market of refractories.
+Synth. ZrО2 has higher quality and superior physical and chemical properties than
+its non-synthetic analogue, with greater purity (66% to 75%), and 2.5-3 times
+greater durability, stability and persistence.
+The manufacturing process employs unique and cutting-edge technologies in the
+use of wastes and the resulting parameters of synthetic zirconium. It is also
+completely environmentally friendly.
+Decentralised direct investments in the Project will be made by purchasing ZrCoin
+options. Their decentralisation should ensure the Project’s independence from
+government-run companies and other large corporations.
+The Project is designed to fit the ideology of a national initiative entitled ‘Clean
+Country’.
+The ZrCoin financial instrument will be launched on the Waves blockchain
+platform [2].
+
+Contents
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+
+Definitions
+Introduction – Project overview
+Introduction – Green Manufacture and Economy
+Project Summary – Commercial Aspects of the Project
+Project Summary – Environmental Aspects of the Project
+Project Summary – ZrCoin Team
+Conclusion
+References
+
+Definitions
+Underlying asset means an asset on which the financial derivative (option) is
+based. In our case this is the product, i.e. Synth. ZrО2, and the derivative ZrCoin.
+Synthetic zirconium dioxide or Synth. ZrО2 is a scarce and ultra-durable material
+with high plasticity, corrosion resistance, strength, durability and stability.
+Derivative or derivative financial instrument means a contract, under which the
+parties are entitled and/or undertake to make certain actions in respect of the
+underlying asset. The contract represents an agreement between the two parties,
+whereunder they undertake or are entitled to transfer the underlying asset in the
+prescribed period at the agreed price.
+ZrCoin Derivative means an options contract for the sale of Synth. ZrО2 as a ZrCoin
+intangible asset (see below), including an option (put option) on the buy-back of
+Synth. ZrО2 in the prescribed period at the agreed price.
+Crypto-economy means the social and economic relations of the digital society,
+which are focused on interaction based on network protocols. Key elements of
+the crypto-economy include: cryptographic tokens (cryptocurrencies), digital
+assets, decentralised social security and crowdfunding systems, decentralised
+management systems, self-executed ‘smart’ contracts, commercial markets for
+computing resources, online trust and reputation systems, consensus algorithms,
+etc.
+Option means a form of derivative, i.e. a sale and purchase contract for the
+underlying asset (ZrCoin in our case), whereunder the option purchaser is entitled
+to purchase the asset at the agreed price within the future period stipulated in
+the contract.
+Initial Coin Offering or ICO means the collection of capital with the help of cryptoinvestments in the initial stage of the Project, including the use of
+cryptocurrencies. Hereafter this term is referred to as the ICO.
+Clean Country means a flagship national project approved by the Presidential
+Council on Strategic Development and Priority Projects, to be implemented by the
+
+Government of the Russian Federation in the coming years (2017-2025). The
+purpose of the Project is to reduce environmental damage from solid domestic
+waste disposal, minimise environmental risks in respect of accumulated
+environmental damage, and establish an interactive information system, which
+will ensure identification and liquidation of unauthorised disposal tips according
+to information provided by citizens and public organizations. Estimated (total)
+budget of the Project is RUR 150-200 billion, including RUR 30 billion of extrabudgetary funds [3].
+
+Introduction – Project overview
+The ongoing transition to the new technological lifestyle implies and requires
+investment into the development of its constituent technologies and
+modernisation of manufacturing, as well as the reorganisation of the centralised
+economy.
+Further development will be characterised by a combination of these two
+processes – that is, breaking the structures of the technological status quo and
+building the structures of the new economy. Meanwhile, existing businesses and
+financial institutions will either have to adapt to the demands of the new
+technological lifestyle or become obsolete.
+These events are typical for both economical and social processes. Against the
+background of negative sentiment, many investors are shifting towards cryptoinvestment as an alternative field of wealth growth and preservation. For our
+purposes, these refer to the projects with fast payback, moderate risk, and the
+availability of professional experience and support.
+The global economy has a substantial demand for zirconium dioxide with greater
+than 66% purity, owing to its unique physical and chemical properties. These are
+required for manufacturing processes that require a high degree of durability and
+stability. This is typical for such major industries as metallurgy, glass and ceramics,
+and so on.
+Zirconium dioxide (lat. Zirconium) has the chemical formula ZrO2 and is a
+refractory material. It also features high plasticity and corrosion resistant
+properties (Claproth, 1789; Berzelius, 1829; van Arkel and de Boer, 1925 and
+others).
+Zirconium is a structural component of alloys used in the construction of atomic
+reactors. Critical elements of chemical reactors, artificial joints and prostheses are
+made of Zirconium. It is used to produce high-temperature ceramics (refractory
+products) and is the refractory material with the best price-quality relationship
+rating.
+
+Refractories are used in a wide range of different areas of global industry, from
+metallurgy to the nuclear industry, typically requiring the retention of physicochemical properties when heated above 1600°C. Zirconium-containing
+refractories are the most resistant to high-temperature impacts and can sustain
+heating above 2000°C. The standard base of zirconium-containing refractories is
+sand with a zirconium dioxide content exceeding 65%. This is extracted from the
+earth, like any other natural raw material, has a rich content of alkaline-earth
+metals and requires a great deal of expensive processing before it can be used in
+refractory materials.
+
+Introduction – Green Manufacture and Economy
+The salient feature of the green manufacturing process utilised by the Project’s
+founders is that it does not require the extraction of existing or new deposits of
+zirconium. Instead, the process uses otherwise unmarketable products and
+wastes.
+Manufacturing technologies of the 21st century are developing rapidly and raw
+materials’ quality should develop hand-in-hand with these. However,
+manufacturers of zirconium-containing raw materials all over the world have not
+made any significant technological progress for the last 20 years. This has led to
+hypersaturation of the market with low-quality zirconium dioxide of natural
+origin, predominantly from South Africa and Australia. This has to pass through
+many purification stages to reach the standards required by modern high-quality
+manufacturing.
+Synthetic concentrate of zirconium dioxide. The global market of refractories
+requires ever-higher quality raw materials. For this reason different
+manufacturers of refractory materials have attempted to improve the quality of
+their raw materials, but for the most part have failed due to the technological
+complexity of the process. As a result, only a few companies in the world have
+been able to establish the manufacture of synthetic refractory materials and only
+two companies have been successful in the creation of synthetic concentrates of
+zirconium dioxide for highly-specialised manufacturing processes of their partner
+companies.
+The global market of refractories therefore suffers from a huge deficit in synthetic
+concentrate of widely-used zirconium dioxide, while there is more than enough
+‘simple’ zirconium dioxide with 65-66% purity on the market. Unlike synthetic
+zirconium dioxide the demand for zirconium dioxide of natural origins is falling,
+while the demand for synthetic zirconium concentrates is tenfold higher than
+available supply.
+Unique technology. Our researchers have been searching for ways to extract
+widely-used synthetic zirconium dioxide for more than three years. After
+extensive research they have developed a technology that allows the synthesis of
+zirconium dioxide concentrate, in which zircon and brazilite are entirely stable
+
+and are not susceptible to phase transitions (increasing the chemical stability of
+the generated products by 2.5-3 times), and with corundum Al2O3 present, which
+increases the concentrate’s stability.
+Synthetic concentrate of zirconium dioxide produced using our technology is a
+unique product, which does not require the addition of any further chemical
+components and allows for it to be used in refractory materials right away.
+More than 10 of the largest enterprises using refractory materials in their
+manufacturing processes have already appreciated the uniqueness and quality of
+this synthetic concentrate of zirconium dioxide.
+
+Project Summary
+Commercial Aspects of the Project
+The Project offers crowdfunded investments in the ZrCoin derivative (see
+definition above), which is implemented as a financial instrument on the Waves
+[2] blockchain platform and is backed by the industrial commodity (Synth. ZrО2).
+A general overview of the ZrCoin Project is shown in Picture 1.
+
+Picture 1. Overview of ZrCoin Project
+The three main stages of the Project include ICO, Manufacture and Buy-Back. The
+timeline of the Project (Picture 1) in stages is as follows:
+1. “ICO”
+May– June, 2017
+Holding an ICO to purchase ZrCoin options with the use of USD, BTC and other
+cryptocurrencies.
+During the initial days of the ICO there will be a ‘sale’ of options at 50% discount from
+the current (basic) market price of synthetic concentrate of zirconium dioxide. The
+option price will increase steadily. Note: additional information will be shown in the
+investor’s profile on the Project’s website [1].
+
+The investment budget to construct a factory and launch the manufacturing
+process for Synth. ZrO2 will use the funds collected during the ICO.
+2. “Manufacture”
+July – August, 2017: Purchase of real estate in the industrial area of
+Magnitogorsk, Russia [4].
+September, 2017– February, 2018: Construction of facility and production of
+industrial equipment for the factory.
+February, 2018: Installation and testing of industrial equipment, and launch of
+new manufacturing process.
+February, 2018: First sales and shipments of market-ready product (Synth. ZrО2).
+3. “Buy-Back”
+March, 2018
+Buy-back of ZrCoin options will be made eight months after the end of the ICO in
+an amount equal to not less than $400,000 per month. Investors will be also
+entitled to exchange ZrCoin for the relevant physical amount of concentrate of
+synthetic zirconium dioxide (underlying asset) calculated on the basis of 1 ZrCoin
+= 1 kilogram of the concentrate.
+Investors will additionally be able to trade ZrCoin options for the Company’s
+stock, if the Company is eligible for IPO.
+Main targets of crowd investment in ZrCoin commodity option:
+For investors – to purchase an option with 5.5% yield (estimated average future
+income per month). The purchased ZrCoin derivative will be backed by the
+physical commodity, and is ‘protected’ by the value of this asset of high demand
+in case of currency fluctuations.
+For the community – to form an ecologically sound manufacturing process (socalled ‘green manufacture’); to develop the use of a new financial instrument and
+decentralise financing of manufacturing, which the world has never seen before.
+Key performance indicators for construction of the factory for the ZrCoin project
+are shown in Table 1:
+
+Table 1
+Performance indicators of ZrCoin Project
+Indicator description
+Investment outlay (RUR thousand)*
+Net present value (RUR thousand)
+Internal rate of return
+
+Value
+223,950.00
+2,029,000.00
+213%
+
+Investment profitability index
+Payback period (by DDP) from the beginning of construction
+
+9.75
+12 months
+
+Payback period (by DP) from the beginning of construction
+
+11 months
+
+* See the Project’s business plan for more detailed investment outlay [5].
+
+As seen from the Table 1 all performance indicators comply with the approved
+norms and the methods used.1
+We aim to make the ZrCoin Project financially effective and viable for
+implementation, according to the selected investment strategy and applied
+technology. The following may be considered overall advantages of the
+investment project:
+1. Investment attractiveness of ZrCoin Project is high, as the information in
+Table 1 explains.
+2. The cornerstone business proposition for investment into the ZrCoin
+Project rests on an innovative manufacturing process for Synth. ZrО2
+refractories, utilising zirconium scrap and channeling profits from
+investments into the futures token of the same name.
+3. High environmental standards of the ZrCoin Project and green
+manufacturing processes, where wastes from glass factories, silicone
+cotton factories and dumps are used as raw materials. Implementation of
+the project will allow for significant reduction of accumulated
+environmental damage and carbon dioxide emissions (CО2).
+
+1
+The
+
+1)
+
+2)
+
+following methodological documents were used to prepare a business plan:
+Guidelines to assess effectiveness of investment projects (second edition, revised and amended)
+(approved by the Ministry of Economics, Ministry of Finance and State Committee for Construction,
+Architectural and Housing Policy of the Russian Federation No. ВК-477 dated June 21, 1999) [6].
+UNIDO methods (United Nations Industrial Development Organization) [7].
+
+Brief description of manufacturing process
+Scrap and zirconium-containing wastes from different glass-making enterprises
+are the raw materials for the factory.
+The investment project under review entails the construction of two installations:
+First cycle – RUR 74,000,000 (seventy-four million). Dimensions: length – 24m,
+width – 18m, height – 18m (hangar-style sandwich structure metal construction)
+and acceptance area: length – 24m, width – 18m and height – 18m (hangar metal
+construction). The equipment will be installed according to our custom design.
+The equipment will be purchased from Ural-Omega, CJSC (ЗАО)
+(www.uralomega.ru).
+Second cycle – RUR 45,500,000 (forty-five million five hundred thousand).
+Dimensions: length – 48m, width – 24m, height – 18m (hangar-style sandwich
+structure metal construction). The equipment will be installed according to our
+custom design. The equipment will be purchased from SIBMASHPOLYMER Trade
+and Manufacturing Company, LLC (OOO) (www.sibmashpolymer.ru).
+We intend to build the factory in the industrial area of Magnitogorsk (Agapovskiy
+District), Russia [4], where a plot of land with the capacity and communications
+appropriate for the Project has already been selected. The estimated purchase
+price of the land plot is RUR 40,000,000 (forty million).
+Implementation phases of factory building process
+A Cyprus-based holding company will loan funds equal to the amount of
+investment in ZrCoin options to a Russian legal entity, which will consequently
+implement all construction phases of the factory. The subsequent steps of factory
+construction process can be divided into the three principal stages described
+above.
+Online broadcasting of the factory construction process with the use of video
+cameras will be arranged for investors, to maintain openness and transparency at
+all phases of construction. The cameras will be in place around the construction
+site and afterwards in the factory area itself.
+
+Pricing Strategy
+The main product of the factory is zirconium concentrate (powder) containing
+synthetic ZrО2 of not less than 66% purity, plus Hf 2.5-3%, the aggregate of earth
+metals within the limit of 1.5% and synthetic Slag-Forming Mixture (SFM).
+Dry enrichment methods and separation of metals are used in the manufacturing
+process, which include selective grinding methods, dry magnetic and gravity
+separation. The factory’s products will be suitable for the manufacture of
+refractory materials in the foundry and chemical industry, and in metallurgy.
+The price of the products of the projected factory for production of materials
+from zirconium-containing wastes will be defined according to the price of its
+foreign analogues, since such materials made from wastes are not produced in
+Russia. The essence of the method for price calculation is that the manufacturer
+defines the current price of the imported commodity minus 20%, which allows for
+a competitive price. Afterwards, he compares the price obtained by calculation to
+the price of the closest analogue.
+The results of the calculation of minimum price thresholds for the main products
+of the factory are detailed in Table 2. As mentioned above, the closest foreignmanufactured material was taken as an analogue.
+Table 2
+Price thresholds for main products
+Item No.
+
+Product Description
+
+1
+2
+
+Zirconium concentrate
+SFM
+
+Price, RUR/ton
+165,000
+45,000
+
+Zircon Refractories Market
+Zircon-class refractories (zircon, brazilite and brazilite-corundum refractories,
+owing to their high refractoriness and corrosion resistance to metal and mineral
+melts), refer to materials of high demand in metallurgy and glass manufacturing.
+Modern glass-manufacturing technologies cannot exist without brazilitecorundum refractories, and the manufacture of these materials has been
+launched in the last decade in Belgium, Australia, India and China.
+
+Companies such as SEPR Group, Imerys, RHI, Zhongheng, Saint-Gobain and others
+produce a wide range of zircon refractories for metallurgy and glass
+manufacturing. ‘Borovichskiy Refractories Plant’ JSC and ‘Dinur’ JSC produce a
+small amount of zircon refractories in Russia.
+As there is a lack of domestic zirconium-containing raw materials (zircon and
+zirconium dioxide), brazilite-corundum refractories for glass manufacturing
+enterprises are chiefly imported from abroad.
+Russia’s domestic manufacture covers only 8-10% of the demand in zirconiumcontaining raw materials. Kovdorskiy GOK (Ore Mining and Processing Plant) is
+the only enterprise in Russia to produce zirconium raw materials (brazilite
+powder), with production output of 5-6 tons per year.
+The majority of this amount is exported to Norway, Japan and other countries.
+Zirconium concentrate, which is one of the scarcest mineral raw materials, is not
+produced in Russia, but is imported from Ukraine and Australia. Russia, ranked 3rd
+in zirconium reserves, does not have a single industrially developed operation for
+manufacture of zirconium products. Titanium and zirconium deposits can be
+developed integrally only with mandatory production of ilmenite (rutile) and
+zirconium concentrates, as the industry has a confirmed demand for them. As
+titanium and zirconium constitute strategic natural resources, it is crucial to
+develop their raw materials base for Russia’s self-reliance.
+Russia has known resources of titanium and zirconium alluvial deposits, which in
+case of exploration could meet zirconium raw materials domestic demand for
+decades. These include Tuganskoye Deposit (Tomsk Region), Lukoyanovskoye
+Deposit (Nizhniy Novgorod Region), Tarskoye Deposit (Omsk Region),
+Tsentralonoye Deposit (Tambov Region) and Beshpagirskoye Deposit (Stavropol
+Territory).
+Because of constant rotation of owners, lack of funds and government failures in
+the implementation of targeted programs, the aforementioned deposits have
+remain industrially non-developed for decades. Given the high costs, first of all
+based on comparison of economic indices of development of these deposits, it is
+necessary to find the most viable one to arrange industrial manufacture of
+zirconium concentrate and zirconium dioxide. The issue of the creation of
+
+titanium and zirconium raw materials base in Russia has a national character, as it
+touches upon the economic security of the country as far as provision of
+zirconium-containing raw materials to various industries is concerned.
+Recycling of zirconium-containing industrial wastes with the help of our
+technology is an alternative to global exploration of deposits in Russia, and
+application of our technology will help to resolve the problem of the deficit in
+zirconium-containing raw materials in the most economical, effective and – most
+importantly – fastest way when compared to the development of explored
+deposits.
+
+ZrCoin Project Income
+Current income related to daily operation of the factory are specified in Table 3.
+Table 3
+Estimated production incomes from sale of
+synthetic zirconium concentrate and SFM
+Item No. Index description
+1
+
+Production volume of synthetic zirconium concentrate (tons)
+Average cost of 1 ton (RUR)
+
+2
+
+Production volume of SFM (tons)
+Average cost of 1 ton (RUR)
+Total monthly income (RUR)
+
+Value
+400
+165,000
+100
+46,000
+70,600,000
+
+Note: 1 month is taken as a reference period for calculations.
+
+The estimated monthly yield of the factory’s operation should be RUR 70.6
+million.
+
+Project Summary
+Environmental Aspects of the Project
+The Project details the application of green technology in the manufacturing
+process, which will allow for the reduction of direct environmental damage, and
+reduction of environmental risks from the results of accumulated environmental
+damage.
+The key distinctive feature of the green manufacturing process to be employed is
+the use of various industrial wastes instead of the raw materials used by current
+manufacturers of zirconium dioxide. This recycling model can be extended to
+other locations of heavy industry in Russia and abroad.
+The technology is easily scaled and can be deployed in any country within 18
+months. Investors will be offered to trade ZrCoin options for the Company’s stock
+upon drawing audited financial statements for the first reporting period and IPO.
+The ZrCoin project, assuming successful implementation, will have a positive
+effect on solving issues related to quality of life, the environment and industrial
+waste recycling.
+
+Project Summary
+Project Team
+The ZrCoin Project team comprises innovative developers, chemists,
+technologists, expert scientists, managers, and economists with experience in
+industry and finance.
+Project managers have practical experience in the field of R&D, in such
+organisations as Eastern Institute of Refractories, Institute of Geology and
+Geochemistry of Ural Branch of Russian Academy of Sciences, Metallurgy
+Laboratory of Mining Institute (Yekaterinburg), Ural State Mining and
+Technological Academy, ‘MISiS’ National University of Science and Technology,
+and others. They have publications, scientific articles, certificates of authorship
+and patents in their relevant specialisms, in refractory, metallurgy and chemical
+industry, geological engineering and materials science.
+Members of the team have been engaged as research advisers in various
+geological survey units of Russia, including the 50th Anniversary of USSR Navorskiy
+Mountain and Metallurgy Plant, Kachkonarskiy Ore Mining and Processing Plant,
+Directorate No. 5 of All-Russia Research and Development Institute of Chemical
+Technology.
+Members of the team have business contacts with the largest metallurgy and
+refractory enterprises in Russia, including the Magnitogorsk Metallurgy Plant,
+‘Ogneupor’ Company, ‘Magnesit’ Group, SpetsOgneuporComplekt, Pervouralskiy
+Silica Plant (Dinur), Klyuchevskaya Enrichment Plant, Buruktalskiy Nickel Plant,
+Lukoil, and Tobolk-Neftekhim.
+Our experts have experience of cooperation with industrial, construction, design
+and manufacturing companies to attract financing from banking, private and
+foreign organizations, and experience of foreign economic activity in the export of
+metal-containing materials (for instance, to Canada, England and Germany).
+
+Conclusion
+Investors’ participation in the Project entails purchase of the ZrCoin derivative,
+which is implemented as a financial instrument on the Waves blockchain platform
+[2]. ZrCoin in turn is backed by an industrial commodity, namely synthetic
+zirconium dioxide or Synth. ZrО2.
+ZrCoin options will be sold at ICO (during stage 1 of the Project in March – April,
+2017) and can be bought for USD, bitcoins and other cryptocurrencies.
+During the initial days of the sale the option will be offered to potential investors
+at a 50% discount from the Zr asset’s cost basis (dynamics are shown in picture 2,
+above). The option price will increase steadily in the days to follow.
+More detailed information on the terms of investment into the ZrCoin option will
+be shown in the profile on the Project’s website [1] and will be available upon
+registration as a potential investor.
+The described manufacturing technique for Synth. ZrО2 is a striking example of a
+rational approach to raw materials. Wastes from existing manufacturing
+processes are given a ‘new life’, transforming them into high-quality raw
+materials for recycling. Moreover, before the recycling process these wastes were
+the products of enriched natural mineral raw materials, which endured chemical
+and high-temperature impacts in the course of their use. This resulted in the
+synthesis of minerals, destruction of chemical bonds and formation of new ones.
+After recycling with the use of this new technology, the zirconium concentrate is
+no longer a natural material but is transformed into the synthetic product.
+This has an overwhelming advantage over its natural analogue. Refractories and
+anti-adhesion coatings made from synthetic zirconium concentrate have longer
+service life periods. Also noteworthy are the words of D.I. Mendeleev, spoken
+more than a hundred years ago, that one of the ways to make manufacturing
+better is to make it wasteless!
+That is why the described technology exemplifies the harmony of industry and
+nature. Few companies on the planet can boast that industrial development
+causes no harm to the environment. Besides, the technologies of industrial and
+comprehensive recycling of wastes allow for the resolution of anthropogenic
+
+harm to the planet. It does not matter where manufacturing is located, whether
+in Russia or Germany, the Czech Republic or USA. The technology will work in any
+country and on any continent. The reason for this is that the final products, socalled ‘manufacturing tails’ (thanks to our technology the word ‘wastes’ are no
+longer apt), become materials of high demand both for the refractory industry
+and for tertiary metallurgy: the metallurgy of the future!
+We have set the ball rolling. Our Project is moving steadily towards generating a
+profit whilst concurrently solving a number of environmental issues by the
+comprehensive recycling of industrial products. The described technology is not
+the only one invented by our team. Holding two ‘golden keys’ in our hands (this is
+how we describe our approach), we can open doors to the future of a green
+planet, economy and industry, with solutions to many of the current issues
+hidden behind those doors.
+We are enthusiastic and optimistic about our slogan: ‘We will turn your waste
+into money’.
+
+References
+[1] ZrCoin.io (Project’s website, web presentation)
+[2] https://wavesplatform.com/
+[3] http://government.ru/dep_news/25785/
+[4] https://en.wikipedia.org/wiki/Magnitogorsk (reference to the site plan
+(photos on the Project’s website))
+[5] http://www.consultant.ru/document/cons_doc_LAW_28224/
+[6] http://www.unido.org/fileadmin/import/45322_Vol._I_Ebook.pdf;
+http://resourcefinder.ids.ac.uk/Record/72920
+*****
+
+

@@ -1,0 +1,1019 @@
+DCORP
+DECENTRALIZED CORPORATION
+DCORP is an entity that resembles a corporation and exists on the blockchain in the form of a series of
+smart contracts. It manages its own token (DRP) and the Ether (ETH) that it holds.
+While the DRP token is used to give a voice to the shareholders, the Ether is used to fund projects and
+attract talent, in order to make profit.
+
+INTRODUCTION
+
+DCORP
+
+This introduction briefly describes what DCORP is and what its goals are
+
+Decentralized, profit-driven
+corporation.
+
+Decentralized
+A decentralized corporation, as opposed to a traditional corporation,
+allows anyone to participate without any form of discrimination.
+Every part of the corporation is transparent and may be reviewed by
+anyone at any time. There is no downtime and the corporation is not
+susceptible to hacks or (DDOS) attacks.
+Profit-driven
+The motive is clear: making profit autonomously. Where there is profit,
+projects don’t get abandoned.
+Talent
+Talented developers and managers (B of D) receive periodic bonuses in
+Ether (ETH).
+Democratic
+Ultimately, the power lies with the shareholders: through voting on
+proposals and the votes of elected board members.
+Board of Directors
+The elected Board of Directors (B of D) is able to make most
+governance decisions on behalf of the shareholders.
+
+Funds projects that grow
+the corporation and ETH.
+
+Recognizes and binds talent
+by paying for it.
+
+Puts proven business
+concepts on the
+blockchain.
+
+Makes it easy for nondevelopers to participate.
+
+Is the bridge between
+developers and the
+business world.
+
+Board members are compensated for the tasks they perform and are
+rewarded when their decisions lead to profit.
+Non-developers
+Participating is as easy as using Facebook. Participants use a simple
+web interface that requires no knowledge of smart contracts,
+command line tools, bytecode or JSON interfaces.
+
+Lead developer
+frank@dcorp.it
+
+Projects
+Funded projects are, like DCORP itself, decentralized and must exist on
+the blockchain.
+
+Marketing
+hansco@dcorp.it
+Connect
+www.dcorp.it
+reddit.com/dcorp
+
+1
+
+The source code of funded projects is committed to repositories
+accessible to the shareholders for review at any time. On launch, by the
+DCORP contract, its beneficiary address is set to the DCORP address.
+Profits are monitored and dividends paid.
+
+INDEX
+Summary
+Decentralized
+Ethereum
+Microsoft
+
+Corporation
+Core business
+Shareholders
+Board of Directors (B of D)
+Talent
+Voting
+Board of Directors vote
+Shareholder vote
+
+Proposals
+Eliminate spam
+Governance proposals (B of D)
+Governance proposals (shareholders)
+Funding proposals
+Bytecode proposals
+
+Seed project
+Derivatives exchange
+Request deployment
+Request deployment crowd
+Offer deployment
+Offer deployment crowd
+Trading
+Units of account (ERC20)
+Multi-token derivatives
+Options
+Futures
+Futures with ascending stakes
+Ethereum Bitcoin (ĘBitcoin)
+Ethereum Euro (Ęuro)
+Support
+Profit
+Continuation and commitment
+
+Token
+Acquisition
+Crowd sale
+Minimum for success
+Issuing
+Core team incentive
+Integrity and safety
+
+ETH
+Fund
+Dividend
+Rewards
+
+Platform
+Ease of use
+Design
+Audit
+
+Roadmap
+Funding breakdown
+Team
+Disclaimer
+
+2
+
+SUMMARY
+DCORP is an entity that resembles a corporation and exists on the blockchain in the form of a series of smart
+contracts. It manages its own token (DRP) and the Ether that it holds.
+While the DRP token is used to give a voice to the shareholders, the Ether is used to fund projects and attract
+talent, in order to make profit.
+
+DECENTRALIZED
+A decentralized (peer-to-peer) corporation, opposed to a traditional corporation, allows anyone to participate
+without any form of discrimination. There is little or no reliance on third parties such as banks or finance
+providers, which reduces overhead costs and improves reliability.
+Every part of the corporation is transparent and may be reviewed by anyone at any time. There is no downtime
+and the corporation is not susceptible for hacks or (DDOS) attacks.
+
+ETHEREUM
+DCORP exists on the (Ethereum) blockchain in the form of a series of smart contracts. The source code of the
+smart contracts is public and may be reviewed by anyone.
+Smart-contracts are immutable and will always execute as they were meant to. This allows for trustless
+interaction with the corporation.
+The Truffle framework will be used for the development and intensive testing of DCORP components. Like many
+other Ethereum developers, the DCORP team has come to love Truffle!
+Why Ethereum? It is a seasoned technology that is actively developed, widely used and has a market
+capitalization of $ 4.5 billion USD at the time of writing. Moreover, we love Ethereum!
+
+MICROSOFT
+While DCORP itself operates on Ethereum, its user-friendly interface and website are hosted on Microsoft’s
+Azure platform and are developed with Microsoft’s latest ASP Core technology.
+Why Microsoft? The development team members are experienced .NET developers; it is widely used, easy to
+understand and has proven to be reliable. Moreover, we love .NET!
+
+3
+
+CORPORATION
+DCORP is a profit driven corporation that autonomously generates growth and a steady stream of income for its
+shareholders.
+While blockchain technology is still in development, business concepts are matured and proven. DCORP brings
+business and programming talent together in a trustless environment that allows them to do what they do best.
+Developers profit from their efforts while investors gain security and a chance to invest in new technology
+following business rules that make sense.
+
+CORE BUSINESS
+DCORP’s core business is funding and managing the development of other Ethereum projects and operating
+them autonomously.
+Each product is owned by DCORP (DCORP’s smart contract) and its address is the benefactor address. Profit is
+automatically sent to the corporation and divided between the developer(s), manager(s) and shareholders as
+agreed. Such agreements are recorded in a smart contract and therefore immutable and guaranteed to execute
+without delay.
+Please see the section Seed projects for the initial projects to which the DCORP developers are committed.
+
+SHAREHOLDERS
+The shareholders are the collective owners of DCORP. Anyone who owns one or more DCORP tokens is
+considered a shareholder (see also the section Shareholders and token acquisition).
+Ultimately, the power lies with the shareholders through voting (see also the section Voting).
+
+BOARD OF DIRECTORS
+The board of directors (B of D) is a group of seven elected individuals who represent the shareholders by making
+governance decision through a voting process (see also governance proposals B of D) and performing
+management tasks.
+Unlike shareholders, elected members of the B of D cannot choose to stay anonymous. Also, members of the B
+of D are expected to vote each time a B of D vote is called. A record of each B of D member’s voting behavior is
+stored in the blockchain and thus made public.
+In addition to making governance decisions on behalf of the shareholders, and in contrast with a traditional B of
+D, members perform management tasks. Management tasks do not require a voting round and may be
+performed by one board member. Management tasks include:
+
+4
+
+-
+
+Managing a fund (see also Funding proposals and funds).
+Performing tasks outside of the blockchain environment, such as forum or website maintenance.
+
+B of D members are compensated in ETH. When management efforts of a B of D member result in profit, the
+managing member is also entitled to a share of that profit, for as long as the individual holds the position of B of
+D member. These agreements are recorded in the contract of a fund and are approved by the shareholders.
+Members of the B of D can be replaced by the shareholders through a voting process. A majority vote of the B of
+D can temporarily put a B of D member in a non-active state as a safety measure. While the non-active state is in
+force, the B of D member in question cannot perform management tasks. Also, the voting power of the nonactive B of D member is temporarily forwarded to the founder.
+
+FOUNDER
+The founder (Frank Bonnet, see also the section Team) has an important but modest role (besides being lead
+developer).
+The founder can perform the same actions as a member of the B of D. The vote of the founder carries twice the
+weight of a B of D member’s vote, so that the total voting weight of the B of D becomes nine.
+In the unfortunate case when a member of the B of D is unable to vote due to an enforced non-active state, the
+voting weight of that member is forwarded to the founder until the member of the B of D is replaced or the nonactive state is lifted.
+During the pre-sale period, and until the ownership of the token contract is transferred to the DCORP contract,
+the founder manages the token contract through the crowdsale contract with limited power (see also Token
+integrity and safety).
+The founder is not elected.
+
+TALENT
+Funded project developers, managers, members of the B of D, the core team and the founder are talented
+participants who ensure the growth and profit generation of the corporation.
+Talented participants are the most valued resources of the corporation. They are retained by a competitive
+compensation for their efforts and continuous bonuses when these efforts lead to profit.
+Compensation, ideally in the form of periodic payments during project development, is needed to make it
+possible for participants to work on DCORP projects continuously. This increases the completion ratio of funded
+projects and protects against projects being abandoned.
+Continuous bonuses, on success, work as an incentive for participants in order to get the best out of them while
+‘playing fair’.
+
+5
+
+Agreements are recorded on the blockchain in a fund contract approved by the shareholders. Fund contracts are
+immutable and are executed automatically.
+Where there is profit, projects are not abandoned.
+
+VOTING
+DCORP is a democratic autonomous decentralized organization. Decisions are made by means of a voting
+process and the power ultimately lies with the shareholders.
+There are two entities within the corporation that are able to vote: the shareholders and the B of D.
+Due to the decentralized and transparent nature of DCORP, there is no room for corruption. Votes are recorded
+on the blockchain and the weight of each vote is calculated at the time of the proposal’s deadline.
+
+BOARD OF DIRECTORS’ VOTE
+The B of D can vote about a limited set of proposals that do not require a time consuming voting round among
+the shareholders (see also the section Proposals (B of D)).
+Members of the B of D use the contract’s interface (ABI) to vote through Mist. B of D members are expected to
+vote on each appropriate proposal. Their votes are registered and public through the blockchain.
+Four fifths (4/5) of the fees collected from appropriate proposals are distributed to the members of the B of D
+and the founder equally, so that each receives a tenth (1/10). The remaining one fifth (1/5) is added to DCORP’s
+balance.
+When a member of the B of D or the founder neglects to vote before the end of a proposal’s deadline or is in a
+non-active state, the fee will be added to DCORP’s balance instead.
+This strategy is an incentive to vote about governance proposals within the acceptable timeframe while
+compensating participants.
+
+SHAREHOLDER VOTE
+The shareholders can vote on every possible proposal that is deemed necessary (also see the section Proposals
+(shareholders)).
+Shareholders use a straightforward web interface that is hosted on dcorp.it, which facilitates voting. Interacting
+with DCORP should be as easy as interacting with Facebook. Moreover, easy-to-follow instructions will be
+published on dcorp.it.
+
+6
+
+While the recommended way of interacting with DCORP is through navigating to dcorp.it in Mist, participants
+can just as easily use their favorite browser.
+Half (1/2) of the fees collected from appropriate proposals is distributed to the members of the B of D and the
+founder equally, so that each receives a sixteenth (1/16). The remaining half (1/2) is added to DCORP’s balance.
+When a member of the B of D is in a non-active state, the fee will be added to DCORP’s balance instead.
+This strategy helps to compensate members of the B of D and the founder for performing management and
+maintenance tasks. It also is an incentive for long-term commitment and active participation.
+
+PROPOSALS
+Anyone can submit governance and funding proposals. Governance proposals are divided into two groups:
+proposals that can be approved by the Board of Directors and proposals that need to be approved by the
+shareholders. Funding proposals always need approval from the shareholders.
+
+ELIMINATE SPAM
+To eliminate spam and reducing the number of voting rounds, submitting a proposal is a payed service (except
+for board members). This strategy encourages participants to write better proposals and gauge support in favor
+of their proposal before submitting a proposal. The fee for submitting a proposal can be changed by submitting
+a ‘shareholders governance proposal’. On the launch, the fees are as listed below:
+Governance proposal (B of D):
+Governance proposal (shareholders):
+Funding proposal:
+
+0.1 ETH
+5.0 ETH
+1.0 ETH
+
+The fee for submitting a proposal must be positive (>0).
+
+7
+
+GOVERNANCE PROPOSALS (B OF D)
+To allow swift decision-making, governance proposals with low impact, may be approved by a Board of
+Directors’ vote. When submitting a proposal that satisfies the criteria of ‘governance proposal (B of D)’, the
+submitter is free to submit the proposal that requires the shareholders to vote.
+Governance proposals that can be approved by the Board of Directors include:
+▪
+▪
+▪
+▪
+▪
+
+Canceling funds
+Replacing fund managers
+Freezing accounts
+Deploying contracts (in order to develop funded projects)
+Managing deployed contracts
+
+GOVERNANCE PROPOSALS (SHAREHOLDERS)
+Governance proposals that change business rules, have a large impact on shareholders or cannot be voted on by
+board members because their interests could conflict, must be approved by a shareholders’ vote.
+Governance proposals that need shareholder approval include:
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+
+Payment of dividend
+Issuing new shares
+Electing board members
+Removing board members
+Adjusting voting rules
+Adjusting funding rules
+Adjusting fees (for submitting a proposal)
+Adjusting bonuses
+Changing compensations
+Managing deployed contracts
+Approving a proposal that was declined by the Board of Directors (any proposal that can be approved by
+the Board of Directors can also be approved by the shareholders)
+
+FUNDING PROPOSALS
+Funding starts with the submission of a ‘funding proposal’, ideally after gaining sufficient support for the
+proposal to be approved.
+After submitting a funding proposal, shareholders can cast their votes during a seven-day period. When the
+voting period has ended, the proposal is approved if the majority of the casted votes were in favor of the
+proposal, otherwise the proposal is rejected. In the former case, ETH will be deposited into the approved fund
+and the fund contract will be deployed after a safety period of seven days.
+
+8
+
+The length of the voting period and safety period can be adjusted with a shareholders governance proposal.
+The funding proposal contains a payment schedule that describes on which dates, or at which milestones a
+certain amount of ETH should be paid out. Please see the section ETH funding for a detailed description of the
+fund contract.
+A funding proposal contains at least the following:
+▪
+▪
+▪
+▪
+▪
+
+Payable fee in ETH
+Details about the submitter(s)
+Brief description
+ID linking the proposal to a DCORP discussion
+Payment schedule
+
+BYTECODE PROPOSALS
+An exception will be made for a proposal to execute generic bytecode. Such a proposal needs to be approved by
+the Board of Directors first. Shareholders can then vote on the proposal’s execution.
+
+SEED PROJECT
+The core team (see also section Team) is committed to the development of the seed projects as described
+below. The decentralized derivative exchange project contract is owned by DCORP and hosted on
+decentralized.it. The ultimate power lies with the DCORP shareholders.
+Derivatives allow investors and speculators to participate in the turbulent cryptocurrency markets with the
+financial tools they know and trust. The ability to enter into trustless derivative contracts enables protection
+(hedging) against or exposure to (speculation with) substantial price fluctuations.
+Derivatives are a common phenomenon and according to The Economist the total derivatives market amounted
+to approximately $700 trillion (€500 trillion) in 2011, and the size of the market traded on exchanges totaled an
+additional $83 trillion (€59.29 trillion).
+Below follows a brief description of the derivatives exchange. The project’s white paper will be published on
+DCORP’s forum for review by and input from its shareholders.
+
+DERIVATIVES EXCHANGE
+The derivatives exchange exists on the Ethereum blockchain in the form of a series of smart contracts and allows
+participants to anonymously enter into a trustless option or future contract.
+Participants use the user-friendly interface, hosted on dcorp.it to interact with the exchange. A new derivative
+contract can be deployed quickly by the buying or supplying party.
+
+9
+
+The exchange is decentralized, operates autonomous and its
+source is public so that anyone can review it at any time.
+Participants can safely send funds to a derivative contract
+because the contract is trusted as much as the Ethereum
+network is trusted.
+Derivative contracts are trustless and execute according to the
+immutable rules programmed into them. This means that the
+seller and buyer(s) do not need to know or trust each other and
+that there is no need for market makers, banks or other third
+parties.
+
+REQUEST DEPLOYMENT
+A derivative contract (including premium), deployed by the asking party, represents a request that can be
+funded by any participant anonymously and safely. Once funded, the premium (minus a fee for DCORP) is
+released to the supplying party. The asking party gains the execution right and the right to trade the derivative if
+and when appropriate (see also section Trading).
+Before the contract is funded, the asking party has the option to cancel the request and recover the premium
+(reduced by the fee for the exchange).
+
+REQUEST DEPLOYMENT CROWD
+The situation as described above outlines the situation in which the needs of the asking party are met by a single
+participant (suppling party). To match the needs of the asking party better, the requestor can choose to allow
+multiple participants to (crowd) fund the derivative contract. Each funding participant then receives a share of
+the premium, proportionate to the amount of the request that was funded by the participant.
+Depending on the type of derivative, the asking party can or cannot cancel the contract after the request has
+been partially funded. For requests that cannot be canceled, such as a futures request, the asking party can only
+cancel the unfunded part of the derivative and recover the part of the premium proportional to the canceled
+part of the derivative (reduced by the fee for the exchange).
+
+OFFER DEPLOYMENT
+A funded derivative contract (excluding premium), deployed by the supplying party, represents an offer.
+Someone (buying party) who transfers an amount equal to the asked premium into the derivative gains the
+execution right and the right to trade the derivative if and when appropriate (see also section Trading).
+
+10
+
+Before the derivative contract execution rights are bought, the supplying party has the option to cancel the
+request and recover the deposited funds (reduced by the fee for the exchange).
+
+OFFER DEPLOYMENT CROWD
+The situation as described above outlines the situation in which the offer of the supplying party must be bought
+by a single participant (buying party). To match the needs of the asking party better, the offeror can choose to
+allow multiple participants (crowd) to participate in the derivative contract. Each buying participant then pays a
+share of the premium, proportionate to the amount of the offer for which the participant gains execution rights.
+The supplying party can or cannot cancel the contract after the offer has been partially sold. The supplying party
+can only cancel the unsold part of the derivative and recover the part of the funds proportionate to the unsold
+part of the premium.
+
+TRADING
+Depending on the type of contract, existing derivative contracts can be freely traded. An appropriate derivative
+may be offered for sale by its beneficiary. The beneficiary enters a price and updates the contract via the userfriendly interface. As soon as a buyer transfers an amount equal to the price into the contract, the execution
+rights will be transferred to the buyer.
+
+UNITS OF ACCOUNT (ERC20)
+Initially, the exchange supports ETH and selected ERC20 tokens available on the Ethereum blockchain (including
+DRP). ERC20 compatible tokens can be added to or removed from the exchange by DCORP.
+Premiums and transaction fees are payable in ETH. In the case where the token, of which the derivative derives
+its value, is not ETH, the buyer needs to make at least two transactions in order to buy the derivative. In such a
+case the buyer must pay the premium and then transfer the appropriate token within n time. The derivative will
+be deferred until the time of the first payment plus n time. If the buyer fails to transfer the appropriate token
+within n time, the premium will be returned to the buyer and the buyer forfeits the transaction fee.
+At a later stage, DCORP will release the ERC20 compatible Ethereum Bitcoin (ĘBitcoin) and Ethereum Euro
+(Ęuro) tokens to further facilitate trustless buyers commitment (see sections Ethereum Bitcoin (ĘBitcoin) and
+Ethereum Euro (Ęuro)).
+
+MULTI-TOKEN DERIVATIVES
+Optionally, a derivative offer can accept multiple tokens in order to lower risk by spreading.
+
+11
+
+An example of a multi-token derivative is the offer of an option contract to buy n ETH for either i GNT or j REP.
+The buying party must at least transfer either i GNT or j REP into the derivative contract to gain the right of
+
+execution, within the appropriate timeframe. On execution, the buyer can choose to execute the option with
+either i GNT or j REP. Any unused tokens will be transferred back to the owner.
+
+OPTIONS
+Option contracts come in two types: call and put.
+Option contracts can be used to hedge one party’s risk and provide the other party with a possible financial gain
+through speculation.
+A call option contract gives the owner(s) the option to buy the underlying asset within a predetermined
+timeframe for a predetermined price.
+A put option contract gives the owner the option to sell the underlying asset within a predetermined timeframe
+for a predetermined price.
+Due to the trustless nature of the contract, the underlying asset or funds and the premium (including any
+transaction fees) must be deposited into the contract in order to make the contract binding.
+
+FUTURES
+With a futures contract, the buyer(s) commit(s) to buying the underlying asset on a predetermined date for a
+predetermined price and the selling party commits to selling the underlying asset on the agreed date for the
+agreed price.
+The initiator (buyer or seller) can choose to pay the premium or ask for a premium.
+Due to the trustless nature of the contract, the initiating party deposits between 10% and 100% of the
+underlying asset or price, appropriate to the contract. The deposited percentage is matched by the other
+party(s) to make the contract binding. Before expiry of the predetermined date on which the transfer of assets
+takes place, participants should have deposited 100% of the asset or price into the contract.
+If only one of the parties has deposited 100%, the other party loses the deposit and any premium to the party
+who deposited 100%.
+If neither party has deposited 100%, the lowest deposited percentage is considered as the full deposit and the
+contract executes with the new percentage instead. In the case where one party has deposited a higher
+percentage than the percentage with which the contract is executed, the redundant asset or funds are returned
+to the original owner.
+
+FUTURES WITH ASCENDING STAKES
+
+12
+
+In the semi-anonymous Ethereum environment, a promise not backed by value has little worth due to the
+inability to enforce an agreement.
+
+When entering into a futures contract that requires a 10% deposit at the date of entry, it is currently impossible
+to ensure that all participants will deposit the remaining 90% on the predetermined future date. This results in
+effectively limiting the gains or losses in respect of the value of the deposited 10% of the defaulting party.
+Requiring both parties to deposit 100% at the date of entry also creates an undesirable situation where the
+leverage of speculating parties is reduced to the actual value owned.
+An additional undesired effect of both situations described above is that the futures contract always runs until
+the predetermined end date, even though one of the parties might have decided in an early stage not to comply
+with its obligation to deposit the remaining 90%.
+To solve these problems, futures contracts can require that the stakes increase as the deadline approaches.
+Continuing with the example described above, the duration of the contract is divided into terms. Before the end
+of each term, parties must have increased their deposits to the appropriate percentage.
+In the case where one of the parties defaults on increasing its deposit, the contract is executed and the
+defaulting party’s deposit is forfeited to the other party before the predetermined end date. This results in a
+relationship between contract duration and the maximum gains or losses while minimizing the impact on
+leverage positions.
+To simplify, consider the following linear example:
+s
+i
+t
+n
+
+= current stake
+= initial deposit
+= terms
+= current term
+
+s = i + (((100 - i) / t) * n)
+Variations to the linear example can be added to the contract and can be selected by the initiating party when
+deploying a futures contract.
+
+ETHEREUM BITCOIN (ĘBITCOIN)
+At a later stage, dcorp.it will release the ERC20 compatible Ethereum Bitcoin (ĘBitcoin) token to further facilitate
+trustless buyers’ commitment. The ĘBitcoin allows derivatives, that exist on the Ethereum network, to safely
+derive their value from the Bitcoin.
+The ĘBitcoin token’s value is linked to that of the Bitcoin. dcorp.it achieves this by always trading one ĘBitcoin
+token for approximately one Bitcoin (a transaction fee of approximately 2% will be charged).
+The ĘBitcoin token’s value is partly dependent on its interface with traditional entities and does not enjoy the
+full independence as tokens that do not require such an interface.
+
+13
+
+ETHEREUM EURO (ĘURO)
+At a later stage, dcorp.it will release the ERC20 compatible Ethereum Euro (Ęuro) token to further facilitate
+trustless buyers’ commitment and lower the risks of price fluctuation.
+The Ęuro token’s value is linked to that of the Euro. dcorp.it achieves this by always trading one Ęuro token for
+approximately one Euro (a transaction fee of approximately 2% will be charged).
+Deposited Euro’s will be held on a third party bank account (derdenrekening / escrow) in the Netherlands.
+Under Dutch law a third party bank account is managed by a notary.
+“Notaries and bailiffs are legally obliged to hold a third party account”
+The Ęuro token’s value is partly dependent on its interface with traditional entities and does not enjoy the full
+independence as tokens that do not require such an interface.
+
+SUPPORT
+Although the derivatives exchange operates autonomously, it will be actively supported by DCORP’s B of D
+members and the core team. Active support will, among other things and in contrast to other incentives,
+increase trust and thus usage.
+Support tasks include:
+-
+
+Providing help through e-mail and message channels
+Providing and updating documentation
+Maintaining token ecosystem
+
+PROFIT
+Initially, transaction fees are equal to 10% of paid premiums. The percentage may be modified by the contract
+owner. The owner of the derivatives exchange is DCORP and such a change may be made by submitting a
+bytecode proposal that must be approved by the B of D and the shareholders.
+100% of the derivatives exchange’s profit, generated by the automatic and autonomous collection of fees, will
+be transferred automatically and autonomously to DCORP.
+DCORP distributes one-third (1/3) of the received profit between its board members and the founder, the
+remaining two thirds (2/3) are added to DCORP’s balance.
+
+CONTINUATION AND COMMITMENT
+Long-term continuous commitment is ensured by allocating a percentage of the contract’s capital to the funding
+of the core team (see also the section Funding breakdown).
+
+14
+
+Additionally, long-term participation is ensured by the distribution of collected fees between the B of D and the
+founder.
+
+TOKEN
+The DRP token is a crucial part of the corporation as it allows participation in the voting process and entitles to
+possible dividend. Ownership of the token may be transferred. The token complies with the ERC20 token
+standard.
+The token is not mined or pre-mined and there is no initial balance that belongs to the founder if unsold. The
+token’s value is sufficiently guaranteed by ETH remaining in the contract under the control of the token holders.
+The larger percentage of ETH, acquired through the pre-sale, remains in the token creation contract and is
+undoubtedly transferred to DCORP’s contract when deployed, with approval of the token holders. The
+remaining ETH is used to fund DCORP and the seed project (see also the section Funding breakdown).
+
+ACQUISITION
+During the pre-sale phase, tokens can be acquired exclusively through the creation contract (see also the section
+Pre-sale).
+Directly after the token contract ownership has been transferred to DCORP (see also the section Integrity and
+safety), the token can be transferred and traded freely on the open market, for example through exchanges.
+The shareholders can collectively choose to issue new tokens by means of an approved bytecode proposal (see
+also the section Issuing)
+
+15
+
+CROWD SALE
+During the crowd sale period, DRP tokens can be acquired by transferring ETH into the creation contract (i.e.
+sending ETH to the address that will be published on dcorp.it along with clear instructions).
+Additionally clear instructions are provided to facilitate the use of BTC (Bitcoin) to buy DRP tokens.
+The crowd sale period will last for 29 days.
+
+DCORP CROWDSALE
+Tokens
+700
+650
+600
+
+Tokens per ETH
+
+550
+500
+
+475
+425
+
+400
+
+400
+
+300
+200
+100
+0
+Tokens
+
+Angel day
+
+1st week
+
+650
+
+550
+
+2nd week
+
+3rd week
+
+Last week
+
+475
+
+425
+
+400
+
+Crowdsale periods
+
+Participants can acquire DRP tokens in the first 24 hours, ‘Angel day’, of the crowd sale at a rate of 650 DRP / 1
+ETH. After ‘Angel day’ the rate decreases following the graph above.
+During the pre-sale period and until the transfer of the ownership of the token contract to DRP, tokens cannot
+be transferred (traded). Tokens can be traded directly after ownership of the token contract is transferred to
+DCORP.
+
+MINIMUM FOR SUCCESS
+The crowd sale is partially considered a success if at least a bare minimum amount of ETH, equal to €724,000
+was raised. In this case, DCORP is considered funded and viable.
+The seed project (derivatives exchange) is considered funded if at least the bare minimum additional amount of
+ETH, equal to €500,000 has been raised.
+If the situation occurs in which the bare minimum amount of ETH to fund DCORP is not raised, all funds are
+refunded automatically as set out in the token creation contract.
+
+16
+
+Note that the refund procedure requires a call to the contract from the address used to deposit the funds. The
+(minimal) gas costs are not refunded.
+
+ISSUING
+The shareholders can collectively choose to issue new tokens by means of an approved bytecode proposal (see
+also the section Bytecode proposals).
+New tokens, that are issued at least a year after the pre-sale period ends, can be acquired by sending ETH to
+DCORP’s contract while the supply lasts.
+The issue of new tokens can be used to inject new capital (ETH) into the corporation, for example to accelerate
+growth. Because the issue of new tokens could reduce the value of the token, the ultimate decision to do so lies
+with the token holders (who collectively benefit the most from a high value).
+
+CORE TEAM INCENTIVE
+To ensure long-term commitment, members of the core team receive a percentage over the total DRP token
+amount in circulation. The tokens for the core team are created by the token contract so that the total amount
+of tokens increases.
+The incentive is distributed in three periods, initialized at the moment when the ownership of the token contract
+is transferred to DCORP, by means of a shareholders’ vote (see also the section Integrity and safety). The first
+distribution takes place one year after the deployment of DCORP. Each following distribution occurs a year after
+the last distribution, so that the total incentive is distributed four years after deployment.
+The first incentive to be distributed to the core team members, one year after deployment, amounts to 10% of
+the tokens in circulation. The second incentive, two years after deployment, amounts to 5% of the tokens in
+circulation. The last incentive, three years after deployment, amounts to 2.5% of the tokens in circulation.
+
+INTEGRITY AND SAFETY
+In order to guarantee that the ETH that was raised to be deposited into DCORP to fund the projects specified by
+the shareholders, is actually deposited, the following strategy is applied.
+Initially the founder manages the token contract through the creation contract with limited power. The
+limitation of power is guaranteed by transferring ownership of the token contract to the creation contract.
+The creation contract exposes the transfer ownership proposal function. The transfer ownership proposal
+function can only be executed by the founder, as long as the founder is the owner of the creation contract and
+not before the pre-sale phase has ended.
+When the owner executes the ‘transfer ownership proposal’ function, while providing an address as parameter,
+a proposal is created on which the shareholders can vote. The proposal has a deadline of seven days after the
+creation date, in which time the shareholders can review the proposal.
+
+17
+
+If approved, the ‘transfer ownership proposal’ will initiate the following:
+-
+
+The mechanism that releases the incentive for the core team (as described in the section Core team
+incentive) is enabled.
+Ownership of the token contract is transferred to DCORP’s address (the address supplied as a parameter
+by the founder).
+The ETH, which the token contract still holds, is deposited into DCORP.
+
+In the event that the ‘transfer ownership proposal’ is rejected, the procedure can be repeated until a proposal is
+accepted.
+
+ETH
+DCORP holds and manages ETH on behalf of its shareholders. During the initial crowd sale phase, the ETH is held
+by the DCORP token contract. Simultaneously with the token contract’s transfer of ownership, the ETH will be
+transferred to the DCORP corporation contract.
+DCORP uses ETH to fund projects, pay out dividend to shareholders, compensate participants for their efforts
+and distribute bonuses.
+
+FUND
+ETH, used for the funding of a project, is deposited into a fund contract. The fund contract contains, among
+other things, the schedule and corresponding conditions regarding payouts and one or more fund managers.
+The fund manager(s) decide(s) if the conditions that correspond to a specific payout are met and is/are able to
+release the payout.
+A fund contract contains at least:
+-
+
+A corresponding proposal
+The amount of ETH as specified in the corresponding proposal
+The payout schedule and corresponding conditions
+The fund managers (addresses)
+
+DIVIDEND
+Ultimately, it is up to the shareholders what happens with the ETH that is held by DCORP.
+Due to autonomous growth and development, deposits of ETH continue to flow back to DCORP. By means of a
+governance proposal, shareholders can vote to distribute (part of) the returns to the shareholders. Dividend is
+paid in proportion to the number of tokens that each shareholder owns.
+A proposal to pay out dividend must contain the percentage of the returns that will be paid out and a deadline
+for claiming the dividend.
+
+18
+
+On execution of the proposal, the amount of ETH to be paid out as dividend is allocated and each address that
+holds a DCORP balance will be updated with an ‘unclaimed dividend’ amount. In the time between proposal
+execution and the predetermined deadline for claiming dividend, each token holder is required to execute a
+function in order to claim a share of the dividend.
+When the claiming period ends, any remaining ETH (unclaimed dividend) is returned to DCORP and each
+address’ ‘unclaimed dividend’ amount is reset to zero.
+
+REWARDS
+Developers and managers may receive periodic rewards payable in ETH when their work and decisions result in
+profit generation.
+Reward payout agreements for the developer are immutable and recorded in the deployed project. A manager
+is required to be a member of the B of D and reward agreements are valid as long as the participant is a B of D
+member. In the case where a manager loses the position of B of D member, the rewards are forfeited to DCORP
+until the participant manages to reclaim the position of B of D member.
+
+PLATFORM
+The DCORP platform consists of a web-based front end and a smart contract back end.
+The front end is a modern web interface that can be used by navigating to dcorp.it in Mist or Chrome (or any
+other browser, but simple instructions are provided for Mist and Chrome). The familiar Bootstrap framework is
+used to construct the front end in order to ensure a recognizable design. ASP Core in combination with
+Microsoft’s Azure platform is used to ensure speed, scalability, reliability and extensive logging.
+The back end consists of DCORP’s smart contracts. The front end communicates with the back end using web3
+Javascript API.
+Users of the platform are not required to log in or supply personal data. An active connection to the Ethereum
+network is needed to view statistics, the forum, funds and proposals. An Ether address is required to participate
+(i.e. write to DCORP’s contract) using the app.
+
+EASE OF USE
+The focus is on user-friendliness so that everybody can participate. The app is as easy to use as Facebook for
+example.
+Team members have participated in multiple usability training sessions and have produced applications that
+where successfully submitted for review by usability experts at eBay’s daughter company Marktplaats.
+The app requires an active connection to the Ethereum network. Easy to follow steps, accompanied by step by
+step screenshots, will be published using Mist or Chrome in combination with Metamask.
+
+19
+
+DESIGN
+A straightforward design using familiar elements of Bootstrap.
+
+REVIEW
+The smart contracts that make up the back end of DCORP are reviewed before being deployed by the
+shareholders. Due to the nature of Ethereum the code is opensource.
+
+20
+
+ROADMAP
+The following roadmap is the most accurate we can provide at the moment.
+
+May
+2017
+
+June
+2017
+
+July
+2017
+
+September
+2017
+
+October
+2017
+
+December
+2017
+
+March
+2018
+
+April
+2018
+
+June
+2018
+
+•Pre-sale announcement
+•Release of white paper
+
+•Start of crowd sale
+
+•End of crowd sale
+
+•DCORP contracts sourcecode release for review by participants
+
+•DCORP contracts deployment by means of a shareholders' vote
+•DCORP token can now be transfered and traded
+•ASP Forum release to discuss proposals
+•UI release to easily participate (submit proposals, vote, transfer DCORP tokens)
+
+•Derivatives exchange contracts sourcecode release for review by participants
+
+•Derivatives exchange contracts deployment
+
+•Derivatives exchange UI release
+
+21
+
+FUNDING BREAKDOWN
+The following model is based on the scenario where the minimum funding goal is reached. An updated
+breakdown can be released after the ending of the pre-sale phase.
+The funds raised with the crowd sale are partially used to cover the costs involved in the development and
+marketing of DCORP and the derivatives exchange. However, the shareholders balance (51% of the ETH raised
+with the crowd sale) remains in the token contract.
+
+Breakdown in percentages
+Bounty fund
+3%
+
+IT infrastructure and
+security
+2%
+
+General and
+administrative
+6%
+Marketing
+4%
+
+Shareholder balance
+(used to fund projects)
+51%
+
+Legal
+3%
+
+Development (including
+UI)
+22%
+
+Software licences
+2%
+Reserves
+7%
+IT infrastructure and security
+
+General and administrative
+
+Marketing
+
+Legal
+
+Development (including UI)
+
+Software licences
+
+Reserves
+
+Shareholder balance (used to fund projects)
+
+Bounty fund
+
+22
+
+TEAM
+Meet the team! Click on the name of a team member to connect. We are happy to answer questions (in English
+or Dutch) and help is welcome too!
+
+FRANK BONNET
+Founder and lead developer at DCORP. Frank Bonnet has nine years of experience designing, building and
+maintaining countless enterprise .NET applications. Co-founder, developer and owner of ‘DS Verzekeringen’, an
+insurance company in the Netherlands and many other web-based projects.
+Ether enthusiast, investor in both mining and trading. Experience with developing contracts in Solidity using
+Truffle and Mocha. Has a business view and a developer’s mind.
+0x3cAf983aCCccc2551195e0809B7824DA6FDe4EC8
+
+ARLIW NEATPROM
+Web designer and software engineer with experience in visual computing and Matlab. Responsible for the frontend development of the UI’s.
+Studied computer science at Khon Kaen University until she graduated in 2016. Arliw Neatprom’s creativity,
+experience with web design and determination are an inspiration for the rest of the team.
+0x5becE8B6Cb3fB8FAC39a09671a9c32872ACBF267
+
+HANSCO LEEK
+Stockbroker, entrepreneur, investor and co-owner / founder at Autodealers (a successful Automotive IT
+company) among others. Early Bitcoin adopter and investor, currently investing in Ether among others.
+At the age of 17, Hansco Leek started trading stocks and soon found himself successfully speculating by trading
+options and futures on the trading floor in Amsterdam. Realizing the potential of the upcoming internet
+business, he invested the money he gained through speculating in internet startups.
+After 23 years of experience, Hansco Leek believes in DCORP and its decentralized derivatives exchange. By
+bringing management and trading expertise, he makes the team stronger and his early investment helps to
+realize the project.
+0x59251e45aF3cd7b80879495Cf565B525Ba233e48
+
+23
+
+CORBEN LEEK
+Software engineer and network architect with 17 years of experience in .NET, Windows, Linux and VMware.
+Corben Leek has developed enterprise applications for the financial giants ASR and Krooimans and among
+others.
+Long time entrepreneur and co-founder / owner at Autodealers, blue7.nl, autowereld.nl, Slimverzekeren,
+DealerServices among others.
+Corben Leek’s extensive experience with developing financial enterprise applications in combination with being
+an early cryptocurrency adopter make him a valuable asset to the team.
+0x6c31de34b5df94f681afef9757ec3ed1594f7d9e
+
+MARC VAN BROEKHOVEN
+Energetic and versatile business technologist with broad > 20yrs experience in Communications and IT
+industries. Change Agent. Delivered countless innovative projects and services across Business (Sales, CRM,
+Billing and Collections) and Technology (Upgrades, Integrations, re-Platforming) with companies like IBM,
+Huawei, Vodafone, KPN, T-Mobile and Mendix. Proficiency engaging with customers and working with
+management teams across cultures. Marc is a strong believer and adopter of Ethereum as a disruptive
+technology facilitating differentiating business and operating models in an increasingly flat and interconnected
+world.
+Marc’s strengths and satisfaction are helping customers successfully adopt these disruptive technologies to
+(re)gain agility and competitive edge.
+0x603CB6937486BA55D47523fAF1e807Aa4c38113A
+
+PAUL STOOP
+Paul Stoop has over 10 years’ experience as a change & program manager within the financial services. He has
+directed several large-scale programs. Now he is responsible for the digital transformation for a listed Dutch
+financial service provider.
+The rapid developments in the fintech sector and the opportunities of the decentralized organizations
+strengthen each other in order to raise the established order in financial services. With his extensive knowledge
+of software development, financial services and digitization, Paul wants to give a boost to this new world as
+partner of the DCORP team.
+0x658811F170bB9FaFFAc969e45dF773564D3dfE7D
+
+24
+
+WILLIAM RICE
+William Rice is a seasoned executive in the Technology industry offering over 20 years of experience in Digital
+Technology, Telecommunications and Media in both multinational corporate environments as well as with startups. He is a creative and content-focused leader with the capabilities to inspire and to drive innovative concepts
+towards value.
+In recent years, William has focused on developing, marketing and selling solutions in areas like:
+- Digital Media
+- Media cloud services (e.g. transport, transcoding, workflow, storage)
+- Broadcasting, OTT TV and Online Video
+- Social business solutions (e.g. social network analysis, social media analytics)
+- Big Data, Analytics & Customer Insights
+- Blockchain for business applications
+- AI & Automation.
+William hold a Master’s Degree in Psychology. From this background he continually observes how consumer
+behavior is changing, and determines the upcoming challenges and opportunities for technology industry.
+0xdaacdf978db571fe2165101eb20f1d1e106bde83
+
+MAARTEN JANSEN
+Maarten attended law school at the university of Leiden where he obtained his master’s degree in Dutch law in
+2000. Maarten has seventeen years’ experience as a lawyer. His practice focuses on corporate, financial and
+bankruptcy law, incorporations, restructurings, securities, asset and share transactions, business purchases and
+sales and a wide variety of contract drafting. Maarten is also regularly appointed by the court as a trustee in
+bankruptcies.
+0x41012a90659e245A045FF5DBd416DAAEED0919Be
+
+RUUD DE KLEIJN
+Ruud de Kleijn studied physics (for a short while) and ultimately completed business law cum laude. His first
+position was as a management consultant, working for several companies and government institutions. After a
+few years he switched to his other passion: the law. These days he specializes in financial law (securities and
+derivatives) and intellectual property law. Because of his combination of a technical background and experience
+in management of companies, Ruud is often asked to counsel start-ups and scale-ups with innovative ideas.
+
+25
+
+

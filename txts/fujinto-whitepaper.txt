@@ -1,0 +1,506 @@
+Fujinto Whitepaper
+
+http://fujinto.io
+
+TALBE OF CONTENTS
+1. Introdution……………………………………………………………………………………………...3
+1.1.
+
+Tourism………………………………………………………………………………………….3
+
+1.2.
+
+Problem……………………………………………………………………………………….…4
+
+1.3.
+
+Solution………………………………………………………………………………………….5
+
+2. Vision………….……………………………..……………………………………………………………..6
+3. FUJINTO………….……………………………..………………………………………………………....7
+3.1.
+
+FUJINTO Acounts………………..…………………………………………..………….....7
+
+3.2.
+
+Message and Transactions…………..……………………………………………....8
+
+4. ICO…………..……………………………………………………………………………………………..…10
+4.1.
+
+Token distribution ………………………………………………..…………………......11
+
+4.2.
+
+ICO parameters ………………………………………………………..………….…....…11
+
+4.3.
+
+Uses of funds raised…………….……………..…………………….……………….....12
+
+5. Roadmap…………………………….…………….…………………………………………………......12
+
+2
+
+Fujinto Whitepaper
+
+http://fujinto.io
+
+1.
+
+INTRODUCTION
+
+In the past few years, the world tourism has much conditions to grow strong; the world is changing
+with scientific and technological leaps; The world economy continues to grow; The people's life is
+constantly improved .In this context, the demand for travel of the people is objective and fast
+growing demand. The development of information technology has changed the way people interact
+and share information, especially the impact of social networking and internet applications, mobile
+phones increasingly popular.
+
+1.1 - TOURISM
+By Myhospiworld, here are the brief numbers that show the importance and role of the Tourism
+Industry in the rest of the world, as well as the "bottom line" for sustainable development. And
+certainly of the potential economic sector remains "latent".
+Tourism Industry in 2016
+- Accounts for 9% of global GDP
+- In 11 people, has 1 person works in Tourism industry
+- 1.3 trillion $ in exports
+- 6% of the world export
+- From 25 million international tourists in 1950
+- increased to 1,035 million visitors in 2012
+- And 2016 the number of international visitors is 1,235 billion.
+- 1.8 billion international visitors until 2030.
+The crux of a sustainable development
+•
+A large number of new tourism destinations are being formed and receiving investment
+from investors around the world, making Tourism a key factor of the socio-economic development
+process.
+•
+Over the past six decades, the tourism industry has experienced and continues to grow,
+expand and become more diverse than ever, gradually becoming one of the fastest growing
+economic factors in the world. Many new destinations are being formed at the same time as
+continents, which have long been the cradle of world tourism, such as Europe or North America.
+
+3
+
+Fujinto Whitepaper
+
+http://fujinto.io
+
+•
+Despite the crises is going on, international tourists have shown an unstoppable
+development, with 25 million in 1950, 278 million in 1980, 528 million in 1995, and 1.035 million in
+2012
+According to general perception of the World Tourism Organization (UNWTO), in the future, tourism
+continues to grow on a global scale. The number of international visitors is forecasted to reach 1.8
+billion by 2030.
+By 2030, tourist go with purpose of visits, health and religion will account for 31% of the total
+number of international tourists; For the purpose of sightseeing, relaxation, recreation,
+entertainment accounted for 54%; And for the purpose of job and occupation accounted 15%.
+The development of information technology has changed the way people interact and share
+information of tourist, especially the impact of social networking and internet applications, mobile
+phones increasingly popular.
+The experience of countries which has development tourism industry shows that when internet
+users are increasing, advertising using online payment tools is a channel that the tourism industry
+can not ignore.
+According to statistics, the collection of major travel companies around the world, more than 99% of
+people online before the selection of tours.
+According to a Neilson report, global online travel sales in 2016 reached 565 billion $, up 13.8%. AsiaPacific and America-Latin are the two markets which contribute for this impressive growth. Even,
+Neilson forecast that in 2017, Asia-Pacific will first time surpass North America, becoming the world's
+largest online travel market.
+
+1.2 - PROBLEM
+With the development of social media, online applications, travelers can now easy to search and
+book their own hotels, motels and flight online rather than booking via service agencies.
+However, there is a difficulty in paying method with the service provider, especially with
+international travel. Below is a description of the payment process when booking through the
+website or online payment application
+
+Customer
+
+MONEY
+Y
+
+The bank or
+intermediary
+payment
+4
+
+MONEY
+Y
+
+Service
+Provider units
+
+Fujinto Whitepaper
+
+http://fujinto.io
+
+The money that visitors use for booking must go through a provider of intermediary payment
+services (Banks, Paypal, Neteller, VISA ..) and then reach the service provider. This process leads to
+- Long waiting duration
+- Foreign currency exchange (when traveling internationally)
+- High Fees
+- No privacy (all your transactions may be tracked)
+- Security risk. Your privacy and money rely on the payment service provider.
+
+1.3 SOLUTION
+FUJINTO is created to make the paying process in the website, online booking application easier and
+reduce the risk for the users.
+The FUJINTO token is a decentralized cryptocurrency based on the Ethereum blockchain platform
+and is not controlled by any central authorities.
+NTO is the symbol of FUJINTO token, like JPY or USD.
+NTO was created to be a cryptocurrency to pay for hotel or travel ticket reservations. NTO is the
+open source cryptocurrency, using advanced blockchain technology. With NTO your money will be
+stored in your personal digital wallet, strictly confidential and absolutely private. At the transaction,
+money from the sending account will come directly to the recipient, not through any intermediaries.
+Here is the description when you use the payment with NTO
+
+Customer
+
+Service
+Provider units
+
+NTO
+Y
+
+Using NTO makes payments much faster and more convenient
+- Transaction is confirmed and completed almost immediately.
+- Fees are much lower
+- Privacy (no one can track your transactions or personal information)
+- Proactive and less risky with blockchain technology.
+
+5
+
+Fujinto Whitepaper
+
+http://fujinto.io
+
+2.
+
+VISION
+
+NTO is created with the purpose of providing an alternative payment method for transportation and
+accommodation booking websites. By using NTO, the booking process would be simplified and
+more efficient for both providers and consumers. Furthermore, one does not need to pay a huge
+amount for transaction or change of currency fee because of using international transfer system. In
+addition, NTO is secured payment solution with minimal transaction fee and the amount will be
+transferred to user’s account within milliseconds.
+FUJINTO Team has many years of experience in building and developing online payment solution
+which is the foundation of introducing FUJINTO service.
+Firstly, FUJINTO will be linked with accommodation and transportation websites which allows NTO to
+be used as one of the secured payment methods other than cash.
+A number of potential partners that are
+-
+
+-
+
+Rome2rio.com, Goeuro.com, Skyscanner, Momondo, Seat61.com, Rail Europe, Beurope.com, Loco2.com, Captaintrain.com, Busradar.com, Eurolines, Megabus, Student
+Agency Bus, IC Bus, greyhound.com, amtrak.com, kayak.com, Traveloka.com
+( transportations)
+Airbnb.com, Only-apartments.com, Booking.com, Hotelscombined.com, Expedia.com,
+Agoda.com (accommodation booking)
+TripAdvisor, Foursquare (tourism services)
+
+Secondly, introducing FUJINTO application that quicken accomdation and transportation booking
+services with NTO currcency and it applied Blockchain technology which helps the FUJINTO to be
+more secured and safe for users.
+
+3.
+
+FUJINTO
+
+The intent of FUJINTO is to create an alternative protocol for building decentralized applications,
+providing a different set of tradeoffs that we believe will be very useful for a large class of
+decentralized applications, with particular emphasis on situations where rapid development time,
+security for small and rarely used applications, and the ability of different applications to very
+efficiently interact, are important. FUJINTO does this by building what is essentially the ultimate
+
+6
+
+Fujinto Whitepaper
+
+http://fujinto.io
+
+abstract foundational layer: a blockchain with a built-in Turing-complete programming language,
+allowing anyone to write smart contracts and decentralized applications where they can create their
+own arbitrary rules for ownership, transaction formats and state transition functions. A bare-bones
+version of Namecoin can be written in two lines of code, and other protocols like currencies and
+reputation systems can be built in under twenty. Smart contracts, cryptographic "boxes" that
+contain value and only unlock it if certain conditions are met, can also be built on top of the
+platform, with vastly more power than that offered by Bitcoin scripting because of the added powers
+of Turing-completeness, value-awareness, blockchain-awareness and state.
+
+3.1 NTO Accounts
+In NTO, the state is made up of objects called "accounts", with each account having a 20-byte
+address and state transitions being direct transfers of value and information between accounts. An
+FUJINTO account contains four fields:
+•
+
+The nonce, a counter used to make sure each transaction can only be processed once
+
+•
+
+The account's current NTO balance
+
+•
+
+The account's contract code, if present
+
+•
+
+The account's storage (empty by default)
+
+Ether is the main internal crypto-fuel of FUJINTO, and is used to pay transaction fees. In general,
+there are two types of accounts: externally owned accounts, controlled by private keys,
+and contract accounts, controlled by their contract code. An externally owned account has no
+code, and one can send messages from an externally owned account by creating and signing a
+transaction. In a contract account, every time the contract account receives a message its code
+activates, allowing it to read and write to internal storage and send other messages or create
+contracts in turn.
+Note that "contracts" in NTO should not be seen as something that should be "fulfilled" or "complied
+with"; rather, they are more like "autonomous agents" that live inside of the NTO execution
+environment, always executing a specific piece of code when "poked" by a message or transaction,
+and having direct control over their own NTO balance and their own key/value store to keep track of
+persistent variables.
+
+3.2
+
+Messages and Transactions
+
+The term "transaction" is used in NTO to refer to the signed data package that stores a message to
+be sent from an externally owned account. Transactions contain:
+•
+
+the recipient of the message;
+
+•
+
+a signature identifying the sender;
+
+•
+
+the amount of NTO to transfer from the sender to the recipient;
+
+7
+
+Fujinto Whitepaper
+
+•
+•
+•
+
+http://fujinto.io
+
+an optional data field;
+a STARTGAS value, representing the maximum number of computational steps the
+transaction execution is allowed to take; and
+a GASPRICE value, representing the fee the sender pays per computational step.
+
+The first three are standard fields expected in any cryptocurrency. The data field has no function by
+default, but the virtual machine has an opcode with which a contract can access the data. As an
+example use case, if a contract is functioning as an on-blockchain domain registration service, then it
+may wish to interpret the data being passed to it as containing two "fields", the first field being a
+domain to register and the second field being the IP address to register it to. The contract would
+read these values from the message data and appropriately place them in storage.
+The STARTGAS and GASPRICE fields are crucial for NTO's anti-denial-of-service model.[17] In order to
+prevent accidental or hostile infinite loops or other computational wastage in code, each transaction
+is required to set a limit to how many computational steps of code execution it can use. The
+fundamental unit of computation is "gas"; usually, a computational step costs 1 gas, but some
+operations cost higher amounts of gas because they are more computationally expensive, or
+increase the amount of data that must be stored as part of the state. There is also a fee of 5 gas for
+every byte in the transaction data. The intent of the fee system is to require an attacker to pay
+proportionately for every resource that they consume, including computation, bandwidth and
+storage; hence, any transaction that leads to the network consuming a greater amount of any of
+these resources must have a gas fee roughly proportional to the increment.
+
+Messages
+Contracts have the ability to send "messages" to other contracts. Messages are virtual objects that
+are never serialized and exist only in the FUJINTO execution environment. A message contains:
+•
+
+the sender of the message (implicit);
+
+•
+
+the recipient of the message;
+
+•
+
+the amount of FUJINTO to transfer alongside the message;
+
+•
+•
+
+an optional data field; and
+a STARTGAS value.
+
+Essentially, a message is like a transaction, except it is produced by a contract and not an external
+actor. A message is produced when a contract currently executing code executes the CALLopcode,
+which produces and executes a message. Like a transaction, a message leads to the recipient
+account running its code. Thus, contracts can have relationships with other contracts in exactly the
+same way that external actors can.
+Note that the gas allowance assigned by a transaction or contract applies to the total gas consumed
+by that transaction and all sub-executions. For example, if an external actor A sends a transaction to
+B with 1,000 gas; B consumes 600 gas before sending a message to C; and the internal execution of
+C consumes 300 gas before returning; then B can spend another 100 gas before running out of gas.
+NTO State Transition Function
+
+8
+
+Fujinto Whitepaper
+
+http://fujinto.io
+
+The NTO state transition function, APPLY(S,TX) -> S' can be defined as follows:
+1. Check if the transaction is well-formed (ie. has the right number of values), the signature is
+valid, and the nonce matches the nonce in the sender's account. If not, return an error.
+2. Calculate the transaction fee as STARTGAS * GASPRICE, and determine the sending address
+from the signature. Subtract the fee from the sender's account balance and increment the
+sender's nonce. If there is not enough balance to spend, return an error.
+3. Initialize GAS = STARTGAS, and take off a certain quantity of gas per byte to pay for the bytes
+in the transaction.
+4. Transfer the transaction value from the sender's account to the receiving account. If the
+receiving account does not yet exist, create it. If the receiving account is a contract, run the
+contract's code either to completion or until the execution runs out of gas.
+5. If the value transfer failed because the sender did not have enough money, or the code
+execution ran out of gas, revert all state changes except the payment of the fees, and add
+the fees to the miner's account.
+6. Otherwise, refund the fees for all remaining gas to the sender, and send the fees paid for
+gas consumed to the miner.
+For example, suppose that the contract's code is:
+if !self.storage[calldataload(0)]:
+self.storage[calldataload(0)] = calldataload(32)
+Note that in reality the contract code is written in the low-level EVM code; this example is written in
+Serpent, one of our high-level languages, for clarity, and can be compiled down to EVM code.
+Suppose that the contract's storage starts off empty, and a transaction is sent with 10 FUJINTO
+
+9
+
+Fujinto Whitepaper
+
+http://fujinto.io
+
+value, 2000 gas, 0.001 ether gasprice, and 64 bytes of data, with bytes 0-31 representing the
+number 2and bytes 32-63 representing the string CHARLIE.[Note 4]
+If there was no contract at the receiving end of the transaction, then the total transaction fee would
+simply be equal to the provided GASPRICE multiplied by the length of the transaction in bytes, and
+the data sent alongside the transaction would be irrelevant.
+Note that messages work equivalently to transactions in terms of reverts: if a message execution
+runs out of gas, then that message's execution, and all other executions triggered by that execution,
+revert, but parent executions do not need to revert. This means that it is "safe" for a contract to call
+another contract, as if A calls B with G gas then A's execution is guaranteed to lose at most G gas.
+Finally, note that there is an opcode, CREATE, that creates a contract; its execution mechanics are
+generally similar to CALL, with the exception that the output of the execution determines the code of
+a newly created contract.
+
+4.
+
+ICO
+
+4.1 Token distribution
+-
+
+5% ( 20 million tokens) are reserved for early adopters in pre-ICO
+57.5% ( 230 million tokens) will be available for crowdsale.
+0.5% ( 2 million tokens) are reserved for ICO bonuses.
+30% ( 120 million tokens) will remain in the FUJINTO Foundation until the official exchange is
+launched, the tokens will be used to form a stable market and for further development.
+
+-
+
+7% (28 million tokens) will be distributed among team members
+
+10
+
+Fujinto Whitepaper
+
+http://fujinto.io
+
+4.2 ICO parameters
+ICO Start Date 10 August 2017 12:00 UTC
+ICO End Date 10 September 2017 12:00 UTC
+ICO Tokens Amount 230 000 000 NTOs
+Total Bonus Amount 2 000 000 NTOs
+Token Exchange rate 1 ETH = 4 000 NTOs
+Minimum transaction amount 400 NTOs (0.1 ETH)
+Maximum transaction amount 12 000 000 NTOs (3 000 ETH)
+Total Sale goal 60 000 ETH
+Minimal Sale goal 5 000 ETH
+Currency accepted Only ETH
+
+ICO Bonuses
+-
+
+1st week 15%
+2nd week 10%
+3rd week 5%
+4th week no bonus
+
+4.3 Uses of funds raised
+-
+
+20% will be used for Support Market
+30% will be used for Marketing, SEO, promos
+10% will be used for Admin and Operation
+40% will be used for Development.
+
+FUJINTO tokens distribution is not available to U.S and Hong Kong residents.
+After ICO NTO will be available for purchase in cryptocurrency exchanges.
+
+11
+
+Fujinto Whitepaper
+
+http://fujinto.io
+
+5.
+
+ROADMAP
+
+3rd quarter 2017
+-
+
+Early August: presale period
+Mid August: Initial Coin Offering (ICO) period
+Late August: available for purchase in cryptocurrency exchanges
+Working on FUJINTO and introducing NTO on accommodation websites such as Airbnb.com,
+Only-apartments.com, Booking.com, Hotelscombined.com, Expedia.com, Agoda.com
+
+4th quarter 2017
+-
+
+Working on FUJINTO and introducing NTO on Rome2rio.com,
+Goeuro.com,
+Skyscanner,
+Momondo,
+Seat61.com,
+Rail
+Europe,
+B-europe.com,
+Loco2.com,
+Captaintrain.com, Busradar.com.
+
+1st quarter 2018
+-
+
+Working on FUJINTO and introducing NTO on greyhound.com, amtrak.com, kayak.com,
+Traveloka.com.
+Testing FUJINTO application.
+
+2nd quarter 2018
+-
+
+Working on FUJINTO and introducing NTO on Eurolines, Megabus, Student Agency Bus, IC
+Bus.
+FUJINTO BETA realease.
+
+3rd quarter 2018
+-
+
+Launching FUJINTO application.
+
+12
+
+

@@ -1,0 +1,211 @@
+Terms of Use
+Table of Contents
+
+Terms Of Use
+
+2
+
+Risks
+
+4
+
+Taxation
+
+5
+
+Forward looking statements
+
+6
+
+Disclaimer of Warranties
+
+7
+
+Limitations Waiver of Liability
+
+7
+
+1
+
+Terms Of Use
+Each app portfolio is a profit sharing market hosted on a decentralised exchange.
+The terms of collaboration and exchange are managed by blockchain software, also
+known as Decentralised Applications (DAPPs). Each portfolio’s value is represented in
+digital tokens. These tokens are part of a DAPP.
+SmartCoins and user issued assets are created by a DAPP. The OpenLedger
+(DEX), built on Bitshares, is a larger decentralised autonomous application. These
+various portfolio token reserves are smaller DAPPs that run on the OpenLedger’s DEX.
+Tokens are the conduits into any app portfolio’s profit sharing ecosystem.
+The term permissions refers to the necessary on-ramps to compliancy. Such
+requirements allow participants to interact in an environment where laws can be
+enforced. For example, each portfolio reserve of tokens will maintain a whitelist for each
+portfolio’s respective market. All tokens featured on Apptrade’s app portfolio
+marketplace will adhere to a baseline of requirements necessary to protect customers.
+The type of tokens featured via app portfolios will be standardized to maximize
+security and improve accountability. Apptrade’s goal is to standardize a particular set of
+terms for all app portfolio tokens on ​www.Apptrade.io​ . Apptrade is creating a turnkey
+solution that token sellers and their sponsors can rely on. Having a preset standard
+helps groups create their own supply of tokens through app portfolios without having to
+spend on R&D.
+Supply and demand will guide policy. Apptrade acts as an objective facilitator to
+the flow of resources. The terms of all token creation are set forth in code existing on
+the Bitshares blockchain. Nothing in this explanation of terms or in any other document
+or communication may modify or add any additional obligations or guarantees beyond
+those set forth in a DAPP’s code. Any and all explanatory terms or descriptions are
+merely offered for educational purposes and do not supercede or modify the express
+terms of any DAPP’s code set forth on the Bitshares blockchain; the code controls and
+sets forth all terms of all possible portfolio token creation.
+Important Disclaimer: ​Holding tokens does not represent or constitute an equity
+ownership stake, share, or equivalent in any public or private company, corporation, or
+other entity in any jurisdiction. Tokens are only for use in connection with DAPPs under
+the terms of any DAPP’s code and do not entitle any holder of tokens to any additional
+rights with respect to any other corporation, company, or entity in any jurisdiction.
+2
+
+When you sign up on ​www.Apptrade.io​ you are agreeing that you are taking part
+in the token marketplace under the terms set forth in each DAPP’s code at your own
+risk. If you are entering a token sale for another entity or any third party, such as any
+company you work for, you warrant that you have legal authority to bind that entity to
+these terms as set forth in each token’s contract code.
+By creating tokens through interaction with OpenLedger and Apptrade you
+expressly agree to all of the terms and conditions set forth in their terms. If you do not
+understand or do not agree to those terms, you should not create tokens or participate
+in any app portfolio’s token sale.
+The use and creation of tokens is associated with significant financial risk,
+including using experimental software. This document does not constitute a prospectus
+of any sort. It is not a solicitation for investment and does not pertain in any way to an
+offering of securities in any jurisdiction. The Bitshare’s open sourced software
+documemtation is currently available at ​https://docs.bitshares.org//index.html​.
+By interacting with apptrade.io and creating tokens you:
+● Represent and warrant that you have an understanding of the usage and
+intricacies of cryptographic tokens, and other blockchain-based software
+systems.
+● Represent and warrant that you waive your right to participate in a class action
+lawsuit or a classwide arbitration against any entity involved with the creation of
+app portfolios and tokens.
+● Represent and warrant that you take sole responsibility for any restrictions and
+risks associated with the creation of tokens as set forth below.
+● Represent and warrant that you are not exchanging tokens for any illegal
+purpose within your jurisdiction.
+● Represent and warrant that you understand that token creation does not involve
+the purchase of shares or equivalent in any existing or future public or private
+company, corporation, or other entity in any jurisdiction.
+● Represent and warrant that you understand that there is no guarantee
+whatsoever on tokens, express or implied, to the extent permitted by law, and
+that tokens are created on an “as is” basis.
+You further agree to accept sole risk for the creation of app portfolios. You also
+recognize that blockchain softwares are continuously being developed.
+
+3
+
+Risks
+The creation of tokens carries with it significant risk. Prior to creating a supply of
+tokens, carefully consider the exemplary and non-exhaustive list of risks set forth below
+and to the extent necessary, consult a lawyer, accountant, and/or tax professional prior
+to creating and holding tokens through a DAPP.
+1. Risk of Security Weaknesses in Bitshares Software
+The idea of profit sharing with blockchain tokens is experimental in nature. There is a
+risk that, as an open source project, any contributor to the token software could
+introduce weaknesses or bugs into the token software, causing the loss of value of the
+tokens in one or even all of the accounts.
+2. Risk of Weakness in the DAPP’s underlying blockchain, and/or Bitshares Network.
+The token’s software is itself based on the Bitshares blockchain. There is a risk that as
+an open source project, any contributor to the Bitshares blockchain could introduce
+weaknesses or bugs into the Bitshares software, causing the loss of tokens in one or
+more or even all of the token holder’s accounts.
+3. Risk of unforeseen attack vectors
+The field of digital cryptography is very new and for this reason, there is a risk of
+unforeseen attack both in terms of the underlying cryptographic protocol that backs the
+functioning of DAPP as well as 'game theory' related vectors which have not been
+documented to date. Both these vectors represent a risk that could lead to the loss of
+tokens in one or more or even all of the token holder’s accounts.
+4. Regulatory risks
+Blockchain technology and Bitshares are improving access to value between individuals
+and/or companies, some still to be imagined and implemented. As with the appearance
+of cryptocurrencies such as Bitcoin, it is very likely that specific regulations will be set in
+different jurisdictions targeting blockchain technology and more specifically token sales.
+These regulations may or may not be DAPP friendly and some might even forbid any
+relationships between an individual or company and a DAPP.
+
+4
+
+Taxation
+No party involved with the creation of tokens makes any representations
+concerning the tax implications of the creation of tokens or the possession or use of
+tokens. Token holders bear the sole responsibility to determine if the creation of tokens
+or the potential appreciation or depreciation in the value of tokens over time has tax
+implications for the token holder in their home jurisdiction. Users create tokens with their
+own actions. Third parties or individuals associated with the creation of tokens are not
+responsible for any tax liability associated with or arising from the creation of tokens.
+Cryptocurrencies and crypto assets may ultimately be converted into local fiat,
+via any withdrawal gateway linked to a traditional banking institution. It could be subject
+to capital gains. However converting existing cryptocurrencies into other crypto products
+could be treated with a whole new set of policies. These terms do not represent any
+form of legal advice or recommendation.
+Converting the value of tokens into other crypto assets would have to be treated
+under a new framework. Any participation may lead to an eventual best practices
+framework that can continue to improve the transparency and security that Apptrade.io
+aims to achieve.
+
+5
+
+Forward looking statements
+This description contains statements that are, or may be deemed to be, “forward
+looking statements” which are prospective in nature. These forward looking statements
+may be identified by the use of forward looking terminology such as “outlook”, "plans",
+"expects" or "does not expect", "is expected", "continues", "assumes", "is subject to",
+"budget", "scheduled", "estimates", "aims", "forecasts", "risks", "intends", "positioned",
+"predicts", "anticipates" or "does not anticipate", or "believes", or variations of such
+words or comparable terminology and phrases or statements that certain actions,
+events or results "may", "could", "should", “shall”, "would", "might" or "will" be taken,
+occur or be achieved. Such statements are qualified in their entirety by the inherent
+risks and uncertainties surrounding future expectations.
+Forward-looking statements are not based on historical facts, but rather on
+current predictions, expectations, beliefs, opinions, plans, objectives, goals, intentions
+and projections about future events, results of operations, prospects, financial condition
+and discussions of strategy. By their nature, forward looking statements involve known
+and unknown risks and uncertainties, many of which are beyond anyone's control.
+Forward looking statements are not guarantees of future performance and may
+and often do differ materially from actual results. Important factors that could cause
+these uncertainties include, but are not limited to, those discussed in the “Risks and
+uncertainties” of this document. None of the third parties provide any representation,
+assurance or guarantee that the occurrence of the events expressed or implied in any
+forward-looking statements in this document will actually occur. Token holders are
+cautioned not to place undue reliance on these forward-looking statements which only
+apply as of the date each Apptrade account is created.
+All third parties involved with app portfolios and their affiliates expressly disclaim
+any intention, obligation or undertaking to update or revise any forward looking
+statements, whether as a result of new information, future events or otherwise. The
+making of this document does not constitute a recommendation regarding any
+securities.
+
+6
+
+Disclaimer of Warranties
+The user expressly agrees that the user is creating and holding tokens at the
+user’s sole risk and that tokens are created on an “as is” basis without warranties of any
+kind, either expressed or implied, including, but not limited to, warranties of title or
+implied warranties, merchantability or fitness for a particular purpose ( except only to the
+extent prohibited under applicable law). Without limiting the foregoing, none of the third
+parties or individuals associated with any token creation warrant that the process for
+purchasing tokens will be uninterrupted or error-free.
+
+Limitations Waiver of Liability
+User acknowledges and agrees that to the fullest extent permitted by any applicable
+law, user will not hold third parties or individuals associated with any token creation
+liable for any and all damages or injury caused by or related to use of, or inability to use,
+Tokens or the platform under any cause or action of any kind in any jurisdiction,
+including without limitation, actions for breach of warranty, breach of contract or tort
+(including negligence) and that none of the third parties or individuals associated with
+token creation shall be liable for any indirect, incidental, special exemplary or
+consequential damages, including damages, including for loss of profits, goodwill or
+data, in any way whatsoever arising out of the use of, or inability to use, or creation of,
+or inability to create, DAPP tokens.user further specifically acknowledges that the third
+parties or individuals associated with a token sale are not liable, and user agrees not to
+seek to hold any of the third parties or individuals associated with the creation of tokens
+liable for the conduct of third parties, including other creators of tokens, and that risk of
+creating and using tokens rests entirely with the user.
+
+7
+
+

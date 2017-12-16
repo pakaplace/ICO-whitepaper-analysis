@@ -1,0 +1,632 @@
+White paper
+
+SKINCOIN (SKIN) - Universal Cryptocurrency based on Ethereum for instant
+trading CS:GO, Dota 2 skins, and taking bets on e-sports events.
+
+Alexey Zakharov, Igor Solomatin
+
+Version 1.0 (final)
+
+SKINCOIN.org
+June 2017
+1
+
+Contents
+
+1.
+
+INTRODUCTION.
+
+3
+
+1.1 What are the skins?
+
+4
+
+1.2 How the skins market emerged
+
+4
+
+1.3 The size of the skins market and its trends
+
+5
+
+2.
+
+9
+
+THE SKINS MARKET PROBLEMS AND THEIR SOLUTIONS
+
+2.1 What problems are there in the skins market?
+
+9
+
+2.2 How we suggest to solve these problems
+
+10
+
+2.3. Competitive advantages
+
+10
+
+3.
+
+ICO
+
+13
+
+3.1. ICO Goals
+
+13
+
+3.2. ICO parameters
+
+13
+
+3.3. ICO allocation structure and Marketing:
+
+14
+
+4.
+
+WHY CONTRIBUTE TO SKINCOIN
+
+15
+
+4.1. Roadmap and Development plan
+
+15
+
+5.
+
+SOME TECHNICAL ASPECTS OF THE EXCHANGE SERVICE WITH API
+
+16
+
+6.
+
+TEAM
+
+17
+
+2
+
+1.
+
+Introduction
+
+In the last few years eSports have become extremely popular with the media. The number of
+players and fans, prize funds and budgets of competitions have demonstrated a significant
+growth. We invite you to take part in this growth with us.
+The story begins in 2011, when Valve introduced an opportunity to exchange and trade in-game
+items (skins) from the popular CS:GO, Dota 2, and other video games based on the official Steam
+trading platform. Very soon skins were not just in-game items, but in fact became an actual
+currency: a lot of online services started to accept them as a payment method, exchange them for
+real money and other skins, or use them as bets on betting platforms. Thus, the skins market
+emerged, and has grown up to more than $7 billion in a few years.
+Our main product under this ICO is creating an exchange service with a convenient API for
+connecting to the third party websites, so that they can accept payments in SKINCOIN without
+having to open and maintain their own stores.
+We are creating a platform for immediate exchange of skins for the cryptocurrency, which is a
+liquid asset that can be used for further skins speculative trading, replace the turnover of skins on
+video game websites and can be used for conversion of the income after trading skins into fiat
+money. For that, we need a working capital that will be used to execute the obligations between
+a seller and a buyer of the skin, and also a marketing budget to scale the project.
+We are an experienced team working in the skins market for many years, we have created and
+maintained such projects as Steamtrade.net, Skinwin.com and Case.club. Our advantage is that
+right after the ICO, SKINCOIN (SKIN) will be integrated into our and our partners’ game projects
+that include skin trading.
+SKINCOIN (SKIN) – tokens are to be released based on the Ethereum blockchain platform.
+All proceeds from the release of tokens in the ICO shall be used to finance further development,
+support, marketing of new gaming projects: trading platforms and gaming services associated
+with items from games like CS:GO, Dota2 and Team Fortress 2.
+
+3
+
+1.1 What are the skins?
+Skins are virtual items that can be used in games like Counter-Strike: Global Offensive (CS:GO),
+Dota 2, Team Fortress 2. The term “skin” is derived from the typical function of these virtual items:
+changing the appearance of a player’s in-game avatar, weapons, or equipment.
+For example: below is an image of the “stock” gun used as a weapon in CS:GO. Players can opt to
+replace that stock gun with unique skins of the gun that change the appearance of the gun, as
+shown in the images.
+
+CS:GO - Gun without skin and with skin
+
+Note that the skins do not improve the functionality or power of the gun. The skin only changes
+the appearance of the gun. Skins play a purely cosmetic role.
+As the CS:GO market is the primary one and holds 80% of the industry, we will further focus on
+this game.
+
+1.2 How the skins market emerged
+The skins market began to grow and develop rapidly after Valve introduced an opportunity to
+exchange and sell skins to other players. A player could use the skin in the game itself, by
+installing it for his character; sell it on a trading platform or pass it on to another player as a
+means of exchange or as a gift via Steam’s API. A great number of players wanted to profit from
+the skins’ liquidity by selling or exchanging the items as if it was the stock market. Rare and
+unique skins acquired a status of collectors’ skins and now their price may exceed the amount of
+$10,000.
+Today there are several ways of getting a skin in CS:GO:
+
+
+
+
+
+Receiving them during gameplay;
+Receiving them as a promotional giveaway (often around major CS:GO events);
+Trading with other players;
+Purchasing skins on a variety of marketplaces.
+
+Not only the opportunity to show off a unique skin in the game made the skins popular, but
+also the possibility of using them as a payment method on plenty of video game websites.
+4
+
+Originally, it was only allowed to sell the skins on the official Steam trading platform, however
+the problem was that it was impossible to withdraw money from the platform. The money
+received from selling the skins on Steam could only be used to buy other skins or other games
+on the same platform. The problem was solved by many emerging services which offered more
+convenient and attractive options of using the skins, thus forming a new market outside Steam.
+Besides, an impulse for the skins market development and their popularity was given by various
+gaming services. Accepting the skins as a payment method, they soon became popular, gained
+their huge loyal audience, increased the demand for the skins enormously and brought this
+market to a new level.
+This is how it works:
+
+Players “deposit” a skin at a skin-gaming site by transferring the skin to the skin gaming
+site;
+
+They gamble using their deposited skins (or in some sort of internal currency that the
+player receives in exchange for their skin);
+
+If they win, they’re paid in additional skins, which they “cash out” by requesting that the
+skin gaming site transfer skins back to the player.
+
+Author: Chris Grove. He is a gambling industry analyst, a partner at Narus Advisors, and senior consultant
+at Eilers & Krejcik Gaming1.
+
+1.3 The size of the skins market and its trends
+In recent years, eSports games have gained immense popularity and were covered by major
+media. The most popular games are CS:GO and Dota 2, they are also the most profitable in the
+market. A last major tournament at the National Wide Arena (where the NHL Blue Jackets play) in
+1
+
+http://www.esportsbettingreport.com/wp-content/uploads/2016/07/A-Guide-To-Skin-Gambling.pdf
+
+5
+
+April 2016 generated more than 71 million online views in four days. A huge number of games
+and tournaments are broadcasted by streaming services such as Twitch and YouTube.
+Each day more than 400-450 thousand people play in CS:GO simultaneously, for Dota 2 this figure
+is more than 750-800 thousand people.
+
+On picture illustrated statistic on 2017-06-17_15-00
+
+The number of players and people who have bought these games grows every year. At the
+beginning of 2014 there were 26 million of them in Dota2 and only 12 million in CS:GO (according
+to ARS Technica). Now, according to Steam Spy, more than 104 million users have installed Dota2
+and more than 29 million – CS:GO.
+
+6
+
+Statistic from Steam Spy, look column Owners2
+
+As Narus Advisors reports, the size of
+the market amounted to about $7.4
+billion in 2016. This is the total sum of
+bets made in skins by players all over
+the world.
+According to Eilers&Krejcik, more than
+3 million people have made their bets
+on the results of eSports games with
+skins worth $2.3 billion during 2015.
+Despite the fact that this kind of bets
+can hardly be considered mainstream
+or
+be
+compared
+with
+the
+cryptocurrency market, the growth of
+the skin gambling market is really
+fascinating: more than 300% in 2016
+compared to 2015.
+The market for skin gambling is
+distributed across a handful of
+dominant products.
+Sportsbook-style betting (wagers on
+esports matches) is the largest
+vertical. The second most popular is
+jackpot-style
+games,
+essentially
+lotteries where players receive tickets
+based on the value of their deposited
+skins. Simple forms of roulette
+games, coin flip games, and blackjack
+games make up much of the
+remaining turnover.
+In terms of market participants, the
+skin gambling industry grew quickly
+from a handful to hundreds of sites in
+the course of a year. The vast majority
+of those sites were variations on the
+basic jackpot product theme.
+Ultimately, we believe the bulk of
+handle in the skin gaming industry
+
+2
+
+http://steamspy.com/app/730
+
+7
+
+was generated by roughly fifteen sites.
+Google trends proves strong demand in the skins market and the growth of interest in this
+market.
+
+8
+
+2.
+
+The skins market problems and their solutions
+
+2.1 What problems are there in the skins market?
+In 2011 Valve Corporation launched a service for Steam users to exchange in-game items
+for games with built-in economy.
+In 2016, the Washington State Gambling Commission demanded that Valve developers
+stop supporting gambling related to games’ items and the Steam platform.
+The government organization that manages all gambling activities in the state where
+Valve is located said that Gabe Newell's company “has until October 14, 2016 to respond
+and explain how it is in full compliance with Washington’s gambling laws or it will risk
+having the Gambling Commission take additional civil or criminal action against the
+company.”
+According to the press release, the organization contacted Valve in February to find a
+solution for the problem of betting skins when users used virtual items, like gambling
+chips in a casino, instead of real money.
+The legal sports analytical agency published a report on the activities of the largest portal
+CS:GO Lounge, which deals with betting on events in e-sports. According to the report,
+from January to August 2016, the site has accepted more than 103 million skins worth
+about 1 billion dollars. The average total cost of bets on one game was 358 thousand
+dollars.
+July 13, 2016 Eric Johnson, director of marketing operations of Valve, published a letter
+on the Steam website in which he stated that there is no link between Valve Corporation
+and online services using Valve's system of exchanging items for their own commercial
+purposes. Johnson also said that Valve never received any profit from the actions of such
+sites. He added also, that there was no plug-ins for converting skins into real money in
+Steam. He said that developers of online casinos used the OpenID API and network calls
+similar to those of Steam users to conduct their business, which contradicts the terms of
+the Steam Subscriber Agreement. It was announced that Valve was going to send out
+warning letters to all identified sites of this kind.
+In August 2016, Valve made a newsletter to popular sites that use skins as bets. Some of
+the gambling sites switched to skins trading or to bets with virtual currency, not violating
+the Steam Subscriber Agreement.
+In particular, the largest gambling portal CS: GO Lounge received a ban from Valve on the
+skin gambling activity. At the end of September 2016, the portal resumed its activity by
+introducing the system of inner currency in the form of coins (points), which does not
+violate the policy of Steam.
+
+9
+
+2.2 How we suggest to solve these problems
+There is a solution to this problem. A lot of video game websites began to adopt a new business
+model by introducing the system of inner currency of coins (points). The skins are exchanged for
+a particular number of points and the bets are made not with skins but with points, which
+doesn’t break the law or the Steam Subscriber Agreement. To use the points on their websites,
+one has to first change them into skins in an inner store.
+At any time the player can change his points into the skins and withdraw them from the website.
+But the changed business model led to another problem in the skins market. The points from one
+platform can’t be used outside this platform, other sites or exchange services will not accept them.
+The value of points outside one particular platform is equal to zero. This adds unnecessary steps
+and makes the trading process more complicated.
+By introducing the cryptocurrency SKINCOIN into the gaming industry we solve the problem of
+convenience and safety when it comes to the gaming services. This will protect all types of gaming
+platforms as well as exchange services from Valve claims and blocking of accounts on Steam.
+Cryptocurrency SKINCOIN does not qualify as a payment method in the usual sense. This protects
+SKINCOIN from claims of the regulatory and other governmental institutions.
+For introducing SKINCOIN into the current gaming system we are going to launch a service with
+a convenient API for the immediate exchange of skins into SKINCOIN and vice versa. On the
+exchange website there will be a huge range of the skins to exchange. By using the API of our
+exchanging service, third party websites will be able to accept SKINCOIN as a payment method,
+gradually replacing the skins turnover. All the transactions on the gaming websites will be in
+SKINCOIN and the website owners won’t have to maintain their stores filled with skins to keep
+their site efficient.
+
+2.3. Competitive advantages
+A lot of cryptocurrencies have been created in the market. Mainly these cryptocurrencies are
+offered to be used under one service or product. What is the difference between SKINCOIN and
+its equivalents?
+SKINCOIN is created to change the current system of video game services and replace the coins
+(points) of different gambling services with skins trading operations. This can be done thanks to
+an important quality: any skin can be immediately exchanged for SKINCOIN at a stated price
+and vice versa. The client will not have to wait for the next suitable contractor to appear for the
+deal. Implementation of SKINCOIN as a universal coin for video game websites will greatly
+simplify the skins trading process.
+We are going to simplify the whole process of interaction with websites by implementing
+SKINCOIN as an alternative to points (coins) of different gambling services. Our team has rich
+experience in creating and developing trading platforms for in-game items which will be the base
+for launching the exchange service of the skins and SKINCOIN.
+
+10
+
+Since 2013 we have launched the following projects:
+STEAMTRADE (Steamtrade.net) – trading platform for in-game items from Steam
+Supported games: CS:GO, Dota 2, Team Fortress 2.
+STEAMTRADE allows to sell items “in a few clicks”. All purchased items are combined into one
+singular trade according to the exchange offer from Steam. Thus the client doesn’t have to
+approve every single transaction which could suggest great difficulties for wholesale traders. Our
+competitors don’t have this solution yet.
+Daily turnover: 15 000+ transactions.
+SKINWIN (Skinwin.com) – gaming platform with different types of games. The bets can be made
+with skins and their own points.
+Daily turnover: 8 000+ transactions.
+CASECLUB (Case.club) – a shop of “random” skins for CS:GO. The service allows to “open” the
+cases from CS:GO directly on the website and use them in the game at once. This way of “case
+opening” gained great popularity in 2013. Our team was the first one to launch websites
+(Case.club (former Countershop.ru), Dotashop.net) for opening CS:GO and Dota 2 cases outside
+of Steam. Before that it was only possible to open cases inside Steam.
+Daily turnover: 2 500+ transactions.
+As you can see, we are not launching the SKINCOIN project from scratch. We already have a lot
+of experience in the development and promotion of gaming services as well as a strong team of
+developers.
+Tokens trading with SKINCOIN is planned to be implemented into the infrastructure of our already
+operating projects. This will allow to get the approved infrastructural demand for SKINCOIN
+tokens.
+The most important competitors of SKINCOIN are:
+
+
+
+FIRST BLOOD (http://firstblood.io/)
+ROUNDCOIN (http://roundcoin.org/)
+
+Both projects involve creating competitive modes and hosting games with the help of blockchain.
+The problem of these competitors is that the decentralized matchmaking (competitive regime
+according to which the winning side gets a prize in the form of tokens) doesn’t have the
+monetization of the leading game services and trading platforms. We, on the other hand, have a
+ready backend and are able to launch a similar service in a couple of months. However, the low
+monetization of matchmaking services makes us focus on more global issues.
+As you can see from the list above – our product is a unique service which has not been
+implemented by other market players. Our distinction is that we do not launch a cryptocurrency
+for one particular product. We are creating a whole infrastructure for the trading of skins which
+includes a big number of various services and monetization possibilities.
+
+11
+
+Potential partners of SKINCOIN:
+OPSKINS (www.opskins.com)
+A platform for CS: GO skins trading. Potential partner for implementing SKINCOIN.
+BITSKINS (https://bitskins.com)
+A platform for CS: GO skins trading. Has a possibility to accept payments in BTC. Has its own API
+connector. Potential partner for implementing SKINCOIN.
+LOOTMARKET (https://www.lootmarket.com)
+A platform for CS: GO and Dota 2 skins trading. Potential partner for implementing SKINCOIN.
+CSGO (https://csgo.tm/)
+A biggest platform for CS: GO skins trading for the Russian market.
+SKIN HUNT (www.skin-hunt.com/)
+A platform for CS: GO skins trading localized for the Russian market.
+CSGODEP (www.csgodep.com/)
+A service for matchmaking. A potential partner for implementing bets in SKINCOIN.
+We are creating a system in which all the platforms listed above will be able to participate in a
+united process of trading. With the help of our API system any platform will be able to quickly
+integrate the SKINCOIN trading into their services. This will guarantee the raise of total skins
+market liquidity and furthermore will lead to the SKINCOIN price increase.
+
+12
+
+3.
+
+ICO
+
+3.1. ICO Goals
+Our idea is to create a platform of immediate exchange of the skins for cryptocurrency which is a
+liquid asset that can further be used in a skins speculative trading, replace the skins on gaming
+services or be used in conversion of the income received from selling the skins.
+To do so, we need the working capital for executing obligations of sellers and buyers of the skins,
+as well as the marketing capital which will allow operating the project at scale.
+We expect our project to be appealing for the members of the crypto-community, who will be
+able to participate in the market growth with their investments, as well as for the members of the
+Steam-community, who will take part in building the new market infrastructure.
+
+3.2. ICO parameters
+ICO Start Date: 21 June 2017 12:00 UTC
+ICO End Date: 21 July 2017 12:00 UTC
+Issuance of SKIN Tokens: 1 000 000 000
+Token Exchange rate: 6 000 SKINS = 1 ETH.
+Minimum transaction amount: 600 SKIN (0.1 ETH)
+Maximum transaction amount: 18 000 000 SKIN (3 000 ETH)
+Bonuses: in the first two days the participants will get a 20% tokens bonus
+Bounty: 12 000 000 Tokens (1,2% of issuance)
+Total Sale goal: 100 000 ETH
+Minimal Sale goal: 5 000 ETH
+
+Token emission and distribution rules:
+58,8% (588 million tokens) will be available to participants;
+
+30% (300 million tokens) will remain in the SKINCOIN Foundation until the official
+exchange is launched, the tokens will be used as starting turnover to exchange skins at the market
+rate on own current and partners projects, and will be used to form a stable market and for further
+development over the next five years. Tokens will be stored on a wallet with multi-signatures;
+
+10% (100 million tokens) will be distributed among team members;
+
+All collected funds shall be received and stored on wallets with multi-signatures.
+
+
+13
+
+3.3. ICO allocation structure and Marketing:
+Marketing
+
+60% (max 60 000 ETH)
+
+Development
+
+20% (max 20 000 ETH)
+
+Scaling the service
+
+20% (max 20 000 ETH)
+
+The biggest part of the attracted funds will be spent on marketing which is necessary to maximize
+the coverage of the market with SKIN-tokens. In case of achieving the total sale goal the marketing
+budget will be distributed as follows:
+
+Marketing
+
+Youtube advertising (gaming
+bloggers and streamers)
+
+10%
+
+Sponsoring eSports
+tournaments
+
+10%
+
+50%
+20%
+
+Advertising on Twitch,
+Youtube-gaming, etc. Streams
+platforms
+Organisation of eSports
+tournaments with a prize
+Fund
+
+10%
+
+Advertising on relevant
+Internet resources
+
+14
+
+4.
+
+Why contribute in SKINCOIN
+
+The number of issued tokens is limited by 1 000 000 000 SKIN. The additional emission of tokens
+is forbidden. All the unplaced tokens are to be destroyed.
+After the ICO we plan to implement the payments in SKINCOIN on Steamtrade.net, Skinwin.com,
+Case.club, Skin-hunt.com, Csgodep.com. We forecast that these platforms together will offer the
+demand of up to 50% of the total cost of the publicly traded tokens.
+We forecast to occupy the 10% skins market share (approximately $700 million). Therefore, the
+demand for tokens can potentially outpace the value of publicly traded tokens by 20 times.
+The purchase of SKINCOIN at ICO gives you an opportunity to enter the infrastructure project
+with twentyfold potential value growth at a low cost.
+After ICO SKINCOIN will be available for purchase in cryptocurrency exchanges (we are
+negotiating with Bittrex).
+
+4.1. Roadmap and Development plan
+Our main product under this ICO is creating an exchange service to change skins into SKINCOIN
+and vice versa with a convenient API for connecting to the third party websites, so that they can
+accept payments in SKINCOIN without having to open and maintain their own stores. We simplify
+the whole process of the skins exchange and solve the problem of the exchange speed as well as
+significantly expand the range of the available skins.
+- In July 2017, we are launching the first decentralized SKINCOIN crypto currency for buying,
+selling skins, and gaming services. SKINCOIN will solve the problem of the diversity of domestic
+currencies for gambling websites and the lack of real value of coins beyond their limits.
+- In July 2017, all our projects (Steamtrade.net, Skinwin.com, Case.club and Dotashop.net) will
+begin to use SKINCOIN, which will guarantee the demand for it.
+- In August 2017, we launch the main platform for exchanging SKINCOIN for skins. Users will be
+able to instantly exchange skins for SKINCOIN and back at any time.
+- After the launch of the exchange platform, an API will be developed for receiving and converting
+skins in SKINCOIN (SKIN) for third-party websites, related to CS: GO, Dota 2 and Team Fortress 2.
+After the API is available for our partners we are going to focus on the partners’ base enlargement
+covered by the budget and our competitive advantages. That will boost our market share and
+raise the demand for SKINCOIN.
+
+15
+
+5.
+
+Some technical aspects of the exchange service’s API
+
+All the platforms that have connected to the API of our exchange service, will get an opportunity
+to quickly receive payments and make all transactions with the users in SKINCOIN. The user can
+top up his balance on the website and his exchange interface with the inventory will be
+downloaded through the API. By choosing the necessary number of items the user immediately
+exchanges his skins via our service and we transfer SKINCOIN to the balance of the user on our
+partner’s website. Right after this the user will be able to make all the transactions on the third
+party website in SKINCOIN.
+The rate of SKINCOIN on trading platforms and exchanges will be calculated as the median stock
+market rate of the major cryptocurrency stock markets. The exchange rates of skins will be
+updated every 2 hours. This is done to avoid clients’ risks which has to minimize abrupt changes
+of the price.
+A special wallet will be created for a convenient storage of SKINCOIN. With its help it will be easy
+to transfer SKINCOIN between different trading platforms, stock exchange, exchange points and
+game services.
+
+Identification on the exchange platforms will be possible through the Steam account. In fact, the
+buyer will be able to buy a skin with SKINCOIN and immediately use it in the gaming process.
+Besides, the instructions will be created for the users and our partners, which will thoroughly
+describe the opportunities by the SKINCOIN project and how to use them.
+
+16
+
+6.
+
+Team
+
+We have an experienced, well-organized team. Since 2013, we have been creating, developing
+and supporting our own highly loaded marketplace and gaming projects in the cybersport area
+with a turnover of more than $10 million per year.
+Alexey Zakharov (LINKEDIN), Founder
+Graduated from Humanitarian institute of Moscow in 2011 as
+specialist in Applied Informatics in Economics. Has been working at
+Hewlett-Packard, Merlion, Open Technologies. Has a extensive
+experience as an entrepreneur. He has launched and brought to
+payback more than seven projects in the gaming area related to the
+game items CS:GO, Dota 2 since 2013. Alexey is the owner of the CIS
+largest platform for monitoring CS 1.6 servers with more than 30
+thousand unique users a day. Excellent expertise in grocery sales, marketing, SEO and relationships
+with team.
+
+Igor Solomatin (LINKEDIN), Co-Founder, CEO
+Graduated from Russian State Technological University MATI in 2009
+as specialist in radio and electronics engineering. Had been working
+for three years as data center engineer in Lukoil-Inform, 100%
+subsidiary of Russian oil giant Lukoil. Has extensive experience in
+promoting products of American company Hewlett-Packard in the
+Russian market. Successful experience in launching and promoting
+Internet projects. Starting from 2013 he has been co-founder and CEO
+of gaming projects related to Steam and the market of game items (skins) with a turnover of more
+than $1 million per month.
+
+Alexander Kravin (LINKEDIN), leading architect-developer (full-stack)
+Graduated from Nizhny Novgorod State Technical University in 2004
+with engineer’s degree in information technology. Highly experienced
+java developer with more than 10 years in the field of complicated and
+highly loaded systems software development. Developed applications
+for telecommunication companies, banks and State structures from
+scratch. Since 2015, develops game services, applications for
+administration and monitoring. Leading architect-developer of
+Steamtrade.net, Skinwin.com.
+
+17
+
+Alexey Bazlov (LINKEDIN), developer (back-end)
+Kuban State University’s graduate with bachelor’s degree in IT.
+Since 2008, he has been developing game servers for online games,
+working with the network part, interacting with the client-server,
+optimizing the work of high-load projects. Starting from 2012, he has
+been working with Steam projects. Developer of the Skinwin.com and
+Case.club projects.
+
+Oleg Agayev, developer (front-end)
+Graduate of two universities: Lobachevsky State University of Nizhny
+Novgorod and Nizhny Novgorod State Technical University. Eight
+years of web development experience (full-stack developer). For a
+long time he held the position of full-stack developer of a large
+corporate b2b portal based on the Laravel and AngularJS
+frameworks. Great experience with developing popular gaming
+services adjacent to the Steam platform. Platform developer of
+Steamtrade.net, Skinwin.com, Case.club.
+Hasan Delic (LINKEDIN), designer (UI / UX)
+Student of International University of Sarajevo (visual arts and
+communications design). Has a great experience of UX/UI design in
+eSports industry. Great vision in design of game industry. Creator of
+the Skinwin.com, eSportsmate.com, Ninjas in Pyjamas, Escape
+Gaming, Luckbox.
+
+18
+
+

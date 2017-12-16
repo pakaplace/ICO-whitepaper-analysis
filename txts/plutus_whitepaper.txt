@@ -1,0 +1,728 @@
+Plutus White Paper
+https://plutus.it
+June 30, 2016
+v1.1
+Introduction
+The Plutus Mobile Application enables a user to make contactless Bitcoin payments at any merchant
+with a Near Field Communication (NFC) enabled checkout terminal. This is the most practical way to pay
+with Bitcoin, because the payment process consists only of holding a mobile device above the merchants
+NFC reader. As a result, Bitcoin payments are effectively accepted by proxy at over 32 million brick and
+mortar merchants around the world.
+The primary purpose of Plutus is to provide incentive for, and enable, the practical day-to-day usage of
+Bitcoin; ultimately accelerating mass-consumer adoption.
+The competitive advantage of Plutus, within the mobile payments industry, is the effective utilization of the rapidly expanding Ethereum network. Through a transparent and decentralized network
+protocol, underwritten by distributed ledger technology (the blockchain), Ethereum allows Plutus to deploy smart contracts to enable secure, peer-to-peer (P2P) exchange of fiat currency and Bitcoin, with the
+added benefit of automatic escrow. Using these methods, the Plutus Decentralized Exchange Network
+(PlutusDEX) of traders convert Bitcoin deposits into a prepaid debit balance that is valid at any contactless point-of-sale (POS) terminal.
+The philosophy of the application itself is open, inclusive and committed to the network health and
+widespread usage of Bitcoin. As such, a public trading API will be available, and 3rd party development
+is encouraged.
+
+1
+
+The Ecosystem
+
+adoption, consumers immediately gain both local and
+international opportunities for spending the digital
+Bitcoin merchant adoption has thus far proved to be currency at physical locations. The Plutus ecosysa challenging endeavor. Merchants are hesitant to tem can be seen in Figure 1. The chicken-and-theaccept it, and users are unable to spend it. Because egg problem is solved through both increased user
+there is no widespread Bitcoin point-of-sale (POS) and merchant adoption, because of Plutus vastly iminfrastructure currently in place, merchants often re- proved ease-of-use, lowered costs, and greater efficonsider accepting Bitcoin due to its perceived com- ciency for merchants, in both the long run and the
+plexity, which may increase labor costs in the short short run.
+run, because of the extra employee training required.
+In many cases, they stop accepting Bitcoin or become
+Overview & Process
+frustrated with early technical difficulties. These dif- 2
+ficulties often lead to narrowing merchant adoption
+of Bitcoin and the blockchain infrastructure in gen- Plutus relies heavily on distributed computing and ineral. This creates a kind of chicken-and-the-egg prob- corporates connections to the Bitcoin and Ethereum
+lem, which contributes to forcing merchant-side Bit- networks, as well as the traditional debit card infrascoin payment processors to significantly limit their tructure. As such, it is a hybrid system with both
+expansion and adoption efforts.
+centralized and decentralized network components.
+This is the crux of the problem which makes Plutus
+an optimal use case and ideal app for miners, entrepreneurs, freelancers and anyone else who earns
+Bitcoin. By avoiding the need to wait for merchant
+
+The structure of the Plutus Internal Infrastructure
+(Figure 2) relies on several interconnected servers
+and modules. The mobile app itself connects via Secure Sockets Layer (SSL) end-to-end encryption to
+1
+
+Figure 1: The Plutus Ecosystem
+
+Figure 2: The Plutus Internal Infrastructure
+2
+
+the Plutus app server, which in turn communicates
+2. The Plutus internal server (centralized) conwith the other network servers. The Bitcoin trackfirms deposits and transaction details on
+ing server reads transaction data contained in the
+the Bitcoin blockchain, as well as on
+header of each block broadcast onto the Bitcoin netEthereums blockchain. It then sends the
+work to confirm when payments have been completed.
+event message to the DEX dApp (decentralPlutons are divisible and tradable assets created on
+ized) running on the Ethereum blockchain.
+the Ethereum network. This ensures that all Plutons,
+whether they are traded or transacted between users, 3. Traders must verify their account and identity on
+the PlutusDEX platform to enable any transfer
+are safely confirmed, and permanently stored on the
+of funds to the Plutus escrow account. A trader
+Ethereum blockchain.
+can then enter trade information (create a bid)
+The PlutusDEX, or DEX, is a dApp (decentralized
+on the DEX dApp. Traders announce their payapplication) on the Ethereum blockchain which hanout wallet address in advance, in order to redles Bitcoin and Pluton trading and matches orders.
+ceive Bitcoin or Pluton deposits directly from
+Traders can register at http://dex.plutus.it to inapp users.
+teract with other users on the decentralized exchange
+to purchase Bitcoins and Plutons using fiat moneys,
+1. Traders can use any valid Bitcoin address,
+i.e. GBP, USD, or EUR. The dApp parses the data
+and hold their own private keys. Offline
+from each traders price and quantity submitted to
+wallets and cold storage are recommended.
+the exchange. The Bitcoin tracking server monitors
+2. Deposits of fiat-currency to Plutus escrow is
+the address of each user of the mobile app. As a user
+completed via the DEX dApp. Details of
+deposits Bitcoins onto their mobile app, the amount
+all trades and deposits are stored on the
+is instantly matched with the best valued offer from a
+Ethereum blockchain.
+DEX trader, and the user is sent their rebate reward
+in the form of Plutons. The DEX trader sends the 4. Next, the Plutus internal server receives verificacorrect amount of fiat currency to the Plutus Escrow,
+tions from the Ethereum and Bitcoin blockchains
+where it is then relayed to the merchants bank and
+of the completed transaction stored within the
+completes the transaction cycle, as shown in Figure 3.
+DEX dApp. Funds are immediately deducted
+from the DEX users escrow account and then released to the prepaid virtual debit card on the
+mobile app in the selected local currency.
+
+1. An app user enters an amount of Bitcoin to deposit. The DEX dApp instantly matches the request with the best price provided by verified
+traders on the PlutusDEX platform, along with
+the corresponding Bitcoin and/or Pluton payout
+address.
+
+1. The Virtual Debit Card (VDC) gateway enables contactless balance creation in GBP,
+USD, and EUR.
+
+1. A Bitcoin or Pluton deposit request is sent to 5. The merchant then receives payment authorization via the VDC gateway. Funds in their prethe DEX dApp running on the Ethereum
+ferred currency are forwarded to the merchants
+blockchain via the Plutus internal server.
+bank through the established worldwide debit
+2. Offers and bids are matched using the DEX
+card banking network.
+dApp, resulting in a sale of digital tokens
+for fiat currency at the current market rate.
+The DEX dApp sends an event message to
+the app user containing the public address
+of the trader who exchanges the users Bitcoin for fiat.
+
+1. Finally, a transaction confirmation is sent to
+the app which triggers an update to the
+contactless balance for the mobile app user.
+
+2.1
+
+The PlutusDEX Platform
+
+2. The DEX dApp receives blockchain transaction
+verification via the Plutus tracking server, which
+interacts with both the Bitcoin and Ethereum The PlutusDEX platform, illustrated in Figure 4,
+blockchains. Upon confirmation, the DEX dApp consists of two main components:
+marks the transaction as complete.
+1. The PlutusDEX dApp that runs on the Ethereum
+1. A notification is sent to the Plutus Internal
+network.
+Server.
+3
+
+Figure 3: The Plutus Payment Network
+2.2.1
+
+2. Applications that form a bridge between
+Ethereum and the traditional payment infrastructure.
+
+Plutus App Fee Optimization
+
+Bitcoin conversion has a fee of between 1-4% (TBD).
+The fee is deducted from the users’ fiat deposit balThe PlutusDEX platform features the utilization of ance before the money is released to their VDC acEthereum dApps to execute trades between app users count on the Plutus Mobile App. There are no other
+and traders in a peer-to-peer system. The DEX dApp fees for using the app and no fee to deposit Plutons on
+matches bids for Bitcoin and Plutons. The platform the app obtained from another user externally. Pluitself supports fiat deposits and offers traders access tus pays all transaction costs associated with using
+the Ethereum network (See Section 2.4.2). Merchants
+to purchase Bitcoin directly from app users.
+pay their normal debit card payment processing fees.
+
+2.2
+
+Plutus Mobile App
+
+2.3
+
+The Plutus Mobile App (Figure 5) connects users directly to PlutusDEX traders on the Ethereum network. Using the Plutus internal server, the Bitcoin
+network can be reached using the native Bitcoin API,
+which is connected to via the Java API (ethereumj),
+or alternatively, the Javascript API (web3).
+
+Plutus Payment Process
+
+The Plutus payment process (Figure 6) consists of
+two main actions:
+1. The Plutus Mobile App initiates a wireless payment to the merchants NFC-enabled payment
+terminal through the user’s NFC-enabled smartphone.
+
+The Plutus Mobile App enables the user to choose
+among a selection of different fiat currencies. A virtual debit card account can be created in GBP, USD,
+or EUR, allowing the user to have multiple payment
+options.
+
+2. The users VDC payment authorization is sent to
+the merchants payment processor, and once approved, the funds are deposited to the merchants
+4
+
+Figure 4: The PlutusDex Platform
+
+Figure 5: The Plutus App
+5
+
+Figure 6: The Plutus Ecosystem Actions
+bank account. The user and the merchant, re- est data, the average time for a new transaction to
+spectively, receive confirmation of a successful be confirmed on the blockchain is approximately 17
+seconds. This enables users to convert their digital
+transaction.
+assets to fiat currency in nearly an instant.
+
+2.4
+
+Pluton Token Infrastructure
+2.4.1
+
+Plutons are the internal digital asset of Plutus and
+are issued on the Ethereum blockchain. Pluton transactions can be sent and received using the Plutus
+Mobile App, similarly to Bitcoin. Plutons have the
+added benefit of zero transaction fees, as well as instant transaction confirmations.
+
+Pluton Rebate System
+
+Plutus Mobile App users are rewarded with a rebate,
+at a predetermined rate, of Plutons for every Bitcointo-fiat exchange they make in order to fill their VDC
+balance. Plutons can be exchanged for fiat currency
+that is then instantly credited to the users contactless balance. There is no rebate reward given for exchanges of Pluton and fiat currencies.
+
+Ownership of Plutons is tied to an Ethereum account. Pluton token source code — running on the
+production Ethereum network (networkid 1) — acts
+as a decentralized and distributed ledger of all Pluton transactions and the addressed location of every
+Pluton. The benefits of using Ethereums blockchain
+is its reliability, underwritten by Ethereums built-in
+incentives for securing the blockchain. This ensures
+the continuity, integrity and security of the Pluton
+ledger.
+
+The Pluton Rebate System (Figure 7) is implemented
+on the Ethereum network and regulated by the DEX.
+Plutons received as rebate rewards are distributed automatically by the DEX to Plutus Mobile App users.
+
+There will be 20,000,000 total Plutons in existence.
+As the trading begins for Plutons on the DEX network, the exchange rate, EP , will fluctuate according
+to market conditions. Its general equation can be
+The Ethereum network supports near-instant confir- described as the amount of Plutons, Pt , required to
+mations of Pluton transactions. According to the lat6
+
+Figure 7: The Plutus Rebate System
+able exchange rate of, EBT C , Bitcoin to the British
+Pounds, expressed as
+
+trade for one Bitcoin, or
+EP =
+
+Pt
+1BT C
+
+(1)
+EBT C =
+
+1BT C
+Tt GBP
+
+(2)
+
+where Tt represents the current amount of British
+Pounds required to purchase one Bitcoin as dictated
+by the market.
+
+Bid orders for Plutons are made via the trading frontend. The PlutusDEX trading API will be open
+source. It will enable the participation of users on
+the DEX network once they have been verified on
+the frontend.
+
+Let Ti symbolize a single transaction by a single user,
+worth no more than a maximum value of £30. Multiplying Ti by equation (1) yields the Bitcoin value,
+Bi , of the given transaction,
+
+Users can buy Plutons, as well as Bitcoin, using the
+DEX. Plutons earned via rebates can be transferred
+on the blockchain and have no restrictions on use with
+in the payment system. Users can transfer Plutons to
+other users or trade them for fiat currency, which is
+sent to the users VDC balance for in-store purchases.
+Plutons are implemented as a Transferable Fungibles
+e.g. sub-currency on Ethereum, using the standard
+Ethereum API.
+
+Bi = EBT C ∗ Ti
+
+(3)
+
+where Ti ≤ £30.
+The rebate reward rate, R, changes every 24 hours according to the previous days aggregate Bitcoin transaction volume, V △ , expressed as
+V△ =
+
+Since rebate rewards are only dispersed when converting Bitcoin to fiat money we must utilise the vari-
+
+n
+X
+i=1
+
+7
+
+Bi△
+
+(4)
+
+Finally, we can calculate the total Pluton dispersed
+to users for an entire day, Pday , by summation of the
+results obtained from equation (3) and equation (7)
+and simplifying to obtain the emission equation:
+
+where the symbol, △, in the superscript indicates
+that it represents data from the previous day. The
+previous days aggregate Bitcoin transaction volume
+is obtained above by summation of each instance of
+equation (3) on the previous day.
+
+n
+X
+The rebate reward rate is determined by an algorithm
+(Pi ∗ Bi )
+(8)
+P
+=
+R
+∗
+day
+(Figure 8), where R is a dependent variable to V △ by
+i=1
+adapting and modifying the model of a step function
+to a non-Boolean use. The indicator function of R
+is defined as the interval expression, IV △ , with the 2.4.2 Smart Contracts & Functionality
+subscript, V △ , of equation (4), which acts as the
+interval parameter function of the next days rebate On the Ethereum blockchain, dApps are regulated by
+their underlying code, commonly called a smart conreward rate, defined by the expression
+tract. Plutus has several types of interacting contract
+code, each with an important function. Each instance
+(5) can be called via the internal infrastructure, the PluR := IV △ (R)
+tus web-application (client side), and/or the Plutus
+The interval parameter function is defined by the Mobile App. When an instance is called, the result is
+variable values of R, which are dependent on the cor- transmitted, asynchronously, as an Ethereum event.
+responding range of the previous days Bitcoin transThese events will handle all Plutus transactions beaction volume, V △ .
+tween traders and users; will register new deposits
+of fiat currency; and will regulate the issuance of
+IV △ (R) := {Ri , mi ≤ V △ ≤ Mi
+(6) new Pluton tokens, earned by users as rebates. Every time a Plutus smart contract is called, a small
+The rebate rate, Ri , in the above expression repre- amount of Ether must be payed as a transaction
+sents the general structure of the parameters that fee for Ethereum miners. This fee is known as the
+describe every possible value. Each daily rebate rate, Gas Price and is paid for by Plutus.
+Ri , must differentiate from the previous days rate,
+R△ , by ±0.01%, while Mi − mi = 0.1BT C at each Each instance of a Plutus smart contract is explained
+step. The maximum rebate rate is set at 3% when in more detail below. Their interactions are illusthe daily volume is 5 BTC or less and 1% when the trated in Figure 9:
+daily volume is 25 BTC or more. Thus, each daily
+increase in volume of 0.1 BTC will reduce the rebate
+• Plutus User Contract: This is created for each
+rate by 0.01%, and vice-versa.
+user and each trader who register. Users can
+register through the Plutus Mobile App. Due to
+The PlutusDEX dApp calculates the previous 24hr
+Know-Your-Customer (KYC) rules, users must
+Bitcoin deposit volume on the network to determine
+identify themselves using the Plutus central serthe rebate amount for the following 24hrs on the app.
+vice, or through an external service such as
+This data is relayed to the Pluton issuer code and the
+Uport.
+The user contract itself will contain a
+change is affected immediately.
+limited amount of logic, but it does reference
+Now that the rebate reward rate, R, has been found
+other smart contracts such as PlutusDEX conabove, we can find the amount of Pluton, Pi , for one
+tract and the Pluton token contract.
+users single transaction by multiplying the results of
+• PlutusDEX Contract: Enables users to exchange
+equation (1), equation (3), and the current exchange
+Plutons, fiat currency and Bitcoin. Traders
+rate, R△ , to find
+can deposit fiat money using the Plutus centralized web-application. After verification by the
+△
+P i = EP ∗ B i ∗ R
+(7)
+Plutus internal infrastructure, users can trade
+by directly interacting with the smart contract
+The rebate reward rate has the delta in its superscript
+through the standard client provided by Plutus,
+to indicate that it was calculated using the previous
+or by using a custom client.
+days Bitcoin transaction volume as expressed in equation (5).
+• Pluton Token Contract: Determines the Pluton
+balance of every user on the Pluton network and
+
+8
+
+Figure 8: The Plutus Rebate Rate Algorithm
+
+Figure 9: The Pluton Smart Contracts Workflow
+9
+
+uses the standard Ethereum API where applicable. Users can view their balance and create
+Pluton transactions using a wallet that supports
+the transferable fungibles standard, through the
+plutons.sol ABI definition. For example: see
+Mist Wallet 0.3.5 (Beta 3) release.
+
+• VDC gateway connects to the Plutus app.
+– VDC providers API enables users to generate a single virtual debit card token for each
+selected currency (GBP, USD & EUR).
+– A Plutus app account only allows one VDC
+account per currency. Each new deposit
+will be added to the same VDC account.
+
+• Plutus Issuer Contract: Regulates the amount
+of Plutons issued as rebate rewards for Plutus
+users. The contract uses the process detailed in
+Section 2.4.1. Rewards are based on the amount
+of Bitcoin that a user trades for fiat currency
+each day. Only Plutus central can issue rebates.
+
+• VDC gateway connection to NFC device.
+– Plutus app user initiates a purchase cycle,
+by contacting the merchants NFC-enabled
+POS terminal (contactless card reader).
+
+• Name Registry Contract: Holds the addresses
+of all active Plutus smart contracts, and allows
+other smart contracts to call it to return specific addresses on the Ethereum blockchain. See
+namereg.sol for example code.
+
+– The mobile devices built-in NFC capability is used to send the VDC tokenauthorization code to the merchants payment processor or bank.
+
+A more detailed overview of Plutus smart contracts
+Trust & Security
+and how they interact can be found in Section 3
+4. Plutus smart contracts are being actively developed as open source software viewable on the The app user preloads his VDC using Bitcoin. The
+Plutus Github. Readers are encouraged to comment request is stored on the Ethereum blockchain, renor supply patches to the source code.
+dering it transparent and decentralized. This request
+is handled by the DEX, which sends the traders payExample of an smart contract source:
+out address to the Plutus Mobile App. The app then
+transfers Bitcoin directly to the payout address pro✁✂✄☎✆✝✂✞✟✟✁✠✡☛☞☞✌✠✟✟✍✆✟✟✁✠✌✎✄✝✆✂✍✏✑✁☎✝✂✒☞☞✌✓✔
+✆✟✟✁✠✌✒☞☞✌✕✍✆✟✟✁✠✌✖
+vided by the trader.
+✄✝✆✂✒☞☞✌✕✍✏✑✁☎✝✂✒☞☞✌✖
+✌✠✗☛☎✠✘✗☛✟✠✙✂✆☎✚✝✌✛✠✗☛☎✠✕✜✢✢✢✖
+✣
+☞☛✤✥☎✄✦✝✑✁✧✠✕✢✖
+★✝✑✁✧✠✙✏☞☛☎✠✩✆✧✠✟☎☛✧✏✕✂✝✪✖
+✏✑✁☎✝✂✕✄✝✆✂✡✍✏✑✁☎✝✂✒☞☞✌✓✖
+
+✫
+✁✂✄☎✆✝✂✁✏☞✛✠✗☛☎✠✛☛☎✠✡✁✆✂☎✍✑☛✟☎✬☛✤✥☎✄✦✝✑✁✧✠✓✝✪✂✠✌✭✮✠✄✯✌✠☎✁✌✂✟✡✁✆✂☎
+✏✑✁☎✝✂✛✠✪☛✌☞✛☛☎✠✓✔
+✆ ✡✍✑☛✟☎✬☛✤✥☎✄✦✝✑✁✧✠✰☞☛✤✥☎✄✦✝✑✁✧✠✓✔
+✣
+✫
+✌✠☎✁✌✂✡✌✠✗☛☎✠✘✏✑✁☎✝✂✛✠✪☛✌☞✛☛☎✠✓✖
+✫
+
+Since public addresses of traders are published on
+blockchains, and therefore known to the Plutus platform, the Plutus platform can verify that the amount
+transferred to the traders accounts is correct before
+releasing the fiat balance accordingly. The VDCprovider receives the fiat amount and loads balance
+to the customers VDC.
+
+The app is designed for small day to day payments
+only. It has a deposit limit for different account types
+and a per transaction limit of £30 in the UK (minimum transaction limit changes according to loca2.5 Virtual Debit Card Gateway
+tion). Users will be advised to only deposit what they
+wish to spend. In case of user error where the deposit
+A DEX trader transfers fiat funds to the Plutus es- amount is more or less than the requested amount,
+crow account prior to entering trade information. the smart contract will notify Plutus of the anomaly
+Only the Plutus virtual debit card gateway applica- and fund the users VDC account accordingly.
+tion can release the fiat balance to a virtual debit card
+token. This is a secure token used for authorization, Note: Traders receiving deposits have verified identiwhich is sent to the merchant’s payment processor ties using KYC/AML procedures and have fiat funds
+via the NFC mobile device. The fiat amount is re- secured in escrow. There is a minimum balance limit
+leased to the merchants bank-account via the debit for traders on the DEX to protect against anomalies
+card payment network, once the trade has been com- linking to incorrect deposit amounts.
+pleted.
+Figure 10: Pluton Rebate Code
+
+10
+
+Table 4: Blockchain Transactions
+✁✂✄☎✄✆✝ ✞✟✠✡☛✡✂☞✌✍
+✓✔✕✖✗✘✙✚✛✜✗✚
+
+✞✌✁✡✠✌✍ ✞✟✠✡☛✡✂☞✌✍
+
+✎✍✁✄☎✍☞✟ ✏✠✑✁✒☞☎✄
+
+✢✛✜✙✣✜✗✚✤✘✙ ✥✦✛✤✧✤✗✜✚✤✘✙
+
+✢✛✜★✦✛✩✦✪✗✫✜✙✬✦ ✧✛✘✙✚✦✙★ ✗✭✤✦✙✚ ✘✙
+✚✫✦ ✮✛✘✯✣✦✛✰
+
+4
+
+Development Technology &
+Smart Contract Stack
+
+✱✭✲✚✘✙✖✚✘✳✦✙ ✮✜✭✜✙✗✦✣
+
+✱✭✲✚✲✣ ✴✘✮✤✭✦ ✵✶✶ ✷★✜✚✜✮✜✣✦✸✰
+
+✱✭✲✚✘✙ ✦✹✤✣✣✤✘✙ ✣✹✜✛✚
+
+✻✭✘✗✳✗✫✜✤✙ ✚✛✜✗✳✤✙✬ ✣✦✛✼✦✛✰
+
+✗✘✙✚✛✜✗✚ ✷✱✭✲✚✘✙ ✛✦✮✜✚✦
+✣✺✣✚✦✹✸
+✱✭✲✚✲✣ ✗✦✙✚✛✜✭✤✽✦★ ✯✦✮ ✜✶✶✭✤✗✜✚✤✘✙✾
+✯✤✚✫ ✗✘✹✹✲✙✤✗✜✚✤✘✙ ✜✗✗✦✣✣ ✚✘
+✓✔✕✖✗✘✙✚✛✜✗✚✾ ✦✣✗✛✘✯ ✜✗✗✘✲✙✚ ✿
+✥✓❀ ✬✜✚✦✯✜✺✰
+
+Anyone with a contract address will be able to access
+data. However, only people with access to certain
+Ethereum accounts will be able to modify or enter
+data.
+
+Table 5: Implementation
+
+Table 1: Plutus Contracts
+✁✂✄☎✆✝✄✞
+
+✁✂✄☎✆✝✄ ✟✂✄✠☎✡✆✝✠
+
+✎✏✑✒✓✏ ✔✕✖✗✏✑✔✗
+✣✤✥ ✛✦✑✏✗ ✔✕✖✗✏✑✔✗
+
+✣✓✧ ✙✖✗✓✏★✑✔✓
+
+☛✄✁☎✆☞✠
+
+✌✍✠✂✄✞
+
+✘✔✗✙✚✓ ✗✏✑✒✓✏✛
+
+✎✏✑✒✓✏✜✓✢✙✛✗✓✏✓✒
+
+✣✓✩✕✛✙✗✓✒ ✪✙✗✔✕✙✖✫
+
+✪✙✗✔✕✙✖✣✓✩✕✛✙✗✫ ✮✙✑✗✣✓✩✕✛✙✗✯
+
+✒✓✩✕✛✙✗✓✒ ★✙✑✗ ✔✬✏✏✓✖✔✭
+
+✪✙✗✔✕✙✖✮✙✑✗✎✏✑✒✓
+
+✎✕✴✓✖ ✕✷✖✓✏✛✱✙✩
+
+✸✱✑✖✢✓✒
+
+✲✳✬✗✕✖ ✎✕✴✓✖
+
+✵✗✑✖✒✑✏✒✙✶✓✒
+
+✹✑✦✓ ✏✓✢✙✛✗✏✭ ★✕✏
+
+✵✗✑✖✒✑✏✒✙✶✓✒ ✖✑✦✓
+
+✜✓✢✙✛✗✏✭ ✕★ ✔✕✖✗✏✑✔✗ ✖✑✦✓✛
+
+✔✕✖✗✏✑✔✗✛
+
+✏✓✢✙✛✗✏✭
+
+✑✖✒ ✑✒✒✏✓✛✛✓✛
+
+✁✂✄☎✆ ✝✞✞
+✟✠✡☛☞✌✡ ✠✍✎✌✏✑
+✡✑✏✑✒☞✓✔✑✠✎✕ ✖✗✖✕ ✘✗✙ ✍✠✡
+✚✓
+
+✛
+
+✜✓✰✑✗✓✜✓✔✓✙✚✓✒ ✕✗✱✓✏ ✓✚✓✖✗✛
+
+✜✌✠✡☞✢✣ ✤✥☞✠✑ ✠✍✎✌✏✑
+✡✑✏✑✒☞✓✔✑✠✎ ✕ ✦ ✍✠✡ ✚✓
+
+✧✎✥✑☛ ✓✒✍✎★☞☛✔✣ ✢✌✒✒ ★☞✒✒☞✢ ✟✠✡☛☞✌✡ ☛✑✒✑✍✣✑✗
+✩✪✫ ✌✣ ☛✑✣✎☛✌✬✎✑✡ ★☞☛ ✡✑✏✑✒☞✓✑☛✣ ☞✠ ✎✥✑ ✌✧✭✗
+
+✸✕✙✖✵✓✖✗
+
+✮☎✯✰✁✱ ✲✱✳ ✴✄✰✵✁✄✱ ✰✶✲✵✷✄✱✸ ✹✆✶✺✆✶
+
+✔✬✏✏✓✖✔✭ ✑✩✙
+
+✻☞✛✼✎✥✑☛✑✚✔
+
+✧★★✌✬✌✍✒ ✽☞✒✍✠✽ ✌✔✓✒✑✔✑✠✎✍✎✌☞✠ ☞★ ✎✥✑
+✼✎✥✑☛✑✚✔ ✓☛☞✎☞✬☞✒
+
+✜✑✾✿✗❀✣
+
+✼✎✥✑☛✑✚✔ ✫☞✔✓✍✎✌✾✒✑ ❁✍✏✍✭✬☛✌✓✎ ✟✤❂
+
+✭☞✒✌✡✌✎❃
+
+❄✥✑ ✭☞✒✌✡✌✎❃ ✫☞✠✎☛✍✬✎✛✧☛✌✑✠✎✑✡
+✤☛☞✽☛✍✔✔✌✠✽ ❅✍✠✽✚✍✽✑
+
+❆✌✎✬☞✌✠✡
+
+❆✌✎✬☞✌✠✡ ✌✣ ✍ ✓☛☞✽☛✍✔ ✎✥✍✎ ✌✔✓✒✑✔✑✠✎✣ ✎✥✑
+❆✌✎✬☞✌✠ ✓☛☞✎☞✬☞✒ ★☞☛ ☛✑✔☞✎✑ ✓☛☞✬✑✡✚☛✑ ✬✍✒✒
+❇❈✤✫❉ ✚✣✑✗
+
+Table 1 Links:
+Standardized Currency API
+Standardized Name Registry
+
+✮☎✯✰✯✹❊❋● ✳✝✞✞
+
+Table 2: Plutus Accounts
+
+✩☞✎ ✓☛☞✏✌✡✑✡ ✌✠
+✢✥✌✎✑✓✍✓✑☛
+
+✜✑✾✿
+
+✼✎✥✑☛✑✚✔ ✜✑✾✿ ✍✓✌
+
+❍❄■❅✘
+
+❄☛✍✡✑☛❏✣ ★☛☞✠✎✑✠✡ ✢✌✒✒ ☛✚✠ ✌✠ ✍ ✔☞✡✑☛✠
+✾☛☞✢✣✑☛✗
+✭✓✑✬✌★✌✬ ★☛✍✔✑✢☞☛❑✕ ✒✌✾☛✍☛✌✑✣ ✢✌✒✒ ✾✑
+✡✑✬✌✡✑✡ ✍✎ ✍ ✒✍✎✑☛ ✎✌✔✑
+
+✝✞✞ ▲✆✶✺✆✶
+✁✁✂✄☎✆ ✝✞✟✠✡☛☞✂✌✠✡
+
+✍✄✎✏✠✑ ✂✒ ✁✁✂✄☎✆✡
+
+✁✁✠✡✡
+
+✓✔✕✖✕✗ ✘✙✚✛✜
+
+✢
+
+✣✚✤✥ ✛✥✦✧✗✖✛★ ✩✙✛ ✕✪✜✚✖✧✫✦ ✓✔✕✖✕✗ ✬✙✫✖✛✚✬✖✗
+
+✓✔✕✖✕✗ ✭✧✛✖✕✚✔ ✮✥✯✧✖ ✰✚✛✜
+
+✢ ✙✛ ✥✳✕✚✔ ✖✙ ✴ ✫✙✜✥✗ ✛✕✫✫✧✫✦ ✭✮✰
+
+✵✛✚✬✶✧✫✦ ✩✧✚✖ ✬✕✛✛✥✫✬★ ✖✛✚✫✗✩✥✛✷ ✤✚✖✬✸✧✫✦
+
+✱✚✖✥✲✚★
+
+✦✚✖✥✲✚★
+
+✲✧✖✸ ✥✗✬✛✙✲ ✯✚✫✶ ✖✛✚✫✗✚✬✖✧✙✫✗
+
+✓✔✕✖✙✫ ✮✧✗✖✛✧✯✕✖✙✛
+
+✢ ✙✛ ✥✳✕✚✔ ✴ ✹✗✗✕✥✛ ✗✤✚✛✖ ✬✙✫✖✛✚✬✖
+
+✺✬✬✥✗✗ ✖✙ ✬✙✫✖✛✚✬✖✗ ✩✙✛ ✓✔✕✖✙✫ ✥✤✧✗✗✧✙✫✻
+
+✵✛✚✜✥✛
+
+✼✙✛ ✥✚✬✸ ✖✛✚✜✥✛ ✖✸✚✖ ✲✧✔✔
+
+✩☞✎ ✓☛☞✏✌✡✑✡ ✌✠
+✢✥✌✎✑✓✍✓✑☛
+
+✗✕✯✗✬✛✧✯✥✽✢ ✩✙✛ ✖✛✚✜✧✫✦ ✪✔✚✖✩✙✛✤
+
+✪✔✚✖✩✙✛✤
+
+Table 3: Plutus Infrastructure
+✁✂✄☎✆✝✄✞✟✝✞✄✠ ✡☎☛✠
+
+✁✝✠✄☎✟✝☞✌✁✆
+
+✍✎✎ ✏✑✒✓✑✒
+
+✔✕✖✗✘✙ ✚✙✛ ✜✢✗✣✘✢✙ ✗✒✚✣✤✢✙✥ ✦✑✒✓✑✒ ✧ ★✢✒✗✖✚✕ ✛✑✩✢✗ ✣✚✒✛ ✥✚✗✑✪✚✫
+
+✔✕✖✗✘✙ ✚✙✛ ✜✢✗✣✘✢✙ ✗✒✚✣✤✢✙✥
+
+✭✗✮✑✒✑✖✯ ✜✕✘✣✤✣✮✚✢✙ ✦✗✘✒✚✥✑ ✧ ✜✢✗✣✘✢✙ ✜✕✘✣✤✣✮✚✢✙ ✦✗✘✒✚✥✑ ✧ ✍✎✎
+
+✚✎✎✕✢✣✚✗✢✘✙ ✧ ✬✙✗✑✒✙✚✕ ✛✚✗✚✩✚✦✑ ✦✑✒✓✑✒
+
+✦✑✒✓✑✒
+
+★✢✒✗✖✚✕ ✛✑✩✢✗ ✣✚✒✛ ✥✚✗✑✪✚✫
+
+✦✑✒✓✑✒
+
+✍✎✎ ✦✑✒✓✑✒ ✧ ✬✙✗✑✒✙✚✕ ✛✚✗✚✩✚✦✑ ✦✑✒✓✑✒ ✧ ✔✕✖✗✖✦✰✭✱ ✛✍✎✎
+
+✚✎✎✕✢✣✚✗✢✘✙
+
+✔✕✖✗✖✦✰✭✱ ✛✍✎✎
+
+✛
+
+Table 5 Links:
+Windows Phone
+Go-Ethereum
+Web3.js
+Solidity
+Bitcoind
+Web3 API
+
+✼✙✛ ✥✚✬✸ ✚✪✪ ✕✗✥✛✽✢ ✩✙✛ ✕✗✥✛
+
+✾✗✥✛
+
+✛
+
+▼✌☛✎✚✍✒ ✡✑✾✌✎ ✬✍☛✡ ✽✍✎✑✢✍❃ ✍✓✓✒✌✬✍✎✌☞✠
+
+✭✗✮✑✒✑✖✯ ✜✕✘✣✤✣✮✚✢✙ ✦✗✘✒✚✥✑
+
+11
+
+Glossary
+Bitcoin a digital peer to peer currency.
+blockchain a permissionless distributed database that maintains a continuously growing list of data records
+secured from any tampering or revision.
+escrow Bank account to secure fiat deposit from the network.
+Ethereum a next-generation application platform based on blockchain technology.
+fiat currency National currency issued by a central governing organization such as the European Bank or
+the Bank of England or the US Federal Reserve.
+Near Field Communication (NFC) Allows a mobile phone to communicate with a payment terminal.
+peer-to-peer (P2P) A network in which each computer can act as a server for the others, allowing shared
+access to data without the need for a central server.
+Plutons Rewarded to users when depositing Bitcoin. Built for instant confirmations and issued on the
+Ethereum blockchain as a digital token.
+Plutus Internal Infrastructure Central software hosted on servers to provide the platform for traders.
+It acts as a bridge between the blockchain and the VDC as well as the mobile application.
+Plutus Mobile Application Allows conversion of Bitcoin and Plutons to Fiat currency balance on a
+virtual debit card token to pay merchants.
+PlutusDEX Decentralized Exchange logic running as smart contracts on the Ethereum network.
+smart contract A computer protocol that facilitates, verifies, or enforces the negotiation or performance
+of an agreement between multiple parties.
+trader Plutus app user who buys Bitcoin in exchange for for fiat currency.
+user a consumer with an NFC-enabled mobile device with the Plutus Mobile App installed on their device.
+Virtual Debit Card (VDC) A debit card that is issued and usable on a digital device without a corresponding plastic card.
+
+12
+
+

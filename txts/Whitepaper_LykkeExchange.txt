@@ -1,0 +1,739 @@
+Lykke Exchange: Architecture, First Experiences and Outlook
+White paper
+
+Abstract
+Lykke Corp is a FinTech company based in Zurich that has launched the first global marketplace for all
+asset classes and instruments, using the Colored Coin protocol on blockchain. The paper explains the
+architecture of the exchange and first use cases. We discuss how the exchange will evolve over time. We
+explore the macroeconomic benefits of the new distributed ledger technology (DLT). The Lykke
+exchange operates similar to JAVA in the sense that it is compatible with any type of blockchain;
+marketplace was first developed on blockchain of Bitcoin, but is currently being expanded to Ethereum.
+Every financial instrument can become a listed security on the blockchain in the form of a digital token,
+through the so-called Colored Coin protocol. Colored coins follow the idea of ''coloring'' a specific
+Bitcoin - the issuer guarantees to hand out the underlying assets to the person, who returns the colored
+coin. For example, the Federal Reserve (FED) can issue a colored coin in the same way as it prints paper
+money; it would take a fraction of a Bitcoin and then insert the ''I Owe You'' statement of the FED, like a
+regular bank note. The same mechanism can be used for any other financial claim. Colored coins are
+different in nature than cryptocurrencies, because they have a specific issuer and are backed by a real
+financial asset.
+Reporting of colored coins in traditional banking software systems, such as bookkeeping and risk
+management is straightforward, because every colored coin can include an International Securities
+Identification Number (ISIN), thus can be treated as any other financial instrument, fully compatible with
+existing back-office systems. Financial institutions can create colored coins for existing financial products
+and gradually move business processes to blockchain. They can operate the old and the new systems in
+parallel and switch over to the new system at their own pace. In the new system, interest rate payments
+are second by second, improving liquidity provision.
+Lykke has launched the exchange initially for the main currencies, the Lykke coin (shares of Lykke) and
+started two innovative projects: colored coins for music rights and colored coins for CO2 certificates.
+Perspective asset classes include futures & options on digital assets, crowdfunded loans for retail and
+private equity financing for Small and Medium-Sized Enterprises (SME), contracts for difference, zero
+coupon bonds and other fixed income, natural capital bonds and more.
+Lykke Exchange and all its tools and services are open source; the transparency of technology is ideal for
+research. The paper provides a high level overview of the DLT, exchange architecture and reports on
+initial experiences. The paper concludes with a research agenda and technological roadmap.
+
+1
+
+1. Introduction
+The financial system architecture has grown organically. Over the past forty years, individual steps of the
+workflow of financial transactions have been computerized; the business process remained unchanged, as if
+processing continued to be manual. Delivery and settlement of transaction is batch based and occurs with a time
+delay of two and more days and does not happen at the time of the trade. The outcome is a convoluted banking
+architecture, a pile of spaghetti. Every bank has its own bookkeeping system and is an island from an audit point
+of view, where verification of trades is cumbersome and prone to errors. This regime contributes to a high degree
+of fragmentation and uncertainty in the market, multiplication of risk factors, high transaction costs for financial
+assets and lack of liquidity and transparency in financial markets.
+In attempt to rewire the current financial system Lykke builds a global Internet exchange, where all financial
+instruments will be traded and exchanged against each other, whatever their asset class or the size of transaction.
+Every financial instrument will be a listed security in the form of a digital token (a so-called colored coin1) and
+all transactions will be logged in a universally accessible distributed ledger, a decentralized notary service that
+ensures immediate global consensus about completed transactions and asset ownership. Like the Internet itself,
+the ledger is not controlled by a single entity, but an emergent phenomenon consisting of its participants. Trades
+will be settled and validated immediately; processing will be digital and transaction costs will be minuscule. The
+ledger includes a wallet, so every owner of a digital coin has his own private key protecting his ownership. There
+will be an intraday interest rate market and yield curve. Market participants will be able to buy and sell colored
+coins of different issuers and change counterparty risk at any time. The number of traded financial instruments
+will grow exponentially, transaction volumes will skyrocket and liquidity will be ample.
+Lykke aims to become the global marketplace and establish itself as the backbone of a new and highly
+sophisticated banking architecture that is not plagued by the deficiencies of the present system. This paper
+introduces the architecture of Lykke Exchange and provides the details on the first 2 months of trading in a beta
+mode.
+
+2. Distributed ledger technology overview
+This chapter provides an overview over what distributed ledger technology can and cannot do in comparison to a
+traditional software architecture. It also compares different variants of DLT and compares them to Bitcoin,
+which is the oldest and most popular implementation.
+
+What is DLT?
+In abstract terms, distributed ledger is a way to find a consensus among a multitude of servers in the absence of
+mutual trust. Most DLT variants follow a proof-of-work protocol, which provides strong economic incentives for
+contributing to the network security (mining). The largest distributed ledger currently in operation is the Bitcoin
+blockchain. The hardware cost to match the computing power that currently secures the Bitcoin blockchain is
+likely in the triple-digit millions, if not higher.
+1
+
+Colored coins is a software protocol to specify terms and conditions attached to a particular Bitcoin or smaller Bitcoin
+increment. In analogy to financial securities issued as paper certificates, Bitcoin or a small increment is used as a kind of
+paper to specify additional terms and conditions.
+
+2
+
+A distributed ledger is fundamentally based on publicly announcing every transaction, thus allowing anyone
+listening to verify and track the balances of every other network participant. Whenever Alice wants to transfer 3
+Bitcoins (or whatever currency that ledger supports) to Bob, she creates an according transaction, signs it and
+publicly announces it. From now on, everyone knows that Alice has 3 Bitcoins less and Bob has 3 Bitcoins
+more. This is all there is to it. All other complications such as mining stem from the problem of ensuring the
+existence of a reliable public transaction archive and that everyone agrees on which transactions have actually
+happened in what order.
+Bitcoin itself and most Bitcoin clones rely on proof-of-work to secure their blockchain. The idea behind proofof-work is to increase the cost of an attack by letting the majority of the computing power in the network build
+the blockchain. A sustained brute-force attack would require a majority of computing power in the Bitcoin
+network. As proof-of-work comes with an immense amount of “wasted” computing power, “proof-of-stake” has
+been proposed as an alternative. However, some argue that this approach is fundamentally flawed and so far,
+attempts at creating proof-of-stake based ledgers have had mixed success.
+When measuring security as the USD-cost of an attack, the most secure distributed ledger currently in existence
+is the Bitcoin blockchain. There are alternative cryptocurrencies that add security in principle thanks to certain
+tweaks. Litecoin, for example, uses a hashing algorithm that makes it harder to create specialized mining chips.
+Ethereum follows a plan to discourage a professionalization in mining and switch to the Proof-of-Stake
+consensus model. But the sheer amount of computing power securing the Bitcoin blockchain dwarfs the effect of
+those tweaks. One cannot rule out that other cryptocurrencies succeed at taking the lead security-wise in the
+medium term future, but for now, the Bitcoin blockchain remains the most secure platform to build on.
+
+DLT vs. Distributed database
+Open distributed ledger is a great platform to build other services on top, as it is an independent technology
+without any vendor lock-in or other entity behind it that might abuse it one day to further their strategic agenda.
+Examples of other such decentralized technologies that serve as a platform for others to build on are Linux,
+Email, or the Internet. A distributed ledger should be the technology of choice for projects that benefit from high
+inter-operability and versatility in use.
+As soon as the involved parties can be trusted, there are usually more efficient solutions than a distributed ledger.
+When the main issue is unreliable hardware that can otherwise be trusted, the Paxos algorithm is typically used.
+This is what Google does in order to provide reliable services with commodity hardware. Then, there are a
+number of database solutions that can be the most efficient in principle but require highly reliable hardware and
+also complete trust in the operator. Decentralization comes at a cost.
+
+3
+
+The power of the Bitcoin platform
+Open platform technologies can unleash enormous powers, which would not materialize in a centralized setup.
+The classic example is the Internet, which thrives thanks to its open architecture and which has quickly outrun
+all alternative approaches (e.g. the French Minitel). Another example is Linux, which serves as an operating
+system for the majority of servers in the Internet. Its main advantage is the fact that a company can commit to
+using it without becoming dependent on a potential competitor. A third example is the email protocol, which is
+being used to send billions of messages every day. Email would never have flourished to the same extent if it
+was directly controlled by a company. Similarly, Bitcoin is often seen as the open platform for finance.
+Originally, Bitcoin was most popular among cypherpunks and cryptoanarchists. To this day, Bitcoin has a
+significant number of proponents from that background, who love Bitcoin for its libertarian philosophy and who
+cherish it as digital gold. Driven by a vast inflow of venture capital, Bitcoin is of gaining broader traction among
+early adopters whose enthusiasm stems more from Bitcoin’s usefulness and versatility than from its technical
+brilliance.
+Since 2014 Bitcoin saw unprecedented inflows of venture capital. It is one of a number of growing startups that
+have each raised venture capital in the double digit millions. While most Bitcoin startups are profit driven with a
+clear plan for generating revenue, Blockstream which recently raised 21 million is a remarkable exception.
+Unlike other Bitcoin startups, Blockstream aims at improving the Bitcoin infrastructure itself - without obvious
+financial benefit. Its investors argue that there is huge value in being able to help shaping the future of the
+Bitcoin protocol and being at the forefront of Bitcoin development.
+The most important metrics for Bitcoin traction is the number of transactions per day, which is currently
+approaching 200’000, as illustrated in figure 1.2
+
+Figure 1: Bitcoin transactions per day (7-day average)
+2
+
+https://blockchain.info/charts/n-transactions?daysAverageString=7&timespan=all#
+
+4
+
+Another interesting metric is the amount of computing power supporting the network, which currently
+approaches 1’600’000 terahash/s3 (see figure 2).
+
+Figure 2: Computing power supporting the Bitcoin network (7-day average), TH/s
+(an average PC has about 0.01 GH/s, a specialized mining hardware up to 14 TH/s)4
+Given the price estimates of the current mining hardware5, it would cost around 250-300 million USD in
+hardware to acquire enough computing power to dominate the Bitcoin network.
+The Bitcoin exchange rate peaked in autumn 2013 somewhat above 1150 USD, and now meanders around 600
+USD. As currently 1800 new Bitcoins are mined daily, an inflow of more than 1 million USD per day is
+necessary just to hold the price at its current level, which is high, but obviously not unrealistic.
+
+3
+
+https://blockchain.info/charts/hash-rate?daysAverageString=7&timespan=all#
+https://en.bitcoin.it/wiki/Mining_hardware_comparison
+5
+https://www.bitmaintech.com/productDetail.htm?pid=0002016052907243375530DcJIoK0654
+4
+
+5
+
+Figure 3: Bitcoin exchange rate, USD
+Initially, enthusiasts and hobbyists with desktop PCs and later graphics cards equipped with parallelized chip
+architecture did Bitcoin mining. Today, Bitcoin mining has become a professional endeavor, with customdesigned chips and a value chain of specialized services. Hardware manufacturers such as Bitmain Technologies
+or BitFury design and manufacture specialized ASIC chips. The miners operate the hardware - typically in
+locations with low electricity costs and sell the generated computing power to mining pools, which in turn
+redistribute the freshly minted coins and earned transaction fees back to the miners.
+Bitcoin is valued 10 times as high as the second most highly valued crypto currency – Ethereum – thereby
+clearly taking the lead (table 1). The value of a currency strongly depends on the number of participants,6 which
+in turn attracts more participants, leading to a network effect. Typically, communication technologies such as the
+telephone or WhatsApp and social networks such as Facebook share this network effect, which makes competing
+with the number one an uphill battle. Thus, Bitcoin has a significant first-mover-advantage, which plays out
+threefold:
+● The more users there are, the more useful Bitcoin becomes, as there are more places to spend Bitcoin
+and counterparties to exchange Bitcoin with, attracting even more users.
+● Currencies require trust, but trust can only be built over time, thus - everything else equal - giving the
+oldest currency a natural edge over its competitors.
+● The more volume there is the more transaction fees there are, attracting more miners and making the
+network more secure, which in turn again attracts additional users and volume.
+With currencies that serve as a store of wealth, there is an additional lock-in insofar as it is takes effort to transfer
+that wealth into other currencies. Thus, there are multiple effects in place that make it very hard to dethrone
+Bitcoin.
+
+6
+
+This effect is often referred to as Metcalfe’s Law: http://en.wikipedia.org/wiki/Metcalfe%27s_law
+
+6
+
+#
+
+Icon
+
+Cryptocurrency
+
+Market Capitalization in USD
+
+1
+
+Bitcoin
+
+9,470,642,364
+
+2
+
+Ethereum
+
+998,585,632
+
+3
+
+Ripple
+
+220,037,515
+
+4
+
+Steem
+
+190,354,108
+
+5
+
+Litecoin
+
+178,558,602
+
+6
+
+Ethereum Classic
+
+147,470,618
+
+7
+
+Dash
+
+69,298,087
+
+8
+
+NEM
+
+50,984,280
+
+9
+
+MaidSafeCoin
+
+44,534,778
+
+10
+
+Nxt
+
+30,766,403
+
+Table 1: Cryptocurrencies by Market Capitalization7
+
+Chapter Summary
+Bitcoin is one of those technologies in which people see the potential to disrupt the world. It illustrates the power
+that open platforms can unfold. There are various competitors and clones, but none of them comes close to the
+popularity and success of Bitcoin. The many unsuccessful attempts of creating competing coins show that one
+should, whenever feasible, ride the wave and build on top of Bitcoin instead of creating one’s own proprietary
+ledger. By building on top of Bitcoin, one can leverage the power if its blockchain, which has been continuously
+running for over five years and amassed computing power worth hundreds of millions, thereby enabling a lean
+business model, that stands on the shoulders of a giant.
+
+7
+
+The total value of all coins in circulation at current prices is often referred to as market capitalization. Updated as of
+10/08/2016. Source: http://coinmarketcap.com/
+
+7
+
+3. Colored coins exchange architecture
+In this chapter we present the architecture of an exchange for colored coins. By colored coins we mean issuerbacked securities on the Bitcoin blockchain. Orders are collected and matched by a semi-trusted exchange.
+Matched orders are settled on the Bitcoin blockchain, where each successful trade between parties appears as a
+set atomic colored coins swap transaction. Unfilled and expired orders are discarded. The exchange does not take
+possession of the traded coins, but needs to be trusted to match trades correctly. Assuming a basic level of trust
+in the trader - which could for example be established by providing collateral - trading can take place as fast as
+the communication between a trader and an exchange permits, with a subsequent settlement on the blockchain.
+Exchanges for cryptocurrencies can be organized with a different degree of centralization. Typically, centralized
+exchanges are much more efficient, whereas decentralized exchanges are more secure as they require less trust in
+the exchange. Due to their higher efficiency and simplicity, most volume is currently traded on centralized
+exchanges such as BTC China, Bitstamp or Bitfinex.8 A trader on such an exchange must entrust all assets in his
+trading account to the exchange. History shows that this is not without risk, with the most famous examples
+being the collapse of MtGox (more than 600’000 Bitcoins disappeared) and the most recent hacking of Bitfinex
+(120’000 stolen Bitcoins). Exchanges such as Bitcoin.de and LocalBitcoins are more decentralized and restrict
+themselves to organize trades and offer escrow services, but let the traders execute the actual trade bilaterally,
+whereas traders on LocalBitcoins often even meet physically. This naturally limits the achievable speed of
+trading to the speed of the underlying payment system (e.g. SEPA or moving bank notes). These exchanges can
+achieve a much higher trading frequency without having to resort to client deposits by restricting themselves to
+cryptocurrencies that can be exchanged instantly. Examples of such exchanges or whole cryptocurrency systems
+that include built-in decentralized exchanges are Omni, Counterparty, and BitsharesX - none of which achieved
+the same commercial success yet as the aforementioned centralized exchanges. These exchanges frequently try
+to even decentralize the matching of trades, which is problematic as it is fundamentally hard to enforce rules in a
+decentralized system, especially when timing is crucial. For the design of our exchange, we opt for a system with
+centralized matching of trades, but with direct bilateral exchange of assets, trying to combine the best of both
+worlds. One should also note that, when trading particular colored coins or any other issuer-backed asset, there is
+exposure to a centralized point of failure anyway, namely the issuer.
+
+Design Considerations
+We follow the design principles of simplicity and minimal risk. Thus, we prefer proven systems with known
+shortcomings that are good enough for our purposes over theoretically better systems. The best validated
+distributed ledger technology is clearly Bitcoin, with a blockchain spanning back more than five years.
+Unfortunately, the Bitcoin network only supports one asset, the Bitcoin. One way to overcome this would be to
+create an adapted version and to operate a separate blockchain that runs that adapted protocol. With a separate
+blockchain, one cannot benefit from all the computing power securing the Bitcoin network, calling for further
+adaptions, such as abandoning proof-of-work (majority of computing power says which transactions settle) for
+proof-of-stake (majority of coin wealth says which transactions settle) or something entirely different. The path
+of building a custom ledger has been chosen by a number of cryptocurrencies, such as Ethereum. This leads to
+the risks of over-engineering and stepping into uncharted territories, which are both hard to control.
+
+8
+
+Market Overview, bitcoincharts.com
+
+8
+
+Thus, instead of creating yet another distributed ledger, we decided to make use of the Colored coins approach,
+which builds on top of the Bitcoin blockchain. As the name suggests, colored coins follow the idea of “coloring”
+a specific Bitcoin, with an issuers guaranteeing to hand out the underlying assets to whoever returns that colored
+Bitcoins (or a fraction thereof). Thus, such colored coins are always linked to Bitcoins - like physical coins being
+bound to a few grams of a metal that also has a value in itself and is independent of the currency value. Further
+limitations are discussed in the scalability section. Current implementation of Lykke Exchange operates with
+Open Asset colored coins protocol9.
+The proposed exchange is positioned in between completely decentralized proposals (such as Counterparty) and
+completely centralized ones (such as Bitstamp). Decentralized approaches tend to come with significant
+overhead, for example by creating an entry on the blockchain for every issued order. Centralized exchanges are
+much more efficient, but require the exchange to take possession over the assets of the traders as deposits, which
+in many jurisdictions comes with certain regulatory duties (e.g. requiring a banking license). Our approach finds
+a middle ground between those two. Only completed trades enter the blockchain, while unfilled orders are
+discarded. At the same time, assets can be traded ad hoc and are directly transferred between the trading parties,
+thereby letting the exchange act as a mere broker without clients’ deposits.
+
+Involved Parties
+There are three involved parties:
+● Issuers issue IOUs as colored coins. These coins can represent currencies, stocks, or any other
+transferable asset. An exchange can demand from the issuer to file a formal application for his coins to
+be listed, but there is no technical necessity to do so. In principle, any colored coins could be traded on
+an exchange - even without the consent of the issuer. The role of the issuers is passive, all they can do is
+to observe completed trades as they settle on the blockchain.
+● Traders possess Bitcoins or colored coins and desire to trade them for other assets. Traders typically
+need to be registered with the exchange in order to establish a basic level of trust (e.g. legally or by
+providing a collateral). To initiate trades, they send orders to an exchange of their choice. The traded
+assets must reside on a Bitcoin address associated with the trader’s account on the exchange. Traders
+primarily communicate directly with the exchange, but should also observe the blockchain to verify the
+correct settlement of their trades.
+● Exchanges wait for traders to send them orders and collect them in an order book. The usual order types
+are supported (bid, ask, limit, etc). Matched trades are settled on the blockchain. In principle, any asset
+pair can be traded, but in practice market forces will probably let a dominating currency emerge (similar
+to the USD in a classical foreign exchange). There could be various competing exchanges.
+
+High-Level Description
+Traders create an order by creating and signing a collateral transaction to send x coins to the exchange, whereas x
+is the amount and type of coins they intend to sell. Unlike usual transactions, this collateral transaction is not
+sent to the Bitcoin network, but to the exchange instead, along with additional information about the order (type,
+asset to buy, limit, etc.). The collateral transaction guarantees settlement for the matched trade in case if trader is
+9
+
+https://github.com/OpenAssets/open-assets-protocol/blob/master/specification.mediawiki
+
+9
+
+offline. The provided collateral transaction will never be broadcasted over the Bitcoin network if the client signs
+an atomic swap transaction for the matched trade. As soon as the exchange receives a matching order containing
+a second collateral transaction, the exchange creates an atomic swap transaction that sends the exchanged
+amounts to the two traders and asks both traders to sign it. Broadcasting of the atomic swap transaction signed
+by both traders will invalidate guarantee transactions while it is spending the same outputs. If one of the trader is
+offline and not able to sign the swap transaction, the exchange uses collateral transactions and sends the
+exchanged amounts to the two traders. Unfilled or cancelled orders are simply discarded.
+
+Partial Trades
+Most of the time, one of the involved orders will only be partially filled. The remaining funds are immediately
+returned to the sender for resubmission of the remaining trade. For example, if trader Toni issues an order to sell
+100 USD for EUR and his order is immediately matched with 80 USD worth of counter-orders, the remaining 20
+USD are sent back to Toni along with the acquired EUR. Toni’s trading software then automatically creates and
+signs a new order to sell the remaining 20 USD.
+
+Matching
+Lykke Exchange implements a new type of queuing system for the limit orders. The queuing system is pricespread-time dependent, because it rewards market participants for quoting two-way prices and revealing
+information about their price expectation. Market participants who are confident that the price level will remain
+unchanged, will offer low spreads, they will get preferential treatment and will move ahead in the queue. Highfrequency traders will not be able to extract an unfair advantage from the pending limit orders as is the case
+today with price-time queuing systems that are standard. The innovation translates into improved price discovery
+with lower price volatility and improved market efficiency. The price-spread-time queuing system is a major
+innovation for the industry of electronic market places, which use queuing systems that are only price-time
+dependent.
+
+Multisignature Wallets
+To be able to trade, traders should deposit coins into exchange. Depositing coins is not equal to trusting coins.
+The exchange uses 2-of-2 multisignature address wallets to deposit trader’s coins. 2-of-2 multisignature address
+requires two signatures to spend coins from it - both trader’s and exchange’s signatures.
+
+Client
+
+2-of -2 Multisig wallet
+Client + Exchange
+
+Exchange
+
+Figure 4: 2-of-2 multisignature address used to deposit trader’s coins.
+Two signatures are required to spend coins – both trader’s and exchange’s.
+A MultiSig wallet provides the following advantages:
+
+10
+
+
+
+Deposit does not mean trust: The exchange cannot spend coins without the trader's key. Even if the
+exchange is compromised and the exchange’s key is stolen, the trader will not lose his coins. The second
+key is required to spend deposited coins.
+
+
+
+Coins flow control: On the other hand, the exchange's signature is required for each transaction.
+Deposited coins cannot be transferred outside the exchange without the exchange being aware of it.
+
+
+
+Green nodes network: Identified clients only (KYC) are allowed to trade. A trader is able to spend
+deposited coins whether for trading inside the exchange or for withdrawal. A trader cannot transfer the
+coins outside the exchange green nodes network, if it's not allowed by the issuer.
+
+Multisignature Address Safety
+What happens with deposited coins if the exchange's private key is destroyed? Would the deposited coins be
+frozen in the multisignature address forever? To guarantee funds recovery from the MultiSig wallet, the
+exchange provides offchain refund transactions.
+
+2-of -2 Multisig wallet
+Client + Exchange
+
+Client
+
+Exchange
+
+Refund Offchain
+transaction
+nLockTime=31d
+
+Figure 5: Off the blockchain refund transaction is signed by the exchange.
+Refund transaction will be valid after 31 days lock.
+Refund transaction sends deposited coins back to the trader's private address. Once the refund transaction is
+signed by the exchange and a trader, the refund can be broadcasted after 31 days. The refund transaction is
+invalidated each time when the trader makes a trade that spends “refunded” outputs. The exchange generates a
+new refund transaction after each new trade and sends the transaction binary file to the trader's mail. The trader
+may use the refund in case of emergency.
+The exchange monitors new transactions on the blockchain and detects if the valid refund transaction was
+broadcasted. It is considered as withdrawal.
+
+Scalability
+Generally, all received coins can immediately be reused in a new trade. Thus, trading can be as fast as the
+connection between a trader and the exchange permits (normally in the range of 10ms - 100ms). Temporarily,
+the number of trades can exceed the limits given by the Bitcoin blockchain, as this just leads to a delayed
+settlement. Note that the size of the collateral (or amount of trust in the trader) should cover the potential net
+
+11
+
+gain of the trader when unwinding the unsettled transactions. Thus, the exchange should measure that potential
+net gain and block further trading in case it approaches the size of the collateral.
+Upon the implementation of recent SegWit soft-fork the Bitcoin network will have a limit of about 780’000
+transactions per day.10 Today, the network processes about 200’000 transactions per day.11 As soon as the
+number of issued transactions hits the limit, miners will start to drop the ones with the lowest fees. As every
+dropped transaction means a loss of potential revenue, they will likely push for an increase of the limit in such a
+scenario. The actual technical limit according to core developer Gavin Andresen is in the range of hundreds of
+millions of transactions per day.12
+To mitigate capacity limit, Lightning Network13 and Micropayment channels14 are the perspective approaches.
+Instead of broadcasting each single transaction on the blockchain, parties deliver coins by sending signed
+transaction messages offchain with subsequent net settlement on the blockchain.
+
+Micropayment channels approach
+Micropayment channel is based on the 2-of-2 multisignature address where both parties of the channel deposit
+coins into the address and communicate off the blockchain. The current balance of parties is stored as the most
+recent offchain refund transaction signed by both parties spending from the multisignature address15. To make a
+transfer, client sends a signed refund transaction message spending the corresponding volume of coins from the
+multisignature address. The final refund transaction signed by both parties can be broadcasted when the parties
+withdraw their coins.
+
+Payment Hubs
+Payment Hub acts as an intermediary for transferring money from one point to another. Traders who need to
+exchange an asset in a scalable way would open micropayment channels with Payment Hubs. When one wants to
+send USD coins to the exchange he/she would send coins to the USD Payment Hub using the channel, then the
+hub sends its coins to the exchange using another channel. Payment Hubs cannot steal coins on the way to
+exchange because of using hash lock protection16. Payment Hubs provide coins in the payment channel address
+for being able to route payments effectively. Exchange sends EUR coins back to the trader using another EUR
+Payment Hub that provides liquidity for the EUR coins. Issuers of coins may act as Payment Hubs to provide
+transferring of the issued coins in the scalable way.
+
+10
+
+Depends on transaction, see also Maximum Transaction Rate on Bitcoin Wiki
+https://blockchain.info/charts/n-transactions
+12
+https://gist.github.com/gavinandresen/e20c3b5a1d4b97f79ac2
+13
+http://lightning.network/docs/
+14
+https://en.bitcoin.it/wiki/Contract#Example_7:_Rapidly-adjusted_.28micro.29payments_to_a_pre-determined_party
+15
+Bitcoin Opcode OP_CHECKSECVENCEVERIFY (BIP-0112) is available for relative lock-time on mainnet Bitcoin
+blockchain from May 2016. This opcode can be used for providing revocable refund transaction for the multisignature
+payment channel address. http://ozlabs.org/~rusty/ln-deploy-draft-01.pdf
+16
+https://en.bitcoin.it/wiki/Lightning_Network#Hash_locks
+11
+
+12
+
+Figure 6: Both exchange and traders have micropayment channels with Payment Hubs to be able to transfer
+multiple types of coins off the blockchain. Issuer of the coins may act as Payment Hub.
+
+Attacks
+Malicious traders could prevent the settlement of a trade by issuing a competing transaction that sends the
+offered coins elsewhere. Doing this is trivial as long as the order is pending and thus no transaction published but assuming that the exchange provides an option to cancel pending orders, there is no motivation to do so as it
+results in the same, namely the cancellation of the order.
+A malicious trader might also regret an order after it was matched and sent to the network, thus wanting to
+disrupt settlement. As transactions spread quickly through the Bitcoin network, successfully issuing a competing
+transaction to prevent that regretted trade would require collusion with the miner who happens to mine the next
+block - something a large mining pool probably would not want to risk its reputation for as such cheating
+attempts are perfectly detectable. The easy detectability also allows to automatically trigger counter-measures
+such as freezing the collateral of the trader or banning the trader.
+A related attack is based on transaction malleability. Transaction malleability is a weakness in the Bitcoin
+protocol that allows anyone to slightly alter a transaction in ways that cause the transaction to change its id
+(hash). Should the altered transaction enter the blockchain instead of the original one, already issued follow-up
+transactions will be orphaned and fail as they use the original id to refer to their predecessor. The necessary
+adaptations to the Bitcoin protocol to fix this are known, and implemented.
+Another attack on the system could be performed by the exchange itself. If hacked or run by a malicious
+operator, whoever controls the exchange could potentially take possession of all assets in all currently pending
+orders. This is already much better than the risk of traditional exchanges like MtGox to misappropriate all their
+clients accounts, but is still a significant risk that needs to be addressed through according security and
+regulatory measures.
+All the aforementioned risks pale in comparison to the counterparty risk inherent in colored coins. Regardless of
+how securely the exchange is organized, an issuer of colored coins could default or misappropriate the
+underlying assets. An exchange can help to alleviate this risk by only allowing the trade of coins from verified
+issuers with quantifiable counterparty risk. This risk can be mitigated by diversifying coins across multiple
+issuers and by swapping to coins that are deemed less risky if necessary.
+
+13
+
+Leveraged Trading
+In order to provide leveraged trading, an intermediary service such as a bank willing to provide credit is
+necessary. This is basically the same as traditional leveraged trading. Instead of directly trading on the exchange
+with their own wallets, traders will transfer their assets to a managed wallet. Such a managed wallet resembles a
+bank account, with the bank managing the wallet having full control over the contained assets. Like in classical
+banking, orders issued by the traders go to the bank first, where they are verified, and then sent to the exchange.
+The bank can then offer credit to the trader, which is added to the managed account. But as soon as the account
+is not sufficiently covered any more, the margin call is issued, the assets liquidated, and outstanding credit
+returned to the bank.
+
+Current State
+Lykke Exchange was developed since December 2015 and went live beta on March 2016 with wider industry
+test that started in May 2016. The infrastructure consists of the following components:
+
+
+
+
+
+
+
+Matching engine
+Lykke backend (Microsoft Azure)
+Blockchain of Bitcoin / Open Asset colorcore
+Issuer UI (Coinprism)
+Lykke Wallet app (iOS / Android)
+Market making algorithms
+
+Figure 7: Lykke Exchange high-level architecture
+
+14
+
+Lykke Exchange and all its tools and services are fully open source17. Total size of Lykke code in Github
+repository has recently reached 1.5 million lines, with own (not-forked) code exceeding 1 million.
+The development process has started as a result of the competition launched in September 2015. Three prizes
+were awarded to the three submissions that were received. The proposed projects were complementary to the
+design of FX platform and the asset protocol, and this helped to form a core of the Lykke team18.
+
+Crowd-based approach to resources
+The company organization is inspired by the principles that govern dynamic systems in nature, such as the
+human body. Lykke implements an emergent structure, where processes are crowd-based and contributors are
+incentivized with prizes in many different shapes and forms. Prize-payouts have a scaling property with many
+small prizes. For example: a first prize with a payout of 400 USD, four second prizes with a payout each of 200
+USD and 16 third prizes with a payout each of 100 USD at a total cost of 2800 USD. The scaling property of
+prizes reward many individuals and nurture talent on a broader scale than the typical approach of just offering
+one first, one second and one third prize. We successfully applied this idea in the design competition for the
+exchange.
+The company has a small core group of managers; they are mandated to get the processes going, fine tune
+operations or have very specific technical expertise. We use the crowd process as a screening mechanism to
+identify highly dedicated and gifted employees. The crowd-based management principle has to our knowledge
+never been implemented as radically as envisioned for Lykke. There are, however, examples of companies and
+nonprofit organizations that have followed similar management principles, such as Wikipedia, Mozilla or Open
+Source Initiatives, such as Bitcoin or Eclipse. The productivity of these initiatives in terms of output relative to
+cost is an indication that the crowd-based strategy may surpass expectations.
+
+Chapter Summary
+Building a secure, high-performance exchange for colored coins is technically feasible. There are a number of
+trade-offs between performance and security. In a trusted environment, the highest performance is reached,
+whereas a completely secure setup comes at a price of slower transactions. Both approaches can be mixed
+depending on requirements. The distributed ledger technology allows to run such a cryptoexchange in a fully
+transparent and open way, potentially allowing anyone to trade on it with minimal trust requirements and
+providing a platform for other cryptoservices to build on. Current implementation of Lykke Exchange operates
+with Open Asset colored coins protocol and 2-of-2 multisignature wallets. Lykke Exchange and all its tools and
+services are fully open source.
+
+17
+18
+
+https://github.com/LykkeCity/LykkeX
+https://lykke.com/leadership.php
+
+15
+
+4. Lykke Exchange First Experiences and Outlook
+On May 31, 2016 Lykke has launched the exchange initially for the main currencies, including US dollar, euro,
+Swiss franc, British pound, Japanese yen, as well as Bitcoin and Lykke coin (shares of Lykke).
+During the period between May 31 and August 10, 2016 around 500 trades were settled. The full trade log is
+available on blockchain19. In total 35 accounts appeared to trade. The distribution of trading activity in log-log
+scale is shown in figure 8. Most active account is a designated market maker, which processes most of the trades.
+
+Figure 8: Distribution of trading activity on Lykke Exchange (in log-log scale). Each dot represents a trader.
+To settle the asset swap transaction on the blockchain of Bitcoin, the dynamic fee is used conditional to the
+Bitcoin network traffic to optimize the broadcasting time20.
+The settlement time (time interval from the order matching until the first confirmation) has lognormal
+distribution: ln X ~ N(-0.9787, 1.4469). See figure 9 for the empirical cumulative probability density function
+and fitted curve.
+The median time of the settlement is 22.5 minutes, 80% of the trades settled within 1 hour; 90% - within 2.5
+hours; 99% - within 12 hours.
+
+19
+20
+
+https://www.coinprism.info/address/anJBX5sKFK4vnbywKWE2NQa9xrvLJEqRAB2
+https://bitcoinfees.21.co/api/v1/fees/recommended
+
+16
+
+Figure 9: Distribution of confirmation time on Lykke Exchange (in hours on log scale)
+The most actively traded asset pair on Lykke Exchange at the period was BTC/USD, which accounted for 18%
+of the trades; with Lykke coins standing the second most active.
+
+Figure 10: Structure of trading activity on Lykke Exchange, % in number of trades.
+
+17
+
+In July two innovative projects were started: colored coins for music rights (Sheela coin) and colored coins for
+biodiversity protection finance linked to CO2 certificates (Rimba Raya coin).
+Pilot music rights IOU issuance was done in collaboration with Zeptagram for the song “Sheela!” from the
+album “The Lifting of The Veil” recorded by Tapefly (Stim ID: 5814744 ISWC ID: T-205132833-4). Free float
+of the coin is 5% for the market cap of 30’000 EUR.
+Rimba Raya Biodiversity (RRB) pilot coin was issued with InfiniteEARTH that is working with the local
+community in Borneo, Indonesia, to introduce sustainable forestry, build schools and hospitals, while also
+supporting a critical orangutan sanctuary. Rimba Raya is one of only four global REDD+ projects to achieve a
+triple gold CCB rating for Climate, Community & Biodiversity benefits21. The RRB coin is 100% backed by
+REDD+ credits22. The value of RRB will fluctuate like other traded commodities. Given the ICO bulk discount,
+however, RRB will likely appreciate to average institutional REDD+ pricing levels. Over the next five to ten
+years, RRB could benefit from a global price on carbon, which leading economists agree is the most effective
+policy response to climate change.
+Perspective asset classes include:
+
+
+
+
+
+
+
+
+
+Equity financing;
+Contracts for difference (CFD);
+Futures & options on digital assets;
+Zero coupon bonds and other fixed income;
+Natural capital assets;
+Industry settlement coins;
+Land and real estate;
+Crowd-funded retail loans.
+
+Chapter Summary
+As once formulated by Paul Buchheit: “Bitcoin may be the TCP/IP of money”23. The money transmission
+protocols will evolve and in future there will be many blockchain-based digital assets. The important component
+that is missing is a global market place that enables exchange of digital assets directly without going through fiat
+or crypto currencies. Lykke builds a global Internet exchange, where all financial instruments will be traded and
+exchanged against each other, whatever their asset class or the size of transaction.
+The first two months of operations of Lykke Exchange has shown the viability of the semi-trusted architecture
+that allows a compromise between usability, liquidity and security of funds in the toxic Internet environment.
+
+21
+
+http://rimba-raya.com/wp-content/uploads/2015/09/InE-RRC-PressRelease-28Sept2015.pdf
+Reduced Emissions from Avoided Deforestation and Forest Degradation (REDD+) http://www.un-redd.org/
+23
+Paul Buchheit, Creator of Gmail, https://twitter.com/paultoo/status/328969714283995136
+22
+
+18
+
+We envision the following technological and business roadmap ahead:
+
+
+
+
+
+
+
+
+
+Margin trading (Q4 2016)
+Regulated retail FX (Q4 2016)
+Offchain settlement scalable to 100’000+ transactions per second (Q4 2016)
+Ethereum support: multisig wallets, interblockchain atomic swaps (Q1 2017)
+Payment system provider (Q2 2017)
+Regulated institutional FX (Q3 2017)
+Fixed income products, commodities (Q3 2017)
+1 billion USD average daily volume (Q4 2017)
+
+The transparency of the blockchain technology provides unique research opportunities: the trade log has the
+resolution to participants ID. Potential research directions include in particular:
+
+
+
+
+
+
+
+
+
+empirical market microstructure of digital assets marketplace;
+scaling laws and optimal market design;
+intraday yield curves estimation and impact intraday interest and market liquidity and price discovery
+market participants ecology and behavioral studies;
+market abuse detection;
+settlement finality research;
+consequences for systemic risk;
+macroeconomic impact of digitizing financial assets.
+
+19
+
+

@@ -1,0 +1,2176 @@
+Opus - Decentralized music distribution using
+InterPlanetary File Systems (IPFS) on the
+Ethereum blockchain V0.8.3
+Bokang Jia1 , Chenhao Xu1 , Rehan Gotla2 , Sam Peeters3 , Reese Abouelnasr4 , Mateusz Mach
+1
+
+New York University Abu Dhabi - Department of Computer Science
+2
+
+3
+4
+
+Carleton - Department of Statistics and Actuarial sciences.
+
+Computer and Software engineering -Temple university, Philadelphia.
+
+Department of Engineering - Georgia Institute of Technology, Georgia, USA.
+Bokang:
+
+bj798@nyu.edu, Chenhao:
+
+chen.xu@nyu.edu
+
+Abstract. Opus is a decentralized music-sharing platform that tackles the issue
+of music ownership and sharing at an infrastructure and protocol level. Leveraging the speed and redundancy of a novel Interplanetary FileSystem, IPFS,
+Opus can scale and deliver thousands of tracks per second in a fully decentralized manner. This throughput is achieved by encrypting music tracks on
+the fly and storing the encrypted music files permanently on the IPFS swarm.
+Only the decryption keys, and file hashes, are saved immutably on the Opus
+smart contract. By only storing the decryption keys and reference hashes, we
+can facilitate a number of novel features such as file ownership, trade, and full
+decentralization. With Opus, artists can monetize their content by selling permanent access to their IPFS music files and decryption keys directly to a fan’s
+Ethereum contract, without any middleman. With additional application layers,
+Opus music players introduce a novel way for users to maintain ownership of
+music tracks they played across different players and different continents. As
+everything is transparently stored in the Opus smart contract, we will also facilitate additional governance mechanisms such as a Opus DAO (Decentralized
+Autonomous Organization) treasury funded from a small percentage of each
+sale, and an artist bounty system that allows artists to pay a small amount for
+people to share their tracks. The possibilities are endless
+
+Contents
+1
+
+Introduction
+
+5
+
+1.1
+
+Problem overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+1.2
+
+Why? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+1.3
+
+Mission statement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+Page 2
+2
+
+3
+
+Core objectives
+
+6
+
+2.1
+
+Engineering the world’s most efficient music-sharing platform . . . . . .
+
+6
+
+2.2
+
+Build a seamless user experience from the ground up . . . . . . . . . . .
+
+6
+
+2.3
+
+Provide free-market incentives . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+
+2.4
+
+Implement a successful marketing plan to ensure long-term growth . . . .
+
+7
+
+Technology
+
+8
+
+3.1
+
+Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+3.2
+
+Interplanetary File System - IPFS . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+3.2.1
+
+What is IPFS . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+3.2.2
+
+Scalability of IPFS . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+3.2.3
+
+Opus and IPFS . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+10
+
+Smart contracts and Ethereum . . . . . . . . . . . . . . . . . . . . . . .
+
+11
+
+3.3.1
+
+Opus logic on a smart contract . . . . . . . . . . . . . . . . . . .
+
+11
+
+3.3.2
+
+Ethereum instead of a custom block chain . . . . . . . . . . . . .
+
+11
+
+File IO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+12
+
+3.4.1
+
+Between EVM and player: . . . . . . . . . . . . . . . . . . . . .
+
+12
+
+3.4.2
+
+Between IPFS and browser: . . . . . . . . . . . . . . . . . . . .
+
+13
+
+3.4.3
+
+Uploading tracks . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+13
+
+3.4.4
+
+Playing back tracks: . . . . . . . . . . . . . . . . . . . . . . . .
+
+13
+
+3.4.5
+
+Incentivizing permanent song availability . . . . . . . . . . . . .
+
+14
+
+3.5
+
+Encryption of music files . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+3.6
+
+Opus UMRN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+15
+
+3.6.1
+
+Spam protection . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+15
+
+3.6.2
+
+Music upload format standards . . . . . . . . . . . . . . . . . . .
+
+17
+
+Artist bounty and curation . . . . . . . . . . . . . . . . . . . . . . . . .
+
+17
+
+3.7.1
+
+Artist bounty . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+17
+
+3.7.2
+
+Curator incentives . . . . . . . . . . . . . . . . . . . . . . . . .
+
+18
+
+Augmenting Ethereum smart contracts and IPFS . . . . . . . . . . . . . .
+
+18
+
+3.8.1
+
+Verifying uploaded hashes with IPFS records . . . . . . . . . . .
+
+18
+
+3.8.2
+
+Interfacing between Ethereum contracts, and the IPFS swarm . .
+
+19
+
+3.3
+
+3.4
+
+3.7
+
+3.8
+
+4
+
+CONTENTS
+
+Front-end user applications: Opus core players
+
+20
+
+4.1
+
+20
+
+Mobile application wireframe: . . . . . . . . . . . . . . . . . . . . . . .
+Copyright, Opus Foundation 2016-2017
+
+Page 3
+4.2
+5
+
+6
+
+9
+
+22
+23
+
+5.1
+
+Specification: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+
+5.2
+
+Token standard . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+
+5.2.1
+
+23
+
+ERC23 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Crowdfunding
+
+24
+
+6.1
+
+Why crowdfunding? . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+24
+
+6.1.1
+
+Token sale philosophy . . . . . . . . . . . . . . . . . . . . . . .
+
+24
+
+Structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+24
+
+6.2.1
+
+Contributing in other crypto . . . . . . . . . . . . . . . . . . . .
+
+25
+
+6.2.2
+
+Token creation . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+25
+
+6.3
+
+Worst case distribution . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+25
+
+6.4
+
+Use of funds . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+26
+
+Platform mass-adoption incentives
+
+27
+
+7.1
+
+Business model . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+27
+
+7.1.1
+
+Artists on Opus . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+27
+
+7.1.2
+
+Music fans . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+27
+
+7.1.3
+
+Token holders . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+28
+
+Network effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+28
+
+7.2.1
+
+Existing network effects in the music industry . . . . . . . . . . .
+
+28
+
+7.2.2
+
+Switching incentives . . . . . . . . . . . . . . . . . . . . . . . .
+
+28
+
+7.2.3
+
+The Opus DAO . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+29
+
+7.2
+
+8
+
+Opus web-player wireframe: . . . . . . . . . . . . . . . . . . . . . . . .
+
+Token mechanism
+
+6.2
+
+7
+
+CONTENTS
+
+Governance and marketing: Opus DAO
+
+30
+
+8.1
+
+Opus Treasury . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+30
+
+8.2
+
+Opus DAO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+30
+
+8.3
+
+Voting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+30
+
+Case studies
+
+32
+
+9.1
+
+Why does Opus need to be decentralized . . . . . . . . . . . . . . . . . .
+
+32
+
+9.2
+
+The voracious musicophile who listens to a wide selection of artists . . .
+
+32
+
+9.3
+
+The music collector . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+33
+
+Copyright, Opus Foundation 2016-2017
+
+Page 4
+
+CONTENTS
+
+9.4
+
+The Audiophile . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+33
+
+9.5
+
+The amateur hip-hop artist releasing his first track . . . . . . . . . . . . .
+
+33
+
+9.6
+
+The established artist seeking a bigger audience . . . . . . . . . . . . . .
+
+34
+
+9.7
+
+The playlist wizard . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+34
+
+9.8
+
+Marketing professionals . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+34
+
+10 Roadmap
+
+35
+
+11 Market analysis
+
+36
+
+11.1 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+36
+
+11.2 Opus market breakout . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+36
+
+11.2.1 China . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+36
+
+11.2.2 International . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+36
+
+11.2.3 Niche markets . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+37
+
+12 Opus platform projection
+
+38
+
+12.1 Methodology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+38
+
+12.2 Conservative projection . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+38
+
+12.3 Ideal projection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+39
+
+12.4 Exceptional projection . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+39
+
+13 Conclusion
+
+40
+
+14 Contact
+
+41
+
+14.1 Email . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+41
+
+14.2 Phone . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+41
+
+14.3 Location . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+41
+
+14.4 Social media . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+41
+
+15 references
+
+42
+
+Copyright, Opus Foundation 2016-2017
+
+Page 5
+
+1. INTRODUCTION
+
+1. Introduction
+1.1. Problem overview
+The global music industry is growing, generating $42.93Bn in revenue in 2016. Despite
+the growing market for music services, the current bureaucratic system of labels, artist
+managers, and distribution services have largely choked the smaller artist that cannot
+negotiate sponsorship deals with big brands, and who rely on direct artist-to-fan sales.
+[statista ]
+In addition, centralized streaming platforms take up to 80% of the entire revenue stream,
+harming many small artists. While direct artist-to-fan sales were possible in the past,
+artists today are forced to rely on monopolized streaming platforms such as Spotify, which
+pay as little as $0.0003 USD per play. Established artists that rely on tours and sponsorships can tolerate this, but smaller artists, that only have a fan base of a few thousand,
+cannot survive on this tiny revenue stream. [McCandless et al. ]
+
+1.2. Why?
+Why is it that streaming trumps owning in the 21st century? It is because, the digital
+revolution has rendered digital ownership of songs virtually impossible. Songs and tracks
+can be deleted, moved and copied easily on listener’s computer with ease. There is no
+”ownership” of a tracks the digital space.
+What streaming platforms such as Spotify, Tidal, and Deezer offer today is not ownership
+of a song but rather an central curated interface between music tracks and the audience.
+This curation of digital songs is why streaming platforms have overtaken direct music
+sales.
+Artists have no choice but to choose the exploitative Spotify pay-to-use model
+over the outdated traditional pay-to-own model. In fact, many artists, such as pop star
+Taylor Swift, have taken their stance against the pay-to-use model by pulling tracks out
+of streaming services as a way to send a message. Unfortunately, this results in friction
+between fans and artists. Fans today have to manage numerous different music platforms
+such as Sound Cloud, YouTube, and Pandora, while artists struggle for fair compensation.
+
+1.3. Mission statement
+”The Opus foundation’s mission is to create a decentralized music-sharing platform that
+is uncensorable, fair and easy to use – a system that gives a greater choice to listeners and
+fair market value compensation to artists.”
+Opus is a major disruptive force driving the way music is shared in the twenty first
+century. By cutting out major middle-men in the music recording industry – record labels,
+monopolized distribution platforms, label companies, and studios – that have a major
+stake in the music industry, Opus will empower small artists and pose a new paradigm
+shift in the way people listen to and pay for music.
+Copyright, Opus Foundation 2016-2017
+
+Page 6
+
+2. CORE OBJECTIVES
+
+No doubt, there will be resistance towards the Opus platform from existing institutions holding artists hostage. However Opus is well positioned to take advantage of the
+decentralized nature of smart contracts and IPFS, to revolutionize the music industry in a
+significant manner.
+
+2. Core objectives
+2.1. Engineering the world’s most efficient music-sharing platform
+Leveraging the bleeding-edge of distributed ledger systems such as IPFS, and the immutable nature of distributed smart contracts on Ethereum, the Opus foundation aims to
+build the infrastructure from the ground up in a highly network-efficient manner with
+minimum latency.
+The Opus core development team, lead by a team of passionate industry-leading computer
+scientists and Engineers, are currently:
+• Optimizing the infrastructure layer of file distribution, setting industry standards.
+• Auditing the distributed protocol layer on Ethereum smart contracts.
+• Finalizing the Universal Music Reference Number(UMRN) registry
+• Improving our application layer, which is the final API interaction between the
+Ethereum block chain, IPFS and the user.
+• Further developing our LIVE music player running off the block-chain, which is
+one of many application gateways to the Opus platform.
+• Developing additional platform governance models (e.g monthly dividends for
+platform activity, discounts by contract music ownership) and a contract-level
+marketing fund.
+
+2.2. Build a seamless user experience from the ground up
+User experience is the key to successful long-term growth of a business. Amazon’s CEO
+Jeff Bezos invested 100 times more in customer experiencing than marketing in the first
+5 years . Airbnb’s CEO Mike Gebbia credits UX withtaking the company to be worth
+$10 billion. Good user experience is clearly good for business. Studies show that companies that invest in UX see significant increases in user Uptake and adoption compared to
+similar products.
+The team at Opus takes this concept seriously. In fact, we have designed our platform
+around the point of a great user experience. In the block chain-world, many interactions
+are crude with complicated hoops and unintuitive interfaces. What we have managed to
+do is shatter this barrier with a infrastructure and UI/UX level experience that is intuitive
+and responsive to use with tested sub-second latency.
+In a environment heavily focused on pure conceptual ideas, Opus plans to invest resources
+in UI/UX to provide a great user experience, poising us to capture a significant share of
+the $40Bn a year music streaming industry.
+Copyright, Opus Foundation 2016-2017
+
+Page 7
+
+2. CORE OBJECTIVES
+
+2.3. Provide free-market incentives
+Big streaming services and middlemen such as Apple Music and Spotify have strictenforced policies on the pricing model artists are allowed to use. Apple Music, for instance, limits songs at either $0.99 or $1.29. This centrally determined and restrictive
+pricing model means that popular artists cannot price their music appropriate to their
+market segment, severely limiting their potential. If smaller or niche artists would like to
+sell music at a higher prices, they cannot with current centralized systems.
+The Opus team believes in a free-market system where artists can publish at the price fit
+for their audience. We will not enforce a one-size-fits-all model for pricing. Rather, the
+Opus players will relay the price of the song as set by the artist. Fans can then decide if
+they wish to purchase the song.
+Because of the free-market based infrastructure, artists are incentivized to price and upload songs fans are willing to pay. For instance, artists may record higher bit-rate songs
+(640Kbps) and charge a premium for it.
+
+2.4. Implement a successful marketing plan to ensure long-term
+growth
+After ensuring all the infrastructure is in place, Opus will promote the platform through
+both Sponsorship and indirect advertising. Our plan is to on-board artists while at the
+same time promoting the platform to fans. There are many new markets, especially in
+countries such as China, which have no established music platforms—a void Opus could
+occupy.
+Unlike many block chain projects that only focus on a core concept, the main goal of
+the Opus foundation is to bring the technology to the mainstream audience. While we
+have invested serious resources in producing infrastructure-level innovations, we are also
+as committed to campaigning and transforming Opus into a platform as ubiquitous as
+Spotify has become in the last 3–5 years.
+
+Copyright, Opus Foundation 2016-2017
+
+Page 8
+
+3. TECHNOLOGY
+
+3. Technology
+3.1. Overview
+
+Figure 1. Overview of the Opus platform
+
+As engineers and computer scientists, we believe in designing enterprise-grade solutions
+that are scalable at heart and reliable in practice.
+What we propose in this paper is a 4 layer system that utilizes IPFS as a storage layer, a
+novel JSON-formatted UMRN database as a directory layer, Ethereum smart-contracts as
+a logic layer, and open-sourced APIs and applications as the front-end application layer.
+By separating storage and logic into two discrete layers, we enable both a high level of
+decentralization and scalability.
+
+3.2. Interplanetary File System - IPFS
+3.2.1. What is IPFS
+Interplanetary File System (IPFS) is a peer-to-peer distributed file system that connects
+computing devices with the same system of files. In some ways, IPFS is similar to the
+Web, but IPFS could be seen as a single BitTorrent swarm, exchanging objects within
+Copyright, Opus Foundation 2016-2017
+
+Page 9
+
+3. TECHNOLOGY
+
+one Git repository. In other words, IPFS provides a high throughput content-addressed
+block storage model, with content addressed hyper links. This forms a generalized Merkle
+DAG, a data structure upon which one can build versioned file systems, blockchains, and
+even a Permanent Web. IPFS combines a distributed hash table, an incentivized block
+exchange, and a self-certifying namespace. IPFS has no single point of failure, and nodes
+do not need to trust each other. [Benet ]
+
+Figure 2. IPFS is a hypermedia protocol addressed by content and identities
+instead of traditional location addressing
+
+At the IPFS protocol level, the system is fully neutral and the nodes can run over any
+transport protocol. In fact, IPFS nodes do not have to be referenced by a centralized IP.
+IPFS nodes can run through different network architectures such as NDN (Named Data
+Networking), XIA (eXpressive Internet Architecture) and more. This transport-neutral
+network protocol will ensure that IPFS can be transmitted through any network and
+resist censorship.
+IPFS is an emerging, revolutionary paradigm in decentralized storage. By not storing
+any aspect of the platform on a centralized server, no organization, not even the Opus
+foundation, can censor or limit any artist that wishes to publish on the Opus platform.
+3.2.2. Scalability of IPFS
+The IPFS protocol is a collection of protocols served from a swarm of IPFS nodes.
+However, the network layer can perform network activities through a single TCP or UDP
+port. IPFS can multiplex many point-to-point connections simultaneously.
+For instance each node can:
+•
+•
+•
+•
+
+listen on a particular TCP/IP address
+listen on a different UDT/UDP/IP address
+have multiple streams open to node X,Y,Z
+multiplexes streams over HTTP2 to multiple nodes
+
+Swarm listening on /ip4/122.32.312.2/udp/2001
+Swarm listening on /ip4/172.31.12.226/tcp/4001
+Swarm listening on /ip6/::1/tcp/4001
+API server listening on /ip4/127.0.0.1/tcp/5001
+Gateway (readonly) server listening on /ip4/0.0.0.0/tcp/8080
+
+Copyright, Opus Foundation 2016-2017
+
+Page 10
+
+3. TECHNOLOGY
+
+With such a dynamic level of flexibility and scalability, just like HTTP, there is no limit
+to the scalability of IPFS. On opus, the total latency increases with t = O(C), where
+C = constant, and capacity increases with t = O(n), where n = Files on the network.
+As the network gets larger, the total latency should remain relative low with a smooth
+streaming experience.[Benet et al. ]
+
+3.2.3. Opus and IPFS
+The IPFS system enables the Opus smart contract to index individual music tracsk onto a
+permanent and immutable hash. This hash ensures permanent ownership of the music
+file on the IPFS swarm.
+Take the hash QmUhD25MRvghabeUxPxc7qBtzSnZvQn8DG2WgrbMkPRqRF for
+instance. This hash is the permanent global reference to an unencrypted music track
+track (written by Arief Zulkifli) accessible through the IPFS swarm network.
+We can verify that such a hash induces a immutable bijection between a unique file by
+examining the Merkle hash tree of the node files.
+
+Figure 3. Merkle hash root diagram
+
+If a rogue node attacks the network, the majority network would recognize a change in
+the root hash and search for new nodes, ensuring that the network maintains a immutable
+storage of tracks. This immutable nature of IPFS is important on a mainstream scale.
+Considering that Opus will have a profound effect on the music streaming industry.
+There may be political, social and economic incentives (government sanction) for nodes
+to ”alter” the files referenced by the original hash. However, because this will change the
+hash tree of the file, it is computationally and cryptographically impossible.
+You can play this track by accessing the reference hash through a locally-hosted Node.js
+IPFS access point. You can also access this unencrypted track through HTTP API
+gateways such as:
+https://gateway.opusfoundation.org/ipfs/QmUhD25MRvghabeUxPxc7qBtzSnZvQn8DG2WgrbMkPRqRF
+Copyright, Opus Foundation 2016-2017
+
+Page 11
+
+3. TECHNOLOGY
+
+3.3. Smart contracts and Ethereum
+Smart contracts are immutable programs that execute when certain conditions are met.
+These “smart contracts” can be scripted with a predetermined set of instructions or
+custom instructions on the virtual machine which will then be executed in an immutable
+and transparent fashion.
+Smart contracts are much better than traditional channels because smart contracts can be
+verified quickly and cheaply and are fully transparent. Logic can also be coded into
+smart contracts in the form of Turing-complete computer code. Doing so enables
+something revolutionary: a fully decentralized program. In such a decentralized
+crypto-graphically secured network, It’s economically impossible to prevent the
+execution of the smart contracts, especially when copies of the code are verified and
+executed among millions computers.
+3.3.1. Opus logic on a smart contract
+While the Opus storage layer, is able to deliver vast volumes of data (We have tested
+IPFS throughout to exceed 20Mb/s with 300ms latency), without a core payment and
+logic layer, artists will not be compensated for uploading tracks to the Opus protocol.
+Curators will also not be paid for their services in creating playlists and sharing music
+tracks. Opus needs a ”logic layer” that processes payments directly from artist to curator
+and fan to artist while at the same time securing ownership and trade of digital songs.
+We do this using Ethereum smart contracts. Using smart contracts, artists and fans can
+rest assured 100% of the payments are delivered to the artists transparently, immutably
+and without intermediaries taking large chunks of revenue. Artists can also rest assured
+that their revenue stream will not change at the whim of corporate greed.
+Furthermore, by ensuring that not only the storage layer, but the logic layer is also fully
+decentralized, the Opus platform delivers a truly decentralized service. The Opus
+protocol, unlike many other blockchain-based music platforms, stores nothing on a
+central server , such that no external company or entity can stop the administrative and
+operative functions of Opus.
+3.3.2. Ethereum instead of a custom block chain
+Creating a custom C++ optimized blockchain for Opus is definitely a possibility. In fact,
+the Opus team experimented with C++ modifications of Bitcoin which is also
+programmable. However, it was extremely time-intensive and prone to human error to
+develop such a system. As well, the limiting set of default functions in Bitcoin core
+meant that a lot of time had to be gone into re-creating common data structures.
+Bitcoin default operations:
+case
+case
+case
+case
+case
+
+OP_ADD:
+OP_SUB:
+OP_BOOLAND:
+OP_BOOLOR:
+OP_NUMEQUAL:
+
+Copyright, Opus Foundation 2016-2017
+
+Page 12
+
+case
+case
+case
+case
+case
+case
+case
+case
+
+3. TECHNOLOGY
+
+OP_NUMEQUALVERIFY:
+OP_NUMNOTEQUAL:
+OP_LESSTHAN:
+OP_GREATERTHAN:
+OP_LESSTHANOREQUAL:
+OP_GREATERTHANOREQUAL:
+OP_MIN:
+OP_MAX:
+
+[Nakamoto ]
+Ethereum, on the other hand, has a much higher level of abstraction, common data
+structures, inheritance, encapsulation, and more. [wood ]
+Additionally, it would be economically difficult to use proof-of-work (POW) to secure
+an independent Opus protocol, as there are potential incentives for third parties to attack
+the protocol (e.g., existing streaming services). It would also be much more effective to
+utilize an existing programmable block-chain solution such as Ethereum which has
+significantly higher resistance towards attacks.
+
+3.4. File IO
+3.4.1. Between EVM and player:
+Ethereum JavaScript web3 API is an interaction between a virtually instantiated Opus
+node and the Ethereum virtual machine (EVM). This lightweight node can be
+instantiated within a browser or on a local client device such as a desktop or mobile
+phone.
+Purchasing a decryption key on your Smart contract through client-side
+JavaScript:
+purchaseAndPlay: (licenseAddress)=>{
+let price = workList[licenseAddress].price;
+if(price > balance){
+App.setStatus("Insufficient balance...");
+throw "insufficient balance";
+}
+App.setStatus("Initiating transaction...(Please wait)");
+console.log(workList);
+App.getSongFromAddress(licenseAddress).then((instance) => {
+return instance.getPrice.call();
+}).then((price) =>{
+OpusToken.at(tokenAddress).then((opus) => {
+return opus.transfer(licenseAddress, price, {from: account});
+}).then(()=>{
+App.setStatus("Transaction complete!");
+App.refreshStatus();
+App.playSong(licenseAddress);
+}).catch((e) => {
+console.log(e);
+App.setStatus("Error purchasing song...");
+});
+})
+},
+
+Smart contract license purchase interface:
+
+Copyright, Opus Foundation 2016-2017
+
+Page 13
+
+3. TECHNOLOGY
+
+function processPurchase(address _from, uint _value, bytes
+if(ownership[_from]){
+throw;
+}
+if(!(msg.sender == tokenAddress)){
+throw;
+}
+if(_value < price){
+throw;
+}
+ownership[_from] = true;
+uint refund = price.sub(_value);
+token.transfer(owner, price);
+if(refund > 0){
+token.transfer(_from, refund);
+}
+}
+
+_data) public {
+
+3.4.2. Between IPFS and browser:
+Communication between the IPFS network and the Opus platform is through the IPFS
+Remote Procedural Call (RPC) API. For more lightweight clients, it would be advisable
+to connect through IPFS gateways operated by the third-party players. While this could
+be potential attack vectors, the lack of a large local node would enable more people
+access to the Opus platform
+3.4.3. Uploading tracks
+The Opus foundation’s core uploader will provide an interface between the IPFS and
+EVM. Uploading tracks can also be achieved through any third-party uploader that
+follows UMRN formatting and the Opus encryption algorithm. Uploads that don’t
+follow the correct standard will result in music tracks unable to be played and purchased
+by other third-party Opus players, thus reducing their potential market.
+What if a third-party uploader does not follow the correct format?
+Track uploads are guided by economic game theory. It costs a tiny fraction of OPTs
+(Opus tokens) to register tracks to the UMRN (see section 3.6.1). If a third-party
+uploader does not upload according to specification, other players will not recognize the
+track, and sales from that particular uploader will be reduced. Since artists want to have
+a broad reach, they will upload tracks in the correct format and correct metadata to
+access the biggest market.
+3.4.4. Playing back tracks:
+The Opus core music player and any other third party can play tracks back almost
+spontaneously at a tested 200ms delay. The main bottleneck is the RPC calls and
+response between the Opus API and the EVM (Ethereum virtual machine). However,
+this delay is comparable to many popular streaming services. In fact, because of the
+decentralized mesh nature of IPFS, sometimes this latency is smaller than traditional
+platforms in more populated regions.
+Copyright, Opus Foundation 2016-2017
+
+Page 14
+
+3. TECHNOLOGY
+
+Playing songs from IPFS using keys in the Opus smart contract:
+playSong: (licenseAddress)=>{
+App.loadPlayingToPage(licenseAddress);
+var Opus;
+App.getSongFromAddress(licenseAddress).then(function(instance) {
+Opus = instance;
+return Opus.requestKeyandHash.call({from: account});
+}).then((res) => {
+var _key = res[0];
+var _hash = res[1];
+var _url = App.gatewayUrlfromHash(_hash);
+var _player = document.getElementById("audioplayer");
+_player.src = _url;
+App.playbackwithKey(licenceAddress, _key);
+}).catch((e) => {
+console.log(e);
+})
+},
+
+3.4.5. Incentivizing permanent song availability
+IPFS hashes ensure that each hash corresponds to one unique tracks on the swarm such
+that if a new node joins the network, the entire network will get access to the track stored
+on the node. This will ensure the security of the files streamed from IPFS hashes.
+However, there may still be issues regarding permanent availability of files. While there
+are incentives for artists to keep backups of the tracks they release, it’s not enforced, so
+there is a very slim chance that the swarm network may lose the “permanent” music
+track. Currently, the only way to ensure permanent availability is for nodes to accept
+swarm data and host them voluntarily like a P2P node.
+Luckily, there are currently in development many in-situ decentralized mechanisms to
+maintain IPFS solutions. One such mechanism is Filecoin, which pays decentralized
+storage nodes that host files to maintain copies of the music files. As music tracks are
+negligibly small, we can, in the future, incorporate a negligible fee per track sale and
+have it automatically transfer to a Filecoin host for hosting music tracks in the off chance
+that files are not available from the IPFS swarm. [Filecoin ]
+
+3.5. Encryption of music files
+Music files, even though only a few Mb, are too large to store on the EVM. Therefore,
+we store the files within the IPFS swarm. However, the music files can be viewed
+publicly and permanently by anybody on the IPFS swarm. Opus employs a secure
+encryption algorithm to ensure that only the “owner” of the music can access the file.
+What Opus uses is a lightweight public-private key-encryption model to restrict access to
+only the “owners” of the song. The AES 256-bit (Advanced Encryption Standards)
+encryption ensures that data can be efficiently encrypted in a lightweight manner while
+streaming the music file.
+The files are streamed and decrypted on the fly between the IPFS network, through the
+Opus API, to individual clients. To do this smoothly, we divide the music tracks into
+chunks (chunking) which will be decrypted and encrypted on the fly. The
+Copyright, Opus Foundation 2016-2017
+
+Page 15
+
+3. TECHNOLOGY
+
+Figure 4. Diagram of the AES-256 bit Encryption architecture Opus uses
+
+Opus-decryption library will be a modification of the Crypto++ AES C++ library that
+provides high throughput encryption and decryption of data files.
+
+3.6. Opus UMRN
+The book industry has ISBN, a standardized book referencing database managed by the
+ISBN central authority. Registering a single number within the ISBN foundation costs
+$125 USD—while cheap for professional authors, it’s a significant amount to smaller
+amateur authors.
+What Opus proposes is a novel high-throughput music relay registry known as UMRN.
+The registry for UMRN will be generated at a low cost within a Relay Ethereum smart
+contract, with the registry database hosted immutably on the IPFS swarm. UMRN is a
+novel music identification format and registry database for the music industry that
+enables small artists to register and Opus players to identify millions of tracks within a
+globalized and immutable ledger.
+
+3.6.1. Spam protection
+WWhile the UMRN registry database file within the IPFS swarm can sustain extremely
+high throughput, the Opus API will be able to search through the JSON database at a
+speed of t = O(log(n)) which means that limn→∝ O(log(n)) ∼
+= (∝). While the database
+can scale very well (log(n)), at extreme sizes, the database can be grow too big. . We
+would need to economically limit spam attacks that bloat the UMRN database while
+ensuring that amateur musicians do not have to pay extortionate fees to register their
+tracks.
+Copyright, Opus Foundation 2016-2017
+
+Page 16
+
+3. TECHNOLOGY
+
+To do this, the Opus UMRN smart contract registry uses the sigmoid function,
+commonly found in machine learning statistical normalization, to increase the cost per
+block to an exponential limit when a high amount of registrations (e.g., 100 per block)
+are initiated. This ensures that when not under attack, the token cost will be virtually
+nothing to register a track. When a large number of registrations are made per block, the
+cost will scale rapidly, depleting the attacker of OPTs.
+Cost function C(x) for registering a track onto the UMRN database.
+C(x) =
+
+κ
+1+
+
+x
+e− ( 15
+
+(1)
+
+− 5)
+
+Total cost Tot(x) per block a function of the number of transactions x within the block.
+T ot(x) =
+
+Z x
+0
+
+κ
+1+
+
+x
+e− ( 10
+
+− 5)
+
+dx
+
+(2)
+
+x
+
+e5 + e 20
+T ot(x) = κ20log(
+)
+1 + e5
+
+(3)
+
+Figure 5. Cost function
+
+The UMRN relay contract permits a large number of transactions at a low price before
+increasing quickly to a asymptotic limit. This is to deter spam while also creating a
+theoretical ceiling to enable artists to release tracks at a slightly higher fee during a spam
+attack. Such a defense is crucial as there are incentives from existing large streaming
+platforms to attack the Opus protocol, especially the Opus UMRN database.
+The cost is with respect to κ. We examine the optimal setting for the magnitude of κ in
+OP T
+. In 2011 there were an estimated 97 million songs in existence. We take a
+κ
+conservative estimate of 10 Million songs registered on the Opus platform at a
+mainstream adoption level. Then approximately 750,000κ OPTs will be burnt. We need
+to maintain sufficient liquidity so we plan to burn around 10 % of the total OPT
+generated from the crowd sale. This means that after the crowd sale, we will determine κ
+max
+by κ = Supply
+10∗750000
+Copyright, Opus Foundation 2016-2017
+
+Page 17
+
+3. TECHNOLOGY
+
+Table 1. Cost for registering tracks for different throughputs
+
+κ OPT per registration κ OPT burnt in block
+
+Adoption levels
+Normal (1-2) tx per block
+
+0.0074 ± 0.003
+
+0.01407
+
+Mainstream (40-60)
+
+0.07585 ± 0.015
+
+1.444
+
+1.00
+
+299.9
+
+Spam Attack (300-500)
+
+This κ cost level will be inherent in the UMRN registry contract that will manage the
+JSON registry stored within the IPFS swarm.
+3.6.2. Music upload format standards
+The Opus foundation defines a set of guidelines for artists publishing tracks on the Opus
+protocol and that are compatible with Opus API. Because of the immutable nature of
+Ethereum smart contracts and files stored on IPFS, we introduce a universal music
+metadata format for each track stored in the same location as the UMRN JSON file.
+The meta data format standard will be in compliance with existing database systems as
+dictated by the guidelines published by the Music Business Association [Towns ]. This
+music meta data style guide represents many corporations such as but not limited to:
+Amazon, Beats, BMI, Disney Music Group, Google, Epitaph, iTunes, Microsoft, and
+Sony. The Opus foundation intends Opus to be as user-friendly as possible, including for
+the artists. Therefore, by complying with existing meta data standards, we will ensure
+compliance with many of today’s existing infrastructure.
+Metadata guidelines:
+•
+•
+•
+•
+•
+•
+
+Artist Name and multiple authors in CSV form
+Track title in Unicode
+Genre of the track
+Length of track in ss:hh:mm
+Country of publication
+Album/single. (If album, use the same album reference number as generated by
+the Opus relay contract.)
+• Sampling of the audio file
+• Publisher (optional)
+
+3.7. Artist bounty and curation
+3.7.1. Artist bounty
+Smaller artists often lack a way to promote their music. Traditional marketing channels
+involve large upfront payments and obtrusive direct advertising, which don’t correlate
+with potential revenue.
+What Opus introduces is the Artist Bounty system, which is a novel way for artists to
+promote their music by directly involving the music community. In the bounty system,
+artists can offer a small amount of OPT per track downloaded to people who share music
+Copyright, Opus Foundation 2016-2017
+
+Page 18
+
+3. TECHNOLOGY
+
+through a personalized affiliate link. This will incentivize people to share their favorite
+songs with their friends, as they will get a small cut for each song purchased through
+their personal function call. For instance, an artist may charge 2.5 OPT for each song but
+offer a 0.3 OPT bounty for every purchase through the bounty system.
+3.7.2. Curator incentives
+Another piece of the music industry often ignores is the numerous curators and music
+specialists that publish music playlists and charts for your enjoyment. At Opus, we wish
+to ensure that everybody is fairly treated so that popular and reputed curators can
+generate revenue with our artist bounty system by collecting the artist bounties from
+tracks offered through their custom playlists.
+License purchase interface with bounty recipient(sharer) as optional argument:
+function processPurchase(address _from, uint _value, bytes _data) public {
+bool bounty = false;
+if(_data){
+bounty = true;
+address sharer = _data;
+}
+if(ownership[_from] || !(msg.sender == tokenAddress)){
+throw;
+}
+if(bounty && (sharer == _from)){
+throw;
+}
+if(_value < price){
+throw;
+}
+ownership[_from] = true;
+uint refund = price.sub(_value);
+if(bounty){
+uint artistRevenue = price.sub(bountyAmount);
+token.transfer(owner, artistRevenue);
+token.transfer(sharer, bountyAmount);
+PurchaseWithBounty(_from, sharer);
+}else{
+token.transfer(owner, price);
+Purchase(_from);
+}
+if(refund > 0){
+token.transfer(_from, refund);
+}
+}
+
+3.8. Augmenting Ethereum smart contracts and IPFS
+Ethereum defines the logic, value transfer, and governance of Opus while IPFS stores the
+data used by the Opus platform. By merging the two systems, we overcome the storage
+and latency limitations of Ethereum while incorporating the immutable logic attributes
+of Ethereum.
+3.8.1. Verifying uploaded hashes with IPFS records
+Conventionally, it’s impossible for Ethereum to communicate directly with the IPFS
+swarm without a third-party central bridge or Oracle. While using a third-party authority
+Copyright, Opus Foundation 2016-2017
+
+Page 19
+
+3. TECHNOLOGY
+
+was a possibility, the Opus foundation wanted the entire system to decentralize
+What Opus proposes is a novel economic mechanism that incentivizes people to upload
+correctly formatted, hashed, and referenced tracks onto the Opus registry relay which
+will then be directly relayed, in-situ, to both entities. While each system could be
+spammed, by incentivizing people to upload correctly, what we have created is a robust
+relay system connected between Ethereum and the IPFS swarm.
+3.8.2. Interfacing between Ethereum contracts, and the IPFS swarm
+Ethereum and IPFS are to the block chain world what DNS providers and servers are to
+the World Wide Web. The DNS was created in the 1980s ARPANET to solve a crucial
+issue of directing traffic to different computers based on a centrally maintained file called
+Hosts.txt kept at Stanford. This ensured that traffic could be directed easily within the
+network. [Pope et al. ]
+While creating a central authority (like Stanford’s DNS) would have been a easy
+shortcut, it would defeat the purpose of decentralization. Without a central look-up table
+between Ethereum and IPFS files, Opus uses economic spam protection along with the
+Immutable nature of IPFS to ensure that files referenced are legitimate.
+
+Figure 6. Opus IPFS content referencing
+
+Copyright, Opus Foundation 2016-2017
+
+Page 20
+
+4. FRONT-END USER APPLICATIONS: OPUS CORE PLAYERS
+
+4. Front-end user applications: Opus core players
+Third-party apps can use the Opus API to create their own players (e.g., different Bitcoin
+wallets). However, the core team also plans to release our own Opus core players.
+While the Opus core players will be a stable platform to access the Opus API, we will be
+releasing documentation and API guides to third-party developers. We will also be
+open-sourcing every aspect of the player. The Opus team believes in open-sourced
+decentralization and so will be encouraging external developers that take advantage of
+the Opus API in their products.
+Nevertheless, we encourage third-party developers to reach out to us at
+info@opus-foundation.org for advice on Opus design guidelines that will ensure a
+premium user experience.
+
+4.1. Mobile application wireframe:
+
+Copyright, Opus Foundation 2016-2017
+
+Page 21
+
+4. FRONT-END USER APPLICATIONS: OPUS CORE PLAYERS
+
+Copyright, Opus Foundation 2016-2017
+
+Page 22
+
+4. FRONT-END USER APPLICATIONS: OPUS CORE PLAYERS
+
+4.2. Opus web-player wireframe:
+
+Copyright, Opus Foundation 2016-2017
+
+Page 23
+
+5. TOKEN MECHANISM
+
+5. Token mechanism
+5.1. Specification:
+Token name: Opus token (OPT)
+Total supply: TBD after crowdsale (maximum 1600 million OPT)
+Supply style: Deflationary
+Format: ERC23 compliant
+Divisibility: 1018
+Tradeable between users: Yes
+No more OPT will be created after the crowdsale.
+
+5.2. Token standard
+The ERC20 format provides a common interface for digital assets on the Ethereum
+blockchain, making integration between different wallets, players, and exchanges a
+seamless experience.
+OPTs are designed to be fully compliant with ERC23 standards in order to ensure that
+the tokens are compatible with all players, wallets (Mist, Geth, Metamask), and future
+services (e.g., decentralized exchanges).
+5.2.1. ERC23
+The ERC23 standard is a new, backwards compatible, token format that solves some
+issues existing in ERC20 :
+• Handling of incomming transactions from the reciever contract
+• Ensuring that transactions for one token will not be received by the receiving
+contract of another.
+• Ensuring uniformity within Ethereum such that the transfer() function is called
+for both contract and account deposits.
+As these improvements are backward compatible, the opus Protocol will fully embrace
+these new token standard updates.
+ERC223 token functions:
+function
+function
+function
+function
+function
+function
+function
+function
+
+totalSupply() constant returns (uint256 totalSupply)
+name() constant returns (string _name)
+symbol() constant returns (string _symbol)
+decimals() constant returns (uint8 _decimals)
+balanceOf(address _owner) constant returns (uint256 balance)
+transfer(address _to, uint _value, bytes _data) returns (bool success)
+transfer(address _to, uint _value) returns (bool success)
+tokenFallback(address _from, uint _value, bytes _data)
+
+Copyright, Opus Foundation 2016-2017
+
+Page 24
+
+6. CROWDFUNDING
+
+6. Crowdfunding
+6.1. Why crowdfunding?
+Our ultimate goal is to build a fully-functioning decentralized music player that will
+revolutionize the mainstream music industry.
+While the Opus team did receive a seed round of funding in December 2016, the Opus
+foundation will reject additional VC and series A funding because our core philosophy is
+to decentralize and bring power back to the artists and fans. Having shareholders not
+only alters the incentives of the Opus foundation but also causes unnecessary
+centralization of our platform. We would like to dictate the direction of Opus.
+6.1.1. Token sale philosophy
+We want to make the crowdsale process as fair to all participants as possible. However,
+we also don’t wish to collect unessesary amounts of money and so we will be
+implementing a hard cap at around $20MM.
+In an attempt to ensure decentralization, we will also be limiting the amount of donation
+received from each address to 1000 ETH + 1% of the total supply.
+With this structure, we hope that we not only ensure a decentralized nature of token
+distribution—which will help regarding network effect—but also have the best interests
+of the crowdfunders in mind.
+
+6.2. Structure
+Table 2. Token sale structure
+
+Phase
+
+OPT received per ETH donated Bonus OPT
+
+Angel funders (week 1)
+
+8000
+
+2000
+
+Early bird (week 2)
+
+7500
+
+1500
+
+Standard phase (week 3, 4)
+
+7000
+
+1000
+
+Base
+
+6000
+
+0
+
+LimitP erAddress(x) = 1000 +
+
+T otal
+100
+
+Crowdsale smart contract dynamic limit per address:
+function perAddressCap() constant public returns(uint){
+//per address cap in Wei
+uint baseline = 1000 * (10**18);
+return baseline + presaleEtherRaised/100;
+}
+
+Copyright, Opus Foundation 2016-2017
+
+(4)
+
+Page 25
+
+6. CROWDFUNDING
+
+Figure 7. Token sale structure
+
+6.2.1. Contributing in other crypto
+The Opus team believes in forward thinking and actively-developed platforms such as
+Ethereum. However, to make sure that our crowdsale is as accessible to as many people
+as possible, we will also be publishing a guide on how to create your first Ethereum
+wallet and contribute through any other crypto such as Bitcoin, Dash, or Litecoin using a
+converter such as Shapeshift.
+6.2.2. Token creation
+1600M Created initially at distribution
+900M Will be available for fund raising
+100M Will be held by the Opus foundation which will be used slowly for future
+development in addition to stabilizing the market by helping establish a more stable
+OPUS:USD exchange rate in the future.
+600M Will be distributed to foundation, developers and angel investors. Overall
+distribution: 20% to foundation, 10% to current and future team members and 7.5% to
+angel investors.
+
+6.3. Worst case distribution
+We have seen many token sales in the past where the majority of tokens were purchased
+by a few addresses, causing excessive centralization. Our novel crowdsale limiting
+function is designed to prevent this.
+otal
+is reached
+In the worst case scenario where the LimitP erAddress(x) = 1000 + T100
+by every contribution address, we will still ensure a high level of decentralization as
+
+Copyright, Opus Foundation 2016-2017
+
+Page 26
+
+6. CROWDFUNDING
+
+shown in the simulation below (Figure 8).
+
+Figure 8. Distribution of tokens by address in the case that the tokens are sold
+out instantly
+
+Even the richest address will only own 2% of the total supply (assuming tokens are sold
+out)
+
+6.4. Use of funds
+Below is our planned use of funds. The majority of the tokens held by the Opus
+foundation, team and angel investors (500M) which will be reserved for a few months or
+when a situation arises that requires the need for OPT.
+
+Figure 9. Expected use of funds
+
+Copyright, Opus Foundation 2016-2017
+
+Page 27
+
+7. PLATFORM MASS-ADOPTION INCENTIVES
+
+7. Platform mass-adoption incentives
+7.1. Business model
+7.1.1. Artists on Opus
+Rising artists
+Rising artists are inclined to release tracks on Opus because it allows them to price each
+song as they wish in a free-market music marketplace. It also allows artists to diversify
+into a new audience and revenue stream traditionally not available through platforms
+such as Spotify. These amateur artists will be relieved to learn that they do not need to
+sign long-term deals or pay hefty registration fees to list their work on the Opus platform.
+Artists who are less established can release a preview of their track such as a 30-second
+unencrypted portion of their music file. If a fan wishes to listen to the rest of the track, he
+or she will be able to purchase the decryption key to the full song. This feature is entirely
+up to the artist who is uploading songs to Opus.
+Established artists
+Established artists will also love the Opus protocol. Unlike existing streaming platforms
+that take up to 80% of the revenue, the Opus protocol only takes 1–3% for a
+community-voted governance fund. In addition, there is no possibility that tracks will be
+de-listed from the platform or banned due to government restrictions.
+With the paid bounty system build within the Ethereum Opus smart contract, artists can
+also offer bounties for their fans to share music which not only significantly increases the
+artist’s sales but also their fan base.
+The fact that the underlying Opus protocol and infrastructure can be used by any
+Opus-API player around the world means that the artist will have access to a much
+bigger global audience and thus have a much bigger reach.
+7.1.2. Music fans
+Opus offers a revolutionary platform for music fans that enables them to have access to
+their music collection straight from the Cloud permanently, rapidly, and wherever they
+wish.
+With the low barriers to entry, switching incentives, and the immutable nature of the
+blockchain and IPFS swarm, we can expect the number of artists releasing songs on
+Opus to be bigger than traditional platforms. This will offer the average music-head a
+much wider selection of tracks through the Opus-API players compared to existing
+fractured platforms.
+Because songs are immutably stored in the IPFS system, music fans can again enjoy the
+buy-to-own model and rest assured that they will always be in control of their music
+across all platforms.
+In addition to this, with the artist bounty system, fans that are popular within their social
+circles can also make some money by sharing their purchase contract address. Fans
+Copyright, Opus Foundation 2016-2017
+
+Page 28
+
+7. PLATFORM MASS-ADOPTION INCENTIVES
+
+make a small cut (optionally determined by the promoting artist) for every purchase
+made through their bounty address. This could be attractive to listeners looking to make
+some side income.
+
+7.1.3. Token holders
+Just like Ethereum’s value is derived from the value of the services provided by the
+Ethereum network, or the value of Bitcoin is derived from the value of the services and
+potential future services underlying Bitcoins. OPT’s value will be derived from the
+current and potential music services provided by the Opus platform: an $43
+billion-dollar-a-year market.
+If demand for OPT from music fans and artists increase as adoption increases, then the
+value of the tokens will reflect this increased demand. For instance, if 100 albums are
+sold on the platform at a price of $9.99 and there are only 50 OPT, then artists will price
+albums at 0.5 OPT, resulting in a price of each OPT to be around $20. There is safety in
+that OPTs are backed by real products that have real world value which will support the
+value of OPTs.
+In addition, holders of OPT will be able to participate in the OpusDAO where they can
+decide on the future of opus and approve DAO proposal submitters.
+
+7.2. Network effects
+7.2.1. Existing network effects in the music industry
+While brand loyalty exists within specific streaming platforms, the overall entrenchment
+of the industry is relatively low. Services such as Spotify and SoundCloud are less than
+10 years old, and many fans already use multiple platforms. Many albums are
+fragmented, available on some platforms and not available on others.
+In addition, most existing platforms have adopted streaming models but not song sales.
+Because existing platforms are mostly streaming-oriented, music fans don’t have a lot of
+“sunk cost” regarding purchased songs when switching platforms.
+It doesn’t hurt to switch to Opus.
+
+7.2.2. Switching incentives
+The Opus foundation will provide switching incentives (like Spotify does) through
+bounties and campaigns, but also provide a better user experience with User
+Interface/User Experience designers working on our team. As research has found, better
+UI/UX is often the determining factor for most people looking to switch platforms. By
+having a comparable or better user experience, low latency and high scalability, we hope
+to overcome the network effect.
+Copyright, Opus Foundation 2016-2017
+
+Page 29
+
+7. PLATFORM MASS-ADOPTION INCENTIVES
+
+7.2.3. The Opus DAO
+The Opus smart contract also has an in-situ governance fund generated from 2–3% of
+sales revenue. This will be used to fund the Opus DAO to promote the platform and
+hence generate additional growth and increase the governance fund - A positive
+feedback loop [Read more in §8.2 and §8.3]
+
+Figure 10. The Opus DAO network effect
+
+Copyright, Opus Foundation 2016-2017
+
+Page 30
+
+8. GOVERNANCE AND MARKETING: OPUS DAO
+
+8. Governance and marketing: Opus DAO
+Any evolving network needs to live and breathe independently from the core
+development team. We at the Opus foundation truly believe in this democratic
+philosophy. Not only have we open-sourced all our code, but we have also
+implemented certain decentralized democratic features within Opus:
+
+8.1. Opus Treasury
+The Opus marketing & development fund will be a fund derived from all music sales on
+the Opus smart contract. Our current plan is to take approximately 2-3 % of the music
+sales, but this can be changed depending on what the community wants when the Main
+net is released. We are currently tweaking the numbers for the Opus treasury.
+We will be using this Opus treasury to sponsor programs, just like the Dash Master node
+fund[Duffield and Diaz ]. However, anybody will be able to vote, and their vote will be
+weighted based on how many OPT they own. We weigh each vote by the amount of OPT
+the voting address owns in order to protect against Sybil attacks.
+
+8.2. Opus DAO
+Any individual will be able to propose a request to the Opus network. However,
+proposals will burn 1000 OPT to stop spam. There will be a 1 month period for voting
+and submissions where the number of Yes/No votes are weighted by the number of OPT
+tokens the voter holds. Anybody can participate in this voting procedure. At end of the
+month, winning proposals will be funded. [Jentzsch ]
+
+8.3. Voting
+To make the best use of these funds, we will implement a monthly voting framework,
+like the DAO in Dash. [Duffield and Diaz ]. Users who own a significant amount of
+OPT, and who have the network’s best interest at heart, will be able to vote monthly on
+budget proposals people submit to the network. At the end of the month, OPT will be
+paid to the winning proposals.
+Voting on the Opus DAO
+/*Voting interface*/
+function vote(
+uint proposalNumber,
+bool supportsProposal,
+string justificationText
+)
+returns (uint voteID)
+{
+Proposal p = proposals[proposalNumber];
+if (p.voted[msg.sender] == true) throw;
+p.voted[msg.sender] = true;
+p.numberOfVotes++;
+Vote v = Vote(supportsProposal, msg.sender, justificationText);
+p.votes.push(v);
+Voted(proposalNumber, supportsProposal, msg.sender, justificationText);
+return p.numberOfVotes;
+}
+/*Tally*/
+function currentResult(Proposal p) private constant returns (int) {
+//Tally with weight based on token possession
+
+Copyright, Opus Foundation 2016-2017
+
+Page 31
+
+8. GOVERNANCE AND MARKETING: OPUS DAO
+
+uint result = 0;
+for (uint i; i<p.votes.length, i++){
+Vote v = votes[i];
+if(v.inSupport) {
+result += token.balanceOf(v.voter);
+}else{
+result -= token.balanceOf(v.voter);
+}
+}
+return result;
+}
+/*Proposal execution*/
+function executeProposal(uint proposalNumber, bytes transactionBytecode) {
+Proposal p = proposals[proposalNumber];
+if (block.number < p.votingDeadline
+|| p.executed
+|| p.proposalHash != sha3(p.recipient, p.amount, transactionBytecode)
+|| p.numberOfVotes < minimumQuorum)
+throw;
+int result = currentResult(p);
+if (result > majorityMargin) {
+// Prevent re-entry
+p.executed = true;
+if (!token.transferFrom(DAOfund, p.recipient, p.amount)) {
+throw;
+}
+p.proposalPassed = true;
+} else {
+p.proposalPassed = false;
+}
+// Fire Events
+ProposalTallied(proposalNumber, p.currentResult, p.numberOfVotes,
+p.proposalPassed);
+}
+}
+
+Unused funds will be burnt each month, reducing the overall OPT supply and increasing
+the value of each individual OPT token.
+Since OPT tokens are divisible by 1018 , a deflationary supply is not an issue on the
+operations of Opus.
+
+Copyright, Opus Foundation 2016-2017
+
+Page 32
+
+9. CASE STUDIES
+
+9. Case studies
+9.1. Why does Opus need to be decentralized
+Just two days after Frank Ocean’s “Blonde”—one of the biggest releases of the
+year—released on Apple’s iTunes, Lucian Grainge, CEO of Universal Music Group
+(UMG)—and widely regarded as the most powerful executive in the music
+industry—reportedly ordered the company’s labels to stop the practice of making
+“exclusive” distribution deals with streaming services. One day later, the tracks were
+ordered to be shut down from Spotify and Apple music by UMG against Frank’s wishes.
+These centralized services had to comply. Frank Ocean could be facing charges of up to
+$2 million USD against UMG and other recording outlets.
+Issues like these are the reason why centralized platforms and contracts are currently
+plaguing the music recording industry. They tear artists between dwindling traditional
+sources of revenue and exploitative online services.
+We completely agree that decentralization and blockchain are the buzzwords of today
+with numerous companies and institutes creating “blockchain products” simply because
+of the popularity of blockchain. Many of these projects either fail to understand the
+meaning of “decentralized” or simply don’t implement a fully decentralized product,
+selling a pseudo-decentralized platform. The Opus protocol is completely,
+fundamentally, and technologically different. Our protocol delivers a truly
+blockchain-based service that is purely decentralized, unlike many other “decentralized”
+platforms in existence today. There isn’t one single component of Opus that is controlled
+by one group.
+If Frank Ocean had published on the Opus platform, it would have been immutably
+stored within the IPFS swarm with corresponding smart contract IPFS hashes running on
+Ethereum. This means Frank’s album would not be taken down by UMG, freeing Frank
+from legal hassle and making sure that he will always receive nearly 100% of what he
+sets for the price of his tracks.
+
+9.2. The voracious musicophile who listens to a wide selection of artists
+Todd from Monaco is a heavy music listener. He listens to all types of music such as
+pop, metal, country, and folk. He also likes to travel the world and enjoys listening to a
+wide variety of local songs such as Congolese rumba, K-pop, and C-pop. His favorite
+artists are Aaron Parker, Taylor Swift, and Thom York.
+Unfortunately, there are many obstacles between Todd and his favorite artists.
+Todd’s local music library is over 30Gb large. He doesn’t want to carry it around with
+him so he uses streaming services. Apple Music, unfortunately for Todd, is censored in
+Monaco. In fact, Apple Music is banned in over 80 countries. Todd then turns to Spotify.
+However, much to Todd’s dismay, many of his favorite artists, including Taylor Swift,
+are not available on Spotify because of the standard pricing scheme streaming services
+enforce. International music is also very limited and fractured in the music streaming
+industry since every streaming service uses their own infrastructure. This means that
+Todd has to use many international platforms in addition to SoundCloud and Spotify.
+Copyright, Opus Foundation 2016-2017
+
+Page 33
+
+9. CASE STUDIES
+
+Nevertheless, Todd now uses a mix of Spotify, QQ Music, and SoundCloud to listen to
+everything he wants. This is very frustrating to Todd, and he wishes there was a more
+unified solution.
+This is where Opus comes in. Using Opus, Todd can purchase and store IPFS song
+decryption keys directly to his Ethereum contract address. No matter where he goes, all
+of his music will be available to him. Because of the low fee and censorship-resistant
+nature of the Opus protocol, all of Todd’s favorite artists have listed their songs for sale
+on the platform, and Todd doesn’t have to hop around to find something to listen to.
+As a result of third-party APIs, there exist players that deliver localized content. Because
+of the global back-end IPFS Ethereum infrastructure, all tracks are accessible to any and
+all third-party players.
+
+9.3. The music collector
+Peter is in his late 40s. Throughout his life, his favorite hobby has been music collecting.
+He is sad that music in the digital age is fleeting and streamed. He wishes he could
+“own” songs online and be able to stream even after “streaming sites” are abandoned.
+The Opus protocol revitalizes Peter’s dreams of being a music collector. With Opus,
+songs are stored forever on the permanent IPFS swarm, which means that songs he buys
+on the Opus platform will be “his” forever.
+Since Opus players rely on the Opus API that is fully decentralized, even if a player is
+shut down, Peter can rest assured that other players will enable him to access his music
+on the IPFS swarm.
+
+9.4. The Audiophile
+Jupiter is an audiophile that only listens to HD, 640Kbps audio. He finds it extremely
+difficult to find audio of this quality to listen to. Even though he is willing to pay more,
+artists often do not release HD versions as streaming platforms often restrict the bit rate
+to 128Kbps.
+Using Opus, however, Jupiter can enjoy music at 640Kbps as long as artists are willing
+to upload HD audio (and artists will, because they can generate more revenue). Served
+straight from the scalable IPFS swarm, Jupiter and many other audiophiles like him can
+now enjoy a wide selection of HD audio straight from any Opus core or third-party
+player.
+
+9.5. The amateur hip-hop artist releasing his first track
+Claire writes music to her small group of fans on Facebook in her free time. She wants
+to release a track on Spotify to both broaden her reach and monetize her work. However,
+for emerging artists like Claire, releasing a track is not easy. The high cost of
+registration—along with publishers, labels and exploitative streaming platforms—means
+that Claire cannot receive the money she deserves.
+With Opus, however, Claire can register her track on the UMRN through the relay
+contract easily and cheaply. Claire can now reach a big audience without the need to sign
+Copyright, Opus Foundation 2016-2017
+
+Page 34
+
+9. CASE STUDIES
+
+contracts. She can set the price she wants for her niche audience and know that she will
+receive all of her money transparently from any Opus player.
+Claire also offers a small bounty to people who share her music, which results in sales.
+By running this Opus campaign directly off the blockchain, Claire significantly increases
+her audience and helps her reach the top charts within a few weeks.
+
+9.6. The established artist seeking a bigger audience
+Frank already sells his tracks on Spotify, Apple Music, and other big platforms. He is
+tired of the fees these platforms take, paying him only 20–30% of the total revenue.
+Using Opus, Frank not only cuts out all the red tape surrounding these centralized
+platforms but also generates much more revenue than he ever has before. In addition,
+Frank feels much more secure knowing that Opus will not suddenly increase fees or
+remove his songs from the platform.
+
+9.7. The playlist wizard
+People love the musical tastes of Marcus Stephan. In his spare time, Marcus expertly
+crafts playlists enjoyed by millions of people across the world. Marcus wishes there was
+a way he could make money from his work.
+On Opus, Artists give bounties to people sharing their music. Marcus is ecstatic. He can
+now create playlists containing these tracks and get paid for sharing artists’ music.
+Marcus now does full time playlist-crafting and earns a living doing it.
+
+9.8. Marketing professionals
+Jack is a marketing professional looking for work. The Opus DAO collects 2–3% of all
+sales proceeds for this sole reason. Every month, OPT holders will be able to vote on
+how to spend the governance money. This system will allocate some OPTs towards
+marketing purposes, paying individuals like Jack to do work for Opus, breaking the
+network effect, and increasing Opus’s popularity.
+
+Copyright, Opus Foundation 2016-2017
+
+Page 35
+
+10. ROADMAP
+
+10. Roadmap
+July 2016 - Started development
+Aug 2016 - Formed official Opus development team
+Sep 2016 - C++ custom Blockchain infrastructure.
+Oct 2016 - Storage layer / infrastructure implementation (Sia, Storj, IPFS)
+Nov 2016 - Technical alpha
+Dec 2016 - Opus Ethereum smart contract development.
+January 2017 - Seed round from external investor, consolidated name.
+March 2017 - Audit Opus Ethereum contract. Team expansion Opus API development.
+Development on Opus DAO.
+April 2017 - Optimizing the Opus UMRN registry. Added UI/UX and web designers.
+Working with small artists. Development on Artist bounty system
+May 2017 - Beta release, optimization and website. Opus Crowd sale development.
+Optimizing APIs
+June 2017 - Security audit and press release, opusDAO beta testing. Official launch.
+July 2017 - Crowd sale and fund raising, Business Outreach
+August 2017 -Expand team by on-boarding new developers and advisors. Join EEA.
+September 2017 - Fully implement voting/governance DAO in addition to the bounty
+system.
+Oct of 2017 - Publish documentation on OpusAPI.
+Nov of 2017 - Optimize, test and audit Main-net release.
+End of 2017 - Main-net release.
+2018 - 2019. Integrate with Raiden’s release. Scaling.
+
+Copyright, Opus Foundation 2016-2017
+
+Page 36
+
+11. MARKET ANALYSIS
+
+11. Market analysis
+11.1. Overview
+With the introduction of the immutable block-chain, there now emerges an environment
+in which we can implement a successful buy-to-own market strategy.
+Historical data in the music industry has shown that the buy-to-own model of music is
+the best for both amateur and professional artists. Artists release tracks and generate
+revenue proportional to sales based on their popularity. Unfortunately, this model has
+largely been overtaken by streaming services because establishing permanent ownership
+in the digital world is difficult. A central spoke-and-hub model with central servers is the
+easiest way out.
+Opus solves this central issue by utilizing a permanent and immutable IPFS swarm file
+storage system along with permanent smart contracts. Our solution is a decentralized
+system that enables such a buy-to-own system, where users can ”purchase” songs
+knowing that their songs will be available anywhere and anytime.
+
+11.2. Opus market breakout
+Initial adoption will always be a challenge to any platform; It was a big challenge for
+Spotify to enter the music sales industry as well just a few years ago. To overcome this
+hurdle, what we plan is to target specific market segments.
+11.2.1. China
+The Chinese music service industry is set to grow tremendously in the next few years.
+Without established competitors, we expect that Opus will be able to take a foothold in
+the Chinese music industry rapidly and swiftly. Our Chinese ambassadors will lead the
+marketing campaigns within China by promoting it within the country both locally and
+through mass-media advertising campaigns
+In addition, the Chinese government is cracking down on many internet live streaming
+services and censoring content due to fears of ”corrupting the youth”. With the Opus’
+fully decentralized and uncensorable infrastructure, this will not be an issue at all. This
+resistance to censorship provides us great leverage against some of the highly censored
+Chinese streaming services and we hope to capitalize on this.
+11.2.2. International
+Music today is often listened to by people from all around the world, even by people who
+may not necessarily understand the language in which a particular song is sung. This
+international market segment is set to expand rapidly in the next few years. Currently,
+there does not exist a unifying service that aggregates music from all over the world.
+Our unique global API-based platform will enable this service from inception. Music
+published from any part of the world will be instantly referenced and searchable from
+any other location through the Opus UMRN registry, enabling Opus to take advantage of
+the growing international audience..
+Copyright, Opus Foundation 2016-2017
+
+Page 37
+
+11. MARKET ANALYSIS
+
+11.2.3. Niche markets
+The music market is extremely niche-focused. Apple Music targets the middle-income
+family audience while Spotify targets a younger college-age market. This is interesting,
+as music is a very identity-focused medium. People like to associate with their specific
+brand or service—which is what allows them to connect with the music services.
+Opus, unlike previous streaming services, is API-based. This means that any company
+will be able to integrate the Opus protocol and environment within their own player.
+Doing so allows Opus a significant competitive advantage. It allows Opus to act as the
+foundation upon which different players can operate within the music space.
+Opus has the potential to be greater than each music platform as it can target every niche
+market simultaneously with third-party API-based players.
+
+Copyright, Opus Foundation 2016-2017
+
+Page 38
+
+12. OPUS PLATFORM PROJECTION
+
+12. Opus platform projection
+Below are some estimated projections of the potential size and reach of Opus:
+While we will rely more on organic growth, we do expect our significant competitive
+advantages over existing solutions to overcome the relatively small network effects of
+streaming services such as Spotify, Apple Music, and SoundCloud. Nevertheless, below
+are some conservative, expected and optimal scenarios of the Opus platform.
+
+12.1. Methodology
+All predictions are calculated with Statistics from the total sales of the music industry
+which is a $40Bn dollar industry. [IFPI ] In fact, Apple Music alone grew to $7Bn in
+revenue in 2017.
+The cost of each song is estimated at $0.99, which is an under-estimation when songs are
+owned and not streamed.
+The equation of total platform valuation is based on the estimation published by
+Damodaran on estimating the value of private entities. While we do not have data on the
+rate of return, we will calculate some projections on possible rates of return along with
+associated value of the total ecosystem in terms.
+Eqt (x) =
+
+Eqn
+1 + Rate(x))n
+
+(5)
+
+[Damodaran ]
+Whereby the rate of return is calculated from the estimated rate of return to artists.
+Note: These are simple projections and goals that hope to target in our future up scaling
+plans. We do not guarantee such projections, however the Opus team will try our best to
+meet these projections.
+
+12.2. Conservative projection
+In the conservative projection, we see good adoption in certain communities and within
+certain regions. We enter the Chinese market after a year or two after launch, and some
+Ethereum platforms. We see some success outside of the community.
+Table 3. Conservative global projection
+
+Timescale
+
+Total songs sold Opus Treasury
+
+Value of Opus
+
+Year 1
+
+1mm
+
+30,000
+
+10mm
+
+Year 2
+
+5mm
+
+150,000
+
+50mm
+
+Year 3
+
+30mm
+
+1mm
+
+300mm
+
+Market saturated
+
+300mm
+
+10mm
+
+3bn
+
+Expansion of market
+
+500mm
+
+20mm
+
+5bn
+
+Copyright, Opus Foundation 2016-2017
+
+Page 39
+
+12. OPUS PLATFORM PROJECTION
+
+12.3. Ideal projection
+In the ideal scenario, we have very good initial support from the music community. We
+expand in multiple markets across multiple countries within the first year. The pricing
+model is attractive, and we increase sales over the next few years. The Opus treasury
+creates a positive feedback loop, and we experience increased sales.
+Table 4. Realistic global projection
+
+Timescale
+
+Total songs sold Opus Treasury Value of total system
+
+Year 1
+
+5mm
+
+150,000
+
+50mm
+
+Year 2
+
+30mm
+
+1.5mm
+
+300mm
+
+Year 3
+
+300mm
+
+10mm
+
+3bn
+
+Market saturated
+
+500mm
+
+40mm
+
+5bn
+
+1bn
+
+80mm
+
+10bn
+
+Expansion of market
+
+12.4. Exceptional projection
+In an exceptional scenario, we experience explosive growth from many third-party
+developers using the Opus API. We increase music sales exponentially and get several
+endorsements from multiple leading artists. In the coming years, we become the de facto
+standard for music sharing. Opus truly revolutionizes music and expands the music
+industry into places it could not have been.
+Table 5. Realistic global projection
+
+Timescale
+
+Total songs sold Opus Treasury Value of total system
+
+Year 1
+
+30mm
+
+1.5mm
+
+300mm
+
+Year 2
+
+300mm
+
+10mm
+
+3bn
+
+Year 3
+
+500mm
+
+40mm
+
+5bn
+
+Market saturated
+
+1bn
+
+80mm
+
+10bn
+
+Expansion of market
+
+5bn
+
+400m
+
+50bn
+
+Copyright, Opus Foundation 2016-2017
+
+Page 40
+
+13. CONCLUSION
+
+13. Conclusion
+With the advent of blockchain smart contracts and IPFS, there now exists the ability to
+construct an attractive way to securing both the ownership of an immutable physical file
+and a market-fair pricing and payment system between the artist and fan.
+This novel pay-to-own system enables many exciting new opportunities in the
+music-distribution stack. What Opus proposes is a revolutionary concept of a fully
+decentralized music platform that resists loss-leader pricing and predatory fees—a
+system where artists are paid fairly, and fans enjoy the music they love, wherever they
+are. With our fully block-chain based demo, we have brought this concept to reality.
+The Opus foundation hopes to achieve the ultimate goal in music distribution: an
+uncensorable, fully-decentralized, fair-market platform that is inherently scalable and
+latency-free. Through Opus, we hope to bring a new level of digital music free from the
+shackles of corporate greed.
+
+Copyright, Opus Foundation 2016-2017
+
+Page 41
+
+14. CONTACT
+
+14. Contact
+14.1. Email
+info@opus-foundation.org
+
+14.2. Phone
+Office hours (13:00 - 22:00) GMT +971 50 69190541
+
+14.3. Location
+Saadiyat Island, Abu Dhabi, United Arab Emirates.
+
+14.4. Social media
+Bitcointalk:https://bitcointalk.org/index.php?topic=2011065
+Youtube: https://www.youtube.com/watch?v=MOwF-qAo020
+Twitter: https://twitter.com/opusfoundation
+Slack: http://slack.opus-foundation.org/
+Telegram: https://t.me/opusfoundation
+Facebook: https://www.facebook.com/opusfoundation/
+WeChat: http://opus-foundation.org/img/wechatQR.jpg
+Blog: http://opus-foundation.com/blog.html
+Reddit; https://www.reddit.com/r/opusfoundation/
+
+Copyright, Opus Foundation 2016-2017
+
+Page 42
+
+15. REFERENCES
+
+15. references
+References
+[Benet ] Benet, J. (2014) ipfs - content addressed, versioned, p2p file system.
+https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf.
+[Benet et al. ] Benet, J., Johnson, J., and Couder, C. (2015) ipfs specs.
+https://github.com/wking/ipfs-specs.
+[Damodaran ] Damodaran, A. (2009) valuing young, start-up and growth companies:
+Estimation issues and valuation challenges. Stern School of Business, New York
+University, may 2009.
+[Duffield and Diaz ] Duffield, E. and Diaz, D. (2015) dash: A privacy-centric
+crypto-currency.
+https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf.
+[Filecoin ] Filecoin. (2014) filecoin: A cryptocurrency operated file storage network.
+http://filecoin.io/filecoin.pdf.
+[IFPI ] IFPI. (2017) international federation of the phonographic industry. global music
+report 2017. http://gmr.ifpi.org/about-the-report.
+[Jentzsch ] Jentzsch, C. Decentralized autonomous organization to automate governance final draft. https://download.slock.it/public/DAO/WhitePaper.pdf.
+[McCandless et al. ] McCandless, D., Quick, M., Hollowood, E., and Slater, T. Selling out:
+How much do music artists earn online. Information is beautiful.
+[Nakamoto ] Nakamoto, S. (2008) bitcoin: a peer-to-peer electronic cash system.
+https://bitcoin.org/bitcoin.pdf, 2008.
+[Pope et al. ] Pope, M. B., Warkentin, M., Mutchler, L. A., and Luo, X. R. (2012) the
+domain name system—past, present, and future. Journal. Communications of the
+Association for Information Systems. Volume 30. (329-246).
+[statista ] statista. (2016) music industry: Global music industry revenue and growth
+worldwide from 2012 and 2021 (in billions u.s dollars).
+https://www.statista.com/statistics/259979/global-music-industry-revenue/.
+[Towns ] Towns, R. Music metadata style guide v2. (2014). music business association.
+https://musicbiz.org/wp-content/uploads/2016/04/MusicMetadataStyleGuideMusicBiz-FINAL2.0.pdf.
+[wood ] wood, G. Ethereum: a secure decentralised generalised transaction ledger vi.
+http://gavwood.com/paper.pdf, 2014.
+
+Copyright, Opus Foundation 2016-2017
+
+

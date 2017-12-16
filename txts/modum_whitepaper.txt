@@ -1,0 +1,1046 @@
+Whitepaper
+DATA INTEGRITY FOR SUPPLY CHAIN OPERATIONS,
+POWERED BY BLOCKCHAIN TECHNOLOGY
+modum.io sensor devices record environmental conditions while
+physical products are in transit. When a change in ownership
+occurs, the collected data is checked against a specific smart contract in the blockchain. This contract validates that the transaction
+meets all of the standards set out by the sender, their clients, or the
+regulator and triggers various actions: notifications to sender and
+receiver, release of goods, payment, etc.
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+Copyright 2017 modum.io AG
+Whitepaper V. 1.0
+
+Contents
+Blockchain for supply chains				
+
+3
+
+Strategy: Pharma first						
+Strategy: Blockchain agnosticism				
+
+3
+3
+
+Regulatory driven first application			
+
+4
+
+EU GDP regulation recently changed				
+An efficient solution to meet regulations			
+
+4
+5
+
+How it works							6
+USPs of the modum system					
+
+6
+
+Technical details of the modum system		
+
+7
+
+Compliance-as-service business model 		
+
+10
+
+Only the beginning for modum.io			
+
+10
+
+First series								7
+Shipment process							8
+modum temperature loggers					9
+Security concept				
+			
+9
+
+For the last mile							10
+Experienced team							11
+
+Token Sale							12
+Token economics							12
+Milestones								
+13
+Voting principle and profit share process			
+14
+Early investor incentives 						14
+Bug Bounty Program 						
+15
+Buying procedure							
+15
+Minting of MOD tokens						
+15
+
+Market segmentation and go to market		
+
+16
+
+From pilots to market entry				
+
+17
+
+Producer to wholesaler						16
+Wholesaler distribution						16
+Mail-order pharmacies						16
+Pilot 1.0								17
+Pilot 2.0								17
+Paid Pilot 3.0 with 3PL and mail-order pharmacy		
+18
+Business and pricing strategy based on pilots			
+19
+Current status and go-to-market strategy			
+19
+ 
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+2
+
+Blockchain for supply chain
+“Blockchain for supply chains” has become a prominent, and very promising application scenario for blockchains, enabling transparency between
+untrusted partners and traceability throughout production processes.
+The advantage of using blockchain technology in the supply chain is that it
+provides an open, immutable, global, online ledger for transactions, which
+includes a verification mechanism.
+Recently, various start-ups (Chronicled, Everledger, Skuchain, Blockverify,
+ubirch, Provenance etc.) and large corporate players (IBM, Microsoft,
+Walmart, Maersk, BHP Billiton, etc.) have begun to run proof-of-concept
+studies, committing significant R&D resources to building new platforms
+and fostering international collaborations.
+
+Strategy: Pharma first
+
+In mid 2016, when modum.io began operations, only a few working blockchain infrastructures were available. modum.io opted to use blockchains
+with proven industry applications. This decision allows the modum team
+to focus on the development of the business case and to be able to stay
+relatively neutral or “agnostic” with respect to the growing portfolio of
+blockchain solutions.
+modum.io chose the pharma industry as its first business case because
+this sector requires highly automated and cost-effective logistics solutions, which guarantee data integrity. As the pharma industry has one
+of the highest standards for product safety, security, and stability, it is
+the ideal candidate to act as a “blockchain-enabler”; having successfully
+proven a viable blockchain solution with the highest requirements, scaling
+into other verticals is feasible.
+
+Strategy: Blockchain
+agnosticism
+
+The general maturity of the Ethereum network and development stage
+of Solidity validated modum.io’s choice to use Ethereum for its pilots or
+proof-of-concepts. While Ethereum remains one of the most cutting-edge
+blockchains with great developer and commercial interest, modum.io
+will stay open to other options for blockchain use in this rapidly changing
+market.
+In particular, requirements from our clients for permissioned blockchains
+or systems with low or no transaction fees call for substantial flexibility and resources from modum.io in order to truly become and remain
+blockchain agnostic. From a risk-perspective, social and technical uncertainties of blockchain infrastructures (governance, scalability, interoperability), make blockchain agnosticism an essential foundation of modum’s
+business strategy in order to be able to provide the best infrastructure to
+every customer.
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+3
+
+Regulatory driven first application
+EU GDP regulation recently changed
+The first product of modum.io offers an efficient system to comply with
+recently tightened regulatory requirements for the transport of medicinal
+products for human use in the European Union. Chapter nine of the Good
+Distribution Practice regulation (GDP 2013/C 343/01) now requires proof
+that shipped medicinal products have not been exposed to conditions
+(particularly temperature) that may have compromised their quality.1
+National regulatory bodies enforce GDP regulations on the over 10,000
+wholesale distribution authorization holders in the EU to ensure drug
+safety, whereby the consequence of non-compliance can lead to licenses
+being revoked.2 It is likely that regulation in the United States (draft chapter 1083: “Good Distribution Practice”) will follow in a similar direction.3
+To date, pharmaceutical companies meet requirements via expensive,
+temperature-stabilized trucks and containers from third-party logistics
+providers (3PLs). For the majority of medicines (which are not temperature sensitive) this is excessive from a cost and regulatory perspective.
+
+Figure 1: GDP 2013/C 343/01) Regulation.
+
+1. https://ec.europa.eu/health//sites/health/files/files/eudralex/vol-1/2013_c343_01/2013_c343_01_en.pdf
+2. estimate based on the list of WDA holders in Germany: https://www.pharmnet-bund.de/static/.content/.galleries/downloads/de/am-grosshaendler-namen-stand-201706.pdf
+3. http://www.usp.org/sites/default/files/usp_pdf/EN/USPNF/revisions/c1083.pdf
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+4
+
+An efficient solution to meet regulations
+modum.io offers a more efficient supply chain solution, which enables
+companies to prove compliance with GDP regulations using blockchain
+and Internet-of-Things (IoT) technology. The modum solution allows significant cost savings for the distribution of medicinal products that do not
+require active cooling. The modum solution is:
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+1.	
+	
+
+Designed for pharma standards with a calibrated tempera-		
+ture sensor.
+
+2.	
+
+Automated to a high degree and fully wireless.
+
+3.	
+	
+
+Easily integrated with existing customer systems, capable of 		
+being rolled out painlessly, with no gateways.
+
+4.	
+	
+	
+
+Able to provide a high level of data integrity, authenticity, 		
+independent verification, auditability, security, and flexible 		
+data ownership.
+
+5.	
+
+A low-cost solution that allows mass use.
+
+5
+
+How it works
+USPs of the modum system
+
+Figure 2: Components of the modum system: dashboard, temperature loggers, and mobile application
+
+modum.io has developed a system with the above design focus, leading
+to the following features and USPs:
+Before shipment occurs, the temperature logger ID, shipment ID, and
+alarm criteria are fixed within a shipment-specific smart contract. Upon
+receipt, this smart contract will allow receivers to check that regulations
+have been met. The evaluation criteria (in this case temperature ranges),
+cannot be changed retroactively. During the shipment, the temperature
+is monitored, whereby the data is stored in the internal flash memory of
+the logger. Using BLE (Bluetooth Low Energy) the shipment does not need
+to be opened in order to perform the checks. At each change of ownership, data authenticity is certified by the smart contract. The results of the
+evaluation are immutably stored in a blockchain as a proof-of-existence.
+Depending on the outcome, the receiver and sender are notified immediately, allowing them to release the product or arrange further corrective
+and preventative actions. Customers do not need to install additional
+hardware to use the system, downloading a mobile application is sufficient.
+For the customer, the modum system provides:
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+1. 	
+	
+	
+
+A passive solution that includes a monitoring service with no
+special packaging required, without the need for expensive,
+active-temperature controlled logistic services.
+
+2. 	
+	
+
+The proof required by GDP regulations that medical products 		
+have not been compromised on shipment level.
+
+6
+
+Technical details of the modum system
+First series
+The following describes the state and components of the first series of the
+modum system planned for production in Q4/2017.
+The modum system is designed with a clear design focus on automation
+and security. It consists of multiple hardware and software components.
+•	
+
+A pharma-qualified temperature logger, which monitors the temperature during the transport. It communicates wirelessly to a mobile 		
+application via BLE (Bluetooth Low Energy), alternatively, via NFC 		
+(Near Field Communication).
+
+•	
+
+The dashboard serves for preparation (e.g. setting alarm criteria) and 	
+tracking of shipments, data visualization and analytics, and can be 	
+used to perform statistical calculations on historical data, e.g. com-	
+pare different shipments, with export functionality.
+
+•	
+
+The mobile application can be used to pair the temperature log-		
+gers with the respective shipments, initialize shipments and visualize
+the recorded data.
+
+•	
+
+The front end (dashboard, temperature logger and mobile application) communicate with back-end’s HTTPS 	server via RestAPI/JSON.
+
+•	
+
+The back end is for data retrieval, evaluation, verification and 	
+storage. It also runs an Ethereum full node executing the respective 	
+smart contract code.
+
+BACK END
+
+FRONT END
+SERVER
+
+PostgreSQL
+DB Instance
+
+HTTPS
+Server
+
+Rest API,
+JSON
+
+Dashboard
+
+JSON
+RPC
+Near Field
+Communication
+
+Smart
+Contract
+
+Ethereum
+Network
+
+Ethereum
+Node
+
+Bluetooth
+Low Energy
+Mobile
+Application
+
+Temperature
+Logger
+
+Figure 3: Front end and back end of the modum system
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+7
+
+Shipment process
+
+Users will first set the temperature ranges (alarm criteria), measurement
+intervals etc. using the dashboard. During the packing process, the operator scans the shipment information (e.g. tracking number), receives the
+serial number of the temperature logger and places it in the corresponding package. This process can be accelerated in an industrial setting, using
+NFC. In the back-end, a shipment-specific smart contract (already containing specific shipment parameters such as temperature range) is called.
+The temperature measurement starts either immediately or after a predefined time. During transport, the logger can be queried for shipment,
+current, and recent temperature data. Upon receipt, BLE can be used to
+retrieve the shipment data, even without opening the package.
+Compliance is checked in multiple stages and on multiple levels:
+1.	
+	
+2.	
+	
+	
+3.	
+	
+	
+	
+
+The logger itself signals occurrences of deviations to the operator 	
+via its three LEDs.
+The smartphone application displays data and deviations
+submitted by the logger in a graphical way, even when the phone
+is not connected to the internet.
+Through the back-end the data is validated for authenticity and 	
+compliance by the shipment-specific smart contract, without the 	
+possibility of any party to interfere - whereby all information re-	
+quired for validation is publically accessible.
+
+For all outcomes, the smart contract stores the measurement hash, a yes/
+no outcome with respect to the pre-set temperature range and a pointer
+to the actual measurement data (e.g. the PostgreSQL or a customer database) in the blockchain as proof-of-existence. If a deviation has occurred,
+the sender is notified and can review the corresponding measurement
+and shipment data.
+
+Figure 4: Shipment process of the modum system
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+8
+
+modum temperature loggers
+The specifications of the modum temperature logger (first series) can be found below:
+Device Type
+
+modum.io temperature logger TAG1
+
+External Dimensions (LxWxH)
+
+100 mm x 40 mm x 10 mm
+
+External Display
+
+3 LEDS: Active/Measuring/Warning
+
+Weight
+
+60 g
+
+Warehouse Conditions (stand-by mode)
+
+0 °C to +30 °C
+
+Operating Temperature Range
+
+-10 °C to +70 °C, arbitrary temperature ranges, alerts
+
+Measurement Interval
+
+1 second to 1 week (pre-deﬁned), start after time delay
+
+Temperature Accuracy (calibrated)
+
+±0.45 °C between -40 °C to +70 °C
+
+Temperature calibration valid for
+
+1.5 years
+
+Accelerometer
+
+Range: ±2g – 16g, free fall and motion detection
+
+Memory (RAM)
+
+30 KB
+
+Storage for Measuring Points
+
+50,000 measurements
+
+Protection Class
+
+IP65
+
+Battery Life
+
+6 weeks (active), 1 year (passive, on-shelf)
+
+Reactivation
+
+Possible
+
+Bluetooth Low Energy (BLE)
+
+Bluetooth 5 w/ secure connections
+
+Bluetooth Features
+
+BLE API on BLE GATT layer updating ﬁrmware
+
+NFC (Near Field Communication)
+
+For fast initialization / pairing (automation)
+
+Certiﬁcations
+
+CE, Temperature calibration, GMP, GAMP5
+
+Speciﬁca(ons	  subject	  to	  change	  
+
+Table 1: Technical specifications of the modum temperature logger
+
+Figure 5: Rendering of the upcoming series of modum temperature loggers
+
+Security concept
+
+The modum temperature loggers must mitigate various risk- and attack scenarios.4 With potentially thousands of loggers in circulation there is a credible risk
+that the hardware is subjected to physical disassembly, tampering, or manipulation of its firmware and flash memory. The housing itself is tamper-resistant
+and water-proof. All components with a serial number (e.g. temperature sensor,
+System-on-a-Chip) are registered in the authorized device database to identify
+forged, tampered-with, and stolen loggers. The cryptographic co-processor
+shields its secret keys (it uses to create digital signatures of all measurements,
+timestamps, etc.) from decapping, probing, and fault attacks. The corresponding
+public key of every logger is used by the system to guarantee end-to-end data
+authenticity. Smart contracts used in the modum system are open source and
+can be verified by anyone.5
+Furthermore, the modum system provides customers with multiple levels of access control and permits only authorized users of sender- and receiver company
+to interact with the temperature loggers.
+
+4. See the upcoming security whitepaper at https://modum.io/modum_securitywhitepaper.pdf
+5. https://github.com/modum-io/smartcontract/blob/master/TemperatureMeasurementA2.sol
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+9
+
+Compliance-as-service business model
+For the last mile
+
+During modum.io’s extensive proof-of-concept phase, pilot projects with
+several customers have determined that the modum solution delivered
+its highest value as a last-mile logistics service in the pharma supply chain.
+As such, modum.io will offer its solution in a “pay-per-shipment” model.
+The last mile of the pharma supply chain begins when finished products
+leave the pharmaceutical production facility and ends when they arrive
+at the pharmacy or hospital to be administered to the patient. Between
+producer and pharmacy, the products typically move through a pharmaceutical wholesaler.6 In the EU, around 200 million of these shipments
+occur each year.7
+
+Only the beginning for modum.io
+Our goal is to utilize the potential of a blockchain-based back-end for
+supply chains. Most logistics companies have small margins and high
+competition and therefore little possibilities to innovate if it does not save
+costs – therefore we focus on providing significant cost reductions for our
+customers in the pharma supply chain.
+Once the blockchain is a proven, cost-saving part of a logistics supply
+chain, additional use cases will be possible with almost no incremental
+costs for our customers. Besides the obvious ones as trade finance, trade
+documents and determination of legal handover, we are able to deliver
+unique products by adding additional environmental sensors to our hardware. For example, motion sensors to detect whether fragile goods were
+handled correctly, light detectors to immutably prove whether a parcel
+
+Figure 6: The modum system overview
+
+6. ‘Nearly three-quarters of all medicinal […] are distributed through pharmaceutical full-line wholesalers.’ http://www.girp.eu/files/GIRP-IPF%20Study%202016.pdf
+7. ‘Number of minimum daily Wholesaler deliveries to Pharmacies across the EU27’ multiplied by ‘Number of retail and hospital pharmacies and dispensing doctors’ multiplied by working days.
+http://eprints.lse.ac.uk/51051/1/Kanavos_pharmaceutical_distribution_chain_2007.pdf
+http://www.girp.eu/files/GIRP-IPF%20Study%202016.pdf
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+10
+
+was opened during its journey, and secure such an event with insurance
+policies. Furthermore, humidity sensors to monitor the condition of raw
+materials like salts for the pharmaceutical sector or hay for the transport
+of specialized horse food. Those are just some of the use cases which
+were already discussed with pilot and potential customers. Certainly,
+many more use case, which have not been considered will follow.
+By extrapolating some of the novel technologies described in this whitepaper we expect that Smart Logistics (or Supply Chain 4.0), will yield a role
+reversal between the “object to be transported” and “carrier”: A “selfdependent shipment” could manage itself, i.e. autonomously optimize
+for revenue, directly pay its fees to different service providers and cost
+centers.
+
+Experienced team
+
+The modum team believes that technology is the answer to the world’s
+most urgent problems. Our highly capable team combines a breadth of
+competency and experience to serve our clientele and deliver a highquality solution.
+•	
+
+Malik El Bay, has experience in building products in the fast-paced
+startup environment. With two start-ups under his belt, he leads the
+team and strategic growth of modum.io.
+
+•	
+
+Dr. Stefan Weber, a physicist with industry and start-up experience. He
+manages hardware development and compliance.
+
+•	
+
+Sacha Uhlmann has a background in peer-to-peer systems and quality
+assurance. He leads the system development and is the lead architect of
+modum.
+
+•	
+
+Simon Dössegger, a mechanical engineer who already exited his last
+start-up creating autonomous flying drones to GoPro. He leads the product strategy and business development.
+
+•	
+
+Andreas Knecht, is a lead engineer and IoT guru. He is responsible for
+the hardware and firmware development.
+
+•	
+
+Marc Heimgartner, Tim Strasser, Guilherme Sperb Machado,
+Moritz Schneider and Sebastian Stephan are the core developers of
+the modum system.
+
+•	
+
+Michael Taylor and Ozan Polat spearhead the marketing and
+communications team. They bring marketing experience from major
+tech- and innovative startup environments.
+
+•	
+
+Dr. Thomas Bocek is the resident blockchain expert, with a PhD in
+decentralized and peer-to-peer systems.
+
+•	
+
+Marc Degen, a blockchain investor, guides the modum.io team with
+deep digitalization knowledge.
+
+•	
+
+Werner Spörri, chairman and former investment banker, contributes
+valuable financial and legal direction.
+
+•	
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+Pascal Degen, currently engaged as Head of Sterile Packaging at Novar-
+
+11
+
+tis, brings in-depth manufacturing knowledge from within the pharma
+sector.
+•	
+
+Michel Schaer, founded a Swiss-based pharmaceutical distributor and
+provides insight regarding pharma wholesale and distribution.
+
+Additionally, the modum.io team regularly consults with our advisors:
+•	
+
+Prof. Dr. Burkhard Stiller (Communications Chair, University of Zurich)
+whose main research interests are in blockchain, IP-based networks,
+cloud and grid services, and the economics of IP services.
+
+•	
+
+Prof. Dr. Erik Hofmann (Director of the Chair of Logistics Management,
+University of St. Gallen) who wrote the book Supply Chain Finance and
+Blockchain Technology.
+
+•	
+
+MLaw Benedikt Schuppli, RA, is a legal counsel who works with the
+Swiss Fintech company Lykke Corp, which is building a global marketplace based on blockchain technology.
+
+•	
+
+Dr. Ing. Heinrich Zetlmayer (Member of the Board, Lykke Corp) is a
+Board Member at Lykke Corp and advises on the business aspects of the
+token sale, being a former IBM top executive in charge of big-scale supply chain implementation programs.
+
+Furthermore, we are working together with external experts, specialists in
+embedded systems and GDP-compliant transport validation implementations.
+
+Token Sale
+
+Token Economics
+
+modum.io is a company with a real product, commercial traction, and
+with major partnerships. Its token sale has been carefully crafted to relate
+to the reliability of our service offering. The primary goal of the token sale
+is to establish mechanisms for modum.io to efficiently execute its vision:
+‘to improve supply chain operations with emerging technology’ and to
+align the interest of token holders with the interests of the team. Therefore Lykke Corp. was chosen to advise on the token sale and all related
+activities.
+
+The modum token (MOD) is a profit share token with voting and profit
+participation rights. The maximum total supply is 30 million tokens. 20.1
+million are offered in the token sale, 0.9 are used to cover the token sale
+costs and for the bug bounty program, and 9 million MOD are reserved
+for modum.io, to be vested based on major milestones. Token holders will
+vote to decide if the milestones are met and release the locked tokens.
+Locked tokens do not have profit share nor voting rights. Ethereum ERC20
+technology was used to build the MOD token. The code of the smart
+contract and the tokensales application is open source8 and has been
+reviewed by Lykke Corp and Consecom (a Swiss IT Security consultancy).
+
+8. visit: http://github.com/modum-io
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+12
+
+Figure 7: Token economics breakdown
+
+Milestones
+
+The funds collected in the token sale are used to meet predefined
+milestones in our product roadmap as elaborated below. The mentioned
+dates are “earliest dates possible” and no voting will take place before
+the dates mentioned. The milestones provide today’s view of the market
+needs. Due to the fast-evolving nature of the blockchain ecosystem those
+milestones are indicative, i.e. if a milestone needs to be changed, prior
+acceptance of the change is required, therefore an additional voting is
+conducted. In case of a negative voting, modum.io can reinitiate the voting process earliest 90 days after the end of a prior voting period, and no
+milestones can be skipped by modum.io. We commit to these milestones
+regardless of the outcome of the token sales and total funds collected.
+Milestone 1 – expected earliest October 22nd, 2017:
+The objective is to ensure a proper minting and token distribution process
+to release upon positive voting 900,000 tokens (3% of the maximum MOD
+supply) to a wallet controlled by modum.io. The distribution is conducted
+using the first in first out principle. All contributions are
+consolidated into one list. The timestamp per block is used to define the
+conversion rate to USD, which is then used to define the conversion rate
+to MOD tokens. One contribution might be in multiple bonus tiers. This
+process is supervised by our advisor Lykke Corp. The released tokens are
+used for our advisors, many helping hands in the making of this tokensale
+and the bug bounty program.
+Milestone 2 – expected earliest Q1/2018:
+Objective is to ensure the go-to-market of our first product line including
+the mass production of our dedicated sensor device and the product ecosystem (application, validation & qualification). At least two environmental sensors are integrated into the hardware platform (temperature and
+motion) and besides Ethereum at least one of the following blockchains:
+IOTA, NEO, Fabric, ETC or Rootstock, is supported as blockchain back-end.
+3 million tokens are upon positive voting released to a wallet controlled
+by modum.io.
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+13
+
+Milestone 3 – expected earliest Q1/2019:
+Objective is to deliver the next sensor generation with real-time interaction
+(via current or emerging network technologies, like LoRaWAN). At least one
+additional environmental sensor is integrated (light or humidity) and any
+two additional blockchain back-ends of the following: IOTA, NEO, Fabric,
+ETC, Rootstock, Waves, Tezos, EOS or Cosmos, are supported. 3 million tokens are upon positive voting released to a wallet controlled by modum.io.
+Milestone 4 – expected earliest Q1/2020:
+Objective is to deliver the next sensor generation with a real-time, on-chip
+blockchain node. An additional environmental sensors (e.g. light or humidity) is integrated and the complete modum software is delivered in a
+fully decentralized architecture. 3 million tokens are upon positive voting
+released to a wallet controlled by modum.io.
+
+Figure 8: Roadmap and first milestones
+
+Voting & profit sharing
+
+With the publishing of the annual report modum.io can claim whether or
+not the present milestone was achieved. With the publishing of the report
+the start date of the voting period is set. The voting period lasts for two
+weeks. Every MOD token in circulation has one vote. Locked tokens cannot vote. The default vote is void. The quorum is defined by the number
+of executed votes within the predefined timeline. A simple majority is
+needed to decide if the milestone was met. If the milestone was met, the
+defined number of tokens are released to the modum.io wallet.
+The board of modum.io decides and declares the amount of dividends
+when there is a profit. A payment equivalent to this amount is converted
+to Ether and sent to the modum smart contract. The modum smart
+contract evaluates the current holdings and distributes the profits to the
+token holders in Ether. The voting and profit share smart contract is open
+source
+
+Early investor incentives
+
+The token pre-sale will be conducted by invitation only. The pre-sale starts
+in August and comes with a 50% discount on the price of 1 USD per MOD
+token. The number of tokens sold at 50% discount is hard capped at 2.1
+million tokens.
+The public token sale starts on 1 September. The first 6 million MOD
+tokens are sold with a discount of 30% on the price of 1 USD per MOD
+token. The following 6 million are sold with a discount of 15%. The last 6
+million are not discounted and sold for 1 USD per MOD token. Oversubscriptions of a bonus tier get allocated to the following tier. The estimated
+current bonus tier is visible on the token website. The displayed amount
+may change due to changing exchange rates and is therefore indicative.
+Final bonus tier and token allocation is done post transaction. Oversubscriptions of the whole token sale are returned to the investors after the
+closing of the token sales. (Refund addresses are requested in the token
+sale app.)
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+14
+
+Bug Bounty Program
+
+Modum.io is deeply engaged with the developer community and has
+maintained a ‘code is law’ value system while developing its platform.
+With every major platform release modum.io will open a new phase of its
+“Bug Bounty Program”. Every developer that submits a bug will receive a
+certain number of points based on the severity of the bug. The severity is
+calculated according to the OWASP risk rating model based on impact and
+likelihood.
+In the first phase the smart contract of our token sale will be the first item
+to be checked by the community under the Bug Bounty Program. 3% of
+the total tokens issued will be held for the bounty program, with 25,000
+tokens available for participants who find bugs in the token sale smart
+contract.
+
+IMPACT
+
+OVERALL RISK SEVERITY
+High
+
+Medium
+
+High
+
+High
+
+Medium
+
+Low
+
+Medium
+
+Medium
+
+Low
+
+Note
+
+Low
+
+Low
+
+High
+
+Medium
+
+Low
+
+LIKELIHOOD
+
+Buying procedure
+
+Minting of MOD tokens
+
+9. visit: http://github.com/modum-io
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+To buy MOD tokens, please register on token.modum.io with your email
+and confirm the Terms of Token Sale. By confirming the Terms you are
+indicating, among other things, that you are not a resident of a country
+whose laws and regulations conflict with the purchase of MOD token
+and/or the participation in the token sale. You will be asked confirm that
+you are not a resident of the United States or Singapore or resident of a
+country where American embargoes and sanctions are in force, namely
+Iran, North Korea, Syria, Sudan, or Cuba. For further details please consult
+the Terms of Token Sale. After the confirmation of your email address,
+you will create your wallet for MOD tokens, upload a UTC/JSON Keystore,
+or the receiving address is entered manually. In the next step the payback addresses for possible oversubscription payments can be added
+and finally a personal BTC and ETH address is generated to deposit the
+investment amount. An email is sent upon successful confirmation of
+your payment. The conversion rate to USD is determined at the time of
+confirmation by official BTC/USD and ETH/USD exchange rates, which are
+provided by our advisor Lykke. The conversion to modum tokens is done
+post token sale. Therefore the exact number of tokens distributed per
+investor is communicated at the time of distribution of the modum token.
+The MOD tokens are distributed latest 30 days after the token sale is
+closed. The code for the creation of the tokens is open source9. The
+proper distribution is also the first milestone to be met. All investments
+are allocated by their confirmation time to the respective bonus tiers.
+Oversubscriptions of a bonus tier get allocated to the next following tier.
+At every time, the estimated current bonus tier is visible on the token
+website. Oversubscriptions of the whole token sale are returned to the investors. Upon sign-off of the distribution, every investor receives an email
+with their binding number of modum tokens they receive and the date
+and time of distribution to their token sale wallet. For more informtion on
+regulatory and legal aspects, see the Token Terms of Sale Document.
+
+15
+
+Market segmentation & go to market
+Last mile logistics are typically separated into two stages: From producer
+to wholesaler and from wholesaler to doctors, hospitals and pharmacies.
+However, mail-order pharmacies now open up a third stage skipping the
+pharmacy and are directly delivering to the patient.
+
+Producer to wholesaler
+
+Wholesaler distribution
+
+Mail-order pharmacies
+
+Approximately 10% of the 200 million annual shipments occur between
+pharma producers and wholesalers. These deliveries primarily consist of
+palettes containing finished products. The bulk of modum.io’s potential
+customers are small and medium-sized enterprise (SME) pharma producers, with an average annual volume of 1,000 to 10,000 shipments.
+90% of the total shipping volume is conducted from a wholesaler to hospitals, doctors, and pharmacies. Wholesalers usually have their own fleet of
+vehicles and outsource up to half of the shipments to third-party logistics
+service providers. There are about 750 wholesalers in the EU serving in
+total more than 180,000 pharmacies and dispensing doctors.10
+
+Mail-order pharmacies are a special case in last-mile logistics – they deliver
+medicines directly to the end consumer, adding up to 20 million shipments
+per year within the EU. Their segment is growing quickly, currently 2% of
+total market revenues11 (the average e-commerce revenue proportion
+across industries is approximately 8% and growing).12 The leading mail-order pharmacy in Europe, DocMorris, has 2.5 million clients and an annual
+turnover exceeding CHF 350 million.13
+
+Figure 9: Distribution of medical products overview: Of the 200 million pharmaceutical shipments occuring in the EU each year, 10% occur
+between producer and distributor and 90% occur between distributor and dispenser. Indicating that the bulk of shipments exist in the last
+mile between distributor and Pharmacies/Hospitals/Doctors.
+10. http://www.girp.eu/files/GIRP-IPF%20Study%202016.pdf
+11. http://www.apotheke-adhoc.de/nachrichten/apothekenpraxis/nachricht-detail-apothekenpraxis/versandapotheken-legen-um-30-prozent-zu/?L=1?t=1
+12. https://www.emarketer.com/Article/Worldwide-Retail-Ecommerce-Sales-Will-Reach-1915-Trillion-This-Year/1014369
+13. https://www.docmorris.de/service/unternehmen/presse/pressemitteilungen/2016/docmorris-vorreiter-beim-faelschungsschutz
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+16
+
+Mail-order pharmacies must comply with GDP regulations too: “It is in the
+responsibility of the sending pharmacy to demonstrate that the medicines
+have not been exposed to conditions that may compromise their quality”.
+More explicitly, the “sender must check the transport conditions for suitability in each case. Compliance, especially temperature, needs to be verified and documented regularly.”14
+
+From pilots to market entry
+Since its founding in 2016, modum.io has conducted several pilots in each
+of the last-mile segments in order to receive customer- and user input for
+developing the system, test different go-to-market strategies, and explore
+business and pricing models.
+For the pilots, modum.io used an off-the-shelf temperature logging device,
+the TI sensor tag, and developed its own custom firmware to interface with
+the modum system.15
+
+Pilot 1.0
+
+The first pilot was conducted in Switzerland in 2016, monitoring shipments
+from a SME pharma producer to a wholesaler.
+Over six weeks, several temperature loggers recorded 10,000 data points
+and were able to successfully track the temperature of most shipments.
+The collected feedback indicated necessary improvements in the following
+areas:
+1.	
+Connectivity of the temperature logger with the mobile applica	
+	
+tion should be quicker.
+2.	
+Data transfer speed should be improved.
+3.	
+A dashboard for data analysis should be created.
+The main advantages for SME pharma producers to use the modum system is the wider choice to find a suitable logistic partner and ensure compliance on a shipment level.
+
+Figure 10: Pilot 1
+14. https://www.ag.ch/media/kanton_aargau/dgs/dokumente_4/gesundheit_1/gesundheitsversorgung/heilmittel/regeln_versandhandel_2013.pdf
+15. http://www.ti.com/ww/en/wireless_connectivity/sensortag2015/index.html?INTC=SensorTag&HQS=sensortag-pr
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+17
+
+Pilot 2.0
+
+In its second pilot, modum.io monitored shipments between a wholesaler
+and several clinics and pharmacies whereby shipment volumes were
+scaled up by one order of magnitude.
+For this pilot, the temperature logger’s connectivity and data transfer
+speed were improved and a dashboard for quality assurance and customer service departments of the wholesalers was introduced and tested. To
+improve the the responsiveness of the read-out process of temperature
+data was an important learning from pilot 2.0.
+Additionally, modum.io monitored a cross-border shipment to validate
+the technology internationally and between continents.
+
+Paid Pilot 3.0 with 3PL &
+mail-order pharmacy
+
+A key takeaway from earlier pilots and the market studies was that a direct integration in the processes of a third-party logistics provider already
+serving high shipping volumes would greatly help modum.io scale because pick-up and hand-over would be handled by the same company.
+By using a third-party logistics provider, the shipment process remains
+the same for the sender: insert the loggers into the respective shipment
+and transfer the shipment to the 3PL provider. Prior to delivery to the
+pharmacy or hospital, the 3PL driver will use their proprietary scanning
+device to check compliance. He can then either release the shipment to
+the owner, or take corrective and preventive actions in case of any deviations.
+
+Figure 11: Pilot 2
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+18
+
+During the third, paid pilot with the parcel-service market leader in
+Switzerland, modum.io aimed to prove the suitability for mass use of the
+modum system. Two phases were conducted: in the first phase, modum
+implemented and stabilized customer processes; in the second phase,
+modum.io quantified additional efforts and the duration of the temperature data read-out process. The customer’s objective for this pilot was to
+achieve 95% of all readouts within 30 seconds. modum.io managed an
+average readout of only eight seconds for 100% of the shipments. In the
+pilot wrap-up meeting, suitability of the modum system for mass use was
+confirmed and the client recommended integration of the modum system
+into the offering of the 3PL.
+
+Business & Pricing Strategy
+
+By using the modum system, depending on market segment and volume,
+costs per shipment can be reduced by up to 60%. With respect to the 200
+million shipments of pharmaceutical products in the EU, a widespread
+adoption of the modum system or competing services has the potential
+to reduce industry-wide expenses by approximately 3 billion USD.
+The modum.io solution is offered in an easy “pay-per-shipment” model.
+It has been shown in the market studies and pilots that customers would
+pay up to 10 USD per shipment. When compared with the use of environmentally-controlled transport solutions, the modum system still significantly reduces overall shipping costs plus further cost reductions if the
+potential for automation, that comes with the modum system, is taken
+into account.
+
+Current status
+
+Currently, the modum system is being integrated into the system of the
+leading last-mile logistics service provider in Switzerland. modum.io is
+planning to finalize this integration in Q4/2017, using the first series of
+proprietary temperature loggers. Clients from the wholesaler and mail-order pharmacy segment are lined up. Upon successful completion, official
+market entry in Switzerland will begin in Q1/2018. Once integration has
+been established within our first client site, the logistics service provider
+can approach the SME pharma segment to offer the additional service.
+Furthermore, modum.io is in contact with significant customers from
+within the pharma distribution vertical in the UK, France, Germany,
+Turkey, and Vietnam.
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+19
+
+www. modum.io
+Technoparkstrasse 1
+CH - 8005 Zurich
+info@modum.io
+
+20
+
+

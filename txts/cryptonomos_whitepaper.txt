@@ -1,0 +1,897 @@
+Token	Launch	White	Paper
+
+May	2017
+
+134834324.1
+
+Table	of	Contents
+Legal	Disclaimer……………………………………………………………………………….
+Token	Launch	Summary…………………………………………………………………..
+Overview	of	the	Giga	Watt	Project…………………………………………………..
+Substance	of	the	Giga	Watt	Project……………………………………….
+Project	History……………………………………………………………………….
+Giga	Watt’s	Pricing…………………………………………………………………	
+Market	Overview…………………………………………………………………..
+Giga	Watt	Technology……………………………………………………………
+Token	Launch	Details……………………………………………………………………….
+Token	Launch	Overview…………………………………………………………
+Token	Launch	Platform………………………………………………………….	
+WTT	Smart	Contract………………………………………………………………
+Payment	Terms……………………………………………………………………..
+Distribution	and	Rates……………………………………………………………
+Projected	Timeline…………………………………………………………………………..
+Team……………………………………………………………………………………………….
+Giga	Watt	Project	Team………………………………………………………..
+Cryptonomos	Token	Launch	Team…………………………………………
+Risk	Factors……………………………………………………………………………………..
+
+2
+134834324.1
+
+3
+4
+5
+5
+6
+6
+8
+9
+12
+12
+16
+16
+17
+19
+20
+22
+22
+23
+25
+
+Legal	Disclaimer
+The	purpose	of	this	White	Paper	is	to	present	the	Giga	Watt	project	to	potential	token	holders	
+in	connection	with	the	proposed	Token	Launch.	The	information	set	forth	below	may	not	be	
+exhaustive	and	does	not	imply	any	elements	of	a	contractual	relationship.	Its	sole	purpose	is	
+to	provide	relevant	and	reasonable	information	to	potential	token	holders	in	order	for	them	
+to	determine	whether	to	undertake	a	thorough	analysis	of	the	company	with	the	intent	of	
+acquiring	WTT	tokens.
+Nothing	 in	 this	 White	 Paper	 shall	 be	 deemed	 to	 constitute	 a	 prospectus	 of	 any	 sort	 or	 a	
+solicitation	for	investment,	nor	does	it	in	any	way	pertain	to	an	offering	or	a	solicitation	of	an	
+offer	to	buy	any	securities	in	any	jurisdiction.	This	document	is	not	composed	in	accordance	
+with,	 and	 is	 not	 subject	 to,	 laws	 or	 regulations	 of	 any	 jurisdiction	 which	 are	 designed	 to	
+protect	investors.
+Certain	 statements,	 estimates	 and	 financial	 information	 contained	 in	 this	 White	 Paper	
+constitute	forward-looking	statements	or	information.	Such	forward-looking	statements	or	
+information	 involve	 known	 and	 unknown	 risks	 and	 uncertainties	 which	 may	 cause	 actual	
+events	or	results	to	differ	materially	from	the	estimates	or	the	results	implied	or	expressed	in	
+such	forward-looking	statements.	
+This	English	language	White	Paper	is	the	primary	official	source	of	information	about	the	WTT	
+Token	Launch.	The	information	contained	herein	may	from	time	to	time	be	translated	into	
+other	languages	or	used	in	the	course	of	written	or	verbal	communications	with	existing	and	
+prospective	customers,	partners	etc.	In	the	course	of	such	translation	or	communication	some	
+of	the	information	contained	herein	may	be	lost,	corrupted,	or	misrepresented.	The	accuracy	
+of	such	alternative	communications	cannot	be	guaranteed.	In	the	event	of	any	conflicts	or	
+inconsistencies	 between	 such	 translations	 and	 communications	 and	 this	 official	 English	
+language	White	Paper,	the	provisions	of	this	English	language	original	document	shall	prevail.	
+
+3
+134834324.1
+
+Token	Launch	Summary
+WTT	 token	 is	 an	 Ethereum	 token	 representing	 the	 right	 to	 use	 the	 Giga	 Watt	 processing	
+center's	 capacity,	 rent-free	 for	 50	 years,	 to	 accommodate	 1	 Watt's	 worth	 of	 mining	
+equipment	power	consumption.	
+Token	Launch	means	the	initial	sale	to	the	public	of	WTT	tokens.	
+Token	Issue	means	a	release	of	a	specific	batch	of	WTT	tokens.	
+	
+Tokens	will	be	offered	for	60	days	starting	on	June	2,	2017	and	ending	on	July	31,	2017.
+The	offering	will	be	open	to	the	public	globally.
+Token	Sale	Volume:	
+
+30	million	WTT	
+
+Token	Issue	Volume:
+
+34.5	million	WTT	1
+
+Distribution	of	Tokens:	
+
+For	every	100	tokens	sold	in	this	offering	15	additional	tokens	
+will	be	issued	and	retained	for	the	team	members,	partners	and	
+2
+advisors
+	
+	
+
+Token	Price	at	Issue:
+
+Equivalent	of	USD	1-1.2,	depending	on	the	date	of	the	
+acquisition
+
+Website	link:	
+
+https://cryptonomos.com/wtt/
+
+Accepted	forms	of	
+payment:
+
+Bitcoin	(“BTC”),	Ether	(“ETH”),	wire	transfer
+
+Presale	Start	Date:	
+Presale	End	Date:	
+
+May	19,	2017,	12:00	PM	PDT
+June	2,	2017,	12:00	PM	PDT
+
+Token	Launch	Start	Date: June	2,	2017,	12:00	PM	PDT
+Token	Launch	End	Date:	 July	31,	2017,	12:00	PM	PDT
+Initial	Token	Issue	Date:	
+
+August	7,	2017,	12:00PM	PDT
+
+1
+
+	The	WTT	tokens	will	only	be	issued	based	on	actual	existing	facility	capacity.		More	WTT	tokens	will	be	issued	
+as	the	facility	capacity	is	increased	through	future	build	outs.	
+2
+	See	Section	‘Distribution	and	Rates’	for	details.
+
+4
+134834324.1
+
+Overview	of	the	Giga	Watt	Project
+Substance	of	the	Giga	Watt	Project
+The	Giga	Watt	Project	is	built	in	partnership	between	Giga	Watt,	Inc.	a	U.S.	company	(“Giga	
+Watt”	or	“Company”),	which	offers	mining	hosting	services	at	its	Wenatchee,	WA	facilities,	
+and	GigaWatt	Pte.	Ltd.,	a	Singapore	company	(“Partner”),	which	sells	mining	equipment	to	
+customers	worldwide.	
+Giga	Watt	is	a	full-service	mining	solution	provider.	Giga	Watt	offers	turnkey	mining	services	
+or	 custom	 packages	 tailored	 to	 clients’	 needs:	 full	 range	 of	 mining	 services	 from	 hosting,	
+maintenance	and	repair	to	private	blockchain	servicing.	The	Partner	offers	equipment	sales	
+through	Giga	Watt’s	web	site3.	
+Giga	Watt’s	standard	turnkey	solution	includes	purchase	and	delivery	of	mining	equipment	
+through	 its	 Partner	 with	 its	 subsequent	 setup	 and	 hosting	 at	 Giga	 Watt’s	 facilities	 in	
+Wenatchee,	WA,	with	hosting	fees	starting	as	low	as	7.5	USD	cents/kW/hour4,	zero	setup	fees	
+(for	equipment	purchased	through	its	Partner)	and	uniquely	low	minimum	facility	entrance	
+threshold	of	1	miner	of	any	model.	
+Giga	Watt	can	host	a	wide	range	of	mining	equipment	models	commonly	used	by	miners;	
+many	popular	models	are	offered	for	sale	by	its	Partner.	
+Giga	Watt	also	offers	a	variety	of	custom	packages	and	services,	so	that	clients	who	own	their	
+mining	equipment,	including	the	models	not	distributed	by	Giga	Watt’s	Partner,	can	still	host	
+it	at	Giga	Watt’s	facility:	Giga	Watt	can	accommodate	any	ASIC	or	GPU-based	miners5.	
+Giga	Watt	mines	all	scalable	cryptocurrencies.	The	decision	on	what	currency	to	mine	is	made	
+by	 the	 customers	 who	 own	 the	 mining	 equipment.	 However,	 at	 this	 stage	 it	 is	 technically	
+impossible	for	Giga	Watt	to	offer	all	available	options	to	retail	customers.	Currently,	retail	
+customers	can	mine	only	BTC,	ETH,	and	LTC6.	
+Your	choice	of	equipment	also	determines	which	mining	pool	you	can	use.	The	following	three	
+pools	are	available	to	Giga	Watt’s	clients:	Slush	Pool	to	mine	bitcoins,	NanoPool	for	Ethereum	
+and	LitecoinPool	for	LTC7.		
+3
+
+The	sales	and	delivery	of	equipment	is	offered	through	the	Partner's	sales	module	on	Giga	Watt’s	web	
+site	.		
+4
+See	details	in	Giga	Watt’s	Pricing	section	below.
+5
+ASIC-based	miners	are	used	to	mine	bitcoin	or	litecoin,	GPU-based	equipment	is	used	to	mine	other	
+altcoins.	
+6
+	Giga	Watt	is	working	on	expanding	this	list	of	currencies	in	the	future.
+7
+	List	of	mining	pools	may	be	revised	in	the	future.
+
+5
+134834324.1
+
+A	miner	is	a	piece	of	equipment	operating	24/7	under	extremely	high	load,	so	failures	and	
+breakdowns	 are	 quite	 common.	 Miners	 have	 to	 be	 shipped	 to	 service	 centers	 for	 repairs,	
+which	takes	time,	especially	if	a	service	center	is	located	abroad,	and	every	day	of	downtime	
+means	 a	 loss	 of	 mining	 profit.	 Giga	 Watt’s	 on-site	 service	 center	 minimizes	 the	 downtime	
+(93.5%	minimum	uptime),	thereby	achieving	more	efficient	mining.
+Although	it	is	common	practice	in	the	industry	not	to	disclose	the	details	of	mining	facilities,	
+including	 their	 locations,	 in	 order	 to	 preserve	 trade	 secrets	 and	 shut	 competitors	 out	 of	
+inexpensive	 power	 locations,	 Giga	 Watt	 believes	 in	 complete	 transparency.	 Years	 of	
+experience	in	the	mining	business	demonstrate	that	running	a	competitive	company	takes	
+more	than	the	ability	to	copy.	This	is	why	every	two	weeks	Giga	Watt	welcomes	visitors	to	its	
+Open	House	in	Wenatchee	to	personally	tour	the	mining	facility.
+
+Project	History
+In	 2010,	 a	 software	 engineer	 and	 10-year	 veteran	 startup	 entrepreneur	 Dave	 Carlson	 first	
+came	 across	 Bitcoin.	 He's	 been	 innovating	 in	 the	 space	 ever	 since.	 In	 2012	 he	 founded	
+MegaBigPower	 with	 the	 goal	 of	 building	 the	 world’s	 first	 megawatt-scale	 Bitcoin	 mining	
+center	 and	 identifying	 the	 key	 design	 parameters	 required	 to	 successfully	 scale	 up	 the	
+business	 of	 Blockchain	 transaction	 processing.	 Soon	 it	 became	 one	 of	 the	 largest	 singleoperator	mines	in	the	world.
+Now,	 MegaBigPower	 has	 re-branded	 as	 Giga	 Watt,	 which	 completed	 the	 construction	 of	
+3	 mining	 facilities	 designed	 by	 the	 original	 MegaBigPower	 team	 and	 built	 under	 their	
+supervision	(250kW,	1MW	and	1MW).	The	opportunity	to	use	these	facilities	is	now	being	
+offered	 for	 tokenization.	 All	 three	 facilities	 are	 in	 operation	 and	 mostly	 rented	 out	 (actual	
+numbers	are	placed	and	updated	regularly	here	-	https://cryptonomos.com/wtt/#/capacity).	
+Giga	Watt	continues	to	build	new	units	with	its	own	resources8.
+
+Giga	Watt’s	Pricing
+Giga	Watt’s	pricing	structure	for	standard	turnkey	solution	consists	of	a	one-time	charge	for	
+the	purchase	of	miners	and	daily	charges	for	hosting	services,	which	include:
+-	 effective	electricity	cost;
+-	 maintenance	fee;	and
+8
+
+See	details	in	the	Timeline	Section.	Tokens	are	issued	only	when	new	processing	center	capacity	becomes	
+available	for	the	use	of	the	token	holders.
+
+6
+134834324.1
+
+-	 facility	rental	fee.
+Miners	Purchase:	
+Four	 models	 of	 mining	 equipment9	 are	 currently	 available	 for	 purchase	 through	 GigaWatt.com:
+
+Current	 prices	 and	 specifications	 are	 regularly	 published	 and	 updated	 at	 https://gigawatt.com/promo/prices.	
+
+	
+
+Hosting	fees10:
+
+9
+
+	The	list	of	models	may	be	revised	in	the	future.	Equipment's	description	may	be	revised	at	any	time	to	reflect	
+the	manufacturer’s	specifications.	
+10
+	Hosting	fees	may	be	revised	in	the	future.	
+
+7
+134834324.1
+
+Payments	for	hosting	services	(electricity,	maintenance,	rental	fees)	are	deducted	daily	from	
+the	 mining	 rewards.	 Giga	 Watt	 does	 not	 charge	 any	 fees	 for	 transfers	 and	 withdrawals	 of	
+funds;	however,	third	parties	may	charge	fees	to	transfer	funds	or	withdraw	them	from	the	
+account	on	Giga	Watt’s	platform).
+Clients	who	have	their	own	mining	equipment	can	host	it	at	Giga	Watt	at	the	same	hosting	
+prices,	with	the	only	difference	of	paying	the	following	setup	fees:	USD	20	per	ASIC-based	
+miner,	USD	40	per	GPU-based	miner11.	
+Giga	 Watt's	 service	 center	 also	 provides	 an	 add-on	 paid	 option	 of	 emergency	 equipment	
+repairs.	The	cost	of	service	depends	on	the	nature	of	performed	repairs.	
+
+Market	Overview
+Generally,	only	four	options	exist	on	the	market	for	cryptomining.	These	are:	(i)	to	operate	
+miners	from	home;	(ii)	to	use	cloud	mining;	(iii)	to	host	your	own	miners	at	third-party	hosting	
+facilities;	or	(iiii)	to	build	proprietary	mining	facilities.	The	first	two	options	are	intended	for	
+private	party	mining,	and	the	latter	two	are	designed	for	businesses.	Now,	however,	through	
+its	low	fees	and	extremely	low	minimum	entrance	threshold,	Giga	Watt	is	able	to	offer	a	fifth	
+option:	competitive	services	which	could	be	used	not	only	by	the	clients	of	hosting	companies	
+but	also	serve	as	an	alternative	to	home	mining,	cloud	mining	and	self-built	facilities.	
+
+11
+
+	Setup	fees	may	be	revised	in	the	future.	
+
+8
+134834324.1
+
+Aside	 from	 the	 numbers,	 home	 mining	 is	 both	 expensive	 and	 demanding:	 it	 requires	 the	
+owner's	constant	attention,	and	miners	are	quite	noisy,	which	many	find	objectionable.	Cloud	
+mining	is	extremely	opaque:	As	a	rule,	users	have	no	knowledge	of	their	equipment’s	brand	
+name,	model	number,	serial	number,	power	efficiency	and	consumption,	breakdown	of	costs,	
+mining	pool	name	or	even	the	location	of	the	facility.	Self-built	farms	require	experts	and	fullfledged	business	operations,	which	is	risky:	any	mistake	may	cost	millions.	Third-party	hosting	
+provides	 a	 viable	 alternative	 but	 there	 is	 currently	 a	 dire	 shortage	 of	 these	 services:	 the	
+demand	greatly	exceeds	the	supply.	
+What’s	more,	effective	electricity	cost	offered	by	Giga	Watt	is	currently	among	the	lowest	
+feasible,	and	even	taken	together	with	other	fees	it	is	still	comparable	to	average	electricity	
+rates	worldwide.	
+
+Electricity	rates	worldwide	(USD	cents	per	kW/h)
+All	of	this	makes	Giga	Watt’s	expansion	extremely	timely	and	relevant.
+
+Giga	Watt	Technology
+In	the	past	4	years,	Giga	Watt’s	team	built	5	air-cooled	mining	facilities.	This	experience	gave	
+them	the	expertise	to	select,	build	and	employ	the	best	technologies	for	mining.	From	their	
+experience	Dave	Carlson	and	his	team	discovered	that	large	monolithic	processing	centers	
+are	not	optimal	for	mining.		
+9
+134834324.1
+
+The	latest	technology	embodying	this	knowledge	at	Giga	Watt’s	facility	in	Wenatchee,	WA	is	
+the	proprietary	Giga	Pods	solution	which	takes	advantage	of	the	mining	hardware's	extremely	
+high	power	density,	avoids	active	cooling	consumption,	and	saves	power	for	high-efficiency	
+mining,	 thus	 minimizing	 costs	 in	 every	 aspect	 of	 mining	 operations.	 Giga	 Pods	 can	
+accommodate	 any	 type	 of	 miners.	 This	 model	 will	 be	 the	 cornerstone	 of	 Giga	 Watt’s	
+expansion12.	
+Giga	Watt's	distinctive	infrastructure	consists	of	numerous	autonomous	units.	This	approach	
+offers	flexibility	in	the	processing	center’s	design	and	record-fast	expansion	of	its	capacity.	It	
+also	minimizes	construction	costs	and	allows	to	utilize	first	units	while	new	units	are	being	
+built.	
+The	final	Giga	Pod	model	will	be	completed	before	the	end	of	the	Token	Launch.	Status	of	the	
+construction	can	be	checked	here	-	https://cryptonomos.com/wtt/#/capacity.
+
+12
+
+	Actual	dimensions,	processing	power	and	other	characteristics	may	vary	slightly.
+
+10
+134834324.1
+
+Size:	12'x48'	
+Independent	fiber-optic	Internet	connection
+High-pressure	 fans	 constantly	 circulate	 fresh	 air	 through	 the	 pod.	 Filtered	 air	 intakes	 are	
+positioned	on	one	side,	with	exhaust	fans	on	the	other.	Rain	and	snow	“fallout	area”	provides	
+cool	shade	at	intake.	Shade	placement	of	transformers	ensures	higher	efficiency	and	better	
+longevity.
+Single	 “mining	 wall”	 inside	 the	 pod	 ensures	 cool	 air	 circulation	 around	 miners.	 All	 heatproducing	equipment	is	arranged	next	to	exhaust	fans.
+Grass-covered	 campus	 reduces	 dust,	 cutting	 down	 on	 intake	 filters	 maintenance	 costs.	
+Arrangement	of	Pods	with	exhaust	fans	facing	each	other	(“hot	aisle-cold	aisle”),	in-line	with	
+prevailing	wind	air	currents,	clears	warm	air	efficiently.	Network	autonomy	minimizes	outage	
+risks	for	the	entire	operation.
+Minimum	processing	power	of	each	Giga	Pod	is	750	kW.	Processing	power	depends	on	the	
+equipment	each	Pod	is	designed	to	accommodate.	A	Pod	designed	to	accommodate	bitcoin	
+miners	and	GPUs13	or	only	GPUs	can	have	minimum	processing	power.	A	Pod	designed	to	
+accommodate	only	bitcoin	miners	can	house	up	to	1.75	MW,	but	requires	more	vents	and	
+heavier-duty	inside	wiring	and	equipment,	which	will	proportionally	increase	the	construction	
+costs.
+The	 choice	 of	 the	 required	 processing	 power	 is	 determined	 by	 the	 market	 demand.	 Giga	
+Watt’s	team	chooses	the	most	suitable	Pod	outfit	option	based	on	the	agreements	with	its	
+current	and	potential	customers	and	their	equipment	hosting	needs.
+13
+
+	GPU	is	a	graphics	processing	unit	which	can	be	used	to	mine	Ethereum	and	certain	other	cryptocurrencies.
+
+11
+134834324.1
+
+Token	Launch	Details
+Token	Launch	Overview
+Our	goal	is	to	offer	the	token	holders	access	to	both	an	exciting	new	world	of	technology	and	
+the	 cryptocurrency	 mining	 business.	 Generally,	 mining	 turnover	 is	 comprised	 of	 three	
+components:	(i)	electricity	cost;	(ii)	mining	hosting	cost;	and	(iii)	mining	net	profits.	Net	profits	
+can	vary	greatly	depending	on	mining	equipment,	while	costs	are	constant	and	predictable	
+and	consume	the	lion’s	share	of	the	potential	profits.		
+
+	
+This	infographic	is	an	example	based	on	the	calculations	from	April	28,	
+2017.	The	numbers	may	vary	significantly	due	to	the	rate	fluctuations,	
+mining	difficulty	increase,	and	other	factors.	
+
+Under	the	existing	partnership	arrangements	between	Giga	Watt	and	its	Partner,	the	Partner	
+is	 offered	 access	 to	 Giga	 Watt's	 facility	 at	 an	 unprecedentedly	 low	 hosting	 rate,	 which	
+significantly	 increases	 mining	 rewards.	 Now,	 through	 the	 tokenization	 process,	 this	 low	
+hosting	rate	can	be	passed	to	all	token	holders.		
+Each	Giga	Watt	Project	Token	(WTT)	represents	the	right	to	use	the	Giga	Watt	processing	
+center's	 capacity,	 rent-free	 for	 50	 years,	 to	 accommodate	 1	 Watt's	 worth	 of	 mining	
+equipment	power	consumption.	So	to	provision	and	use	your	mining	equipment	rent-free,	
+you	 will	 need	 to	 purchase	 the	 number	 of	 tokens	 equal	 to	 your	 equipment's	 power	
+consumption:
+
+Token	owners	can	use	this	capacity	to	accommodate	their	own	miners	or	to	rent	it	out	to	
+other	 users.	 Essentially,	 this	 is	 access	 to	 professional	 mining	 –	 with	 an	 extraordinarily	 low	
+12
+134834324.1
+
+entrance	threshold.	In	fact,	it	could	be	compared	to	membership	in	an	elite	private	mining	
+club.	
+
+Giga	Watt's	hosting	fee	typically	consists	of	effective	electricity	cost,	maintenance	fee	and	
+rental	fee.	Token	owners	pay	zero	rent,	which	drastically	reduces	their	ongoing	costs:	their	
+hosting	fee	is	comprised	only	of	effective	electricity	cost	and	maintenance	fee.	
+
+	
+To	be	used,	tokens	should	be	deposited	in	the	token	holder’s	account	with	Partner	placed	on	
+Giga	Watt’s	website14.	When	token	holders	buy	miners	from	the	Partner	through	Giga	Watt’s	
+website,	 miners	 available	 to	 them	 will	 be	 automatically	 displayed	 in	 their	 accounts	 and	
+matched	 with	 their	 tokens.	 If	 at	 the	 time	 of	 token	 purchase	 a	 token	 holder	 already	 owns	
+miners,	they	can	be	matched	with	tokens	manually15.	
+Token	holders	can	also	rent	out	their	extra	tokens	if	they	have	more	tokens	than	they	need	
+to	accommodate	their	miners.	
+	
+
+14
+
+Token	holders	manage	their	tokens	through	the	Partner's	token	holder	account	module	on	Giga	Watt’s	
+web	site.	
+15
+	Please	contact	the	support	team	for	manual	matching.
+
+13
+134834324.1
+
+Renting	Tokens	
+Token	holders	who	are	not	personally	interested	in	mining	or	have	spare	tokens	can	rent	them	
+out	via	the	Partner's	rental	module	on	Giga	Watt’s	web-site16,	choosing	one	of	the	rental	fees	
+set	by	Giga	Watt.	Token	rental	fees	are	the	same	as	the	Giga	Watt's	facility	rental	fees,	which	
+are	4.20,	4.95,	5.7	and	6.45	US	cents/kW/h,	depending	on	the	number	of	miners	hosted	(see	
+Section	"Giga	Watt's	pricing").	It	translates	into	daily	rental	income	of	¢0.1-0.15	per	token	
+(¢37-57	per	year).	
+To	take	advantage	of	this	option,	Giga	Watt’s	clients	who	do	not	have	their	own	tokens	and	
+token	 holders	 who	 need	 additional	 tokens	 or	 have	 spare	 tokens,	 place	 orders	 seeking	 or	
+offering	tokens	for	rent	on	the	Partner's	rental	module	on	Giga	Watt’s	website.	Each	order	
+specifies	the	number	of	tokens,	the	rental	fee	which	the	token	holder	is	looking	to	receive	or	
+which	the	client	has	to	pay	according	to	the	applicable	pricing	plan.	Token	holders	and	clients	
+can	view	the	lists	of	these	orders,	sorted	by	their	value	to	the	viewer,	and	choose	a	suitable	
+option	or	place	their	own	order.	
+After	the	completion	of	the	Token	Launch,	hosting	of	miners	will	only	be	available	to	retail	
+clients	through	tokens.	Consequently,	the	clients	who	do	not	own	tokens	will	have	to	rent	
+them	from	their	owners.	Customers	who	had	their	miners	hosted	with	Giga	Watt	before	the	
+start	of	the	Token	Launch	will	continue	to	be	served.	Their	hosting	fees	will	cover	the	rental	
+fees	 for	 token	 holders	 who	 rent	 out	 their	 tokens.	 However,	 after	 the	 end	 of	 their	 miners'	
+lifecycle	they	will	be	able	to	host	their	new	miners	with	Giga	Watt	only	if	at	that	time	there	
+are	token	holders	willing	to	rent	out	sufficient	number	of	tokens.	
+Rental	fees	are	deducted	from	their	mining	rewards	daily	and	paid	to	the	token	holder	via	a	
+third	party	splitter.	Giga	Watt	and	Partner	do	not	charge	any	fees	for	the	use	of	the	rental	
+module;	however,	third	parties	may	charge	fees	to	transfer	funds	or	to	withdraw	them	from	
+the	token	holder’s	account	on	Giga	Watt’s	web-site.	
+There	is	currently	a	dire	shortage	of	mining	hosting	services:	the	demand	greatly	exceeds	the	
+supply.	 Furthermore	 Giga	 Watt’s	 pricing	 packages	 are	 suitable	 for	 technology	 companies,	
+
+16
+
+	The	matching	of	token	holders'	and	Giga	Watt's	clients’	orders	for	tokens	offered	or	sought	for	rent	is	offered	
+through	the	Partner's	token	rental	module	on	Giga	Watt's	website.		
+
+14
+134834324.1
+
+mining	farms,	cloud-mining	projects,	and	even	individual	miners.	All	of	this	makes	Giga	Watt	
+extremely	timely,	relevant,	and	attractive	to	potential	renters	of	tokens.		
+Access	to	capacities
+WTT	can	be	used	from	the	very	first	date	of	issue.	Giga	Watt	facility's	unique	design	allows	
+for	 record-fast	 expansion,	 and	 the	 first	 units	 can	 be	 operated	 while	 the	 new	 ones	 are	 still	
+being	built.		
+Each	Watt	of	capacity	of	each	unit	in	operation	is	an	opportunity	to	accommodate	miners	of	
+token	holders.	Each	Watt	of	capacity	which	is	already	rented	out	to	the	client	who	has	no	
+tokens	of	his	own	is	an	opportunity	to	rent	tokens	out.		
+Currently,	all	three	existing	facilities	are	in	operation	and	mostly	rented	out.	Status	of	the	
+construction	
+
+and	
+
+the	
+
+capacity	
+
+utilization	
+
+can	
+
+be	
+
+checked	
+
+here	
+
+-	
+
+https://cryptonomos.com/wtt/#/capacity.	
+First	batch	of	tokens	of	5,400,000	WTT	(which	represents	5.4	MW	capacity	of	the	units	put	
+into	operation	by	the	end	of	the	Token	Launch)	will	be	issued	immediately	following	the	end	
+of	the	Token	Launch.	New	batches	of	tokens	will	be	issued	in	step	with	the	construction	of	
+new	units.	Tokens	will	be	distributed	on	the	first	come,	first	served	basis.		
+Summary
+To	sum	up,	the	purchase	of	access	to		a	hosting	capacity	with	a	lower	hosting	rate	allows	you	
+to	significantly	reduce	the	cost	of	your	mining	business,	thereby	increasing	mining	rewards,	
+offers	more	flexibility	and	helps	balance	out	the	mining	risks:	hosting	capacity	can	be	rented	
+out	 at	 any	 time,	 and	 rental	 income	 is	 much	 less	 affected	 by	 the	 cryptocurrency	 volatility.	
+Additionally,	Giga	Watt	facility	has	a	50-year	lifecycle	(compared	to	2.5	years	for	miners,	due	
+to	constant	increase	in	mining	difficulty)	and	is	suitable	for	any	Blockchain.	If	any	significant	
+changes	occur	in	the	mining	world,	Giga	Watt	capacities	could	alternatively	be	used	to	set	up	
+private	Blockchains.	
+Expected	lifespan	of	WTT	tokens	is	50	years.	This	term	is	based	on	the	expected	lifespan	of	
+the	Giga	Watt's	facilities.	
+
+	
+15
+134834324.1
+
+Token	Launch	Platform
+Token	Launch	is	conducted	through	a	groundbreaking	Cryptonomos	platform.	
+All	payments	for	WTT	tokens	will	be	collected	by	Cryptonomos.	Upon	the	completion	of	the	
+Token	Launch,	on	August	7,	2017,	Cryptonomos	will	issue	and	distribute	its	initial	batch	of	
+WTT	tokens,	with	subsequent	batch	issues	to	follow	upon	the	completion	of	new	capacity	
+construction.	If	a	cap	of	30,000,000	WTT	tokens	sold	is	reached	before	the	scheduled	end	of	
+the	Token	Launch,	Cryptonomos	at	its	own	discretion	may	issue	WTT	tokens	ahead	of	the	
+specified	date	to	provide	access	to	the	facilities	built	by	that	time.	
+
+WTT	Smart	Contract
+WTT	is	an	Ethereum	token.	It	complies	with	and	extends	ERC-20	-	a	de-facto	standard	and	
+widely	used	token	API.	WTT	Smart	Contract	guarantees:	
+1.	Transparency
+1.1.	Balance.	The	information	on	the	number	of	tokens	held	by	any	user	is	public.
+1.2.	Transfers.	All	information	on	transfers	is	public	and	can	be	traced	back	in	time.
+2.	Ownership
+2.1	Scope.	Only	Ethereum	users	and	contracts	can	be	token	holders.
+2.2.	Uniqueness.	Each	token	belongs	to	one	user-owner.	There	are	no	shared	tokens.
+2.3.	Right	to	transfer.	A	token	can	be	transferred	to	another	user	only	by	the	direct	
+command	of	its	owner	or	by	the	command	of	the	receiver	directly	authorized	by	the	
+owner.	No	token	transfer	may	be	initiated	by	another	user.
+3.	Token	Supply
+3.1.	Exclusive	issue.	Only	one	user,	the	contract	owner,	can	issue	tokens.
+4.	Contract	Management
+16
+134834324.1
+
+4.1	Replacement.	The	contract	owner	can	relinquish	the	ownership	in	favor	of	any	
+other	Ethereum	user	or	contract.
+4.2	Blockade.	The	contract	owner	can	stop	or	resume	token	transfers	between	token	
+holders	at	any	time.
+5.	Miscellaneous
+5.1	Recovery.	Any	call	to	the	contract	which	results	in	an	error	does	not	change	the	
+users'	tokens	or	Ether	balance,	except	for	the	gas	spent	on	the	transaction.
+5.2	Limits.	Maximum	allowed	tokens	in	circulation	and	may	be	set	and	are	limited	to.
+Smart	contract	does	not	guarantee	the	following	("Uncertainty	Provisions"):
+1.	User	validity.	An	account	with	positive	token	balance	may	or	may	not	be	a	real	Ethereum	
+user	or	contract	and	therefore	may	not	have	a	private	key.	Tokens	transferred	to	such	users	
+will	likely	be	lost.
+2.	Ether	supply.	The	contract	prohibits	most,	but	not	all	means	by	which	Ether	could	be	sent	
+to	it	by	users	who	are	not	contract	owners.
+We	engage	independent	auditors	prominent	in	the	industry,	who	review	the	smart	contract	
+code	line	by	line,	checking	for	any	security,	incentivization	or	other	concerns	regarding	the	
+attack	surface.
+
+	
+	
+Payment	Terms
+WTT	tokens	will	be	available	for	purchase	on	pre-sale	starting	on	May	19,	2017	and	during	
+the	Token	Launch	from	June	2,	2017	to	July	31,	2017,	unless	a	cap	of	30,000,000	WTT	tokens	
+sold	is	reached	earlier.	
+
+17
+134834324.1
+
+WTT	can	be	acquired	with	BTC,	ETH	or	fiat	currencies	via	Cryptonomos	platform.	Transfers	
+can	be	made	from	any	BTC	or	ETH	wallet17.	For	transfers	of	USD	1,000	and	over	a	wire	transfer	
+option	is	available18.	
+Funds	are	credited	to	the	participants'	Cryptonomos	accounts	and	could	be	used	to	acquire	
+tokens.	 Each	 account	 will	 have	 three	 wallets	 (USD/BTC/ETH).	 The	 minimum	 Token	 Launch	
+entry	 threshold	 is	 1	 WTT	 (equals	 to	 1-1.2	 USD,	 depending	 on	 the	 day	 of	 acquisition).	 The	
+minimum	entry	threshold	for	the	pre-sale	is	10,000	WTT	tokens	(equivalent	of	10,000	USD).	
+Cryptonomos	accounts	will	be	accessible	several	days	before	the	start	of	the	Token	Launch	
+(web-based	or	mobile	access).	Users	may	be	offered	an	option	to	sign	up	and	make	transfers	
+to	their	Cryptonomos	accounts,	but	they	will	not	be	able	to	acquire	WTT	tokens	until	the	start	
+of	the	Token	Launch	unless	they	purchase	WTT	Token	on	pre-sale	through	the	sales	team.	
+Accounts	will	be	protected	from	unauthorized	access	by	a	two-factor	authentication	system.	
+All	 funds	 collected	 through	 the	 pre-sale	 and	 Token	 Launch	 will	 be	 deposited	 in	 escrow.	
+Original	payments	made	in	BTC	and	ETH	will	be	converted	to	USD	at	the	rate	effective	at	the	
+time	when	the	rights	to	WTT	tokens	were	reserved.	
+The	funds	will	be	released	from	escrow	in	step	with	the	completion	of	facilities.	
+Once	the	Token	Launch	is	closed,	no	further	WTT	tokens	could	be	acquired.	On	August	7,	2017	
+or	earlier,	as	described	above19,	the	first	batch	of	tokens	will	be	issued	to	participants20.	As	
+soon	as	the	tokens	are	issued,	they	may	be	transferred	to	the	owner’s	account	on	Giga	Watt’s	
+web-site	and	used	to	host	miners	or	to	be	rented	out.		
+Giga	Watt	account	owners	get	their	mining	rewards	and	rental	income	in	BTC,	ETH,	or	LTC	
+(rental	income	is	calculated	based	on	the	current	exchange	rate	of	BTC,	ETH,	or	LTC	to	USD).	
+Funds	can	be	moved	from	the	token	holder’s	account	to	any	third	party	BTC/ETH/LTC	wallet	
+at	any	time.		
+
+17
+
+	 Cryptonomos	 does	 not	 charge	 any	 processing	 fees.	 Processing	 time	 and	 fees	 are	 determined	 by	 the	
+payment	 processor.	 Token	 holders	 are	 responsible	 for	 paying	 all	 processing	 fees	 and	 financial	 charges	
+imposed	by	the	payment	processor	in	connection	with	the	payment.	
+18
+	Please	contact	the	support	team	for	wire	transfer	instructions.	
+19
+	See	Section	"Token	Launch	Platform"	for	details.	
+20
+	Please	see	the	Projected	Timeline	section	for	details	of	the	token	issue	batches.	
+
+18
+134834324.1
+
+Distribution	and	Rates
+The	Giga	Watt	facility	layout	is	extremely	flexible,	which	allows	us	to	be	flexible	with	the	token	
+sales.	
+There	is	no	minimum	amount:	the	first	facilities	have	already	been	completed	and	the	new	
+units	are	currently	being	built.	Consequently,	the	tokens	can	be	issued	for	as	low	capacity	as	
+required.	 However,	 the	 total	 number	 of	 tokens	 available	 for	 sale	 as	 Giga	 Watt	 builds	 out	
+additional	capacities	is	capped	at	30	million.	
+Each	 token	 represents	 1	 Watt's	 worth	 of	 the	 processing	 center’s	 capacity.	 For	 every	 100	
+tokens	 sold,	 15	 additional	 tokens	 will	 be	 issued	 and	 retained	 for	 the	 team,	 partners	 and	
+advisors:	10	tokens	to	be	distributed	to	team	members,	and	5	to	be	retained	for	distribution	
+to	partners	and	advisors	at	issuer’s	discretion.	Consequently,	for	every	100	tokens	sold,	115	
+Watts	of	processing	center	capacity	is	put	into	operation.	
+If	the	token	sale	is	over-subscribed,	meaning	that	there	is	more	demand	for	WTT	tokens	than	
+there	is	existing	facility	capacity,	the	capacity	will	be	allocated	to	the	WTT	tokens	in	the	order	
+in	which	the	WTT	tokens	were	purchased.	The	over-subscribed	proceeds	will	be	placed	into	
+escrow	until	the	requisite	processing	center	capacity	has	been	built	out.21	
+WTT	tokens	retained	for	distribution	to	the	team	will	be	distributed	only	when	no	proceeds	
+from	 over-subscribed	 tokens	 remain	 in	 escrow	 awaiting	 the	 completion	 of	 additional	
+processing	center	capacity	construction.	WTT	tokens	retained	for	distribution	to	partners	and	
+advisors	will	be	distributed	on	a	case	by	case	basis.	
+WTT	initial	rate	depends	on	the	day	of	acquisition:	
+
+21
+
+	If	the	construction	of	the	processing	center	capacity	designed	to	accommodate	additional	WTT	tokens	is	not	
+completed	in	a	reasonable	amount	of	time,	the	relevant	portion	of	these	proceeds	will	be	refunded	to	the	WTT	
+token	purchasers.	However,	if	Giga	Watt	discharged	all	its	obligations	in	full,	no	refunds	will	be	due	to	the	WTT	
+token	purchasers.	
+
+19
+134834324.1
+
+Projected	Timeline	
+The	size	of	the	Giga	Watt	facility	depends	on	the	amount	of	available	funds.	The	Giga	Watt	
+project	has	sufficient	commitments	for	land	and	electricity	to	build	additional	capacities	to	
+fulfil	its	obligations	under	this	Token	Launch.	
+	
+Projected	Token	Launch	Timeline	
+-	May	19	–	June	2,	2017:	pre-sale		
+-	June	2	–	July	31,	2017:	Token	Launch	book	building	
+-	August	7,	2017:	First	batch	of	tokens	(5,400,000	WTT)	issued	to	participants;	if	the	cap	is	
+reached	earlier,	the	first	batch	of	WTT	tokens	may	be	issued	ahead	of	the		schedule	to	provide	
+access	to	the	facilities	built	by	the	time	of	the	issue	(at	Cryptonomos'	discretion).		
+New	batches	of	tokens	will	be	issued	in	step	with	the	construction	of	new	facilities.22		To	ensure	
+the	 advantage	 for	 the	 Token	 Launch	 participants,	 no	 listing	 will	 be	 placed	 on	 third	 party	
+exchanges	until	all	WTT	tokens	sold	through	the	Token	Launch	are	distributed.	
+
+Projected	Construction	Timeline	
+3	units,	2.25	MW	are	available	right	now	
+-	July	15,	2017:	1	Giga	Pod	completed,	0.75	MW	
+-	August	1,	2017:		2	Giga	Pods	completed,	2.4MW		
+-	August	15,	2017:	Expansion	of	the	unit,	0.9	MW	
+-	September	1,	2017:	3	Giga	Pods	completed,	4.5	MW	
+-	September	15,	2017:	9	Giga	Pods	completed,	15	MW	
+
+22
+
+	Additional		WTT	tokens	may	be	sold	to	the	public	in	the	future	as	the	facility	capacity	is	increased	through	
+build	outs.	
+
+20
+134834324.1
+
+-	October	1,	2017:	3	Giga	Pods	completed,	4.5	MW	
+-	November	15,	2017:	3	Giga	Pods	completed,	4.2	MW	
+
+	
+
+	
+
+21
+134834324.1
+
+Team
+Giga	Watt	Project	Team
+●		
+
+Dave	Carlson	
+CEO,	Giga	Watt,	Inc.	
+
+Software	engineer	and	entrepreneur.	4	years	as	a	CEO	and	founder	of	MegaBigPower,	one	of	
+the	largest	single-operator	mining	facilities	in	the	world.
+●		
+
+Adam	West	
+VP	Business	Development,	Director,	Operator-Partner	Program,	Giga	Watt,	Inc.	
+
+10	years'	experience	in	business	development,	management	and	marketing.	Over	the	past	
+year	focused	on	Blockchain	technologies,	with	the	emphasis	on	industrial	mining	projects.
+●		 Kyle	Sidles	
+CTO,	Giga	Watt,	Inc.	
+Database	 design,	 programming,	 network	 infrastructure	 and	 application	 deployment.	
+Successfully	built	and	launched	over	200	diverse	software	projects	in	USA,	India,	and	China.	
+Builds	and	runs	large-scale	Blockchain	data	centers	since	2013.
+●		 Jeffrey	Field	
+Lead	Engineer,	Giga	Watt,	Inc.	
+4	years'	experience	designing	the	physical	infrastructure	for	mining	facilities,	network	layouts,	
+and	 cooling	 plans	 while	 managing	 technical	 crews	 for	 all	 aspects	 of	 installation	 and	
+maintenance	at	the	MegaBigPower	facilities.
+●		 Brian	Armstrong	
+Operations	Supervisor,	Giga	Watt,	Inc.	
+Service	and	maintenance	of	mining	equipment,	training	new	personnel,	team	supervision	on	
+assigned	 operational	 tasks,	 troubleshooting	 and	 repair	 of	 network	 systems.	 8	 years’	
+experience	in	the	U.	S.	Air	Force	as	a	security	expert.
+22
+134834324.1
+
+●		 Sinden	Harum	
+Executive	Manager,	Giga	Watt,	Inc.	
+Day	 to	 day	 operational	 responsibility	 for	 staff,	 office	 administration,	 payroll,	 human	
+resources,	bookkeeping,	accounting,	core	programs,	special	programs.	
+●		 Michael	Savuskan	
+CЕO,	GigaWatt	Pte.	Ltd.	
+24	years'	experience	in	product,	technology,	and	business	development,	marketing,	planning,	
+and	sales	management.	Sales	and	profit	growth,	new	business	launches,	and	domestic	and	
+international	marketplace	assessments.	
+●		 Hayden	Gill	
+VP	of	Sales,	GigaWatt	Pte.	Ltd.	
+13	years'	experience	in	investment,	marketing,	and	alternative	currencies.	From	2010	focuses	
+on	 bitcoin	 and	 blockchain	 technologies.	 Founder	 of	 successful	 projects	 in	 peer-to-peer	
+payment	services	and	alternative	currencies.	
+
+	
+Cryptonomos	Token	Launch	Team
+●		 Nick	Evdokimov,	CEO
+14	years'	experience	in	developing	high	load	online	services.	Founder	of	numerous	Internet	
+enterprises.	2	years	in	Blockchain	development.
+					●		 Dmitry	Khovratovich,	Smart	Contract	Development	
+12	 years’	 experience,	 with	 a	 focus	 on	 privacy	 and	 security	 of	 blockchain	 projects	 (Bitcoin,	
+Ethereum),	design	and	analysis	of	cryptographic	schemes,	and	security	software	engineering.	
+Security	Researcher	at	the	University	of	Luxembourg.
+●		 Andrew	Kuzenny,	Head	of	IR
+
+23
+134834324.1
+
+18	years'	experience	in	investor	relations,	seeking	and	engaging	partners,	asset	management.	
+A	recent	Blockchain	technologies	enthusiast.
+●		 Edward	Khaptakhaev,	Legal	Counsel
+12	 years'	 experience	 in	 legal	 support	 of	 international	 and	 domestic	 companies	 engaged	 in	
+energy	generation,	banking	and	IT/IP.
+●		 Leonid	Markin,	Financial	management
+12	years’	experience	in	finances	and	asset	management.	5	years	in	finances	in	the	high-tech	
+engineering	segment	of	the	energy	field.	Fintech	entrepreneur.
+● Daria	Generalova,	Communications	and	PR
+10	years	in	public	communications.	Diverse	experience	in	marketing,	from	event	management	
+to	 marketing	 strategy	 development,	 with	 a	 focus	 on	 infrastructure	 companies.	 Joined	
+blockchain	industry	last	year.
+● Anar	Babaev,	Digital	Marketing
+14	 years	 in	 digital	 marketing.	 Internet	 entrepreneur	 focused	 on	 mastering	 and	
+implementation	of	new	technologies.	Co-author	of	several	books	on	digital	advertising.
+
+	
+
+	
+
+24
+134834324.1
+
+Risk	Factors
+The	acquisition	of	Tokens	involves	a	high	degree	of	risk,	including	but	not	limited	to	the	risks	
+described	below.	Before	acquiring	tokens,	it	is	recommended	that	each	participant	carefully	
+weighs	 all	 the	 information	 and	 risks	 detailed	 in	 this	 White	 Paper,	 and,	 specifically,	 the	
+following	risk	factors.	
+A.	Dependence	on	computer	infrastructure	
+Giga	Watt's	dependence	on	functioning	software	applications,	computer	hardware	and	the	
+Internet	 implies	 that	 Giga	 Watt	 can	 offer	 no	 assurances	 that	 a	 system	 failure	 would	 not	
+adversely	 affect	 the	 performance	 of	 your	 mining	 operations.	 Despite	 Giga	 Watt's	
+implementation	of	all	reasonable	network	security	measures,	its	processing	center	servers	
+are	vulnerable	to	computer	viruses,	physical	or	electronic	break-ins	or	other	disruptions	of	a	
+similar	nature.	Computer	viruses,	break-ins	or	other	disruptions	caused	by	third	parties	may	
+result	in	interruption,	delay	or	suspension	of	services.	
+B.	Smart	contract	limitations	
+Smart	contract	technology	is	still	in	its	early	stages	of	development,	and	its	application	is	of	
+experimental	 nature.	 This	 may	 carry	 significant	 operational,	 technological,	 regulatory,	
+reputational	and	financial	risks.	Consequently,	although	the	audit	conducted	by	independent	
+third	party	increases	the	level	of	security,	reliability,	and	accuracy,	this	audit	cannot	serve	as	
+any	 form	 of	 warranty,	 including	 any	 expressed	 or	 implied	 warranty	 that	 the	 WTT	 Smart	
+Contract	is	fit	for	purpose	or	that	it	contains	no	flaws,	vulnerabilities	or	issues	which	could	
+cause	technical	problems	or	the	complete	loss	of	WTT	tokens.	
+C.	Regulatory	risks	
+The	Blockchain	technology,	including	but	not	limited	to	the	issue	of	tokens,	may	be	a	new	
+concept	in	some	jurisdictions,	which	may	then	apply	existing	regulations	or	introduce	new	
+regulations	 regarding	 Blockchain	 technology-based	 applications,	 and	 such	 regulations	 may	
+conflict	 with	 the	 current	 WTT	 Smart	 Contract	 setup.	 This	 may	 result	 in	 substantial	
+modifications	of	the	WTT	Smart	Contract,	including	but	not	limited	to	its	termination	and	the	
+loss	of	WTT	tokens.	
+D.	Price	of	Bitcoin	
+25
+134834324.1
+
+Giga	Watt	offers	services	to	companies	and	individuals	engaged	in	mining	cryptocurrencies,	
+primarily	Bitcoin.	Such	operations	are	highly	dependent	on	Bitcoin	prices	at	local	exchanges.	
+Sharp	and	protracted	decline	in	Bitcoin	prices	can	affect	the	ability	of	Giga	Watt’s	customers	
+to	fulfill	their	contractual	obligations	to	pay	rental	fees	to	token	holders	whose	tokens	they	
+rent.	
+E.	Rapid	changes	in	technology	may	adversely	affect	mining	business	
+Cryptocurrency	 mining	 is	 a	 very	 dynamic	 and	 fast-paced	 business.	 To	 remain	 competitive,	
+Giga	Watt	will	use	its	best	efforts	to	follow	and	promptly	introduce	the	latest	technologies	at	
+its	facility.	However,	Giga	Watt's	failure	to	remain	competitive	despite	its	endeavors	may	pose	
+the	risk	of	declining	benefits	for	the	WTT	token	holders.	Likewise,	token	holders	are	advised	
+to	monitor	their	own	mining	equipment	performance	and	update	it	as	needed.	Alternatively,	
+as	 their	 equipment	 performance	 weakens	 over	 time,	 they	 should	 consider	 renting	 their	
+tokens	out	to	other	miners	to	avoid	the	decline	in	the	mining	rewards.	
+F.	Fluctuation	in	mining	rewards.		
+Mining	cryptocurrencies	is	a	risky	business	and	many	factors	must	be	carefully	considered	
+prior	to	its	commencement.	Fluctuations	of	the	BTC	price,	increase	of	the	prices	for	mining	
+equipment	and	electricity,	growth	of	the	mining	difficulty	rate,	decrease	in	the	block	reward,	
+and	many	other	factors	may	affect	mining	rewards	and	result	in	losses.		
+G.	Fluctuation	in	token	benefits	and	rental	income.		
+The	 WTT	 token	 is	 intended	 to	 provide	 a	 valuable	 benefit	 of	 access	 to	 a	 low-cost	 hosting	
+solution	 for	 cryptocurrency	 miners	 by	 giving	 them	 the	 ability	 to	 use	 Giga	 Watt’s	 facilities.	
+Although	token	holders	can	rent	their	tokens	to	other	people	through	the	internal	Giga	Watt	
+platform	and	receive	income	from	rent,	the	primary	purpose	of	the	token	is	to	allow	token	
+holders	to	achieve	savings	by	cutting	costs	of	their	mining	operations.	Market	changes,	a	drop	
+in	hosting	prices,	changes	in	the	local	cost	of	electricity	at	WTT’s	facility	and	other	factors	may	
+reduce	the	value	of	the	WTT	tokens	and	drive	down	the	rental	prices	of	tokens.	
+H.	Construction	delay.		
+Construction	timeline	specified	in	this	White	Paper	is	based	on	the	reasonable	estimates	but	
+is	not	guaranteed.	This	timeline	may	change,	and	the	construction	may	be	delayed	because	
+26
+134834324.1
+
+of	 many	 factors,	 including	 those	 beyond	 Giga	 Watt’s	 control,	 such	 as	 the	 actions	 of	 third	
+parties	(contractors,	suppliers,	etc.).	If	the	completion	of	the	capacities	is	delayed	by	more	
+than	3	months	from	the	projected	date,	and,	consequently,	the	relevant	WTT	tokens	are	not	
+issued,	the	escrow	agent	may	issue	a	refund	at	the	request	of	the	WTT	token	purchasers.		The	
+refund	will	be	issued	in	the	original	form	of	payment	at	the	exchange	rate	on	the	date	of	the	
+refund.		
+I.	Change	in	electricity	rate.		
+The	effective	electricity	rate	provided	in	this	document	is	based	on	a	current	cost	of	electricity	
+available	under	the	existing	contracts	with	the	Public	Utility	District	of	Washington	State.	The	
+electricity	rate	is	not	guaranteed	and	may	change	from	time	to	time.	Any	change	in	electricity	
+rates	will	cause	a	direct	change	in	the	value	of	the	WTT	tokens	and	the	ongoing	cost	of	hosting	
+your	mining	equipment.	
+J.	Irregular	electricity	consumption.	
+If	 during	 the	 testing	 of	 the	 equipment	 sent	 to	 Giga	 Watt	 for	 hosting	 such	 equipment	
+demonstrates	a	greater	use	of	electric	power	than	the	number	of	WTT	tokens	purchased	or	
+rented	to	accommodate	it,	the	equipment	owner	will	be	charged	a	regular	Giga	Watt's	hosting	
+rate	(7.5-9.75	cents	per	kWh,	depending	on	the	number	of	hosted	miners)	for	any	amount	of	
+power	consumed	by	the	equipment	in	excess	of	the	number	of	tokens	available	to	host	it.		
+K.	Change	of	electricity	consumption.	
+From	time	to	time,	the	equipment's	power	consumption	may	fluctuate	for	various	reasons	
+including	 but	 not	 limited	 to	 seasonal	 temperature	 changes.	 If	 and	 when	 the	 equipment's	
+power	consumption	exceeds	the	number	of	WTT	tokens	purchased	or	rented	by	its	owner	for	
+its	hosting,	the	owner	will	be	charged	a	regular	Giga	Watt's	hosting	rate	(7.5-9.75	cents	per	
+kWh,	depending	on	the	number	of	the	hosted	miners)	for	any	amount	of	power	consumed	by	
+the	equipment	in	excess	of	the	number	of	tokens	available	to	host	it.	
+L.	Change	in	maintenance	cost.	
+The	maintenance	cost	specified	in	this	document	is	based	on	the	current	labor	costs	and	the	
+hours	 required	 to	 run	 the	 company’s	 operations	 and	 maintain	 the	 projected	 number	 of	
+facilities	 and	 the	 clients'	 equipment.	 Over	 time,	 the	 cost	 of	 maintenance	 may	 change	 for	
+27
+134834324.1
+
+various	 reasons,	 including	 but	 not	 limited	 to	 the	 eventual	 minimum	 wage	 increase	 by	 the	
+Washington	State	or	Federal	government.	Any	change	in	maintenance	cost	will	cause	a	direct	
+change	 in	 the	 value	 of	 the	 WTT	 tokens	 and	 the	 ongoing	 cost	 of	 hosting	 your	 mining	
+equipment.		
+M.	Sales	and	other	taxes.		
+Token	 holders	 and	 purchasers	 of	 mining	 equipment	 may	 be	 required	 to	 pay	 sales	 tax	
+(collected	 at	 sale)	 and	 other	 taxes	 associated	 with	 the	 transactions	 contemplated	 herein,	
+whether	in	the	United	States	or	in	their	home	countries.	It	will	be	a	sole	responsibility	of	the	
+token	holders	and	purchasers	of	the	mining	equipment	to	comply	with	the	tax	laws	of	the	
+United	States	and	other	jurisdictions	and	pay	all	relevant	taxes.	
+N.	Force	Majeure.		
+Giga	Watt’s	performance	may	be	interrupted,	suspended	or	delayed	due	to	force	majeure	
+circumstances.	For	the	purposes	of	this	White	Paper,	force	majeure	shall	mean	extraordinary	
+events	and	circumstances	which	could	not	be	prevented	by	Giga	Watt	and	shall	include:	acts	
+of	nature,	wars,	armed	conflicts,	mass	civil	disorders,	industrial	actions,	epidemics,	lockouts,	
+slowdowns,	 prolonged	 shortage	 or	 other	 failures	 of	 energy	 supplies	 or	 communication	
+service,	 acts	 of	 municipal,	 state	 or	 federal	 governmental	 agencies,	 other	 circumstances	
+beyond	Giga	Watt's	control,	which	were	not	in	existence	at	the	time	of	Token	Launch.	If	such	
+circumstances	occur	prior	to	issuance	of	WTT	tokens	and	Giga	Watt	is	unable	to	issue	WTT	
+tokens	within	6	months	from	the	projected	date,	the	escrow	agent	may	issue	a	refund	at	the	
+request	 of	 the	 WTT	 token	 purchasers.	 The	 refund	 will	 be	 issued	 in	 the	 original	 form	 of	
+payment	at	the	exchange	rate	on	the	date	of	the	refund.		
+O.	Compliance	with	U.S.	laws	and	regulations.	
+Because	the	hosting	facilities	are	located	in	the	United	States,	WTT	token	holders	who	wish	
+to	use	their	tokens	to	host	their	equipment	at	the	facilities	would	be	required	to	comply	with	
+the	U.S.	laws	and	regulations	and	may	need	to	verify	their	identities	and	provide	proof	of	
+address	(for	individuals),	or	verify	their	registration,	good	standing,	list	of	ultimate	beneficial	
+owners,	and	address	(for	legal	entities)	prior	to	using	their	WTT	tokens	and	setting	up	their	
+equipment	at	Giga	Watt's	facilities,	or	at	any	time	thereafter	upon	Giga	Watt's	request.	Token	
+holders	 who	 fail	 to	 comply	 with	 such	 verification	 request,	 or	 who	 are	 determined	 to	 be	
+28
+134834324.1
+
+restricted	from	dealing	with	the	U.S.	entities	or	operating	in	the	U.S.,	or	who	are	otherwise	
+ineligible	under	the	US	law	to	host	their	equipment	with	Giga	Watt	would	be	refused	hosting	
+or	WTT	token	rental	services,	with	no	refund	issued	by	Giga	Watt	for	the	purchased	tokens.	
+Such	token	holders	may	retain	their	tokens	or	may,	at	their	discretion,	choose	to	sell	them	to	
+eligible	customers.	Token	purchasers	are	solely	responsible	for	learning	about	the	US	laws	
+and	legal	restrictions	applicable	to	residents	of	certain	countries	and	individuals	involved	in	
+certain	activities.	
+P.	Disclosure	of	information.	
+Personal	information	received	from	WTT	token	holders,	WTT	token	renters,	and	owners	of	
+the	equipment	submitted	for	hosting,	the	information	about	the	number	of	tokens	or	miners	
+serviced	by	Giga	Watt,	rewards	earned	on	the	pool,	the	wallet	addresses	used,	and	any	other	
+relevant	information	may	be	disclosed	to	law	enforcement,	government	officials,	and	other	
+third	parties	when	Giga	Watt	is	required	to	disclose	such	information	by	law,	subpoena,	or	
+court	order.	Giga	Watt	shall	at	no	time	be	held	responsible	for	such	information	disclosure.	
+Q.	Value	of	WTT	Token.	
+Once	purchased,	the	value	of	WTT	Token	may	significantly	fluctuate	due	to	various	reasons.	
+Giga	Watt	does	not	guarantee	any	specific	value	of	the	WTT	Token	over	any	specific	period	of	
+time.	Giga	Watt	shall	not	be	held	responsible	for	any	change	in	the	value	of	WTT	Token.	
+Assumptions	with	respect	to	the	foregoing	involve,	among	other	things,	judgments	about	the	
+future	economic,	competitive	and	market	conditions	and	business	decisions,	most	of	which	
+are	beyond	the	control	of	the	Giga	Watt	project	team	and	therefore	difficult	or	impossible	to	
+accurately	predict.	Although	the	Giga	Watt	team	believes	that	its	assumptions	underlying	its	
+forward-looking	statements	are	reasonable,	any	of	these	may	prove	to	be	inaccurate.	As	a	
+result,	 the	 Giga	 Watt	 team	 can	 offer	 no	 assurances	 that	 the	 forward-looking	 statements	
+contained	in	this	White	Paper	will	prove	to	be	accurate.	In	light	of	the	significant	uncertainties	
+inherent	 in	 the	 forward-looking	 statements	 contained	 herein,	 the	 inclusion	 of	 such	
+information	may	not	be	interpreted	as	a	warranty	on	the	part	of	Giga	Watt	or	any	other	entity	
+that	the	objectives	and	plans	of	the	Giga	Watt	project	will	be	successfully	achieved.	
+Please	 note	 that	 the	 Giga	 Watt	 project	 may	 be	 subject	 to	 other	 risks	 not	 foreseen	 by	 its	
+management	at	this	time.	
+29
+134834324.1
+
+

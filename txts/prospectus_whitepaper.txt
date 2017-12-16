@@ -1,0 +1,834 @@
+POLYBIUS PROSPECTUS
+A Project of a Regulated Bank for the Digital Genera�on
+
+Table of contents
+Polybius Prospectus table of contents
+Introduc�on
+
+1
+
+What is Polybius?
+
+2
+
+ICO Structure
+
+3
+
+Polybius Milestones Plan
+
+6
+
+Polybius Bank and Payment Ins�tu�on Incremental Structure
+
+7
+
+Authorized Payment Ins�tu�on
+
+8
+
+Electronic Money Ins�tu�on
+
+10
+
+Commercial Bank
+
+12
+
+Digital Pass
+
+14
+
+Small and Medium Enterprise Financial Marketplace
+
+17
+
+Core Team
+
+18
+
+Regula�ons
+
+20
+
+Appendix 1: Preliminary Organiza�onal Chart and Key En��es
+
+21
+
+Introduction
+Digitaliza�on of our daily lives is now an undisputed phenomenon, which is here to stay.
+According to studies made in 2015 and 2016, over 80% of developed countries’ popula�on have
+some access to the Internet. Furthermore, over 60% of European ci�zens own a smartphone. It
+implies them being near constantly online.
+With the world ge�ng more connected, an increasing number of companies strive to oﬀer their
+services and solu�ons online. Finance, educa�on, healthcare, commerce and leisure providers are
+ac�vely moving towards digi�za�on in an a�empt to serve the exis�ng and ﬁnd new customers
+worldwide.
+European Parliament, along with other regulatory authori�es across the globe are now ac�vely
+outlining new rules and principles for e-services. The legal framework removes regulatory
+uncertainty serving as a catalyst for the business migra�on online. We’ve undertaken a thorough
+analysis of the latest trends including rules around eID, QES and Trustee services as well as the
+Aggrega�on of Payment Services within the scope of the PSD2. And this is where Polybius steps
+in.
+Polybius Foundation, a team of ﬁnancial, security, legal and technical experts is raising funds for
+its project Polybius Bank. Our goal is to capitalize on the broader digitaliza�on trend with a
+par�cular focus on:
+1. Financial services which is at the core of all business interac�ons;
+2. Digital ID and wallet concepts needed to serve as gateway to the eCommerce market.
+With the success of the ICO, Polybius Bank will become a fully digital bank accessible everywhere
+at any �me. It will have all the func�ons of a classical bank, but will not host any branches nor
+physical front-oﬃces and will rely fully on the latest digital technologies.
+This will enable Polybius Bank to be among the least expensive banks to operate in the world, with
+a very eﬃcient cost/revenue ra�o and gran�ng its backers with higher returns.
+The Polybius Bank project is aimed to establish an online scalable ﬁnancial infrastructure for
+businesses and individuals, provide electronic iden�ty and trustee services across the EU, and
+create a user authen�ca�on and payment processing gateway for not only online merchants, but
+also commercial, corporate and governmental services.
+This prospectus covers business, technical and regulatory details of the project, our step-by-step
+milestone plan and the technologies which will be developed as the basis of Polybius
+infrastructure.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+1
+
+What is Polybius?
+While star�ng oﬀ as primarily a ﬁnancial ins�tu�on, the Polybius project is meant to grow into
+your daily servicer and companion ecosystem. It will aim to enable secure and seamless
+connec�ons between life and the things we love and use every day.
+The key elements of Polybius ecosystem are the Polybius Foundation and the Digital Pass.
+Polybius Founda�on is the subject fostering the Polybius Bank or Polybius Payment Ins�tu�on
+(P.I.) at the start. Its customers will not only get access to a variety of ﬁnancial services, but will
+likely be among the ﬁrst to get the PolyID that will plug them into the Digital Pass environment.
+Digital Pass is an independent environment as a service, which will serve as a storage for
+encrypted individual informa�on. The security of access to the informa�on will be enabled by SSL
+cer�ﬁcates, dynamic PINs and, to some extent, by biometrical data. The security will be compliant
+with the PSD2 RTS requirements issued by the EBA Authority on 23.02.2017.
+Among other planned features are scoring and sensi�vity systems for credit and insurance
+businesses, asset and currency trading systems, seed & VC investment tools, eID and Trust
+services and other features described in this Prospectus.
+Polybius is being designed as a highly scalable pla�orm targeted at simplifying our daily lives.
+
+PolyID prototype
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+2
+
+ICO structure
+The Polybius Foundation is raising funds to support the establishment of the Polybius Bank or the
+Polybius Payment Institution and to deliver the respec�ve technologies. For that reason, Polybius
+Foundation is issuing Polybius Tokens (PLBT) through the smart contract system operated by
+Ethereum (ref to Annex 1). The funds raised by the sale of tokens will be retained by the Polybius
+Foundation un�l they will be used.
+Polybius Foundation is a public registered body with legal responsibili�es and is subject to audits.
+This will ensure the transparency of opera�ons and the secure custody of the funds.
+
+Polybius Token symbol
+
+Token name: PLBT Token - Polybius Proﬁt-Share Smart Contract
+A Polybius Token represents the right to receive a part of distributable proﬁts of Polybius P.I. or
+Polybius Bank. All tokens in aggregate will have the right to receive 20% of such proﬁts.
+The Tokens will be assigned pro-rata to the funds provided to the Polybius Foundation during the
+ICO.
+Payout Structure:
+According to the Bylaws, at the end of a ﬁnancial year, 20%1 of distributable proﬁt of Polybius
+Payment Institution or Polybius Bank is transferred to the speciﬁc Ethereum (ETH) wallet. The ETH
+is then redistributed to all holders of Polybius tokens according to smart contract condi�ons (i.e.
+the stake of proﬁt is received pro-rata the share of tokens owned).
+Token supply:
+The total supply is not locked, as we will need to be able to add tokens before the end of sale and
+revoke the unsold amount.
+Ini�al Rate:
+Price per token is locked on 10 USD per 1 Token.
+
+1
+
+May be adjusted in accordance with clause 18 Round A Conversion as outlined in the Terms and Conditions
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+3
+
+ICO structure
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+4
+
+ICO structure
+Token Distribu�on:
+• Distributed to users - 93%;
+• Founders - 5%;
+• Boun�es - 2%.
+Bonuses:
+• Day 1 – 25% token bonus;
+• Day 2-7 – 20% token bonus;
+• Week 2 – 15% token bonus;
+• Week 3 – 10% token bonus;
+• Week 4 – 5% token bonus;
+• Week 5 – 0% token bonus.
+Boun�es:
+• Facebook campaign – 10.00% of bounty pool;
+• Twi�er campaign – 10.00% of bounty pool;
+• Bitcointalk signature campaign – 15.00% of bounty pool;
+• Polybius thread support – 10.00% of bounty pool;
+• Bitcointalk transla�on campaign – 15.00 of bounty pool;
+• Exclusive support – 40.00% of bounty pool.
+
+Boun�es are provided a�er the crowdsale ends. At the end of the crowdsale all sold tokens are
+considered to be 93% of the total supply. The remaining 7% are then distributed among founders
+and boun�es receivers according to the informa�on above.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+5
+
+Milestone Plan
+Polybius Milestone Plan
+The road to crea�ng a bank involves many diﬀerent aspects, such as licenses, compliances,
+technologies, consor�a and crea�vity.
+Below you can see the milestone roadmap that covers the most signiﬁcant levels of ﬁnancial
+ac�vity that we will be achieving with our ICO. Every step milestone is meant to be incremental to
+the preceding one and to be implemented according to the market response to the proposals.
+ICO proceeds are intended to be spent mainly, but not exclusively on acquisi�on of licenses,
+building out the systems, hiring the team and marke�ng.
+
+At Polybius Bank or P.I., we will rely on a set of public and private licenses instrumental to comply
+with many regula�ons, exis�ng in the ﬁnancial ﬁeld. Among them are the public EMI and banking
+licenses, the par�cipa�on in Card Schemes, the crea�on of regula�on-compliant iden�ﬁca�on
+mechanisms and other technical condi�ons to meet.
+Every milestone step is an advancement to a broader set of services at Polybius customers'
+disposal. While our in-house Digital Pass service and technology will serve as a pla�orm at the
+core of the Polybius Bank or P.I., other features may be developed independently. During this
+process, the ecosystem will be formed and Digital Pass will start its primary day-to-day
+opera�ons.
+As for the customer base, Polybius strategic partners will provide an ini�al base of users for the
+Polybius Bank or P.I. disposal. We expect access to ca. 500’000 users at incep�on. This will give us
+a strong base for growth and a quicker path to building revenues and to proﬁtability.
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+6
+
+Incremental Structure
+Polybius Bank and Payment Ins�tu�on Incremental Structure
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+7
+
+API
+Authorized Payment Ins�tu�on
+
+During the ini�al step for a viable Polybius opera�on, a set of condi�ons needs to be met. Among
+the minimal requirements are licenses (small Electronic Money Ins�tu�on (sEMI) or Payment
+Ins�tu�on (P.I.) licenses) and mechanisms to comply with the law and ﬁnancial regula�ons (such
+as Know Your Customer (KYC), An� Money Laundering (AML), Comba�ng Financing of Terrorism
+(CFT), etc).
+At this step, instead of the sEMI license, we, at Polybius, aim to apply for a license for the Polybius
+Authorized Payment Ins�tu�on (A.P.I.) for the sake of lowering the ini�al investment
+requirement. A.P.I. license is required to store clients’ money and organize payment processes.
+The �me required to acquire the license is 3-9 months.
+At this milestone, Polybius Payment Institution, or Polybius A.P.I., will be legally considered a
+non-banking ﬁnancial ins�tu�on (NBFI-ND) and will not take deposits un�l acquisi�on of the
+banking license.
+SWIFT membership is also required as one of the key elements for banking procedures. Joining
+the SWIFT network enables a bank to receive a Business Iden�ﬁer Code (BIC), and to be able to
+communicate with other ﬁnancial organiza�ons via SWIFT messages for electronic money
+transac�ons. It may take up to 3 months for the applica�on to pass through.
+Polybius Payment Institution will adhere to the EPC Rulebooks to use them in the European
+payment and messaging network for the Euro zone. The EPC Rulebooks deﬁne principles of
+money transfer in Euro according to the European Union Regulatory Framework. The �me
+required to join and to operate the EPC Rulebook network is expected to be 6 months.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+8
+
+API
+Compliance with speciﬁc rules, laws and regula�ons is of u�er importance in banking
+environment. A banking ins�tu�on is obliged to set and follow high standards of opera�ons in
+order to protect its stakeholders. Besides that, the reputa�on of a bank can also be severely
+damaged by poor processes including KYC and AML/CFT techniques and so�ware. We will use
+exis�ng tested technologies to comply with the standards and the requirements.
+In KYC, for example, modern banks are s�ll playing by old rules due to the sensi�ve nature of the
+procedure importance. Up un�l now, most KYC and AML procedures require front-oﬃce presence
+of a customer. While automa�c biometric devices s�ll have to prove their acceptability, eﬃciency
+and security in fully digital banking, players like SEB are evalua�ng op�ons of using Skype for
+customer veriﬁca�on.
+P2P loans are a new model in credit systems, which allow organiza�ons to establish a pla�orm
+that links those looking for loans with those looking for small investments and proﬁt. Such
+systems are a great way for ﬁnancial ins�tu�ons that match the lenders with the borrowers to
+generate a capital-eﬃcient, credit risk free revenue stream on processing (e.g. pla�orm
+maintenance, customer due diligence, scoring). We see a par�cular opportunity in cross-border
+P2P lending while most of today’s pla�orms are locked into a single jurisdic�on.
+According to researches done by Deloitte, the Compound Average Growth Rate (CAGR) of the
+market is over 104% in the period from 2011 to 2015, with almost double the growth during the
+period from 2014 to 2015. Studies also suggest that by 2021 the total P2P loan market will be over
+$500 billion, with European marking being over $35 billion.
+However, as all traction is to be created by customers, Polybius aims to set high standards to
+ensure the security of the procedure and comfort of all parties involved. This means that our P2P
+loan platform may also adopt scoring and convenient authentication mechanisms to make the
+bid/oﬀer phase transparent and trustworthy, as well as being competitive and compliant with the
+regulations.
+Investment features for Polybius Payment Institution customers will include crea�ng investment
+por�olios, managed by a Polybius strategic partner company.
+The por�olios are meant to be an investment product with a customizable risk/liquidity proﬁles.
+The role of Polybius P.I. will likely be limited to a referral and funds transfer payment agent to the
+said strategic partner.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+9
+
+EMI
+Electronic Money Ins�tu�on
+
+Upon reaching our second milestone, Polybius will be eligible to qualify for a broader range of
+instruments that will increase the ﬁnancial services oﬀered reaching more sophis�cated and
+func�onal banking. At this stage, Polybius complete Electronic Money Ins�tu�on (EMI) license
+will allow us to issue electronic money – something we would not be able to do with a limited P.I.
+license.
+According to the article 2.2 from directive 2009/110/EC of the European Parliament and Council,
+“electronic money” means “electronically, including magnetically, stored monetary value as
+represented by a claim on the issuer which is issued on receipt of funds for the purpose of making
+payment transactions […], and which is accepted by a natural or legal person other than the
+electronic money issuer”.
+In XIX century, gold was used as money. In XX century, we moved on to cash for both historical and
+prac�cal reasons. In XXI, money went digital, and it was rare to meet a person with a bank account
+not holding a debit card. For a bank to have the right to issue cards, it must either apply for a card
+scheme membership (like MasterCard, Visa or American Express), or join an already exis�ng
+member of a scheme, namely BIN Principal Member A BIN Principal Member will issue the cards
+for Polybius and will be communica�ng with schemes on our behalf, taking fees for processing.
+Not only do bank clients need to send money, but they also need to receive it, whether to their
+personal or corporate accounts. A BIN Principal Member is also responsible for money acquiring,
+crea�ng a seamless both-end payment transac�on service. It may be required to have a
+“prefunding account” on the side of a BIN Principal Member and it might take up to 6 months for
+nego�a�ons and ﬁnal agreement.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+10
+
+EMI
+At this milestone, Polybius Payment Institution will likely implement currency exchange services,
+allowing corporate customers to keep a variety of currencies inside a single bank account,
+exchanging them at their discre�on and making payments with less spending and vola�lity risks.
+The deployment of the exchange may take up to 3 months.
+By being in the middle of an online ﬁnancial transac�on we expect to gather a lot of insight into
+consumer's behavioural pa�ern as well as income and liability proﬁle. This will drive our scoring
+models allowing to oﬀer loans. We expect these loans to be extended predominantly to ﬁnance
+purchases from online merchants we'll be working with. This will enhance the value of the membership of Polybius–Digital Pass biosphere through driving the sales for our merchants and
+providing a diﬀeren�ated oﬀering for the consumers. Last but not least, it will also be beneﬁcial
+to Polybius as we will maximize our return on investment by supplemen�ng interest income with
+the consequen�al transac�on revenues.
+Similarly to our consumers, we would like to be in a posi�on to oﬀer ﬁnancing to our merchants.
+This will most likely take the shape of working capital ﬁnancing whereby we could either (a)
+ﬁnance their stock or (b) allow them to provide consumer ﬁnancing by extending them a loan to
+bridge a receivable. Par�cularly in the case of receivable ﬁnancing, our deal appe�te will likely be
+driven by the credit scoring as well as the merchant's trade volume through Polybius. Such posi�ve reinforcement will encourage the transac�ons through our pla�orm and drive value for all
+Polybius stakeholders.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+11
+
+Commercial Bank
+
+The strategy upon reaching this milestone greatly advances, and so do Polybius ambi�ons and
+requirements. At this stage, Polybius will be eligible to reach the poten�al of a fully func�onal
+bank with a complete set of features. Along with classical banking services, Polybius Bank will
+deliver applica�ons and instruments required in the market. Our aim is to provide Banking as a
+Service, more commonly known as BaaS.
+But before the development of APIs, Polybius may apply for a card scheme (Visa/MasterCard)
+Principal Member License. With such membership, no BIN sponsors would be required for card
+issuing, simplifying the card payment processing and reducing the costs. The licenses allow card
+issuing in all European countries. It may take up to 6 months to receive the membership.
+At the same �me, Polybius will rally to become a bank, applying for an all-inclusive banking
+license. This is one of the most serious licenses and requires Polybius to undergo many lengthy
+audit sessions. The process may take up to 2 years, but as a result Polybius will be authorized to
+provide deposit services, issue debit and credit cards and oﬀer savings accounts (e.g. re�rement
+savings).
+The digitaliza�on of commerce is the ul�mate requirement for modern merchants to stay
+compe��ve across the market. This, however, makes the merchants dependent on third party
+payment service providers to issue the services and the infrastructure for payment ini�a�on and
+account informa�on services. The oﬀering of a classical bank is o�en regarded as limited and
+inﬂexible. We therefore see a signiﬁcant opportunity to gain strong market share across electronic
+merchants by oﬀering a nimble solu�on.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+12
+
+Commercial Bank
+With the PSD2 in place, banks will have to adapt and oﬀer just the speciﬁc services required for
+e-Commerce, as well as provide tools for TPPs which will come with help of new direc�ves. The
+mission of Polybius Bank is to not only provide the Account Servicing Payment Service Provider
+(ASPSP) services on an open pla�orm for merchants, but to also make sure that the
+implementa�on and integra�on of such services comes seamlessly through the role of Polybius as
+a TPP, i.e. Account Informa�on Service Provider (AISP) and Payment Ini�a�on Service Provider
+(PISP) pla�orms in the frame of the PSD2.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+13
+
+Digital Pass
+The infrastructure of Polybius Bank project will rely on reputable exis�ng core solu�ons along
+with technologies meant to digi�ze and automate opera�ons and communica�on.
+Digital Pass, the product of our development, is a standalone technology and service aimed to
+standardize system-to-system communica�on, and enable trust through the integrity of records.
+It is designed to facilitate individuals and businesses to get access to, and to keep encrypted
+personal & corporate data in a privately accessible decentralized ledger. The data will later be
+used in a secure, open and non-discriminatory manner to increase the scope of Polybius Bank or
+P.I. procedures, as well as to build an ecosystem for businesses in strict accordance to regula�ons
+issued by the European Parliament and outlined by the European Commission.
+Digital Pass employs the experience of the trusted and ﬁeld-tested Estonian e-Residency
+iden�ﬁca�on system and its uses. The main principles of security, adapta�on and poten�al
+appliance are outlined below:
+Protec�on of personal data
+The ﬁrst and most important aspect of Digital Pass features is related to the processing and
+storage of data referable to the personal iden�ﬁca�on (sensi�ve), as well as anonymous and
+pseudonymous informa�on. The classiﬁca�on, storage, analysis, processing and accessibility of
+data will be compliant to the direc�ves set by European Commission, i.e. the General Data
+Protec�on Regula�on (GDPR) and others.
+Decentralised Ledger Technologies
+Due to the cri�cal importance of informa�on security, the data requires an undeniable, highly
+secure and redundant storage environment that will also allow private access to and exchange of
+informa�on between Polybius Bank or P.I., its customers, trusted en��es and law organisa�ons.
+Being compliant with the European Union direc�ves and regula�ons, Emer blockchain technology
+will be adopted as a basis for further development. Among its key features, Emer oﬀers mul�-level
+permission-based access to data via SSL cer�ﬁcates. En��es and organiza�ons using the trusted
+environment may include, but are not limited to: ﬁnancial, health and government ins�tu�ons
+along with trust-businesses. The access to data entered and retained in the trusted environment
+will be provided on the individual’s discre�on or by a request from legal authori�es.
+While the Emer blockchain stays as a trustable environment for data storage and access to
+services and entries is covered by independent so�ware solu�ons (such as the Authorizer), there
+are other DLTs (such as the Tangle) that are designed to allow an eﬃcient transfer of low batches
+of data. This is a tool useful in processing data generated or required by small IoT devices.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+14
+
+Digital Pass
+Internet of Things
+With the expansion of smart devices, smart cars and smart houses, more types of transac�ons
+will eventually appear. For the IoT to func�on seamlessly, speciﬁc standards of micropayment
+processing and message delivery have to be adopted for convenient M2M communica�ons and
+billing.
+While not being a focus area at the earliest stages of development, the poten�al and the
+requirements of the ﬁeld is the reason to keep it in mind. As the technology starts to gain mass
+recogni�on and adop�on, Polybius Bank or P.I. will look forward to develop and provide
+instrumental payment services based, or employing currently exis�ng solu�ons.
+Big Data
+Digital Pass is designed to collect and store a handful of data, which will be used to enable
+individuals and en��es to receive both high quality services and informa�on about the Market in
+general. The informa�on may be anonymously collected by trusted, licensed and regulated
+en��es and then processed, providing regional data regarding the requirements of local industry.
+The data may also be used for the development of new procedures or services required in
+diﬀerent areas of human life. Due to the sensi�ve nature of the data stored in Digital Pass, such
+analysis will be done in the strictest regulatory conﬁdence and in full compliance with European
+regula�ons.
+Applied AI
+Although in its infancy, ar�ﬁcial intelligence is already used as a tool of data analysis. Weak AI or
+Narrow AI is complex combina�on of algorithms able to analyze big clusters of data and give
+"answers" accordingly to preset logic. In ﬁnancial environment, such tool is used in scoring and
+sensi�vity systems. To remove any chance of private selﬁshness in the processing of sensi�ve
+informa�on, and to increase trust between customers, trusted en��es and Digital Pass, it is
+crucial to ensure the correct usage of data. Along with the development of Polybius Bank or P.I.
+and related services, the overall capacity, opera�onal speed and costs will be improved with the
+implementa�on of applied AI solu�ons within the Digital Pass and other func�onal features.
+For backers and Polybius Bank
+The real value of Digital Pass lies not only within its design principles, but also within the scope of
+recent regula�ons set forth in the European Union to advance the European Single Market.
+By following the latest regula�ons, ﬁnancial ins�tu�ons and merchants will require secure digital
+iden�ﬁca�on, authen�ca�on and authoriza�on tools to provide their customers an entry point in
+the Digital Single Market.
+Digital Pass is the solu�on to sa�sfy compliance with the eIDAS Regula�on and may generate
+revenue on its related services, e.g. data processing and analysis. Our ini�al goal is to create a
+single cross-European credit scoring system together with our strategic partners who are among
+the leaders in the credit industry in Europe. Those en��es interested in using the features and
+tools provided by Digital Pass will be subject to royalty and maintenance fees as to ensure the
+validity and con�nuity of the service as well as proﬁtability.
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+15
+
+Digital Pass
+Basic technical principles of opera�on:
+Digital Pass combines user SSL cer�ﬁcates, blockchain-based infocards and a widely acceptable
+OAuth2 technology. Current methodology of registra�on is the following:
+1. User creates an infocard with private informa�on (name, address, contact details), encrypts
+it and sends it over to the ledger;
+2. User generates a SSL cer�ﬁcate including the infocard data, sends the info to ledger and adds
+the *.p12 ﬁle to the browser;
+3. User authorizes on the Digital Pass website using a cer�ﬁcate in the dashboard. User can also
+use other means of authoriza�on such as an ID card, a bank or a governmental services website.
+If the infocard data corresponds to data from other sources, the user is considered valid. In any
+other case the data is veriﬁed by a moderator. This is a way to connect a user cer�ﬁcate with
+real user data;
+4. Implementa�on of Digital Pass into websites (banks, exchanges, merchants, etc) is done via
+the standard OAuth2 protocol.
+An illustrative use case example for a credit organization (CO):
+1. User presses "authorize via Digital Pass" on a CO website;
+2. The CO website redirects the user to Digital Pass website, where it authorizes using own SSL
+cer�ﬁcate, receiving a User Authoriza�on Token;
+3. By a following Digital Pass request, a CO website receives user's infocard data along with
+veriﬁca�on data, for example:
+{verified=true;verified_type:id_card}
+4. Next, a CO provides a loan to a user, informing Digital Pass without disclosing any of the user's
+PII.
+5. Digital Pass publishes a blockchain entry with such parameters as:
+name:
+value:
+
+credit_info:SSL-id
+credit_org
+=
+"Credit Organisation Name"
+credit_summ =
+"Loan amount"
+credit_expiration = "Loan expiration date"
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+16
+
+Financial Marketplace
+Small and Medium Enterprise Financial Marketplace
+The Financial Marketplace will be the environment for ﬁntech companies and ﬁnancial experts to
+present and provide the services and technologies as the product of their exper�se and development. There is a reason for such solu�ons to be in high demand - many small and medium enterprises o�en require addi�onal tools for their business to be successful and convenient, and the
+market will be especially ready for such tools in the scope of the PSD2. Venture capital, seed and
+angel investors also require pla�orms for their daily opera�ons, so with the development of the
+Digital Pass analysis & scoring technologies accompanied by ﬁntech solu�ons we foresee the
+employment of such pla�orms and instruments in the marketplace as well.
+The tools will vary by purpose and mechanics, ranging from tradi�onal single market analysis
+instruments to cu�ng-edge ﬁnancial aggrega�on pla�orms for loan, brokerage, insurance and
+investment needs.
+e-Commerce & m-Commerce services along with online merchants have to rely on third party
+processors to cover their money remi�ance, compliance or logis�cs requirements. Polybius
+Financial Marketplace will be designed to connect the developers and the consumers of such
+technologies.
+Decentralized Autonomous Organisa�ons or DAOs can be considered a new tool for Venture Capital investors as it provides secure funding mechanics using smart DLT contracts.
+Same mechanisms of smart contracts and DAO tokens can also be employed in development of
+smart crowdfunding pla�orms. The Ini�al Coin Oﬀering (ICO) itself is an example of a tool for the
+Polybius Financial Marketplace.
+With data collected in Digital Pass and analysed by third party scoring and sensi�vity systems, the
+marketplace will a�ract insurance companies, credit agencies and those willing to provide access
+to their informa�on. We believe that companies working with ﬁnancial risks would beneﬁt from
+having a greater data input and therefore a be�er analy�cal output due to higher scoring precision. For the customers, it will mean that such services will be able to provide lower-than-usual
+prices for services to compliment the readiness of individuals to share their data and ensure the
+ﬁnancial and opera�onal safety.
+Foreign exchange can be more than just a tool for interna�onal money remi�ance – it can become
+a trading pla�orm. Corporate and individual brokers will be able to provide their services or technologies within the marketplace, while big and medium investors will access the database of
+startups and established companies in need of venture capital.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+17
+
+Core Team
+The Polybius project is driven by a number of expert groups of with common vision. Below is a list
+of the core day-to-day team at this stage. These are ac�vely involved in the key strategic decisions,
+project planning and development. The team is regularly drawing on the exper�se of the deep
+bench of the advisors aﬃliated with the project.
+Addi�onal tech and ﬁnance professionals have commi�ed to join the project upon ICO closing.
+They are not yet ac�vely involved nor listed below due to their arrangements with current
+employers and conﬂicts of interest.
+Sergei Potapenko
+Polybius’ vision and inspira�on
+CEO and co-founder, HashCoins OÜ
+Sergei is a seasoned execu�ve with a rich team building and leadership experience. Out of his 11
+year work experience, he had spent 4 working with Blockchain technologies and over 7 years in
+managing posi�ons across several interna�onal trading enterprises. With main focus on
+engineering and business administra�on, Sergei has a deep percep�on and understanding of the
+direc�ons of modern technological development and capabili�es.
+Sergei is a pragma�c professional driving the project execu�on, making the Polybius vision a
+reality.
+Ivan Zahharenko, MBA
+Polybius’ ﬁnancial products
+Independent ﬁnancial advisor
+Ivan has 10 years of ﬁnance industry experience, having worked with both corporate and private
+clients within Swedbank and Citadelbank. He has held the posi�ons of Corporate Business
+Development Director at Expobank AS, Senior Private Banker at Bal�kums Banks and Private
+banker at Parex Bank. Ivan excels in partner rela�ons and also holds an MBA in economics. His
+clients have praised him for his ability to make quick and ra�onal decisions, priori�sing on the
+delivery.
+Ivan Turygin
+Polybius Business Development
+Chairman of the Board, HashCoins OÜ
+With a decade of interna�onal entrepreneurship experience and several successful businesses
+across the EU, Ivan is responsible for con�nual ac�vi�es of the companies and its projects. He
+studied Manufacturing Technology and Finance, Banking & Business Administra�on at the Tallinn
+University of Technology. This ul�mately led him to inves�ng in Tech projects, among which is
+HashFlare and Polybius.
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+18
+
+Core Team
+
+Nikolay Pavlovskiy
+Polybius Technology
+CTO, HashCoins OÜ
+Nikolay is a physicist by background. He had spent the ﬁrst ﬁve years of his professional career
+working at “Fakel” construc�on bureau in Kaliningrad as a research engineer. He relocated to
+Estonia in 2010 and joined HashCoins in 2014. Aside from his CTO responsibili�es at HashCoins,
+he is one of the drivers behind Emercoin advancement team.
+Vitali Pavlov
+Polybius DigitalPass Lead
+Chief Product Oﬃcer, HashCoins OÜ
+Vitali has a background in cyberne�cs and compu�ng, holding a masters degree from Tallinn
+Technical University. He’s held a variety of posi�ons in tech companies, most recently the CEO of
+DonateIT before joining HashCoins. Vitali is also one of the founding members of The Estonian
+Cryptomoney Union, a non-proﬁt organiza�on focusing on popularizing cryptocurrency and
+related technology.
+Edgar Bers
+Polybius Communica�on
+Product Development & Communications, HashCoins OÜ
+Edgar’s educa�onal background spans across linguis�cs and psychology. His most recent
+professional background, before joining HashCoins, was in Distribu�on Management at Top
+Connect, telecom solu�on provider. Edgar is an avid blockchain and cryptocurrency enthusiast, he
+has presented at a numerous technological conferences and other public forums.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+19
+
+Regulations
+Due to the sensi�ve nature of banking business and PII processing, here is the (indica�ve,
+non-exhaus�ve) list of standards, regula�ons and legisla�ons we will to comply with:
+1. ISO/IEC 27000 family of standards – deﬁnes requirements for PII storage, processing and
+distribu�on. More details can be found on the oﬃcial website of the organisa�on;
+2. GDPR – the General Data Processing Regula�on speciﬁes the core principles of working with
+the PII. The full descrip�on of the direc�ve can be found on the oﬃcial website, while a shorter
+version can be reviewed here. The most recent publica�on by the European Commission can be
+found here;
+3. eIDAS – a set of standards for eID and Trust Services for electronic transac�ons in the
+European Single Market. The informa�on regarding speciﬁca�ons are published on the oﬃcial
+website of the European Commission;
+4. ISO 20022 – a standard of communica�on and messaging between ﬁnancial en��es. Its
+purpose is to reduce "misunderstanding" in general terms by crea�ng a uniﬁed dic�onary for
+businesses. For more informa�on, visit the oﬃcial website of SWIFT or the oﬃcial website of
+the ISO itself;
+5. PSD 1 & PSD 2 – the direc�ves that are set by the European Commission to regulate payment
+services within the European Union. These direc�ves, among other things, are meant to
+improve security and customer protec�on and can be viewed in greater detail on the oﬃcial
+website of the European Commission;
+6. SEPA regulations – meant to set an outline of rules and condi�ons for cashless payment
+within the EU, has its legal basis outlined in PSD 1. More informa�on can be reviewed on the
+oﬃcial website;
+7. AML/CFT legislation – a list of principles meant for or An�-Money Laundering and
+Countering the Financing of Terrorism. More informa�on about speciﬁc regula�ons is available
+here and here, while other informa�on can be found on the oﬃcial website of the European
+Banking Authority.
+It is also important to keep in mind that most direc�ves are applicable for the EU zone only. During
+the company's expansion period, appropriate regula�ons will also be met accordingly to
+jurisdic�ons.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+20
+
+Appendix 1
+Appendix 1: Preliminary Organiza�onal Chart and Key En��es
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+21
+
+Appendix 1
+Polybius Foundation is a ﬁnancial company, established in 2017 and registered in Estonia with the
+main oﬃce located in Tallinn, Estonia.
+The main focus area of the Founda�on is outlining and execu�ng the projects behind or related to
+the Polybius infrastructure; selling Polybius Tokens to cover Polybius products; execu�on of
+PolyTrust Trustee services; product development of the PolyID pla�orm and promo�on of
+Polybius Bank project.
+Polybius Foundation will be the trustee promoter and holder of licenses for Polybius Bank,
+PolyTrust, and PolyID, and is legally accountable for PolyTrust trustee services.
+Polybius Token or PLBT is a proﬁt-share smart contract. The token is issued within an eToken
+contract and is wri�en using Solidity programming language by Ambisafe company. The system
+architecture is outlined in a dedicated document.
+PolyID – has (or will have) the op�on of being an eIDAS compliant func�on, as an eID Scheme
+authorised as a valid European eID and owned by Polybius Founda�on. PolyID func�on is to
+authen�cate individuals as valid customers of Polybius Bank or P.I. and to provide access as users
+of the Digital Pass and PolyTrust services.
+PolyTrust – eIDAS compliant Trustee Service ac�ng on behalf of customers authen�cated by the
+PolyID eIDAS compliant func�on, allowing access and storage of cri�cal data (such as related to
+ﬁnance or health). PolyTrust is owned by Polybius Founda�on.
+HashCoins OÜ is an IT company, registered and established in 2013 in Estonia headquartered in
+Tallinn. The main focus areas of the company are development of authen�ca�on and security
+systems; crea�on of decentralised and distributed ledger (DLT) solu�ons; and provision of cloud
+compu�ng services.
+HashCoins OÜ will ini�ally be the servicer and the provider of cloud and DLT storage, security,
+servicing and redundancy solu�ons for Polybius infrastructure including the Digital Pass services.
+Digital Pass is the codename for an environment encompassing Polybius eIDAS compa�ble
+iden�ﬁca�on and authen�ca�on of its users and authoriza�on of payment and other services
+implemented into the service proposals of Polybius Bank or P.I.
+
+The tokens have not been and will not be registered under the United States Securi�es Act of 1933, as amended (the “Securi�es
+Act”), and may not be oﬀered or sold in the United States or to or for the beneﬁt of US persons (as deﬁned in Regula�on S under
+the Securi�es Act) unless they are so registered, or an exemp�on from the registra�on requirements of the Securi�es Act is
+available. One such exemp�on allows the resale of tokens purchased for their own account and for investment purposes only by
+investors who (i) are not otherwise aﬃliated with the Polybius Founda�on, (ii) have been exposed for some �me to the economic
+risks that ownership of tokens entails, and (iii) are not part of the distribu�on of the tokens.
+
+Polybius Prospectus
+
+22
+
+Polybius Founda�on OU
+Company number 14202836
+Tartu mnt 43, Tallinn, 10128, Estonia
+Email: info@polybius.io
+
+Phone: +372 58 738 066
+
+

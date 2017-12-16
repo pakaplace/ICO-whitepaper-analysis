@@ -1,0 +1,901 @@
+Introduction
+Decentralized peer-to-peer technologies
+have evolved to replace conventional
+
+White
+Paper
+
+services such as filesharing and currency,
+with the latest blockchain based virtual
+machines able to create feature rich
+applications for web services such as
+exchanges, blogs, and social networking.
+We believe users want to eliminate the
+problems associated with centralized
+services, and we want to give back the
+community to the very people who create
+it.
+
+The FaceCoin
+Network
+
+Centralized social networks have the
+problem of constant privacy violations
+and data mining. Most people know the
+phrase, "if it's free, then you are the
+product being sold". Advertisers spend
+billions of dollars annually to collect your
+information and usage patterns on social
+
+FaceCoin (FC) - Cryptocurrency for the
+
+networks in order to profit off of you. Big
+
+decentralized social network.
+
+internet companies are also paying huge
+amounts of money to learn more about
+the activities of users. Most people have
+accepted the fact that their browsing
+history and web traffic patterns are being
+stored in a central server somewhere.
+
+1
+
+How does FaceCoin solve the problems of
+
+enforce the relationship between actors
+
+centralized social networking services?
+
+on the blockchain. And since the
+blockchain is immutable the code of the
+
+We are bringing the decentralized web to
+
+smart contract cannot be altered. On a
+
+everyday users without the need of
+
+blockchain, a smart-contract is like any
+
+additional software beyond a web
+
+other actor. It has an address, a balance
+
+browser. However, a small minority of
+
+and can do actions (sending money etc...)
+
+technically savvy users will be able to
+
+but it also has a brain: it can perform
+
+service requests and earn FaceCoin
+
+actions and store information.
+
+microtransactions for the use of their
+internet bandwidth and storage. The
+
+What is IPFS?
+
+nodes will have zero knowledge about the
+users of the platform, and they will not
+
+IPFS stands for InterPlanetary File
+
+be able to read messages and content.
+
+System, a protocol designed for peer-to-
+
+We will run thousands of nodes at the
+
+peer addressable file systems. This
+
+coins launch to keep transaction costs at
+
+technology enables storage of pictures,
+
+an acceptable level.
+
+text, messages, and other connections
+that can be easily accessed through a
+
+Anonymity
+
+smart contract.
+
+Steps will be taken to ensure users are
+
+How will we use these technologies?
+
+anonymous on the FaceCoin network.
+The absence of registration with the use
+
+Our engineering team has studied the
+
+of public and private key encryption, and
+
+possibilities of Ethereum to build smart-
+
+strict spam bot prevention ensures a
+
+contracts on the Ethereum blockchain
+
+clutter free environment for users.
+
+that define the relationship between
+users of a social network. Further, we
+
+What is a smart-contract?
+
+will use an extended IPFS to store data
+without a central data point, and have
+
+A smart-contract is code deployed on the
+blockchain. It is used to define and
+2
+
+developed a robust message routing
+
+system with minimal data usage
+
+has been made into a streamlined
+
+overhead.
+
+process as an abstraction layer.
+
+Incentive for running a node
+
+In the current implementation, the
+responsibility for contract negotiation
+
+Users running the FaceCoin node
+
+and verification is handled by Bridge
+
+software will earn FaceCoin tokens based
+
+while the client is responsible for
+
+on the amount of users and requests they
+
+encryption and file key management. In
+
+service. FaceCoin tokens can be used by
+
+addition, because nodes can be relied on
+
+other users or businesses to create
+
+to have a high uptime, integration is
+
+FaceCoin pages and other apps. We have
+
+possible into unreliable UX applications
+
+many more plans on how the tokens can
+
+making use of a RESTful API.
+
+be used more in the future.
+Photon
+Who We Are
+FaceCoin implements a peer to peer
+The team behind FaceCoin is based in
+
+store/subscribe system called Photon. To
+
+the US with over 15 years of experience
+
+operate Photon, FaceCoin extends
+
+developing software solutions for Fortune
+
+Kademlia with several new message
+
+500 companies. We specialize in cloud
+
+types. These help to facilitate the
+
+solutions and server architecture.
+
+propagation of filters, with each node
+maintaining information about topics in
+
+Bridge
+
+which it subscribes. Nodes may respond
+to requests to update their filter lists and
+
+Bridge provides an object store, whose
+
+push changes to their nearest neighbors
+
+primary function is to expose an API to
+
+in the subscription chain.
+
+application developers. Developers do
+not require a knowledge of the network,
+
+Nodes will not relay messages with a hop
+
+auditing, or even cryptocurrencies to use
+
+exceeding the TTL, or a TTL that would
+
+the Bridge API. The developmental use
+
+exceed any of a new message. To prevent
+replaying of messages, nodes add their
+
+3
+
+ID when they are forwarded, indicating
+
+systems behind NAT or other network
+
+that they have already seen the message.
+
+devices to participate, FaceCoin
+
+This prevents redundancy in the form of
+
+implements a robust reverse connection
+
+communication overhead.
+
+system. A unique message ordinal allows
+a node to determine whether it is
+
+BitSwap
+
+publicly available from other nodes.
+Nodes joining the network should
+
+IPFS uses a concept called BitSwap
+
+immediately respond to the request and
+
+ledgers, which are simply a local
+
+based on the response, will either operate
+
+accounting of previous interactions with
+
+successfully or continue the process of
+
+other nodes. As the BitSwap protocol is
+
+finding a tunnel node.
+
+primarily concerned with the distribution
+of objects in a Kademlia style DHT,
+
+The providers must create a tunnel for a
+
+BitSwap ledgers count bytes sent and
+
+node if they are capable. The node will
+
+bytes read. Instead of attempting to
+
+open a keepalived connection to the
+
+reach global consensus about the
+
+provider, to ensure a simple and flexible
+
+reputation state of the entire system,
+
+interface to receive updates. Tunnels are
+
+these ledgers only deal with one-to-one
+
+operated over TCP with a simple protocol
+
+relationships, and do not account for
+
+which provides a flexible interface for
+
+latency, throughput, discoverability, or
+
+additional tunneling.
+
+other QoS factors. Almost all of the
+behavior of the node is left to the
+
+Identity and Permissions
+
+implementer, with some discussion given
+to potential exchange strategies. This
+
+FaceCoin uses public key cryptography to
+
+means that BitSwap ledgers can scale
+
+verify clients and access. Users register
+
+well and are extremely versatile.
+
+public keys with nodes, and API requests
+are signed. Buckets can be permissioned
+
+NAT Traversal
+
+individually by registering a set of public
+keys as given access. This provides a
+
+Not all devices are publicly available
+
+logical separation between users and
+
+through the network. To enabled
+
+permissions. For instance, the publisher
+
+4
+
+of a file can divide each user into a
+
+sorting algorithm implies O(log n)
+
+separate bucket accessible only by those
+
+lookup.
+
+keypairs.
+1. Let g = [log2(B)].
+2. Let h be the first g bits of R.
+Objects in Encrypted Shards
+
+3. Let i be the first g bits of the shard
+hash.
+
+Sharding has a number of advantages to
+
+4. Let n = h + i.
+
+security, privacy, and availability. Files
+
+5. Store the shard in Ln.
+
+should be encrypted client side before
+being sharded into smaller encrypted
+
+Mirrored Erasure Coding
+
+pieces. The reference implementation
+uses AES256 in cipher feedback mode,
+
+Erasure coding algorithms work by
+
+but other encryption schemes can be
+
+breaking a file into m shards, with k
+
+substituted easily. The content of the
+
+parity shards. Availability makes use of
+
+data is protected from the storage
+provider, host node, and unauthorized
+
+the fact that
+
+P =1−∏ m am with at least
+0
+
+users. Distributing shards across
+
+m + 1 available nodes. To prevent loss of
+
+multiple nodes reduces the impact of
+
+the file, shard loss tolerance levels can be
+
+retrieval on any given node. In addition,
+
+set by data owners. Because node
+
+parallel transfer can be done by the end
+
+uptimes are known through the
+
+user as a performance enhancement.
+
+bootstrapping process, tolerance levels
+can be automatically optimized based on
+
+Routing By Shard Hash
+
+the characteristics of the nodes involved.
+This also decreases the on-disk overhead
+
+Shard buckets have a fixed maximum
+
+needed to achieve a given level of
+
+size in bytes, S. This maximum of a K
+
+availability for any given object.
+
+store of S * B bytes collectively form a BTable of up to 4 TiB. Nodes will use their
+160 bit Node ID as a reference identifier,
+which can be arbitrary. The following
+5
+
+Probability Distance
+
+Challenges
+
+As the network grows and additional
+
+Current social networks are confronted
+
+shards are created, it becomes
+
+with many challenges. Primary
+
+progressively more difficult, without
+
+information, composed of private
+
+prior knowledge of the locations of its
+
+messages and direct content lookup, is
+
+shards, to locate a given object. The
+
+ubiquitous and does not pose any
+
+probabilities of locating a targeted object
+
+problem for any network. However, it is
+
+can be calculated from k shards by n
+
+not feasible to digest this primary
+
+random draws in a network containing N
+
+information into secondary information
+
+shards modeled as a geometric
+
+to be shared. There are several
+
+distribution with K = k.
+
+strategies to bring this information
+
+( )
+
+N −k
+n−k
+Pr Success(N ,k, n)=
+(N )
+n
+
+together reliably.
+Quality Content
+
+N
+
+k
+
+n
+
+Pr Success(N ,k, n)
+
+100
+
+10
+
+10
+
+5.777e-14
+
+100
+
+10
+
+50
+
+5.934e-04
+
+algorithms gives weight to material that
+
+100
+
+10
+
+90
+
+3.305e-01
+
+is linked from other sources, creating a
+
+100
+
+50
+
+50
+
+9.912e-30
+
+trust score, a person’s past reputation is
+
+500
+
+50
+
+200
+
+5.493e-04
+
+a good proxy to determine the quality of
+
+500
+
+50
+
+400
+
+1.961e-22
+
+their future work. However, human
+
+900
+
+10
+
+200
+
+7.361e-06
+
+beings are prone to produce inconsistent
+
+900
+
+10
+
+400
+
+2.457e-07
+
+results, coupled with the difficulty in
+
+900
+
+10
+
+800
+
+2.823e-04
+
+translating to online content.
+
+900
+
+50
+
+200
+
+3.060e-01
+
+900
+
+50
+
+400
+
+1.072e-35
+
+Additionally, the psychological
+
+900
+
+50
+
+800
+
+4.023e-19
+
+In the same way that web search
+
+phenomenon of social popularity and
+mind share influencing perceived
+branding can manifest itself. Many
+social networks have replicated this by
+representing cumulative likes or upvotes.
+
+6
+
+Factual Content
+
+or other proof, identities. Requiring a
+proof to perform content voting or to
+
+The measure of the reliability of content
+
+assume an identity creates a high cost for
+
+is also affected by social psychology.
+
+malicious actors.
+
+Journalism ordinarily needs to be
+sourced from a trusted institution or
+
+Separation of Social Network and
+
+source with a pre-existing level of
+
+Blockchain Layer
+
+reputation. Sources of weak reputation
+may receive invalid mind share from
+
+The blockchain layer runs on top of the
+
+cognitive bias. The network effects of
+
+Ethereum protocol, enabling social proof
+
+social sharing can potentiate
+
+to be distributed and created. The social
+
+information.
+
+layer is completely decoupled from this
+and is used for content distribution and
+
+Censorship
+
+interaction. This separation is ideal to
+allow each layer to implement features
+
+Moderation is often required in any
+
+independently of each other.
+
+environment that many people use to
+
+Additionally, specialized social networks
+
+remove illegal material or to prevent
+
+can be created separate from one
+
+scams, spam, and other unwanted
+
+another, or with exposing only a small
+
+material. However, a decentralized
+
+subset of properties with one another.
+
+system enables unfettered freedom of
+expression and universal access.
+
+Architecture
+
+Sybil Attacks
+
+There are a series of functional layers
+making up the service.
+
+The power to upvote can be abused by
+
+• Innermost domain layer,
+
+bots, sock puppet accounts, and sybil
+
+applications environment is made
+
+attacks. Quality content is often
+
+up of a domain language with
+
+determined by voting to attain an
+
+underlying libraries, networking
+
+accurate measure. The premise solution
+
+implementations, and function
+
+is representation through proof of work
+
+interfaces.
+
+7
+
+• Second processing layer, objects
+
+determine the geographical distance and
+
+are translated into interfaces with
+
+latency to the node, and to optionally
+
+lower-level semantics.
+
+forward to a different server for optimal
+
+• Peripheral layer, semantical
+
+speed. All of this happens transparently
+
+encodings are exposed to the
+
+and incurs a modest wait comparable to
+
+domain model as services.
+
+TLS negotiation. Nodes will periodically
+optimize their connection list for the
+
+FaceCoin Node
+
+highest speed optimization at all times.
+
+There is no cost to run a FaceCoin node
+beyond bandwidth and hardware. The
+
+Future Developments
+
+only other requirement is a valid
+FaceCoin wallet address on Ethereum
+
+Currently FaceCoin is in private beta,
+
+where earnings can be sent to. Nodes
+
+with many features already working.
+
+will be easy to set up with no technical
+
+There are several ideas that will be
+
+knowledge needed to configure. An easy
+
+implemented in future versions.
+
+installer will allow fast setup on Mac,
+
+Numerous possibilities that have great
+
+Windows, and Linux computers. Setup
+
+potential to become their own popular
+
+of the node software exposes options to
+
+products in their own right are in
+
+schedule bandwidth limits on a time
+
+planning.
+
+basis, as well as memory and cpu limits.
+FaceCoin Messenger
+FaceCoin DNS
+Not only do users of social networking
+In order to allow users without the node
+
+desire the ability to create posts and
+
+to access the network, the existing DNS
+
+upload photos, but users want a way to
+
+system is used to forward requests to a
+
+send messages to one another instantly,
+
+series of servers running node using fast
+
+and in a secure manner. We are
+
+fluxing techniques as load balancing.
+
+currently in early stages of developing a
+
+When initially contacting a node, a
+
+messenger that is also usable through
+
+bootstrap process is performed to
+
+standards compliant web browsers. We
+
+8
+
+believe security is the number one
+
+exist on the regular internet as central
+
+priority for the future, and will
+
+websites, we wish to develop a
+
+implement provable end-to-end
+
+marketplace that users of the network
+
+encryption from day one, on top of the
+
+can use in a similar fashion.
+
+already secure network. Only the sender
+and receiver will be able to read their
+messages, and our testing shows that
+this is possible utilizing standard web
+browser technologies of today. An
+updated messenger is planned
+afterwards to allow group conversations
+and possibly voice.
+FaceCoin Pay
+Already there are multitudes of
+cryptocurrency options used to pay for
+services and as exchange of goods. We
+believe implementing a payment method
+directly into FaceCoin is a natural step in
+the progress towards decentralizing
+everything we do online. Methods of
+arbitration using multisig and security
+implications are being analyzed by the
+team for future implementations.
+FaceCoin Marketplace
+A popular activity inside of social
+networks is to buy and sell goods and
+services. Much like other services that
+9
+
+[1] Joseph Poon and Thaddeus Dryja.
+The bitcoin lightning network:
+
+hash coding with allowable errors,
+
+Scalable off-chain instant
+
+(1970).
+
+payments. 2015.
+[2] Eli Ben-Sasson, Alessandro
+Chiesa, Daniel Genkin, Eran
+Tromer, and Madars Virza. Snarks
+for c: Verifying program executions
+succinctly and in zero knowledge.
+In Advances in Cryptology–
+CRYPTO 2013, pages 90–108.
+Springer, 2013.
+[3] Protocol Labs. Technical Report:
+Proof-of-Replication. 2017.
+[4] Satoshi Nakamoto. Bitcoin: A
+peer-to-peer electronic cash
+system, 2008.
+[5] V. Buterin et al. A next-generation
+smart contract and decentralized
+application platform, (2014).
+[6] D. DeFigueiredo, E. Barr.
+Trustdavis: A non-exploitable
+online reputation system, (2005).
+[7] G. Hall. Storj core tutorial:
+Transferring file shards, (2016).
+[8] P. Maymounkov, D. Mazieres.
+Kademlia: A peer-to-peer
+information system. based on the
+xor metric, (2002).
+
+10
+
+[9] B. Bloom. Space/time trade-offs in
+
+

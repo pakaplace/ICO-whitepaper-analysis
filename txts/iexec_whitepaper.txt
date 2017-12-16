@@ -1,0 +1,955 @@
+The iEx.ec project
+Blueprint For a Blockchain-based Fully Distributed Cloud
+Infrastructure
+
+White Paper
+March 18th, 2017
+Version 2.0
+
+Release Candidate
+
+Page 2 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+1. Vision
+Building a Fully Distributed Cloud for Blockchain-based
+Distributed Applications
+iEx.ec aims at providing distributed applications running on the blockchain a scalable, secure and easy
+access to the services, the data-sets and the computing resources they need. This technology
+relies on the Ethereum smart contracts and allows building a virtual Cloud infrastructure that provides
+high-performance computing services on demand.
+iEx.ec leverages a set of research technologies that have been developed at the INRIA and CNRS
+research institutes in the field of Desktop Grid computing. The idea of Desktop Grid (aka Volunteer
+Computing) is to collect the computer resources underutilized on the Internet to execute very large
+parallel applications at the fraction of the cost of a traditional supercomputer.
+iEx.ec relies on XtremWeb-HEP, a mature, solid, and open-source Desktop Grid software which
+implements all the needed features: fault-tolerance, multi-applications, multi-users, hybrid public/private
+infrastructure, deployment of virtual images, data management, security and accountability, and many
+more.
+iEx.ec is developing a new Proof-of-Contribution protocol, that will allow off-chain consensus.
+Thanks to the Proof-of-Contribution, external resource providers will have their resources’ usage
+certified directly in the blockchain. iEx.ec aims to deploy a scalable, high-performance, secure and
+manageable infrastructure sidechain that will promote a new form of distributed governance, implying
+key HPC, Big Data and Cloud industry leaders.
+We believe in a future of decentralised infrastructure and market network, where Big Data and HPC
+applications, highly valued data-sets, and computing resources (storage, CPU, GPU ...) will be
+monetized on the blockchain with the highest level of transparency, resiliency and security - and
+iEx.ec as the key platform powering this future!
+
+iEx.ec is just the beginning of a new era!
+
+Page 3 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+2. The Team
+iEx.ec is built upon the work our team members have done at the INRIA and CNRS research institutes
+in the field of Desktop Grid computing since 2000. Our breakthrough innovations in the area of large
+scale data processing, data management, parallel computing, security and dependability, QoS
+technologies and interoperability have resulted in over 80 top-quality scientific papers in top scientific
+conferences and journals.
+The iEx.ec team was instrumental in establishing the European Desktop Grid Infrastructure,
+transparently executing millions of jobs on more than 200.000 nodes and working with organisations
+like Large Hadron Collider. We had been in constant relationship with key industrial companies like
+Total, Airbus, Orange, IFP Energy, as well as innovative startups.
+From 2012 to 2014, Gilles Fedak, Haiwu He, Oleg Lodygensky and Mircea Moca were seeking solutions
+for implementing a distributed Cloud based on Desktop Grid technology. A serious drawback was the
+lack of a mechanism to register and prove the contribution of participants - of different natures:
+application, data, computing resources and even human expertise.
+In 2015, Gilles Fedak discovered the Ethereum technology and first started to use smart contracts to
+implement distributed resource management. Now we are confident that the conjunction of Desktop
+Grid computing and blockchain has the potential to disrupt the whole Cloud, Big Data, and HPC
+economy.
+Since the beginning of 2016, the core team has rapidly expanded to include blockchain hackers,
+business developers and PR specialists. From a research project, iEx.ec is now a company, whose
+headquarters are in Lyon, France, also with a subsidiary incubated at the famous Tsinghua University
+X-elerator in Beijing, China.
+
+Page 4 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+Founders
+
+Gilles Fedak
+CEO, co-founder
+
+Haiwu He
+Chief scientist, co-founder
+
+Inventors
+Mircea Moca
+Business developer,
+Fintech expert, inventor
+
+Oleg Lodygensky
+Technical leader, inventor
+
+Core developers
+
+Mehdi Amari
+Blockchain Developer
+
+Hamid Ben
+Blockchain Expert
+
+Jose Francisco Saray
+Data Management
+
+Communication & PR
+
+Agnes Fedak
+Communication
+
+Julien Berenger
+Community Manager
+
+Heithem Abbes
+System Architect
+
+Page 5 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+3. Problem
+3.1. Blockchain computing challenges
+Blockchains like Ethereum offer a new approach to run decentralized applications; often called DApps
+in this context. Ethereum allows programmers to write smart contracts - code which is executed on
+the blockchain virtual machine. This represents a potential revolution in designing and executing
+services like investment, finance, crowdfunding, internet of things, insurance, prediction markets,
+gambling, distributed data processing, and others - in essence, disrupting a wide swath of incumbents.
+Despite their unique promise, blockchains offer very limited computing capacities to run
+decentralized applications: few kilobytes of storage, very inefficient virtual machine and very high
+latency protocol. Eventually, blockchain technology will evolve to overcome some of these issues, but
+there will be a growing need to provide additional capacities to all but the simplest applications.
+
+3.2 Traditional computing infrastructure challenges
+The existing Clouds cannot fulfill the requirements of DApps that need fully decentralized infrastructures
+for their execution.
+Meanwhile, there is a growing demand for computing power from industries and scientific communities
+to run large applications and process huge volumes of data. The computing power to run Big Data
+application is most often provided by Cloud and High Performance Computing (HPC) infrastructures.
+However, Cloud and HPC infrastructure is complex and expensive. That means that innovative
+small businesses often don’t have the means and the expertise to acquire and operate HPC platforms,
+while traditional Cloud infrastructure vendors like Amazon AWS are still very expensive for demanding
+applications (e.g. GPU rendering). Furthermore, data-centers consume a lot of energy for running the
+servers and the cooling systems, which is costly and impact negatively the environment.
+We need a new form of distributed Cloud that can enable blockchain computing and lower the cost of
+infrastructure usage.
+
+Page 6 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+4. Solution
+4.1 Technical overview
+iEx.ec will support the emerging class of blockchain-based distributed applications and enable costeffective high-performance computing by building a distributed Cloud infrastructure.
+A Blockchain-based Distributed Cloud will allow on-demand, secure and low-cost access to the most
+competitive computing infrastructures. DApps will rely on iEx.ec to automatically search, find, provision,
+use, release all the computing resources they need: applications, data, and servers.
+
+Thus, we envision a new eco-system of companies offering storage, computer farms, data providers,
+web hosting, SaaS applications, and all making business to others through iEx.ec. The Distributed Cloud
+will open new markets for aggressive usage of existing computing infrastructure. To lower the
+amount of energy required to run the servers and the air conditioning systems, servers can be pushed
+out of the data center. By easing the access to such machines, a Distributed Cloud would allow to
+drastically decrease the environmental footprint of data centers, while bringing the data closer to
+their producers and consumers.
+
+Page 7 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+4.2 Core Value Proposition
+iEx.ec addresses the needs of all the distributed computing ecosystem participants:
+● DApps providers so that they can perform off-chain computations on demand.
+● Application providers can radically lower the computing costs of their distributed applications
+by using safe, robust and reliable iEx.ec infrastructure.
+● Data providers can expand their potential market size by integrating their services with iEx.ec
+Cloud.
+● Server providers can monetize underused computing resources and increase the return on
+investment on their existing infrastructure by seeking higher profits in providing their servers to
+the iEx.ec distributed Cloud.
+
+Existing infrastructure providers
+iEx.ec allows rapid monetisation of existing computing resources for home users or additional
+monetisation for existing infrastructure providers like miners. Functionalities like sharing spare cycles,
+using servers in a compensatory approach and usage of resources from different providers without the
+hassle of resource management allows new use cases and simple additional monetisation.
+
+Distributed applications or Cloud infrastructure users
+iEx.ec will provide computing resources to distributed applications at a much lower cost than traditional
+blockchain computing resources, helping them drive more value for their customers. Transparent
+reputation of resource providers will reward reliable providers, with integrated Quality-of-Service
+controls providing the required level of computing resources. Support for different resource providers
+and full visibility into partial contributions from each provider will also contribute to transparency.
+
+4.3 Key technological advancements
+Developing a robust distributed computing market network requires several technical breakthroughs:
+● Development of a Proof-of-Contribution protocol to offer provable consensus, traceability,
+and trust
+● Development of smart contracts to enable acquisition and provisioning of computing
+resources and automatic post-execution payment
+● Development of technology that allows DApps to access off-chain computing resources on
+demand
+● Development of technology to advertise and utilize computing resources on the market
+network
+● Developing a solid quality
+● Implementing support for Service Level Agreements in resource utilisation by tracing
+resource usage and providing verification of SLA fulfillment to both customer and provider
+The upcoming solutions proposed by iEx.ec will position it as the world’s premier distributed computing
+market - and with a proof of concept that is running today!
+
+Page 8 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+5. Why now
+Convergence of several trends has created the optimal business environment for a distributed Cloud
+infrastructure.
+First, the emergence of blockchain Proof-of-work tokens of value has resulted in vast pools of
+computing resources that are optimised to seek the highest return on investment, providing ample
+resources on the supply side.
+Second, smart contracts have reached the point where they can include all the complexity of a
+market network for distributed computing resources, vastly simplifying the infrastructure.
+And third, in addition to traditional Cloud computing users, a new breed of distributed applications is
+coming into prominence, disrupting the incumbents and showing potential great promise for the
+future.
+
+Page 9 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+6. Market
+6.1 DApps market
+iEx.ec will deliver the essential building blocks on which our customers rely to run their applications.
+Firstly we will focus on the requirements of DApp providers allowing them to perform off-chain
+computations. These promising applications have recently created big expectations for entrepreneurs
+from different industries. By their nature, these applications are decentralized, hence being the perfect
+candidates for the goals of iEx.ec. The blockchain applications market is estimated to have a significant
+annual compound growth rate of 61.5%, reaching $2.3bn in 2021. Among the main blockchain
+technology vendors are Microsoft Corporation (U.S.), IBM Corporation (U.S.), Deloitte (U.S.), Ripple
+(U.S.).
+
+6.2 Traditional Cloud market
+Then we will allow traditional Cloud services to be run in a new fashion within our distributed Cloud,
+enhanced by the Ethereum blockchain and iEx.ec sidechain. More precisely, iEx.ec will provide Compute
+and Service management services through a configurable resource management service, adapting the
+provisioned resources to particular use cases and execution behaviors. In the recent years, we see a
+stabilized increasing rate for the IaaS market. Therefore, iEx.ec is entering a promising, developing
+market (currently with the fastest growing rate).
+
+Also, the Cloud IaaS market is growing fast, displaying an
+estimated market increase for public PaaS and SaaS of 400% by
+2020 and around 700% by 2026 from a $12bn current market.
+iEx.ec team will identify the areas where its distributed Cloud
+market network can best compete with existing Cloud
+infrastructure providers and focus its efforts there.
+iEx.ec’s speed to market due to a comprehensive existing
+technological foundation will afford us first mover advantage,
+positioning iEx.ec as the go-to computing provider for the killer
+distributed applications of the future.
+
+Page 10 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+6.3 eFast Business use case
+Based on the typical distributed application requirement, we have prepared a business use-case for a
+service that improves financial trading based on sophisticated computational methods that require HPC
+for their execution - eFast.
+eFast is an application created with the goal of helping small investors improve their trading decisions
+via different services - like clusterization of stocks based on sophisticated computational methods. The
+computational complexity requires high performance computing (HPC) for the execution - until now,
+available only to large financial institutions. By using the iEx.ec distributed Cloud as a virtual
+supercomputer, eFast will be able to offer its clients a budget friendly and secure service to improve
+their investment decisions.
+Each new service developed in eFast will be sold directly on the blockchain, similarly to the Softwareas-a-Service approach from traditional Cloud. eFast customers will use dedicated smart contracts,
+which define the eFast functionalities and usage rights within iEx.ec.
+An important feature of iEx.ec is the interconnection between applications, services, data and
+computing resources. In this use case, eFast is using data and computing resource providers
+available via blockchain technologies.
+
+Data providers
+Data is an important source of business, technical and scientific innovation. This has driven the
+emergence of a blockchain-based data market with companies like Ledgys and Kaiko.com - an archive
+of cryptocurrency stock exchange data. iEx.ec will enable eFast, the application provider, to connect to
+the data provider Kaiko.com, enabling eFast to run based on a specific user-defined portfolio.
+
+Computing resource providers
+Any computing resource provider will be able to provide its computing resources on the iEx.ec
+blockchain. This could include traditional Cloud service providers like Amazon AWS or Microsoft Azure,
+decentralized Cloud service providers like Qarnot Computing or Stimergy or blockchain mining
+companies like Genesis Mining which are always looking to optimize their resource profitability - for
+example, running HPC computation in conjunction with mining Ethereum blocks.
+
+Page 11 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+iEx.ec customer selects eFast as the application provider, Kaiko as the data provider and Stimergy as
+the resource provider. Their application, data, and resource are represented as smart contracts
+deployed on the blockchain, embedding their terms of use.
+
+6.4 Competitive landscape
+We restrict our review of the competitive landscape to the blockchain related activities, in particular to
+projects offering: off-chain computations, data hosting, and computing resources.
+Several projects allows for executing computation on untrusted resources, like Enigma or Truebit. While
+these projects are interesting from a research point of view, they often rely on solutions that severely
+limit their applicability (like Multi-Party Computation for Enigma). In contrast, Proof-of-Contribution
+allows to integrate any legacy applications or libraries.
+iEx.ec doesn’t compete with blockchain-based online storage solution like StorJ, Filecoin or Sia. Instead,
+iEx.ec allows the monetization of data sets usage, i.e. data access for a particular application execution.
+Oraclize acts as an intermediary between the smart contract and the source of data providing the
+guaranty that no-one else can push a wrong data within the smart contract. These are complementary
+technologies, with which synergies can be found.
+There exists few projects that offer computing resources through the blockchain. Gridcoin creates a
+cryptocurrency based on the computations provided to Boinc-based volunteer projects, thus it is mainly
+limited to altruistic contributions for scientific projects. Golem and iEx.ec share the same vision of a new
+Internet infrastructure enabled by the blockchain. However, their go-to-market strategies differ. Golem
+aims at first assembling a virtual “supercomputer” to attract regular HPC users to their platform, while
+iEx.ec first focuses on supporting DApps to build a distributed Cloud that eventually will be competitive
+enough to attract Cloud and HPC users.
+Besides, iEx.ec has the following advantages compared with existing and future challengers:
+● Reduced time-to-market as iEx.ec is backed by mature technologies
+● Enterprise oriented features
+● Proof-of-contribution incentives for network growth and optimal usage of the platform
+● Revenue model at each version of the development roadmap
+
+Page 12 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+7. iEx.ec technology overview (Product)
+iEx.ec is a combination of Desktop Grid Computing and Blockchain technologies.
+
+7.1 Background: Desktop Grid Computing
+Desktop Grid (i.e. Volunteer Computing) uses the underutilized computing resources to execute very
+large parallel applications at the fraction of the cost of a traditional supercomputer. Some examples
+include well-known applications like SETI@Home, Folding@home, and distributed.net.
+Desktop Grid Computing includes several features that makes it a good platform for a fully Distributed
+Cloud:
+● resilience: if some nodes fail, the computation continues on other working nodes.
+● efficiency: applications get excellent performances even if computing nodes are highly
+heterogeneous.
+● ease of deployment: allows to use any nodes without specific configuration, even those
+located on the edge of the Internet.
+This makes Desktop Grid the perfect solution for assembling hybrid infrastructures, whose computing
+resources can range from classical high performance computing clusters, Cloud infrastructure providers
+and home personal computers.
+
+Building Distributed Cloud
+Parallel computing
+N-faults resilience
+
+Large Scale Data
+Management
+
+BitDew
+
+MPICH-V
+2000
+
+SpeQuloS
+
+2003
+2001
+
+XtremWeb
+1st Internet P2P Global
+Computing Platform
+Bag-of Task Application
+Multi-users & multiapplications
+
+QoS for Best-effort
+infrastructure
+
+2010
+2012
+
+2008
+
+XtremWeb-HEP
+Grid & Cloud
+Highly secure
+Virtualization
+Hybrid public/private
+Infrastructure
+
+MapReduce
+Big Data
+1st Implementation of
+MapReduce for
+Internet Computing
+
+Tens of users/applications: Finance, HEP, biomedical
+research…
+>1M€ EU FP7, ANR funding, ≈100 papers published
+iEx.ec relies on Desktop Grid open-source software that we have been developed at the CNRS and
+INRIA research institutes to assemble loosely distributed computing resources for HPC and Big Data.
+
+Page 13 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+XtremWeb-HEP (link, GitHub) is a mature, solid, and open-source Desktop Grid software that
+allows to use any kind of computing resources for executing compute-intensive or data-intensive
+applications.
+During the last decade, we have also developed a large portfolio of technologies for distributed
+computing: MPICH-V for parallel computing, BitDew for large scale data management, SpeQuloS for
+providing quality of service to application execution, the first implementation of MapReduce for Internet
+computing, and more. Many of our research results have been published in top scientific conferences
+and journals (>80 papers published) and we successfully raised more than 1M€ of public funding
+including several EU research grants.
+We have obtained a unique expertise in making the Desktop Grid technology running and available to
+various scientific communities as well as startups and innovative industries.
+● From 2007 to 2012, with several European partners, we established the European Desktop
+Grid Infrastructure (EDGI). This considerable effort was supported by the European Union,
+which funded 4 FP7 projects (EDGeS, EDGI, DEGISCO, IDGF). The goal was to provide
+researchers and academics with additional computing power coming from Desktop Grid
+infrastructures. EDGI has been a huge success. We connected a dozen of sites (Hungary,
+France, UK, Spain, Netherlands …) to the main European e-infrastructures, such as the one
+supporting the Large Hadron Collider in Switzerland. We gained a considerable experience in
+connecting Clouds and HPC systems to Desktop Grids as we succeeded in transparently
+executing millions of jobs on more than 200.000 nodes.
+● By showing the applicability of the technology in many fields of science: high energy physics,
+biomedical research, mathematics, financial algorithms, material research, 3-D rendering, and
+more.
+● Of course, we had also many collaborations with the industry (Total, Airbus, IFP …). And more
+recently, we received a funding from the French National Research Industry in order to provide
+innovative SMEs access to low-cost, on-demand and secure HPC services. We conducted
+many interviews with SMEs from the biomedical and eHealth sector to understand their needs
+and requirements and designed MVPs and PoCs. Somehow, the emergence of blockchain was
+the key enabler that triggered our motivation that eventually led to the iEx.ec project.
+The knowledge and experience gained by exploring, inventing and establishing Internet-wide distributed
+computing infrastructures is a crucial part in creating a distributed Cloud for blockchain-based
+distributed applications, while the foundation of already developed technology guarantees a fast
+time to market and timely project completion.
+
+7.2 iEx.ec Infrastructure Sidechain
+iEx.ec relies on the blockchain to coordinate the access of computing resources to distributed
+applications. This approach led to several innovations with respect to classical blockchain technologies
+- in particular, the Proof-of-Contribution consensus protocol and a domain-specific blockchain.
+
+Proof-of-Contribution
+Traditional blockchain such as Bitcoin or Ethereum relies on the Proof-of-Work protocol, which ensures
+that token transactions that happen on the blockchain between participants are validated by a large
+number of nodes using cryptographic challenges. With iEx.ec, a Contribution, i.e. some actions that
+happen out of the blockchain (like providing a data set, transferring a file, performing a computation,
+giving a human expertise) will lead to token transactions between participants. That means that a new
+
+Page 14 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+protocol is needed to prove the fact that contribution actually happened correctly and that the
+corresponding token transactions can take place in the blockchain. We call this kind of consensus
+protocol Proof-of-Contribution. There are several similar protocols [Filecoin, Gridcoin, Fatcom], which
+allow building of a consensus between the blockchain and off-chain resources. For example, Gridcoin
+proposed the Proof-of-Research protocol to reward the volunteers who donated part of their computer
+time to a great scientific computation [BOINC] such as biomedical research (Folding@Home). Proofof-Contribution is designed to be a more universal framework, allowing to validate a greater number of
+actions.
+Special attention must be paid to validation of contributions as some malicious users could fake the
+contributions to claim illegitimate rewards. To prevent this iEx.ec will rely on a decentralized network of
+trusted nodes built using a reputation mechanism [Araujo] and Proof-of-Stake [Peercoin] protocol, and
+a 14-days transaction backward mutability window [Gridcoin] with contribution certification and spotchecking [Sarmenta] to gradually build this network of trusted nodes.
+
+Domain Specific Blockchain
+Ethereum allows for code to be executed on the blockchain using smart contracts - a great advance for
+blockchain technology. However, the DAO attack [HackDistrib] has shown that dealing with smart
+contracts is a complex issue, especially when everyone is allowed to deploy them. To prevent potential
+security issues iEx.ec will follow a more restrictive approach: a Domain Specific Blockchain.
+Domain Specific Blockchain also means that we will adapt the blockchain to meet the requirement of
+distributed infrastructure management. There might be the case where transactions would arrive “en
+masse” (i.e. tasks submissions) or case where low latency (communication/ acknowledgement) is
+required. In this case, relying on sidechain with specific capabilities can allow to process these events.
+
+iEx.ec smart contract: Matchmaking
+A Matchmaking algorithm [Matchmaking] is used in distributed systems to pair a resource request with
+a resource offer according to their description. When designing a distributed Cloud, the Matchmaking
+algorithm is an essential building block in resource provisioning. It basically answers the question: can
+I run this task on this machine? We envision the iEx.ec blockchain to store smart contracts describing
+the computing resources characteristics, such as for example amount of RAM, CPU type, disk space.
+That means that some contracts will describe the requirements for running a task or deploying a VM
+instance (minimum amount of disk space, RAM, GPU runtime requirement, expected hypervisor etc.).
+A Matchmaking contract will do the pairing, possibly implementing different kind of policies.
+Several Matchmaking description languages have been described in scientific articles and implemented
+in software. iEx.ec team plans to design and adapt a simplified version of the well-known and tested
+ClassAd [ClassAds] that powers the CondorHTC distributed system, developed at the University of
+Wisconsin.
+
+iEx.ec smart contract: Multi-criteria scheduling
+In distributed systems, a scheduling algorithm distributes a set of tasks to execute on a set of computing
+resources. The scheduler is a key component of any distributed computing systems, as the performance
+of the application execution mainly depends of its effectiveness. In particular, a challenge is to design
+multi-criteria scheduler, i.e. an algorithm that has several strategies to select the computing resources
+and schedule the tasks. For instance, one customer may want to minimize the price even if the
+computation takes a longer time, while another customer may want the best performances even at a
+higher cost. iEx.ec team has developed an advanced multicriteria scheduler [MulticritSched], which
+
+Page 15 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+allows customer to define their own preferences based on criteria such cost, performance, trust,
+reliability, energy efficiency etc. iEx.ec will adopt a simplified version of this scheduler.
+
+A Market management framework
+There is still no Ethereum framework to manage a market, allowing the users to put offers and demands
+to be stored and updated dynamically. iEx.ec will develop a simple API to register bids and a set of
+template contracts to easily deploy customized markets. iEx.ec will also provide web user interface and
+the JavaScript code that allows interacting with the contracts and easily placing orders.
+
+Result checking on the blockchain
+Result checking is a process that verifies that a result has been correctly computed by an untrusted
+node [Sarmenta], and there exist several approaches to implementing it. However, existing methods
+(replication and voting, spot checking, reputation etc.) have been designed with the assumption that the
+computation were done for free (ignoring the economic perspective). iEx.ec will develop a new result
+checking algorithm that leverages the blockchain and the smart contract features. By this approach,
+users will be able to choose business partners from the market based on their provable reputation and
+on the established budget.
+This will enable for example escrow mechanisms, where payment for the execution will be deferred
+until the result has been certified. This mechanism can also be coupled with a reputation system that is
+stored on the blockchain and enables the platform to run redundant computation only for the less trusted
+nodes, greatly reducing the required resources and price of computing.
+
+Verified File Transfer
+It is likely that commercial content distribution will be one of the biggest functions of the distributed
+applications using the iEx.ec blockchain. This would for example mean customers paying for high value
+data sets (like genetic or financial data) using smart contracts that would give them access to data.
+iEx.ec will guarantee that content provider was actually able to provide the file, and that the file has been
+actually downloaded before processing the payment, protecting the data recipient. iEx.ec also protects
+data providers against malicious downloaders, who could pretend that the file transfer didn't succeed in
+order to reclaim the payment.
+
+Governance
+Because iEx.ec will only authorize signed smart contracts to be deployed on the blockchain, a form of
+governance is necessary to consider - like peer-review, and sometimes revoke the smart contracts. A
+smart contract should include:
+1. A proposition describing the contract, written similarly to RFC standards and
+2. The code of the smart contract associated with the description.
+Eventually, a distributed standardization body will collaboratively evaluate and elaborate the smart
+contract propositions.
+
+7.3 Proof-of-concepts
+To demonstrate the potential of the platform and to show its technical feasibility we have prepared
+several Proof-of-concepts, based on our already developed technology.
+
+Page 16 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+Applications
+There are many commercial and research distributed applications well suited for running on the iEx.ec
+platform, this not only providing lower cost but also highly scalable performance. Here are just a few
+examples that have been integrated in the PoC platform and that can immediately be used:
+●
+●
+●
+●
+●
+●
+
+Video transcoding: Ffmpeg, a complete, cross-platform solution to record, convert and stream
+audio and video.
+Physics Simulation: Guineapigpp, simulation of beam-beam interactions in high energy e+ecolliders.
+Digital signal processing (DSP): University of Westminster.
+Physics Computation (ISDEP): Fusion, solving the dynamics of fusion plasma.
+Audio Analysis: Dart, a framework for Distributed Audio Analysis and Music Information
+Retrieval.
+Optimization Algorithms: BNBSS, different type of deterministic and heuristic optimization
+algorithms for solving global optimization problems.
+
+Blockchain-based Cloud Computing
+Announced at Devcon2, iEx.ec, INRIA and the Stimergy startup in France have collaborated on the
+provisioning of a distributed data-center through a smart contract deployed on the Ethereum blockchain.
+
+Off-chain computations
+In November 2016, within the Supercomputing Conference (Salt Lake City), we have demoed how offchain computations can easily be made thanks to iEx.ec. It only takes minutes to insert an application
+in the iEx.ec application repository. Then end-users can interact with their applications using the
+Metamask front-end - like executing the application, by sending a transaction to its corresponding smart
+contract. After the execution of the application, the result is available directly on the blockchain.
+
+High scalability
+In order to evaluate the scalability of the solution, we have conducted preliminary performance
+evaluation using the Grid5000 research infrastructure in France. Our results are very encouraging, as
+iEx.ec shows excellent performances for a single worker pool that contains up to 3.000 nodes and using
+the DSP applications. Of course, being a distributed Cloud, anyone will be able to deploy its own iEx.ec
+pool.
+
+Page 17 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+7.4 iEx.ec Roadmap
+To achieve our goals we developed the following implementation roadmap according to several funding
+levels.
+
+Go-to-market strategy
+We will develop 5 versions of the product (v1-v5) that correspond to 3 steps in terms of Go-to-Market
+strategy.
+
+1. Community Edition (v1)
+Features to create an open-source software that allows to build the distributed Cloud.
+
+2. Enterprise Edition (v2, v3, v4)
+Features to establish a full Market Network profitable for a wide range of businesses.
+
+3. Research Edition (v5)
+Features to make serious advances that can address wider topics than Cloud computing (IoT,
+Fog/ Edge computing …).
+
+With the minimum funding (2,000 BTC), iEx.ec will deliver an initial market network that allows to
+monetize applications and servers. With a maximum funding (10,000 BTC), iEx.ec will gradually
+develop the market network including data providers and HPC applications, then establish recurrent
+sources of revenue to iEx.ec.
+
+Page 18 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+v1 Essential (Community Edition)
+The Essential version aims to provide DApps running on the Ethereum blockchain an access to offchain computing resources. This is an essential step in blockchain computing as it allows a broader
+range of applications to run on the blockchain. At the moment, the gas mechanism provided by the
+Ethereum blockchain makes the execution of algorithms with computation and/ or memory
+requirements rapidly cost and performance prohibitive. Thanks to the Essential version of iEx.ec, DApps
+will have a simple, secure, and practical way to reach off-chain computing resources to execute their
+applications.
+To this end, the Essential version will provide a smart contract API for Task execution. In our Proof-ofconcept, we have already bridged Ethereum with the XtremWeb-HEP Desktop Grid middleware. The
+bridge monitors the Task smart contract, and when a transaction is detected, it triggers the computation
+on off-chain computing resources. When the computation is over, the result is sent back to the smart
+contract. To avoid a part of the security risks, the infrastructure will only include trusted computing
+resources. Also, in this version no resource payment scheme will be considered yet.
+The Essential version will target an initial number of DApps early adopters. iEx.ec will provide a set of
+scientific applications (see section 7.3), and will provide support for early adopters that want to deploy
+their applications on iEx.ec.
+
+Page 19 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+v2 Market Network (Enterprise Edition)
+In this version we build the Market Network, firstly addressing the Application providers and Server
+providers. We introduce a Pay-per-Task scheme that allows the payment from the Task smart contract
+to the Application and the Server providers. iEx.ec users can access the Market Network to launch
+compute intensive applications in different ways, like: an API, a GUI and a CLI. Application providers
+can decide on a payment scheme through a smart contract API.
+This version will target the classic compute intensive open-source applications with a very large user
+base - particularly 3D rendering (like Blender, Luxrender), biomedical research (like Blast, Autodock),
+mathematics (R) and finance for which we already have significant experience. With respect to Server
+providers, the focus will be on establishing partnerships with infrastructure providers, such as smaller
+Cloud providers, individuals and miners interested in renting their server farms, mining rigs or home
+servers.
+Through its Pay-per-Task scheme, this version opens the first revenue stream through agreements with
+the approved resource providers. This is the very beginning of doing business between providers by
+monetizing their resources. The usage of the iEx.ec computing service will expand, making the business
+within the Network Market to grow.
+
+Page 20 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+v3 Hybrid Public-Private Infrastructure (Enterprise Edition)
+This version includes key features for the enterprises to widely adopt the iEx.ec market network by
+providing them with full control over the private/ public employment of their resources.
+To be well grounded in the needs of industry, in 2014 we designed an MVP (Minimum Viable Product),
+interviewing 20 startup companies from the Lyon Biopole healthcare innovation competitiveness cluster
+to understand how they would interact with a distributed Cloud. Thanks to this study we identified three
+mandatory requirements:
+1. Data must be treated with at least the same importance as computations,
+2. A clear distinction between public/ private access of resources. For example, a private
+resource can only be accessed by the proprietary company or by a restricted set of trusted
+partners. Conversely, a public resource can be handled by any hosts.
+3. Have a clear vision of cost vs. performance when provisioning computing resources.
+At a first glance, designing a system which provides these three features is challenging on fully
+decentralized infrastructures. Fortunately, we already have strong research results and practical
+experience in each of these three areas.
+This version will target Data providers, allowing them to join the Market Network. Moreover, a broader
+range of enterprises will be able to start shipping their applications and DApps through iEx.ec. With this
+version, the market network will allow several direct connections between different resource providers.
+This version strengthens the revenue stream of iEx.ec by allowing new revenue models conceived for
+DApps requiring a higher level of trust and quality-of-service. These applications will benefit from
+dedicated environments using selected resource providers, as well as specific QoS features through a
+performant SLA.
+
+Page 21 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+v4 High Performance Computing (Enterprise Edition)
+This version allows miners to join the iEx.ec market network as Server providers, and provide their
+customers with true supercomputing capabilities.
+At the moment, the mining farms monetize their GPU resources by computing blockchain consensus.
+Through iEx.ec, these providers will gain access to a new market of blockchain-based HPC applications.
+By this, the providers will be offered the opportunity to better exploit their vast amount of computing
+power and extend their businesses.
+For instance, Genesis Mining operates the largest Ethereum mining farms, which are composed of tens
+of thousands GPU cards, all together representing a considerable computing power (>15 PetaFlops).
+For the first time at the Supercomputing Conference (SC16), along with key actors of the domain (JenHsun Huang, CEO of nVIDIA and Marco Streng, CEO of Genesis Mining), we initiated clear synergies
+between HPC and blockchain computing. This iEx.ec version will provide all the technology building
+blocks to make this happen.
+In addition to miners, the iEx.ec HPC version will extend the Application providers pool to GPU-based
+applications. These applications address deep learning, 3D rendering, computational fluid dynamics,
+molecular dynamics, finance, and many more. We’ll put a focus on Deep Learning applications because
+of its incredible fast growing usage, and because actors are already keen on using GPU Cloud
+computing for that.
+This version aims to extend the previously existing revenue models based on the integration of
+advanced enterprise features that bring higher value to providers.
+
+Page 22 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+v5 Beyond the Distributed Cloud (Research Edition)
+The goal of this edition is to allow new usage of iEx.ec beyond the Distributed Cloud. This will be a clear
+step further in Blockchain computing, as DApps will be fully autonomous applications, able to provision
+resources, data, and applications directly from the blockchain in a fully decentralized way. To this end,
+it’s necessary to integrate several software and protocols that are emerging now, or that may be
+developed during course of the project, like devp2p, swarm, uport etc. Combined with a full development
+of the Proof-of-Contribution, this will open new areas in the field of serverless services, directly hosted
+on the blockchain. It will also be necessary to design new consensus protocols able to handle the iEx.ec
+workload. We plan to lead those researches in partnership with recognised research labs in Europe and
+in China.
+This will open the Market Network to new applications specifically deployed on iEx.ec to take advantage
+of the distributed Cloud: IoT, Fog/ Edge computing, Smart City. For instance, a recent study shows that
+telecom companies (AT&T, Verizon, Huawei, Orange ...) can halve their infrastructure costs by
+distributing small data-centers along their network point-of-presence. iEx.ec will be the building block
+for such approaches.
+As the platform increases in complexity, iEx.ec will provide advanced method for deploying iEx.ec ready
+DApps, making it the “Heroku/ Dockker for blockchain computing”. Thus, new revenue stream will be
+gained by offering a hassle free deployment and development platform on top of the Market Network.
+
+Page 23 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+8. Financials
+Revenues
+The revenues will come from different sources:
+● Partnership with resource providers (v2) and application providers (v4)
+● Providing a private mode for applications/ data/ servers (v3)
+● Providing advanced services for DApps (v5)
+
+Costs
+The funding is planned to cover development and operational costs for four years. There will be three
+main sections of operation: development and maintenance of the iEx.ec platform, marketing &
+expansion of the iEx.ec market network and academic collaboration to support the most advanced
+research program in this area.
+The main cost categories are the following:
+iEx.ec team. The largest part of the funding will be dedicated to establishing a world-class team (mainly
+developers and admins). With the maximum financing, we’ll be able to hire 15 persons, up to four years.
+Office and indirect costs includes costs of offices in both France and China, as well as other indirect,
+employment-related costs.
+Marketing and communication activities are mainly focused on building a network of application
+providers, data providers and key computing infrastructure providers (Clouds, Miners). This includes
+two people that will work dedicated with sales and marketing efforts, one towards the traditional industry
+and one towards blockchain based companies.
+Research program will be conducted in collaboration with the most recognized research institutes and
+universities in Europe (INRIA, CNRS, ENS-Lyon, UPMC, University Paris XI) and China (Univ.
+Tsinghua, Chinese Academy of Sciences). Complementary funding will be obtained through national
+(ANR, NSFC) and European (H2020) research agencies.
+Contractors Security audits will be commissioned to independent sub-contractors: Qirinus for platform
+security and S3 Lab for incentives design
+Contingency is 9% of the total budget. (5% for minimum financing).
+
+Page 24 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+Page 25 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+9. Crowdfunding
+The RLC tokens will be used to access the resources provided by the Market Network. It will be the
+unique way of payment for Application providers, Server providers and Data providers.
+Participation to the crowdfunding operation will appear on a dedicated web site
+(http://crowdsale.iex.ec).
+
+Conditions*:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Starting date: April 12, 2017 -- 13:00 GMT
+Ending date: May 12, 2017 -- 13:00 GMT
+Minimum objective amount: 2,000 BTC
+Maximum amount: 10,000 BTC
+Max RLC total supply: 87,000,000 RLC
+Max RLC sold by crowdsale: 60,000,000 RLC
+Founders, team and early investors: 15,000,000 RLC (Max), 12,000,000 RLC (Min)
+Bounties, R&D, developer and marketing: 6,000,000 RLC (Max), 1,700,000 RLC (Min)
+Special contingency reserve: 6,000,000 RLC (Max), 1,700,000 RLC (Min)
+Min objective RLC sold by crowdsale: 12,000,000 RLC
+BTC payment without bonus: 5,000 RLC/BTC
+ETH payment witout bonus: price according to the cyptocompare index ETHBTC EMA12
+Special bonus: 20% for the first 10 days, 10% for the next 10 days
+Terms and conditions URL: http://crowdsale.iex.ec/
+White Paper URL: http://iex.ec/whitepaper
+
+*All conditions can be changed before the crowdsale.
+
+The http://crowdsale.iex.ec web site will allow to acquire RLC tokens.
+ Crowdsale: The number of tokens to be sold during the main sale will be limited to 60,000,000
+RLC, which corresponds to raising 10,000 BTC with a 20% bonus. The RLC price will gradually
+increase during the sale, following this scheme:
+o 20% for first 10 days period: 6,000 RLC/BTC
+o 10% for second 10 days period: 5,500 RLC/BTC
+o 0% for last 10 days period: 5,000 RLC/BTC
+The RLC/ETH price rate will be computed using the EMA12 ETHBTC index by
+cryptocompare and updated at each bonus period.
+
+Page 26 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+
+
+Founders, team and early investors: A minimum amount of 12,000,000 RLC (Min) will be
+created, along with a variable part corresponding to 5% of the crowdsale, capped at 15,000,000
+RLC (Max).
+ Bounties: R&D, developer, marketing. A special purpose fund corresponding to 10% of the
+crowdsale capped at 6,000,000 RLC (Max) will be provisioned for developers in the form of
+bounty grants, marketing actions, research grants to ensure the growth of the network after the
+initial development.
+Special contingency reserve: iEx.ec will keep a reserve corresponding to 10% of the crowdsale,
+capped at 6,000,000 RLC (Max), to ensure the security of the blockchain. Obviously, the reserve will
+not be sold on the markets. Instead, the reserve can be used to recover from low-chance, unexpected
+and extremely serious situation that could endanger the whole project.
+
+Page 27 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+10. Team (full bio)
+Founders
+Gilles Fedak – Computer scientist, CEO
+Dr. habil. Gilles FEDAK has been a permanent INRIA research scientist since 2004
+at ENS-Lyon, France. After receiving his Ph.D degree from University Paris Sud in
+2003, he followed a postdoctoral fellowship at University California San Diego in
+2003-2004. His research interests are in Parallel and Distributed Computing, with
+a particular emphasis on the problematic of using large and loosely coupled
+distributed computing infrastructures to support highly demanding computational
+and data-intensive Science. He produced pioneering software and algorithms in
+the field of Grid and Cloud Computing that allow people to easily harness large parallel systems
+consisting of thousands of machines distributed on the Internet (XtremWeb, MPICH-V, BitDew,
+SpeQulos, Xtrem-MapReduce, Active Data …). He co-authored about 80 peer-reviewed scientific
+papers and won two Best Paper awards. In 2012, G. Fedak co-edits with C. Cérin the Desktop Grid
+Computing Book, (CRC publication). In 2015, he receives the Chinese Academy of Sciences PIFI
+Award.
+
+Haiwu He – Chief Scientist
+Pr. Haiwu HE is a 100 Talent Professor at the CNIC (Computer Network
+Information Center), Chinese Academy of Sciences in Beijing. He is a Chunhui
+Scholar of Ministry of Education of China since 2013. Prof. Haiwu HE received his
+M. Sc. and Ph. D. degrees in computing from the University of Sciences and
+Technologies of Lille, France, respectively in 2002 and 2005. He was a
+postdoctoral researcher at Inria Saclay, France in 2007. He was a research
+engineer expert at Inria Rhone-Alpes in Lyon, France from 2008 to 2014. He has published about 30
+refereed journal and conference papers. His research interest covers P2P distributed system, Cloud
+computing, BigData.
+
+Inventors
+Oleg Lodygensky – Technical Leader
+Dr. Oleg LODYGENSKY is a CNRS senior research engineer at LAL/CNRS,
+located at Paris XI, France. Oleg is the main developer of XtremWeb-HEP, the
+open-source software for Desktop Grid computing used in production at Institute
+for Nuclear and Particle Physics. He introduced many concepts and technical
+innovations to XtremWeb-HEP, including virtualization, bridging with Grid
+infrastructure, volunteer Cloud, data-driven Desktop Grid, security in
+trusted/untrusted environment, user/application/data right management, etc. Oleg Lodygensky has
+been graduated PhD from University Paris XI.
+
+Page 28 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+Mircea Moca – Business Developer, Fintech expert
+Dr. Mircea Moca is Associated Professor at the Babeș-Bolyai University,
+România, where he received his Ph.D. in 2010. He followed a doctoral internship
+in 2010 and a postdoctoral internship in 2012 at INRIA, ENS-Lyon France. His
+research interests are in distributed computing, MapReduce and recently in
+cryptocurrency and blockchain technologies. He participated at the development
+and validation of the MapReduce implementation for Volunteer Computing
+environments. He developed an innovative user-satisfaction and multi-criteria
+scheduler for hybrid distributed computing infrastructures. In the recent years he acquired expertise in
+IT project management. He currently leads the initiative of building and validating eFAST, a distributed
+platform for providing advanced decision support services for small investors on the financial markets.
+
+Core Developers
+Mehdi Amari (Blockchain Developer)
+After practicing coding at Ecole 42 in Paris, Mehdi specialized himself in Blockchain
+system architecture. Then, he has led the development of several Proof of
+Concepts for large companies in Lajavaness, a French digital innovation
+accelerator. He is also actively involved in the development of the Blockchain
+ecosystem.
+
+Hamid Ben (Blockchain Expert)
+Abdelhamid Benyahia is a digital strategist and Blockchain expert at La Javaness.
+After having built his own startup and helping entrepreneurs realise their own
+cutting-edge projects, he now works on applying Blockchain to use cases, doing
+POCs (Proof of Concepts), and strategic analysis for both big corporate companies
+and startups.
+
+José Francisco Saray (Data Management Expert)
+Jose Francisco Sary is a Data management expert in the team. After having
+finished his Master’s degree in University of Lyon, he now works on applying data
+management to use cases, and Bigdata analysis for the institutes and enterprises.
+
+Page 29 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+Heithem Abbes (Energy Positive Server)
+Heithem Habbes is an Assistant Professor in Computer Science at the FST
+(Faculté des sciences de Tunis) and a member of the LaTICE research
+laboratory. His research involves distributed systems, particularly grid and Cloud
+systems. He is working on Green computing as well for Energy positive
+equipements. For this project, Heithem will develop the Energy Positive Server
+that will allow to execute micro-services at a very low cost.
+
+Communication & Public Relation
+Julien Bérenger (Communication & Content)
+Julien Béranger is in charge of the communication and content. He graduated
+in Chinese Studies at the French National Institute of Oriental Languages and
+Civilizations and taught Chinese language for five years. He discovered Bitcoin
+and blockchain techs in April 2013 and worked as a Community Outreach
+Officer for an iOS payment app and a community currency. In June 2014, he
+joined OpenClassrooms marketing team, the leading e-learning platform in
+Europe. He wrote various articles about smart contracts’ design (Bitcoin.fr and
+Ethereum France). He’s also co-founder of Abie Fund, a nonprofit DAO project.
+
+Agnès Fedak (Press, Video & Community Manager)
+Agnès Fedak is involved in the promotion of iEx.ec on social networks. Agnès is
+a video artist, independent editor, video installation designer, documentary and
+scientific filmmaker, cultural and artistic mediator, trainer. Works and creates in
+Brussels and Geneva.
+
+Page 30 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+Acknowledgement
+We thank Vincent Eli for his help on the incentives design of the Proof-of-Contribution.
+
+Page 31 of 31
+THE IEXEC BLOCKCHAIN COMPANY
+
+References
+[BitDew] Fedak, G., He, H., & Cappello, F. (2008, November). BitDew: a programmable environment for largescale data management and distribution. In IEEE International Conference for High Performance Computing,
+Networking, Storage and Analysis. SC 2008 (pp. 1-12).
+[BOINC] ANDERSON, David P. Boinc: A system for public-resource computing and storage. In: Grid Computing,
+2004. Proceedings. Fifth IEEE/ACM International Workshop on. IEEE, 2004. (pp. 4-10).
+[BLAST] He, H., Fedak, G., Tang, B., & Cappello, F. (2009, May). BLAST application with data-aware desktop grid
+middleware. In Proceedings of the 2009 9th IEEE/ACM International Symposium on Cluster Computing and the
+Grid (pp. 284-291). IEEE Computer Society.
+[Cisco] D. Evans, “The internet of things: How the next evolution of the internet is changing everything,” CISCO
+white paper, vol. 1, pp. 14, 2011.
+[ClassAds] Solomon, M. (2003). The ClassAd Language Reference Manual, Version 2.1. Computer Sciences
+Department, University of Wisconsin, Madison, WI, USA.
+[CYCLONE] Adrien Lebre, Anthony Simonet, Anne-Cecile Orgerie. Deploying Distributed Cloud Infrastructures:
+Who and at What Cost? Intercloud 2016, Apr 2016, Berlin, Germany. Proceedings of the fth IEEE International
+Workshop on Cloud Computing Interclouds, Multiclouds, Federations, and Interoperability, 2016,
+http://www.cyclone-project.eu/intercloud2016.html
+[Fatcom] Factom - A Scalable Data Layer for the Blockchain http://fatcom.org
+[FogComputing] https://www.cisco.com/c/dam/en_us/solutions/trends/iot/docs/computing-overview.pdf
+[GridCoin] http://gridcoin.us
+[HackDistrib] http://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/
+[MatchMaking] Raman, R., Livny, M., & Solomon, M. (1998, July). Matchmaking: Distributed resource
+management for high throughput computing. In Proceedings of the IEEE/ACM Seventh International Symposium
+on High Performance Distributed Computing, HPDC 1998 (pp. 140-146).
+[MulticritSched] Mircea Moca, Cristian Litan, Gheorghe Silaghi, Gilles Fedak (2016). Multi-criteria and
+satisfaction oriented scheduling for hybrid distributed computing infrastructures. Future Generation Computer
+Systems, 55, pp. 428-443.
+[Sarmenta] Sarmenta, L. F. (2002). Sabotage-tolerance mechanisms for volunteer computing systems. Future
+Generation Computer Systems, 18(4), 561-572.
+[XtremWeb] Fedak, G., Germain, C., Neri, V., & Cappello, F. (2001). Xtremweb: A generic global computing
+system. In Proceedings. First IEEE/ACM International Symposium on Cluster Computing and the Grid, 2001. (pp.
+582-587), IEEE.
+[XtremWeb-HEP] A Data Driven Volunteer Cloud Middleware, https://xtremweb-hep.lal.in2p3.fr
+
+

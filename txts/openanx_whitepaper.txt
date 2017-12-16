@@ -1,0 +1,970 @@
+White Paper
+openANX – Real World Application of
+Decentralized Exchanges
+V2.3.8
+
+Note to Reader – This white paper was originally written and produced in English. Unless
+otherwise indicated, translations of this white paper into any other language have not
+been fully reviewed by the Open ANX Foundation and accordingly no assurance can be
+made as to the accuracy and completeness of such translations. In all instances, where
+there is a discrepancy or conflict between any such translation and the English version of
+this white paper, the English version shall always prevail.
+
+Table of Contents
+
+1	
+
+INTRODUCTION	..........................................................................................................................	4	
+
+1.1	
+
+Background	...................................................................................................................................................	4	
+
+1.2	
+
+Current Problem	..........................................................................................................................................	4	
+
+1.3	
+
+openANX	.......................................................................................................................................................	5	
+
+2	 CURRENT SECONDARY MARKET STRUCTURES – MOVING FROM CEM TO
+DEM	...........................................................................................................................................................	7	
+2.1	
+
+Historical Centralized Exchange Model (CEM)	.................................................................................	7	
+
+2.2	
+
+Emergence of the Decentralized Exchange Model (DEM)	............................................................	9	
+
+3	
+
+THE OPENANX PLATFORM	.................................................................................................	10	
+
+3.1	
+
+Overview/ Objectives	.............................................................................................................................	10	
+
+3.2	
+
+Market Infrastructure	..............................................................................................................................	11	
+
+3.3	
+
+Credit Risk Markets	..................................................................................................................................	12	
+
+3.4	
+
+Liquidity Aggregation	.............................................................................................................................	13	
+
+3.5	
+
+The openANX User Journey	.................................................................................................................	13	
+
+3.6	
+
+Technology Platform	...............................................................................................................................	14	
+
+4	
+
+THE FOUNDATION AND GOVERNANCE	......................................................................	16	
+
+4.1	
+
+The Dispute Resolution Process	...........................................................................................................	16	
+
+4.2	
+
+OAX Token Sale	........................................................................................................................................	16	
+
+4.3	
+
+Token Allocation and Distribution	......................................................................................................	16	
+
+4.4	
+
+Restriction on the use of the funds	.....................................................................................................	17	
+
+5	
+
+THE OAX TOKEN	......................................................................................................................	18	
+
+5.1	
+
+Uses of OAX Tokens	................................................................................................................................	18	
+
+5.2	
+
+Membership	................................................................................................................................................	18	
+
+6	
+
+THE TEAM	.....................................................................................................................................	20	
+
+7	
+
+CONCLUSION	............................................................................................................................	21	
+
+2
+
+20/06/2017
+
+Abstract
+With improvements in the Ethereum blockchain ecosystem brought about by
+state/payment channel developments and decentralized governance methodologies
+such as boardroom.to, significant functional improvements can be considered to the
+entire Centralized Exchange Model (“CEM”). Key to this concept is the deployment of
+a new decentralized exchange platform that allows transparency for end users, holds
+collateral for participating gateways and provides a predetermined channel for dispute
+resolution. Current centralized exchanges are opaque, closed systems with limited
+visibility of security and access protocols, while the first generation of decentralized
+exchanges fail to adequately provide liquidity and trade volume for users. This white
+paper provides the pathway to a new, significantly improved platform governed by a
+decentralized autonomous organization (“DAO”), which in turn shall be developed by
+the Open ANX Foundation (the “Foundation”), a non-profit foundation. Furthermore,
+we shall explore the importance of governance and transparency required of any
+exchange system in order for it to be effective. The paper will provide an outline of the
+openANX project (“openANX” or the “Project”), milestones in the development, and
+delve into the requirements needed to ensure that the project avoids the pitfalls of
+previous decentralized exchange developments.
+Key Words: Blockchain, Raiden, 0x, ANX, decentralized, openANX, OAX, exchange,
+cryptocurrency exchange, cryptocurrency
+Authors: Hugh Madden, David Tee, Lionello Lunesu & Liam Bussell
+Editorial: Kathy Kok, Dave Chapman, Ken Lo, Zane Tackett & Tiarnan Lynch
+Design: William Chiu, Ash Lam & Richard Wu
+
+3
+
+20/06/2017
+
+1 Introduction
+1.1
+
+Background
+
+In regard to cryptocurrencies (“crypto”), the prevailing general reference to “centralized
+exchanges” is arguably misleading and inaccurate as there is no transfer of legal
+ownership or title taking place when participants (i.e. account holders) act to buy or sell
+crypto on an exchange. There is also no record of the participants’ actions on the
+blockchain and there is no back office settlement between the participants. Rather, for
+example, when selling a Bitcoin that was previously deposited in an account with an
+exchange, the seller has operationally and economically traded a “Bitcoin IOU” issued by
+the exchange for a “fiat IOU” issued by the same exchange, and the transaction is
+recorded internally in the exchange’s accounting ledger. Existing “centralized exchanges”
+in a sense are not exchanges at all.
+With current centralized exchanges, users hold fiat IOUs and Bitcoin IOUs issued by the
+exchange in the form of their account balances and do not have actual possession of the
+underlying assets. Depending on the terms and conditions of the exchange and whether it
+operates segregated accounts, in some instances the Bitcoin IOU is not even for a claim
+on a Bitcoin but rather for the fiat value of the Bitcoin in a liquidation; and as previously
+experienced the exchange may not even have the Bitcoin on hand to settle all of the
+outstanding Bitcoin IOUs that it has effectively issued to account holders.
+
+1.2
+
+Current Problem
+
+The counterparty credit risk of these IOUs is the crux of the problem with unregulated
+centralized exchanges. The lack of operational and financial data prevents the users from
+being able to properly assess and evaluate the counterparty risk and more importantly to
+appropriately price this assumed risk. As it has been shown time and time again, in black
+swan events, debt defaults, bankruptcies, etc., when there is a lack of information and
+transparency, market participants tend to significantly underprice the risks they are taking
+on and therefore do not make optimal decisions and are not being adequately
+compensated for those suboptimal decisions. On the other hand, in return for assuming
+these risks, these exchanges provide valuable functions to users – they provide a platform
+for price discovery, varying degrees of liquidity and a means for the exchange of
+economic exposure. Participants also avail themselves to a number of critical and practical
+services – they are able to transact in fiat, store fiat and crypto with varying degrees of
+security, execute foreign exchange transactions, send fiat remittances, resolve disputes,
+access help desks, make withdrawals or purchases via debit cards, comply with AML/KYC
+requirements, etc. And while these services are critical to a functioning exchange
+ecosystem, it is likely that participants are paying too high an implied economic price for
+these services as they have underpriced the counterparty risk of the IOUs they have
+assumed due to lack of financial and operational transparency.
+Beginning in 2016 and accelerating through 2017, there have been an increase in the
+number of initiatives to launch “decentralized exchanges” with the primary and oftentimes
+sole objective of eliminating the counterparty credit risk exposure participants assume with
+a centralized exchange. The premise of many of these initiatives is that through the use of
+4
+
+20/06/2017
+
+smart contracts, participants are able to maintain possession of tokens and by being able
+to transact via the smart contracts, counterparty credit risk is eliminated – and this is true
+for the trading of crypto pairs. But the experience of the decentralized exchanges that
+have been launched to date is that there is a significant lack of activity and liquidity on
+these platforms as not everyone is desirous, or is able, to trade only crypto pairs – these
+exchanges do not work for the general population. In the utopian quest of eliminating
+counterparty credit risk, what has been ignored and shunted aside is the critical and
+practical services provided by centralized exchanges that are needed for a functioning
+exchange system. A functioning exchange system is a microcosm of an economy, and as
+all economies are networks1 the value of that network is an exponential function of the
+number of connected users2. As network externalities are critical for all networks to be
+functional and of value, decentralized exchange initiatives that limit or ignore the nontrading functionalities and ancillary services otherwise provided by centralized exchanges
+are doomed for failure.
+
+1.3
+
+openANX
+
+The openANX platform will take advantage of technical developments on the Ethereum
+blockchain such as payment channels (Raiden3, 0x, Swap, ERC204) and utilize them to
+overcome the challenges faced by the current CEM. It will co-opt the strengths of the
+existing model to improve the existent decentralized exchange attempts by linking existing
+exchange platforms (“Asset Gateways”) to the openANX platform and enforcing a
+collateralized deposit system that will provide users with a way to measure risk. It will also
+provide an off-chain, dispute resolution system to enhance much needed consumer
+protection.
+By utilizing the latest technological advances and a peer-reviewed and implemented open
+source code, the openANX platform will integrate the strengths of the existing CEM model
+with the best functionality and features of the decentralized model while circumventing or
+mitigating the shortcomings of both systems.
+In addition, by being open sourced, the project will be transparent and subject to scrutiny
+and input from users and the wider community. In lieu of a centralized authority
+(government or regulator) the only way to enforce transparency is to write it into the
+blockchain itself.
+The initiative will offer gateway services and bridging to secondary, decentralized markets
+(exchange services) for Ethereum ERC20 tokens. These Ethereum tokens can be in the
+form of native Ethereum tokens (such as tokens for other DAOs), or tokenized
+representations of off-blockchain assets.
+
+1
+
+Economides, N. – Stern, NYU – “The Economics of Networks” http://bit.ly/2b3Puok
+Hendler, J. Golbeck, J. – University of Maryland – “Metcalfe’s Law, the Web 2.0 and the Semantic Web”
+http://bit.ly/2qF8kKJ
+3
+“What is Raiden?” http://raiden.network/
+4
+“ERC Token Standard: GitHub” https://github.com/ethereum/EIPs/issues/20
+2
+
+5
+
+20/06/2017
+
+The key deliverables of openANX are to:
+• Migrate existing exchanges to the role of collateralized Asset Gateways, bridging
+fiat to tokens in a collateralized, transparent manner
+• Provide credit risk trading to allow price discovery and a market “voice” of
+gateway creditworthiness
+• Provide dispute resolution to access collateral in the event of disputes
+• Aggregate order books using ANX International’s (“ANX”) proprietary
+“aggregation liquidity IP”, and merging the liquidity of participating Asset
+Gateways
+• Complement the wave of “token only” decentralized matching engine projects
+which otherwise would not have fiat support, and hence further increase liquidity,
+and accessibility for the general public
+• Both order book and Peer-to-Peer (“P2P”) Over the Counter (“OTC”) order
+matching
+• Migrate ANX International’s existing user base to the new platform, ensuring a
+critical mass of initial users; and then growing a consortium of new and existing
+exchanges committed to migrating to the openANX model
+Note that P2P OTC is also a feature of openANX which will allow users to trade directly
+via a quick and negotiable private channel, which is an additional option to the traditional
+order book paradigm.
+Through the establishment of the Open ANX Foundation, ANX has undertaken the initial
+launch of the project, and will contribute the use of any held relevant software IP (such as
+order matching and cross book shortest path protocols).
+Finally, it should be noted this should not be considered as an “ANX” project. The source
+code is open source, the Foundation is non-profit, and most importantly all existing and
+new exchanges are encouraged to join. openANX is completely open in every sense of
+the word, and the system is designed to be self-governed by its community of users.
+
+6
+
+20/06/2017
+
+2 Current Secondary Market Structures – Moving from CEM
+to DEM
+2.1
+
+Historical Centralized Exchange Model (CEM)
+
+The current paradigm of the CEM began with Mt. Gox5, and has developed and matured
+to reach the status quo. The CEM allows companies to provide services for users to
+buy/sell tokens, or exchange them for other assets through a central gateway platform for
+a fee. Proceeds from these activities ensure the service provider in return offers customer
+support, security and a suite of product offerings. The strengths of the system have
+developed over time to coalesce around banking relationships (the ability to turn BTC or
+ETH into cash) and providing liquidity. However, with repeated security breaches in
+various exchanges and poor management, public’s faith in the CEM system is increasingly
+waning. The fundamental question is one of trust – without an effective way to measure
+risk, users tend to under-price its potential.
+However, there are deeper underlying issues other than security concerns and lack of trust.
+First among these is a lack of a mature infrastructure, and a system skewed in its design to
+reward “early adopters”, be it an exchange, an information site or other service provider.
+This makes it difficult for interested new entrants to gain access to information which would
+allow them to objectively assess risk and engage in digital token trading reliably.
+Secondly, and equally important, is the reputational issue6. While much of the popularity
+of digital tokens are due to their decentralized nature, this fragmentation exacerbates
+many of the CEM’s inherent flaws, such as the lack of regulation and transparency,
+security risks, possible overextension of asset classes, and an opacity regarding
+creditworthiness and credit risk for token holders dealing with these exchanges. These
+shortcomings are major obstacles in the next development and widespread adoption of
+the digital token class as a whole.
+In summary, centralized exchanges provide valuable services by acting as asset gateways.
+They allow the offering of multiple levels of market activities that cannot be matched by
+decentralized exchanges. However, these strengths are offset by a number of significant
+weaknesses, including the possibility of substantial financial loss, as well as the
+reputational damage to the digital tokens ecosystem. Each failure, be it Bitfinex7 or others,
+impact all users indirectly and reduced the valuation of the market as a whole8, by
+damaging the credibility of digital tokens as a reliable medium of exchange.
+The key weaknesses in CEM stem from:
+1. Custody of customer digital tokens (private keys)
+2. Corresponding credit risk to customers upon security or fraud incidents
+3. Lack of consumer protection and avenues for dispute resolution
+4. Lack of transparency of finances to allow customers to assess credit risk
+5
+6
+7
+8
+
+Mt. Gox Overview- https://en.wikipedia.org/wiki/Mt._Gox
+Department of Homeland Security – “Cryptocurrencies” - http://bit.ly/2q4Dvwm
+Coindesk – “Bitfinex Bitcoin Hack – What We Know and Don’t Know” - http://bit.ly/2aUYzP8
+“Baker, J. - Bitcoin Market collapses after hack” - http://bit.ly/2q0yBTg
+7
+
+20/06/2017
+
+5. Opaque closed source code and centralized data stores
+1. Each develops their own exchange, deposit, withdrawal and security
+software; these are typically not open source (with no or limited audits)
+2. Metrics and order data within centralised exchanges are not visible to
+customers, it is unclear to market participants if the reported data is true
+and complete
+6. Fragmented liquidity as the proliferation of exchanges results in separate trading
+pools
+If we look at the list of the most widely used exchanges9, we find that the virtue of market
+dominance is driven by aggregation and accretion over time, the clear majority of trade
+volume is handled by a small number of players.
+Currently, most transactions run through approximately 20 centralized exchanges, with
+the majority running through 8, namely:
+
+Of the top 8, a significant number have suffered from hacks. In fact, with total losses in
+excess of $1.7 Billion USD, over 2% of all digital assets have been stolen, the majority
+from centralized exchanges. The common assumption that the larger players should be
+more resistant to these malicious hacks due to having greater resources and better security
+has been disproven. In addition, the idea that if an exchange keeps a low profile and
+attempts to tread a “middle path” it may avoid attracting the attention has also been
+proven false.
+
+9
+
+Cryptocoin Charts - https://www.cryptocoincharts.info/markets/info
+8
+
+20/06/2017
+
+2.2
+
+Emergence of the Decentralized Exchange Model (DEM)
+
+The shortcomings of centralized exchanges have seen a number of decentralized
+exchanges emerge. These largely fit into two categories; those that handle native fiat
+currencies, and those that handle only pure digital tokens.
+A number of pure decentralized digital token exchanges and protocols are starting to
+appear, notably on-blockchain markets such cryptoderivatives.market, and off-blockchain
+protocols such as 0x and RAIDEN for single blockchain token trading.
+For cross blockchain exchange, the emergence of the Lightning network for cross
+blockchain atomic swaps is promising.
+These initiatives are becoming broadly accepted by the industry as the likely future of pure
+native digital currency token trading. Each has benefits and disadvantages, but all lack
+fiat currency bridging, which is needed to bring mass market adoption of decentralized
+exchange technology.
+The closest fiat currency solution for these exchanges are modelled along the lines of
+Tether, where each tokenized unit of currency is reportedly held in custody. There is
+however some level of industry unease with regards to the transparency of data, and
+consumer protection with these types of solutions. Regardless of industry perception, there
+is clearly a degree of credit risk for customers of Tether style solutions, with entity, banking,
+and perhaps sovereign risks with little recourse.
+The lack of convenient and safe fiat currency bridging almost certainly contributes to the
+lack of liquidity in pure digital token exchanges, in comparison to the incumbent
+centralized exchanges.
+The other category of decentralized exchanges focus on the fiat currency problem.
+Various platforms such BitSquare have emerged which support fiat currency and digital
+token transactions; however, these exchanges have not managed to gain the critical levels
+of liquidity and trade volumes to supplant the centralised exchanges. The need to perform
+fiat settlements on a one to one basis to transactions is one reason for this. Highly liquid
+markets require the presence of market makers and arbitrage traders. These market
+participants require the ability to trade frequently, with a much higher frequency than that
+supported by trades linked to legacy financial services payment latencies.
+The challenge then, is to solve the centralization problem while avoiding the pitfalls of
+existing, decentralized exchanges, such as low liquidity and a lack of choice when it
+comes to ancillary services such as Asset Gateway’s and off-chain assets.
+
+9
+
+20/06/2017
+
+3 The openANX Platform
+3.1
+
+Overview/ Objectives
+
+The openANX project is different from pure decentralized exchange initiatives as it
+recognizes that non-trading ancillary services are required for attracting the critical mass
+of users required for a functional ecosystem network. Central to openANX is the
+integration of emerging decentralized exchange protocols to a mechanism that provides
+transparency as to the counterparty credit quality of service provider participants (i.e.
+Asset Gateways).
+While price discovery and trading transaction execution can be achieved through smart
+contracts, the practical reality is not all trading exchange functionalities can be
+decentralized. These services are required in order for an exchange to achieve critical
+mass the next best solution is to provide the means for appropriate risk assessment of
+these Asset Gateways. By making available risk assessment indicators (including but not
+limited to the posting of collateral, membership levels, verified identification information,
+and other records onto the blockchain) and formalizing defined dispute resolution
+mechanisms (also inserted onto the blockchain), participants are provided with transparent
+access to important information needed to evaluate the credit quality of Asset Gateways.
+Importantly, unlike with the centralized model, the Asset Gateway never holds crypto-keys
+to both assets – for example with a fiat gateway, the gateway only holds fiat currency in
+any transaction scenario; the user retains crypto custody, significantly reducing user risk.
+Participants are therefore able to make optimal decisions with regards to not only trading
+prices but also the counterparty risk they are willing to assume for non-crypto pair trading.
+These features of openANX enable the execution of more than just crypto pair trading
+and will therefore attract trading participants to drive volume, price efficiency and liquidity,
+which in turn draws other market participants who provide additional useful functions to
+the network economy. These would include not only existing centralized exchanges who
+bring their existing transaction volume, but also other participants such as rating agencies
+who evaluate Asset Gateway creditworthiness and credit risk arbitrage traders who
+effectively provide market pricing.
+Open source, decentralized, transparently governed exchanges will eventually dominate
+the crypto currency market. With the increasing maturity of the Ethereum Network, Raiden
+and governance frameworks such as boardroom.to, that vision is increasingly viable.
+openANX, aims to create a truly open source and decentralized platform that uses a
+hybrid model to integrate the key strengths of the existing CEM with key enhancements
+such as credit risk assessment, structured dispute resolution and a collateralized deposit
+system to empower users, providers and third parties to properly evaluate the uncertainty
+that has long been a part of the marketplace.
+
+10
+
+20/06/2017
+
+3.2
+
+Market Infrastructure
+
+The openANX platform will consist of the following market participants:
+•
+•
+•
+•
+•
+•
+
+Exchange users
+Asset Gateways
+Order book sponsors
+KYC/AML services
+Dispute referees
+Voting members
+
+Exchange users are users who wish to participate in the exchange, using the services for
+native token trading or for real world asset trading. Exchange users of real world assets
+will require a relationship with an Asset Gateway. In most jurisdictions, Asset Gateways
+are obliged to perform KYC10 and AML in order to operate legally and maintain the
+necessary relationships with financial services suppliers such as banks.
+Asset Gateways take into custody real world assets such as EUR or USD fiat and in turn
+mint ERC20 tokens onto the blockchain. Note that these tokens are not “generic” USD
+tokens, rather the tokens are specific to the issuing gateway, for example ANX may issue
+ANXUSD tokens.
+Before receipt of funds and issuance of tokens, most Asset Gateways will first request a
+KYC/AML service be performed on any user receiving these real-world assets. This is done
+by the nomination of a KYC service smart contract address as part of the Asset Gateway
+registration.
+When a user establishes a relationship with a gateway, the gateway will first direct them
+to one or more KYC services. The KYC service will provide a KYC rating, which is
+registered into the openANX DAO. Note that no physical documents or other materials
+are stored on the blockchain, merely an Ethereum address. The KYC service will stipulate
+a KYC level, and validity date range through the KYC API.
+Once a user has satisfied the KYC requirements, the gateway can release the token to the
+user. Gateway tokens generally require one of the following:
+•
+•
+
+•
+
+No KYC at all (tokens can be transferred to or from any valid Ethereum address)
+Boundary KYC (tokens can only be minted to, and redeemed from, KYC’d
+addresses, however minted tokens can be freely transferred between addresses),
+or
+Full KYC (tokens can only be minted to, redeemed from, transferred amongst, and
+exchanged with addresses that maintain the stated KYC service approval)
+
+Asset Gateways will be afforded varying KYC parameters according to their requirements.
+Many Asset Gateways are expected to register and supply their own KYC service
+
+10
+
+“Global Cryptocurrency Benchmarking Study – Cambridge University Centre for Alternative Finance http://bit.ly/2q1WmtY
+11
+
+20/06/2017
+
+implementation, as in some jurisdictions it is difficult or undesirable to outsource KYC to a
+third party.
+Where outsourced KYC is possible, significant economies of scale are expected with Asset
+Gateways sharing KYC/AML service providers.
+When Asset Gateways register for service, they will stipulate the KYC smart contract, KYC
+level, and token operational rules as per above. They will also pledge native Ethereum
+collateral onto the blockchain, which will be time locked by the openANX DAO. This
+collateral serves to protect consumers; it can be released as the resolution of dispute
+resolution, to users of the gateway in the event of a credit event.
+In the future, the time locked collateral could generate fees through powering state
+channels or staking; however, this is purely speculative at the current time.
+With the availability of transparent, locked collateral, and transparent token issuance,
+users can form quantifiable views on the creditworthiness of Asset Gateways. Note that
+the existing best practices are still recommended, i.e. Asset Gateways should hold
+customer funds in custody, in a non-fractional, audited manner. It does, however, offer a
+concrete and quantifiable means for users to price the credit risk.
+
+3.3
+
+Credit Risk Markets
+
+Pricing of credit risk is a key activity in any normal financial marketplace11. In large
+institutional trading desks, each deal is broken up into smaller internal constituent deals;
+which some trading desks focus on pricing the market risk of some assets, whilst other
+trading desk focus on the credit risk. The profitability of a deal is then attributed to the
+credit and market risk desks individually.
+The ability to trade credit risk is notably missing from current crypto markets12. openANX
+will support “Credit Risk” order books. In this manner, an ANXUSD token can be traded
+against another gateway’s tokens (say perhaps AcmeUSD). For example, ANX may have
+a strong public brand, and high levels of collateral locked up in the DAO relative to issue
+tokens, whilst Acme has an unknown brand and low levels of collateral. The
+ANXUSD/AcmeUSD order book allows these two tokens to be traded against the other,
+forming the basis for a credit risk trading market within the crypto marketplace. The
+pricing of these credit risks further provides users with another objective measure of
+counterparty risk.
+Order books are opened by the DAO on the request of a sponsoring user. Often the
+Asset Gateway itself will sponsor an order book for its tokens, for example the ANX
+gateway would open an ETH/ANXUSD order book.
+With the ability of Asset Gateways to register their tokens and sponsor their own order
+books, the barriers to entry for gateway operators will be significantly lowered. The
+11
+12
+
+Kao, D. – CFA Institute - “Pricing Credit Risk” - http://cfa.is/2q3cFVH
+Ghosh, R. - Carey Business School – “Bitcoin or Ethereum? The Million Dollar Question” - http://econ.st/2qYXq06
+12
+
+20/06/2017
+
+introduction of openANX should see many new gateway operators entering the market,
+with varying levels of credit quality and jurisdictional/asset support. These new players
+will help power the mass adoption of cryptocurrencies into the wider (non-crypto)
+community, as by utilizing open source “best practice” systems of openANX, they will
+provide greater competition and ease of access for users.
+Credit risk order books, trading gateway tokens against each other, will greatly improve
+price discovery to the market.
+This situation by itself is better than the current landscape of centralized exchanges, as
+there will be greater competition and choice for users, with more transparent credit risk,
+and collateral pledged on the blockchain to provide a safety net in the event of a credit
+risk event or dispute.
+
+3.4
+
+Liquidity Aggregation
+
+It can be argued however that the biggest hurdle to entry for new exchanges is liquidity.
+Liquidity refers to the amount of traded assets available on the order books of an
+exchange. A highly liquid exchange could allow a large deal to instantly trade, whilst
+barely impacting the price. Liquidity has a strong network effect, as soon as one exchange
+or venue becomes the largest in terms of liquidity, it quickly attracts more liquidity until
+other exchanges cannot compete. This has arguably resulted in a small group of
+centralized crypto exchanges dominating the market place for a period of time, until such
+time as a legal, security, or credit event halts operations.
+The openANX platform overcomes this issue through the application of order book
+aggregation, coupled with credit risk trading books.
+Consider the situation where there are three order books:
+1. ETH/ANXUSD
+2. ETH/ACMEUSD
+3. ANXUSD/ACMEUSD
+By themselves order books 1 and 2 reflect individual fragmented pools of liquidity.
+If there is an active credit risk order (i.e. book 3), matching logic call match trades by
+combining the three order books into a single order book with simple graph.
+In this fashion, an active credit risk order book can transform small individual exchange
+pools of liquidity into a single large order book. This approach may at last bring about the
+liquidity network effect to turn a decentralized, open exchange into the dominant source
+of exchange liquidity.
+
+3.5
+
+The openANX User Journey
+13
+
+20/06/2017
+
+Users on openANX who are seeking to on-board fiat currency to the blockchain will
+initially require the services of an asset gateway. The availability of public credit risk and
+collateral metrics should assist users selecting an appropriate gateway.
+The user can be expected to register through online services specific to each gateway,
+similar to the current situation with centralized exchanges.
+Gateways in most jurisdictions will require some level of KYC and AML; the user will then
+be directed to such a service, either within the Asset Gateway, or to an external service
+provider if the Asset Gateway utilizes a third party.
+Upon KYC/AML approval (if required by the Asset Gateway) the user may use the
+payment methods supported by the Asset Gateway to deposit funds. The Asset Gateway
+will then mint its own specific (at least partially collateralized) ERC20 tokens.
+The user will then have the option of trading through a decentralized user interface
+provided by openANX (i.e. a Mist or Coinbase Token application) or trading their freshly
+minted token directly with any of the available ERC20 decentralised exchanges.
+It is expected that the user will typically use the openANX trading interface, as the order
+book aggregation across multiple asset gateway tokens will allow access to a more liquid
+pool for the conversion of the token into ETH or other major cryptocurrencies available on
+the platform.
+Eventually the asset gateway token holder can be expected to off-board their tokens back
+to real world assets. This is conducted by redeeming the token to the asset gateway
+through the openANX user interface, at which point they would be contacted by their
+asset gateway.
+
+3.6
+
+Technology Platform
+14
+
+20/06/2017
+
+The technology platform to be delivered by openANX is as follows:
+• A specification of the market operating model as described in the previous section
+• Ethereum smart contracts to govern and operate the market as specified
+• Integration with one or more exchange channels (notably Swap, Raiden, or 0x) to
+support matching
+• API for each off-chain intersection with gateway functions, trading, KYC, order
+book registration, dispute resolution, DAO governance and upgrade of services or
+the platform
+• A standard, reference implementation user interface to allow account management
+and trading (it is expected the community will also provide additional user
+interface implementations as the platform is entirely open)
+Further details on the prospective technical aspects of the project and their future
+development, refer to the “openANX Technical Whitepaper”.
+
+15
+
+20/06/2017
+
+4 The Foundation and Governance13
+As a company limited by guarantee established in Hong Kong, the Foundation's primary
+objective is to promote the real world application of the openANX platform. It also aims to
+initially develop the openANX platform and advocate governance and transparency for
+the platform. The Foundation will establish an association consisting of members of the
+openANX ecosystem, which will be empowered to determine the direction of functionality
+and improvement to the openANX platform and associated ecosystem.
+4.1
+The Dispute Resolution Process
+The Foundation will specify a dispute resolution process, utilizing an internationally
+accepted dispute resolution system. A rotating board of dispute referees will monitor
+disputes through the resolution process, and oversee collateral release to plaintiffs. Note
+that this board of dispute referees is not the dispute resolution process specifically; rather
+it is the mechanism through which dispute resolutions can be enacted through the release
+of collateral on the blockchain.
+4.2
+
+OAX Token Sale
+
+The Foundation will fund the development of the openANX decentralized exchange
+discussed in this paper through the issuance of OAX tokens. These tokens will run natively
+on the Ethereum blockchain and will be offered to backers of the openANX project via a
+token sale. The token sale will be launched on or about the 22nd June 2017. A second
+token sale will take place once the initial prototype has been developed and tested to
+fund its deployment. For more information on the OAX token, see Section 5.1 –
+Membership.
+
+4.3
+
+Token Allocation and Distribution
+
+The supply of OAX is limited to the number of one hundred million (100,000,000) in total
+(including those available for sale during the Token Sale) and will be generated upon the
+launch (“Token Launch”).
+The tokens will be distributed in the following manner:
+80% (30/30/20) of the tokens will be eventually allocated amongst the community; the
+remaining 20% will be allocated to the Foundation initiator, early backers, and the
+development team.
+
+13
+
+Renz, D. - “Nonprofit Governance and the Work of The Board” - http://bit.ly/18RHS36
+16
+
+20/06/2017
+
+OAX Token distribution model
+Channels
+
+Percentage
+
+Locked up period
+
+30,000,000 OAX 30%
+Open Token Sale
+(OTS)
+
+Token Sale – Launch 22nd June 2017
+
+30,000,000OAX
+Additional Token
+Sale (ATS)
+
+30%
+
+Additional Token Sale
+
+20,000,000
+Retained by the
+Foundation as
+Treasury
+
+20%
+
+20,000,000
+Advisors,
+Directors and
+Early Backers
+
+20%
+
+4.4
+
+The initial funding will be used to develop a working prototype,
+financial setup, legal fees and promotion.
+
+On the release of a successful prototype, a second token sale
+will be launched to fund the full production ready launch and
+development of all relevant technology and organization
+matters.
+
+100% of which locked for 24 months
+Strategic Planning, Project Support, Token Swap, Emergency
+Fund, Development & Legal Fees - These will be subject to a 2year lock-up. Subsequent to the lock-up, these will be used for
+various development and operation costs of openANX over 2
+further years.
+
+70% of which locked for 12 months
+30% of which locked for 24 months
+Distributed to the directors, advisors, and early backers of the
+project.
+
+Restriction on the use of the funds
+
+To remain in line with the spirit of the project’s open and transparent philosophy, all funds
+shall be tracked and reported according to the Foundation’s guidelines. A custodian will
+monitor the usage of the digital tokens and share it with the community periodically.
+1. Financial planning and reporting
+◦ The Foundation shall develop financial planning and review financial
+performance of the previous quarter.
+2. Digital tokens management
+◦ The digital tokens belonging to the Foundation shall be managed by authorized
+personnel. The security of digital tokens is ensured by multi signature
+technology.
+3. Digital wallet protocol
+◦ The Foundation’s digital wallet shall be protected by a multiple signature
+technology mechanism.
+4. Disclosure
+◦ On a regular basis, the Foundation shall disclose on the topics regarding
+community matters, including status of development, operations, and the usage
+of tokens, as well as whether the Foundation operates in accordance with the
+governance policy.
+
+17
+
+20/06/2017
+
+5 The OAX Token
+The OAX token (OAX) is a native Ethereum divisible digital token with up to 18 decimal
+places. The total number of OAX tokens to be issued is 100,000,000. For details of the
+distribution of these tokens, see Section 4.3 - Token Allocation & Distribution.
+
+5.1
+
+Uses of OAX Tokens
+
+OAX is a token that can be exchanged for memberships in the DAO and/or its association.
+Members will be entitled to certain privileges, including but not limited to voting privileges
+on major operational decisions relating to the openANX platform. Members are not
+entitled to any economic rights of the Foundation at any time and Memberships do not
+entitle the holder to any distribution of profits nor any claim on any assets. Memberships
+are not provided with any right of redemption although memberships are transferable.
+Any tokens exchanged for memberships shall be destroyed. In addition, to the extent that
+excess funds are generated by the openANX platform from transaction and other fees, a
+RNG algorithmic process will be initiated by the openANX platform to expend such excess
+funds to acquire OAX which may be trading on secondary markets. Such acquired OAX
+shall be destroyed. As there is no inflation of the number of OAX the cumulative effect of
+these two processes is that as activity on openANX increases, the supply of OAX will
+decrease.
+While it is a core belief that the openANX platform be open to all, users will only be able
+to influence policy through voting privileges, which will be conveyed through
+Memberships and OAX tokens form the method whereby users gain access to
+Memberships. If users wish to gain access to voting privileges, or become a third-party
+service provider including but not limited to the following areas; KYC, Asset Gateway, or
+other service, some form of Membership will be required.
+
+5.2
+
+Membership
+
+Membership provides the holder with access to the openANX platform, and may convey
+voting privileges and other benefits as outlined below. The memberships will work through
+a tiered structure that allow for simple access, voting privileges or commercial (read:
+business) solicitation of services on the platform (e.g. escrow, legal, exchange, credit,
+asset gateway) with the relative number of tokens required for redemption varying with
+the level of benefits.
+Token holders who apply for and receive Memberships will submit the tokens alongside
+the application and upon acceptance, the submitted tokens shall be destroyed. This
+process will cause a reduction in the size of the OAX token pool (deflation) over time.
+
+18
+
+20/06/2017
+
+Membership Scale (in order of relative number of OAX tokens required for exchange)
+
+Participant Member
+
+TBC
+
+Voting Member
+
+TBC
+
+Founding Member
+
+TBC
+
+Third Party Service Provider Member
+
+TBC
+
+Asset Gateway Member
+
+TBC
+
+Participant Membership – Participant members include, amongst others, wholesale and
+retail traders who desire to access the openANX platform for transaction purposes. A
+Participant Membership is the basic level of Membership.
+Voting Membership - A voting member shall have the privilege to vote on decisions
+regarding the openANX platform. These votes shall be determined via the Foundation’s
+terms and shall be communicated to the Membership through the Foundation’s website
+(www.openanx.org) and via social media and online channels.
+Founding Membership - A founding member shall have all the privileges of a voting
+member. In addition, a founding member shall have the right to suggest topics for
+upcoming discussions.
+Third Party Service Provider Membership - Third party members will be entitled to provide
+services within the ecosystem. They will include: KYC service providers, trading system
+providers, legal or smart contract vendors or other services as yet undetermined.
+Asset Gateway Membership – An Asset Gateway member gains all the privileges of a
+Third-Party Member and in addition, is granted the right to offer their services as a
+provider of token-to-fiat currency, multicurrency exchange, or token-to-token exchange.
+
+19
+
+20/06/2017
+
+6
+
+The Team
+
+The project team of openANX encompasses a group of highly experienced innovators
+who are passionate about crypto and its future, as well as some of the industry’s brightest
+legal and business minds. Full details on www.openanx.org.
+
+20
+
+20/06/2017
+
+7
+
+Conclusion
+
+The current market system of centralized exchanges and decentralized platforms is
+inherently flawed. While both have their relative merits, the weaknesses of both
+approaches limit their potential to service the rapidly developing crypto market and are a
+hindrance to widespread adoption of crypto. What is needed is an evolutionary system,
+one that combines the relative merits of both approaches, is open, transparent and uses a
+decentralized structure of governance that is written directly to the blockchain. Such a
+system would use a system of collateral to provide measured security and safety of funds
+for all users, while providing transparency for all parties. By providing a clear method of
+evaluating risk, it would open new markets for both credit and services that would benefit
+the community.
+
+21
+
+20/06/2017
+
+Glossary
+1. Altcoin: Altcoins are cryptos other than Bitcoin. Common altcoins are Ethereum
+(ETH), Dash, and Ripple (XRP).
+2. Bitcoin: A crypto and a payment system invented by an unidentified programmer,
+or group of programmers, under the name of Satoshi Nakamoto.
+3. CEM: Centralized Exchange Model - The existing dominant model of crypto
+exchange. A single, private, limited corporation hosts and handles all aspects of
+the exchange platform and trading, including security, KYC and data management.
+4. Cryptocurrency: A digital currency that employs cryptography to handle
+transactions and regulate its corresponding currency units, working independently
+of a central bank. Also sometimes referred to as digitized tokens.
+5. DAO: Decentralized Autonomous Organization, also known as decentralized
+autonomous corporation. It runs through rules encoded as smart contracts.
+6. Decentralized exchange (DEX): A mechanism or platform that executes
+transactions without a central party to hold relevant records.
+7. Digital token: Any resource existing as a binary format and granting any of its
+users the privileges to use.
+8. Distributed Ledger Technology: DLT for short, it is technology that facilitates sharing
+of digital data across physical points without being administered centrally.
+9. Ethereum: A public blockchain-based distributed computing platform, featuring
+smart contract functionality.
+10. Fiat (Fiat currency): Known as fiat money, it is a traditional currency established
+and regulated by law.
+11. Multicurrency exchange: A mechanism or platform that allows different kinds of
+currency to undergo transactions.
+12. Off-blockchain tokens: The value of the transactions operating outside the
+blockchain.
+13. Off-chain architecture: The structure of a system that is available for transactions
+undergoing outside the blockchain.
+14. Open source: A source that is made thoroughly accessible for the public.
+15. Public chain: A blockchain which can be used and accessed by the public.
+16. Self-governance mechanism: A mechanism that is able to regulate all by itself.
+17. Smart Contracts: Smart contracts are computer programs that autonomously
+execute the terms of a contract.
+18. The Lightning Network: A decentralized network that makes rapid off-chain transfer
+of Bitcoin ownership possible.
+19. Token: A representation of digitized values.
+With thanks to: Jehan Chu, Chandler Guo, Thompson Shi, Henry Yu, Peter Smith, Bok
+Khoo, Frasier Wang, Ivan Chan, Ming Yan Cheung, Antony Challinor, Clara Chen,
+Sawyer Zhang, Eliott Lopez, Felix Lai, Jack Liao, Amanda Tung, Janee Lok, Peter
+Bainbridge, Jack Cheng, Yann Carlier, Wilson Yip, Claudia Lau, Vivian Leung, Franco Ng,
+Carl Leung, Simon Leung, Evan Fan, Joyce Shen, Charlene Ng, Cerulean Hu, Kurt Tsang,
+Alex Wu, Thompson Shi, Brett Lettice, Christine Sze, Peter Yau, Louis Chan, Patrick
+Bartolome, Kathy Cheng, Shepard Pin, Billy Yip, Andy Lin, Yan Tung, Lucia Suen, Joseph
+Marcilla, Tom Chan, Brian Liu, Max Jackowski
+
+22
+
+20/06/2017
+
+Appendix 1 – About ANX International
+ANX International (“ANX”) is a privately held company founded in 2013. ANX owns
+extensive proprietary intellectual property (“IP”) and employs 90 full time staff to run its
+many lines of business 14 . Throughout the 4 years since inception, ANX’s exchange
+platform (“ANXPRO”) has never suffered a security breach resulting in lost customer data
+or assets.
+With a strong team, vast experience and significant IP linked to Exchanges, Order
+Matching and Infrastructure, combined with a wide network of relationships amongst the
+crypto community, ANX is strategically situated to lead a project of this scope, in addition
+to ensuring that the exchange maintains healthy levels of liquidity and trade volume
+required to entice professional traders, buyers and sellers and industry players to utilize
+the exchange.
+
+14
+
+Including Bitcoin debit cards, a retail Bitcoin exchange, and its software-as-a-service (“SaaS”) offering, ANX Blockchain
+Services (“ABS”). ANX operates one of Asia’s longest running exchanges (“ANXPRO”).
+23
+
+20/06/2017
+
+

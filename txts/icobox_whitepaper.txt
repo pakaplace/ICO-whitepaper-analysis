@@ -1,0 +1,1262 @@
+ 
+
+ 
+
+Table of Contents 
+
+Legal Disclaimer
+
+3 
+
+ICO Summary
+
+5 
+
+Overview of the Project
+
+7 
+
+Scope of the ICOBox Project
+
+7 
+
+ICOS Concept
+
+10 
+
+ICOS Token
+
+12 
+
+ICOS Platform
+
+13 
+
+Project Selection Mechanism
+
+14 
+
+Mechanism  for  exchanging  ICOS  tokens  for  new  ICO  projects' 
+tokens
+
+17 
+
+Summary
+
+20 
+
+ICOS Smart Contract
+
+21 
+
+Payment Terms, Distribution and Rates
+
+23 
+
+Projected Timeline
+
+27 
+
+Team
+
+29 
+
+Risk Factors
+
+30 
+
+ 
+ 
+ 
+
+ 
+
+2 
+
+Legal Disclaimer 
+The  purpose  of  this  White  Paper  is  to  present  the  ICOBox  and  ICOS  token  to 
+potential  token  holders  in  connection  with  the  proposed  ICO.  The  information 
+set  forth  below  may  not  be  exhaustive  and  does  not  imply  any  elements  of  a 
+contractual  relationship.  Its  sole  purpose  is  to  provide  relevant  and  reasonable 
+information  to  potential  token  holders  in  order  for  them  to  determine  whether 
+to  undertake  a  thorough  analysis  of  the  company  with  the  intent  of  acquiring 
+ICOS Tokens. 
+Nothing  in  this  White  Paper  shall  be  deemed  to  constitute  a  prospectus  of  any 
+sort  or  a  solicitation  for  investment,  nor does it in any way pertain to an oﬀering 
+or  a  solicitation  of  an  oﬀer  to  buy  any  securities  in  any  jurisdiction.  This 
+document  is  not  composed  in  accordance  with,  and  is  not  subject  to,  laws  or 
+regulations of any jurisdiction, which are designed to protect investors. 
+The  product  token  is  not  a  digital  currency,  security,  commodity,  or  any  other 
+kind  of  ﬁnancial  instrument  and  has  not  been  registered  under  the  Securities 
+Act,  the  securities  laws  of  any  state  of  the  United  States or the securities laws of 
+any  other  country,  including  the  securities  laws  of  any  jurisdiction  in  which  a 
+potential token holder is a resident. 
+ICOS  token  cannot  be  used  for  any  purposes  other  than  as  provided  in  this 
+White  Paper,  including  but  not  limited  to,  any  investment,  speculative  or  other 
+ﬁnancial purposes. 
+ICOS  Token  confers  no  other  rights  in  any  form,  including  but  not limited to any 
+ownership,  distribution  (including,  but  not  limited  to,  proﬁt),  redemption, 
+liquidation,  property  (including  all  forms  of  intellectual  property),  or  other 
+ﬁnancial or legal rights, other than those speciﬁcally set forth below. 
+Certain  statements,  estimates  and  ﬁnancial  information  contained  herein 
+constitute  forward-looking  statements  or  information.  Such  forward-looking 
+statements  or  information  involve  known  and  unknown  risks  and  uncertainties, 
+
+3 
+
+which  may  cause  actual  events  or  results  to  diﬀer  materially  from the estimates 
+or the results implied or expressed in such forward-looking statements. 
+This  English  language  White  Paper  is  the  primary  oﬃcial  source  of  information 
+about  the  ICOS  token.  The  information  contained  herein  may  from  time  to time 
+be  translated  into  other  languages  or  used  in  the  course  of  written  or  verbal 
+communications  with  existing  and  prospective  customers,  partners  etc.  In  the 
+course  of  such  translation or communication some of the information contained 
+herein  may  be  lost,  corrupted,  or  misrepresented.  The  accuracy  of  such 
+alternative  communications  cannot  be  guaranteed.  In  the  event  of  any  conﬂicts 
+or  inconsistencies  between  such  translations  and  communications  and  this 
+oﬃcial  English  language  White  Paper,  the  provisions  of  this  English  language 
+original document shall prevail. 
+ 
+ 
+
+ 
+
+4 
+
+ICO Summary 
+ICOS token is an ERC-20 standard-based Ethereum token. 
+ICOS  tokens grant their holders the right to vote in favor of new ICO projects and 
+allow  them  to  buy  tokens  issued  by  selected  ICOs  at  a  ﬁxed average discount of 
+75%. 
+Tokens  will  be  oﬀered  for  32  days  starting  on  August  15,  2017  and  ending  on 
+September  15,  2017.  There  will  also  be  a  public  presale  starting  on  August  9, 
+2017  and  ending  on  August  15,  2017  for  parties willing to buy a large number of 
+tokens  (10,000  tokens  at  the  Early  Bird  stage  of  the  presale  and  1,000  tokens  at 
+the later stage). 
+ICOS  ICO  is  conducted  by  ICOBox  project  –  the  ﬁrst  SaaS  ICO  solution  in  the 
+world. The oﬀering will be open to the public globally. 
+Token Sale Volume: 
+
+No cap 
+
+Token Issue Volume: 
+
+No cap 
+
+For  every  100  ICOS  tokens  sold  through  the  ICO  20 
+Distribution of Tokens: 
+
+additional  tokens  will  be  issued  for  distribution  to 
+partners,  advisors,  bounty  participants,  and  the 
+team members.1 
+
+Token Price at Issue: 
+
+Website link:  
+
+1
+
+0.008-0.012  BTC  depending  on  the  date  and time of 
+purchase 
+
+https://icos.icobox.io 
+
+See Section "Payment Terms, Distribution and Rates" for details. 
+
+5 
+
+Accepted forms of payment: 
+
+BTC,  ETH,  LTC,  Dash,  Zcash,  ETC  or  USD  (wire 
+transfer) 
+
+Public Presale Start Date: 
+
+August 9, 2017, 12:00 PM PDT 
+
+Public Presale End Date: 
+
+August 15, 2017, 12:00 PM PDT 
+
+ICO Start Date: 
+
+August 15, 2017, 12:00 PM PDT 
+
+ICO End Date:  
+
+September 15, 2017, 12:00 PM PDT 
+
+Token Issue Date:  
+
+September 22, 2017, 12:00PM PDT 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+6 
+
+Overview of the Project 
+Scope of the ICOBox Project 
+ICOBox  is  a  unique  product  which  allows  to  drastically  lower  the  cost  of 
+conducting  ICOs  through  automating  and  introducing  templates  and  models  in 
+all three essential ICO components: 
+● Technology solution 
+● Legal solution 
+● Marketing solution 
+ICOBox  aims  to  stabilize the ICO market through mass ICO campaign production 
+which will facilitate its decentralization and diversiﬁcation. 
+ICOBox  occupies  a  unique  market  niche  because  it  is  the  ﬁrst  company 
+positioned  on  both  sides  of  the  market  –  that  of  a  party  conducting  ICOs,  since 
+ICOBox  oﬀers  professional  ICO  solutions,  and  a  token  holder,  because  the 
+company also buys tokens of other ICOs. 
+Although  the  ICOBox  solution  lowers  the  costs  of  conducting  ICOs, it also allows 
+to  conduct  them  at  a  high  professional  level.  Nobody  knows  the  product  better 
+than  the  team  which  developed  it.  Engaging  full-time  external  ICO  experts 
+requires  signiﬁcant  time  investment  to  let  them  learn  the  product,  and, 
+consequently,  a  signiﬁcant  expense.  The  services  oﬀered  by  such  agencies  are 
+quite  expensive,  and  because  of  their  duration  there  is  a  months-long  waiting 
+list for conducting ICOs. 
+ICO  could  be  conducted  by  the  project  team,  but  developing  a  book  building 
+platform  from  scratch,  writing  a  smart  contract,  developing  the  legal  concept, 
+amassing  the  information  on  marketing  channels  and  resources  will  take  the 
+project team, which is usually not well-versed in these areas, a very long time. 
+
+7 
+
+ICOBox  is  an  SaaS  (software  as  a  service)  product  in  which  all  standard  ICO 
+elements  are  automated  and  simpliﬁed,  and  although  the  project  team  is 
+directly  involved  in  the  launching  of  the  oﬀering,  the  entire  ICO  process  is 
+directed  by  experts  in  each  of  the  respective ICO component ﬁelds. Such format 
+produces  the  shortest  project  launch  time  and  the  lowest  cost,  and  the 
+customers no longer need to wait for an external agency to take on their project. 
+Here is the scope of a standard ICOBox oﬀer2: 
+TECHNOLOGY SOLUTION 
+● Smart contract; 
+● Smart contract management system; 
+● Book building platform; 
+● Consultations by developers on setting up the technology tools. 
+LEGAL SOLUTION 
+● Review  and  recommendations:  Token  legal  concept,  White  Paper,  landing 
+page; 
+● A  set  of  legal  documents,  including  Token  Purchase  Agreement,  Terms  of 
+Use, and Privacy Policy; 
+● Consultations  on  legal  aspects  by  external  attorneys  experienced  in 
+supporting ICOs. 
+ 
+ 
+
+  ICOBox  reserves  the  right  to  change  the  scope  of  its  services.  The  updated  details  will  be 
+published at https://icobox.io/#services 
+2
+
+8 
+
+MARKETING SOLUTION 
+● Marketing  strategy  comprising  over  70  tactics,  specifying  each  tactic's 
+potential impact; 
+● USD  20,000  traﬃc  package,  including  Facebook,  Twitter,  Adwords  and 
+Reddit, targeting Blockchain community; 
+● Bounty Program setup to conduct marketing campaigns in 25 languages; 
+● Consultations by marketing experts on deployment of marketing tools. 
+ICOBox  utilizes  an  innovative economic model: Its standard fee for ICO tools and 
+guidance  services  is  25-50  BTC  depending  on  the  scope  of  services  required3, 
+which  covers  the  ICOBox's  project  production  costs.  No  additional  fees  are 
+charged,  but  ICOBox  reserves  the  right  to  buy  tokens  of  new  projects'  ICOs 
+during  presale  at  a  discount,  which  makes  the  ICOBox's  economic  model 
+ﬁnancially viable. 
+ 
+
+3
+
+4
+
+Price  
+
+Any 1 ICOBox solution 
+
+25 BTC 
+
+Any 2 ICOBox solutions 
+
+40 BTC 
+
+5
+
+Bonus  
+
+Discount on up up to 250 BTC 
+worth of tokens 
+
+Discount on up to 400 BTC 
+worth of tokens 
+
+ S
+  ee Section “Mechanism for exchanging ICOS tokens for new ICO projects' tokens” for details. 
+
+   ICOBox  reserves  the  right  to  revise  its  service  prices.  The  updated  prices  will  be  published  at 
+https://icobox.io/#bonuses 
+4
+
+ ICOBox reserves the right to revise the terms of bonuses for its services. The updated prices will 
+be published at https://icobox.io/#bonuses 
+5
+
+9 
+
+Full ICOBox service package,  
+3 solutions 
+
+50 BTC 
+
+Discount on up to 500 BTC 
+worth of tokens 
+
+*Free gift for full package buyers: 
+○
+
+Review of the new ICO project’s token concept; 
+
+○
+
+Consultations  by  business  analysts,  including  guidance  on  drafting  the  White  Paper 
+and the landing page. 
+
+ 
+
+ICOS Concept 
+Many  projects  seeking  to  conduct  an  ICO  are  promising  but  underfunded.  For 
+them,  paying  even  the  low  price  tag  of  50  BTC  is  a  struggle.  These  companies 
+would beneﬁt from the ICOBox's launch of its ICOS token. 
+The  essence  of  the  project  is  to  raise  funds  by  selling  ICOS  tokens.  All  net 
+proceeds  from  the  ICOS  token  oﬀering  will  be  directed  to  cover  the  cost  of 
+ICOBox  services  to  help  promising  projects  selected  by  the  vote  of  ICOS  token 
+holders  to  conduct  their  ICOs  (see  Section  “Project  Selection  Mechanism”  for 
+details).  Funds  to  cover  the  cost  of  ICOBox  services  are  allocated  based  on  the 
+standard  pricing  of  ICOBox  services  (see  Section  “Scope  of  the  ICOBox  Project”). 
+The  project  seeking  to  receive  ICOBox’s  services  via  this  arrangement  can  apply 
+to receive any one, two or all three ICOBox’s solutions. 
+To ensure the spending transparency, ICOBox will open to all ICOS token holders 
+real-time  access  to  ICO  statistics  about  the  number  of  ICOs  completed,  the 
+number  of  ICOs  in progress (with a projected timeline), and the amount of funds 
+spent.  
+Each  project  which  will  conduct  its  ICO  using  ICOBox  tools  paid  for  with  the 
+funds  raised  through  the  ICOS  token  sale  will  give  a  set  number  of  its  tokens  to 
+ICOS  platform,  where  ICOS  token  holders  will  be  able  to  exchange  their  ICOS 
+tokens  for  the  tokens  of  new  ICO  projects  of  their choice. The number of tokens 
+
+10 
+
+a  project  will  have  to  allocate  to  ICOS  token  holders  depends  on  the  range  of 
+ICOBox services required for conducting its ICO.  
+
+Solutions 
+
+Funds raised through 
+the ICOS token sale 
+allocated for the 
+project 
+
+Tokens projects 
+allocate to ICOS 
+platform 
+
+Any 1 ICOBox solution 
+
+25 BTC 
+
+120 BTC 
+
+Any 2 ICOBox solutions 
+
+40 BTC 
+
+192 BTC  
+
+Full ICOBox service package,  
+3 solutions 
+
+50 BTC 
+
+240 BTC 
+
+ 
+Essentially,  the  number  of  tokens  the  new  ICO  projects  will  place  on  ICOBox’s 
+platform  will  have  to  be  equal  in  value  to  4.8  times  the price of ICOBox’ services 
+rendered. 
+The  number  of  tokens  is  calculated  at  the  rate  of  exchange  in  eﬀect  at  the start 
+of presale of the relevant ICO. 
+TOKEN HOLDERS’ GOALS WHICH ICOS HELPS ACCOMPLISH: 
+● Purchase  of  quality  ICO  project  tokens,  ensured  by  a  2-step  process: 
+screening  by  ICOBox's  experts  and  selection  by  the  vote  of  ICOS  token 
+holders; 
+● Purchase  of  tokens  with  a  unique  discount  and  an  opportunity  to  have  a 
+say in the project before it launches its ICO; 
+● Purchase  of  tokens  at  any  stage:  presale,  book  building,  and  even  after 
+the  end  of  its  ICO  provided  the  tokens  are  still  available  on  the  ICOS 
+platform;  the  tokens  exchange  rate  remains  unchanged  regardless  of  the 
+token's  market  value.  Even  if the project's token sale ended, the exchange 
+11 
+
+of  ICOS  tokens  to  new  ICO  project's  tokens  occurs  at  the rate eﬀective on 
+the ﬁrst date of sales of new ICO project's tokens. 
+The goals of the ICO project which ICOS helps accomplish: 
+● Holding  an  ICO with the guidance of ICOBox's experienced team without a 
+prepayment (payment only with future tokens); 
+● Minimization of costs at all stages prior to the end of an ICO; 
+● An  opportunity  to  receive  recommendations  directly  from  the  future 
+token holders (see Section "Project Selection Mechanism" for details). 
+ 
+
+ICOS Token 
+EACH TOKEN OFFERS THE FOLLOWING RIGHTS TO ITS HOLDER: 
+1. Right to vote. 
+Each  token  grants  its  holder  one  vote  which  may  be  used  at  token  holder’s 
+discretion  to  select  new  projects  for  ICOs  (see  Section  “Project  Selection 
+Mechanism”  details).  The  more  tokens  one  has  the  more  votes  one  can  cast. 
+Only  whole  ICOS  tokens  grant  votes  -  if  a  token  holder  owns  a  fraction  of  ICOS 
+token,  such  fractional  ICOS  token  does  not  grant  any  voting  rights.  A  token 
+holder  may  award  all  his  votes  to  one  project  or  spread  them  among  several 
+projects. 
+2. Right to comment. 
+Each  token  holder  is  entitled  to  comment  on  projects  which  applied  for  an  ICO 
+through  ICOS  platform.  All  token  holders  may  comment  on  any  number  of 
+projects  regardless  of  the  number  of their tokens and the projects they chose to 
+vote for. 
+
+12 
+
+ 
+3. Right to exchange their ICOS tokens for new ICO projects’ tokens. 
+When  a  new  project  launches  its  presale,  a  set amount of its tokens is placed on 
+ICOS  platform  where  ICOS  token  holders  may  exchange  their  ICOS  tokens  for 
+such  new  ICO  project's  tokens6.  The  more  ICOS  tokens  their  holders  exchange 
+the  less  ICOS  tokens  and  votes  they retain. The exchange rate is ﬁxed at the end 
+of  ICOS  sale  and  does  not  vary  from  project  to project or from day to day of any 
+ongoing  new  ICO  (see  Section  "Mechanism  for  exchanging  ICOS  tokens  for  new 
+ICO projects' tokens" for details). 
+To  be  used  for  voting,  commenting,  or  exchange,  ICOS  tokens  must  remain  in 
+the token holder’s account at ICOS platform7. 
+ 
+
+ICOS platform 
+ 
+ICOS  platform  will  be  launched  on  icos.icobox.io  website and will start gathering 
+new  projects'  applications  for  ICOs  before  the  end  of  ICOBox's  sale  of  ICOS 
+tokens8.  After the completion of book building the following functional interfaces 
+will be activated in token holders’ accounts: 
+● Voting  (selection  of  projects  for  conducting  an  ICO paid for with the funds 
+raised through the ICO of ICOS tokens); 
+● Exchange  (the  list  of  all  completed  ICOs  specifying  the  number  of  tokens 
+placed on the ICOS platform which are available for exchange); 
+
+6
+
+See Section “ICOS Concept” for details. 
+
+  Most  ICOS  tokens  in  the  token  holders’  accounts  at  ICOS  platform  are  physically  stored  in 
+Ethereum  cold  storage,  for  security  reasons,  with  a  small  number  of  tokens  in  hot  storage,  for 
+quick access. 
+7
+
+8
+
+See Section “Projected Timeline” for details. 
+
+13 
+
+● Dashboard  listing  all  token  holder’s  tokens  and  oﬀering  the  options  of 
+viewing statistics, sending and receiving tokens. 
+ 
+
+Project Selection Mechanism 
+All  ICO  applications  received  by  ICOBox  from  the  projects  which  are  unable  to 
+pay  for  the  ICOBox  services  will  be  screened  by  ICOBox  experts  to  determine  if 
+they meet the following criteria: 
+● Compliance with the application format; 
+● Economic viability; 
+● Unique oﬀer; 
+● Team (visionary, team members’ competence and potential). 
+All  screened  applications  that  met  the  above  criteria  will  be  posted  on  ICOS 
+platform,  where  ICOS  token  holders  will  weekly  vote  for  the  best  projects which 
+should  be  awarded  the  funding  to  pay  for  ICOBox  services  to conduct their own 
+ICOs.  
+Each  ICOS  token  holder  owns  the  number  of  votes  equal  to the number of ICOS 
+tokens  he  owns.  Based  on  the  voting  results,  the  following  number  of  projects 
+which received the most votes will be selected: 
+● Q4 2017: 10 projects per week 
+● Q1 2018: 15 projects per week 
+● Q2 2018 and so on: 20 projects per week 
+ 
+
+14 
+
+Overall,  a  total  of  about  800  ICOs  is  intended  to  be  conducted  in  the ﬁrst year 
+of  ICOBox's  existence  (to  compare,  Kickstarter.com  conducted  over  120,000 
+successful  campaigns  in  8  years;  the  platform  currently  has  an  average  of 
+4,500 ongoing campaigns.  
+More details at https://www.kickstarter.com/help/stats?ref=footer). 
+The  number  of  projects  presented  for  screening  and  selection  is  determined 
+by  the  number  of  received  applications  and  the  ICOBox's  capacity.  If  ICOBox's 
+capacity  grows  faster  than  expected,  the  weekly  number  of  selected  projects 
+may  also  be  increased.  The  voting  is  held  as  long  as  the  funds  raised  through 
+the ICOS ICO are available. 
+Any  ICOS  token  holder,  regardless  of  whether  he  participates  in  the  voting, 
+may  comment  on  ICO  applications  on  the  ICOS  website.  This  way,  project 
+teams  can  receive  feedback  from  their  potential  token  holders  and  modify 
+their  projects  accordingly.  If  the  project  failed  to  be  selected through the ICOS 
+token  holder  community's  vote  it  can  revise  the  project  to  reﬂect  the received 
+recommendations and apply again. 
+ 
+ 
+
+15 
+
+ 
+16 
+
+Mechanism  for  exchanging  ICOS  tokens  for  new  ICO 
+projects' tokens 
+Exchange  value  of  each  ICOS  token  is  0.04  BTC,  which  means  that  every  ICOS 
+token  can  be  exchanged  for  the  relevant  number  of  the  new  projects'  tokens 
+placed on ICOS platform and worth 0.04 BTC at presale prices.  
+At  their  standard  price  of  0.01  BTC,  ICOS  tokens  are  exchangeable  for  other 
+projects’  tokens  at  an  average  rate  of  1:4  in  value.  Essentially,  this  means  that 
+on average ICOS token holders get new projects’ tokens at a 75% discount. 
+Consequently,  the  purchasing  power  of funds spent on the ICOS token relative 
+to  the  new  projects’  tokens  varies  slightly  depending  on  the  price  at  which 
+each  token  holder  bought  his  or  her  ICOS  tokens.  The  individual  purchasing 
+power  for  funds  spent  on  each  ICOS  token  can  be  calculated  at  the  end  of 
+ICOS token sale using the following formula: 
+
+ 
+ 
+See examples below: 
+ 
+
+Example   1 
+
+Example   2 
+
+ICOS tokens sold 
+
+100,000 
+
+100,000 
+
+At the rate of 
+
+Half at 0.01 BTC 
+
+Quarter at 0.009 
+
+Half at 0.011 BTC 
+
+Half at 0.01 BTC 
+Quarter at 0.011 BTC  
+
+17 
+
+Amount raised 
+
+1,050 BTC 
+
+1,000 BTC 
+
+ICOS tokens issued 
+
+120,000 
+
+120,000 
+
+Number of ICOs to be 
+conducted (full package) 
+
+21 
+
+20 
+
+Exchange value of each ICOS 
+token  
+
+0.04 BTC 
+
+0.04 BTC 
+
+Value of new projects' tokens 
+placed at the platform  
+
+5,040 BTC 
+
+4,800 BTC 
+
+Average ICOS token purchase 
+price 
+
+0.0105 BTC (1,050 / 100,000)  0.01 BTC (1,000 / 100,000) 
+
+Price at which John bought 
+ICOS tokens 
+
+0.01 BTC 
+
+0.01 BTC 
+
+Purchasing power of funds 
+which John spent on his ICOS 
+tokens  
+
+1 BTC of ICOS value =  
+4.2 BTC of tokens of other 
+projects’ value  
+(4 x 0.0105 / 0.01) 
+
+1 BTC of ICOS value =  
+4 BTC of tokens of other 
+projects’ value  
+(4 x 0.01 / 0.01) 
+
+Discount at which John 
+obtains new ICO projects’ 
+tokens 
+
+76% 
+
+75% 
+
+Price at which Jane bought 
+ICOS tokens 
+
+0.011 BTC 
+
+0.009 BTC 
+
+Purchasing power of funds 
+which Jane spent on her ICOS 
+tokens 
+
+1 BTC of ICOS value =  
+3.8 BTC of tokens of other 
+projects’ value  
+(4 x 0.0105 / 0.011) 
+
+1 BTC of ICOS value =  
+4.4 BTC of tokens of other 
+projects’ value  
+(4 x 0.01 / 0.009) 
+
+Discount at which Jane obtains 
+74% 
+new ICO projects’ tokens 
+
+77% 
+
+18 
+
+In  our  ﬁrst  example  an  ICOS  token  holder  John  exchanged  his  ICOS  tokens 
+bought  for  1  BTC  for  the  tokens  of  new  projects  worth  4.2  BTC,  thereby 
+obtaining  tokens  worth  4.2  times  that  of  the  funds  he  originally  spent  to  buy 
+ICOS  tokens.  For  Jane  this  coeﬃcient  is  3.8.  Essentially  it  means  that  John 
+bought  the  tokens  of  new  ICO  projects  with  a  discount  of  76%,  and  Jane  got  a 
+discount of 74%. 
+In  our  second  example  the  purchasing  power  of  John  and  Jane’s  funds  spent 
+on  their  ICOS  tokens  is  4  and  4.4,  respectively.  The  discount  for  new  ICOs' 
+tokens was 75% for John and 77% for Jane. 
+Therefore,  the  higher  the  average  price  paid  for  ICOS token at ICOS token sale 
+by  all  buyers  and  the  lower  the  price  paid  for  ICOS  token  by  a  speciﬁc  buyer, 
+the higher the purchasing power of funds spent on ICOS tokens and the higher 
+the discount for new ICO projects’ tokens this buyer receives.  
+Each  ICOS  token  may  be  exchanged  for  the  relevant  number  of  tokens  of one 
+project or an assortment of tokens of several projects. 
+About  50-100  applications  are  expected to be presented for the token holders' 
+review  and  voting  per  week.  If  less  than  50  applications  have  been  presented, 
+the  voting  may  be  postponed  until  the  following  week.  If  more  than  100 
+applications  have  been  presented,  the  surplus  applications  are carried over to 
+the following week. 
+New  project's  tokens  are  placed  on  ICOS  platform  at  the  start  of  the  project’s 
+token  presale.  ICOS  tokens  can  be  exchanged  for  any  of  the  presented  new 
+ICO  project's  tokens  at  any  time,  but  during  the  ﬁrst  24  hours  of  their 
+placement  on  ICOS  platform  the  tokens  are  distributed/exchanged  among  all 
+interested  ICOS  tokens  holders  only  in  proportion  to  a  number  of tokens they 
+requested to exchange. 
+If  within  the  ﬁrst  24  hours  more  than 240 BTC worth of exchange requests are 
+received,  the  requests  will  be satisﬁed on a pro rata basis. If this amount is not 
+reached,  the  requests  will  be  met  in  their  desired  amount.  The  remainder  of 
+the  tokens  left  after  the  distribution  over  the  ﬁrst  24  hours  will  be  distributed 
+based  on  a  free  market  principle.  If  there  are  more  exchange  requests 
+19 
+
+received  than  could  be  reasonably  divided  –  for  instance,  a  token  priced  at  1 
+BTC  cannot  be  divided,  but more than 240 exchange requests were received, – 
+the tokens will be distributed in the order the requests were received. 
+ 
+
+Summary 
+This  arrangement  allows  prospective  ICO  projects  to  conduct  their  own  ICO 
+paying  with their future tokens, and do it at high quality and eﬃciency (starting 
+at  2  weeks  from  the  date  of  application  to  the  date  of  PR  campaign  start,  due 
+to  standardization  and  automation  of  processes).  ICOS  token  holders  can 
+receive  tokens  of  quality  projects  they  selected  at an average discount of 75%. 
+The  market  gets  hundreds  of  great  projects  screened  by  the  ICOBox  experts, 
+selected  by  ICOS  token  holders  and  implemented  by  the  new  ICO  projects 
+using ICOBox's tools and guidance. 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+20 
+
+ICOS Smart Contract 
+ICOS  is  an  Ethereum  token.  It  complies  with  and  extends  ERC-20  -  a  de  facto 
+standard and widely used token API. ICOS Smart Contract guarantees: 
+1. Transparency 
+1.1.
+
+Balance.  The  information  on  the  number  of  tokens  held  by  any 
+user is public. 
+
+1.2.
+
+Transfers.  All  information  on  transfers  is  public  and  can  be  traced 
+back in time. 
+
+2. Ownership 
+2.1.
+
+Scope. Only Ethereum users and contracts can be token holders. 
+
+2.2.
+
+Uniqueness.  Each  token  belongs  to  one  user-owner.  There  are  no 
+shared tokens. 
+
+2.3.
+
+Right  to  transfer.  A  token  can  be  transferred  to  another  user  only 
+by  the  direct  command  of  its  owner  or  by  the  command  of  the 
+receiver  directly  authorized  by the owner. No token transfer may be 
+initiated by another user. 
+
+3. Token Supply 
+3.1.
+
+Single  issuance.  Tokens  are  issued  only  once,  at  the  time  of 
+deployment. 
+
+3.2.
+
+Supply. The token supply is set at the time of deployment. 
+
+3.3.
+
+Destruction.  Every  user  can  destroy  (burn)  some  or  all  of  his 
+tokens, which are then deducted from the total supply. 
+
+4. Contract Management 
+21 
+
+4.1.
+
+Replacement.  The  contract  owner  can  relinquish  the  ownership  in 
+favor of any other Ethereum user or contract. 
+
+4.2.
+
+Blockade.  The  contract  owner  can  stop  or  resume  token  transfers 
+between token holders at any time. 
+
+5. Miscellaneous 
+5.1.
+
+Recovery.  Any call to the contract which results in an error does not 
+change  the  users'  tokens  or  Ether  balance,  except  for  the gas spent 
+on the transaction.  
+
+5.2.
+
+Safe  Approval.  The  token  contract  supports  two  approve() 
+functions:  a  2-parameter  approve()  (the  ERC-20  standard)  and  a 
+3-parameter  approve  (),  which  guarantees  that  spender  gets  new 
+allowance only if current allowance equals presumed allowance. It is 
+recommended  to  use  the  3-parameter  approve  for  all  approve() 
+calls taking the presumed allowance as the second input. 
+
+UNCERTAINTY PROVISIONS  
+The ICOS Smart Contract does not guarantee the following: 
+1. User  validity.  Details:  an  Ethereum  address  with  positive  token  balance 
+may  not  correspond  to  any  actual  user  or  a  private  key,  as  it  can  be  a 
+result of a mistake. Tokens transferred to such users will likely be lost. 
+2. Zero  Ether  balance.  Details:  the  contract  prohibits  most,  but  not  all 
+means  by  which  Ether  could  be  sent  to  it  by  users  who  are  not  contract 
+owners. 
+3. Complete  registry.  Details:  The  contract  does  not  provide  a  list  of  all 
+token  holders.  However,  it  is  guaranteed  that  every  token  holder is either 
+the  contract  creator  or  a  token  recipient in the Transfer() event. The list of 
+token  holders  can  be  obtained  by  checking  all  these  events  or  by 
+exploring the contract storage using blockchain explorers. 
+
+22 
+
+Payment Terms, Distribution and Rates 
+ICOS  tokens  will  be  available  for  purchase at public presale starting on August 9, 
+2017.  The  presale  will  continue  until  August  15,  2017.  The  regular  sale  of  ICOS 
+ 
+tokens
+  will  start  on  August  15,  2017  and  will  continue  until  September 15, 2017. 
+
+Below are the sale terms9: 
+ 
+
+Early Bird Presale 
+
+Presale 
+
+Early Bird ICO 
+
+ICO 1st 
+
+ICO 2nd  
+
+Dates and time 
+
+August 9, 2017 
+12:00 PM - 3:00 PM 
+
+August 9, 2017, 3:00 PM –  
+August 15, 2017, 12:00 PM 
+
+August 15, 2017, 12:00 PM – 
+August 17, 2017, 12:00 PM 
+
+August 17, 2017, 12:00 PM 
+–September 1, 2017, 12:00 PM 
+
+September 1, 2017, 12:00 PM 
+–September 15, 2017, 12:00 PM 
+
+Price 
+
+Min purchase 
+
+0.008 BTC 
+
+10,000 ICOS 
+
+0.009 BTC 
+
+1,000 ICOS 
+
+0.01 BTC 
+
+1 ICOS 
+
+0.011 BTC 
+
+1 ICOS 
+
+0.012 BTC 
+
+1 ICOS 
+
+ 
+Tokens  can  be  purchased  with  BTC,  ETH,  LTC,  Dash,  Zcash,  ETC,  or  USD  (wire 
+transfer)  at  tokensale.icobox.io.  Transfers  can  be  made  from  any  BTC,  ETH, LTC, 
+
+9
+
+ICOBox reserves the right to oﬀer special terms for strategic customers and partners. 
+
+23 
+
+Dash,  Zcash  or  ETC  wallet10.  For  transfers  of  1,000  USD and over, a wire transfer 
+option is available.  
+
+ 
+
+ 
+
+Token  buyers  must  register  at tokensale.icobox.io, entering and conﬁrming their 
+email  address.  After  the  registration,  users  gain  access  to  their  personal 
+accounts  at  tokensale.icobox.io  where  they  will  have  separate  wallets  for  BTC, 
+ETH,  LTC,  Dash,  Zcash,  ETC,  or  USD.  In  their  accounts  users  can  choose  the 
+desired  number  of  ICOS  tokens  and  transfer  the  required  payment  amount  in 
+one of the accepted cryptocurrencies or generate an invoice for a wire transfer.  
+Once  the  payment  is  received,  funds  will  appear  in  the  corresponding  wallet  in 
+the  user’s  account  and  may  be  used  for  purchasing ICOS tokens. Until the token 
+purchase  is  made,  the  funds  may  be  withdrawn  from  the  account  at 
+tokensale.icobox.io  at  any  moment  by  sending  a  request  to  support@icobox.io. 
+Tokens  are  purchased  at  the  price  in  eﬀect  at  the  time  of  purchasing, not at the 
+price  in  eﬀect  at  the  time  when  funds  have  been  sent  or  received  by  the 
+platform.  When  buying  tokens  with  currency  other  than  BTC,  the  exchange  rate 
+is ﬁxed at the time of token purchase. 
+Accounts at tokensale.icobox.io will be accessible several days before the start of 
+the  ICOS  token  sale.  Users  will  be  able  to  sign  up  and  make  transfers  to  their 
+ICOS  accounts,  but  will  not  have  the  option  to  buy  ICOS  tokens  with  deposited 
+funds  until  the  start  of the ICOS token presale.To take part in the public presale, 
+a  buyer  will  need  to  purchase  at  least  the  speciﬁed  minimum  number  of  ICOS 
+tokens  (10,000  or  1,000  ICOS  tokens,  depending  on  the  date  and  time  of 
+purchase).  The  general  ICOS  token  sale  has  no  minimum  entrance  threshold, 
+except  for  the  minimum  transfer amount speciﬁed by the relevant blockchain or 
+bank used by the buyer. 
+After  the  token  purchase  is  complete,  the  information  about  ICOS  tokens 
+credited  to  the  ICOS  buyers  should  appear  in  their  accounts  at 
+tokensale.icobox.io immediately.  
+
+  ICOBox  does  not  charge  any processing fees. Processing time and fees are determined by 
+the  payment  processor.  Token  holders  are  responsible  for  paying  all  processing  fees  and 
+ﬁnancial  charges  imposed  by  the  payment  processor  in  connection  with  the  payment, 
+including withdrawals from the account at tokensale.icobox.io. 
+10
+
+24 
+
+ 
+After  the  ICOS  token  sale  is  over,  a  personal  account  will  be  automatically 
+generated  at  icos.icobox.io  for  every  ICOS  token  holder.  ICOS  tokens  will  be 
+issued  and transferred to these accounts. Once this step is complete, ICOS token 
+holders  may  at  any  time  transfer  their  ICOS  tokens to any third-party ETH wallet 
+supporting  ERC-20  standard.  However,  ICOS  tokens  must  remain  in  their 
+accounts  at  icos.icobox.io  if  ICOS  token  holders  wish  to  participate  in  voting, 
+comment on projects, or exchange them to new ICO projects’ tokens. 
+All  proceeds  from  the  ICOBox’s  ICOS  token  sale  will  be  deposited  in  escrow 
+where  they  will  be  kept  in  BTC.  Original  payments  made  in  other  currencies  will 
+be converted to BTC and also deposited in escrow. 
+The  funds  will  be  released  from  escrow  to  ICOBox  in  step  with  the fulﬁllment of 
+ICOBox’ obligations to ICOS token holders in the following order: 
+● 50%  of  the  amount  for  each  new  ICO  project  to  be  released  at  the  time 
+when the project is chosen by token holders’ vote; and 
+● 50%  of  the amount to be released at the time when tokens of the new ICO 
+project are placed on ICOS platform11. 
+Once  ICOS  token  sale  ends,  no  further  deposits  to  the  accounts  at 
+tokensale.icobox.io  will  be  permitted.  Decisions  on  how  to  handle  the  funds 
+received  after  the  end  of  the  ICOS token sale will be made based on the transfer 
+date  and  time.  Only  transfers  sent  out before the end of the ICOS token sale will 
+be  accepted;  the  rest  will  be  returned  to  sender  in  the  original form of payment 
+minus  transfer  fees  and  bank  charges.  Accepted  funds  and  all  other  funds 
+remaining  in  users’  personal accounts at tokensale.icobox.io will be converted to 
+
+  If  a  selected  project  fails  to  complete  its  ICO,  and  its  tokens  are  not  placed  on  the  ICOS 
+platform,  ICOBox  will  retain  the  50%  prepayment  but  will  forfeit  the  remaining  50%  of  the 
+payment.  If  a  selected  project  revises  its  plans  and  cancels  its  ICO  after  ICOBox  received  the 
+prepayment  but  before  it  commenced  its  work,  ICOBox  will  send  back  the  prepayment  amount 
+to  the  escrow.  If  a  selected  project  fails  to  complete  its  ICO after its tokens have been placed on 
+the  ICOS  platform,  ICOBox  will  retain  the  full  payment;  and  ICOS  tokens  exchanged  by  their 
+holders for the respective cancelled new project’s tokens will revert to their holders.  
+11
+
+25 
+
+ICOS  tokens  automatically  at  the  purchase  price  in  eﬀect  at  the  end  of  the ICOS 
+token  sale.  For  funds  in  currencies  other  than  BTC,  the  exchange  rate  will  be 
+ﬁxed  at  the  time  of  conversion.  Users  who  wish  to  withdraw  their  funds  from 
+their  accounts  must  contact  the  support  team  at  support@icobox.io  no  later 
+than  12:00  PM  PDT  on  September  15,  2017  to  avoid  automatic  conversion.  At 
+12:00  PM  PDT  on  September  22,  2017,  ICOS tokens will be issued to participants 
+and  deposited  in  their  accounts  on  icos.icobox.io.  If  a  payment  is  received  after 
+12:00  PM  PDT  on  September  21,  2017,  such  payment  will  be returned to sender 
+minus  transfer  fees  and  bank  charges  even  if  it  was sent before the end of ICOS 
+token sale. 
+For  every  100  ICOS  tokens  sold  through  the  ICOBox's  ICO  20  additional  tokens 
+will  be  issued  for  distribution  to  partners,  advisors,  bounty  participants, and the 
+team  members.  Since  ICOBox team gets an incentive in the form of ICOS tokens, 
+a  standard  bonus  in  the  form  of  discount  for  a  set  number  of  new  projects’ 
+tokens12 is not required. 
+ 
+ 
+ 
+
+12
+
+ 
+
+See Section “Scope of the ICOBox Project” for details. 
+
+26 
+
+Projected Timeline 
+● April: start of the ICOBox project development 
+● July 1, 2017: ICOBox project launch; 
+● August 9, 2017: public ICOS presale start; 
+● August 15, 2017 – September 15, 20017: general sale of ICOS tokens; 
+● August 15, 2017: collection of applications start 
+● September 1, 2017: ICO application platform launch 
+● September 22, 2017: ICOS token issue 
+● October 2, 2017: ﬁrst voting, selection of 10 projects for new ICOs 
+The  project  end  date  depends on the amount of funds raised through the ICO of 
+ICOS  tokens.  All  net  proceeds  from  the  sale  of  ICOS  tokens  will  go  towards 
+providing  the  ICOBox  tools  to  promising  crowdselling  projects  chosen  by  ICOS 
+token  holders  by  voting.  This  arrangement  will  continue  while  the  funds  raised 
+through ICOS sale last. 
+If  the  remaining  funds  cannot  be  divided  by  the  ICOBox’s  exchange  rates, 
+ICObox’s  services  for  the  last  ICO  project  will  be  provided  at  a  discounted  price. 
+For  example,  if  the amount of remaining funds is 45 BTC, the last ICO project will 
+receive  a  full  package  of  ICOBox’  services  at  a  discount  of  5  BTC.  Even  if  the 
+amount  of  the  remaining  funds  is  minimal,  ICOS  token  holders  may  still  vote  to 
+choose  a  project  which  needs  a full ICOBox services package. For example, if the 
+amount  of  remaining  funds  is  1  BTC, ICOS token holders may still choose an ICO 
+project which needs 1, 2 or all 3 solutions oﬀered by ICOBox. 
+Consequently,  there  is  no  minimum amount of funds to be raised: if the amount 
+of  funds  raised  is  less  than  the  cost  of  the  full  ICOBox  service  package  (50  BTC) 
+
+27 
+
+or  less  than  even  one separate ICOBox solution (25 BTC) for one ICO project, the 
+funds will be allocated based on the "last ICO" principle. 
+ 
+
+ 
+ 
+
+ 
+
+28 
+
+Team 
+
+ 
+Mike Raitsyn 
+CEO 
+
+ 
+Niсk Evdokimov 
+Vision Director 
+
+ 
+Taras Kozlov 
+Tech Lead 
+
+Anar Babaev 
+CMO 
+
+ 
+
+ 
+
+Dmitry Kovalchouk 
+Business Analyst
+
+Sergei Motov 
+Legal Counsel 
+
+ 
+
+ 
+
+Alexey Zarya 
+Business Analyst
+
+Dmitry 
+Khovratovich 
+Security and Smart 
+Contract CTO 
+
+Mikhail Vladimirov 
+Smart Contract 
+Developer 
+
+ 
+
+ 
+
+Dima Zaitsev 
+Head of 
+International PR 
+
+ 
+
+ 
+
+Vlad Shchetinin 
+Business Analyst
+
+ 
+
+Daniel Minkov 
+Senior Product 
+Manager 
+
+ 
+
+ 
+
+ 
+
+Nikita Marin 
+Business Analyst
+
+Eduard 
+Dzhamgaryan 
+Business Analyst
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+Aleksey Kuleshov 
+Senior Software 
+Engineer 
+
+ 
+
+ 
+
+ 
+
+Vitaly Pirozhkov 
+Business Analyst 
+
+ 
+
+ 
+
+ 
+
+Mike Volkov 
+Business Analyst 
+
+ 
+
+ 
+
+29 
+
+Risk Factors 
+The  purchase  of  tokens  involves  a  high  degree  of  risk,  including  but  not  limited 
+to  the  risks  described  below.  Before  acquiring  ICOS  tokens,  it  is  recommended 
+that  each  participant  carefully  weighs  all  the  information  and  risks  detailed  in 
+this White Paper, and, speciﬁcally, the following risk factors. 
+A. Dependence on computer infrastructure 
+ICOBox's  dependence  on  functioning  software  applications, computer hardware 
+and  the  Internet  implies  that  ICOBox  can  oﬀer  no  assurances  that  a  system 
+failure  would  not  adversely  aﬀect  the  use  of  the  sale  participants’  ICOS  tokens. 
+Despite  ICOBox's  implementation  of  all  reasonable  network  security  measures, 
+its  processing  center  servers  are  vulnerable  to  computer  viruses,  physical  or 
+electronic  break-ins  or  other  disruptions  of  a  similar  nature.  Computer  viruses, 
+break-ins  or  other  disruptions  caused by third parties may result in interruption, 
+delay or suspension of services, which would limit the use of the ICOS tokens. 
+B. Smart contract limitations 
+Smart  contract  technology  is  still  in  its  early  stages  of  development,  and  its 
+application  is  of  experimental  nature.  This  may  carry  signiﬁcant  operational, 
+technological,  regulatory,  reputational  and  ﬁnancial  risks.  Consequently, 
+although  the  audit  conducted  by  independent  third  party  increases  the  level  of 
+security,  reliability,  and  accuracy,  this  audit  cannot  serve  as  any  form  of 
+warranty,  including  any  expressed  or  implied  warranty  that  the  ICOS  Smart 
+Contract  is  ﬁt  for  purpose  or  that  it  contains  no  ﬂaws,  vulnerabilities  or  issues 
+which could cause technical problems or the complete loss of ICOS tokens. 
+C. Regulatory risks 
+Blockchain  technology,  including  but  not  limited to the issue of tokens, may be a 
+new  concept  in  some  jurisdictions,  which  may  then  apply  existing  laws  or 
+introduce  new  regulations  regarding  Blockchain  technology-based  applications, 
+and  such  regulations  may  conﬂict  with  the  current  ICOS  smart  contract  setup 
+
+30 
+
+and  ICOS  token  concept.  This  may  result  in  the  need  to  make  substantial 
+modiﬁcations  to  the  ICOS  smart  contract,  including  but  not  limited  to  its 
+termination,  the  loss  of  ICOS  tokens,  and  the  suspension  or  termination  of  all 
+ICOS token functions. 
+D. Taxes 
+ICOS  token  holders  may  be  required  to  pay  taxes  associated  with  the 
+transactions  contemplated  herein,  whether in the United States or in their home 
+countries.  It will be a sole responsibility of ICOS token holders to comply with the 
+tax  laws  of  the  United  States  and  other  jurisdictions  applicable  to  them and pay 
+all relevant taxes. 
+E. Force Majeure 
+ICOBox’s  performance  may  be  interrupted,  suspended  or  delayed  due  to  force 
+majeure  circumstances.  For  the  purposes  of  this  White  Paper,  force  majeure 
+shall  mean  extraordinary  events  and  circumstances  which  could  not  be 
+prevented  by  ICOBox  and  shall  include:  acts  of  nature,  wars,  armed  conﬂicts, 
+mass  civil  disorders,  industrial  actions,  epidemics,  lockouts,  slowdowns, 
+prolonged  shortage  or  other  failures  of  energy  supplies  or  communication 
+service,  acts  of  municipal,  state  or  federal  governmental  agencies,  other 
+circumstances  beyond  ICOBox's  control,  which  were  not  in existence at the time 
+of  White  Paper  release.  If  such  circumstances  occur  prior  to  the  issue  of  ICOS 
+tokens  and  ICOBox  is  unable  to  issue  ICOS  tokens  within  one  month  from  the 
+projected  date,  the  escrow  agent  may  issue  a  refund  at  the  request  of  the  ICOS 
+token  purchasers.  The  refund  will  be  issued  in  the  original  amount  and  form  of 
+payment  to  the  same  digital  wallet  or  bank  account  where  the  funds  were 
+transferred from.  
+F. Disclosure of information 
+Personal  information  received  from  ICOS  token  holders,  the  information  about 
+the  number  of  tokens  owned,  the  wallet addresses used, and any other relevant 
+information  may  be  disclosed  to  law  enforcement,  government  oﬃcials,  and 
+other  third  parties  when  ICOBox  is required to disclose such information by law, 
+
+31 
+
+subpoena,  or  court  order.  ICOBox  shall  at  no  time  be  held  responsible  for  such 
+information disclosure. 
+G. Value of ICOS token 
+Once  purchased,  the  value  of  ICOS  token  may  signiﬁcantly  ﬂuctuate  due  to 
+various  reasons. ICOBox does not guarantee any speciﬁc value of the ICOS token 
+over  any  speciﬁc  period  of  time.  ICOBox  shall  not  be  held  responsible  for  any 
+change in the value of ICOS token. 
+H. Number of submissions by ICO projects 
+ICOBox  does  not  guarantee  any  number  of  ICO  projects’  applications submitted 
+through  its  platform  and/or available for voting. ICOBox has control over neither 
+the  number  of  projects  applying  for  an  ICO  nor  over  their  quality.  The  expected 
+number  of  submissions  is  based  on  the  number of inquiries received by ICOBox 
+to  date  and  ICOBox’s  market  forecasts.  The  number  of  submissions  and  the 
+number  of  projects  presented  for  voting  may  vary  and  may  not  reach  the 
+expected  volume,  which  may  ultimately  aﬀect the expected length of the project 
+and  the  ICOS  token  holders’  ability  to  exchange  their  tokens  for  the  new  ICO 
+projects’ tokens at the anticipated rate and discount.   
+I. Number of new ICO projects’ tokens available for exchange 
+The  number  of  new  ICO  projects’  tokens  available  for  exchange  for  ICOS  tokens 
+may  vary  due  to  multiple  factors  such  as  the  amount  of  funds  received  by 
+ICOBox  through  the  sale  of  its  ICOS  tokens,  the  total  number  of  ICOS  tokens 
+sold,  market  conditions,  legal  regulations,  and  other  risks.  ICOBox  does  not 
+guarantee  any  speciﬁc  number  of  new  projects’  tokens  available  for  exchange 
+for an ICOS token at any given time. 
+J. Incomplete ICO 
+ICOBox  oﬀers  only  technology,  marketing,  and  legal  tools  to  projects  seeking  to 
+conduct  their  own  ICOs.  ICOBox  has  no  control  over  the  actions  of  the  projects’ 
+teams.  ICOBox  will  provide  its  tools  to  any  project  selected  by  the  ICOS  token 
+holders. However, ICOBox shall not be responsible for the completion or success 
+32 
+
+of  any  ICO if such failure resulted from the actions of the projects’ teams or third 
+parties.  Existence  of  projects  which  received  paid  services  but  failed  to  issue  its 
+tokens may negatively impact ICOS token exchange rate. 
+K. Bitcoin volatility 
+ICOBox’s  services  are  priced  in  bitcoins.  However,  certain  services  included  in 
+ICOBox  service  package  are  paid  for  by  ICOBox  in  USD  (for  instance,  marketing 
+traﬃc).  The  bitcoin  exchange  rate  volatility  may  impact  the  company's  ability  to 
+provide services at the indicated prices.  
+ 
+Assumptions  with  respect  to  the  foregoing  involve,  among  other  things, 
+judgments  about  the  future  economic,  competitive  and  market  conditions  and 
+business  decisions,  most  of  which  are  beyond  the  control  of  the  ICOBox  team 
+and  therefore  diﬃcult  or  impossible  to  accurately  predict.  Although  the  ICOBox 
+team  believes  that  its  assumptions  underlying  its  forward-looking  statements 
+are  reasonable,  any  of  these may prove to be inaccurate. As a result, the ICOBox 
+team  can  oﬀer  no  assurances  that  the  forward-looking  statements  contained  in 
+this  White  Paper  will  prove to be accurate. In light of the signiﬁcant uncertainties 
+inherent  in  the  forward-looking  statements  contained  herein,  the  inclusion  of 
+such  information  may  not  be  interpreted as a warranty on the part of ICOBox or 
+any  other  entity  that  the  objectives  and  plans  of  the  ICOBox  project  will  be 
+successfully achieved. 
+ 
+Please  note  that  the  ICOBox  project  may  be  subject  to  other  risks  not  foreseen 
+by its team at this time. 
+
+33 
+
+

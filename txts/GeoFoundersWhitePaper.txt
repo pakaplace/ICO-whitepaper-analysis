@@ -1,0 +1,797 @@
+ 
+
+GeoFounders
+White Paper
+
+Draft v0.4
+by Shaun Shull
+May 2017
+
+GEOFOUNDERS WHITE PAPER
+
+1
+
+Overview of the GeoFounders Project
+What is GeoFounders?
+GeoFounders is a software collective that creates desktop, mobile and web
+decentralized applications (dApps) which run atop popular blockchain platforms.
+Using custom-made middleware, GeoFounder’s software can switch between
+different blockchain networks and, in some cases, operate on more than one
+network at the same time. This feature allows customers to not only operate
+GeoFounders software on their preferred network, but also ensures the longevity of
+the GeoFounders software catalogue and an increase in overall potential customers.
+Once application software is created and put into operation, fees are generated
+through customer usage and are collected into a distribution account. This account
+can be accessed at any time by those who possess GeoFounder tokens, also called
+GeoUnits (GUNS). GUNS owners may collect their portion of the earnings based on
+their percentage of GUNS held versus the total fixed supply. Ten percent (10%) of all
+fees generated are reserved and cycled back into the process of designing,
+developing and marketing new software products and services to be added to the
+collective in order to increase overall fees, users and GUNS token value.
+Example: If you own 5% of the total fixed supply of GUNS, then you would be
+entitled to 4.5% of all earnings.
+
+What is the goal of GeoFounders?
+Our primary goal is to create useful and productive software which leverages the
+unique aspects of blockchain networks and brings substantial returns to our token
+holders. Our secondary goal is to help promote the understanding and adoption of
+blockchain technology and to provide software that is simple enough to use for
+mainstream markets and customers. 
+
+GEOFOUNDERS WHITE PAPER
+
+2
+
+GeoFounders Middleware
+GeoFounders middleware software is a crucial part of the GeoFounders
+development process and software usage. Blockchain platforms are numerous and
+packed with a variety of features, some the same, some vastly different. The space is
+new and therefor many experiments are being attempted to figure out which
+features work best. GeoFounders middleware allows us to shield our software
+catalogue from this creative chaos by acting as a bridge between the different
+blockchain networks and the applications. A set of internal communication
+standards has been developed which allow the applications and middleware to
+interact with a common and unchanging language while, in the background, the
+middleware is translating responses and requests from the applications into
+responses and requests that each particular blockchain platform understands. In
+essence, the middleware is acting as a reliable translator. Middleware will span
+across desktop, mobile and web platforms via status bar applications, remote
+middleware nodes, and web browser plugins. 
+
+GeoWrap Status Bar App 
+The GeoFounders Desktop Middleware
+
+GEOFOUNDERS WHITE PAPER
+
+3
+
+Visual Representation of the GeoFounders Process 
+
+Software
+Customers
+
+Software
+Customers
+
+Software
+Customers
+
+GeoFounders Middleware
+
+Software A
+
+Software B
+
+GeoFounder Dev Team &  
+Third-Party Dev Partners
+
+…..
+
+Software C
+
+GeoFounders Collections & Distribution Account
+
+New Software
+
+90%
+
+10%
+
+GeoFounder Token
+Holders
+
+GEOFOUNDERS WHITE PAPER
+
+4
+
+GeoFounders Process Explanation
+Software Creation
+In the beginning, applications are developed by the GeoFounders development
+team. These applications are developed specifically for use with the GeoFounders
+middleware software, which acts as a bridge between the various and growing list
+of blockchain platforms and the application request and response data structure.
+With the use of middleware, the GeoFounders software can remain platform
+agnostic.
+Software Installation
+Through marketing, word-of-mouth, or the GeoFounders application store, people
+learn about GeoFounders software and install an application. All applications
+package the GeoFounders middleware providing multiple options to the
+application user. Sophisticated users may choose to use the middleware to run a
+separate node for a particular blockchain platform (Ex. Ethereum) while lesstechnical users may opt to connect to a GeoFounders-hosted public remote node in
+order to save time. Once connected, the users can operate the software as intended.
+If the user is new to the cryptocurrency space, tutorial links and options to purchase
+tokens through third-parties are provided to help them get started.
+Software Usage
+Once the user begins to use a particular GeoFounders application, fees are collected
+for certain features. These fees are routed into an Ethereum-based distribution
+account with a particular set of smart contracts. These smart contracts enable GUNS
+owners to retrieve their portion of the earnings at any time.
+Continued Development and Marketing
+Ten percent (10%) of revenue generated by the GeoFounders software catalogue is
+reserved to continue operating GeoFounders software development and marketing
+in order to increase overall revenue, users and GUNS token value. 
+
+GEOFOUNDERS WHITE PAPER
+
+5
+
+Why should people use GeoFounders software?
+Although the space is relatively new and most software requires considerate
+technical knowledge, the fundamental benefits of blockchain technology is
+significant and will affect most, if not all, industries. GeoFounders software is lucky
+enough to benefit from these inherent features, which include:
+
+Feature
+
+Benefit
+
+Plain Language
+
+Decentralization
+
+The collective consensus of
+nodes keep the system secure.
+
+No government, corporation or
+individual can take down your
+data.
+
+Immutability
+
+Records cannot be altered
+retroactively without the
+alteration of all subsequent
+blocks and network collusion.
+
+Data added through the
+applications can be verified as
+authentic and untampered.
+
+No or Low Fees
+
+Transactions are typically in
+place as an incentive to miners
+when validating bitcoin blocks.
+
+Processing fees are a small fraction
+of what traditional banks and
+financial services charge.
+
+In addition to the built-in features of most blockchain technology, GeoFounders
+software specifically provides the following benefits:
+
+Feature
+
+Benefit
+
+App Store
+
+GeoFounders software
+All GeoFounders applications have
+embeds a decentralized app a store widget that allows the other
+store.
+applications to be downloaded.
+
+Custom Middleware
+
+GeoWrap acts as a bridge
+between software and
+blockchain platforms.
+
+The software runs on many
+different types of blockchains: Ex.
+Ethereum, Rootstock, Lisk, etc.
+
+Multilingual
+
+GeoFounders software will
+be translated into over 25
+languages.
+
+25 languages will be supported
+(over time).
+
+Optional Remote
+Nodes
+
+Mobile and non-technical
+individuals can use proxy
+nodes we host.
+
+Software can connect to the
+blockchain in seconds if you trust
+GeoFounders servers.
+
+GEOFOUNDERS WHITE PAPER
+
+Plain Language
+
+6
+
+What types of applications will GeoFounders develop?
+Like the mid to late 1990’s with the emergence of the Internet, we believe
+blockchain technology is likely to affect every industry. Because of this belief, we are
+casting a wide net and equally dividing software creation ambitions across the
+Enterprise, Professional and Consumer spaces.
+Below are a few of the initial first-round applications that are being developed for
+the 2017-2018 product cycle:
+
+GeoRealms 
+Fantasy Adventure Game
+
+GeoBanker 
+Multi-Blockchain Wallet & Financial Tools
+
+PubLub 
+Complete Digital Publishing Ecosystem
+
+Opify 
+Business Communication Platform
+
+GEOFOUNDERS WHITE PAPER
+
+7
+
+How will you market GeoFounders software?
+GeoFounders will use a mixture of traditional marketing techniques along with
+creative solutions unique to the blockchain space. We feel there are some very big
+opportunities available to us to market GeoFounders software to the public.
+Blockchain technology is currently a very important and exciting topic in the
+mainstream press and will likely remain so over the next few years as
+cryptocurrencies such as Bitcoin and Ethereum grow and expand their influence.
+Besides campaigns, partnerships and other marketing methods, the biggest driver
+of new users will likely come from the application stores embedded in all
+GeoFounders software and GeoWrap. Thanks to the blockchain, GeoFounder
+software can easily tap into a repository of store information and present a simple
+application store to all users. Another application store in development is called
+GeoDapps. This application store has a similar feel to stores such as the macOS App
+Store or Windows 10 App Store except it caters exclusively to decentralized
+application created by GeoFounders and third-parties. It is our hope that this store
+application makes it easier for people to find decentralized software and eventually
+review and rate said software. 
+
+GeoDapps 
+Application Store for Decentralized Apps
+
+GEOFOUNDERS WHITE PAPER
+
+8
+
+Token Mechanism
+GeoFounders tokens have many uses.
+GeoFounders tokens, also known as GeoUnits (GUNS), serve multiple purposes. The
+first purpose is to act as a measurement of “virtual stake” regarding revenue
+produced by the GeoFounders software catalogue. GUNS tokens are analyzed using
+a simple formula due to the fixed nature of the GUNS supply. For every GUNS token
+a person possesses, they receive 0.0000009% of the revenue generated by the
+GeoFounders software collective. The more tokens you possess, the greater your
+share of the revenue.
+The second purpose of GUNS tokens are to act as a verification mechanism within
+different GeFounder applications. Depending on the software, this authentication
+process can provide different services. For example, the primary GeoFounder
+members application uses token verification to allow communication within the
+software while other applications provide novelty software rights, such as the ability
+to name an in-game location within GeoRealms if you can verify an account with
+1000 or more GUNS.
+
+GeoFounder Members Application
+
+GEOFOUNDERS WHITE PAPER
+
+9
+
+Moonshine
+A Blockchain Platform for GeoFounders Software Testing
+Moonshine is a separate blockchain platform currently
+under development and scheduled to launch in Q4
+2018. Leveraging the future GeoFounders application
+catalogue, Moonshine will become the testing ground
+for new applications and updates to existing products.
+Moonshine will eventually receive access to GeoFounder
+and partner applications before other blockchain
+platforms and will provide a valuable and trusted
+network for the future development and growth of the
+software collective.
+The underpinnings of Moonshine utilize the Ethereum codebase which provide a
+solid industry-tested platform from which to launch. In addition to the Ethereum
+codebase, Moonshine implements an array of modifications both unique and from
+existing blockchain implementations to create an ideal platform for application
+development, decentralized data storage and multi-blockchain compatibility.
+
+Moonshine Chain
+Moonshine, at it's core, provides a Proof-of-Stake (PoS) consensus mechanism, a
+generic pluggable second-tier network for future expansion and the Moonshine
+Virtual Machine (MVM) which borrows very heavily from the Ethereum Virtual
+Machine (EVM). The Moonshine chain uses tokens called "shine". This chain secures
+the network, executes smart contracts and processes all transactions on the
+platform (except for second-tier middle-hops). The chain is heavily optimized to
+reduce data size and maintain extremely fast transaction processing. Exploration
+
+GEOFOUNDERS WHITE PAPER
+
+10
+
+into new pruning methods are being reviewed to possibly help reduce the size of
+the blockchain further to encourage the largest number of possible nodes.
+
+Custom Client Software
+At the launch of Moonshine, GeoFounders will release custom client software. This
+software will embed the features of GeoWrap and GeoDapps to create a universal
+client application with both curated and uncurated decentralized app store
+functionality. The design of the client software will focus on ease-of-use for
+mainstream non-technical participants while still allowing advanced panels for
+power-users, including a built in scripting capability for node macros. Relays and
+plugins will be pluggable within the client software.
+
+Relays
+Relays are used as 2-way pegs which enable exchange with other blockchain
+platform tokens. Relays are kept purposely minimal and will likely rely on an array of
+federated nodes to maintain a 2-way peg with other networks. Relay nodes use the
+Moonshine second-tier network to reduce blockchain bloat and enable flexible
+interactions without concern to the main chain. New relays are incrementally added
+based on demand and the available external resources for each platform.
+Moonshine will leverage existing relay codebases to accelerate the initial
+development of relays for the most popular networks.
+
+GeoFounders Involvement
+Moonshine will not have an Initial Coin Offering. The initial Moonshine supply will be
+exclusively available to GeoUnit token (GUNS) holders. A call for token requests will
+be held on November 1, 2018 where an Ethereum smart contract will verify requests
+for Shine tokens based on GUNS ownership. If requested, the GUNS owner will
+receive a 1:1 ratio of Shine tokens which will be built into the genesis block of the
+
+GEOFOUNDERS WHITE PAPER
+
+11
+
+Moonshine platform. The initial Moonshine token supply will be based on the final
+request tally.
+
+Purpose of Creation
+The Moonshine network is being developed as a test network and alternative
+platform for the GeoFounders application catalogue. Although existing blockchain
+platforms provide excellent networks, it will be important for GeoFounders to have
+influence and access to it's own network. The network can be used as a means for
+securing the future of GeoFounders applications as well as ensuring platform-level
+update capabilities, if needed, without fear of stagnation or resistance from
+economically opposed entities. GeoFounders software will continue to run on all
+other supported networks without change.
+
+Existing Resources
+Moonshine is built upon a foundation of existing code, protocols and concepts. The
+majority of the features within the platform exist in some form or fashion on current
+networks. The goal and challenge for Moonshine is to combine these technologies,
+many of which are written in different programming languages, into a single, new
+and functional test network.
+Moonshine is still in early development. The initial codebase will be committed to
+the GeoFounders GitHub account on March 1, 2018 after the development reaches
+v0.1. The first Moonshine client is being developed in Rust with plans on porting to
+other languages as development progresses. 
+
+GEOFOUNDERS WHITE PAPER
+
+12
+
+GeoFounders Roadmap
+The dates below reflect our development and release schedule for the GeoFounders
+software catalogue assuming our funding goal is met. Most software will be
+released in a three-phase process; Alpha, Beta and Version 1.0 Release. Alpha
+software is typically just for testing and demonstration and will likely have a limited
+user interface, software bugs and may be missing features. Alpha releases are
+intended to keep the GeoFounders community involved in the ongoing
+development process. Beta releases are more polished and contain the majority of
+features and user interface elements. This version of the software is intended for
+extensive testing in order to finalize the final release. Version 1.0 release of
+GeoFounders software will be the recommended software for standard users. This
+software is ready for production use with real cryptocurrency tokens.
+Development & Release Schedule 2017-2019:
+- July, 2017 : GeoWrap Optimization
+- August, 2017 : Alpha Release of GeoRealms
+- August, 2017 : Alpha Release of GeoBanker
+- September, 2017 : Beta Release of GeoJournalist
+- October, 2017 : Alpha Release of GeoDrawer
+- October, 2017 : Release of Version 1.0 of GeFounder Members App
+- November, 2017 : Alpha Release of Willmorrow
+- November, 2017 : Release of Miscellaneous GeoFounders Web Tools
+- December, 2017 : Beta Release of GeoBanker
+- December, 2017 : Beta Release of GeoRealms
+- December, 2017 : Alpha Release of PubLub
+- January, 2018 : Alpha Release of Opify
+- January, 2018 : Alpha Release of GeoDapps
+- January, 2018 : Beta Release of GeoDrawer
+- February, 2018 : Version 1.0 Release of GeoBanker
+
+GEOFOUNDERS WHITE PAPER
+
+13
+
+- February, 2018 : Version 1.0 Release of GeoJournalist
+- February, 2018 : Beta Release of Willmorrow
+- March, 2018 : Release of 2018-2019 App Schedule
+- March, 2018 : Beta Release of GeoDapps
+- March, 2018 : Beta Release of PubLub
+- April, 2018 : Start of the Mobile Initiative
+- April, 2018 : Version 1.0 Release of GeoRealms
+- April, 2018 : Beta Release of Opify
+- May, 2018 : Version 1.0 Release of GeoDapps
+- May, 2018 : Version 1.0 Release of GeoDrawer
+- June, 2018 : Version 1.0 Release of PubLub
+- July, 2018 : Version 1.0 Release of Willmorrow
+- August, 2018 : Version 1.0 Release of Opify
+- August, 2018 : Start of Mobile Beta Releases
+- September, 2018 : Start of Four Month Optimization Process
+- October, 2018 : Moonshine Testnet
+- November, 2018 : Updates to Web Tools
+- December, 2018 : Start of Mobile Version 1.0 Launches
+- February, 2019 : Moonshine Launch
+- February, 2019 : Version 2.0 Release of GeoDapps
+- February, 2019 : Start of Release Cycle for Apps in 2018-2019 Schedule
+- March, 2019 : Version 2.0 Release of GeoJournalist
+- March, 2019 : Version 2.0 Release of GeoDrawer
+- April, 2019 : Version 2.0 Release of GeoBanker
+- May, 2019 : Version 2.0 Release of GeoRealms
+- May, 2019 : Version 2.0 Release of PubLub
+- June, 2019 : Version 2.0 Release of Willmorrow
+- July, 2019 : Version 2.0 Release of Opify
+- September, 2019 : Application Schedule Announcements and Release Cycle
+- November, 2019 : Version 2.0 of GeoFounder Member Application with New
+Governance-Related Tools, Start of Discussion Regarding GeoFounders Org 
+
+GEOFOUNDERS WHITE PAPER
+
+14
+
+Long-Term Objectives
+The long term objectives of GeoFounders are as follows:
+•
+
+Create Highly Useful and Productive Software 
+ 
+We want to eradicate the “what can you do with it” argument related to
+blockchain software. Our primary goal is to create software that people prefer to
+use and enjoy, and we believe blockchain networks can help us achieve this goal.
+An always available, economically plugged-in, decentralized data store network
+makes our software much more powerful than a proprietary centralized system
+in most scenarios. We intend to exploit every advantage as it relates to
+blockchain features. 
+
+•
+
+Change Industries 
+ 
+We love niche software that accommodates a specific group of users but the
+most exciting software are those which can change the way people
+communicate, work or stay organized. This is why we are working on applications
+such as Opify and PubLub. We want to use the blockchain to disrupt entire
+industries and change the way things are done. Thankfully this technology gives
+us that opportunity to attempt just that. 
+
+•
+
+Create Value for Those Who Put Their Faith In Us 
+ 
+We are laser-focused on creating value for our token holders. We want GeoUnits
+to be a premium token that people wish to hold long term and collect earnings
+from. This is why our initial development cycle include multiple methods of
+discovering, installing and launching new applications and why many of our
+applications have very clear and defined paths to fee collections that benefit
+both the users of the software and our token holders. 
+
+GEOFOUNDERS WHITE PAPER
+
+15
+
+GeoFounders Crowdsale
+Crowdsale Information
+Crowdsale Date and Pricing:
+June, 2017 : For specific date and pricing please refer to the ICO Website at the
+bottom of this document.
+Total Fixed Supply:
+100,000,000 GeoUnits (GUNS)
+Crowdsale Cap and Payment Method:
+Cap: 65,000,000 GUNS (65%)
+Payment: ETH
+Funding Goal:
+10,000 ETH (Currently about $2.5 million USD)
+Token Symbol for GeoUnits:
+GUNS
+Notes:
+GeoFounders software supports many different blockchain platforms. As a matter of
+convenience, we have chosen Ethereum (ETH) as the platform from which the
+primary distribution contracts and token management software operate. We felt
+separating the concerns across platforms would make management and
+coordination untenable.
+
+Use of Crowdsale Funds
+
+GEOFOUNDERS WHITE PAPER
+
+16
+
+Funds that are raised will go towards the following for GeoFounders:
+Team Leads:
+The current ratio of team lead versus application is 1:4. Additional trusted team
+leaders would be added to GeoFounders to lower the ratio to 1:2 and for some of the
+more ambitious applications 1:1.
+Design:
+A few reliable professional designers will be brought in-house to expedite the
+creation of game assets and to improve user experience and interface design across
+all applications.
+Marketing & Public Relations:
+We intend for version 1.0 of our product catalogue to compete with mainstream
+products in the market. To accomplish this task we will utilize a combination of
+traditional and unique marketing campaigns to get the word out. Campaigns will
+remain within very tight budget constraints.
+Business:
+The blockchain space is extremely new, enabling many potential development and
+partnership opportunities.
+Capital Reserve:
+Some capital will be kept in reserve for bootstrapping the initial application
+catalogue development. A portion of the funds are allotted for potential acquisition/
+acqui-hire opportunities and group opportunities that benefit the entire collective.
+Capital Distribution Chart:
+Crowdsale Accounts:
+
+GEOFOUNDERS WHITE PAPER
+
+17
+
+Development
+
+Marketing
+
+Legal
+
+Biz Dev
+
+Design
+
+Reserve
+
+10%
+
+20%
+
+40%
+
+5%
+5%
+20%
+
+The crowdsale funds will be divided into six Ethereum accounts representing the
+different aspects of the business, as depicted in the chart above. By dividing these
+funds in this manner we can more easily track where, when and for what the funds
+are being used on. 
+
+GEOFOUNDERS WHITE PAPER
+
+18
+
+GeoFounders Token Holder Payout
+More Details Regarding GUNS Payouts
+Distribution:
+Distribution is determined based on GUNS ownership, with 10% of revenue alloted
+towards continued development. Example: If you own 5% of the total GUNS supply
+then you will receive 4.5% of the collected profits.
+Non-Ethereum Payouts:
+Tokens collected on non-Ethereum platforms will be liquidated on a bi-weekly basis
+into ETH and transferred into the collective distribution contract. Members have the
+option to use the GeoFounder application (ETA October, 2017) to specify accounts
+for other platforms and have their earnings in these tokens routed to their native
+accounts instead of liquidation.
+Autonomous Collections:
+GeoFounders utilizes Ethereum smart contracts to hold GUNS token holder
+earnings until their request. Due to the nature of smart contracts, funds are not
+routed to accounts and instead must be requested by the token holder.
+Manual or Periodic Collections:
+Some GeoFounders software will have manual or semi-manual fee collection
+processes. When necessary, funds collected through this process will be transferred
+to a trusted oracle, then liquidated and routed to the GeoFounders distribution
+contract.
+Transparency:
+Transparency will be employed regarding any interactions with GeoFounders funds
+not immediately visible in the blockchain. 
+
+GEOFOUNDERS WHITE PAPER
+
+19
+
+GeoFounders Team
+Business & Marketing Team Lead
+Edward Shull is a former senior analyst at Morgan Stanley and
+a veteran of the banking and web startup industry. For the
+past decade Mr. Shull has operated a boutique web
+consultancy called USWeb with clients ranging from Forbes
+and Dow Jones to ABN AMRO Bank and Nasdaq.
+Mr. Shull's past experience makes him uniquely qualified in the blockchain space for he has
+worked in a variety of positions within financial service and Internet startup organizations.
+Such experience includes working in customer relations for Chase Bank, as a loan officer for
+a small Chicago lending firm, in a Silicon Valley startup incubator and as a senior analyst for
+Morgan Stanley specializing in CRM software.
+Mr. Shull became interested in the blockchain space after investing in the Ethereum ICO
+and participating in numerous discussions regarding blockchain technology and it's
+potential for financial service applications. Mr. Shull studied computer science and
+marketing at Harvard University. During his free time, Mr. Shull enjoys writing, spending
+time with his son Michael and listening to the heavenly music of the 80’s.
+Programming Team Lead
+Shaun Shull is a senior programmer with over 20 years
+experience in the software industry. For the past decade Mr.
+Shull has worked as the lead developer for USWeb, a familyrun web consultancy.
+Mr. Shull began his programming career at the age of 14,
+learning Perl and writing his first commercial program for a small advertising business.
+After high school in the late 90's, Mr. Shull moved across the country to Silicon Valley where
+
+GEOFOUNDERS WHITE PAPER
+
+20
+
+he gained valuable knowledge and experience working for many high-profile companies
+such as 3Com, Oracle, Visa and numerous web startups.
+In 2003 Mr. Shull joined USWeb and lead development for important clients including
+CNET, Hachette Filipacchi and Booz Allen Hamilton. During Mr. Shull's research efforts he
+discovered Bitcoin and the fascinating technological concepts behind it. Although missing
+out on Bitcoin, this fascination would eventually lead to Mr. Shull's investment into the
+Ethereum crowd sale and the creation of his own crypto-portfolio management software.
+This software would become the foundation of GeoFounders.
+Game Design Team Lead, Programming & Marketing Support
+Michael Shull is a software programmer and web developer
+with a strong passion for Bitcoin and related blockchain
+technologies. Mr. Shull is a recent graduate of Harvard
+University with a Master's degree in Liberal Arts with a focus
+on Digital Media Design. His other credentials include a
+Bachelor's degree in Communications from UNLV and a
+Certificate in Web Technologies from Harvard University.
+While getting an education, Michael worked as a junior programmer, web developer and
+Unity/Unreal game designer at USWeb alongside his father and cousin. At USWeb he was
+responsible for assisting with content management software programming, video
+production and general web development tasks.
+Mr. Shull became interested in the blockchain space during his last two years at university.
+For his final Capstone project, Mr. Shull programmed a cross-platform blockchain-based
+address book application that required no third party hosting service or technical expertise
+to operate. This project sparked his continued fascination with blockchain technology and
+it's potential to change the world. 
+
+GEOFOUNDERS WHITE PAPER
+
+21
+
+ 
+
+Alex Barlow
+
+Chris Kissel
+
+Partner
+
+Senior Analyst of Cyber Security
+
+Robins Cloud Law Firm
+
+Frost & Sullivan
+
+John Law
+
+Danny Roberts
+
+Network Manager & Senior
+
+Graphic Designer, International
+
+Programmer
+
+Gaming Technologies (IGT) &
+
+Holley Performance Products
+
+Former Designer for Jet Set
+Games
+
+GEOFOUNDERS WHITE PAPER
+
+22
+
+Terms & Conditions
+Warning: GeoFounders is a high-risk pre-sale purchase. Do not purchase GeoUnit
+Tokens (GUNS) without fully understanding the products being sold and the risks
+associated with blockchain-related software and cryptocurrency pre-sales.
+Ownership of GeoUnit Tokens (GUNS) carries no rights express or implied. Purchases
+of GeoUnit Tokens (GUNS) are non-refundable. Purchasers should have no
+expectation of influence over governance of the platform.
+By participating in the sale of GeoUnit Tokens (GUNS), you expressly acknowledge
+and represent that you have carefully reviewed the Terms and Conditions and fully
+understand the risks, costs, and benefits of purchasing GeoUnit Tokens (GUNS) and
+agree to be bound by these Terms. As set forth further below, you further represent
+and warrant that, to the extent permitted by law, you are authorized to purchase
+GeoUnit Tokens (GUNS) in your relevant jurisdiction, are of a legal age to be bound
+by these Terms, and will not hold GeoFounders, its parent and affiliates, the officers,
+directors, agents, joint ventures, employees and suppliers of GeoFounders, now or in
+the future and any other member of the GeoFounders Team (collectively the
+"GeoFounders Parties") liable for any losses or any special, incidental, or
+consequential damages arising out of, or in any way connected to the sale of
+GeoUnit Tokens (GUNS).
+The GeoUnit Tokens (GUNS) purchase price is exclusive of all applicable taxes. You
+are responsible for determining what, if any, taxes apply to your purchase of
+GeoUnit Tokens (GUNS), including, for example, sales, use, value added, and similar
+taxes. It is also your responsibility to withhold, collect, report and remit the correct
+taxes to the appropriate tax authorities. We are not responsible for withholding,
+collecting, reporting, or remitting any sales, use, value added, or similar tax arising
+from your purchase of GeoUnit Tokens (GUNS).
+
+GEOFOUNDERS WHITE PAPER
+
+23
+
+By transferring Ether to the GeoUnit Tokens (GUNS) address, you represent and
+warrant that:
+•
+
+You have read and understand these Terms; 
+
+•
+
+You have a sufficient understanding of the functionality, usage, storage,
+transmission mechanisms and other material characteristics of cryptographic
+tokens like Bitcoin and Ether, token storage mechanisms (such as token wallets),
+blockchain technology and blockchain-based software systems to understand
+these Terms and to appreciate the risks and implications of purchasing GeoUnit
+Tokens (GUNS); 
+
+•
+
+You understand and acknowledge that title to, and risk of loss of, GeoUnit Tokens
+(GUNS) you purchase from Company and receive from the Smart Contract
+System passes from Company to you. 
+
+GEOFOUNDERS WHITE PAPER
+
+24
+
+Contact Information
+Phone and Email
++1 (855) 259-5335
+staff@geofounders.com
+
+Website
+http://www.geofounders.com
+
+ICO Website
+http://www.geofounders.com/ico/
+
+Mailing Address
+GeoFounders LLC
+631 North Stephanie St.
+Henderson, NV
+89014
+
+Online
+Slack: https://geofounders.slack.com/
+Blog: https://medium.com/@geofounders
+Facebook: https://www.facebook.com/geofounders
+Twitter: https://twitter.com/geofounders
+Youtube: https://www.youtube.com/channel/UCuU1g4JLAnl2baSAPq1DxHw
+
+GEOFOUNDERS WHITE PAPER
+
+25
+
+

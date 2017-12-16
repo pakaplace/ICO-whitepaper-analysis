@@ -1,0 +1,635 @@
+Nexxus Whitepaper
+April 5, 2017
+
+“Bitcoin currently is the largest social economic experiment
+ever conducted in the history of the world."
+Gavin Andresen
+Former lead bitcoin developer and one of a few individuals that
+worked and communicated directly with Satoshi Nakamoto.
+
+Contents
+OVERVIEW ........................................................................................................................................ 2
+Abstract ............................................................................................................................... 2
+Introduction......................................................................................................................... 2
+The Problem Bitcoin Solves ................................................................................................. 3
+Solution Acceptance ............................................................................................................ 4
+Solution Technology ............................................................................................................ 5
+NEXXUS REWARDS............................................................................................................................ 6
+Nexxus Rewards Technology ............................................................................................... 6
+Merchant Value Proposition ............................................................................................... 7
+Shopper Value Proposition.................................................................................................. 8
+Nexxus Crypto-Café ............................................................................................................. 9
+Nexxus ATM......................................................................................................................... 9
+SUPPORTING TECHNOLOGIES ........................................................................................................10
+Nexxus University ..............................................................................................................10
+Nexxus Barter ....................................................................................................................11
+Nexxus HandUp .................................................................................................................11
+Nexxus Sales Management ...............................................................................................12
+DIGITAL TOKEN ...............................................................................................................................12
+Role of the Nexxus Digital Token.......................................................................................12
+MARKETING PLAN ..........................................................................................................................13
+Go-To-Market Strategy......................................................................................................13
+MANAGEMENT ...............................................................................................................................15
+Nexxus Team .....................................................................................................................15
+Nexxus Expertise ...............................................................................................................17
+Nexxus Timeline ................................................................................................................19
+References .........................................................................................................................20
+(1)
+
+OVERVIEW
+Abstract
+Nexxus Partners was established in January 2016 in Texas, USA as a services
+company for the bitcoin and cryptocurrency industry. Nexxus has already
+developed advanced technology and innovative business models preparing to
+take cryptocurrency from the digital world to hometown communities all over
+the world, with cryptocurrency cafés, ATMs and a shopper rewards program.
+Nexxus recognizes that the mainstream public will adopt cryptocurrency only
+after they understand what it is and how they can benefit from it. The new
+emerging technology of cryptocurrency requires an ecosystem of support
+services, which are provided by Nexxus to facilitate the mainstream adoption of
+cryptocurrency.
+Nexxus is empowering people to take back control of their money with the
+biggest disruptive technology in modern history; an unstoppable grass-roots
+movement that won’t be trampled on by any government or bank. It’s all about
+the people’s freedom and reclaiming it.
+
+Introduction
+Bitcoin technology is uniquely ingenious, innovative and accomplishes the objectives described in the
+2008 whitepaper titled “Bitcoin: A Peer-to-Peer Electronic Cash System” by Satoshi Nakamoto. The
+Bitcoin whitepaper abstract states: “A purely peer-to-peer version of electronic cash would allow
+online payments to be sent directly from one party to another without going through a financial
+institution.”
+As the Bitcoin technology matures and evolves with continual improvements for its safe and secure
+use, an equally important question arises on how Bitcoin solutions will be delivered to the
+marketplace. The former lead Bitcoin developer, Gavin Andresen, asserts that Bitcoin is the largest
+social economic experiment ever conducted in the history of the world. This experiment must move
+from the technology laboratory to the mainstream public in order to realize its full potential, described
+by many experts as having the ability to impact human culture in a greater way than any other
+disruptive technology in modern history.
+Some say it will be bigger than the personal computer and the Internet combined because we are now
+talking about disrupting the current worldwide political and financial establishment’s power structure
+– the people’s money.
+
+(2)
+
+The Problem Bitcoin Solves
+To fully appreciate the Bitcoin solution, one must first understand the problem that Bitcoin solves.
+Leading up to the 2008 United States financial crisis, the number of lower-quality subprime mortgages
+rose from 8% to over 20%, with 90% of those being adjustable-rate mortgages. The crisis was triggered
+by a large decline in home prices after the collapse of a housing bubble that was caused by the
+increased demand by subprime borrowers. The lower-credit quality ultimately caused massive defaults
+and the devaluation of housing-related securities.
+The poor-quality mortgages had been packaged together and fraudulently sold as high-quality
+mortgage-backed securities, due to the over-generous A+ ratings by Moody’s and Standard and Poor’s
+who were paid by the banks offering the “safe” investments.
+When U.S. home prices declined steeply after peaking in mid-2006, it became more difficult for
+borrowers to refinance their loans. As adjustable-rate mortgages began to reset at higher interest rates
+(causing higher monthly payments), mortgage delinquencies soared. Securities backed with mortgages,
+including subprime mortgages, widely held by financial firms globally, lost most of their value, forcing
+many large financial corporations into bankruptcy.
+The United States 2008 financial crisis was only a symptom of the real problem of widespread
+corruption by financial institutions, governments and central banks. Governments have the selfassigned ability to create money out of nothing, typically by politicians in order to fund their pet
+projects to fulfill commitments made to campaign donors and the people that got them elected. The
+problem is not unique to the United States and is very common with all governments around the
+globe. Similar financial crises have hit many other countries like Mexico, Brazil, Argentina, South Korea,
+Turkey, Cypress and Greece to name a few with corrupt and irresponsible governments that were
+wildly spending other people’s money and borrowing well beyond their ability to repay. Some
+governments even confiscated money from their citizens in order to pay for their debts.
+These actions constitute a form of legalized theft from the people. When more currency is printed or
+digitally created, the currency supply increases while the value of the currency decreases. Not only do
+the people end up with less value and purchasing power in the currency they hold, they are also taxed
+to pay for the newly created currency in the form of bonds, which constitute the bulk of the national
+debt – a double slap in the face of the people. In the United States, the Federal Reserve was
+established in 1913 and is one of many central banks worldwide designed to control the money and
+thus control the people.
+The former Director of the Bank of England, Sir Josiah Stamp shared his wise insights as follows:
+"The modern banking system manufactures money out of nothing. The process is perhaps the most
+astounding piece of sleight of hand that was ever invented. Banking was conceived in iniquity and
+born in sin. Bankers own the earth. Take it away from them, but leave them the power to create
+money and control credit, and with the flick of a pen, they will create enough money to buy it back
+again... But if you want to continue as the slaves of bankers and pay the cost of your own slavery,
+let them continue to create money and to control credit."
+(3)
+
+Bitcoin was specifically designed to solve and transcend all these problems. The fundamental principles
+of Bitcoin and all cryptocurrencies include:
+1. DECENTRALIZATION: Cryptocurrency is owned and controlled by the people. The public ledger
+or “blockchain” is a decentralized, distributed ledger stored collectively on millions of
+computers worldwide and is governed by consensus algorithms, math and the people, not by
+governments, financial institutions or central banks.
+2. PRIVACY: The consumer's identity is as anonymous as they want it to be. The blockchain
+contains only cryptic numbers known as cryptocurrency coin addresses for the sender and
+receiver of each transaction.
+3. UNLIMITED USE: Cryptocurrency can be sent immediately to and from anyone, anywhere,
+anytime, for anything, in any amount, with little or no fees.
+4. CONTROLLED SUPPLY: No one can change the predetermined and published circulation
+schedule of a cryptocurrency. The government cannot arbitrarily create more cryptocurrency
+out of thin air and devalue it. Cryptocurrencies have many of the same characteristics as the
+precious metals that were once used to back a currency. They work because of their controlled
+and limited supply.
+5. TRANSPARENCY: Everything is public. All technical specifications, whitepapers and source code
+files are published for the public to see. All cryptocurrency transactions are recorded in the
+blockchain for everyone to see with a publicly provided blockchain explorer.
+No government or bank can create more bitcoins or any other cryptocurrency, nor can they confiscate
+anyone’s money or tell anyone what they can and can’t do with their money. Bitcoin is a grass-roots
+movement driven by the people and is unstoppable in the exact same way that the Internet cannot be
+stopped or shut down because it has no single point of control or failure.
+
+Solution Acceptance
+The challenge of gaining broad acceptance is not unique to Bitcoin. Every new technology faces the
+same challenges as it strives to cross the chasm from early technology adopters to mainstream public
+acceptance.
+Personal computers were first invented in the mid-1970s as assembly kits. They were first used by
+techie hobbyists and were of little to no interest to the public. It wasn’t until there was a benefit for
+them that they started paying attention to personal computers. The VisiCalc electronic spreadsheet by
+Dan Bricklin in 1979 was the first application (or “Killer App”) for the personal computer that provided
+benefits to non-techies and owners of small and medium sized businesses. The general adoption of
+personal computers by the average Joe and Jane didn’t happen until the Graphical User Interface (GUI)
+had matured through three major versions of Microsoft Windows on May 22, 1990, with Windows 3.0.
+The original Internet, ARPANET, was invented in 1969, with commercial Internet Service Providers (ISP)
+starting to pop up in the late 1980s, followed by the first graphical Internet browser, Mosaic (Netscape)
+by Marc Andreessen in 1993. However, mainstream adoption did not occur until the mid-to-late 1990s
+with “Killer Apps” like electronic mail, information search engines, and electronic commerce.
+(4)
+
+The personal computer and the Internet took ten to fifteen years to achieve mainstream public
+adoption. Bitcoin is only eight years old and is still searching for the Killer App that will attract the
+general public. Cryptocurrency is currently where personal computers were with green screens and
+floppy drives in the early-to-mid 1980s. Bitcoin solutions have a ways to go before they will be
+considered easy, safe and convenient to use. Finding merchants in your community that will accept
+bitcoin payments is not easy. The cryptocurrency industry will develop mature and convenient
+solutions just as personal computers replaced an entire infrastructure of corporate computing.
+The real question being asked by the general public is “What’s in it for me?”, “Why should I use
+bitcoin?” after all, their credit cards still work just fine. There must be a good reason for people to buy
+and use bitcoin. One might be tempted to think that the inherit benefits of decentralization, privacy,
+unlimited use, controlled supply and transparency are sufficiently good reasons, except for the fact
+that most people have never heard of cryptocurrency and have no idea what Bitcoin really is.
+The ultimate delivery solution must accomplish multiple goals. First, it must help the general public
+understand what bitcoin is, what problems it solves, why it is important, how it can benefit them, and
+how to use it safely and securely. Second, it must provide a sufficient benefit for the general public to
+use it. There must be a very good reason, a “Killer-App” if you will, possibly something like getting a
+better deal from merchants when paying with cryptocurrency. But before they will recognize and
+desire a benefit, they must first understand what it is.
+Regarding merchants, bitcoin is currently being presented to them as a payment processing solution to
+save a few percentage points in credit card processing fees. The opportunities are much greater for
+merchants to benefit from bitcoin and other top cryptocurrency marketing solutions to significantly
+increase their sales revenue by acquiring and retaining new customers.
+
+Solution Technology
+The complete bitcoin solution for the mainstream public adoption of cryptocurrency includes many
+layers of technology, similar to computer technology that has a Central Processing Unit (CPU) to do the
+main computing work, but also has layers of technology support services like user input devices
+(keyboards, mice, microphones), user output devices (monitors, speakers, printers), storage devices
+(RAM, hard drives, memory cards) and communication devices (network cards, Bluetooth, infrared, WiFi) that constitute the complete solution we call a computer.
+Likewise, the core Bitcoin technology is the blockchain software, equating to a CPU. The blockchain
+software is supplemented with technology support services like blockchain explorers, wallets, public
+exchanges, price aggregators, payment processors, news propagators, industry watchdogs, educational
+services and marketing solutions that make up the complete bitcoin solution for the end-users.
+Each of these support service technologies is as important to the complete bitcoin solution as our arms
+and legs are to our brain. The development and maturity of these technology support services will
+define the usefulness and eventual adoption of cryptocurrency by the mainstream public.
+Cryptocurrency blockchain software is constantly being improved and matured with the release of new
+versions and even new cryptocurrencies. The technology support services are also maturing and new
+services are being introduced to expand the reach and value of bitcoin solutions to the public.
+(5)
+
+As Bitcoin technology expands outward from the core blockchain software, to the end-user it provides
+more opportunities for creative user experiences and innovative business models to play a significant
+role in the complete bitcoin solution.
+
+NEXXUS REWARDS
+
+Nexxus Rewards Technology
+Cryptocurrency is disruptive but more people need to understand it in order for it to be truly
+transformational. Nexxus has chosen a suite of services designed to help popularize cryptocurrencies.
+They pivot around the Nexxus Rewards – Global Rewards Community. Merchant loyalty programs
+suffer from several problems that blockchain technology can uniquely solve. As Nexxus Rewards solves
+some of those industry-specific problems, it will be helping the overall cause of cryptocurrency
+adoption.
+The core technology is Nexxus Rewards – a global rewards community. Nexxus Rewards facilitates the
+use of cryptocurrency with a win-win-win situation for the merchants, shoppers and the local
+community. Shoppers have mobile and desktop apps to find Nexxus merchants to collect and redeem
+Nexxus Rewards points. Nexxus Merchants have Nexxus promotional advertising in their stores. The
+Nexxus Rewards technology is already up and running in production with beta merchants currently
+offering free cash back rewards to shoppers.
+Nexxus merchants can come from all types of businesses in the local community like bakeries, salons,
+restaurants, boutiques, dry cleaners, tire stores, flower stores, gift shops, cafes, pizza parlors, burger
+joints, frozen yogurt shops, grocery stores, service stations, butcher shops, game centers, miniature
+golf, movie theaters, home repairs, real estate, car dealerships, etc.
+Nexxus Rewards is the first global rewards loyalty technology for bitcoin and other top
+cryptocurrencies. Nexxus Rewards meets people where they are most comfortable today by accepting
+any local fiat currency and eventually leading them to the virtues of cryptocurrency.
+Nexxus Rewards plans for explosive growth worldwide with a trained and certified independent direct
+sales force and a distribution strategy designed to create critical mass in local communities in order to
+provide enough shoppers for the merchants and enough merchants for the shoppers.
+Nexxus Partners has a strong technology background and has developed all of its technology internally
+over many years. All technology, including the Nexxus Global Rewards system and its many supporting
+services like the Nexxus University Learning Management System (LMS), the Nexxus Barter system and
+the Direct Sales Management system are all developed, owned and controlled by Nexxus with no thirdparty dependencies for critical functionality. This enables Nexxus to move quickly with enhancements
+and refinements to meet the changing needs of the business environment.
+
+(6)
+
+Merchant Value Proposition
+Risk Free: Nexxus merchants have a completely risk-free solution to get and keep new customers.
+There are no signup fees, no contracts, no special software and no special terminals to lease or
+purchase. Merchants pay nothing until after they make the sale – no more Pay-n-Pray advertising.
+Customer Acquisition: Merchants can acquire new customers by accessing Nexxus registered shoppers
+with a text messaging (SMS) marketing system to send daily promotions at no additional cost.
+Merchants can reach shoppers that may not even know they exist and reach them where they are – on
+their mobile devices. Merchants also have an online presence on the mobile shopper application.
+Customer Retention: Merchants can keep customers coming back again and again to collect and
+redeem their cash back rewards. Merchants can offer cash back rewards that are redeemable at any
+merchant in the network and they can offer exclusive recognition awards redeemable only at the
+issuing merchant.
+Flexible Pricing: Merchants can name their own price for the valuable Nexxus marketing services. Each
+merchant decides how much cash back reward they will offer based on their profit margins. Even the
+low 1% to 5% marketing fees are flexible and based on the offered cash back reward.
+Additional Revenue: Merchants can create an additional
+revenue stream by participating in the free Nexxus viral
+marketing program that pays them for every transaction done
+at any merchant by any shopper they refer and anyone those
+shoppers refer… to infinity.
+Cryptocurrency Payments: Merchants also have unlimited
+access to a cryptocurrency payment-processing gateway that
+allows them to accept bitcoin and any other top
+cryptocurrencies supported by Nexxus Rewards.
+Merchant Portal:
+
+(7)
+
+Shopper Value Proposition
+Global Rewards: The Nexxus shared rewards program allows shoppers to
+register free of charge, collect free cash back reward points and redeem
+them at any Nexxus merchant.
+Dynamic Points: Shoppers can collect dynamic cash back reward points that
+can increase in value as usage of Nexxus Rewards grows worldwide.
+Referral Rewards: Shoppers can earn free referral shopping rewards for
+every transaction done by any shopper they personally refer.
+
+Shopper Portal:
+
+(8)
+
+Nexxus Crypto-Café
+The Nexxus strategy to take cryptocurrency from the digital world to home town communities all over
+the world includes local physical Nexxus Crypto-Cafés as the community centers for everything
+cryptocurrency. Nexxus Crypto-Cafés are community centers for the public to learn about and use
+cryptocurrency. Every Nexxus Crypto-Café will have a cryptocurrency automated teller machine (ATM)
+for exchanging cryptocurrency to and from the local fiat currency.
+The Nexxus Crypto-Café is the local Nexxus sales headquarters supporting merchants and community
+organizations, as well as training and supporting the independent Nexxus sales force.
+Nexxus Crypto-Cafés will include lounge areas, classrooms, small offices, free Wi-Fi, food and beverage
+services, ATMs and cryptocurrency promotional products and supplies for anyone in the community to
+learn about, use and promote cryptocurrency. Cryptocurrency ticker tapes and cryptocurrency news
+will be continually broadcast from the Nexxus Crypto-Cafés.
+Nexxus Crypto-Cafés are licensed to qualified independent operators for explosive growth in
+predeveloped global markets. Nexxus Crypto-Café operators will be trained and certified at the CryptoCafé University. Operators can profit from the retail product sales, food and beverage sales, ATM
+transaction fees and instructor-led class fees as well as Nexxus Rewards related sales and service
+commissions and bonuses.
+
+Nexxus ATM
+The Nexxus Automated Teller Machines (ATM) will support the 2-way
+exchange of bitcoin and other top cryptocurrencies to and from the local fiat
+currency and are equipped to support KYC and AML requirements. Nexxus
+ATMs will be located in every Nexxus Crypto-Café and will be available for
+licensing and placement in high traffic public locations.
+
+(9)
+
+SUPPORTING TECHNOLOGIES
+
+Nexxus University
+Nexxus Rewards is the core technology and has an
+educational service, Nexxus University, to support the
+eventual widespread use of Nexxus Rewards. The
+public must first learn about cryptocurrency with the
+Nexxus University, which has been providing many
+educational courses on cryptocurrency since early
+2016.
+Many opportunities for learning are available on
+services like Coursera and YouTube. Nexxus
+University has organized a plethora of information
+about cryptocurrency in an easy to learn way for the
+average non-technical person. Nexxus has created a
+structured environment with accurate and current
+information to facilitate the learning process and test
+if the student really learned the subject matter and to
+recognize them accordingly.
+Nexxus University courses are delivered on a
+professional Learning Management System (LMS)
+with multiple multimedia lessons per course, lesson
+quizzes, exams and professional certificates. The
+current courses include:
+1.
+2.
+3.
+4.
+
+Cryptocurrency Enlightenment
+The History of Money
+The Bitcoin Solution
+Understanding Cryptocurrency
+
+Hard-core enthusiasts can become a “Certified Cryptocurrency Specialist” (CCS) by passing the tough
+100 question final exam. All Nexxus Rewards direct sales reps and Nexxus Crypto-Café operators are
+required to pass the CCS exam as part of their certification.
+All Nexxus University courses are currently available in English and Spanish with plans for future
+support of many additional languages including Mandarin and Hindi.
+Nexxus University provides cryptocurrency courseware at very affordable retail prices from $9.95 to
+$24.95 per course for 12-month access for the student and their entire family, in an effort to educate
+as many people as possible about cryptocurrency.
+
+(10)
+
+As part of an additional effort to share the virtues of cryptocurrency with everyone, Nexxus University
+has an affiliate program enabling free registered affiliates to earn a share of the retail revenue by
+promoting the Nexxus University courses.
+Learn more at www.NexxusUniversity.com.
+
+Nexxus Barter
+Nexxus Rewards also includes support services for its end-users to trade their unwanted or surplus
+products and services with each other in cash or cryptocurrency with Nexxus Barter.
+Other services like Craigslist and ITEX bartering provide the ability for consumers to trade with each
+other. Nexxus expands these existing services with a free bartering service that supports
+cryptocurrency and provides a co-branded bartering service for local community affinity groups.
+Anyone can join free of charge and list free barter ads to sell the stuff they no longer use or need.
+Nexxus Barter is considered the Craigslist/eBay of cryptocurrency. In addition to unlimited free barter
+ad listings, sellers can optionally feature and promote their barter ads on the Nexxus Barter search
+page. Nexxus Barter is designed as a local community bartering system for in-person transactions.
+Nexxus Barter was released in late 2016 and is undergoing beta testing as it accumulates barter ad
+listings. The production system already includes barter area expansion, optional ad features, ad
+campaign management and ad credit purchases for the optional ad upgrade services.
+Nexxus Barter is an ideal solution for local organizations like churches, schools and charities to have a
+co-branded bartering solution for their membership, which can create free fundraising for the
+organization. Consumers that register free of charge have full access to all the Nexxus Rewards and
+Nexxus Barter services.
+
+Nexxus HandUp
+Nexxus Partners supports the use of cryptocurrency for all people in all circumstances. Nexxus Partners
+looks to help the underprivileged gain an advantage in the new evolving world of cryptocurrency with
+full scholarships to Nexxus University for selected families in countries all around the world. Nexxus
+Partners works with local community leaders and news media to identify and qualify scholarship
+candidates.
+
+(11)
+
+Nexxus Sales Management
+Nexxus provides a comprehensive sales management system for its direct sales representatives and its
+affiliates. The Nexxus Sales Management software has been developed over 13 years and is owned and
+maintained internally to provide all the sales and marketing tools required for a professional
+independent sales force.
+Sales reps have access to personalized sales and lead generation tools, university course inventory
+management, order processing, sales commissions and bonuses, sales and support resource centers,
+sales team management, sales territory management, sales training and certification, merchant and
+organization management, mentoring system, support knowledgebase and support ticket system.
+All direct sales representatives and affiliates have secured access to their personalized Nexxus backoffice with the enhanced security of Two Factor Authentication (2FA).
+
+DIGITAL TOKEN
+
+Role of the Nexxus Digital Token
+The Nexxus Digital Token was developed in the early stages of product development of the Nexxus
+ecosystem in 2016 by Nexxus Partners. It was designed from the beginning to be the internal currency
+for value exchange within the various Nexxus solutions. Some Nexxus tokens were distributed for
+product development funding in part to private angel investors and other contributors with the early
+vision to see the potential of the Nexxus mission and business strategy. The Nexxus digital token
+currently has a privately established value of $0.10 USD.
+Internal Currency: The Nexxus internal reward points used for the cash back rewards represent a
+digital token called the Nexxus Coin. It is the internal currency of Nexxus used throughout the Nexxus
+ecosystem including Nexxus Rewards, Nexxus University and Nexxus Barter for purchases and the
+internal exchange of products and services.
+Technical Specifications: The Nexxus Coin utilizes the latest Proof-of-Stake (POS) protocol to secure its
+network and had its genesis block created on March 1, 2016. Nexxus Coin was forked from and follows
+Black Coin due to its strong developer community and implementation of POS 2.0 and POS 3.0 for
+enhanced security. Nexxus Coin has a 60-second block time and an initial money supply of 299M with a
+5% annual staking rate. Learn more about the Nexxus Coin specifications, block-chain explorer,
+downloadable wallets and public GitHub source code repository at www.NexxusCoin.com.
+(12)
+
+Automatic Buyer Demand: The Nexxus Coin digital token has built in buyer demand as the internal
+currency of Nexxus Rewards. Every purchase in any currency drives buyer demand and the value of the
+Nexxus Coin digital token. Regardless of the currency used for the purchase, the cash back reward
+percentage offered by the merchant is automatically purchased from the market in Nexxus Coins.
+For example, if 10,000 merchants were issuing $1,000 a month in cash back rewards,
+100M Nexxus Coins would be purchased from the market (at a price of $0.10). That’s
+approximately 1/3 of the total money supply every month.
+Reward Point Bonuses: Additional bonuses will be offered by the Nexxus University for meeting
+Nexxus Reward point earning milestones. Users will receive free educational courses as they earn more
+and more Nexxus Rewards points. For example, earning $25 in Nexxus Rewards points will earn a free
+course certificate for the “Cryptocurrency Enlightenment” introductory course, which can be used for
+any purpose. The reward points need only be earned, they do not need to be held and no points are
+surrendered or redeemed for the course certificates. Meeting the reward point milestones is all that is
+needed.
+Distinctive Advantage: Many traditional loyalty programs are available today without blockchain
+technology. The Nexxus Rewards blockchain solution has a distinct advantage over traditional exclusive
+static loyalty points with SHARED and DYNAMIC Reward Points.
+Token Utility: Similar to the Ether coin used by Ethereum, the Nexxus Coin digital token has utility as
+the internal currency of the Nexxus ecosystem and can increase in value as usage of the Nexxus
+Rewards solution grows worldwide. Ethereum provides computing services for a market of
+programmers, while Nexxus provides commerce services for a much larger market of shoppers.
+
+MARKETING PLAN
+Go-To-Market Strategy
+Viral Marketing
+The most effective form of advertising is word-of-mouth. Nexxus Rewards includes a viral marketing
+program designed to provide financial incentives to its merchants and shoppers for referring new
+shoppers to Nexxus. Shoppers can earn free shopping reward points for every transaction at any
+Nexxus merchant by anyone they personally refer. Shoppers can share Nexxus with their friends and
+family and earn free shopping rewards.
+Merchants can create an additional revenue stream on every transaction at any Nexxus merchant by
+shoppers they refer and by anyone those shoppers refer… to infinity. Both shoppers and merchants
+earn 10% of the marketing fees generated from the transactions. Shoppers earn reward points and
+merchants earn cash. Merchants could potentially offset all of their Nexxus marketing fees with the
+additional viral marketing revenue stream.
+
+(13)
+
+Certified Direct Sales Force
+Nexxus partners with independent entrepreneurs worldwide to create a trained and certified direct
+sales force to build the merchant and shopper network. Qualified direct sales representatives set up,
+train and support merchants and organizations in the local community. Direct sales reps work with
+merchants and organizations to build large infinity shopper networks. Direct sales reps earn 20% of the
+marketing fees generated from all purchases at any Nexxus merchant by any shopper in their entire
+infinity shopper network.
+Direct sales representatives typically have worked in related fields like credit card payment processing
+services, advertising sales, business insurance sales, disability insurance sales like Aflac, etc. These are
+all proven successful commission-based independent sales forces.
+Development of the direct sales force will be initiated in major cities in the United States including; Los
+Angeles, San Francisco, Seattle, Salt Lake City, Phoenix, Denver, Dallas, Chicago, Atlanta, Miami and
+New York City. International expansion will be developed based on market penetration.
+Nexxus promotes sales management from within to manage the worldwide direct sales force. A
+worldwide management structure of supervisors, managers, directors and V.P.s share in 20% of the
+generated marketing fees. The Nexxus Sales Management system provides direct sales reps with
+secured access to sales and marketing tools, sales commissions and bonuses, a customer management
+system, support knowledgebase and a sales support ticket system.
+Community Outreach
+Nexxus Rewards benefits the entire community by working with local non-profit organizations and
+affinity groups to provide them with a perpetual fundraising program for their much-needed operating
+funds. Organizations receive the same opportunity as the merchants to build a large infinity shopper
+network and earn 10% of the marketing fees generated by every transaction at any merchant by any
+shoppers they refer and anyone those shoppers refer… to infinity.
+Community organizations no longer need to send their kids out to sell candy bars and greeting cards.
+They can now raise funds automatically every day, week and month from their shoppers that keep
+shopping. And what’s the likelihood that shoppers will stop shopping?
+Critical Mass Strategy
+Nexxus Rewards will be successfully launched in communities around the world by the qualified direct
+sales force with a detailed 3-phase rollout strategy to build critical mass within sales territories defined
+worldwide by postal code.
+Phase 1 requires the establishment of a sufficient qualified direct sales force based on the population
+of the sales territory. 1 Full Time Equivalent (FTE) is required per 25,000 population. 1 FTE is considered
+40 hours per week. 2 qualified direct sales reps working 20 hours a week each would also equal 1 FTE.
+Phase 2 requires the registration of a significant number of shoppers equal to 1% of the population of
+the sales territory. For example, if a postal code has a population of 50,000, Nexxus requires 500
+registered shoppers to complete phase 2 for that sales territory. Local organizations should provide the
+momentum to easily meet the 1% requirement. Nexxus Barter can provide a valuable service for the
+shoppers before the merchants are available.
+(14)
+
+Phase 3 is the start of setting up pre-sold merchants. Merchants will have been made aware of the
+coming Nexxus marketing solution throughout phases 1 and 2. The risk-free solution and allure of 500
+shoppers in their community looking for merchants just like them should make it easy to attract a large
+number of local merchants in the sales territory.
+Nexxus Rewards has a comprehensive Go-To-Market Strategy to ensure its success in the local
+community through the use of viral marketing, a qualified direct sales force, community outreach and
+a 3-phase rollout strategy for achieving critical mass.
+
+MANAGEMENT
+Nexxus Team
+Robert A. Wood, Founder & CEO
+Bob Wood is the founder and CEO of Nexxus Partners and is a senior technologist,
+formerly working with Bill Gate’s company, Microsoft, and Ross Perot’s company,
+Electronic Data Systems. In 2004, he founded Pinnacle Institute, a marketing and
+technology consulting company to the direct sales industry for over 30 sales
+organizations. In 1998 during the Internet gold rush, he founded Shabang.com
+building it to a $200M e-commerce corporation as the first Internet product search engine, the
+predecessor to Google, Amazon and eBay shopping.
+Bob Wood has over 30 years of experience in corporate America designing and building the missioncritical architecture of distributed systems for Fortune 500 corporations. He was published in the
+Microsoft Systems Journal, published the blue book on “Re-engineering Software Development” and
+presented numerous executive lectures for Fortune 500 corporations on “Re-engineering Software
+Development.”
+Bob Wood has most recently been immersed in cryptocurrency since early 2014 and has been involved
+in the development of three cryptocurrencies. He has been referenced and quoted in many
+cryptocurrency news articles and has been a keynote speaker at Independence Conferences
+advocating the virtues of cryptocurrency. Bob Wood is an industry analyst, researcher, consumer
+advocate and industry watchdog, publishing articles to educate the public on recognizing the
+differences between legitimate cryptocurrencies and cryptocurrency scams.
+Gary Berriochoa, Chief Operations Officer
+Gary is an experienced executive in many areas of corporate operations wearing many
+hats as a life-long entrepreneur. Gary worked in manufacturing with General Dynamics
+and was a talent manager for the entertainment industry. He worked in direct sales
+management with West Bend cookware and introduced the new emerging cell phone technology into
+the North Texas market. Gary was a manager of international manufacturing and assembly plants in
+Taiwan with Technical Chemical where he also worked as a Quality Control Manager and liaison to
+(15)
+
+Underwriters Laboratory. Gary also managed a team of 150 volunteers for the 1994 FIFA World Cup
+Soccer tournament in the United States.
+Mike Sorensen, Director of Technology
+Mike is an experienced IT professional with over 30 years of systems engineering
+experience in software, hardware, networking and data centers. He founded a software
+development and technology consulting company specializing in technology solutions,
+industry specific software and systems integration. Mike has worked, consulted and contracted with
+many large companies including CompuCom Systems, Interstate Batteries and Easton-Bell Sports.
+Bill Richardson, Financial Controller
+Bill is an experienced business professional with a degree in accounting and finance from
+the University of Texas at Dallas. Starting in the oil and gas industry, Bill has accumulated
+20+ years of business experience in accounting, finance and related technologies, which
+includes a background in hardware and financial software solutions, as well as back-end services
+involving Internet and e-commerce. Bill’s experience also includes raising private placement capital and
+securing strategic financial partnerships.
+Jim Anderson, V.P. Business Development
+Jim Anderson is a recognized and well-respected professional within the direct sales
+industry. During his 29-year career, he has been centrally involved as a consultant, senior
+executive and president for some of the industry’s fastest-growing companies. One of the
+start-up companies for which he was president grew from 5,000 distributors to more than 140,000
+active distributors and annual sales in excess of $120 million within two years. He also served as the
+Senior Director for Global Business Development of Mannatech, Inc. He functioned in this capacity
+during its greatest growth stage when the company grew from $120 million to over $420 million in
+annual sales and to more than 450,000 active distributors.
+Dan Williquette, International Marketing Director
+Dan is formally educated in Marketing and has successfully built his own wedding
+photography & videography business for 20 years. He also has over 30 years of
+experience in the direct sales industry proving what works and what does not work. Dan
+has mastered a successful marketing strategy that fixes many of the flaws in network marketing. He
+has proven with five different companies how to build successful teams in geographic locations that
+will not only prevent orphans from struggling in the business, but will create teams of people with ONE
+VISION all working together in harmony to successfully reach the highest levels in the compensation
+plan.
+
+(16)
+
+Michael Bailey, Localization Director
+Michael is a staunch cryptocurrency enthusiast driving the localization of Nexxus Partners
+around the world. Michael has a BSc degree, graduating with honors in accounting and
+computer science. He has decades of expertise in a wide variety of industries including
+music/entertainment, construction, real estate development and property management
+as Controller, Accounting Manager, IT Manager and Technical Support Engineer and is fluent in
+Spanish. Michael translated all Nexxus University courses and Nexxus Rewards training courses into
+Spanish. He is also deeply involved and committed to spirituality-based personal development.
+Richard LeBlanc, Creative Director
+Richard is a professionally trained guru in the art and science of graphic design and is an
+associate professor at Collin College. Richard founded B12 Group as a strategic branding
+firm dedicated to energizing business by creating: a look, attitude and place in the world
+for the business, memorable brands that cause a stir, award-winning solutions that command
+attention, innovative ideas that produce results and insightful plans that convert customers into
+advocates.
+Dr. Baloch Asif PhD, Chief Security Officer
+Asif is a hard-core computer scientist with expertise in all aspects of cyber security and
+cryptocurrency development.
+Steven Wilkinson, Chief Compliance Officer
+Steven is a cryptocurrency business expert, technology consultant and co-founder of the
+Texas Bitcoin Conference.
+
+Nexxus Expertise
+The Nexxus executive management team has a unique combination of many fields of expertise aiding
+in the successful design, development and implementation of the Nexxus solutions.
+Technology
+The technology staff of Nexxus has over 60 years of disciplined corporate experience in all aspects of
+information technology including operating system services, business application software
+development and data center operations, maintenance and security.
+Nexxus Partner’s software applications are built on the same enterprise quality n-tier architecture as
+the largest companies in the world. All Nexxus Partners software is owned and controlled internally by
+the Nexxus technology team for maximum responsiveness to changing business requirements.
+Cryptocurrency
+(17)
+
+Nexxus technologists have been intimately involved in the development of several cryptocurrencies
+and have been immersed in the cryptocurrency phenomenon at a technical and business level for
+several years. Nexxus prospered through the wild-wild-west frontier stage of cryptocurrency while
+working closely with many industry experts and international hackers.
+
+(18)
+
+E-Commerce
+
+Several Nexxus executives founded and worked closely with Shabang.com, a $200M e-commerce
+platform for small businesses to sell their products and services on the Internet at the dawn of ecommerce.
+Direct Sales
+Many Nexxus executives have decades of experience in the direct sales industry as presidents, CTOs,
+marketers, sales representatives, technologists and consultants, including technology and business
+consulting services provided by the Pinnacle Institute since 2004 for over 30 sales organizations
+employing independent direct sales strategies.
+Loyalty Marketing
+Nexxus executives have several years of experience in the loyalty marketing space for multiple clients
+and provided consulting services for an international German-based loyalty company with over
+100,000 sales agents.
+
+Nexxus Timeline
+
+(19)
+
+References
+FOUNDER BIOGRAPHY: View the Nexxus founder, Robert A. Wood’s professional bio at
+http://www.WhoIsBobWood.com/about/
+FOUNDER PERSONAL BACKGROUND: View the Nexxus founder, Robert A. Wood’s personal life
+experiences, philosophies and accomplishments at http://www.WhoIsBobWood.com.
+NEXXUS PARTNERS: View the Nexxus Partners website at http://www.NexxusPartners.com.
+NEXXUS REWARDS: View the Nexxus Rewards website at http://www.NexxusRewards.com.
+NEXXUS UNIVERSITY: View the Nexxus University website at http://www.NexxusUniversity.com.
+NEXXUS COIN: View the Nexxus Coin website at http://www.NexxusCoin.com.
+TWITTER NEXXUS REWARDS: View the Nexxus Rewards Twitter page at
+https://twitter.com/NexxusReward.
+
+(20)
+
+

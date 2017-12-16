@@ -1,0 +1,2021 @@
+PAYMENT PLATFORM
+WHITEPAPER
+Final Version: June 21st 2017
+
+1
+
+IMPORTANT NOTICE
+PLEASE READ THIS SECTION AND THE FOLLOWING SECTIONS ENTITLED
+“DISCLAIMER OF LIABILITY”, “NO REPRESENTATIONS AND WARRANTIES”,
+“REPRESENTATIONS AND WARRANTIES BY YOU”, “CAUTIONARY NOTE ON
+FORWARD-LOOKING
+STATEMENTS”,
+“MARKET
+AND
+INDUSTRY
+INFORMATION AND NO CONSENT OF OTHER PERSONS”, “NO ADVICE”, “NO
+FURTHER INFORMATION OR UPDATE”, “RESTRICTIONS ON DISTRIBUTION
+AND DISSEMINATION”, “NO OFFER OF SECURITIES OR REGISTRATION” AND
+“RISKS AND UNCERTAINTIES” CAREFULLY.
+IF YOU ARE IN ANY DOUBT AS TO THE ACTION YOU SHOULD TAKE, YOU
+SHOULD CONSULT YOUR LEGAL, FINANCIAL, TAX OR OTHER PROFESSIONAL
+ADVISOR(S).
+The PAY tokens are not intended to constitute securities in any jurisdiction. This Whitepaper
+does not constitute a prospectus or offer document of any sort and is not intended to constitute an
+offer of securities or a solicitation for investment in securities in any jurisdiction.
+This Whitepaper does not constitute or form part of any opinion on any advice to sell, or any
+solicitation of any offer by the distributor/vendor of the PAY tokens (the “Distributor”) to
+purchase any PAY tokens nor shall it or any part of it nor the fact of its presentation form the
+basis of, or be relied upon in connection with, any contract or investment decision.
+The Distributor will be an affiliate of TenX Pte. Ltd. (“TenX”), and will deploy all proceeds of
+sale of the PAY tokens to fund TenX’s cryptocurrency project, businesses and operations.
+No person is bound to enter into any contract or binding legal commitment in relation to the sale
+and purchase of the PAY tokens and no cryptocurrency or other form of payment is to be
+accepted on the basis of this Whitepaper.
+Any agreement as between the Distributor and you as a purchaser, and in relation to any sale and
+purchase, of PAY tokens (as referred to in this Whitepaper) is to be governed by only a separate
+document setting out the terms and conditions (the “T&Cs”) of such agreement. In the event of
+any inconsistencies between the T&Cs and this Whitepaper, the former shall prevail.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+2 of 51
+
+You are not eligible and you are not to purchase any PAY tokens in the TenX Initial Token Sale
+(as referred to in this Whitepaper) if you are a citizen, resident (tax or otherwise) or green card
+holder of the United States of America or a citizen or resident of the Republic of Singapore.
+No regulatory authority has examined or approved of any of the information set out in this
+Whitepaper. No such action has been or will be taken under the laws, regulatory requirements or
+rules of any jurisdiction. The publication, distribution or dissemination of this Whitepaper does
+not imply that the applicable laws, regulatory requirements or rules have been complied with.
+There are risks and uncertainties associated with TenX and/or the Distributor and their respective
+businesses and operations, the PAY tokens, the TenX Initial Token Sale and the TenX Wallet
+(each as referred to in this Whitepaper).
+This Whitepaper, any part thereof and any copy thereof must not be taken or transmitted to any
+country where distribution or dissemination of this Whitepaper is prohibited or restricted.
+No part of this Whitepaper is to be reproduced, distributed or disseminated without including this
+section and the following sections entitled “Disclaimer of Liability”, “No Representations and
+Warranties”, “Representations and Warranties By You”, “Cautionary Note On Forward-Looking
+Statements”, “Market and Industry Information and No Consent of Other Persons”, “Terms
+Used”, “No Advice”, “No Further Information or Update”, “Restrictions On Distribution and
+Dissemination”, “No Offer of Securities Or Registration” and “Risks and Uncertainties”.
+DISCLAIMER OF LIABILITY
+To the maximum extent permitted by the applicable laws, regulations and rules, TenX and/or the
+Distributor shall not be liable for any indirect, special, incidental, consequential or other losses of
+any kind, in tort, contract or otherwise (including but not limited to loss of revenue, income or
+profits, and loss of use or data), arising out of or in connection with any acceptance of or reliance
+on this Whitepaper or any part thereof by you.
+NO REPRESENTATIONS AND WARRANTIES
+TenX and/or the Distributor does not make or purport to make, and hereby disclaims, any
+representation, warranty or undertaking in any form whatsoever to any entity or person,
+including any representation, warranty or undertaking in relation to the truth, accuracy and
+completeness of any of the information set out in this Whitepaper.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+3 of 51
+
+REPRESENTATIONS AND WARRANTIES BY YOU
+By accessing and/or accepting possession of any information in this Whitepaper or such part
+thereof (as the case may be), you represent and warrant to TenX and/or the Distributor as
+follows:
+(a)
+
+you agree and acknowledge that the PAY tokens do not constitute securities in any form
+in any jurisdiction;
+
+(b)
+
+you agree and acknowledge that this Whitepaper does not constitute a prospectus or offer
+document of any sort and is not intended to constitute an offer of securities in any
+jurisdiction or a solicitation for investment in securities and you are not bound to enter
+into any contract or binding legal commitment and no cryptocurrency or other form of
+payment is to be accepted on the basis of this Whitepaper;
+
+(c)
+
+you agree and acknowledge that no regulatory authority has examined or approved of the
+information set out in this Whitepaper, no action has been or will be taken under the laws,
+regulatory requirements or rules of any jurisdiction and the publication, distribution or
+dissemination of this Whitepaper to you does not imply that the applicable laws,
+regulatory requirements or rules have been complied with;
+
+(d)
+
+you agree and acknowledge that this Whitepaper, the undertaking and/or the completion
+of the TenX Initial Token Sale, or future trading of the PAY tokens on any
+cryptocurrency exchange, shall not be construed, interpreted or deemed by you as an
+indication of the merits of the TenX and/or the Distributor, the PAY tokens, the TenX
+Initial Token Sale and the TenX Wallet (each as referred to in this Whitepaper);
+
+(e)
+
+the distribution or dissemination of this Whitepaper, any part thereof or any copy thereof,
+or acceptance of the same by you, is not prohibited or restricted by the applicable laws,
+regulations or rules in your jurisdiction, and where any restrictions in relation to
+possession are applicable, you have observed and complied with all such restrictions at
+your own expense and without liability to TenX and/or the Distributor;
+
+(f)
+
+you agree and acknowledge that in the case where you wish to purchase any PAY tokens,
+the PAY tokens are not to be construed, interpreted, classified or treated as:
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+4 of 51
+
+(i)
+
+any kind of currency other than cryptocurrency;
+
+(ii)
+
+debentures, stocks or shares issued by any person or entity (whether TenX and/or
+the Distributor)
+
+(i)
+
+rights, options or derivatives in respect of such debentures, stocks or shares;
+
+(ii)
+
+rights under a contract for differences or under any other contract the purpose or
+pretended purpose of which is to secure a profit or avoid a loss;
+
+(iii)
+
+units in a collective investment scheme;
+
+(iv)
+
+units in a business trust;
+
+(v)
+
+derivatives of units in a business trust; or
+
+(vi)
+
+any other security or class of securities.
+
+(g)
+
+you are fully aware of and understand that you are not eligible to purchase any PAY
+tokens if you are a citizen, resident (tax or otherwise) or green card holder of the United
+States of America or a citizen or resident of the Republic of Singapore;
+
+(h)
+
+you have a basic degree of understanding of the operation, functionality, usage, storage,
+transmission mechanisms and other material characteristics of cryptocurrencies,
+blockchain-based software systems, cryptocurrency wallets or other related token storage
+mechanisms, blockchain technology and smart contract technology;
+
+(i)
+
+you are fully aware and understand that in the case where you wish to purchase any PAY
+tokens, there are risks associated with TenX and the Distributor and their respective
+business and operations, the PAY tokens, the TenX Initial Token Sale and the TenX
+Wallet (each as referred to in the Whitepaper);
+
+(j)
+
+you agree and acknowledge that neither TenX nor the Distributor is liable for any
+indirect, special, incidental, consequential or other losses of any kind, in tort, contract or
+otherwise (including but not limited to loss of revenue, income or profits, and loss of use
+or data), arising out of or in connection with any acceptance of or reliance on this
+Whitepaper or any part thereof by you; and
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+5 of 51
+
+(k)
+
+all of the above representations and warranties are true, complete, accurate and nonmisleading from the time of your access to and/or acceptance of possession this
+Whitepaper or such part thereof (as the case may be).
+
+CAUTIONARY NOTE ON FORWARD-LOOKING STATEMENTS
+All statements contained in this Whitepaper, statements made in press releases or in any place
+accessible by the public and oral statements that may be made by TenX and/or the Distributor or
+their respective directors, executive officers or employees acting on behalf of TenX or the
+Distributor (as the case may be), that are not statements of historical fact, constitute “forwardlooking statements”. Some of these statements can be identified by forward-looking terms such
+as “aim”, “target”, “anticipate”, “believe”, “could”, “estimate”, “expect”, “if”, “intend”, “may”,
+“plan”, “possible”, “probable”, “project”, “should”, “would”, “will” or other similar terms.
+However, these terms are not the exclusive means of identifying forward-looking statements. All
+statements regarding TenX’s and/or the Distributor’s financial position, business strategies, plans
+and prospects and the future prospects of the industry which TenX and/or the Distributor is in are
+forward-looking statements. These forward-looking statements, including but not limited to
+statements as to TenX’s and/or the Distributor’s revenue and profitability, prospects, future
+plans, other expected industry trends and other matters discussed in this Whitepaper regarding
+TenX and/or the Distributor are matters that are not historic facts, but only predictions.
+These forward-looking statements involve known and unknown risks, uncertainties and other
+factors that may cause the actual future results, performance or achievements of TenX and/or the
+Distributor to be materially different from any future results, performance or achievements
+expected, expressed or implied by such forward-looking statements. These factors include,
+amongst others:
+(a)
+
+changes in political, social, economic and stock or cryptocurrency market conditions, and
+the regulatory environment in the countries in which TenX and/or the Distributor
+conducts its respective businesses and operations;
+
+(b)
+
+the risk that TenX and/or the Distributor may be unable or execute or implement their
+respective business strategies and future plans;
+
+(c)
+
+changes in interest rates and exchange rates of fiat currencies and cryptocurrencies;
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+6 of 51
+
+(d)
+
+changes in the anticipated growth strategies and expected internal growth of TenX and/or
+the Distributor;
+
+(e)
+
+changes in the availability and fees payable to TenX and/or the Distributor in connection
+with their respective businesses and operations;
+
+(f)
+
+changes in the availability and salaries of employees who are required by TenX and/or
+the Distributor to operate their respective businesses and operations;
+
+(g)
+
+changes in preferences of customers of TenX and/or the Distributor;
+
+(h)
+
+changes in competitive conditions under which TenX and/or the Distributor operate, and
+the ability of TenX and/or the Distributor to compete under such conditions;
+
+(i)
+
+changes in the future capital needs of TenX and/or the Distributor and the availability of
+financing and capital to fund such needs;
+
+(j)
+
+war or acts of international or domestic terrorism;
+
+(k)
+
+occurrences of catastrophic events, natural disasters and acts of God that affect the
+businesses and/or operations of TenX and/or the Distributor;
+
+(l)
+
+other factors beyond the control of TenX and/or the Distributor; and
+
+(m)
+
+any risk and uncertainties associated with TenX and/or the Distributor and their
+businesses and operations, the PAY tokens, the TenX Initial Token Sale and the TenX
+Wallet (each as referred to in the Whitepaper).
+
+All forward-looking statements made by or attributable to TenX and/or the Distributor or persons
+acting on behalf of TenX and/or the Distributor are expressly qualified in their entirety by such
+factors. Given that risks and uncertainties that may cause the actual future results, performance
+or achievements of TenX and/or the Distributor to be materially different from that expected,
+expressed or implied by the forward-looking statements in this Whitepaper, undue reliance must
+not be placed on these statements. These forward-looking statements are applicable only as of
+the date of this Whitepaper.
+Neither TenX, the Distributor nor any other person represents, warrants and/or undertakes that
+the actual future results, performance or achievements of TenX and/or the Distributor will be as
+discussed in those forward-looking statements. The actual results, performance or achievements
+of TenX and/or the Distributor may differ materially from those anticipated in these forwardlooking statements.
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+7 of 51
+
+Nothing contained in this Whitepaper is or may be relied upon as a promise, representation or
+undertaking as to the future performance or policies of TenX and/or the Distributor.
+Further, TenX and/or the Distributor disclaim any responsibility to update any of those forwardlooking statements or publicly announce any revisions to those forward-looking statements to
+reflect future developments, events or circumstances, even if new information becomes available
+or other events occur in the future.
+MARKET AND INDUSTRY INFORMATION AND NO CONSENT OF OTHER
+PERSONS
+This Whitepaper includes market and industry information and forecasts that have been obtained
+from internal surveys, reports and studies, where appropriate, as well as market research,
+publicly available information and industry publications. Such surveys, reports, studies, market
+research, publicly available information and publications generally state that the information that
+they contain has been obtained from sources believed to be reliable, but there can be no
+assurance as to the accuracy or completeness of such included information.
+Save for TenX, the Distributor and their respective directors, executive officers and employees,
+no person has provided his or her consent to the inclusion of his or her name and/or other
+information attributed or perceived to be attributed to such person in connection therewith in this
+Whitepaper and no representation, warranty or undertaking is or purported to be provided as to
+the accuracy or completeness of such information by such person and such persons shall not be
+obliged
+to
+provide
+any
+updates
+on
+the
+same.
+While TenX and/or the Distributor have taken reasonable actions to ensure that the information
+is extracted accurately and in its proper context, TenX and/or the Distributor have not conducted
+any independent review of the information extracted from third party sources, verified the
+accuracy or completeness of such information or ascertained the underlying economic
+assumptions relied upon therein. Consequently, neither TenX, the Distributor, nor their
+respective directors, executive officers and employees acting on their behalf makes any
+representation or warranty as to the accuracy or completeness of such information and shall not
+be obliged to provide any updates on the same.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+8 of 51
+
+TERMS USED
+To facilitate a better understanding of the PAY tokens being offered for purchase by the
+Distributor, and the businesses and operations of TenX and/or the Distributor, certain technical
+terms and abbreviations, as well as, in certain instances, their descriptions, have been used in this
+Whitepaper. These descriptions and assigned meanings should not be treated as being definitive
+of their meanings and may not correspond to standard industry meanings or usage.
+Words importing the singular shall, where applicable, include the plural and vice versa and
+words importing the masculine gender shall, where applicable, include the feminine and neuter
+genders and vice versa. References to persons shall include corporations.
+NO ADVICE
+No information in this Whitepaper should be considered to be business, legal, financial or tax
+advice regarding TenX, the Distributor, the PAY tokens, the TenX Initial Token Sale and the
+TenX Wallet (each as referred to in the Whitepaper). You should consult your own legal,
+financial, tax or other professional adviser regarding TenX and/or the Distributor and their
+respective businesses and operations, the PAY tokens, the TenX Initial Token Sale and the TenX
+Wallet (each as referred to in the Whitepaper). You should be aware that you may be required to
+bear the financial risk of any purchase of PAY tokens for an indefinite period of time.
+NO FURTHER INFORMATION OR UPDATE
+No person has been or is authorised to give any information or representation not contained in
+this Whitepaper in connection with TenX and/or the Distributor and their respective businesses
+and operations, the PAY tokens, the TenX Initial Token Sale and the TenX Wallet (each as
+referred to in the Whitepaper) and, if given, such information or representation must not be relied
+upon as having been authorised by or on behalf of TenX and/or the Distributor. The TenX Initial
+Token Sale (as referred to in the Whitepaper) shall not, under any circumstances, constitute a
+continuing representation or create any suggestion or implication that there has been no change,
+or development reasonably likely to involve a material change in the affairs, conditions and
+prospects of TenX and/or the Distributor or in any statement of fact or information contained in
+this Whitepaper since the date hereof.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+9 of 51
+
+RESTRICTIONS ON DISTRIBUTION AND DISSEMINATION
+The distribution or dissemination of this Whitepaper or any part thereof may be prohibited or
+restricted by the laws, regulatory requirements and rules of any jurisdiction. In the case where
+any restriction applies, you are to inform yourself about, and to observe, any restrictions which
+are applicable to your possession of this Whitepaper or such part thereof (as the case may be) at
+your own expense and without liability to TenX and/or the Distributor.
+Persons to whom a copy of this Whitepaper has been distributed or disseminated, provided
+access to or who otherwise have the Whitepaper in their possession shall not circulate it to any
+other persons, reproduce or otherwise distribute this Whitepaper or any information contained
+herein for any purpose whatsoever nor permit or cause the same to occur.
+NO OFFER OF SECURITIES OR REGISTRATION
+This Whitepaper does not constitute a prospectus or offer document of any sort and is not
+intended to constitute an offer of securities or a solicitation for investment in securities in any
+jurisdiction. No person is bound to enter into any contract or binding legal commitment and no
+cryptocurrency or other form of payment is to be accepted on the basis of this Whitepaper. Any
+agreement in relation to any sale and purchase of PAY tokens (as referred to in this Whitepaper)
+is to be governed by only the T&Cs of such agreement and no other document. In the event of
+any inconsistencies between the T&Cs and this Whitepaper, the former shall prevail.
+You are not eligible to purchase any PAY tokens in the TenX Initial Token Sale (as referred to in
+this Whitepaper) if you are a citizen, resident (tax or otherwise) or green card holder of the
+United States of America or a citizen or resident of the Republic of Singapore.
+No regulatory authority has examined or approved of any of the information set out in this
+Whitepaper. No such action has been or will be taken under the laws, regulatory requirements or
+rules of any jurisdiction. The publication, distribution or dissemination of this Whitepaper does
+not imply that the applicable laws, regulatory requirements or rules have been complied with.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+10 of 51
+
+RISKS AND UNCERTAINTIES
+Prospective purchasers of PAY tokens (as referred to in this Whitepaper) should carefully
+consider and evaluate all risks and uncertainties associated with TenX, the Distributor and their
+respective businesses and operations, the PAY tokens, the TenX Initial Token Sale and the TenX
+Wallet (each as referred to in the Whitepaper), all information set out in this Whitepaper and the
+T&Cs prior to any purchase of PAY tokens. If any of such risks and uncertainties develops into
+actual events, the business, financial condition, results of operations and prospects of TenX
+and/or the Distributor could be materially and adversely affected. In such cases, you may lose all
+or part of the value of the PAY tokens.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+11 of 51
+
+TenX
+“At TenX we work on making any blockchain asset spendable
+instantly”
+
+What is TenX
+When we as the co-founders of TenX got together to start this company, it was our vision to have
+assets on the blockchain be not only available to industry insiders, but rather something that can
+be used by any individual user in the “real world”.
+Additionally, with the emergence of more and more different tokens, a growing number of users
+and businesses truly struggle to leverage on the existing infrastructure to make this interconnectedness of physical and virtual platforms become a reality.
+At TenX, we strive to offer the user access to as large as possible a range of blockchain assets at
+a maximum degree of convenience, while adhering to the highest security standards in the
+ecosystem.
+We are able to do this by connecting blockchains, leveraging on the COMIT network, including
+the COMIT Routing Protocol and the Cross-chain Payment Channels, which works in a
+completely trustless, instantaneous and low-cost manner. For further information on the COMIT
+network, including the COMIT Routing Protocol and the Cross-chain Payment Channels, please
+refer
+to
+the
+whitepaper
+in
+respect
+thereof,
+accessible
+at
+http://www.comit.network/doc/COMIT%20white%20paper%20v1.0.2.pdf.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+12 of 51
+
+To the end-user, we offer the TenX Card, a debit (and, in time to come, credit) card, with an
+accompanying TenX Wallet, a mobile wallet that can be funded not only with Bitcoin (BTC),
+Ether (ETH), and Dash (DASH) as currently possible, but also with virtually any blockchain
+asset in time to come. TenX payment facilities which include the physical and virtual debit card
+can be used in almost 200 countries at over 36 million points of acceptance today. This
+is possible as we have card issuance partnerships with major credit card companies.
+Moreover, users and businesses can exchange their blockchain assets seamlessly from one
+user to another in a decentralized manner, removing any risk that is usually associated with
+current centralized solutions.
+
+Company Background
+When we founded our company in mid-2015, we chose Singapore as our main base. These were
+the main considerations we had:
+● Singapore is a major and globally recognized financial hub
+● The Monetary Authority of Singapore (MAS) is, in our view, open to the development of
+start-ups in the FinTech industry
+● Southeast Asia is a market with huge growth potential
+● According to the World Bank Group,1 50% of the population is still underbanked in
+Southeast Asia, China and India
+● Singapore is globally connected and recognized, which would greatly assist in business
+development and expansion to Europe and the Americas
+
+1
+
+The
+information
+is
+derived
+from
+the
+website
+of
+the
+World
+Bank
+Group
+at
+http://documents.worldbank.org/curated/en/187761468179367706/pdf/WPS7255.pdf#page=3, accessed on 19 June
+2017.
+The World Bank Group has not provided its consent to the inclusion of the information in this Whitepaper. While
+TenX and the Distributor have taken reasonable actions to ensure that the information is extracted accurately and
+fairly from such reports and/or publication, and has been included in this Whitepaper in its proper form and context,
+neither TenX, the Distributor nor any party has conducted an independent review of the information contained in
+such reports nor verified the accuracy of the contents of the relevant information.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+13 of 51
+
+The TenX Team
+
+Toby Hoenisch
+
+Michael Sperk
+
+Paul Kittiwong
+
+Julian Hosp
+
+CEO
+
+CTO
+
+COO
+
+CVO
+
+Chris Miess
+
+Warren Goh
+
+Bettina Schmidt
+
+Tuhina Singh
+
+U-zyn Chua
+
+CFO
+
+Product & User
+Experience
+
+Business Operation,
+CHO
+
+Blockchain
+Developer
+
+Blockchain
+Developer
+
+Selected TenX Investors
+
+Vitalik Buterin
+
+Bo Shen
+
+David Lee
+
+Founder of Ethereum Foundation
+Partner at Fenbushi Capital
+
+Managing Partner at Fenbushi
+Capital
+
+Angel Investor and FinTech
+Professor at Singapore Management
+University
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+14 of 51
+
+The TenX Wallet
+The TenX Wallet is the major game changer as it enables users to spend their blockchain assets
+through their smartphone or a physical debit card at over 36 million points of acceptance online
+and offline. The TenX App (called the TenX – Blockchain Asset Wallet) is downloadable for
+free on Android and we aim to launch the WebApp and iOS versions from July and August 2017
+respectively (with the specific launch dates being subject to achievement of the relevant
+milestones in the TenX Initial Token Sale, as explained below).
+
+Once the user has downloaded the TenX App, he simply enters his phone number and email
+address to set up an account.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+15 of 51
+
+A multi-currency wallet will be created automatically, which the user can then fund with
+different cryptocurrencies. The private key to each TenX Wallet is currently secured via an
+industry-standard hot & cold storage solution. By the end of 2017, we will directly link the TenX
+Wallet to the COMIT network, thereby allowing users to store their own private keys.
+
+The cryptocurrencies do NOT need to be converted to fiat money until an actual transaction
+happens, in which case such conversion will be conducted in real-time. The user can choose
+between different blockchain assets as a source of payment within the TenX App. Further, the
+user can conveniently convert a wide range of blockchain assets such as BTC, ETH and DASH
+from one to another by simply using his TenX Wallet.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+16 of 51
+
+The user can choose to order a TenX Card, a virtual and/or physical debit (and in time to come,
+credit) card, directly within the TenX App. As a security measure, we allow a user to lock and
+unlock his card through the TenX App. This makes our system more secure than traditional
+credit and debit card systems.
+
+The user can withdraw his blockchain assets and transfer them to another cryptocurrency wallet
+without incurring any fees for such transfer at any time.
+
+Product advantages
+●
+●
+●
+●
+●
+
+Multi-asset (any blockchain asset compatible with and accepted by the TenX Wallet)
+Assets stay in cryptocurrency
+Best available foreign exchange and transaction fees (with no other charges)
+Decentralized and trustless storage
+Global access to 36 million points of acceptance online and offline in close to 200
+countries
+● Any user from non-US countries can sign up now (sign-ups in the US to follow by the
+end of 2017)
+● Users earn a 0.1% reward for every purchase they make. This incentive will be
+transferred to the user in form of PAY tokens initially on a monthly basis, which
+additionally gives them the opportunity to become token holders and further benefit from
+a potential value upside of the tokens (see the section below entitled “TenX Initial Token
+Sale” for further details). Going forward, TenX aims to distribute the reward more
+frequently, with a target of reward distribution on an hourly basis
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+17 of 51
+
+Fees Comparison Table
+
+Physical card issuing fee
+(Incl. shipping & tracking)
+
+Virtual card issuing fee
+
+TenX
+
+WireX & Xapo
+
+TokenCard
+
+$15
+
+$20+
+
+Not applicable
+
+$1.5
+
+$3
+
+Not applicable
+
+$12
+
+Not applicable
+
+FREE
+Physical card annual fee
+
+($10 if spend less than
+$1000/year)
+
+Virtual card annual fee
+
+($10 if spend less than
+$1000/year)
+
+N/A
+
+$12
+
+Domestic exchange fee
+
+0%
+
+0%
+
+1.5%
+
+Foreign exchange fee
+
+0%
+
+3%
+
+4.5%
+
+FREE
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+18 of 51
+
+Product Comparison Table
+TenX
+
+WireX & Xapo
+
+Monaco
+
+TokenCard
+
+Bitcoin, Ethereum,
+Dash and more
+
+Bitcoin
+
+Bitcoin, Ethereum
+
+Ethereum
+
+Fund Security
+
+Hosted Wallet
+and Smart Contract
+(with planned integration
+with the COMIT network
+by Q2 2018)
+
+Hosted Wallet
+
+Hosted Wallet
+
+Smart Contract
+
+Double Spend
+Risk
+
+Safe
+
+Safe
+
+Safe
+
+Risky
+
+M and V
+
+V
+
+V
+
+V
+
+Live
+
+Live
+
+Not applicable
+
+Not applicable
+
+Full Control
+
+No Control
+
+Little Control
+
+Partial Control
+
+Yes
+
+No
+
+No
+
+No
+
+0.1% On
+Every Purchase
+
+None
+
+None
+
+None
+
+Free
+
+Free
+Domestic Only
+
+1%
+
+1.5%
+
+Blockchain Support
+
+Issuer(s)
+
+Status
+
+User’s Fund
+Security Control
+
+Open Platform
+
+Card Holder
+Incentives
+
+Card Holder
+Transaction Fees
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+19 of 51
+
+Status Quo TenX
+Status of TenX as of May 2017
+● Driven by a talented team of developers, designers, lawyers, marketing experts,
+cryptography and security experts, as well as bankers and accountants to lay the base for
+exponential growth
+● Developed the TenX Wallet to allow for instant multi-asset transactions and payments
+● Global debit (and, in time to come, credit) card partnerships to allow for instant payments
+accepted at over 36 million merchants worldwide and payments directly with your
+blockchain assets
+● Leveraging on rapidly growing global cyptocurrency user-base of 3 million users in the
+and the user-base in the traditional financial world.2 Additionally, there are millions of
+potential users that are currently unbanked
+● Successfully completed a USD 1 million seed round from highly respected investors
+(Crunchbase) in March 2017
+● Backed by highly experienced investors such as Vitalik Buterin (creator of the Ethereum
+foundation), David Lee (FinTech Professor at Singapore Management University), Bo
+Shen (Partner at Fenbushi Capital) and many others to guide us on our journey
+● Excellent industry support - selected to join the Paypal incubator program in Singapore,3
+giving us access to highly valuable legal and commercial support
+Current status of the TenX Wallet as of May 2017
+2
+
+The information is derived from the website of NewsBTC at http://www.newsbtc.com/2017/05/07/three-millioncryptocurrency-users/, accessed on 19 June 2017.
+NewsBTC has not provided its consent to the inclusion of the information in this Whitepaper. While TenX and the
+Distributor have taken reasonable actions to ensure that the information is extracted accurately and fairly from such
+reports and/or publication, and has been included in this Whitepaper in its proper form and context, neither TenX,
+the Distributor nor any party has conducted an independent review of the information contained in such reports nor
+verified the accuracy of the contents of the relevant information.
+3
+
+The information is derived from the website of Tech In Asia at https://www.techinasia.com/paypal-incubatorstartups-first-cohort, accessed on 19 June 2017.
+Tech In Asia has not provided its consent to the inclusion of the information in this Whitepaper. While TenX and the
+Distributor have taken reasonable actions to ensure that the information is extracted accurately and fairly from such
+reports and/or publication, and has been included in this Whitepaper in its proper form and context, neither TenX,
+the Distributor nor any party has conducted an independent review of the information contained in such reports nor
+verified the accuracy of the contents of the relevant information.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+20 of 51
+
+●
+●
+●
+●
+●
+
+Active product that has been live since the beginning of 2017
+Beta test successfully completed with 1,000 users in Singapore
+Used for transactions of over USD 100,000 in spending volume during the Beta test
+Bitcoin, Ethereum (including ERC20 support) and Dash integrated
+International roll-out to all major countries except for the US. The expansion to the US
+market will follow by the end of 2017
+● WebApp roll-out by July 2017 and iOS roll-out by August 2017 (with the specific launch
+dates being subject to achievement of the relevant milestones in the TenX Initial Token
+Sale, as explained below)
+● Successful transactions carried out in over 50 countries
+
+COMIT Integration
+→ We welcome feedback from blockchain and tech-savvy readers on this part of the
+Whitepaper.
+Payment Flow
+TenX Card holders can use any blockchain asset to buy products and services at any of over 36
+million merchants that accept global credit cards. We use Cross-chain Payment Channels of the
+COMIT network to allow the user to settle incoming payment requests from the credit card
+networks in real-time.
+The following is an illustration of how a payment is made in real-time from a user’s TenX
+Wallet and settled on the credit card network
+1. User pays at the merchant using his virtual or physical TenX Card
+2. The card network will send an authorization request to our servers for the purchase
+amount
+3. TenX will send an invoice through the COMIT network to the user
+4. The user will then choose which blockchain asset to use for the payment and send the
+correct amount to TenX through the COMIT network
+5. Upon receiving the corresponding amount for the invoice, TenX will authorize the
+payment to the merchant
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+21 of 51
+
+To allow for real-time transactions, the user will need to configure his TenX Wallet with his
+preferred default blockchain asset as the payment source and set a spending limit. This only takes
+seconds and the user retains full control over his funds at any given time.
+
+Fee Disbursement Flow
+For every card transaction a merchant accepts, the merchant pays 0.5-3% in the form of a
+merchant discount fee. This fee is then split among his bank, also called the acquiring bank, the
+card scheme and the issuing bank. The fee that is paid to the issuing bank is called the
+interchange fee. Traditionally this fee is plain profit for the issuer, but often is also used to give
+rewards to the user in form of air miles or similar benefits. At TenX, we reward our users with
+PAY tokens on every purchase to allow them to become a token holder. Subsequently, PAY
+token holders will receive an incentive of 0.5% of the entire payment volume on the TenX
+payment platform initially on a monthly basis. TenX aims to distribute the reward in shorter
+periods of time in the future, with a target of hourly reward distribution.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+22 of 51
+
+Cross-chain Payment Channel of COMIT network
+We use Cross-chain Payment Channels and the COMIT Routing Protocol to allow our users to
+use their blockchain assets in real-time in the real world. TenX will be the first liquidity provider
+in the network to offer real-world payments. By using the COMIT Routing Protocol, a user can
+use any blockchain asset for his payments.
+
+For further information on the COMIT network, including the COMIT Routing Protocol and the
+Cross-chain Payment Channels, please refer to the whitepaper in respect thereof, accessible at
+http://www.comit.network/doc/COMIT%20white%20paper%20v1.0.2.pdf.
+
+Why build on top of COMIT?
+Similar to the way the internet added value by enabling connectivity between local intranets, the
+COMIT network adds value to individual blockchains by creating connectivity between them.
+The COMIT network is the internet of blockchains. COMIT therefore, will not have to be
+created by any individual entity. Instead, it will automatically operate as the ecosystem will
+strive to connect separate blockchains.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+23 of 51
+
+This is how the features of the COMIT network compares to those of other transaction solutions:
+Traditional Banks
+
+Online Banks
+
+Blockchains
+
+COMIT
+
+Fees
+
+High
+
+Medium
+
+Low
+
+Near Zero
+
+Speed
+
+Slow
+
+Fast
+
+Fast
+
+Instant
+
+Security
+
+Trust-based
+
+Trust-based
+
+Cryptographic
+
+Cryptographic
+
+Control
+
+Centralized
+
+Centralized
+
+Decentralized
+
+Decentralized
+
+Accessibility
+
+Low
+
+Low
+
+Medium
+
+High
+
+Interoperability
+
+Low
+
+Low
+
+Medium
+
+High
+
+Flexibility
+
+Low
+
+Low
+
+Medium
+
+High
+
+Business Profitability
+
+Low
+
+Low
+
+Medium
+
+High
+
+Spurring Growth
+
+Low
+
+Low
+
+Medium
+
+High
+
+Scalability
+
+Low
+
+Medium
+
+Low
+
+High
+
+With this vision in mind, we have developed our company TenX to leverage on the advantages
+of the COMIT network.
+
+Timeline Preview Overview
+Date
+
+Event
+
+May 2015
+
+Idea of TenX pitched at DBS Blockchain Hackathon, awarded
+first prize of SGD 15,000. Invested the money in starting TenX
+
+11th June 2015
+
+TenX officially incorporated in Singapore (previously named as
+OnePay)
+
+July 2015
+
+Startup Boot Camp Fintech Accelerator (EiR)
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+24 of 51
+
+August 2015
+
+First MVP (Minimum Viable Product) of the TenX Wallet
+
+February 2016
+
+Angel Round with USD 120,000 invested
+
+July 2016
+
+Admission to the Paypal incubation programme
+
+August 2016
+
+Card issuing partnership signed (m)
+
+September 2016
+
+Alpha version of TenX wallet goes live
+Rebranded as TenX
+
+Ocotober 2016
+
+Bitcoin added as the first blockchain asset
+
+January 2017
+
+COMIT whitepaper released
+
+February 2017
+
+Closed Beta test with 1,000 users generating approximately
+SGD 100,000 in transaction volume
+
+March 2017
+
+Seed round led by Fenbushi Capital
+Over USD 1 million raised
+Vitalik Buterin joins as advising investor
+
+April 2017
+
+Registration open for Singaporean users
+
+May 2017
+
+ETH and DASH added as additional assets compatible with
+TenX Wallet
+Joined Finnish Start-up Sauna for European strategy
+
+June 2017
+
+More card issuing partnership signed (v)
+Registration open for users worldwide (with a few exceptions)
+
+June 24th 2017,
+9PM Singapore Time/
+3PM Munich Time/
+9AM New York Time/
+2PM London Time
+
+Commencement of TenX Initial Token Sale
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+25 of 51
+
+TenX Initial Token Sale
+What is an Initial Token Sale?
+An Initial Token Sale (ITS) is an event in which a new cryptocurrency project sells part of its
+cryptocurrency tokens to early adopters and enthusiasts in exchange for funding. For the party
+offering the tokens for sale, this has become a well-documented and well-respected way to raise
+funds to upscale an existing product or service.
+The sale by the Distributor of PAY tokens in connection with an Initial Token Sale (the “TenX
+Initial Token Sale”) to you as a purchaser thereof, will be subject to and governed by the T&Cs
+- which is a separate document setting out the terms and conditions of the agreement as between
+the Distributor and you in relation to the TenX Initial Token Sale. In the event of any
+inconsistencies between the T&Cs and this Whitepaper, the former shall prevail.
+The Distributor will be an affiliate of TenX, and will deploy all proceeds of sale of PAY Tokens
+in connection with the TenX Initial Token Sale to fund TenX’s cryptocurrency project, businesses
+and operations.
+Unless the context requires otherwise, references to “we” or “us” in connection with the TenX
+Initial Token Sale shall be construed as references to the Distributor.
+
+The TenX Initial Token Sale is hereby announced on:
+June 24th 2017
+9PM Singapore Time (UTC+8)/
+3PM Munich Time/
+9AM New York Time/
+2PM London Time
+Official Website
+www.tenx.tech
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+26 of 51
+
+Why an Initial Token Sale?
+Even though TenX already has a live, multi-asset cryptocurrency wallet with the TenX Wallet,
+the leap forward with integration with the COMIT network is anticipated to be more than just a
+straight-line progression. Bringing developers, marketing personnel, a legal team, designers and
+many other talented people on board will require additional funds. Offering an Initial Token Sale
+instead of a traditional venture capital round enables the community to participate in TenX’s
+success story, rather than limiting it to a small, selected number of traditional venture capital
+funds. Furthermore, by giving PAY tokens to users of the TenX Wallet and the TenX Card,
+whenever they use the TenX Card, they will benefit from TenX’s future success. An Initial
+Token Sale is fast, transparent and efficient for exactly this purpose.
+
+General Token Sale Overview
+On June 24th 2017 starting at 9PM Singapore Time (see the applicable commencement times in
+more timezones above), we will offer 51% of all PAY tokens to be created for purchase by the
+public in the TenX Initial Token Sale under the ticker symbol PAY. A further 29% of all PAY
+tokens to be created will be retained by TenX and/or the Distributor for distribution for
+community initiatives, business development, academic research, education and market
+expansion, to name just a few. The remaining 20% of PAY tokens to be created will be
+distributed to TenX’s founders, employees and early investors as an incentive to ensure long
+term alignment of interests and commitment to the tokens and their future value. Further details
+of the distribution of tokens are set out below.
+Each PAY token will be sold for 1/350 ETH, meaning 1 ETH will give you 350 PAY tokens.
+Other accepted cryptocurrencies will be converted live in ETH. There is a minimum purchase
+amount of 10 PAY tokens per purchase.
+We will accept a maximum (fixed limit) of 200,000 ETH, for purchase of PAY tokens in the
+TenX Initial Token Sale. The PAY tokens created for such maximum amount contributed will in
+turn represent 51% of all PAY tokens. Should this amount be reached before the end of the sale
+on 24 July 2017, 8.59pm Singapore Time (UTC+8), which is 4 weeks after the token sale
+commencement date, we will cut off the sale.
+In the case of an amount of contribution falling below such maximum amount, the percentage of
+51% of all tokens will be adjusted accordingly, with the difference between such lower amount
+and the maximum amount being reserved for future token sales.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+27 of 51
+
+Holders of PAY tokens will receive 0.5% of the aggregate payment volume that is spent by all
+users with the TenX Card on a monthly basis initially. The payments to the token holders will be
+paid in ETH (Ether), or the closest equivalent thereof in the case where ETH is replaced by
+another cryptocurrency in the future. Going forward, TenX will strive to distribute the rewards in
+shorter time periods, with a target of hourly reward distribution.
+Users of the TenX Card will receive 0.1% from each transaction they make with the TenX Card
+initially on a monthly basis, as an incentive in the form of PAY tokens (similar to how users are
+rewarded with air-miles or other forms of cash back in kind for usage of existing cards today).
+This incentive for users of the TenX Card will have a great benefit to existing token holders
+since this recurring redistribution of tokens will create an additional demand for tokens in the
+market. This additional reward for users in the form of PAY tokens is bought on the open market
+and will create price support.
+Please note that we will not create any new PAY tokens after the TenX Initial Token Sale.
+
+Important Milestones based on different amounts of funding
+received in connection with the TenX Initial Token Sale
+
+If the fund raising in connection with the TenX Initial Token Sale reaches a minimum of at least
+50,000 ETH, TenX will be able to offer TenX’s services soon on mobile platforms in addition to
+Android, including iOS and WebApp. Further, it is envisaged that TenX will explore the
+development and operation of a multi-card platform to expand blockchain assets spending
+coverage via further issuing partnerships with issuers such as Unionpay and American Express,
+in addition to the current issuing partnerships already established.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+28 of 51
+
+Moreover, funding at this level would enable TenX to add and support more and more different
+cryptocurrencies and tokens to offer our users the opportunity to use an even wider variety of
+cryptocurrencies in real-world transactions. Integrating more blockchain assets for compatibility
+with the TenX Wallet will greatly benefit the user by making more and more of their tokens or
+other blockchain assets spendable, as easy as spending a $100 bill.
+
+Funds dedicated
+
+Target Reached
+
+Ca. 7,500 ETH
+
+Programming, testing and going live with the
+WebApp including Beta tests, stability tests,
+market and user analysis
+
+Ca. 7,500 ETH
+
+Programming, testing and going live with iOS
+mobile application including Beta test,
+stability tests, market and user analysis
+
+Ca. 25,000 ETH
+
+Identifying and acquiring different new credit
+and debit card issuing partnerships for TenX
+Integrating the usage of such new cards with
+the TenX Wallet
+Roll out of multi-card strategy
+Recruiting a full-time support staff team going
+forward to facilitate transactions services visa-vis the card partners and the card users
+
+Ca. 10,000 ETH
+
+Appointing and coordinating with external
+auditors to certify the quality of TenX’s
+operations and internal controls in connection
+with the TenX Wallet
+On the financial side, a Big 4 firm, such as
+Deloitte or PwC will provide ongoing
+monitoring of our financial and accounting
+standards
+From a security and IT perspective, TenX will
+hire a best-in-class external auditor to
+establish a long term working relationship
+with them
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+29 of 51
+
+If the TenX Initial Token Sale generates another 50,000 ETH, these funds will enable TenX to
+ramp up the development of the COMIT network and TenX will be able to fully integrate it with
+the TenX Wallet by Q2 2018.
+The COMIT network is a very technically complicated and resource-intensive project. It will
+take a lot of resources to establish and finalise it, and it will be a long way until it is live and
+operational. However, the COMIT network will fundamentally revolutionise the blockchain
+world. In an unprecedented manner, it potentially connects different blockchains without
+introducing new hurdles and complications in between them.
+The COMIT network will completely change the way the business is conducted and how we
+understand today’s blockchain ecosystem. On the COMIT network, a plethora of new
+applications, functions and services will be built to create a quantum leap for the blockchain
+industry.
+
+Funds Dedicated
+
+COMIT Network
+Milestones
+
+Timeline
+
+Ca. 20,000 ETH
+
+Development of first public
+Beta version
+
+Q4 2017
+
+Ca. 10,000 ETH
+
+Comprehensive security audit
+
+Q1 2018
+
+Ca. 10,000 ETH
+
+Production release, COMIT
+being fully functional and
+operational
+
+Q2 2018
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+30 of 51
+
+With the next 50,000 ETH, TenX will be able to apply for a banking license to create an even
+better user experience and to gradually integrate fiat currencies into the TenX Wallet and TenX
+Card, alongside all the cryptocurrencies to come.
+Such banking licence will give TenX and token holders the benefit of significant increases in
+revenues from interchange fees and improved control over card fees, card limits, royalty fees as
+well as loyalty points programmes such as airlines.
+Obtaining a banking licence is a strategic trojan horse into the fiat currency world, and convince
+late adopters and late majority users to begin using cryptocurrencies. TenX intends to offer
+normal fiat deposits, which will be fully insured by governments of different jurisdictions. TenX
+will be able to issue fiat currency-linked tokens on the blockchain for all users and it will be fully
+backed by state guarantees. This will allow TenX to become a major systemic hub and one of the
+most important financial institutions connecting blockchain assets and the fiat currency world.
+A wide variety of institutions ranging from exchanges to blockchain businesses can benefit from
+TenX as bridge between these two worlds.
+The US is one of the most important financial markets, which requires dedication of legal and
+compliance resources. The capital raised will help TenX build global coverage unlike any other
+company.
+
+Funds dedicated
+
+Target Reached
+
+Ca. 15,000 ETH
+
+Recruiting a specialised banking team driving
+the TenX bank initiative forward in the long
+run
+
+Ca. 15,000 ETH
+
+Establishing working dialogues with, or
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+31 of 51
+
+consulting regulatory authorities around the
+world
+Appointing and coordinating with external
+auditors to implement best practices to
+facilitate application for a banking license
+Membership
+in
+non-governmental
+organisations and governing bodies in crossborder banking regulation
+Ca. 15,000 ETH
+
+Applying for banking licences in different
+countries across the globe, noting that legal
+and compliance fees are different in each
+country
+Financial and fully-operational teams might
+be needed
+
+Ca. 5,000 ETH
+
+Applying for a banking licence in the US,
+noting that compliance in the US is likely
+more resource-intensive compared to other
+countries
+
+To start a decentralized exchange we require liquidity, so payments received which are above
+150,000 ETH will be used as liquidity for the COMIT network.
+Any successful exchange requires liquidity to commence and maintain operations. This will
+allow the COMIT network to have a best in class liquidity and spread. Only with that foundation
+we can attract more users and therefore more transaction volume. The more diversified the range
+of cryptocurrencies and tokens which the Distributor can accept as payment in the TenX Initial
+Token Sale, the more liquidity there will be for the COMIT network.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+32 of 51
+
+Funds dedicated
+
+Target reached
+
+Ca. 50,000 ETH
+
+This liquidity is equal to the current
+ShapeShift daily volume. The COMIT
+network will be able to provide sustainable
+liquidity considering even a uni-directional
+market. However, with a bi-directional
+market, this liquidity can sustain more than
+500,000 ETH in daily volume with potentially
+the lowest spread in the market.
+
+TenX Initial Token Sale Summary
+Project Description
+
+TenX aims to make any blockchain asset
+spendable instantly in the future
+
+TenX Wallet Description
+
+The TenX Wallet is a multi-asset
+cryptocurrency wallet that can be used with a
+debit (or, in time to come, credit) card
+worldwide
+
+Ticker Symbol
+
+PAY
+
+Token Background
+
+PAY is built as an ERC20 token on the
+Ethereum blockchain
+
+Start Date
+
+24 June 2017,
+9PM Singapore Time (UTC+8)/
+3PM Munich Time/
+9AM New York Time/
+2PM London Time
+
+End Date
+
+24 July 2017,
+8.59PM Singapore Time (UTC+8)
+2.59PM Munich Time/
+8.59AM New York Time/
+1.59PM London
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+33 of 51
+
+(4 weeks after the token sale commencement date)
+
+PAY token price
+
+1 PAY token equals 1/350 ETH (1 ETH will
+buy 350 PAY tokens)
+
+Total Percentage of all PAY tokens for public, 80%
+comprising (a) and (b) below
+(a) Percentage of all PAY tokens for TenX
+Initial Token Sale
+
+51%
+
+(b) Percentage of all PAY tokens for
+community initiatives etc
+
+29%
+
+Percentage of all PAY tokens for long-term
+alignment of interests
+
+20%
+
+Target Amount Sold (Fixed limit)
+
+200,000 ETH worth of PAY Tokens
+
+Project Status
+
+Live product
+
+Escrow of funds
+
+Funds secured in multi-signature escrow
+account
+
+Token holder reward
+
+0.5% of entire payment volume spent through
+TenX Wallet
+
+Card user incentive
+
+0.1% of user’s individual transactions
+
+Early bird bonus
+
+20% of token purchase amount
+
+Accepted cryptocurrencies for the ITS
+
+Ethereum (ETH), Bitcoin (BTC), ERC20
+Tokens and many more (for the full list of
+accepted cryptocurrencies, please refer to our
+website at https://tokensale.tenx.tech/)
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+34 of 51
+
+Overview of Token Structure
+The Distributor will offer 51% of all PAY tokens to be created for purchase by the public in the
+TenX Initial Token Sale while a further 29% of the PAY tokens to be created will be retained by
+TenX and/or the Distributor to be distributed for purposes including community initiatives,
+business development, academic research, education and market expansion. The Distributor
+considers this is testament to the fact that TenX wants to be open and inclusive of the community
+at large, which TenX perceives as TenX’s most valuable asset. The Distributor considers it is a
+strong signal of trust in TenX if the community owns more than half of the PAY tokens from the
+very beginning.
+At the same time, TenX feels that it is essential that the interests of TenX be aligned with those
+of the ecosystem in the long-term. In order to be able to support long term growth in a
+sustainable way, founders, early backers and the development team of TenX will be rewarded
+with the remaining 20% of tokens in exchange for their efforts and resources contributed to the
+development of the TenX Wallet and the COMIT network.
+
+I)
+
+Percentage of tokens (the TenX Initial Token Sale and purposes including
+community initiatives, business development, academic research, education and
+market expansion)
+
+80%
+
+I.I)
+
+Percentage of tokens for the TenX Initial Token Sale
+
+51%
+
+I.II) Percentage of tokens for purposes including community initiatives, business
+development, academic research, education and market expansion
+
+29%
+
+II)
+
+20%
+
+Percentage of tokens for founders, early backers and the development team for
+a long term alignment of interests
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+35 of 51
+
+Detailed Breakdown Token Structure
+I) 80% of all tokens will be distributed to the public in the long run (for the TenX Initial
+Token Sale, community initiatives, etc.)
+This will ensure long term growth of the TenX Wallet and the PAY tokens, and will support
+development of the ecosystem as a whole. The team at TenX believes in inclusivity and that the
+whole is greater than the sum of its parts.
+I.I) 51% of all tokens will be distributed during the TenX Initial Token Sale
+The funds raised will be used to finance the operations of TenX for the next 4 years. This
+includes funding development, administration, marketing, financial and legal costs.
+I.II) 29% of all tokens will be distributed for community initiatives etc.
+During the next 4 years, 29% of all tokens will be distributed for community initiatives, business
+development, academic research, education and market expansion.
+This budget will be securely held in publically viewable cryptocurrency wallets and are subject
+to scrutiny by the entire community.
+● 20%: Business development
+In order to incentivize the adoption of PAY tokens and COMIT technology as well as to
+promote the development of decentralized applications which are in the infancy stage, 20% of
+the total PAY tokens will be dedicated to selected industries and projects. This includes funding
+of strategic planning, project support and coin swap initiatives as detailed below.
+○ 10% will be used to facilitate the adoption of the PAY tokens and the COMIT
+network in selected industries such as financial services, supply chain
+management, social media, Internet of Things (IoT) and artificial intelligence
+○ 10% will be used for coin swaps of PAY tokens with cryptocurrencies of other
+blockchain open-source ecosystems. The cryptocurrencies acquired this way will
+be distributed among PAY token holders and stakeholders
+
+● 9%: Academic research, education, and market expansion
+This part of the token supply will be used to sponsor academic research, educational
+materials for developers, as well as promotion of the COMIT network and the sharing of
+technologies and contributions with open-source communities. Some of the planned
+activities include:
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+36 of 51
+
+○ Establishing research labs in cooperation with high profile universities
+○ Creating tutorials and educational materials for COMIT network developers using
+different blockchains such as Ethereum and Bitcoin
+○ Cooperating with other open-source communities such as Docker, Linux, Android
+to integrate COMIT network libraries into existing developer stacks by default
+○ Organising events and conferences to raise the awareness of the COMIT network
+technology and facilitate market adoption
+II) 20% of all tokens will be distributed amongst founders, early backers and development
+team
+Founders, early backers and development team will be rewarded with tokens for their efforts and
+resources contributed to the development of PAY tokens and TenX.
+
+● 10% will be reserved as an asset in the company to bring value to early investors. TenX
+received over USD 1 million from a range of notable blockchain investors and
+entrepreneurs, some of which are listed below:
+○ Vitalik Buterin, Founder of Ethereum Foundation
+○ Bo Shen, Fenbushi Capital managing partner
+○ David Lee, Professor at Founder of Ferrell Asset Management Pte Ltd
+● 10% will be used by TenX to incentivise founders, employees and the development team.
+Each TenX founder and employee will receive part of their compensation package in
+PAY tokens, which will vest over 4 years.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+37 of 51
+
+TenX Initial Token Sale Bonus Schedule
+One (1) ETH will give you 350 PAY tokens. That means that one PAY token is worth 1/350
+ETH. There will be extra tokens offered as a bonus for users who commit earlier (early-bird
+bonus). See the time table below for the exact bonus schedule.
+Time
+
+Available Token Bonus
+
+First 24h
+
++20%
+
+Day 2 and day 3
+
++10%
+
+Day 4 to day 7
+
++5%
+
+Day 8 to day 14
+
++2.5%
+
+Final 14 days
+
+no bonus
+
+	
+
+The bonus tokens will be allocated on top of the regular tokens that you are purchasing. For
+example, if you are planning to buy tokens for 50 ETH within the first 24 hours, you will receive
+17,500 tokens plus another 3,500 tokens as a bonus (which represents 20% of your 17,500 token
+purchase), so 21,000 tokens as a total.
+
+Additionally, we offer two extra “goodies”:
+If you buy 25 ETH or more worth of tokens, you will be amongst the first recipients of our
+new and highly exclusive limited edition TenX Card, which will only be issued in the TenX
+Initial Token Sale (subject to availability). The TenX team will release a timestamped list (based
+on time of purchase) after the TenX Initial Token Sale as well as details on the procedures for
+users to order their cards on http://tenx.tech. The cards can only be delivered to users who have
+made payment for the issuing fee and have indicated delivery addresses which are in the list of
+countries which we deliver to, in accordance with the information set out on
+https://www.tenx.tech/fees.html.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+38 of 51
+
+LIMITED EDITION: TenX Special
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+39 of 51
+
+If you want to be part of the super exclusive TenX token sale founders’ team circle and you
+1,250 ETH or more worth of tokens, you will receive the founders’ edition TenX Card, which
+will only be issued in the TenX Initial Token Sale (subject to availability). The TenX team will
+release a timestamped list (based on time of purchase) after the TenX Initial Token Sale as well
+as details on the procedures for users to order their cards on http://tenx.tech. The cards can only
+be delivered to users who have made payment for the issuing fee and have indicated delivery
+addresses which are in the list of countries which we deliver to, in accordance with the
+information set out on https://www.tenx.tech/fees.html.
+
+FOUNDER EDITION: TenX Platinum
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+40 of 51
+
+FOUNDER EDITION: TenX Platinum Case
+
+Amount of PAY tokens
+purchased
+
+ETH Equivalent Purchased
+
+Exclusive Card Bonus
+
+8,750 PAY tokens or more
+
+25 ETH or more
+
+Highly exclusive TenX debit
+card limited edition. Only up
+to 1,000 cards available
+worldwide.
+
+437,500 PAY tokens or more
+
+1,250 ETH or more
+
+Super limited founders’
+edition TenX platinum card.
+Only up to 50 cards available
+worldwide. May include other
+extra surprise goodies.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+41 of 51
+
+TenX Initial Token Sale Timeline
+Commencement of TenX Initial Token Sale
+
+June 24th 2017,
+9PM Singapore Time (UTC+8)/
+3PM Munich Time/
+9AM New York Time/
+2PM London Time
+
+24 hours bonus
+
+20%
+
+Next 2 days
+
+10%
+
+Next 4 days
+
+5%
+
+Next 7 days
+
+2.5%
+
+End of TenX Initial Token Sale
+
+July 24th 2017,
+8.59PM Singapore Time (UTC+8)
+2.59PM Munich Time/
+8.59AM New York Time/
+1.59PM London
+(4 weeks after the token sale commencement date)
+
+Distribution of PAY tokens
+
+Planned distribution starts 2-3 days after the
+end of the TenX Initial Token Sale
+
+Commencement of trading
+
+Planned trading commences in August 2017
+
+Commencement of transferability
+
+On the first day of trading
+
+Funds Escrow
+All payments received for PAY tokens in connection with the TenX Initial Token Sale will be
+held in escrow in a multi-signature address, with a multi key structure. Keys of this multisignature account will stay with TenX, Fenbushi and Ferrell Asset Management Pte Ltd.
+Fenbushi is one of the most respected firms in the Ethereum ecosystem. Ferrell Asset
+Management Pte Ltd is a MAS-licensed multi-asset manager which has been in operation for
+more than 20 years, and was founded by one of our advisors, Mr. David Lee.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+42 of 51
+
+Funding Breakdown
+As mentioned above, a certain part of the PAY tokens will be retained by TenX and/or the
+Distributor after the TenX Initial Token Sale to ensure the long-term alignment of interests. It is
+important for TenX that the community understands how these funds will be spent. The pie-chart
+below illustrates how such PAY tokens that are retained by TenX and/or the Distributor after the
+conclusion of the TenX Initial Token Sale will be allocated.
+
+● Integration of the COMIT network: The COMIT network will be the backbone to operate
+the TenX Wallet in a decentralised, instant and true multi-asset manner. The largest
+portion of our funds will go towards integrating our TenX App and the TenX Wallet with
+the COMIT network
+● Marketing and sales: The TenX team is driven by some of the best marketing experts in
+our team. TenX will continue to run its marketing efforts on a very lean, cost-efficient
+basis and keep user acquisition costs one of the lowest in the industry. For further details,
+please refer to the section entitled “Go-to market strategy” below
+● Multi-platform support: TenX will continuously support and introduce new features, user
+interfaces and language support for the TenX Wallet on iOS, WebApp and Android
+● Development fund: A small portion of the funds will be dedicated for strategic
+partnerships to enhance the revenue stream for our PAY token holders. This could be, for
+example, in the form of co-branding and co-marketing initiatives with other companies
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+43 of 51
+
+● Administration and operations: TenX is running a very lean, cost-effective start-up and
+will continue to do so in the future. Being in the blockchain ecosystem and adhering to
+the highest standards, there are some operational costs associated with accounting and
+administrative overheads to take care of the business processes needed for a growing
+international business
+● Legal: One of our primary focuses when starting this company in early 2015 was to
+establish a solid legal foundation for TenX. We have been in direct contact with the
+MAS, have built our in-house legal & compliance team with the help of Paypal and are
+deeply connected in Singapore to raise awareness for this amazing new technology in the
+legal world. In particular, TenX has engaged the legal services of Dentons Rodyk &
+Davidson LLP to advise on the TenX Initial Token Sale
+Based on TenX’s earlier successful USD 1 million seed round, TenX is confident to complete a
+successful Series A fundraising exercise in the near future. Depending on whether the funding
+goal is reached in the TenX Initial Token Sale, this can be between 9 to 24 months from now.
+In TenX’s opinion, the later TenX raises its Series A, the higher its valuation will be. This will
+also have a positive knock-on effect on holders of PAY tokens.
+Important notice once again: TenX and/or the Distributor will not create any new PAY tokens
+after the TenX Initial Token Sale.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+44 of 51
+
+TenX Initial Token Sale Procedure
+To participate in the PAY token sale, we accept the following currencies:
+●
+●
+●
+●
+
+Ethereum (ETH)
+Bitcoin (BTC)
+ERC20 Tokens
+And many more (for the full list of accepted cryptocurrencies, please refer to our website
+at https://tokensale.tenx.tech/)
+
+The tokens will be delivered to the purchaser after the purchase. Transferability will start from
+the first day of trading, which is planned to start anytime from August 2017.
+
+Usage of Currencies
+For TenX it is super important to be inclusive of as many crypto-communities as possible, as
+TenX strongly believes that the whole is greater than the sum of its parts.
+For this reason, the Distributor will strive to offer the possibility to allow contributions of as
+many different tokens and cryptocurrencies as possible for the TenX Initial Token Sale. The
+Distributor’s goal is to unite as many different crypto-communities in support of TenX as
+possible and provide them with a platform to spend their tokens and coins using our product. It
+was a lot of work, but TenX has managed to find secure ways to accept such a wide variety of
+tokens and cryptocurrencies.
+As an additional incentive for the community, when an equivalent of 2000 ETH in respect of
+cryptocurrencies or tokens in the TenX Initial Token Sale has been received as payments, TenX
+will dedicate our resources to the integration of such additional cryptocurrencies or tokens such
+that they are accepted and compatible with the TenX Card and TenX Wallet to allow you to use
+such cryptocurrencies or tokens for any payments with the TenX Wallet. For example, if we
+receive an equivalent of 2000 ETH or more in Litecoins, we will strive to integrate Litecoin for
+compatibility with the TenX Wallet.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+45 of 51
+
+Equivalent of ETH
+
+Incentive
+
+Contribution of tokens and cryptocurrencies
+in the equivalent value of 2000 ETH
+
+Such cryptocurrency or token will be
+integrated in the TenX Wallet and the user
+will be able to spend it directly via the TenX
+Card
+
+For each token and cryptocurrency on the list above, you will receive PAY tokens in exchange,
+just as if you bought them with Ether or Bitcoin instead. The exchange rate that will be used to
+calculate this will be based on the rate of the currency or token you would like to use vis-a-vis
+Ethereum.
+For example, if users buy PAY tokens in the equivalent value of 2000 ETH or more in ZCash,
+TenX will integrate ZCash in its TenX Wallet and users will be able to spend their tokens
+directly with the TenX Card and the TenX App.
+
+Illustration of Benefits
+Following is an illustration of benefits accruing to the token holders. Please bear in mind that all
+numbers are assumptions based on our best estimates.
+Number of users
+
+1 million
+
+Average spend per user per month
+
+USD 100
+
+Total annual spending volume through TenX
+Wallet
+
+USD 1.2 billion
+
+Allocated revenue incentive (0.5%)
+
+USD 6 million
+
+Illustrative market cap
+
+USD 20 million
+
+Revenue incentive / market cap
+
+30% per annum
+
+Based on recent observations of the ecosystem, TenX perceives these numbers as realistic rather
+than optimistic. Benefits to token holders are linearly associated with the number of users and
+volume of payments through the Tenx Wallet. This can be calculated with the following formula:
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+46 of 51
+
+Number of users: U
+Average spend per user per month: S
+PAY Market Cap: M
+
+Next Steps
+Date
+
+Event
+
+July 24th 2017,
+8.59PM Singapore Time (UTC+8)
+2.59PM Munich Time/
+8.59AM New York Time/
+1.59PM London
+
+Conclusion of the TenX Initial Token Sale
+
+(4 weeks after the token sale commencement date)
+
+July 2017
+
+Announcement of partnerships with exchange
+Rollout of ERC20 Token support for Pay
+tokens
+Launch of WebApp version of the TenX
+wallet
+
+August 2017
+
+Launch of iOS version of the TenX App
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+47 of 51
+
+September 2017
+
+Additional partnerships with exchanges and
+currencies for TenX Wallet
+
+Q4 2017
+
+Operational status of decentralised secure
+smart contracts (DSS)
+
+Q4 2017
+
+Launch of initial live version of COMIT
+
+Q1 2018
+
+Comprehensive testing and audits on security
+of the COMIT network
+
+Q2 2018
+
+Full integration of the COMIT network
+
+Q3 2018
+
+COMIT platform accessible by developers
+
+Q4 2018
+
+Onboarding of other blockchain assets such as
+exchange traded funds (ETFs), derivatives and
+other investment products
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+48 of 51
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+49 of 51
+
+Go-to market Strategy
+
+Conclusion
+We at TenX believe that blockchain technologies and cryptocurrency payments are the way of
+payments in the future. In order to make such payments possible for all consumers with
+maximum convenience, we aim to connect the blockchains in the background and offer the user
+an easy-to-use interface so he has instant access to any of his blockchain assets.
+With the TenX Initial Token Sale to be conducted by the Distributor, a wide range of individuals
+will have the opportunity to participate in our long-term growth and success story to
+fundamentally change the world of payments, transactions and banking.
+Our ultimate vision is for any asset on any blockchain, be it real estate, gold or a cryptocurrency,
+to be as spendable as a $100 bill in your pocket.
+Be part of our success story and join the TenX Initial Token Sale. We are looking forward to
+welcoming you on-board our journey into the future.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+50 of 51
+
+Formerly
+
+Acknowledgements
+We would like to thank anyone not directly mentioned in this Whitepaper in supporting and
+assisting us over all this time. We also wish to thank the entire blockchain community for laying
+the foundation over the past 8 years. A special thank you also goes out to anyone involved with
+the Lightning Network for your groundbreaking research.
+
+Copyright 2017 @ TenX PTE LTD
+team@tenx.tech
+51 of 51
+
+

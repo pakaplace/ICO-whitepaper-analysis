@@ -1,0 +1,1363 @@
+v 1.10
+October 25, 2017
+
+Volodymyr Panchenko
+
+Alexander «ZeroGravity»
+Kokhanovskyy
+
+Sergey Nemesh
+
+1
+
+Abstract
+DMarket is a global marketplace solution that turns every virtual item into a real
+commodity. This paper discusses how we combine blockchain technologies and
+seven years of industry experience to open this multi-billion dollar market to
+the existing world economy. All that time people spend playing games on their
+mobile, PC, console or any other platform could finally be worth something.
+Essentially, DMarket is a new ecosystem where gamers, developers, and
+entrepreneurs can efficiently and securely evaluate and trade virtual items.
+Thus, DMarket creates a new economy that joins with existing real-equity
+markets.
+Early-access to the present paper was given to a number of individuals from
+the gaming industry and blockchain community. The authors deeply thank
+and acknowledge the comments and criticisms that have made the design of
+DMarket and this whitepaper as good as they are. Any faults that remain are,
+of course, the authors’.
+
+2
+
+Table of contents
+Introduction
+Market & Industry	
+Video Games & VR	
+Digital e-Commerce & Gaming Market Analysis	
+Cryptocurrency Market
+
+	
+
+Product Details	
+Problem Definition
+The Solution	
+For Gamers	
+Items Unique Signature & History	
+Influence on Market Development	
+For Developers and Publishers	
+Increased Revenue
+Bounty program for the game developers and publishers	
+Use-case	
+DMarket business opportunities
+Modders, Designers & Contributors	
+
+Technologies
+The DMarket System
+DMarket Coin
+DMarket Token as in-game item
+Product monetization & DMarket Coin economy
+
+Summary
+Product Roadmap	
+Token Sale	
+Token Sale Phase #1
+Token Sale Phase #2	
+
+Use of Funds
+DMarket: Projections
+Our Commitment After the Token Sale Phase #1
+Our Team
+Advisory Board
+Sources
+
+3
+
+Introduction
+In real life, whether you are a lawyer, a crypto trader, a game developer or a
+miner, you spend time, experience, and even luck working to achieve something.
+This always results in a new experience and/or real assets. And since it is yours,
+you can sell, gift it or just throw any asset away.
+Around 2.3 billion people play games on different platforms and devices,
+creating a gaming industry that in 2016 reached $100 billion and continues to
+boom. Only 4,000 pro gamers make a profit from the time and skill they spend
+gaming, including the trading of in-game items they accumulate. Just a couple
+of games accumulating only 6% of the global audience made a turnover of $4
+billion of in-game items. The rest of gamers are out of the market.
+The existing technologies cannot connect the many game universes and
+platforms together. As a result, players are stuck with their useless items,
+despite their time and effort. The growth of the gaming audience and the rise
+of the VR and AR markets has compounded this situation.
+Our team knows exactly what gamers want. Twelve months ago, we started
+trading virtual items in just a couple of games, and since then we have traded
+12 million virtual items. We know what the market needs and have already
+developed a unique platform that enables us to satisfy that need.
+We are now developing a marketplace based on blockchain and smart contracts
+that enable the one-click sale, exchange or evaluation of every virtual item
+between all games on any platform. The DMarket token will be the only currency
+on the platform, providing different options that affect every trade, exchange,
+fee and smart contract. By the end of this whitepaper, you will see how we
+are building a new online economy with the DMarket token. 2.3 billion gamers
+will finally be able to enter a global virtual item market. Using our API, every
+game developer will easily connect their game to DMarket and gain from the
+increased value, revenue and time spent in their games.
+
+4
+
+Market & Industry
+Video Games & VR
+There are approximately 2.3 billion gamers across the globe who are expected
+to generate revenue of $109 billion in 20171. This shows a $7.8 billion (7.8%)
+growth compared to 2016. Digital game revenue will account for about $95
+billion (87%) of the global market.
+
+Use
+
+rs
+
+The most profitable segment is mobile, showing $46.1 billion (19%) and claiming
+42% of the market.
+According to the VR/AR Report Q3 20172, provided by Digi-Capital, the virtual
+reality and augmented reality (VR & AR) market is expected to reach up to $122
+billion by 2021. Also, Digi-capital claims that the size of the gaming market is
+going to reach $200 billion over the next five years. Many companies, such as
+Microsoft Corp., Nintendo Co. Ltd, and Sony Corp., are launching their own VRcompatible console, and this competition accelerates the industry as a whole.
+1	https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017withmobile-taking-42/ 	
+2	
+http://www.digi-capital.com/reports/#augmented-virtual-reality	
+
+5
+
+Digital e-Commerce & Gaming Market Analysis
+In this section, we review the biggest players in the global in-game items
+trading market.
+The Steam platform was released on September 12, 2003. Over the past 4 years,
+it has gained enormous popularity among the gaming community, reaching
+$3.5 billion revenue in 20163. This platform was the first to allow trading of ingame items, but all the profit received from trading is held inside the platform,
+without the possibility of cashing the money out. Moreover, the possibility to
+trade in-game items is very limited and presented in just a few games (CS:GO,
+DOTA2, TF2, PUBG, H1Z1).
+Steam Pros:
+• Steam has become the largest marketplace for video games and mods
+commercialization; • It had $3.5 billion revenue in 2016. Steam’s rate of
+acquisition and catalog offering have shown rapid growth. Up to this day,
+almost 370 million paid games have been activated;
+• Steam also offers many services for players, modders and game developers,
+like object trading, beta/alpha release, game presale, objects listing, payment
+processing and credit card verification.
+Steam Cons:
+• Steam technology and servers are centralized, and have complete control
+over the availability of any single product or item in their catalog, which leads
+to security (account) fraud;
+• Most of the games on Steam don’t have any functionality for in-game item
+trading. Only three games have a significant influence on overall turnover of
+in-game items (CS:GO, Dota2, TF2);
+• Steam users don’t have any real influence on platform development;
+• Steam doesn’t allow users to cash out virtual platform currency;
+• Steam has high fees for trading in-game items (up to 12%);
+• Steam technology does not support multi-platform and multi-engine trading.
+
+3	
+
+https://www.statista.com/statistics/547025/steam-game-sales-revenue/	
+
+6
+
+Here are some figures that show average daily Steam user numbers and the
+overall number of games connected to Steam:
+• Number of daily active users4: 12 853 536 (as of 2017-07-15);
+• Number of games5: +- 14 398 (as of 2017-07-15).
+Opskins is an in-game items trading marketplace that was launched in
+December 2014. The service implements the Steam API to enable the trading
+of in-game items. Currently, Opskins is the biggest skins trading platform on
+the planet with ten million unique users monthly.
+Opskins pros:
+• Q1-Q2 2017 turnover conducted around $250 million;
+• One of the biggest communities for skins trading (over 10 million users
+monthly6);
+• Real money cashout.
+Opskins cons:
+• Doesn’t have official support from Steam (lots of account fraud);
+• High fees for transaction and cashout (up to 10%);
+• Supports only a few Steam games;
+• Due to the use of the Steam API, is highly dependent on Steam.
+
+Cryptocurrency Market
+For the first time, cryptocurrencies hold a market cap larger than $100 billion7.
+Bitcoin (BTC) owns the biggest share, with slightly over $46.6 billion (47.9% of
+all cryptocurrencies8). But the recent wave of other coins, like Ethereum ether
+(ETH), has helped bring the total cap over the top.
+
+4	
+5	
+
+http://store.steampowered.com/stats/	
+https://steamspy.com/year/	
+
+6	
+https://www.similarweb.com/website/opskins.com#overview	
+7	
+http://www.marketwatch.com/story/with-bitcoin-surge-cryptocurrencies-top-100-billion-in-	
+	marketcapitalization-2017-06-06		
+8	
+
+	
+
+https://howmuch.net/articles/worlds-money-in-perspective	
+
+7
+
+Bitcoin peaked to its all-time high (ATH) recently in both price and market cap.
+
+8
+
+Product details
+Problem Definition
+Every minute spent in-game leaves gamers with virtual goods. This could be
+new armor, a fancy car or just a pile of crystals. Unfortunately, there is no easy
+way (or no way at all) to trade these virtual assets among the billions of gamers
+around the world.
+Game universes are not connected to each other, which means there is no
+safe and easy way to trade between them, and no reliable way to approve
+these trades. It was not technologically possible to build a bridge between the
+dozens of game engines, independent and global game developers, and the
+mobile and console worlds.
+More than 70% of the 15 million games we sold in the last 5 years is 2 or more
+years old. There are currently thousands of games, where people can potentially
+trade and exchange digital items. But this is impossible, due to the inability of
+game developers to provide local trading markets for each game.
+Billions of gamers possess rare items, fancy items, memorabilia items. All in
+high demand, but technologically limited to trade.
+
+The Solution
+This market void and our many years of experience have inspired DMarket, the
+first decentralized, global marketplace for trading any digital items. To fill in the
+gap, we have to offer a scalable, cross-platform solution that enables gamers
+to trade any virtual item from any game.
+We are creating a new economic segment. Any kind of collaboration between
+gamers and game developers on our platform will be regulated by market
+demand. Therefore, gamers have their own interest in collecting rare items, and
+game developers are interested in creating and maintaining unique, relevant
+and tradable gaming content.
+
+9
+
+Users (players as well as developers) will be able to leverage their own
+achievements and time spent, either for a better gaming experience or for
+profit. DMarket will also be an easy place to start showing off to other players.
+This adds a completely new dimension to game virtual assets: the notion of
+virtual capital.
+
+HOW DMARKET WORKS
+
+For Gamers
+We want to provide an opportunity for every gamer (DMarket user) in the world
+to be able to evaluate their time, skills and luck. Gamers will be able to perform
+easy, one-click buy/sell, exchange, and evaluation of every possible game
+asset, item, skin, or another game object. To make this possible, each DMarket
+user will be provided with an account on a full-time basis. The account will
+preserve all data in our decentralized database and interact with users utilizing
+smart contracts.
+
+10
+
+Value for gamers:
+•	 in-game item trading and profit-making;
+•	 opportunity to create in-game content and participate in its turnover on
+DMarket;
+•	 security accreditation for every transaction within DMarket;
+•	 opportunity to get a unique collectible in-game item;
+•	 opportunity to switch between games without losing gained arsenal of ingame items.
+
+Items Unique Signature & History
+Blockchain technology and unique identification turn every item on DMarket
+into an exclusive product with its own history, providing each item with
+additional and even collectible value. Thus, achievements of previous holders
+could influence the price and value of an item over time.
+Let’s imagine, for example, a collection of unique items used by cybersports
+champions who took part in world tournaments in 2010-2017. Those items
+couldn’t be bought from the game developer, but they could be bought from
+DMarket members who had them. Thus, for one player, it could be important to
+collect items from a tournament series, while for others it will be their exciting
+mission to collect all kinds of armor used by their favorite Esports players.
+
+Influence on Market Development
+Buying power will provide users with a real impact on the development of
+game assets, items, and mods. The cross-platform and cross-game items
+exchange will open new opportunities to discover and play games while
+levering each user’s virtual gaming capital.
+
+For Developers and Publishers
+Early access to the present paper was given to a number of developers from
+the gaming industry. Most of them showed intense interest in integrating the
+DMarket API into their games. Moreover, they have helped us compose case
+11
+
+studies and monetization methods for different platforms (PC, consoles, mobile,
+VR-compatible platforms), and expand our knowledge of in-game economics.
+We offer a unique solution for game developers. DMarket’s API is a ready-touse solution for giving value to any digital item—whether it is armor, sword,
+gems, or other items—as well as item monetization. First, libraries will cover
+the most popular engines, such as Unreal, Cry Engine, and Unity 3D. That will
+open DMarket to integration with most games on the market. Then, we will add
+custom engine support. Also, we are working on a mobile game solution for iOS
+and Android.
+We have a roadmap for games with different business models (pay-to-play,
+free-to-play, and pay-to-win) with a different number of players (console single
+and multiplayer games) for all types of platforms (PC, consoles, mobile games).
+After studying all these monetization types, we have a win-win solution for
+every market.
+
+Value for game developers:
+•	 marketing intensification and general audience increase. Up to 32% of
+raised funds will be put into events, promos, and general advertising that
+will expand the audience of games presented on DMarket;
+•	 revenue increase. Publishers will receive most of the fees from every
+exchange of their intellectual property: in-game items;
+•	 LTV increase. Lifetime value will dramatically increase as gamers are
+expected to spend in the game hunting for items. Gamers will be able not
+only to have fun, but also to get additional revenue while playing;
+•	
+
+DMarket gives an opportunity to gamers and game fans to test themselves
+as content developers and create unique in-game assets for any game stored
+on DMarket. The best items, approved by publishers will be integrated into the
+game. This will enrich the gaming world with new and unique in-game assets, as
+well as bring additional revenue to both gamers and publishers. Smart contracts
+and blockchain technology will guarantee the transparency of all transactions
+and automatically distribute profits within agreed terms to all parties.
+
+•	 Up to 18% of raised funds will be used for the development of costeffective business models for in-game item turnover. It will be applied to
+the business models suggested by publishers and developers.
+
+12
+
+Increased Revenue
+DMarket will provide developers and decision makers with a platform on which
+games can leverage additional years of existence. Combined with a strong ingame economy system and interesting new features, even single games (not
+part of a franchise and without multiplayer features) could expect to see a
+constant income increase.
+Developers of virtual items presented on DMarket will gain most of the fees
+from every trade commission (up to 80% of every transaction on DMarket).
+This solution aims to generate new ways of game monetization and increase
+lifetime value.
+The evolution of blockchain technology and smart contracts has enabled us to
+exclude fraud to the maximum possible extent, whether it’s database hacking
+or account hacking. It is the key criterion in our decision to create DMarket.
+In addition, the expansion of the tradable market will connect an ever-increasing
+number of potential customers and open a whole new world of marketing.
+
+Bounty program for the game developers and publishers
+We offer a special bounty program for developers and publishers. Up to 18%
+of the DMarket funds attracted by two phases of token sales will be spent to
+stimulate the developers and publishers to create cost-effective and attractive
+business models for the turnover of the in-game items stored on DMarket’s
+blockchain.
+
+Use-case
+Single player and multiplayer PC and console games could generate revenue for
+developers from the trade of hard-to-get, rare, and collectible items. Skins for
+in-game items could fulfill the human drive to be different and avoid changing
+the balance of an existing game.
+Mobile games with pay-to-win or pay-to-play models could benefit from skin
+turnover. Developers will be provided with the option of adding durability to
+13
+
+every item officially sold in the game, as well as opening a trade market for used
+items. That will increase the turnover of new virtual assets and add revenue
+from every used item sale without cannibalizing main sales.
+Additional sources of income are memorabilia items for winning championships,
+collaboration with designers, or previously owned by game stats. Information
+about each item’s owner and history will be secured on the blockchain. This
+will create an additional demand for these items from rare asset collectors or
+celebrity gamers.
+We will provide detailed case studies for every platform, along with technical
+data, in a standalone document.
+
+DMarket business opportunities
+The API developed by DMarket provides multiple opportunities for
+entrepreneurs. In-game items could be integrated into popular online stores,
+used as payments for goods and services.
+Potentially DMarket will enable in-game items to become real assets. When
+this happens, you might be able to insure your in-game assets or receive a loan
+from the bank using your virtual assets as security. That’s what we strive for.
+
+Modders, Designers & Contributors
+The market for modders will open any game to developers, designers, modders,
+and content creators. The well-balanced percentage and use of smart contracts
+will provide the ecosystem with the opportunity to win presale and beta/alpha
+production cycles, increasing the community while building a user base and
+setting up an individual economic network.
+The DMarket network will help gamers to estimate the value of their virtual
+capital and help game developers to increase their revenues.
+
+14
+
+Technologies
+We are developing DMarket as a very high-load system. The market potential
+consists of billions of users, each of whom has thousands of digital items.
+After passing the milestone of 10 million users, the second phase of product
+development will focus on our own blockchain solution.
+The current version of the DMarket network blockchain, implemented using
+Rust and C ++, has the following characteristics:
+•	 High-speed response. It can process up to 3,000 transactions per second,
+which will enable the platform to ensure a proper transaction processing
+speed.
+•	 Elasticity. The developed blockchain ensures smooth operation (even if
+up to one-third of the nodes in the blockchain network are disabled or
+compromised).
+•	 Improved security. Due to the fact that our system is written in Rust, a
+systems programming language designed without segmentation faults
+to guarantee thread safety, the blockchain ensures improved security of
+all processes occurring on the platform.
+Our development team uses Exonum blockchain framework. At this stage, this
+framework is the optimal solution for unleashing DMarket`s potential, which
+allows you to create an efficiently functioning blockchain product with all the
+necessary characteristics listed above in a short period.
+
+The DMarket System
+The DMarket system is divided into two independent parts.
+The first is a decentralized blockchain database - a completely independent
+distributed information storage system for all transactions that take place in
+the game and/or on the trading platforms.
+DMarket`s blockchain uses smart contract technology, which will ensure
+transparency and security of the transaction for all participants.
+15
+
+The capability of smart contracts involves the management of required
+conditions, digital items, and internal cryptocurrency, acting as an independent
+intermediary. The payment and transfer of digital items are processed through
+a smart contract based on all of its terms.
+Smart contracts provide a much higher level of security than ordinary
+contractual right. In addition, the technology allows for reducing transaction
+costs. DMarket implements the following functions through smart contracts:
+•	 control of in-game items` presence (based on HASH) and their available
+quantity;
+•	 control of users` solvency to purchase a particular item;
+•	 other parameters that will be preset by the user or system.
+A smart contract is activated after a successful purchase function initiation and
+is responsible for making mutual cost clearings. A smart contract verifies the
+user’s solvency, as well as the right to own items and the size of the commission.
+The second part of the DMarket system:
+This is an independent trading platform that is capable of processing hundreds
+of thousands of operations per second and interacting with blockchain. This
+layer is developed using the GoLang, PostgreSQL. In order to deliver high
+performance, DMarket developers have chosen a micro-service architecture
+with the RestFull API. Clusters, built on Kubernetes, ensure the stable operation
+of micro-services.
+The DMarket system also uses an independent multimedia storage service.
+This service interacts with both the blockchain and the trading platform,
+functioning as a high-speed storage of media resources. Thanks to this service
+architecture, even its complete disconnection will not affect data continuity
+and safety.
+Additional modules
+The DMarket team is developing a huge number of additional modules that
+will be implemented in the marketplace - in particular, the development of
+statistics management modules using AI, which in turn will use BigData
+analysis modules. This will provide an opportunity to monitor the dynamics
+of growing amounts of data in the system, obtain detailed analytical data on
+16
+
+the transmission chains of virtual items, and monitor the demand for certain
+virtual items on the network.
+Architecturally, all modules are built independently of each other, which
+increases the stability of the entire system. The crash of one module will not
+cause the failure of the entire system.
+All components of the platform interact with each other with the help of
+RestFull API, specially designed to provide data exchange between the internal
+and external modules of the system.
+Integration of DMarket`s API
+To manage in-game items, game developers will receive all the necessary tools
+in the form of API documentation, DLL-libraries or ready-made solutions that
+will be developed for popular game engines.
+That greatly simplifies DMarket`s integration into games.
+	
+At the moment, we are already developing services that will help to make the
+adaptation process of games written in Unity 3D, CryEngine or Unreal Engine
+as quick and understandable as possible, and also allow you to design and
+flexibly adjust the economy of in-game items.
+Also, the DMarket API will provide a number of additional features. In-game
+items can be integrated into popular online stores and used as payment for
+goods or services.
+How does the system work from the perspective of the end user?
+Here is how the DMarket platform shall operate upon its complete launch. The
+user needs to create an account on DMarket. Automatically, the system creates
+a wallet on the basis of the already existing cryptocurrency: DMarket Tokens.
+Once the user has access to his account, he can immediately start working with
+the wallet, adding the needed amount of DMarket Tokens or in-game items
+presented on the marketplace.
+To conduct trading operations, the system automatically synchronizes the
+17
+
+in-game items of the user with his personal account on the blockchain and
+marketplace. Synchronization is carried out with the help of an API using the
+user`s credentials for authorization.
+				
+To implement this synchronization and the overall interaction of the game with
+the trading platform, game developers will be provided with an API that will
+contain the following basic groups of methods:
+• Methods for registering a developer in the system, while the system registers
+a new balance account for the developer;
+• Methods for generating HASH values for each game item (HASH will be used
+as a unique value, to account for virtual items.);
+• Methods for transferring HASH values within the network between players
+and sellers;
+• Methods allowing the identification of the state of each game item;
+• Methods that track certain parameters of certain virtual objects.
+					
+Since smart contracts allow you to implement complex chains of interaction
+between all market users, you need a tool that simplifies the usage of a smart
+contract by end users. For this, we intend to create a special design with a userfriendly interface that will allow you to easily set basic parameters for contract
+implementation.
+
+DMarket Coin
+DMarket Coin – is the only virtual currency that operates on DMarket. All
+transactions with digital goods (including fees) are made in DMarket Coin only.
+After the Token Sale Phase #2, all contributors will receive an ERC-20
+exchangeable DMarket Token on the Ethereum network. After the launch of
+the main DMarket network, this will be exchanged 1-to-1 with a native DMarket
+Coin.
+The issue of DMarket Tokens will be held once only. The number of tokens
+produced will correspond to the number of tokens sold at the crowdsale, but
+no more than the declared Hard Cap.
+
+18
+
+DMarket Coin functionality within the platform:
+•	 As a virtual currency for buying or selling in-game items;
+•	 Delivering sales commission to the owners of the rights on digital property;
+•	 Buying premium accounts for wholesale and individual sellers;
+•	 Purchasing BigData analytics.
+DMarket Coin will be used on the DMarket and will not be limited to the
+platform; in the future it will become a fully-fledged virtual currency item. You
+can buy DMarket Tokens during two sale phases. The first sale phase was held
+on 17–21 August 2017. During this period, users were able to buy tokens with
+more favorable purchase terms. The second sale phase will start on November
+14, 2017 and will continue through November 28, 2017.
+
+DMarket Token as in-game item
+PLEASE NOTE: CRYPTOGRAPHIC TOKENS REFERRED TO IN THIS SECTION
+OF WHITE PAPER ARE CRYPTOGRAPHIC TOKENS ON A LAUNCHED
+BLOCKCHAIN THAT ADOPTS DMarket.IO SOFTWARE. THEY ARE NOT THE
+ERC-20-COMPATIBLE TOKENS BEING DISTRIBUTED ON THE ETHEREUM
+BLOCKCHAIN IN CONNECTION WITH THE DMarket TOKEN DISTRIBUTION.
+A blockchain connection will be established between each DMarket Token (ingame item) and a DMarket Coin. Each game element will be represented in the
+wallet in the form of a DMarket Token.
+Each item will be marked as the property of the company or the person who
+created it, identified in the DMarket blockchain by its own unique ID. This will
+make it possible to track the item within the system with specific features or
+any other additional properties, which are defined in a smart contract. Virtual
+items (DMarket Tokens) will only be released by their developers and copyright
+holders.
+
+Types of digital goods:
+•	 Game virtual currency;
+•	 Games/goods/services;
+19
+
+•	 Game items and consumables;
+•	 Skins and designs;
+•	 Mods, cards, and additions;
+•	 Music and SFX.
+DMarket Tokens (in-game items) are created through the use of the API’s
+endpoint and a token factory. The API itself can be imported into the libraries
+of the most popular engines; this simplifies the connection of the asset creators
+(developers and publishers) with DMarket.
+
+The creators of virtual items will be able to:
+•	 Add and delete virtual goods;
+•	 Set the basic prices for goods;
+•	 Add different features to their goods (e.g. a virtual item can be labeled as
+premium, common or used);
+•	 Allow collective creation of goods;
+•	 Ban certain users from conducting transactions with the goods.
+A Token is a unique property of the digital goods of a particular user, which is
+stored on the blockchain. The ownership of goods and property will be secured
+by the system on the marketplace outside of the game world.
+A Token (virtual good) is subject to alienation, meaning that it can be bought
+or sold or given from one owner to another. The system will also have its own
+evaluation methods that can be requested in one click (or API request) with
+minimal fees.
+Each transaction held in the DMarket has the main fee of 5% of the total
+amount of the transaction. Most of the fee will be sent to the developers and
+copyright holders whose items are involved in the transaction (publishers and
+developers). The remaining element of the fee will be due to the DMarket.
+
+Product monetization & DMarket Coin economy
+One of the key priorities is DMarket monetization, which is beneficial for all
+participants.
+20
+
+Monetization is achieved via a transaction fee on each change of item ownership
+on the DMarket. It will not be more than 5%, and the rightsholder of in-game
+assets will receive most of this commission.
+Both transactions and commission charging are carried out in DMarket Coin
+using smart contract technology.
+DMarket offers a number of additional features. The game assets represented
+on DMarket can be integrated into popular online stores and used as payment
+for goods or services.
+Up to 18% of raised funds will be spent to stimulate the developers and
+publishers to create and develop cost-effective business models for in-game
+item turnover.
+
+21
+
+Summary
+2.3 billion gamers are currently facing technology limitations to their right to
+trade in-game items. With time and effort, they earn virtual assets that are rare,
+fancy, and sometimes simply wanted by other players. By creating DMarket,
+a blockchain-based marketplace, we can connect all games and platforms
+together. With the built-in token and smart contracts technologies, DMarket
+will enable users to make a one-click sale, exchange every virtual item among
+all games on any platform, as well as evaluate their assets. DMarket makes
+virtual items real.
+By offering gamers an opportunity to buy and sell in-game assets to all gamers
+globally, DMarket creates a new in-game item economy worth more than $450
+billion and turns virtual items into real assets with the help of blockchain
+technology.	
+Using our API, every game developer will easily connect its game to DMarket.
+That will increase lifetime value, revenue, and time spent in the games. Users
+will enter the global economy with virtual items.
+Furthermore, DMarket’s API provides a number of business opportunities for
+other entrepreneurs. Items stored on DMarket blockchain can be integrated
+into popular online shops, and then used as a payment method.
+	
+Game developers are very welcome to discuss API implementation and DMarket
+economics in their current and future projects. We invite every qualified and
+interested blockchain and crypto developer to open discussion about network
+creation. Crypto investors are invited to participate in the Main token sale
+starting on November 14, 2017.
+	
+Be a part of the new world economy worth more than $450 billion.
+Join DMarket today!
+
+22
+
+Product Roadmap
+Q1 2017
+
+The DMarket
+idea birth
+
+Q2 2017
+
+Market research and
+integration meetings with
+game developers
+
+Q3 2017
+
+Brand awareness and
+
+Q4 2017
+
+DMarket Alpha (testnet), Token
+
+Token Sale Phase #1
+
+Sale Phase #2, Token emission,
+DMarket Token listing
+
+Q1 2018
+
+DMarket security audit
+
+Q2 2018
+
+API integration in 10 games with
+
+and product launch
+
+1M users, in-game items value
+exceeding $200M
+
+Q2 2019
+
+API integration in 100 games with
+10M users, in-game items value
+exceeding $2B
+
+Q2 2020
+
+API integration in 2000 games
+with 100M users, in-game
+items value exceeding $40B
+
+23
+
+Token Sale
+Token Sale Phase #1
+36,037,245 DMarket tokens were sold
+	
+Start date: August 17, 2017 (12:00 PM NYC Time, UTC-4)
+End date: August 21, 2017 (12:00 PM NYC Time, UTC-4)
+	
+DMarket token sale cap (Phase #1): 50,000,000 DMarket tokens
+Minimal goal to start: 5,000,000 DMarket tokens
+Currency accepted: ETH, BTC
+Token exchange rate: 1 ETH = 1,000 DMarket tokens
+Amount of tokens per one person: unlimited
+Minimum transaction amount in Ethereum: 0.1 ETH
+Minimum transaction amount in Bitcoin: 100 DMarket tokens
+Maximum transaction amount: unlimited
+Bonuses:
+Day 1: +10% bonus
+Day 2: +5% bonus
+Day 3: +3% bonus
+Day 4: no bonuses
+
+	
+
+Token Sale Phase #2
+Start date: November 14, 2017, at 12:00 PM New York / 16:00 UTC / 17:00 London
+/ 17:00 CET / 19:00 Moscow / 21:30 Mumbai / 00:00 Shanghai, UTC +8 / 01:00
+Tokyo, UTC +9
+End date: 28th of November 2017 at 12:00 PM New York / 16:00 UTC / 17:00
+London /17:00 CET / 19:00 Moscow / 21:30 Mumbai / 00:00 Shanghai, UTC +8
+/ 01:00 Tokyo, UTC +9
+	
+	
+DMarket token sale cap (Phase #2): 100,000,000 DMarket tokens
+Currency accepted: ETH, BTC, LTC
+The exchange rate is 1 ETH = 750 tokens
+The minimum transaction: 75 DMarket tokens (0.1 ETH)
+The maximum transaction: 25,000 DMarket tokens (33.33 ETH)
+Amount of tokens per one person: 25K DMarket tokens (33,333 ETH)
+After the token sale is closed, 10% of the total token amount sold is issued and
+reserved for DMarket’s core activities, and 5% is reserved for DMarket advisory
+board and partners. The DMarket tokens will be sent to the User’s personal
+respective cryptocurrency wallet after of DMarket Token Sale Phase #2.
+24
+
++5%
+
+Advisory board & Partners
+
++10%
+
+Core activities reserve
+
+Token Sale
+
+USE OF FUNDS
+2017
+
+2018
+
+2019
+
+2020
+
+Total
+
+%
+
+Financial analytics
+
+240K
+
+455K
+
+502K
+
+500K
+
+1 697K
+
+2,67%
+
+Sales and business analytics
+department
+
+369K
+
+1 300K
+
+1 662K
+
+1 665K
+
+4 996K
+
+7.87%
+
+Administrative and General
+business expenses
+
+361K
+
+457K
+
+550K
+
+550K
+
+1 918K
+
+3.02%
+
+External and internal legal
+support
+
+485K
+
+218K
+
+200K
+
+200K
+
+1 103K
+
+1.74%
+
+45K
+
+70K
+
+86K
+
+85K
+
+286K
+
+0.45%
+
+2 300K
+
+5 870K
+
+6 200K
+
+7 600K
+
+21 970K
+
+34.59%
+
+Marketing and advertising
+
+520K
+
+3 260K
+
+4 350K
+
+5 300K
+
+13 430K
+
+21.14%
+
+Conferences, business trips
+
+980K
+
+1 240K
+
+2 250K
+
+2 100K
+
+6 570K
+
+10.34%
+
+0
+
+3 550K
+
+4 200K
+
+3 800K
+
+11 550K
+
+18.18%
+
+5 300K
+
+16 420K
+
+20 000K
+
+21 800K
+
+63 520K
+
+100.00%
+
+Accounting and audit
+
+IT development and product
+development
+
+Game developer bonuses
+
+Total
+
+25
+
+DMarket: Projections
+In 2016, the gaming industry’s revenue reached $100 billion and is still booming.
+It is expected that by 2020 this figure will reach 128 billion dollars. The estimated
+in-game trading turnover is $4 billion. And this volume is generated only by 150
+million people. DMarket unlocks in-game item trading for more than 2.3 billion
+people – that’s the number of people who play games every day on different
+platforms and devices. The market will exceed $450 billion.
+Considering the growth of the gaming industry and the opportunities that
+DMarket opens, we believe that by 2020 the market for game content will
+reach such a level that virtual items will be sold on a par with real goods on
+top-of-the-line online platforms. Аnd well-known designers will cooperate not
+only with sports or car brands, but they will start to create capsule collections
+for GTA or World of Warcraft.
+We believe that virtual items will extend beyond the game worlds and become
+an integral part of real life. It is expected, banks will accept in-game content
+as collateral, or issue loans for the purchase of a rare or collectible virtual item.
+Insurance companies will easily insure a unique virtual sniper rifle that helped
+to win the world championship. Jurists and lawyers will advocate and litigate
+the owners’ rights to virtual items just as any other property – a car or a house.
+.
+
+KEY METRICS
+Games
+
+Users (mln)
+
+In-game asset
+value (USD, mln)
+
+DMarket annual
+trades turnover (USD, mln)
+
+Target Volume
+
+2018
+
+10
+
+1
+
+900
+
+108
+
+180.00%
+
+2019
+
+100
+
+10
+
+9000
+
+1080
+
+1800.00%
+
+2020
+
+2000
+
+200
+
+180000
+
+21600
+
+36000.00%
+
+2021
+
+3500
+
+350
+
+315000
+
+37800
+
+63000.00%
+
+2022
+
+5000
+
+500
+
+450000
+
+54000
+
+90000.00%
+
+2023
+
+10000
+
+1000
+
+900000
+
+108000
+
+180000.00%
+
+26
+
+Our commitment after the token sale phase #1
+
+27
+
+Our team
+Volodymyr Panchenko
+Founder & CEO
+•	
+
+#1 private merchant of digital games in the world (15M
+games sold over the past 5 years via Ebay, G2A, Kinguin)
+
+•	
+
+Founder of skins.cash — 2nd biggest virtual items
+marketplace (12M items sold over the past year)
+
+•	
+
+Founder and CEO of SunTechSoft
+
+•	
+
+$50M total annual revenue
+
+Alexander «ZeroGravity» Kokhanovskyy
+Co-founder
+•	
+
+17 years of experience in the e-Sports industry
+
+•	
+
+Founder of Na`Vi (Natus Vincere) - 2nd most popular and
+one the most successful e-Sports teams
+
+•	
+
+In 2016 became shareholder of ESforce Holdings - 3rd
+biggest e-Sports entity funded by USM Group (Mail.ru, VK
+.com, Megafon) with more than $100M of investments in
+last round
+
+Sergey Nemesh
+CTO
+•	
+
+Blockchain development and implementation
+
+•	
+
+10 years of experience in Big Data Solutions development
+
+•	
+
+8 years of experience in AI development and integration
+(Smart sensors, Databases)
+
+Andriy Khavryuchenko
+Blockchain architect
+•	
+
+Senior Developer of DASH cryptocurrency (world top 8,
+market cap $1.4B)
+
+•	
+
+4 years of crypto developing
+
+•	
+
+26 years in software development
+28
+
+Oleg Panasenko
+
+Project Manager
+
+Alexander Matsenko
+
+Development Tech Lead
+
+Illia Syniakin
+
+Development Tech Lead
+
+Dmitriy Vityuk
+
+Development Tech Lead
+
+Sergey Gudyma
+Andrey Zolotarenko
+
+QA Tech Lead
+Product Manager
+
+Julia Laznyuk
+
+PR Advisor
+
+Viktoriya Kim
+
+Chief of Media/Content department
+
+Anton Kryvnov
+Iryna Loza
+
+Chief Marketing Officer
+HR Business Partner
+
+IT back-end
+Andrii Nasinnyk
+Roman Zhuravel
+
+Anton Tribulkevich
+Vladislav Mysiur
+
+Andrey Bobryshev
+
+Rustam Yengalichev
+
+Sergii Cherniavskyi
+
+Vitalii Boiko
+
+IT front-end
+Roman Semak
+Oleksandr Buchek
+Anastasia Barabash
+Mike Kovetsky
+
+Bohdan Polishchuk
+Nikolay Batashov
+Roman Karbushev
+Bohdan Kiryanov
+
+Dmitriy Didyk
+
+IT QA
+Denys Galyuk
+
+Iryna Huziienko
+
+Svetlana Mankut
+
+IT DevOps
+Aleksandr Kryvoruchko
+
+Alexander Samarin
+
+Kostiantyn Kryvasov
+
+System administration
+Vladimir Buksha
+
+Vyacheslav Voronkin
+
+Product
+Ivan Antipov
+
+Eugene Dzidziguri
+
+Pavel Slobodianiuk
+29
+
+Design
+Valeriya Bediya
+
+Victoria Leshchenko
+Semen Kryuchkov
+
+Marketing, Sales
+Anastasiya Drazhnik
+
+Maksym Osnach
+
+Kateryna Medushyvskaia
+
+Oleh Harbar
+
+Sergey Danyliuk
+
+Vladyslav Shvets
+
+PR, SMM, Content
+Eugene Bozhenko
+
+Eugenia Ostapenko
+
+Alisa Serbeniuk-Kuchinskaya
+
+Dmitry Karachan
+
+Yana Shevchenko
+
+Vladislav Nazarkin
+
+Hanna Synetska
+SEO
+Artem Tarasenko
+
+Roman Pinskiy
+Andriy Nikitiuk
+
+Support
+Dmitry Kravchenko
+
+Vsevolod Kornieiev
+
+Ivan Fesenko
+
+Vladislav Shevchenko
+
+Vitaly Chekalenko
+
+Yuriy Samusenko
+
+Mikhail Tychyna
+
+Vladimir Olekhnovich
+
+Eugene Koziy
+
+Elena Zabolotnaya
+
+Nikita Sergeev
+
+Roman Pilipenko
+
+Artem Porozhnyak
+
+Alexandra Lutsenko
+Alexander Mamzurenko
+
+HR
+Ulyana Bogdan
+
+Anastasia Zobova
+
+Iryna Zadnipryana
+
+Financial
+Tamara Slanova
+
+Olga Tymoshyna
+
+Olena Myronyk
+30
+
+Advisory board
+Oren Klaff
+Managing Director at Intersection Capital
+($2 billion in aggregate trade volume across
+a diversified portfolio of companies and
+transactions), Author of «Pitch Anything»
+Bestseller
+«The DMarket team knows more about cryptocurrency
+and smart transactions than the next five companies
+combined. They impressed me with the idea of
+combining all known gaming worlds into the one
+society, giving players the tools to buy & sell directly
+with each other. This is the next generation of
+commerce and DMarket is leading it.»
+
+Dr. Moe Levin
+CEO of Keynote, a global technology conference
+company which has been responsible for over
+$250MM of investments into cryptocurrency
+and blockchain startups. Co-Founded the first
+accredited Blockchain Academy
+«There is a tremendous amount of locked-up value
+in the world of eSports. Value that has been created
+via hard work and skill, but is locked due to a lack of
+infrastructure, efficiency, and capabilities. DMarket
+streamlines the process by creating an interoperable
+marketplace which is game and platform agnostic. With
+a marketplace such as this, users are able to unlock and
+recover their billions of dollars worth of hard work and
+open up even greater possibilities.»
+
+Brian Kerr
+Managing Director at GL Ventures, Founder
+& CEO Fnatic Gear
+«DMarket is a game changer for the game industry! The
+Steam marketplace is huge, but this will be on another
+level unifying mobile, console, and PC gaming industries
+while empowering gamers to monetize their time and
+skill.»
+31
+
+Igor Matsanyuk
+Chairman at Game Insight, Senior ex-Vice
+President at Mail.ru, Founder at IMI.VC,
+Founder at Farminers
+«It seems that this future is already happening: the
+virtual goods get real value, while the virtual economics
+are setting the rules for the real markets. The DMarket’s
+initiative to organize and optimize the in-game assets
+ecosystem will set new standards of quality and comfort
+for users. It is yet another opportunity for our society of
+consumption to reassess its values.»
+
+Oleg Yavorsky
+PR & Marketing Director at
+Vostok Games
+«We seem to be seriously going into virtual worlds, virtual
+items and their related economies. DMarket promises to
+become a strong foundation in such creation of the worlds,
+as far as gaming is concerned. And it’s great to be a part of
+that process!»
+
+Evgeniy Grygorovych
+Project Leader at GSC Game World
+(S.T.A.L.K.E.R., Cossacks game series)
+«This is an incredible breakthrough for the whole gaming
+world. The DMarket team creates a valuable product,
+connecting game developers and the gamers into separate
+gaming cluster of the global economy»
+
+32
+
+Denis Dovgopoliy
+Founder at GrowthUP, investor,
+advisory
+«This is one of the most interesting, blockchain related
+projects in 2017. Great because industry leaders are working
+on it, which should bring an incredible success!»
+
+Igor Karev
+CEO at Tatem Games
+«There is a huge market for mobile game developers. Many
+new and interesting opportunities exist where their time
+will be compensated handsomely with the opening of
+DMarket. We support the DMarket team in building this
+project»
+
+33
+
+Sources
+https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9billion-in-2017-with-mobile-taking-42/
+http://www.digi-capital.com/reports/#augmented-virtual-reality
+https://www.statista.com/statistics/547025/steam-game-sales-revenue/
+https://www.polygon.com/2016/1/4/107 10184/repor t-paid-steam-gamesmarketestimated-at-over-3-5-billion-in-2015
+http://store.steampowered.com/stats/
+https://steamspy.com/year/
+https://www.similarweb.com/website/opskins.com#overview
+https://howmuch.net/articles/worlds-money-in-perspective
+https://www.superdataresearch.com/market-data/market-brief-year-in-review/
+https://en.wikipedia.org/wiki/Decentralised_system
+https://bitcoin.org/bitcoin.pdf
+https://blockgeeks.com/guides/smart-contracts/
+http://www.blockchaintechnologies.com/blockchain-smart-contracts
+https://support.steampowered.com/kb_article.php?ref=6088-UDXM-7214
+https://blockchainhub.net/blockchain-oracles/
+
+34
+
+

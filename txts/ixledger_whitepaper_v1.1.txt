@@ -1,0 +1,973 @@
+An​ ​Insurance​ ​Marketplace​ ​based​ ​on​ ​Blockchain 
+
+Nov,​ ​2017 
+ 
+
+ 
+ 
+
+ 
+
+Content 
+ 
+1​ ​Executive​ ​Summary
+
+3
+
+2​ ​Introduction
+
+3
+
+3​ ​The​ ​Insurance​ ​Market​ ​Today
+3.1​ ​Existing​ ​Challenges
+3.1.1​ ​Generation​ ​Shift
+3.1.2​ ​Growth​ ​Limitations
+3.1.3​ ​Overhead​ ​Costs
+3.1.4​ ​Legacy​ ​IT
+3.2​ ​Market​ ​Opportunity
+3.2.1​ ​Increased​ ​Regulation
+3.2.2​ ​Status​ ​Quo​ ​is​ ​not​ ​enough
+3.2.3​ ​Drive​ ​For​ ​Digitization
+3.2.4​ ​Global​ ​Reach
+
+3
+4
+4
+4
+4
+5
+5
+5
+5
+5
+6
+
+4​ ​The​ ​iXledger​ ​Platform
+4.1​ ​Target​ ​Audience
+4.2​ ​Key​ ​Features
+4.3​ ​Key​ ​benefits
+4.4​ ​Technology
+4.4.1​ ​Architecture​ ​Overview
+4.4.2​ ​Blockchain
+4.4.3​ ​Oracles
+4.4.4​ ​Security​ ​and​ ​data​ ​privacy
+4.4.5​ ​Matching​ ​Engine
+4.4.6​ ​Digital​ ​Signing
+4.5​ ​IXT​ ​-​ ​The​ ​iXledger​ ​Token
+4.6​ ​Token​ ​Allocation
+4.7​ ​Reserve​ ​Pool
+4.8​ ​Team​ ​Pool
+4.9​ ​Token​ ​Burn
+4.10​ ​Token​ ​Purchase
+4.11​ ​Activities
+4.12​ ​Volatility​ ​Control
+4.12.1​ ​Price​ ​Range​ ​Calculation
+4.12.2​ ​Arbitrage​ ​Prevention
+
+6
+6
+7
+8
+8
+9
+9
+10
+11
+12
+13
+13
+14
+14
+14
+14
+15
+15
+16
+17
+17
+1 
+
+4.12.3​ ​Platform​ ​Launch​ ​Price
+
+17
+
+5​ ​Roadmap
+
+17
+
+6​ ​The​ ​Company
+6.1​ ​The​ ​Leadership​ ​Team
+6.2​ ​The​ ​Core​ ​Team
+
+18
+18
+19
+
+7​ ​Competitive​ ​Landscape
+7.1​ ​Situational​ ​Analysis
+7.1.1​ ​Corporate
+7.1.2​ ​Industry
+7.1.3​ ​Platform​ ​Functionality​ ​Matrix
+
+20
+20
+20
+21
+22
+
+8​ ​Partnerships
+
+23
+
+9​ ​Disclaimer
+
+24
+
+10​ ​References
+
+25
+
+ 
+ 
+
+ 
+
+2 
+
+1​ ​Executive​ ​Summary 
+iXledger​ ​is​ ​building​ ​a​ ​platform​ ​that​ ​aims​ ​to​ ​disrupt​ ​and​ ​replace​ ​the​ ​traditional​ ​insurance​ ​working
+models.​ ​Our​ ​offering​ ​is​ ​a​ ​global​ ​and​ ​alternative​ ​marketplace​ ​that​ ​uses​ ​technology​ ​as​ ​one​ ​of​ ​the
+pivot​ ​differentiators.​ ​The​ ​working​ ​platform​ ​leverages​ ​blockchain​ ​and​ ​revamps​ ​many​ ​of​ ​the
+currently​ ​outdated​ ​insurance​ ​processes.
+The​ ​insurance​ ​industry​ ​is​ ​undergoing​ ​change​ ​that​ ​is​ ​partially​ ​driven​ ​by​ ​technology.​ ​Insurance
+companies​ ​have​ ​been​ ​exploring​ ​emerging​ ​technologies​ ​in​ ​order​ ​to​ ​remain​ ​innovative​ ​and
+competitive​ ​in​ ​the​ ​industry.​ ​Blockchain​ ​is​ ​one​ ​of​ ​the​ ​key​ ​technologies​ ​that​ ​promises
+transformative​ ​alternatives​ ​to​ ​traditional​ ​insurance​ ​approaches.
+This​ ​whitepaper​ ​outlines​ ​how​ ​iXledger​ ​will​ ​meet​ ​upcoming​ ​challenges​ ​and​ ​take​ ​advantage​ ​of
+opportunity​ ​gaps​ ​within​ ​the​ ​insurance​ ​market.
+iXledger​ ​successfully​ ​completed​ ​a​ ​fund-raising​ ​ICO​ ​and​ ​we​ ​are​ ​focused​ ​on​ ​building​ ​a​ ​viable
+commercial​ ​operation.​ ​We​ ​are​ ​not​ ​including​ ​financial​ ​projections​ ​or​ ​budgets​ ​in​ ​general.
+
+2​ ​Introduction 
+iXledger​ ​is​ ​a​ ​UK​ ​registered​ ​company​ ​based​ ​in​ ​London,​ ​the​ ​global​ ​capital​ ​of​ ​insurance.​ ​Our
+mission​ ​is​ ​to​ ​transform​ ​the​ ​way​ ​the​ ​market​ ​trades​ ​and​ ​manages​ ​insurance​ ​products​ ​by​ ​offering​ ​an
+alternative​ ​insurance​ ​marketplace​ ​utilising​ ​blockchain​ ​technology.
+iXledger​ ​is​ ​creating​ ​the​ ​required​ ​tools​ ​best​ ​suited​ ​for​ ​the​ ​operations​ ​of​ ​insurers​ ​and​ ​brokers.​ ​Our
+solutions​ ​will​ ​help​ ​these​ ​users​ ​maximise​ ​market​ ​connections​ ​and​ ​efficiency​ ​throughout​ ​all​ ​stages
+of​ ​their​ ​day-to-day​ ​working​ ​processes.​ ​This​ ​paper​ ​gives​ ​you​ ​a​ ​detailed​ ​overview​ ​of​ ​our​ ​approach.
+
+3​ ​The​ ​Insurance​ ​Market​ ​Today 
+The​ ​insurance​ ​market​ ​counts​ ​for​ ​$3.92​ ​trillion​ ​or​ ​5.7​ ​percent​ ​of​ ​the​ ​global​ ​economic​ ​output​ ​[1].
+Estimates​ ​suggest​ ​that​ ​this​ ​is​ ​the​ ​volume​ ​of​ ​the​ ​gross​ ​written​ ​premiums​ ​generated​ ​by​ ​insurers
+across​ ​the​ ​globe​ ​in​ ​2015.
+London​ ​is​ ​the​ ​capital​ ​of​ ​the​ ​global​ ​insurance​ ​market​ ​in​ ​Europe,​ ​with​ ​a​ ​long​ ​history​ ​as​ ​a
+marketplace​ ​for​ ​all​ ​kinds​ ​of​ ​insurance.​ ​The​ ​Association​ ​of​ ​British​ ​Insurers​ ​estimated​ ​the​ ​value​ ​of
+
+3 
+
+assets​ ​under​ ​management,​ ​held​ ​by​ ​insurance​ ​companies,​ ​at​ ​$2.032​ ​trillion.​ ​In​ ​the​ ​UK,​ ​305,500
+people​ ​are​ ​employed​ ​within​ ​the​ ​industry​ ​[2].
+Insurance​ ​companies​ ​are​ ​seeking​ ​to​ ​increase​ ​their​ ​revenue​ ​by​ ​creating​ ​new​ ​insurance​ ​products
+and​ ​expanding​ ​into​ ​new​ ​markets.​ ​At​ ​the​ ​same​ ​time,​ ​brokers​ ​are​ ​merging​ ​to​ ​broaden​ ​their​ ​offering
+and​ ​services.​ ​Market​ ​consolidation​ ​has​ ​become​ ​the​ ​trend​ ​in​ ​order​ ​to​ ​grow​ ​[3].
+Compared​ ​to​ ​the​ ​traditional​ ​cost​ ​cutting​ ​and​ ​market​ ​consolidation​ ​[4],​ ​blockchain​ ​can​ ​change​ ​the
+insurance​ ​industry​ ​the​ ​same​ ​way​ ​as​ ​the​ ​Internet​ ​revolutionised​ ​the​ ​world​ ​in​ ​the​ ​early​ ​90’s.
+Blockchain​ ​creates​ ​new​ ​growth​ ​opportunities​ ​in​ ​the​ ​global​ ​insurance​ ​industry​ ​as​ ​new​ ​products
+and​ ​operations​ ​are​ ​evolving​ ​from​ ​blockchain​ ​technology​ ​[5].
+
+3.1​ ​Existing​ ​Challenges
+
+Insurers​ ​face​ ​a​ ​number​ ​of​ ​challenges,​ ​including:​ ​A​ ​fast-paced​ ​changing​ ​industry,​ ​outdated
+technology​ ​and​ ​a​ ​shift​ ​in​ ​demographics.​ ​Below​ ​is​ ​an​ ​outline​ ​of​ ​some​ ​of​ ​the​ ​major​ ​challenges.
+
+3.1.1​ ​Generation​ ​Shift
+
+The​ ​generation​ ​of​ ​Baby​ ​Boomers​ ​(aged​ ​51-69)​ ​and​ ​Generation​ ​X​ ​(aged​ ​35-50)​ ​are​ ​yet​ ​to
+embrace​ ​technology​ ​for​ ​insurance​ ​solutions.​ ​On​ ​the​ ​other​ ​hand,​ ​the​ ​millennial​ ​generation​ ​(aged
+18-34)​ ​insurance​ ​professionals​ ​have​ ​expectations​ ​of​ ​a​ ​system​ ​that​ ​is​ ​simple,​ ​transparent​ ​and
+efficient.​ ​The​ ​increase​ ​in​ ​competition​ ​and​ ​changes​ ​is​ ​pushing​ ​this​ ​generation​ ​into​ ​a​ ​new
+digitalised​ ​environment.
+
+3.1.2​ ​Growth​ ​Limitations
+
+Brokers​ ​and​ ​underwriters​ ​face​ ​limitations​ ​to​ ​grow​ ​if​ ​their​ ​access​ ​to​ ​the​ ​marketplace​ ​is​ ​limited.
+Traditionally,​ ​relationships​ ​are​ ​the​ ​foundation​ ​to​ ​provide​ ​future​ ​business​ ​growth​ ​in​ ​insurance.
+The​ ​current​ ​manual​ ​paper-based​ ​processes​ ​are​ ​a​ ​big​ ​challenge​ ​to​ ​grow​ ​business​ ​operations.
+
+3.1.3​ ​Overhead​ ​Costs
+
+Insurance​ ​processes​ ​that​ ​manage​ ​risk,​ ​premiums​ ​and​ ​claims​ ​typically​ ​involve​ ​a​ ​significant
+exchange​ ​of​ ​data​ ​between​ ​multiple​ ​parties.​ ​Each​ ​party​ ​stores​ ​their​ ​own​ ​separate​ ​copies​ ​of​ ​data
+and​ ​process​ ​these​ ​individually.​ ​This​ ​makes​ ​it​ ​difficult​ ​to​ ​synchronise​ ​and​ ​collaborate​ ​through
+what​ ​is​ ​meant​ ​to​ ​be​ ​a​ ​shared​ ​process.
+
+4 
+
+3.1.4​ ​Legacy​ ​IT
+
+In​ ​many​ ​cases,​ ​insurance​ ​companies​ ​have​ ​outdated​ ​IT​ ​systems​ ​that​ ​are​ ​not​ ​ready​ ​for​ ​mobile​ ​use
+or​ ​general​ ​online​ ​access.​ ​A​ ​large​ ​proportion​ ​of​ ​the​ ​legacy​ ​IT​ ​systems​ ​are​ ​“closed”​ ​and​ ​have​ ​no
+easy​ ​way​ ​of​ ​integrating​ ​external​ ​partners’​ ​systems.
+
+3.2​ ​Market​ ​Opportunity 
+The​ ​insurance​ ​industry​ ​is​ ​going​ ​through​ ​some​ ​significant​ ​changes​ ​that​ ​have​ ​an​ ​impact​ ​on​ ​profit
+levels​ ​and​ ​this​ ​therefore​ ​increases​ ​the​ ​need​ ​for​ ​cost-saving.​ ​The​ ​consumer​ ​markets​ ​are​ ​also
+changing​ ​with​ ​new​ ​approaches​ ​to​ ​insurance​ ​and​ ​gaining​ ​popularity.​ ​According​ ​to​ ​KPMG,​ ​‘on
+demand​ ​insurance​ ​is​ ​an​ ​appealing​ ​proposition,​ ​as​ ​it​ ​provides​ ​convenience​ ​through​ ​an​ ​attractive
+customer​ ​interface​ ​and​ ​offering​ ​flexibility​ ​of​ ​cover.​ ​[6]’
+Insurance​ ​companies​ ​need​ ​to​ ​reinvent​ ​themselves​ ​to​ ​remain​ ​competitive​ ​and​ ​also​ ​support​ ​the
+existing​ ​business​ ​processes​ ​against​ ​a​ ​backdrop​ ​of​ ​lower​ ​premiums​ ​and​ ​a​ ​need​ ​to​ ​cut​ ​costs.​ ​Below
+are​ ​a​ ​few​ ​characteristics​ ​of​ ​this​ ​changing​ ​environment.
+
+3.2.1​ ​Increased​ ​Regulation
+
+Insurance​ ​companies​ ​and​ ​brokers​ ​are​ ​under​ ​increased​ ​regulatory​ ​scrutiny​ ​that​ ​causes​ ​an​ ​extra
+administrative​ ​burden.​ ​This​ ​adds​ ​additional​ ​requirements​ ​on​ ​IT​ ​systems​ ​to​ ​provide​ ​transparency
+and​ ​auditing​ ​protocols.​ ​Examples​ ​of​ ​some​ ​regulatory​ ​demands​ ​are​ ​GDPR​ ​(General​ ​Data
+Protection​ ​Regulation)​ ​compliance,​ ​Solvency​ ​II​ ​and​ ​IDD​ ​(Insurance​ ​Distribution​ ​Directive).
+
+3.2.2​ ​Status​ ​Quo​ ​is​ ​not​ ​enough
+
+The​ ​process​ ​of​ ​how​ ​the​ ​market​ ​trades​ ​and​ ​manages​ ​insurance​ ​products​ ​is​ ​shifting​ ​to​ ​an​ ​electronic
+approach.​ ​This​ ​shift​ ​is​ ​being​ ​driven​ ​by​ ​demographic,​ ​economic​ ​and​ ​technology​ ​factors.​ ​Status
+Quo​ ​is​ ​no​ ​longer​ ​enough​ ​and​ ​insurers​ ​who​ ​fail​ ​to​ ​adapt​ ​will​ ​not​ ​be​ ​able​ ​to​ ​retain​ ​their​ ​customers,
+let​ ​alone​ ​grow​ ​their​ ​business​ ​to​ ​a​ ​broader​ ​market​ ​[7].
+
+3.2.3​ ​Drive​ ​For​ ​Digitization
+
+Insurance​ ​companies​ ​are​ ​driving​ ​digitization​ ​efforts​ ​across​ ​the​ ​industry​ ​and​ ​are​ ​investing​ ​heavily
+in​ ​the​ ​search​ ​of​ ​efficiencies​ ​and​ ​increased​ ​market​ ​reach.​ ​Consumers​ ​and​ ​counterparties​ ​expect
+modern​ ​technology.​ ​Artificial​ ​Intelligence​ ​(AI),​ ​mobile​ ​apps​ ​and​ ​blockchain​ ​are​ ​some​ ​of​ ​the
+main​ ​focuses.
+
+5 
+
+3.2.4​ ​Global​ ​Reach
+
+Insurance​ ​is​ ​no​ ​longer​ ​a​ ​local​ ​business​ ​and​ ​this​ ​sector​ ​needs​ ​to​ ​cover​ ​people​ ​and​ ​companies​ ​with
+a​ ​global​ ​footprint.​ ​The​ ​insurance​ ​marketplace​ ​is​ ​also​ ​increasingly​ ​global​ ​where​ ​it​ ​is​ ​no​ ​longer
+possible​ ​to​ ​meet​ ​in​ ​person.​ ​The​ ​need​ ​to​ ​communicate​ ​and​ ​collaborate​ ​remotely​ ​continues​ ​to
+increase​ ​significantly.
+
+4​ ​The​ ​iXledger​ ​Platform 
+The​ ​platform​ ​is​ ​a​ ​suite​ ​of​ ​tools​ ​that​ ​allows​ ​insurance​ ​professionals​ ​to​ ​maximise​ ​their​ ​market
+connections​ ​and​ ​profitability​ ​throughout​ ​all​ ​the​ ​stages​ ​of​ ​the​ ​business​ ​process.​ ​iXledger​ ​offers​ ​a
+powerful​ ​matching​ ​functionality​ ​and​ ​instant​ ​messaging​ ​features​ ​that​ ​enables​ ​market​ ​participants
+to​ ​broaden​ ​their​ ​business​ ​network​ ​in​ ​multiple​ ​types​ ​of​ ​insurance.
+
+4.1​ ​Target​ ​Audience
+The​ ​iXledger​ ​marketplace​ ​is​ ​for​ ​participants​ ​of​ ​the​ ​insurance​ ​industry.​ ​Our​ ​target​ ​audience​ ​are:
+● Brokers.​​ ​Match​ ​buyers-sellers​ ​while​ ​providing​ ​tailor-made​ ​structures​ ​and​ ​other​ ​services.
+● Insurers.​​ ​Sell​ ​insurance​ ​products​ ​to​ ​reinsurers​ ​i.e.​ ​risk​ ​transfer.
+● Reinsurers.​​ ​Buy​ ​insurance​ ​programs​ ​or​ ​selling​ ​i.e.​ ​retrocession​ ​insurance.
+The​ ​millennial​ ​generation​ ​(aged​ ​18-34)​ ​is​ ​one​ ​of​ ​our​ ​key​ ​target​ ​audiences.​ ​According​ ​to​ ​the
+General​ ​Director​ ​of​ ​Association​ ​of​ ​British​ ​Insurers,​ ​‘by​ ​2020,​ ​70%​ ​of​ ​the​ ​workforce​ ​will​ ​be
+millennials​ ​and​ ​this​ ​generation​ ​has​ ​grown​ ​up​ ​surrounded​ ​by​ ​technology’.​ ​The​ ​insurance​ ​industry
+is​ ​focused​ ​in​ ​preparing​ ​insurance​ ​professionals​ ​within​ ​this​ ​generation​ ​to​ ​adapt​ ​to​ ​the​ ​shift​ ​in
+technology​ ​for​ ​insurance​ ​solutions​ ​[8].
+In​ ​addition,​ ​according​ ​to​ ​a​ ​PwC​ ​survey,​ ​‘by​ ​2020,​ ​50%​ ​of​ ​consumers​ ​would​ ​be​ ​prepared​ ​to
+provide​ ​their​ ​insurer​ ​with​ ​personal-data​ ​documents​ ​through​ ​an​ ​electronic​ ​platform​ ​to​ ​seek​ ​the
+best​ ​deal​ ​and​ ​efficient​ ​service’​ ​[9].
+The​ ​current​ ​market​ ​networking​ ​opportunities​ ​are​ ​limited​ ​to​ ​existing​ ​relationships​ ​between​ ​the
+brokers,​ ​insurers​ ​and​ ​reinsurers.
+Our​ ​platform​ ​provides​ ​features​ ​such​ ​as​ ​an​ ​instant​ ​messaging​ ​based​ ​placement​ ​process​ ​and​ ​mobile
+access,​ ​which​ ​will​ ​sit​ ​well​ ​with​ ​this​ ​audience.
+6 
+
+4.2​ ​Key​ ​Features
+
+Collaborative​ ​placement​ ​of​ ​insurance
+Meet,​ ​network​ ​and​ ​agree​ ​terms​ ​instantly​ ​with​ ​a​ ​secure​ ​live-messaging​ ​based​ ​submission​ ​process.
+Utilise​ ​all​ ​the​ ​platform​ ​features​ ​on-the-go​ ​with​ ​our​ ​mobile​ ​application
+Keep​ ​track​ ​of​ ​all​ ​your​ ​business​ ​activities​ ​and​ ​keep​ ​up​ ​to​ ​date​ ​with​ ​an​ ​enabled​ ​live​ ​notification
+straight​ ​to​ ​your​ ​mobile​ ​device.
+Securely​ ​share​ ​documents
+Upload​ ​and​ ​share​ ​your​ ​confidential​ ​documents​ ​processed​ ​through​ ​our​ ​blockchain-based
+platform.
+Effective​ ​portfolio​ ​and​ ​individual​ ​risk​ ​data​ ​management
+Stay​ ​on​ ​top​ ​of​ ​your​ ​work​ ​in​ ​our​ ​customizable​ ​and​ ​powerful​ ​risk​ ​data​ ​and​ ​portfolio​ ​manager.
+Export​ ​the​ ​data​ ​straight​ ​into​ ​Excel​ ​or​ ​downstream​ ​processes.
+7 
+
+Template​ ​driven​ ​MRC​ ​(Market​ ​Reform​ ​Contract)​ ​creation​ ​with​ ​digital​ ​signing
+Be​ ​part​ ​of​ ​a​ ​collaborative​ ​platform,​ ​where​ ​all​ ​parties​ ​can​ ​edit​ ​contract​ ​wordings​ ​and​ ​clauses.
+Transactions​ ​are​ ​agreed​ ​and​ ​finalised​ ​with​ ​digital​ ​signatures​ ​from​ ​all​ ​business​ ​partners.
+Market​ ​insights​ ​and​ ​performance​ ​analytics
+Gain​ ​insights​ ​into​ ​the​ ​market​ ​by​ ​analytics​ ​and​ ​reports​ ​that​ ​will​ ​give​ ​you​ ​an​ ​edge.​ ​Analyse
+performance​ ​on​ ​an​ ​individual​ ​or​ ​team​ ​level​ ​and​ ​track​ ​your​ ​progress.
+Invite​ ​your​ ​business​ ​partners​ ​and​ ​colleagues​ ​to​ ​connect
+Our​ ​simple​ ​sign-up​ ​process​ ​encourages​ ​a​ ​network​ ​effect​ ​by​ ​rewarding​ ​the​ ​sign-up​ ​of​ ​the​ ​people
+you​ ​do​ ​business​ ​with.
+Promotion​ ​of​ ​expertise​ ​growth​ ​of​ ​your​ ​network
+Show​ ​your​ ​professional​ ​expertise​ ​and​ ​qualifications​ ​on​ ​your​ ​profile​ ​and​ ​search​ ​for​ ​partners​ ​for
+new​ ​business​ ​opportunities.
+
+4.3​ ​Key​ ​benefits
+
+Blockchain​ ​technology​ ​is​ ​a​ ​new​ ​focus​ ​area​ ​within​ ​the​ ​insurance​ ​industry​ ​and​ ​it​ ​gives​ ​a
+significant​ ​advantage​ ​for​ ​market​ ​practitioners.​ ​Blockchain​ ​reduces​ ​the​ ​need​ ​for​ ​intermediaries
+and​ ​introduces​ ​trust,​ ​leading​ ​to​ ​growth​ ​opportunities​ ​and​ ​operational​ ​efficiencies.
+The​ ​main​ ​benefits:
+● Providing​ ​an​ ​alternative​ ​to​ ​existing​ ​marketplaces​ ​with​ ​modern​ ​technology​ ​and​ ​new
+approaches​ ​for​ ​lower​ ​overhead​ ​costs.
+● As​ ​an​ ​independent​ ​provider​ ​we​ ​are​ ​able​ ​to​ ​create​ ​solutions​ ​without​ ​being​ ​tied​ ​to​ ​specific
+markets,​ ​insurance​ ​companies​ ​or​ ​consortia​ ​whilst​ ​staying​ ​in​ ​line​ ​with​ ​industry​ ​standards.
+● Utilising​ ​blockchain​ ​technology​ ​as​ ​the​ ​software​ ​protocol​ ​provides​ ​an​ ​additional
+implementation​ ​for​ ​internal​ ​IT-solutions​ ​and​ ​external​ ​partners.
+
+8 
+
+4.4​ ​Technology
+
+The​ ​iXledger​ ​architecture​ ​is​ ​a​ ​highly​ ​scalable​ ​and​ ​robust​ ​combination​ ​of​ ​the​ ​latest​ ​technology
+advances​ ​in​ ​blockchain,​ ​UX​ ​(User-experience)​ ​and​ ​server​ ​side​ ​approaches.
+Our​ ​layered​ ​and​ ​modular​ ​approach​ ​gives​ ​flexibility​ ​to​ ​replace​ ​technology​ ​and​ ​add​ ​new
+functionalities.
+
+4.4.1​ ​Architecture​ ​Overview
+
+4.4.2​ ​Blockchain
+
+Our​ ​platform​ ​leverages​ ​blockchain​ ​technology​ ​and​ ​offers​ ​participants​ ​consistent,​ ​shared​ ​and
+secure​ ​processes.​ ​The​ ​nature​ ​of​ ​the​ ​decentralized​ ​blockchain​ ​allows​ ​a​ ​completely​ ​trustless
+interaction​ ​between​ ​parties​ ​and​ ​also​ ​removes​ ​third-party​ ​costs​ ​and​ ​commissions.
+iXledger​ ​will​ ​eventually​ ​provide​ ​an​ ​open​ ​blockchain​ ​for​ ​insurance​ ​companies​ ​and​ ​others​ ​to​ ​join
+and​ ​mine.​ ​However​ ​it​ ​will​ ​initially​ ​start​ ​by​ ​creating​ ​a​ ​consortium​ ​blockchain​ ​in​ ​Ethereum​ ​with
+controlled​ ​participation.​ ​This​ ​allows​ ​the​ ​iXledger​ ​team​ ​to​ ​get​ ​around​ ​the​ ​current​ ​performance
+limitations​ ​suffered​ ​by​ ​the​ ​public​ ​blockchain.​ ​It​ ​is​ ​important​ ​to​ ​note​ ​that​ ​all​ ​iXledger​ ​software
+has​ ​been​ ​designed​ ​for​ ​deployment​ ​deployed​ ​on​ ​the​ ​public​ ​blockchain.
+9 
+
+Our​ ​core​ ​business​ ​logic​ ​is​ ​implemented​ ​on​ ​smart​ ​contracts​ ​that​ ​are​ ​executed​ ​on​ ​the​ ​blockchain.
+iXledger​ ​blockchain​ ​contracts​ ​have​ ​been​ ​organised​ ​around​ ​business​ ​processes​ ​and​ ​each​ ​contract
+type​ ​is​ ​supported​ ​by​ ​a​ ​registry.​ ​This​ ​registry​ ​allows​ ​users​ ​to​ ​monitor​ ​contract​ ​data​ ​records​ ​and
+also​ ​provides​ ​control​ ​and​ ​event​ ​tracking.​ ​The​ ​aim​ ​of​ ​this​ ​contract​ ​implementation​ ​is​ ​to​ ​minimise
+the​ ​need​ ​to​ ​configure​ ​addresses​ ​externally​ ​and​ ​to​ ​provide​ ​a​ ​consistent​ ​approach.
+
+4.4.3​ ​Oracles
+
+One​ ​of​ ​the​ ​architectural​ ​challenges​ ​with​ ​smart​ ​contracts​ ​is​ ​that​ ​this​ ​architecture​ ​lacks​ ​information
+of​ ​anything​ ​outside​ ​of​ ​itself.​ ​Given​ ​that​ ​real​ ​time​ ​data​ ​is​ ​often​ ​needed​ ​for​ ​business​ ​practises​ ​(e.g.
+current​ ​exchange​ ​rates),​ ​this​ ​issue​ ​has​ ​been​ ​solved​ ​with​ ​oracles.​ ​When​ ​a​ ​smart​ ​contract​ ​is​ ​‘oracle
+aware’,​ ​the​ ​contract​ ​can​ ​execute​ ​an​ ​event​ ​to​ ​the​ ​oracle,​ ​which​ ​in​ ​its​ ​turn​ ​feeds​ ​the​ ​required​ ​data
+back​ ​into​ ​the​ ​contract​ ​or​ ​performs​ ​certain​ ​alternative​ ​actions.
+
+10 
+
+An​ ​example​ ​of​ ​oracle​ ​usage​ ​within​ ​the​ ​iXledger​ ​platform​ ​is​ ​when​ ​IXT​ ​payments​ ​are​ ​made.​ ​In​ ​the
+event​ ​of​ ​a​ ​chargeable​ ​transaction​ ​on​ ​our​ ​consortium​ ​blockchain,​ ​the​ ​smart​ ​contract​ ​connects​ ​with
+an​ ​oracle​ ​that​ ​then​ ​synchronises​ ​the​ ​payment​ ​on​ ​the​ ​public​ ​blockchain.
+Oracles​ ​have​ ​their​ ​own​ ​challenges​ ​and​ ​one​ ​of​ ​these​ ​is​ ​security.​ ​For​ ​example​ ​both​ ​the​ ​oracle​ ​itself
+and​ ​the​ ​callback​ ​function​ ​in​ ​a​ ​smart​ ​contract​ ​need​ ​to​ ​be​ ​secured.​ ​Another​ ​aspect​ ​is​ ​the
+performance​ ​and​ ​gas​ ​costs.
+
+4.4.4​ ​Security​ ​and​ ​data​ ​privacy
+
+Some​ ​of​ ​our​ ​data​ ​is​ ​not​ ​public​ ​to​ ​everyone​ ​and​ ​must​ ​be​ ​protected​ ​with​ ​a​ ​high​ ​level​ ​of​ ​security.
+For​ ​example,​ ​the​ ​medical​ ​data​ ​documents​ ​that​ ​form​ ​part​ ​of​ ​a​ ​life​ ​insurance​ ​claim,​ ​or​ ​quote
+information​ ​provided​ ​for​ ​a​ ​submission.​ ​The​ ​different​ ​levels​ ​of​ ​protection​ ​and​ ​various​ ​use​ ​cases
+call​ ​for​ ​different​ ​approaches.
+Sharing​ ​of​ ​documents:​​ ​This​ ​feature​ ​might​ ​involve​ ​sharing​ ​highly​ ​sensitive​ ​medical​ ​data​ ​or
+other​ ​personal​ ​information​ ​between​ ​privileged​ ​users.​ ​Explicit​ ​exchange​ ​of​ ​encryption​ ​keys​ ​is
+required​ ​to​ ​gain​ ​access.
+Smart​ ​Contract​ ​privacy:​​ ​Certain​ ​data​ ​in​ ​the​ ​smart​ ​contracts​ ​needs​ ​to​ ​be​ ​encrypted.​ ​Since
+encrypting​ ​data​ ​within​ ​the​ ​blockchain​ ​is​ ​not​ ​viable,​ ​certain​ ​fields​ ​need​ ​to​ ​be​ ​encrypted​ ​before
+they​ ​are​ ​published.​ ​For​ ​example,​ ​participants​ ​who​ ​provide​ ​quotes​ ​for​ ​a​ ​submission​ ​should​ ​not​ ​be
+able​ ​to​ ​see​ ​quotes​ ​that​ ​have​ ​been​ ​sent​ ​by​ ​others.
+Personal​ ​Data​ ​Removal:​​ ​One​ ​of​ ​the​ ​challenges​ ​is​ ​the​ ​regulatory​ ​requirement​ ​to​ ​be​ ​able​ ​to
+remove​ ​personal​ ​information​ ​if​ ​requested.​ ​As​ ​our​ ​data​ ​is​ ​stored​ ​in​ ​the​ ​blockchain​ ​and​ ​therefore
+11 
+
+immutable,​ ​we​ ​need​ ​a​ ​slightly​ ​different​ ​approach.​ ​We​ ​are​ ​basing​ ​it​ ​on​ ​encryption​ ​and​ ​consider
+data​ ​to​ ​have​ ​been​ ​deleted​ ​if​ ​the​ ​key​ ​is​ ​“lost”.
+
+4.4.5​ ​Matching​ ​Engine
+
+What​ ​makes​ ​a​ ​successful​ ​matching​ ​engine?
+● High​ ​performance
+● Scalability
+● Flexibility
+Many​ ​of​ ​the​ ​existing​ ​order​ ​matching​ ​engines​ ​mainly​ ​optimise​ ​on​ ​matching​ ​prices.​ ​This​ ​works
+well​ ​when​ ​the​ ​prices​ ​are​ ​the​ ​primary​ ​focus.​ ​However,​ ​for​ ​our​ ​participants,​ ​other​ ​fields​ ​(e.g.
+jurisdictions​ ​and​ ​business​ ​classes)​ ​are​ ​often​ ​no​ ​less​ ​important.​ ​For​ ​our​ ​products,​ ​flexibility​ ​is​ ​as
+critical​ ​as​ ​high​ ​performance​ ​in​ ​order​ ​to​ ​help​ ​smooth​ ​the​ ​customer’s​ ​business​ ​operations​ ​and
+avoid​ ​setting​ ​constraints.
+There​ ​are​ ​naive​ ​approaches​ ​to​ ​achieve​ ​flexibility​ ​for​ ​a​ ​successful​ ​matching​ ​engine.​ ​Some
+implementations​ ​evade​ ​the​ ​issue​ ​by​ ​converting​ ​preference​ ​filters​ ​into​ ​database​ ​queries.​ ​Other
+approaches​ ​include​ ​field-by-field​ ​matching​ ​by​ ​brute​ ​force,​ ​which​ ​results​ ​in​ ​poor​ ​performance.
+Field​ ​specific​ ​optimisations​ ​can​ ​help​ ​to​ ​a​ ​certain​ ​degree,​ ​e.g.​ ​by​ ​cleverly​ ​re-organising​ ​data​ ​and
+comparison​ ​flows.​ ​Nonetheless​ ​it​ ​is​ ​important​ ​to​ ​note​ ​that​ ​such​ ​optimisations​ ​usually​ ​need​ ​very
+fine​ ​level​ ​manual​ ​adjustments,​ ​which​ ​results​ ​in​ ​scalability​ ​issues.
+We​ ​are​ ​basing​ ​our​ ​matching​ ​engine​ ​on​ ​an​ ​innovative​ ​novel​ ​tree​ ​structure.​ ​The​ ​participant’s​ ​filters
+are​ ​parsed​ ​and​ ​then​ ​organised​ ​in​ ​a​ ​way​ ​that​ ​reduces​ ​repeated​ ​comparison​ ​(e.g.​ ​if​ ​a​ ​Submission
+satisfies​ ​one​ ​criteria​ ​of​ ​a​ ​filter,​ ​there​ ​is​ ​no​ ​need​ ​to​ ​re-compare​ ​the​ ​same​ ​criteria​ ​in​ ​other​ ​filters).
+The​ ​filter​ ​tree​ ​allows​ ​arbitrary​ ​numbers​ ​and​ ​types​ ​of​ ​criteria​ ​in​ ​a​ ​filter.​ ​It​ ​also​ ​self-organises
+dynamically,​ ​according​ ​to​ ​the​ ​created​ ​(and​ ​removed)​ ​filters — achieving​ ​scalability.
+Here​ ​is​ ​one​ ​example:
+Interest​ ​in​ ​submissions:​​ ​Let’s​ ​imagine​ ​that​ ​there​ ​are​ ​100​ ​insurers​ ​who​ ​have​ ​registered​ ​interest
+in​ ​insurance​ ​Submissions.​ ​Half​ ​of​ ​them​ ​are​ ​interested​ ​in​ ​cover​ ​limits​ ​of​ ​over​ ​2​ ​000​ ​000​ ​and​ ​a
+quarter​ ​of​ ​them​ ​prefer​ ​the​ ​ones​ ​from​ ​France​ ​and​ ​under​ ​500​ ​000​ ​cover​ ​limits.​ ​The​ ​remainder​ ​have
+no​ ​preferences​ ​over​ ​limits​ ​but​ ​are​ ​interested​ ​in​ ​the​ ​ones​ ​from​ ​the​ ​UK.
+Submissions​ ​available:​​ ​Suppose​ ​there​ ​is​ ​a​ ​Submission​ ​with​ ​300​ ​000​ ​limit​ ​which​ ​comes​ ​from​ ​the
+UK.​ ​If​ ​we​ ​perform​ ​a​ ​model​ ​of​ ​an​ ​ideal​ ​matching​ ​process,​ ​this​ ​model​ ​will​ ​start​ ​by​ ​comparing​ ​the
+
+12 
+
+cover​ ​limit:​ ​After​ ​the​ ​first​ ​comparison,​ ​the​ ​first​ ​50​ ​filters​ ​are​ ​skipped.
+The​ ​second​ ​group​ ​(France​ ​and​ ​under​ ​500​ ​000)​ ​will​ ​pass​ ​the​ ​first​ ​comparison,​ ​but​ ​a​ ​second
+comparison​ ​against​ ​the​ ​country​ ​will​ ​drop​ ​all​ ​of​ ​them.​ ​Finally​ ​a​ ​third​ ​comparison​ ​will​ ​match​ ​the
+final​ ​group.
+Matching​ ​model:​​ ​The​ ​root​ ​of​ ​our​ ​matching​ ​tree​ ​has​ ​one​ ​branch​ ​towards​ ​limit​ ​comparison​ ​and
+another​ ​branch​ ​towards​ ​country​ ​comparison.​ ​The​ ​limit​ ​branch​ ​then​ ​forks​ ​by​ ​value,​ ​meaning​ ​that
+all​ ​of​ ​the​ ​first​ ​group​ ​will​ ​be​ ​registered​ ​under​ ​one​ ​sub-branch,​ ​while​ ​the​ ​entire​ ​second​ ​group​ ​under
+another​ ​branch​ ​of​ ​country​ ​comparison.​ ​Finally,​ ​the​ ​last​ ​group​ ​is​ ​directly​ ​under​ ​the​ ​root.​ ​With​ ​this
+approach​ ​only​ ​three​ ​comparisons​ ​are​ ​needed​ ​to​ ​match​ ​against​ ​100​ ​filters.
+The​ ​real​ ​implementation​ ​is​ ​more​ ​complicated​ ​and​ ​there​ ​are​ ​intriguing​ ​challenges.​ ​Some​ ​of​ ​these
+challenges​ ​include​ ​rebalancing​ ​the​ ​tree​ ​as​ ​the​ ​filters​ ​are​ ​added​ ​and​ ​removed,​ ​and​ ​selecting​ ​the
+branching​ ​strategy​ ​based​ ​on​ ​hits​ ​and​ ​misses.​ ​There​ ​are​ ​multiple​ ​ways​ ​and​ ​strategies​ ​for​ ​these
+challenges.​ ​At​ ​the​ ​moment,​ ​simple​ ​models​ ​and​ ​strategies​ ​suffice​ ​for​ ​the​ ​Minimal​ ​Viable​ ​Product
+(MVP).​ ​In​ ​the​ ​long​ ​term,​ ​more​ ​sophisticated​ ​models​ ​will​ ​be​ ​developed​ ​as​ ​the​ ​product​ ​evolves.
+
+4.4.6​ ​Digital​ ​Signing
+
+We​ ​have​ ​integrated​ ​digital​ ​signing​ ​that​ ​leverages​ ​DocuSign,​ ​the​ ​market​ ​leader​ ​in​ ​e-signatures.
+The​ ​signing​ ​functionality​ ​is​ ​tightly​ ​integrated​ ​with​ ​our​ ​User​ ​Interface​ ​(UI)​ ​to​ ​provide​ ​a​ ​smooth
+experience.​ ​Removing​ ​the​ ​need​ ​for​ ​printing​ ​and​ ​scanning​ ​as​ ​well​ ​as​ ​a​ ​blockchain-backed​ ​proof
+of​ ​signatures​ ​makes​ ​the​ ​process​ ​auditable​ ​and​ ​quicker.​ ​This​ ​feature​ ​gets​ ​rid​ ​of​ ​administration
+tasks​ ​that​ ​often​ ​delay​ ​the​ ​signing​ ​process.
+
+4.5​ ​IXT​ ​-​ ​The​ ​iXledger​ ​Token
+
+IXT​ ​is​ ​used​ ​to​ ​pay​ ​for​ ​transactions​ ​and​ ​other​ ​activities​ ​on​ ​the​ ​platform.​ ​From​ ​the​ ​perspective​ ​of
+an​ ​IXT​ ​holder,​ ​the​ ​token​ ​should​ ​be​ ​classified​ ​as​ ​a​ ​prepayment​ ​for​ ​services.​ ​The​ ​purpose​ ​of​ ​using
+an​ ​IXT​ ​token​ ​is​ ​to​ ​provide​ ​easier​ ​payments​ ​and​ ​reduce​ ​the​ ​administrative​ ​overheads​ ​when​ ​using
+the​ ​platform.
+All​ ​transactions​ ​and​ ​activity​ ​are​ ​priced​ ​in​ ​IXT,​ ​which​ ​allows​ ​for​ ​easy​ ​comparison​ ​and​ ​unified
+charging.
+IXT​ ​that​ ​have​ ​been​ ​transferred​ ​to​ ​the​ ​platform​ ​accounts​ ​or​ ​have​ ​been​ ​bought​ ​on​ ​the​ ​platform​ ​will
+not​ ​be​ ​transferrable​ ​to​ ​external​ ​accounts.
+
+13 
+
+4.6​ ​Token​ ​Allocation 
+
+We​ ​issued​ ​a​ ​total​ ​of​ ​65,778,844​ ​IXT​ ​tokens​ ​during​ ​our​ ​crowdsale​ ​period.​ ​From​ ​that​ ​total​ ​supply
+24.08%​ ​(15,839,549​ ​IXT)​ ​has​ ​been​ ​added​ ​to​ ​the​ ​iXledger​ ​pool​ ​which​ ​includes​ ​the​ ​team​ ​and
+company​ ​reserve.
+
+4.7​ ​Reserve​ ​Pool
+
+Initial​ ​Size:​ ​10,000,000​ ​IXT
+The​ ​reserve​ ​pool​ ​is​ ​used​ ​to​ ​ensure​ ​that​ ​our​ ​IXT​ ​token​ ​economy​ ​operates​ ​in​ ​a​ ​fair​ ​and​ ​controlled
+manner.​ ​Tokens​ ​from​ ​the​ ​reserve​ ​pool​ ​will​ ​be​ ​utilised​ ​to​ ​provide​ ​the​ ​required​ ​liquidity​ ​and
+smoothen​ ​short-term​ ​price​ ​increases.​ ​As​ ​the​ ​pool​ ​is​ ​depleted,​ ​it​ ​will​ ​be​ ​replenished​ ​by​ ​the​ ​tokens
+that​ ​the​ ​platform​ ​receives.​ ​This​ ​replenishment​ ​will​ ​happen​ ​on​ ​a​ ​weekly​ ​basis​ ​and​ ​a​ ​summary​ ​will
+be​ ​published​ ​with​ ​the​ ​steps​ ​taken.
+The​ ​aim​ ​of​ ​this​ ​pool​ ​is​ ​to​ ​provide​ ​a​ ​stable​ ​price​ ​for​ ​our​ ​primary​ ​participants​ ​whilst​ ​maintaining​ ​a
+controlled​ ​increase​ ​in​ ​price​ ​(i.e.​ ​inflation)​ ​which​ ​reflects​ ​the​ ​growth​ ​and​ ​volume​ ​of​ ​the​ ​platform.
+There​ ​is​ ​also​ ​the​ ​possibility​ ​of​ ​increasing​ ​the​ ​size​ ​of​ ​the​ ​pool​ ​as​ ​the​ ​platform​ ​grows.​ ​This​ ​will​ ​be
+achieved​ ​by​ ​reducing​ ​the​ ​tokens​ ​burned.
+
+4.8​ ​Team​ ​Pool
+
+Initial​ ​Size:​ ​5,839,549​ ​IXT
+Our​ ​team​ ​allocation​ ​is​ ​primarily​ ​there​ ​to​ ​incentivise​ ​team​ ​members​ ​to​ ​strive​ ​for​ ​an​ ​increase​ ​of​ ​the
+value​ ​of​ ​the​ ​token.
+The​ ​tokens​ ​in​ ​the​ ​team​ ​pool​ ​will​ ​also​ ​be​ ​used​ ​to​ ​allocate​ ​an​ ​initial​ ​balance​ ​to​ ​early​ ​adopters​ ​of
+the​ ​platform.​ ​This​ ​allocation​ ​will​ ​provide​ ​users​ ​with​ ​either​ ​three​ ​months​ ​of​ ​free​ ​usage​ ​or​ ​the
+option​ ​to​ ​receive​ ​a​ ​reward​ ​by​ ​inviting​ ​their​ ​business​ ​contacts.​ ​We​ ​aim​ ​to​ ​achieve​ ​a​ ​significant
+network​ ​effect​ ​with​ ​this​ ​approach.
+
+4.9​ ​Token​ ​Burn
+
+Tokens​ ​received​ ​by​ ​the​ ​platform​ ​will​ ​be​ ​burnt​ ​after​ ​certain​ ​costs​ ​have​ ​been​ ​covered.​ ​This​ ​exact
+amount​ ​will​ ​be​ ​determined​ ​on​ ​a​ ​monthly​ ​basis​ ​depending​ ​on​ ​the​ ​levels​ ​required​ ​for:
+14 
+
+Operational​ ​costs:​​ ​This​ ​includes​ ​the​ ​infrastructure​ ​costs​ ​required​ ​to​ ​operate​ ​the​ ​iXledger
+platform.​ ​The​ ​medium​ ​to​ ​long-term​ ​plan​ ​is​ ​to​ ​open​ ​up​ ​the​ ​blockchain​ ​to​ ​people​ ​who​ ​wish​ ​to
+mine.​ ​Miners​ ​would​ ​then​ ​be​ ​rewarded​ ​with​ ​IXT​ ​tokens.
+Growth:​ ​There​ ​will​ ​be​ ​rewards​ ​for​ ​bringing​ ​on​ ​new​ ​participants,​ ​provisioning​ ​and​ ​marketing
+and​ ​advertising.
+Reserve​ ​Pool​ ​replenishment:​​ ​A​ ​constant​ ​level​ ​of​ ​tokens​ ​will​ ​be​ ​maintained​ ​in​ ​this​ ​pool​ ​with​ ​the
+potential​ ​to​ ​increase​ ​the​ ​size​ ​in​ ​proportion​ ​to​ ​platform​ ​growth.
+Tokens​ ​will​ ​be​ ​burnt​ ​with​ ​a​ ​single​ ​transactions​ ​of​ ​those​ ​unwanted​ ​tokens​ ​to​ ​the​ ​Genesis​ ​block
+address.​ ​This​ ​procedure​ ​will​ ​effectively​ ​take​ ​these​ ​tokens​ ​out​ ​of​ ​circulation.​ ​Other​ ​existing​ ​token
+burn​ ​options​ ​being​ ​considered​ ​for​ ​implementation​ ​is​ ​a​ ​‘graveyard​ ​contract’,​ ​which​ ​will​ ​explicitly
+destroy​ ​the​ ​token.
+
+4.10​ ​Token​ ​Purchase
+
+An​ ​iXledger​ ​marketplace​ ​participant​ ​can​ ​purchase​ ​tokens​ ​directly​ ​from​ ​the​ ​platform​ ​with​ ​a​ ​credit
+card​ ​payment​ ​or​ ​bank​ ​transfer.​ ​Tokens​ ​that​ ​are​ ​purchased​ ​directly​ ​on​ ​the​ ​platform​ ​will​ ​be
+sourced​ ​from​ ​the​ ​exchanges​ ​on​ ​behalf​ ​of​ ​the​ ​customer.​ ​With​ ​this​ ​procedure,​ ​the​ ​token​ ​demand
+will​ ​be​ ​reflected​ ​in​ ​the​ ​market​ ​value​ ​whilst​ ​making​ ​it​ ​a​ ​frictionless​ ​experience​ ​for​ ​the​ ​user.
+Tokens​ ​bought​ ​on​ ​the​ ​platform​ ​by​ ​registered​ ​users​ ​will​ ​be​ ​held​ ​in​ ​a​ ​secure​ ​wallet​ ​(acting​ ​as​ ​a
+custodian)​ ​associated​ ​with​ ​the​ ​user​ ​account​ ​and​ ​fully​ ​managed​ ​by​ ​the​ ​platform.
+IXT​ ​token​ ​is​ ​already​ ​listed​ ​in​ ​a​ ​number​ ​of​ ​exchanges​ ​and​ ​the​ ​team​ ​is​ ​working​ ​to​ ​provide
+liquidity​ ​with​ ​more​ ​listings.​ ​Token​ ​liquidity​ ​will​ ​encourage​ ​participants​ ​to​ ​continue​ ​supporting
+the​ ​platform​ ​in​ ​various​ ​ways.​ ​For​ ​someone​ ​that​ ​is​ ​not​ ​an​ ​iXledger​ ​platform​ ​participant,​ ​you​ ​can
+only​ ​buy​ ​or​ ​sell​ ​tokens​ ​from​ ​exchanges.
+
+4.11​ ​Activities
+
+Examples​ ​of​ ​activities​ ​which​ ​will​ ​require​ ​a​ ​fee​ ​or​ ​offer​ ​IXT​ ​rewards​ ​are​ ​defined​ ​below.​ ​More​ ​of
+these​ ​activities​ ​will​ ​be​ ​added​ ​as​ ​the​ ​platform​ ​evolves.​ ​The​ ​platform​ ​will​ ​also​ ​include​ ​an​ ​IXT
+transfer​ ​window​ ​that​ ​will​ ​publish​ ​the​ ​corresponding​ ​amount​ ​of​ ​IXT​ ​and​ ​the​ ​according​ ​addresses.
+Our​ ​payment​ ​oracle​ ​will​ ​settle​ ​the​ ​the​ ​transaction​ ​on​ ​the​ ​public​ ​Ethereum​ ​blockchain.
+
+15 
+
+Activity
+
+IXT​ ​Price
+
+Submission
+You​ ​will​ ​pay​ ​IXT​ ​in​ ​order​ ​to​ ​place​ ​a​ ​submission​ ​in​ ​the​ ​market.​ ​Recipients​ ​of
+the​ ​submission​ ​will​ ​not​ ​be​ ​charged.​ ​The​ ​fee​ ​goes​ ​to​ ​the​ ​platform.
+
+TBD
+
+Quote
+You​ ​will​ ​be​ ​rewarded​ ​IXT​ ​when​ ​you​ ​provide​ ​a​ ​quote​ ​which​ ​is​ ​accepted.
+
+TBD
+
+Firm​ ​Order
+A​ ​firm​ ​order​ ​will​ ​result​ ​in​ ​an​ ​equal​ ​charge​ ​to​ ​both​ ​sides​ ​of​ ​the​ ​transaction.​ ​The
+fee​ ​goes​ ​to​ ​the​ ​platform.
+
+TBD
+
+Invites
+If​ ​you​ ​send​ ​invites​ ​to​ ​people​ ​outside​ ​your​ ​organisation​ ​you​ ​will​ ​be​ ​rewarded
+IXT​ ​as​ ​it​ ​helps​ ​the​ ​platform​ ​to​ ​grow.
+
+TBD
+
+Organisation​ ​Setup
+During​ ​the​ ​setup​ ​of​ ​an​ ​organisation​ ​you​ ​will​ ​be​ ​rewarded​ ​with​ ​an​ ​initial
+balance​ ​of​ ​IXT.
+
+TBD
+
+Data
+Data​ ​can​ ​be​ ​bought​ ​and​ ​sold​ ​on​ ​the​ ​platform.​ ​The​ ​exact​ ​functionality​ ​is
+scheduled​ ​during​ ​our​ ​second​ ​phase​ ​of​ ​development​ ​so​ ​all​ ​the​ ​specifics​ ​have​ ​not
+yet​ ​been​ ​worked​ ​out.
+
+TBD
+
+Premium​ ​Features
+Unlock​ ​premium​ ​features​ ​such​ ​as​ ​detailed​ ​statistics​ ​such​ ​as​ ​profile​ ​views,
+contacts​ ​and​ ​research​ ​material.
+
+TBD
+
+4.12​ ​Volatility​ ​Control
+
+One​ ​of​ ​the​ ​key​ ​priorities​ ​is​ ​to​ ​create​ ​a​ ​stable​ ​and​ ​predictable​ ​cost​ ​model​ ​for​ ​iXledger​ ​clients.​ ​This
+model​ ​will​ ​shield​ ​clients​ ​from​ ​the​ ​short-term​ ​volatility​ ​that​ ​is​ ​traditionally​ ​associated​ ​with
+blockchain​ ​tokens.​ ​Price​ ​volatility​ ​should​ ​only​ ​be​ ​a​ ​concern​ ​for​ ​someone​ ​who​ ​is​ ​about​ ​to​ ​buy
+IXT.
+The​ ​way​ ​we​ ​prevent​ ​high​ ​IXT​ ​volatility​ ​is​ ​by​ ​offering​ ​a​ ​discounted​ ​mechanism​ ​if​ ​the​ ​price​ ​spikes
+above​ ​a​ ​predefined​ ​range.​ ​This​ ​is​ ​handled​ ​automatically​ ​as​ ​part​ ​of​ ​the​ ​IXT​ ​purchase​ ​process.​ ​If
+the​ ​market​ ​sourcing​ ​detects​ ​that​ ​the​ ​best​ ​price​ ​it​ ​can​ ​get​ ​is​ ​outside​ ​the​ ​range​ ​of​ ​the​ ​acceptable
+16 
+
+price​ ​swing,​ ​the​ ​platform​ ​will​ ​add​ ​the​ ​difference.​ ​This​ ​difference​ ​in​ ​tokens​ ​will​ ​be​ ​obtained​ ​from
+the​ ​reserve​ ​pool.
+
+4.12.1​ ​Price​ ​Range​ ​Calculation
+
+The​ ​maximum​ ​daily​ ​price​ ​m​ ​is​ ​5%​ ​of​ ​yesterday’s​ ​price​ ​P.​ ​If​ ​the​ ​number​ ​of​ ​organisations
+participating​ ​k​ ​have​ ​increased,​ ​there​ ​will​ ​be​ ​an​ ​additional​ ​5%​ ​increase​ ​per​ ​new​ ​organisation.​ ​The
+percentages​ ​are​ ​likely​ ​to​ ​be​ ​adjusted​ ​as​ ​k​ ​increases.
+m​ ​=​ ​P​ ​*​ ​1.05​ ​+​ ​(k​ ​*​ ​P​ ​*​ ​0.05)
+The​ ​discount​ ​is​ ​then​ ​simply​ ​today’s​ ​price​ ​minus​ ​m​.
+Selling​ ​tokens​ ​from​ ​the​ ​internal​ ​pool​ ​reserves​ ​will​ ​help​ ​to​ ​raise​ ​operational​ ​capital.​ ​This​ ​can​ ​be
+advantageous​ ​for​ ​the​ ​development​ ​of​ ​iXledger​ ​if​ ​the​ ​token​ ​benefits​ ​from​ ​healthy​ ​market​ ​prices.
+
+4.12.2​ ​Arbitrage​ ​Prevention
+
+iXledger​ ​platform​ ​participants​ ​will​ ​not​ ​be​ ​able​ ​to​ ​transfer​ ​purchased​ ​discounted​ ​IXT​ ​tokens​ ​in
+the​ ​secondary​ ​markets​ ​within​ ​30​ ​days​ ​of​ ​purchasing.​ ​This​ ​is​ ​to​ ​prevent​ ​arbitrage​ ​opportunities,
+where​ ​a​ ​participant​ ​buys​ ​a​ ​discounted​ ​IXT​ ​on​ ​the​ ​platform​ ​to​ ​sell​ ​it​ ​at​ ​a​ ​higher​ ​price​ ​in​ ​the
+secondary​ ​market.
+
+4.12.3​ ​Platform​ ​Launch​ ​Price
+
+There​ ​will​ ​be​ ​no​ ​attempt​ ​to​ ​prevent​ ​any​ ​potential​ ​steep​ ​price​ ​increase​ ​during​ ​the​ ​launch​ ​of​ ​the
+iXledger​ ​working​ ​platform.​ ​Volatility​ ​control​ ​will​ ​begin​ ​once​ ​the​ ​price​ ​has​ ​stabilised​ ​and​ ​IXT
+begins​ ​with​ ​institutional​ ​transactions.​ ​iXledger​ ​aims​ ​to​ ​protect​ ​primary​ ​participants​ ​from​ ​high
+volatility.
+
+5​ ​Roadmap 
+Below​ ​is​ ​a​ ​high-level​ ​roadmap​ ​which​ ​outlines​ ​the​ ​main​ ​phases​ ​and​ ​milestones.​ ​This​ ​is​ ​subject​ ​to
+change​ ​as​ ​we​ ​reserve​ ​the​ ​right​ ​to​ ​change​ ​our​ ​priorities​ ​and​ ​timelines​ ​as​ ​we​ ​find​ ​opportunities​ ​or
+get​ ​market​ ​feedback.
+
+17 
+
+6​ ​The​ ​Company 
+6.1​ ​The​ ​Leadership​ ​Team 
+Ingemar​ ​Svensson​ ​ -​ ​Founder​ ​&​ ​CEO:​​ ​Before​ ​founding​ ​iXledger,​ ​Ingemar​ ​was​ ​the​ ​CTO​ ​of
+Risk​ ​and​ ​Valuation​ ​at​ ​SunGard​ ​Asset​ ​Management.​ ​His​ ​experience​ ​ranges​ ​from​ ​managing​ ​large
+18 
+
+organisations​ ​to​ ​hands-on​ ​software​ ​development.​ ​Ingemar​ ​has​ ​spent​ ​20​ ​years​ ​building​ ​mission
+critical​ ​systems​ ​in​ ​various​ ​roles​ ​at​ ​Bank​ ​of​ ​America​ ​Merrill​ ​Lynch,​ ​Barclays​ ​Capital,​ ​Lehman
+Brothers​ ​and​ ​Mitsui​ ​Sumitomo​ ​Insurance.
+Cristina​ ​Dolan​ ​-​ ​Co-founder​ ​&​ ​President​ ​US:​​ ​Cristina​ ​is​ ​an​ ​MIT​ ​Media​ ​Lab​ ​alumna​ ​and
+Internet​ ​pioneer​ ​with​ ​over​ ​two​ ​decades​ ​of​ ​experience​ ​building​ ​software,​ ​content,​ ​and​ ​Internet
+based​ ​products​ ​and​ ​businesses.​ ​She​ ​was​ ​a​ ​co-founder​ ​of​ ​OneMain.com,​ ​which​ ​grew​ ​to​ ​be​ ​the
+10th​ ​largest​ ​ISP​ ​after​ ​a​ ​successful​ ​IPO.​ ​Cristina​ ​is​ ​Chair​ ​of​ ​the​ ​MIT​ ​Enterprise​ ​Forum​ ​in​ ​New
+York.​ ​In​ ​2017​ ​she​ ​was​ ​honored​ ​with​ ​Harold​ ​E.​ ​Lobdell​ ​Distinguished​ ​Service​ ​Award​ ​from​ ​MIT
+for​ ​her​ ​work​ ​in​ ​promoting​ ​computer​ ​science.
+Mikael​ ​Olofsson​ ​-​ ​Co-founder​ ​&​ ​President​ ​EMEA:​​ ​Mikael​ ​has​ ​over​ ​17​ ​years​ ​experience​ ​from
+the​ ​financial​ ​markets​ ​and​ ​start-up​ ​sector.​ ​Previous​ ​to​ ​founding​ ​iXledger,​ ​he​ ​was​ ​Co-founder​ ​of
+TikkR.co​ ​an​ ​on-demand​ ​insurance​ ​platform​ ​with​ ​participation​ ​of​ ​the​ ​InsurTech​ ​Accelerator
+Program​ ​in​ ​2017​ ​at​ ​Startupbootcamp.org​ ​in​ ​London.​ ​Before​ ​this​ ​Mikael​ ​worked​ ​as​ ​Senior​ ​Equity
+Derivatives​ ​Broker​ ​and​ ​Commodities​ ​Broker​ ​in​ ​London,​ ​New​ ​York,​ ​Geneva​ ​and​ ​Paris​ ​for
+companies​ ​such​ ​as​ ​ICAP​ ​and​ ​SCB​ ​Group.
+
+6.2​ ​The​ ​Core​ ​Team
+
+Henrik​ ​Hoppendorff​ ​-​ ​Business​ ​Development:​​ ​Insurance​ ​specialist​ ​and​ ​former​ ​underwriter
+who​ ​worked​ ​at​ ​AIG​ ​and​ ​other​ ​insurance​ ​companies.​ ​He​ ​joins​ ​us​ ​with​ ​a​ ​wealth​ ​of​ ​detailed
+insurance​ ​expertise​ ​as​ ​well​ ​as​ ​the​ ​senior​ ​business​ ​development​ ​skills.
+Andrew​ ​Hodgett​ ​-​ ​Business​ ​Development:​​ ​Experienced​ ​marine​ ​(re)insurance​ ​broker.​ ​He​ ​joins
+us​ ​to​ ​provide​ ​insight​ ​in​ ​the​ ​broking​ ​sector​ ​and​ ​will​ ​take​ ​a​ ​leading​ ​role​ ​in​ ​our​ ​sales​ ​team.
+Charlotte​ ​Holmen​ ​- Head​ ​of​ ​Development:​​ ​Charlotte’s​ ​last​ ​role​ ​was​ ​the​ ​first​ ​developer​ ​hired
+at​ ​the​ ​startup​​ ​Doctify.co.uk​.​ ​As​ ​a​ ​senior​ ​full-stack​ ​developer​ ​she​ ​and​ ​her​ ​team​ ​took​ ​the​ ​product
+from​ ​scratch​ ​to​ ​the​ ​award​ ​winning​ ​product​ ​it​ ​is​ ​today.
+Gurcan​ ​Sanli​ ​-​ ​Social​ ​Media​ ​&​ ​Community​ ​Manager:​​ ​Gurcan​ ​joins​ ​us​ ​with​ ​experience​ ​in
+digital​ ​marketing​ ​essentials​ ​and​ ​social​ ​media​ ​management.​ ​He​ ​obtained​ ​a​ ​Bachelor’s​ ​degree​ ​in
+marketing​ ​and​ ​advertising,​ ​as​ ​well​ ​as​ ​the​ ​key​ ​certificates​ ​in​ ​digital​ ​marketing​ ​accredited​ ​by​ ​CIM,
+Google​ ​and​ ​CPD.
+Linmao​ ​Song ​ ​-​ ​Senior​ ​Blockchain​ ​Developer:​​ ​Prior​ ​to​ ​working​ ​as​ ​a​ ​Blockchain​ ​developer​ ​at
+Nchain,​ ​Linmao​ ​was​ ​at​ ​Barclays​ ​for​ ​6​ ​years​ ​as​ ​a​ ​C++​ ​developer.​ ​Linmao​ ​leads​ ​the​ ​blockchain
+development​ ​on​ ​the​ ​platform.
+19 
+
+Theodor​ ​Port ​ ​-​ ​ Blockchain​ ​Developer.​ ​Theodor​ ​joined​ ​us​ ​after​ ​completing​ ​his​ ​Masters​ ​in
+Computer​ ​Science​ ​at​ ​Imperial​ ​College​ ​London.​ ​He​ ​had​ ​significant​ ​experience​ ​of​ ​Ethereum
+development​ ​prior​ ​to​ ​joining​ ​from​ ​his​ ​own​ ​projects​ ​and​ ​as​ ​a​ ​community​ ​volunteer.
+Mohammed​ ​Yafii ​ ​- ​ ​Software​ ​Developer:​​ ​Software​ ​developer​ ​specialising​ ​in​ ​the​ ​creation​ ​of
+interactive​ ​and​ ​responsive​ ​user​ ​interfaces​ ​using​ ​modern​ ​JavaScript​ ​frameworks.
+Danny​ ​Currie​ ​-​ ​Senior​ ​Software​ ​Developer:​ ​Danny​ ​joins​ ​us​ ​from​ ​Gavuin,​ ​a​ ​data​ ​analytics
+company​ ​where​ ​he​ ​was​ ​the​ ​product​ ​manager​ ​and​ ​senior​ ​full-stack​ ​software​ ​developer.
+Shanthi​ ​Varanasi​ ​-​ ​Middleware​ ​Developer:​​ ​Shanthi​ ​worked​ ​at​ ​State​ ​Street​ ​Bank​ ​leading​ ​the
+team​ ​of​ ​developers​ ​and​ ​was​ ​completely​ ​responsible​ ​for​ ​the​ ​Finance​ ​Risk​ ​project.​ ​Shanthi​ ​has​ ​an
+overall​ ​experience​ ​of​ ​18​ ​years​ ​in​ ​the​ ​Software​ ​Industry​ ​working​ ​on​ ​client-server​ ​web​ ​based​ ​and
+enterprise​ ​applications.
+Valdi​ ​Kamenarov​ ​- ​ ​Middleware​ ​Developer:​​ ​Valdi​ ​worked​ ​at​ ​News​ ​Corp​ ​UK​ ​where​ ​he​ ​took
+part​ ​in​ ​the​ ​development​ ​of​ ​their​ ​Customer​ ​Management​ ​Platform.​ ​His​ ​role​ ​varied​ ​from​ ​analysing
+business​ ​requirements,​ ​system​ ​design​ ​and​ ​developing​ ​strategic​ ​business​ ​functionality.
+
+7​ ​Competitive​ ​Landscape 
+There​ ​are​ ​a​ ​number​ ​of​ ​players​ ​who​ ​are​ ​aiming​ ​to​ ​reform​ ​the​ ​insurance​ ​market​ ​with​ ​innovative
+solutions​ ​based​ ​on​ ​technology.​ ​A​ ​survey​ ​conducted​ ​by​ ​PwC,​ ​indicates​ ​that​ ​‘74%​ ​of​ ​insurers
+expect​ ​the​ ​insurance​ ​industry​ ​to​ ​undergo​ ​a​ ​change​ ​in​ ​market​ ​operation​ ​due​ ​to​ ​the​ ​advance​ ​of
+technology’​ ​[10].​ ​There​ ​is​ ​a​ ​high​ ​demand​ ​for​ ​a​ ​system​ ​that​ ​is​ ​efficient​ ​for​ ​both​ ​brokers​ ​and
+insurers.
+
+7.1​ ​Situational​ ​Analysis
+7.1.1​ ​Corporate
+
+Strength:
+- Strategic​ ​collaboration​ ​with​ ​Gen​ ​Re
+- Blockchain-based​ ​platform
+- Unique​ ​platform​ ​features
+- Well​ ​funded
+- Versatile​ ​leadership​ ​team​ ​with​ ​key​ ​experience
+20 
+
+Weaknesses:
+- Currently​ ​only​ ​one​ ​official​ ​partnership
+- Low​ ​marketing​ ​presence​ ​to​ ​the​ ​target​ ​audience
+Opportunities:
+- Replacing​ ​outdated​ ​IT​ ​systems
+- Demand​ ​for​ ​a​ ​global​ ​electronic​ ​platform​ ​to​ ​provide​ ​efficiency
+- Blockchain​ ​adoption
+Threats:
+- Established​ ​projects​ ​that​ ​already​ ​offer​ ​various​ ​classes​ ​of​ ​insurance
+- Regulatory​ ​hurdles
+
+7.1.2​ ​Industry
+Threat​ ​of​ ​new​ ​entrants:​ ​Medium
+- Insurance​ ​solutions’​ ​projects​ ​are​ ​emerging​ ​and​ ​establishing​ ​themselves​ ​in​ ​the​ ​industry
+with​ ​similar​ ​technologies​ ​and​ ​offerings
+Bargaining​ ​power​ ​of​ ​buyers:​ ​Low
+- Our​ ​target​ ​audience​ ​are​ ​keen​ ​to​ ​conduct​ ​their​ ​processes​ ​on​ ​a​ ​trusted​ ​and​ ​seamless
+electronic​ ​platform
+Power​ ​of​ ​suppliers:​ ​Low
+- iXledger​ ​are​ ​the​ ​insurance​ ​solutions​ ​provider​ ​who​ ​handles​ ​participant​ ​fees​ ​based​ ​on​ ​their
+activity​ ​scale
+Competitive​ ​Rivalry:​ ​Medium​ ​to​ ​high
+- Xuber​ ​are​ ​operational​ ​with​ ​regular​ ​funding​ ​from​ ​owners​ ​DXC​ ​Technology
+- Xuber​ ​operates​ ​in​ ​multiple​ ​regions​ ​and​ ​offering​ ​several​ ​classes​ ​of​ ​insurance
+- PPL​ ​obtain​ ​access​ ​over​ ​London​ ​markets​ ​and​ ​the​ ​necessary​ ​clients​ ​internally
+Threat​ ​of​ ​substitutes:​ ​Medium
+- Various​ ​blockchain-based​ ​projects​ ​are​ ​offering​ ​insurance​ ​solutions​ ​to​ ​meet​ ​both​ ​the
+insurer​ ​and​ ​broker​ ​requirements
+
+21 
+
+7.1.3​ ​Platform​ ​Functionality​ ​Matrix
+
+Below​ ​is​ ​a​ ​Platform​ ​Functionality​ ​Matrix​ ​of​ ​the​ ​closest​ ​peers​ ​in​ ​the​ ​market.
+Company
+
+Blockchain
+
+Instant
+Messaging
+
+Placing
+business
+
+Cross
+Product
+
+GDPR
+Compliant
+
+Claims
+Management
+
+Policy
+Management
+
+Premiums
+
+Mobile
+Access
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+*
+
+*
+
+*
+
+*
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+iXledger
+PPL
+Xuber
+
+✓
+
+fidentiaX
+
+✓
+
+Etherisc
+
+✓
+
+Aigang
+
+✓
+
+✓
+
+✓
+
+AkinovA
+
+✓
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+Insurercore
+
+✓
+
+Blocksure
+
+✓
+
+ChainThat
+
+✓
+
+SchemeServe
+
+✓
+
+✓
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+✓
+✓
+✓
+
+✓=​ ​Offering
+*​ ​=​ ​Pending
+
+Adopting​ ​similar​ ​functionalities​ ​as​ ​iXledger​ ​are​ ​PPL​,​ ​Xuber​​ ​and​ ​fidentiaX​.​ ​These​ ​three​ ​projects
+have​ ​been​ ​categorised​ ​as​ ​iXledger’s​ ​closest​ ​peers​ ​in​ ​providing​ ​insurance​ ​solutions.
+
+ 
+ 
+
+ 
+
+22 
+
+8​ ​Partnerships 
+
+We​ ​are​ ​in​ ​a​ ​strategic​ ​collaboration​ ​with​ ​one​ ​of​ ​the​ ​world's​ ​leading​ ​reinsurance​ ​companies,​ ​Gen
+Re​ ​(a​ ​Berkshire​ ​Hathaway​ ​company).​ ​The​ ​aim​ ​of​ ​our​ ​partnership​ ​is​ ​to​ ​deliver​ ​transformative
+insurance​ ​solutions​ ​amongst​ ​life​ ​and​ ​health​ ​clients​ ​of​ ​Gen​ ​Re​ ​in​ ​our​ ​insurance​ ​marketplace.​ ​This
+project​ ​will​ ​initially​ ​focus​ ​on​ ​the​ ​UK,​ ​with​ ​the​ ​aim​ ​to​ ​expand​ ​to​ ​Europe,​ ​Asia​ ​and​ ​the​ ​US.
+The​ ​insurance​ ​market​ ​is​ ​broad,​ ​and​ ​we​ ​are​ ​researching​ ​multiple​ ​use​ ​cases​ ​for​ ​the​ ​iXledger
+platform.​ ​During​ ​Q2​ ​and​ ​Q3​ ​2017,​ ​our​ ​strategy​ ​has​ ​been​ ​to​ ​focus​ ​on​ ​internal​ ​operations​ ​rather
+than​ ​expanding​ ​externally.​ ​In​ ​Q4,​ ​we​ ​have​ ​actively​ ​seeked​ ​to​ ​meet​ ​the​ ​market​ ​and​ ​spin​ ​diverse
+collaboration​ ​opportunities​ ​which​ ​we​ ​currently​ ​can​ ​not​ ​disclose​ ​till​ ​a​ ​confirmation​ ​is​ ​made.
+Going​ ​forward,​ ​external​ ​focus​ ​is​ ​our​ ​priority​ ​during​ ​Q4​ ​2017​ ​and​ ​Q1​ ​2018​ ​(See​ ​page​ ​18)
+
+ 
+ 
+
+ 
+
+23 
+
+9​ ​Disclaimer 
+This​ ​content​ ​provided​ ​is​ ​for​ ​informational​ ​purposes​ ​only​ ​related​ ​to​ ​our​ ​approach​ ​of​ ​providing
+insurance​ ​solutions​ ​based​ ​on​ ​blockchain​ ​technology.​​ ​The​ ​information​ ​above​ ​may​ ​not​ ​be
+exhaustive​ ​and​ ​does​ ​not​ ​imply​ ​any​ ​elements​ ​of​ ​a​ ​contractual​ ​relationship.​ ​This​ ​document​ ​in​ ​no
+way​ ​constitutes​ ​the​ ​provision​ ​of​ ​investment​ ​or​ ​professional​ ​advisory.​ ​iXledger​ ​does​ ​not
+guarantee,​ ​and​ ​accept​ ​legal​ ​liability​ ​whatsoever​ ​arising​ ​from​ ​or​ ​connected​ ​to,​ ​the​ ​accuracy,
+reliability,​ ​or​ ​completeness​ ​of​ ​any​ ​material​ ​contained​ ​in​ ​this​ ​document.​ ​Participants​ ​and​ ​potential
+IXT​ ​token​ ​holders​ ​should​ ​seek​ ​appropriate​ ​independent​ ​advice​ ​prior​ ​to​ ​relying​ ​on​ ​or​ ​entering
+into​ ​any​ ​commitment​ ​or​ ​transaction​ ​based​ ​on​ ​the​ ​information​ ​provided​ ​in​ ​the​ ​whitepaper,​ ​which
+is​ ​for​ ​reference​ ​only.​ ​This​ ​paper​ ​outlines​ ​iXledger’s​ ​current​ ​vision​ ​for​ ​the​ ​platform​ ​and​ ​we​ ​intend
+to​ ​realize​ ​this​ ​vision,​ ​however,​ ​our​ ​vision​ ​is​ ​dependent​ ​on​ ​numerous​ ​factors​ ​and​ ​it​ ​is​ ​entirely
+possible​ ​that​ ​the​ ​platform​ ​will​ ​not​ ​be​ ​implemented​ ​as​ ​outlined​ ​in​ ​this​ ​paper.​ ​The​ ​platform​ ​and​ ​its
+tokens​ ​are​ ​not​ ​intended​ ​to​ ​constitute​ ​securities​ ​in​ ​any​ ​jurisdiction.​ ​This​ ​whitepaper​ ​does​ ​not
+constitute​ ​a​ ​prospectus​ ​or​ ​offer​ ​document​ ​in​ ​any​ ​form​ ​and​ ​is​ ​not​ ​intended​ ​to​ ​constitute​ ​an​ ​offer​ ​of
+securities​ ​or​ ​a​ ​solicitation​ ​for​ ​investment​ ​in​ ​securities​ ​in​ ​any​ ​jurisdiction.​ ​IXT​ ​tokens​ ​are
+functional​ ​utility​ ​smart​ ​contracts​ ​within​ ​the​ ​iXledger​ ​platform​ ​and​ ​memberships​ ​are​ ​not​ ​for
+speculative​ ​investment.​ ​There​ ​is​ ​no​ ​promise​ ​of​ ​future​ ​performance,​ ​or​ ​promise​ ​of​ ​inherent​ ​value,
+or​ ​promise​ ​of​ ​continuing​ ​payments​ ​and​ ​no​ ​guarantee​ ​that​ ​IXT​ ​token​ ​will​ ​hold​ ​any​ ​particular
+value.
+
+ 
+ 
+
+ 
+
+24 
+
+10​ ​References 
+[1]​ ​Allianz​ ​-​ ​Global​ ​insurance​ ​markets
+URL:
+https://www.allianz.com/en/economic_research/publications/working_papers/insurance_markets/
+GVM​ ​260416e/
+[2]​ ​Association​ ​of​ ​British​ ​Insurers,​ ​Keyfact​ ​2016​ ​:​ ​“UK​ ​Insurance​ ​and​ ​Long​ ​Term​ ​Savings,
+Key​ ​Facts”
+URL:
+https://www.abi.org.uk/globalassets/sitecore/files/documents/publications/public/2016/keyfacts/k
+eyfacts2016.pdf
+[3&4]​ ​Insurers​ ​search​ ​for​ ​growth,​ ​by​ ​Clyde​ ​&​ ​Co
+URL:​ ​https://www.clydeco.com/uploads/Files/J368471_Search_Growth_Booklet_V3.pdf
+[5]​ ​New​ ​real-time,​ ​blockchain-enabled​ ​platform​ ​to​ ​secure​ ​and​ ​streamline​ ​the​ ​marine
+insurance​ ​process,​ ​by​ ​EY
+URL:​ ​http://www.ey.com/gl/en/industries/financial-services/insurance/ey-blockchain-marine
+[6]​ ​KPMG:​ ​Will​ ​on-demand​ ​insurance​ ​become​ ​mainstream?
+URL:
+https://home.kpmg.com/content/dam/kpmg/uk/pdf/2017/09/will-on-demand-insurance-become-main
+stream.pdf
+[7]​ ​Future​ ​Trends.​ ​A​ ​Seismic​ ​Shift​ ​Underway:​ ​How​ ​people,​ ​technology​ ​and​ ​market​ ​boundary
+trends​ ​are​ ​shifting​ ​the​ ​insurance​ ​industry
+URL:
+http://www.project-consult.de/files/Majesco__Future_Trends__A_Seismic_Shift_Underway_2016.p
+df
+
+[8]​ ​Insurance​ ​Post:​ ​Insurance​ ​Census​ ​2017:​ ​Face​ ​of​ ​insurance.
+URL:
+https://www.postonline.co.uk/insurer/2481654/insurance-census-2017-face-of-insurance#disqus_
+thread
+[9&10]​ ​PwC​ ​Global:​​ ​Insurance​ ​2020.​ ​The​ ​digital​ ​prise​ ​-​ ​taking​ ​customer​ ​connection​ ​to​ ​a​ ​new
+level.
+URL:
+https://www.pwc.com/gx/en/industries/financial-services/insurance/publications/digital-non-life.html
+
+25 
+
+

@@ -1,0 +1,644 @@
+The blockchain of the creative world
+
+The blockchain of the creative world
+
+Creativechain
+Decentralized platform for the registration and distribution of content that certifies the
+authorship and license of any digital creation making them indelible.
+THE CREATIVECHAIN TEAM
+creativechain.org
+Info@creativechain.org
+23/02/2017
+
+ABSTRACT:
+This document describes a platform that applies the blockchain technology to create a
+complete autonomous and decentralized system of registration and distribution of contents,
+to indelibly certify the intellectual property and the license of any digital content. The result is
+an ecosystem of functions supported by smart contracts. This way, creative communities can
+be liberated and empowered juridically and economically at the same time that the ecosystem
+eliminates from the equation all the intermediaries that make the processes of creation and
+cultural distribution more expensive.
+
+1 INTRODUCTION
+
+2 DESCRIPTION
+
+Digital content distribution media rarely innovate primarily
+because they are benefited with their classic business model.
+An example of this is the controversial copyright laws, which
+some states have reformulated (under pressure from copyright
+management entities) to protect the interests of an industry that
+does not seem to understand the nature of the internet. The result
+is a series of tensions where the interests of traditional industry
+collide with the right to information and access to culture.
+As a reflection of this malaise in the last decades numerous
+“free software”, "open source" or "copyleft" movements have
+emerged. All of them use copyright as a means to subvert the
+restrictions traditionally imposed by the copyright industry on
+the distribution and development of knowledge.
+The recent irruption of blockchain technology gives many
+possibilities for the registration and distribution of intellectual
+property without intermediaries. The power of attorney along with
+the decentralized distribution of digital P2P content articulate a
+new paradigm shift in the era of digital culture.
+This paper focuses on how Creativechain uses blockchain
+technology and smart contracts to challenge the centralized
+power of traditional copyright management entities systems. It
+offers a public and transparent alternative of intellectual property
+registration and an innovative ecosystem in the field of peer-topeer content distribution that frees creators from the centralized
+intermediation power of traditional digital content industries.
+
+Creativechain is a decentralized platform for the registration
+and distribution of content that certifies the authorship and
+license of any work or creation making them indelible.
+A tool for the empowerment of artists and all kinds of creative
+people who produce, share and distribute digital content.
+The platform applies the power of attorney of the revolutionary
+Blockchain technology in the process of registering content
+to create incorruptible time stamps that certify the intellectual
+property of any digital work.
+Creativechain incorporates all the advantages derived from
+the innovation of crypto coins. In this way, without the need to
+use bank accounts, purchases, micropayments or donations
+can be made to the authors of the registered contents.
+For the platform, creative chains are the ability of art and
+culture to interweave any kind of intellectual creation. When
+it is decided to use a copyleft licensed image to complete a
+new work of art, an invisible link is created that unites these two
+works forever. In that sense, the platform has been designed to
+strengthen the relationships that are generated in the processes
+of collective creation, therefore, any payment or donation can
+be chained to reward with a percentage to all the authors that
+are aligned in a creative chain.
+When someone makes a payment to a work, a percentage
+is distributed to the entire chain of works that follow. In this way
+the payment or donation is extended in an "automagic" way to
+
+3
+
+The blockchain of the creative world
+
+all the derivative works that have participated giving away part
+of its content.
+If the innovative blockchain technology is used in Bitcoin
+to certify monetary transactions, in Creativechain it is used
+to certify content registrations (distribution licenses, smart
+contracts, metadata or files). This technological adaptation
+makes it possible for the first time in history to create a content
+distribution system that is decentralized, public, transparent,
+traceable, incorruptible and free code.
+Creativechain is a bet for the public benefit of free culture
+and common creation as a collaborative method of growing and
+guaranteeing the right to culture.
+3 CHARACTERISTICS
+3.1 Registration of intellectual property
+Problem: Any digital content is very easy to copy and
+distribute. This feature often makes it very difficult to prove the
+authenticity, authorship or distribution license of any original
+creation. Currently even if a certain work is announced, tagged
+or linked with a Creative Commons license does not mean
+that it is sealed under a power of attorney. In a rights dispute
+this can be an inconvenience to the author when it comes to
+demonstrating his authorship.
+Solution: Creativechain uses blockchain technology and
+its power of attorney to solve this problem by creating an
+incorruptible and inalterable time stamp that allows to certify
+the authorship and license of use or distribution of any work or
+digital creation. In this way the platform becomes a kind of book
+of public records that can be consulted and verified by anyone
+at all times. Texts, images, videos, songs ... can be protected
+allowing the original creator to be recognized in the event of a
+conflict of license infringement by a third party.
+	
+
+3.2 Notary registration of licenses
+
+Problem: Since the creation of Creative Commons licenses
+in 2002 to date, the use of these licenses in works has grown
+to more than 1100 million in 2015. This increase makes many
+creators receive situations of non-compliance of their license
+by third parties or companies. Almost always these conflicts
+end up being forgotten by the independent author. The most
+common causes that push the author to not complain usually is
+not being able to demonstrate the authorship of their work, the
+legal ignorance or the lack of money to pay the legal costs that
+would entail claiming their rights.
+Solution: Creativechain offers a very simple and economical
+solution to empower the authors when claiming their rights.
+On the one hand the platform issues a digital certificate of
+authenticity that can be sent to the company that is infringing
+the rights.
+At the same time, the platform incorporates an open channel
+of direct legal advice with specialized copyright lawyers who will
+be able to guide and manage online the procedures to claim
+their rights.
+The nature of the copyright culture creates a gap in cultural
+participation.
+At Creativechain we understand that all people have the right
+to participate in cultural life and enjoy its benefits. That is why we
+encourage, protect and give priority to the use of free licenses
+as a means of helping to reduce the cultural participation gap
+and facilitate the construction of a free culture necessary for the
+exercise of the right of access to the culture of all societies.
+
+3.3 Smart contracts
+Problem: Traditional methods of transferring copyright are
+often processes that generate an economic and temporary cost
+for all parties involved.
+Solution: Creativechain registers content with a system that
+is capable of issuing "smart contracts" to make work assignment
+agreements. A smart contract acts as an informatic program
+that facilitates, secures, enforces and executes agreements
+between individuals and organizations. These contracts are
+signed cryptographically between the parties and are intended
+to provide greater security than traditional contract law and
+reduce transaction costs along the process of contracting.
+Creativechain's smart contracts mean a huge saving of time
+and money for artists, producers, institutions, organizations or
+galleries working in the culture sector.
+Contracts can be public or encrypted and guarantee that
+the two parties accept the conditions. With the smart contracts
+of Creativechain any person can make sure that the purchaser
+of the assignment of rights has enough money to be unlocked
+at the time of the signing and registration.
+
+	
+
+3.4 Transparency and traceability
+of consumption data.
+
+Problem: Any content distribution companies like Google,
+Youtube or Amazon privatize statistics and consumption data. This
+causes technological giants to have a market monopoly, creating
+consumer trends and manipulating any sale on their platforms.
+Society is increasingly aware of this power and is unwilling
+to cede its information to large multinationals that offer free
+services to convert user information into a privatized and
+marketable value. In most cases this information is sold to third
+parties to multiply their value, as happens in the advertising use.
+In this sense we must remember the famous axiom that says;
+"When something is free, the product is you."
+Solution: In Creativechain, all f interaction and consumption
+data are public, always respecting author or consumer’s choice
+of identity and anonymity. Only users can decide to reveal their
+identity to who they want and even publish their information in
+an encrypted way. In this way, any user can use the network’s
+statistics to improve their content offer on equal terms with other
+users.
+In Creativechain, the content owners are the authors, and
+they will always be able to prove it with the records that have
+been registered in the blockchain.
+3.5 Distribution of TFS files in network Torrent
+Problem: Currently digital content distribution companies
+use private servers where all content is centralized. In this
+way the content that we upload remains opaque in the hands
+of intermediaries and their private interests, being able to be
+manipulated by the lack of transparency. Usually they censure
+or eliminate contents without prior notice. In most cases, these
+intermediaries acquire the right to include in both their terms
+and conditions of use the ownership of the digital archive and
+the right to exploit it.
+Solution: The complete decentralization of all the metadata
+in a blockchain is the solution to fight against the accumulation
+of power that some content distribution companies have.
+Tarsius File System (TFS) has been developed to provide
+a solution to the unlimited storage and temporary perpetuity.
+TFS allows file storage while guarantees the availability of data
+with 10 copies. The number of copies can be configured by
+
+4
+
+The blockchain of the creative world
+
+the blockchain system consensus. TFS encrypts the documents
+and uses the Torrent network as a parasite that ensures the
+stable permanence of all registered files.
+Although it is always recommended to the user to have the
+original file as a proof, in case of legal dispute the TFS system
+works as a backup to rescue the original file while it acts as
+a method of viewing content from the decentralized platform
+Creativechain.
+All metadata records that link to the files are stored in the
+block chain. This way no one can modify a single record as it
+would not match the information shared by the other nodes and
+would not be validated. Thanks to this process, we are able to
+offer a distributed and public registry system whose consensus
+resides in the code itself and any modification of the initial source
+code should be approved by more than 51% of the nodes.
+3.6 Creativecoin: the crypto currency
+of Creative communities.
+Problem: In many countries, artists and creators are
+separated from any funding strategy because of the difficulty
+of accessing a bank account. At the same time, banks act as
+intermediaries by imposing fees on transactions that end up
+making very expensive the final cost of production of any work
+or creation.
+Solution: Creativechain aims to free cultural production
+from the intermediation of traditional banks and offer new and
+more inclusive financing services. That is why the platform
+offers the service of management of collections, payments
+or donations with Creativecoin, the first cryptocurrency
+created and designed to meet the needs of all creative
+communities that produce and distribute digital content.
+There are many benefits attributed to the use of virtual
+currencies. A global currency that does not belong to any
+state or government and can be used around the world without
+geographical or political barriers. Being foreign to the fiduciary
+system can not create debt with it and its value does not depend
+on the intervention of any central bank.
+Creativecoin uses up to 8 decimals divisible. This fact
+facilitates the micropayments to all type of contents. The
+transactions are made in real time and their execution is
+completed in a few minutes. The currency is designed to be
+impossible to falsify, nor can a double expense be made without
+the network detecting it. The cryptocurrency is anonymous and
+no one is obliged to reveal its identity. This makes of Creativecoin
+a perfect currency to register contents anonymously.
+All transactions and registrations are transparent and are
+recorded in an open account book. The use of Creativecoin
+entails lower costs per transaction than any traditional credit card
+system or payment gateways such as Paypal. Creativecoin is a
+peer-to-peer currency and works like cash, with the advantage
+that it occupies a tiny space so you can save a huge amount on
+a small file or a USB stick.
+This way, Creativechain goes one step beyond copyleft by
+applying "copyfarleft". This means that the platform not only bets
+on the defense, protection and distribution of copyleft content,
+but also gives "fintech" solutions for the economic emancipation
+of People who produce it.
+Creativecoin blockchain has three basic functions:
+registering content metadata, issuing smart contracts and using
+a cryptocurrency.
+Unlike other currencies, Creativecoin contemplates a basic
+value that is to register contents.
+The fee is 0.001 CREA that is distributed in full to the nodes
+that have confirmed the transactions.
+
+3.7 Peer to Peer Content Distribution
+The Creativechain platform adapts to the multiple needs of
+digital content creators by facilitating various P2P distribution
+methods for their works.
+3.7.1 Creative Commons & Copyleft
+It allows to view and download for free, as long as the creator
+is respected according to the Creative Commons Attribution
+license. In order to encourage the use of free licenses, the
+platform rewards with Creativecoin the works licensed with CC
+that have obtained a better evaluation by the community.
+The author can introduce a work with copyright license and
+set a total price for his work.
+Once the money has been obtained thanks to the donations
+or micropayments of other users, the intelligent contract unlocks
+the work and issues a new copyleft license that liberates the
+work for the whole community.
+3.7.2 Royalty Free
+Purchase and sale of Royalty-Free licenses for unlimited
+use on any project and forever. Purchases directly support the
+creator of the work.
+3.7.3 Equity Crowdfunding
+The creator of the work offers a percentage of participation
+for investors. This way the benefits of distribution of the work are
+distributed automatically among all the microinverters.
+3.7.4 Donations
+The platform allows to make donations in Bitcoin and
+Creativecoin for all the works registered in Creativechain’s
+blockchain.
+3.7.5 Limited Edition
+Creators can distribute their creations in limited edition
+mode. This means that creators can limit the broadcast of a
+digital artwork and sell a limited number of reproductions that
+are certified and numbered.
+3.8 Creative Chains
+We understand "creative chains" as the ability of art and
+culture to interweave any kind of intellectual creation. When a
+creator decides to use a copyleft licensed image to complete
+a new artwork generates an invisible link that links these two
+works forever.
+Thanks to blockchain technology we can now record,
+trace and visualize in a decentralized public archive all the
+connections that are generated between any creation.
+This system facilitates the chaining of payments to derivative
+works, giving an innovative solution to the recognition and
+economic reward of the creative chains.
+This characteristic is the one that gives name to the platform
+and its final objective is to be able to create a map of connections
+that help us to understand how the cultural transmission is
+articulated and the creative processes that shape it over time.
+
+5
+
+The blockchain of the creative world
+
+to distribute their creations.
+4.2 Content Consumers
+Users of digital content that seek new ways to access
+all types of cultural products without intermediaries. Directly
+Author-consumer or Fan-Artist.
+4.3 Institutions
+Organizations or institutions committed to the commons that
+seek a technological way to democratize their digital heritage.
+
+Creative chain
+3.9 Creation of Dapps
+
+4.4 Companies and content platforms
+
+Creativechain is an open source ecosystem that allows other
+content platforms to create their own decentralized applications
+that use the Creativecoin blockchain to store and index content.
+These platforms can be specialized in Art, photography, videos,
+ebooks, software, music, multimedia banks ... any distribution
+system is possible.
+
+Audiovisual production companies, social networks or
+content platforms that publish and distribute digital content from
+third parties.
+
+3.10 Social Network
+Creativechain works like any social network where content
+is displayed or distributed. You can create distribution channels
+and specific communities where interact with content from other
+authors, using, rating and commenting on their creations. The
+system incorporates an encrypted chat so that you can contact
+privately with the artists and authors of the content.
+All interactions between users and contents are registered
+in blockchain
+	
+4. THE COMMUNITY
+4.1 Creators
+Artists, musicians, designers, writers and audiovisual
+professionals who produce digital content and use the Internet
+
+	
+
+4.5 Cultural centers
+
+Galleries, museums or cultural centers can implement a
+sure and economical system of transparency to manage rights
+of distribution and exploitation of works of art.
+4.6 Specialized lawyers
+Copyright lawyers seeking new tools to defend the rights of
+their customers.
+5. TECHNICAL DESCRIPTION
+Creativechain uses the Blockchain protocol modified
+and adapted to the needs that are required for a platform of
+registration and distribution of contents as a greater OPRETURN
+data allowed.
+
+Flow Creativechain Net
+
+6
+
+The blockchain of the creative world
+
+5.1 Specifications Creativecoin:
+Currency Name: Creativecoin
+Symbol / Label: CREA
+Total issue of the currency: 115,000,000
+End of coin creation: 91,9 Years
+Hash algorithm: Scrypt
+Work type: Proof-of-Work (POW)
+Block spacing: 2 minutes
+Maximum block size: 4 MB
+Minimum Confirmation: 8 Blocks
+Cycle of difficulty recalculation: 720 blocks
+Data function implementation: Segregated Witness (Segwit)
+
+first phase starts in the genesis block 1/1/2/3/5/8/13/21/34/55
+Until the block Fibo 514229 (2 years), where it will start the
+second inverted phase 34/13/8/5/3/2/1 / until reaching block
+Fibo 24157817 (91.9 years). In the same way the sequence
+of the blocks that mark the eras is based on the sequence of
+Fibonacci.
+In this way each era has a golden proportionality where
+each change of era is 1.6 times greater than the previous one.
+The objective of adding this sequence to the creation of
+the coin is to give it proportional and numerical beauty while
+avoiding the speculative mining that many currencies often
+suffer during their first years of life.
+
+5.1.1 Currency issue and mining
+Creativechain is a multidisciplinary project that unites
+diverse fields of knowledge, such as art and culture, with the
+new technologies of communication, computing, encryption,
+mathematics and economics. From this fortunate crossing is
+born the motivation to apply the Fibonacci series, (the name of
+the celebrated mathematician of the Middle Ages, Leonardo
+of Pisa known as Fibonacci), an ancient mathematical formula
+that surprisingly manifests itself in many areas of nature and has
+surprised both Mathematical biologists and artists.
+It is already known that in the classical period Greeks used
+the essence of this sequence, the golden number φ (fi) 1.61803
+that was applied to the design of their sculptures as well as to
+the construction of their temples among other manifestations of
+Greek art.
+
+Overture of Fibo 450 days
+
+The number φ is related to the fibonacci sequence being
+this a midpoint between the numbers describing the sequence.
+
+Fn + 1 / Fn
+The division between the Fibonacci numbers approaches
+asymptotically to the golden number, for example:
+34/21 = 1.69047619, 55/34 = 1.67647059, 89/55 =
+1.6181818, 144/89 = 1.617977528.
+The genesis of Creativecoin follows a Fibonacci sequence
+structure with rewards every 2 minutes with a 2-phase path: The
+
+Full sumohony of Fibo 91.9
+
+Creativecoin distribution
+
+7
+
+The blockchain of the creative world
+
+5.2 Visual CREA
+5.2.1 Display standard
+From Pyt h agoras (569 BC) who chose as a logo for his
+school t h e pentagonal star, a geometric figure where all
+parts ar e related to each other following the proportion of
+the gold e n section, there are many cases of artists who have
+used thi s proportion in their works of art. Phidias (500 BC) in
+the desi g ns of the Parthenon or Leonardo da Vinci (1452
+AD) in s o me of his paintings more known as the Gioconda
+or Vitru v ian man are just some of the best known examples.
+In visual aesthetics the reason for using this ratio is related to the
+attempt to achieve a pleasant and symmetrical perception of the
+forms and relationships that are generated between them
+Visual CREA is the visual standardization system of JSON
+data structures, produced by CREA's blockchain. This system
+is based on standard display rules that use the golden ratio to
+display data, documents or files on any digital display device.
+
+the platform.
+- Number of requests to each type of content.
+- Number of requests to each content.
+- Number of searches per text string.
+- Number of signatures received by type of signature.
+-Traffic and frequency
+These 5 indicators give millions of possibilities for each
+developer to take advantage of information as he pleases and
+generates the statistics that best suit him to determine trends in
+the distribution market.
+These indicators allow you to create more realistic
+consumption statistics, since there is no possibility of
+manipulation by the platform.
+In this way and unlike the other centralized platforms
+like Google or Amazon in Creativechain all the people have
+the same power of access to the information of the network
+without generating positions of privileges between users and
+distributors.
+5.4 CREA Rewards Protocol
+Part of the funds obtained in the crowsales (8%) are used as
+a reward for authors who have distributed their work under open
+licenses. For the fair distribution of these funds an algorithm that
+values ​​the quality of the content is used crossing all the data of
+interact i on of the network. The consensus of the network can
+vary and regulate the algorithm indicators.
+5.5 Crea ID
+
+Visual Crea Sistem
+5.2.2 3D Data Navigation
+It is th e multidimensional visualization system that uses
+data structures as objetus or arrais with infinite multidimensional
+position s and possibilities. The data navigation structure in
+CREA's b l ockchain consists of 3 Dimensions. Each block of
+information can scroll through all dimensions depending on the
+configuration that the user sets according to their search criteria.
+Example : The top-down navigation will correspond to the
+works o f the author, left-right works related by keywords and
+inside- o utside correspond to navigation in time by date of
+registr a tion in the blockchain. This system allows to simply
+navigate in the public archive by applying the time dimension
+and thus check the order of registration and sealing over time.
+Example:
+D = Search Hash
+P = Point in space
+Z = Time
+Rdw = Related with hash with who publish
+Rdp = Related with the publish
+p[d] [z] [rdp] [rdw]
+5.3 Fair Indexing of Data
+Creativechain's philosophy is to develop a content search
+system in blockchain as fair as possible for all users. For this,
+each day (range that can be reviewed by the consensus) all the
+nodes emit the data of interaction statistics and consumption of
+
+Each use r can remain anonymous or provide as many
+proofs a b out their identity as they want to be consulted by a
+third pa r ty or organization that wants to give him access for
+any purpose that is required through the use of his public and
+private keys.
+5.6 Smart contracts
+The Crea t ivechain platform allows you to incorporate
+any type of license into a smart contract to seal assignment
+agreemen t s or to sell and distribute the work in the channels
+or communities of the platform. Contracts based on methods of
+distribution that favor collective creation:
+Smarts C Commons: Contracts relating to the parties with a
+Creative Commons license or copyleft
+Royalty F ree Stock Photography: Contracts based on
+agreements of purchase and sale of free licenses for unlimited
+use in any project and forever.
+Equity Crowd: Agreements for the distribution of dividends
+as participation for project investors. In this way the benefits of
+distribution of the work are distributed automatically among all
+the microinverters.
+Sponsor License: License to sponsor contents of users who
+have activated this function in their project.
+Creative Chain License: License based on a Creative
+Commons l icense to string derivative works whose profits
+are dist r ibuted in a chained way with a Percentage X to all
+mentioned works.
+The crea t or of "smart contracts" that incorporates the
+platform allows you to design contracts tailored to fit the needs
+of each cultural sector.
+The purchase of works directly supports the creator of the
+work and its creative chain.
+
+8
+
+The blockchain of the creative world
+
+6 Conclusion
+
+Smart contract model
+5.7 Registration Fee
+The content registration fee in the Creativecoin blockchain
+has a fixed price of 0.001 CREA. This price is the same for all
+contents and goes entirely for the miners of the network. Taking
+into account that we are talking about a content platform, the
+volume of records will be one of the largest percentages with
+respect to the total volume of transactions of the network. This
+percentage ensures a good reward for the miners which in turn
+will motivate the increase of nodes and with it a greater security
+of the network
+5.8 TFS files
+
+Thanks to the arrival of Internet 1.0 and the blogosphere, for
+the first time people had the opportunity to show their creations
+to millions of people without spending enough money for it. In
+the case of the music industry, it meant a revolution in which
+producers or labels ceased to be the essential routes for selling
+more records. Years later arrived the revolution of Internet 2.0
+or also known as the "social networks revolution". The artists
+had hundreds of platforms where they could show their work,
+meet their fans, talk to them and exchange knowledge in a
+bidirectional way.
+Soon, the first companies that monopolized and
+standardized their own methods of content distribution emerged.
+Private capital companies that work to capitalize on the content
+uploaded by users and without the least participation in the
+company by its users. Free platforms like Youtube that were
+centralized structured controlling all the content and privatizing
+all the data of consumption and interaction of the users. Now
+society is becoming more aware of this power and is not willing
+to cede its information to large multinationals that offer free
+services to convert the information of the users into a privatized
+and marketable value. In most cases this information is sold to
+third parties to multiply their value, as happens in the advertising
+use.
+Naturally now comes a third revolution, the irruption
+of blockchain technology also known as Internet 3.0. This
+technology marks a paradigm shift that will affect the foundations
+of the digital content distribution industries, improving internal
+project democracy, transparency of data and the sharing of
+creative communities at a global level.
+An important feature of the blockchain is that it allows you to
+create independent ecosystems that use their own currencies
+and their own systems to validate relationships between users
+with the help of smart contracts. This combination has created
+for the first time in history the possibility of creating projects and
+Decentralized Autonomous Organization (DAO). This is a great
+leap that opens the door to a greater democratization of content
+distribution systems.
+Platforms like Creativechain evolve and implement
+improvements according to the consensus of 51% of the
+network. This allows the evolution of the project is always
+subject to the acceptance of its users and their needs.
+This compendium of features causes the elimination of all
+the intermediaries that distort the distribution and the relations
+between the users of the platform. From a creative perspective
+these intermediaries exert a power that indirectly represses the
+creative freedoms of every person that produces digital content.
+There is a drive in contemporary societies that is making a
+transversal change in all spheres of culture. This drive is clearly
+committed to a more just and decentralized future free of major
+power centers which will positively affect political, economic
+and creative freedoms.
+7 References
+Satoshi Nakamoto. Bitcoin: A peer-to-peer electronic cash
+system. 2008.
+Litecoin Project https://github.com/litecoin-project
+Simone Aliprandi - Creative Commons: a user guide. 2010
+Free Software, Free Society: Selected Essays of Richard M.
+Stallman 2009
+Estado del procomún 2015: Creativecommons.org
+Creativechain:https://github.com/creativechain/
+
+Tarsius File System (TFS)
+
+9
+
+

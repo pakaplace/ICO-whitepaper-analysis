@@ -1,0 +1,1545 @@
+ 
+
+ 
+1.0 Abstract
+
+1 
+
+2.0 Manifesto
+
+1 
+
+3.0 Problem Overview
+
+3 
+
+4.0 Criteria for a solution
+
+5 
+
+5.0 Features and functions of Wagerr
+
+6 
+
+6.0 Economics: Structural dynamics of Wagerr’s economic system
+
+8 
+
+6.1 Value coupling: Price tied to usage
+
+8 
+
+6.2 Value proposition for sports bettors
+
+10 
+
+6.3 Value proposition for holders of WGR
+
+11 
+
+6.4 Value proposition for the sports betting industry
+
+11 
+
+6.5 Value to investors
+
+11 
+
+6.6 Value to the field of digital currency
+
+13 
+
+7.0 Betting Engine & Technical Architecture
+
+14 
+
+7.1 Head to Head Betting Process
+
+14 
+
+7.2 Multi User betting
+
+16 
+
+7.3 Peerless Direct Chain betting
+
+17 
+
+7.4 Creating and Resolving events
+
+18 
+
+7.5 Time Related Conditions (Atomic Pairing)
+
+19 
+
+7.6 Activating an Oracle Masternode
+
+19 
+
+7.7 Promotion queue
+
+20 
+
+7.8 Demotion
+
+20 
+
+7.9 Governance
+
+20 
+
+7.9.1 Payout dispute
+
+21 
+
+7.9.2 Penalized nodes
+
+21 
+
+7.9.3 Oracle Masternode voting
+
+21 
+
+7.9.4 Potential network threats
+
+22 
+
+7.10 Sports data Feeds
+
+23 
+
+7.11 Network Add-ons & Enhancements
+
+23 
+
+7.12 Scalability
+
+24 
+
+7.13 Fee Structure
+
+24 
+
+7.14 Supported Leagues
+
+25 
+
+8.0 Competitive Analysis
+
+26 
+
+9.0 Developmental Roadmap
+
+27 
+
+10.0 ICO Details
+
+28 
+
+11.0 ICO Fund Allocation & Future Development
+
+29 
+
+12.0 Conclusion
+
+31 
+
+ 
+
+ 
+
+ 
+ 
+1.0 Abstract 
+ 
+Wagerr is a decentralized sportsbook that brings trustless sportsbetting to the entire world. 
+Due to its strict use of Application Specific Smart Contracts (ASSC) and 2nd layer network 
+controlled by Oracle Masternodes, Wagerr solves the security, scaling and incentive issues 
+that have plagued smart contracts since their inception. Additionally, Wagerr combines 
+leaps in technical design with an economic linkage that creates a deflationary, and self 
+regulating economy. Through decentralized governance and contract fees, structural 
+mechanisms balance Wagerr’s token value by dynamically adjusting supply based on the 
+current exchange rate and betting volume within the Wagerr network.  
+ 
+Wagerr does this all while avoiding single points of failure and implementing a network and 
+system that is fully decentralized. 
+ 
+ 
+2.0 Manifesto 
+ 
+Bit by bit: a manifesto for modern freedom through decentralization 
+ 
+Wagerr celebrates the freedoms and new possibilities opened by the internet and 
+especially those opened by bitcoin and the underlying blockchain technology.  
+ 
+The internet delivered a decentralized network, that was everywhere yet nowhere. The 
+internet was and is a radical and disruptive experiment that propagated new ways of living, 
+new forms of relationships, and new discoveries of the nature of social practices we have 
+taken for granted. We have made new discoveries about inherent unconditional rights and 
+freedoms previously unimaginable. The context has shifted. New pleasures are possible. 
+And the freedom to pursue happiness takes on new meanings, new implications, for 
+individual and collective behavior, indeed even for ​network behavior​. 
+ 
+The creation of secure, self-regulating networks that behave in mechanically predictable 
+ways, offload the perceived need to control human behavior. Fairness is built in.  
+ 
+However, these new freedoms face daily peril as the Internet gets re-centralized in the form 
+of applications, websites, corporate conglomerates, and creeping regulatory action. The 
+proper burden of freedom is constant vigilance. 
+ 
+It is not that Google, Apple, and Microsoft are inherently bad. Concern arises when people’s 
+identities become products for a corporate resale. These same people are led to mistake 
+the web for the internet, as if the current state of the web corresponds with the aspirations 
+of the decentralized internet. Concern grows deeper when profiteers mistake utility for 
+ 
+ 
+1 
+
+ 
+
+power, and people regard their own consumer behavior as mere consumerism when, 
+simultaneously, their identities are being harvested and auctioned to the highest bidder. 
+ 
+A corporate model that commercializes and exploits the things that are most personal and 
+most private about individual lives and identities only to repackage those identities for 
+targeted advertising, or worse, extortion or blackmailing — all while perpetuating 
+predatory targeting and exploitation of non transparent policies. This has become the 
+modern antithesis of freedom. 
+ 
+Wagerr believes that sports betting persists throughout societies despite efforts to curtail it 
+because it is ​fundamentally fun​ and it is intrinsic to human nature to exercise free choice. 
+ 
+Wagerr believes that self-regulating, open source systems can produce better, more 
+reliable and fair outcomes because they are not subject to human vagaries. People can 
+design and control machines, systems and networks more precisely and more reasonably 
+than they could ever control other people — even themselves. 
+ 
+To the extent that government limits people's capacity to exercise free choice and blocks 
+the pursuit of happiness by means of regulation of a simple entertainment industry, it 
+curtails our capacity to be truly human, truly free. 
+ 
+Wagerr believes the internet is the greatest invention of modern time. Access to this 
+freedom must always be free of fear and legal repercussions. Instead of having to invest 
+trust into unknown individuals or entities who may or may not be there tomorrow, players 
+can rely on a trustless and decentralized system. 
+ 
+Services should be decentralized. 
+Systems should protect users. 
+Access should be free and open. 
+ 
+No more platforms. No more websites. No more apps. 
+No more paternalism. No more systemic corruption. 
+No more arbitrary restrictions and self-serving barriers. 
+ 
+
+Bit by bit, we shall decentralize. 
+ 
+ 
+
+ 
+ 
+2 
+
+ 
+
+ 
+ 
+ 
+ 
+3.0 Problem Overview  
+ 
+What is the problem with sports betting? 
+ 
+● Excessive risks for sports bettors 
+○ Exploitation of identity/information 
+○ Regulatory repercussions 
+○ Total irrecoverable loss of funds 
+○ Vulnerability to manipulation 
+ 
+● Unpredictable risks for corporate and private bookkeepers 
+ 
+○ Regulatory repercussions 
+○ Government confiscation of funds 
+○ Frozen assets 
+○ Security vulnerabilities 
+ 
+ 
+Sports betting has a bad rap. Simple analysis traces the industry’s clouded reputation to 
+the regulatory practices that drive sports betting underground, and the inevitable problems 
+that result from systems of trust enforced only by greed and fear of violence. The 
+reputation of bookkeeping (and gambling in general) and problematic efforts at regulation 
+are mutually reinforcing. When government impose regulations they inadvertently drive 
+betting underground. When underground markets become violent or result in tragic 
+economic losses, the justification for regulatory control of a purportedly dangerous 
+industry becomes self-fulfilling. 
+ 
+Some governments, knowing that betting activity will continue — even if it is declared a 
+crime — allow licensed betting. Governments charge fees for licensure and regulation and 
+tax the industry and any winnings. A so-called "sin tax" justifies excessive government 
+confiscation and control premised on the notion that extragovernmental sports betting is 
+inherently dangerous and constitutes a moral vice.  
+ 
+The first irony is that this political competition for control over gambling income — the 
+question of "who will be the house" — inevitably corrupts the politicians and government 
+officials who benefit from the "vice" that they purport to regulate. The industry becomes 
+“pay to play” for entities to participate and compete, leading to oligarchy. 
+ 
+ 
+ 
+3 
+
+ 
+
+A second irony is that regulation is inevitably ineffective, resulting in legal loopholes that 
+are used to bring products and services to market anyway, often at a high cost to efficiency. 
+This waste of resources would better serve economies, and ultimately, communities, in 
+other areas of production. 
+ 
+The third irony is that the regulation itself produces a combination of corrupt and 
+dangerous markets: the legally regulated one and the underground one regulated by 
+vigilante practices. 
+ 
+The result is moral hypocrisy on the part of regulators, an arbitrary and unpredictable 
+mishmash of inefficient local regulatory practices and the flourishing of underground 
+markets which are, indeed, more risky both because sports bettors and bookkeepers risk 
+criminal prosecution and because they have no recourse to the law when one party fails to 
+deliver what they owe. 
+ 
+Government regulation is a protection racket 
+ 
+In short, government regulation of sports betting is a racket. Government regulators make 
+money by providing "protection" to citizens, sports bettors, and legitimate bookkeepers. 
+But the protection offered is only necessary because the underground markets are defined 
+by the government itself​ as illegal, the participants defined as criminals, and their everyday 
+practices require participants to rely upon a delicate balance of "trust," on one hand, and 
+the threat, and potential reality, of severe violence on the other. Even when government 
+regulation of sports betting is a well intended effort at protection; it is a racket, 
+nonetheless. Worse yet, governments are not only confiscating winnings to pay for 
+“protecting” citizens from dangers and corruption — the government officials, themselves, 
+are corrupted by their incentives to collect taxes and maintain power, thus facilitating the 
+dangers that perpetuate the narrative and their role as protection. 
+ 
+Centralization as the core problem 
+ 
+● Trust requirements 
+● Centralization of power, control  
+● Non-distributed systems 
+ 
+Wagerr agrees: the current state of sports betting is terribly risky, expensive, corrupt, and 
+dangerous. But it doesn't have to be this way. Wagerr has identified the elements crucial to 
+a safer, more secure way to practice sports betting. Wagerr, furthermore, has designed a 
+system that brings this better way to the whole world without borders. This is a big deal. 
+Illegal sports betting in the US and China combined totals a trillion Dollars in illegal bets. 
+Despite efforts at heavy regulation, people are betting anyhow. And they are doing so in an 
+insecure and unsafe manner. Wagerr provides a global solution to a vast array of localized 
+problems in sports betting markets. 
+ 
+ 
+4 
+
+ 
+
+ 
+ 
+4.0 Criteria for a solution 
+Distributed, decentralized, trustless, stable, private 
+ 
+Any solution to the problems of the ​status quo​ for the sports betting industry must serve 
+the interests of sports bettors and also satisfy the needs of the contributors who maintain 
+the security and functionality of the network. To this end, we believe that any solution 
+must: 
+ 
+● Be fairly and widely distributed to speed up adoption and reduce market risk. 
+● Be fully decentralized to remove single points of failure and individual control.  
+● Function in a trustless manner, so one party’s dishonesty does not jeopardize the 
+fairness of the entire system’s performance. 
+● Include mechanisms that stabilize the value of the network’s underlying token of 
+exchange, whether adoption dramatically rises or falls. 
+● Guarantee user privacy. 
+ 
+Wagerr satisfies all the above requirements: 
+ 
+● Its ICO and the related marketing efforts draw interested investors and bettors. 
+● A fully open source codebase attracts diverse technical interest and allows for 
+anyone to have say in its development and future. 
+● Rigidly programmed contract rules and subroutines enforce trustless operation of 
+the network. 
+● The destruction of 48% of total contract fees ties betting activity to Wagerr’s market 
+value and reduces volatility. 
+● And finally, no personal information is required or stored to usage Wagerr. The 
+network is available from any internet connection and is not subject to regulatory 
+oversight. Wagerr’s open network does not reinforce centralized identities, freeing 
+participants from any stigma associated with sports betting. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5 
+
+ 
+
+5.0 Features and functions of Wagerr 
+ 
+Transaction functions 
+Wagerr is a two tiered network comprised of standard wallets and Oracle Masternodes. 
+ 
+Standard Proof of Stake wallets 
+● The first layer is the standard transactional layer in which basic wallets earn rewards 
+for block formation. 
+● Provide network security and confirm blocks of transactions that constitute the 
+blockchain, the ledger of immutable transactions. 
+● Maintain a full copy of the blockchain. 
+ 
+Oracle Masternode intranet  
+● Oracle Masternodes, a second layer of the Wagerr network, function as consensus 
+agents, forging betting contracts, retrieving sporting events outcomes data, and 
+consensually validating results that trigger contractual payouts. 
+● Oracle Masternodes also mediate decentralized governance of the Wagerr network, 
+as discussed in greater detail in section 7.10 
+ 
+Betting functions 
+The Wagerr system facilitates three modalities of sports betting: 
+ 
+1. Peer to peer betting 
+Peer to peer betting (or “head to head” betting) requires two partners to take 
+opposite sides of a betting contract. The players agree on the betting line and the 
+total amount at stake. One player initiates the bet by posting it to the blockchain 
+from their wallet. When the partner sends coins for the complementary side of the 
+bet, the blockchain tags them as transactions with dispositions contingent upon the 
+outcome of the specified event. Once the event is completed, the Oracle 
+Masternode network records the performance result on the blockchain, triggering a 
+payout to the winner. If the event never happens, the coins, minus fees, are 
+returned to the original transactors.  
+ 
+This feature is great for casual players, friends who live apart, colleagues, etc. They 
+can make a plan, forge a contract on the blockchain, and leave the rest to the 
+Wagerr network. 
+ 
+2. Multi user betting 
+Multi User betting is like peer to peer betting, but in this case multiple users can 
+take the complementary position against a larger bet until the total value of the bet 
+is met. Since this mode of betting requires less specificity about the size of the bet, 
+the blockchain can perform the work of matching multiple bets until an equally 
+weighted or minimum contract is achieved. 
+ 
+ 
+6 
+
+ 
+
+ 
+3. Peerless direct chain betting 
+Peerless betting does not require a complementary transaction to forge a contract. 
+Any bettor can initiate a contract on chain, which the Wagerr network is 
+programmed to pay out if the bettor wins. Peerless betting maximizes flexibility for 
+bettors. 
+ 
+How does Wagerr balance the risks of peerless betting? 
+The blockchain pays out winning bets that are confirmed by the Oracle Masternode 
+network, by minting coins for the payout. This means that the blockchain does 
+accrue some risk of coin supply expansion though forging such contracts, but the 
+risk is balanced by several factors. 
+ 
+Losing bets systematically destroy coins, creating a balance over time. That’s 
+because 48% of all betting fees are destroyed, tipping that balance in favor of net 
+coin destruction from direct chain betting. 
+ 
+In fact, because losing bets destroy more coins than winning bets generate coins on 
+the network, an intrinsic advantage is created for all WGR holders in terms of coin 
+supply. Specifically, on a losing bet of 100 WGR, 96.88 WGR would be destroyed; by 
+contrast, on a winning bet of 100 WGR, only 94 WGR would be generated. This 
+imbalance constitutes the house edge of approximately 3%. 
+ 
+The final technological balance is a development called, “dynamic odds balancing.” 
+When peerless betting creates an imbalance in risk, where the payout liability is 
+higher for winning than for losing, the network dynamically adjusts odds to 
+encourage complementary betting that will balance the network liability. 
+ 
+Peerless betting is by far the simplest solution for sports bettors because it requires 
+no planning, and eliminates the risk of finding complementary partners.  
+ 
+Peerless betting also attracts traditional sports betting operations that routinely 
+manage their own payout liability by placing bets with peer organizations. Now, 
+instead of relying on their peers to take the other side, major sports betting outfits 
+can enjoy low fee betting on the trustless Wagerr system instead of entrusting 
+assets to competitors.  
+ 
+That’s important because regulated competitors are subject to regulatory insecurity 
+and unregulated competitors have no legal obligation to honor agreements. Wagerr, 
+a decentralized technological system, does not require sports bettors or sports 
+betting organizations to trust any one party whose trustworthiness cannot be 
+verified. Users instead entrust verifiable open source code that they can inspect for 
+themselves. 
+ 
+ 
+7 
+
+ 
+
+ 
+ 
+6.0 Economics: Structural dynamics of Wagerr’s economic system 
+ 
+Sports betting market context: 
+The estimated scale of the traditional sports betting market (including both legal and illegal 
+bets, internationally) is in the trillions of USD. An estimated $400 billion dollars illegal bets 
+are placed annually in the United States alone. China’s illegal betting market is even more 
+extensive. Traditional sports betting in many locales is driven underground, leading to 
+corruption, unfairness, and violence. Wagerr offers this untapped market the opportunity 
+to choose a safe, private, and accessible way to bet through decentralized blockchain 
+technology. 
+ 
+Because Wagerr is (better) decentralized, private, and lower-fee with a compelling value 
+proposition, Wagerr has the potential to win substantial market share in the long run. 
+However, even if Wagerr only captures a fraction of the trillion dollar market, the world will 
+be a little safer and the mechanisms built into the Wagerr model will have a powerful and 
+overwhelmingly positive effect on the Wagerr economy, and long term token value. 
+ 
+“Value coupling,” in particular, creates an extraordinary value proposition for sports 
+bettors, the sports betting industry, and for investors at every scale. 
+ 
+ 
+6.1 Value coupling: Price tied to usage 
+ 
+● Value coupling: price tied to usage 
+○ Basic: supply and demand; burning vs minting 
+○ Advanced: Price dynamically affects burn rate 
+■ High priced WGR = declining burn rate (market stabilization) 
+● Stable price helps bettors predict potential winnings 
+● Higher prices are always a win 
+■ Low priced WGR = accelerating burn rate (mitigates inflation) 
+● Self-balancing system 
+● Price declines are temporary 
+ 
+ 
+“Value coupling” defined: 
+The value of the Wagerr token (WGR) is systematically tied to the use of the sports 
+betting blockchain. 
+ 
+The Wagerr network reduces the risk to value and protects holders of WGR tokens by 
+linking betting volume to coin supply. This “value coupling” between usage and supply is a 
+ 
+ 
+8 
+
+ 
+
+built-in deflationary mechanism that destroys 48% of the fee from every bet. With fees of 
+2%-6%, the net result is nearly 1-3% of every bet permanently removed from the network. 
+ 
+For example, if price falls dramatically, significantly more outstanding supply is destroyed 
+with every bet, because bets now require more WGR. Conversely, if price rises dramatically, 
+significantly less supply is destroyed. Over time, this leads to less market volatility and an 
+asset value that more accurately reflects both adoption and usage. 
+Wagerr’s systematic destruction of fees thus creates supply scarcity over time. As the 
+average volume of betting activity over the Wagerr network rises, the value of Wagerr rises 
+with it, enabling all investors to participate in its strong growth potential simply by holding 
+WGR tokens.
+
+ 
+At any point in time the price of Wagerr combined with the volume of bets defines how 
+much deflation takes place on the Wagerr blockchain. See for yourself how these three 
+variables interact with the ​Interactive Value Calculator​ on wagerr.com.  
+Wagerr is designed to be more than a blockchain, it is designed to be a responsive and 
+price linked economy. For users to feel safe holding the token and to bet with it, they need 
+to have confidence in the value backing the coin. In Wagerr’s case the method of ensuring 
+that the value grows over time is by creating a deflationary economy. 
+Why not make Wagerr an asset backed coin? 
+Asset backed coins are powerful and have proven to be valuable in the crypto space. 
+Wagerr, however, was designed to be fully decentralized. Since ownership and control by a 
+central authority are required to back the value of an asset, the requirements are 
+incompatible with the function of the Wagerr network. 
+ 
+
+ 
+ 
+9 
+
+ 
+
+ 
+6.2 Value proposition for sports bettors 
+ 
+● Lower fees 
+○ Wagerr incentivizes bettors to use the network and to acquire, use, and hold 
+WGR 
+○ Use: lower fees inherently better 
+○ Better margins for players: higher probabilities through lower fees 
+○ Potential to win bigger value 
+○ Potential to win just by holding 
+ 
+Wagerr is custom built for sports bettors and the sports betting industry. For a low fee, 
+players can place their bets in secure escrow. Winners get automatic payouts after the 
+event outcome is confirmed on the blockchain through consensual validation.  
+ 
+The Wagerr network confirms real world gaming results accurately because of strict 
+enforcement of the requirements for Oracle Masternodes participation. The penalties for 
+Oracles that attempt to feed bad data to the network are prohibitive. Supermajority (75%) 
+consensus among the Oracle Masternode network is required in order to post game results 
+on the blockchain, making result security extraordinarily robust. 
+ 
+There's no risk of overleveraged betting in the Wagerr system because no one can bet 
+more WGR than they have. Loan sharks and associated violence are excluded from the 
+Wagerr network. 
+ 
+Higher probability play through lower fees 
+Since Wagerr’s fees are lower than traditional sportsbooks, the probabilities of success over 
+time improve because the bettor doesn’t need to win as often to make their sports betting 
+practice profitable long term. 
+ 
+Buy low, use high 
+Sports bettors who buy Wagerr when its price is low may choose to use it for betting when 
+the value is high to get even more value per token. By buying low and spending high, 
+bettors leverage Wagerr’s advantageous ecodynamics to amplify their betting power 
+because they can place larger bets with smaller amounts of initial capital.  
+ 
+Bet high, win higher 
+Since returns on betting is a matter of probabilities, buying low and spending high 
+increases the likelihood of profit, by first reducing the initial investment and, second, 
+increasing the value of the payout.  
+ 
+Win higher, bet higher still 
+ 
+ 
+10 
+
+ 
+
+Actually, if the price continues to rise, successful bettors can repeat the process: waiting 
+until the winnings increase in value again before placing a new bet would mean that the 
+initial capital at stake remains nominal while the reward potential continues to grow. 
+ 
+6.3 Value proposition for holders of WGR 
+ 
+You don’t have to be a bettor or an investor or even a trader for a high probability chance 
+to win simply by obtaining and holding Wagerr. Wagerr is optimized for growth. The 
+mechanisms for controlled scarcity of the coin supply mean that as Wagerr adoption rises, 
+systematic destruction of fees puts upward pressure on the price of the coin. Those who 
+hold WGR and operate a standard staking wallet will accrue newly minted WGR as the 
+wallets contribute to network security. The probabilities of winning stake rewards increase 
+with the amount of WGR held in the wallet. 
+ 
+ 
+6.4 Value proposition for the sports betting industry 
+ 
+Arbitrage through peerless direct on chain betting 
+ 
+Traditional sportsbooks frequently find that they have taken on too much payout liability 
+when their customers’ bets are unbalanced, strongly favoring one side. If the overweighted 
+team wins, the sportsbook has to carry that cost against their bottom line. They typically 
+manage their liability by placing bets, themselves, with competing sportsbooks. Wagerr 
+offers lower fees, automated payouts, and strong security against manipulation. Even 
+though Wagerr will function as a competitor to traditional sportsbooks, the blockchain also 
+offers a potent solution at a competitive price. 
+ 
+For additional information on mechanisms that safeguard the network for arbitrage 
+functions, please see discussion of “dynamic odds balancing,” under, “​Peerless direct chain 
+betting​.” 
+ 
+6.5 Value to investors 
+ 
+● Market share + value coupling = [burn rate > mint rate] = deflationary economy 
+● Rewards for contributions that increase and maintain Wagerr network value 
+○ Oracle Masternodes 
+■ Forge smart contract with multiphase transactions 
+● Phase 1: Initiate conditional contract 
+● Phase 2: Validated conditions trigger payouts 
+■ Retrieve and validate data 
+■ Collect, distribute, escrow, and burn fees 
+■ Be the house 
+ 
+ 
+ 
+11 
+
+ 
+
+Because of value coupling, betting volume drives WGR token value. The enormity of the 
+existing sports betting industry suggests that when the disruptive technology of Wagerr 
+wins even a fraction of the sports betting market share, the betting volume would be 
+enough to drive a deflationary economy, one in which the rate of coin destruction exceeds 
+the rate of coin generation. 
+ 
+Investors have three key options for investing in WGR. Buying and holding WGR, staking 
+WGR in standard staking wallets, or acquiring enough WGR to operate an Oracle 
+Masternode. The last option, Oracle Masternodes, offer the most to investors because they 
+win ongoing staking awards, and they also earn fees for forging betting contracts and 
+updating real life event outcomes on the blockchain. While all who hold WGR can benefit 
+from the house advantage described under Peerless direct chain betting (Section 5.3), the 
+Oracle Masternodes’ function is analogous to the house: 50% of fees players pay for betting 
+services go directly to Oracle Masternodes 
+ 
+Smart incentives 
+Oracle Masternode rewards are strategically designed to promote behaviors that add value 
+to the Wagerr network. To recap the rewards: Oracle Masternode operators win in three 
+ways: 
+ 
+● Earn a percentage of block rewards (direct, static reward) 
+● Earn sports betting fees (direct usage-based reward) 
+● WGR value improved by network ecodynamics (indirect, usage-based rewards) 
+ 
+The system of rewards incentivizes Oracles’ crucial role as consensus agents, retrieving and 
+consensually validating sporting event outcomes, a crucial role in the sports betting 
+blockchain. Static block rewards incentivize node operators to hold WGR and operate 
+wallets with 24/7 connectivity. Failure to consistently retrieve and post data that aligns with 
+consensus results in deactivation. 
+ 
+Because the rewards for operating Oracle Masternodes is predictably far greater in the 
+long run than liquidating them, investors will be loath to give up the residual income they 
+generate. Masternode and staking rewards keeps coins in active use in the network, and 
+keeps their holders from adding sell pressure to the market. 
+ 
+Oracle Masternodes are also vehicles of blockchain governance. Since no one has more 
+invested in the wellbeing of the Wagerr network that drive the value of the WGR token, 
+Oracle operators exercise governance through the distributed network of Oracle 
+Masternodes. 
+ 
+ 
+ 
+ 
+ 
+12 
+
+ 
+
+6.6 Value to the field of digital currency 
+ 
+Standing on the shoulders of giants 
+Wagerr integrates core technology developed by brilliant teams. The Wagerr team stands 
+on the shoulders of giants. That’s partly possible because open source technology 
+facilitates asynchronous collaborations that can advance technological capacities. Even 
+before the idea of Wagerr, the core technology that Wagerr has been using to build its 
+sports betting network already existed. The existence of the core technology should 
+reassure potential investors of the feasibility of fully achieving the Wagerr network vision. 
+So, what does Wagerr bring to the table that’s relevant to the field of digital currencies? 
+While the components, like “smart contracts,” are familiar to those who stay current with 
+blockchain technology, it is what Wagerr does with the components that contributes to the 
+field. 
+ 
+Crafting a coin to cultivate an economy 
+The Wagerr team didn’t set out to make a “currency.” Instead, the Wagerr team has 
+engineered an economy​. The key to the model’s design has been the structuring of 
+incentives to reward and maintain behaviors that add value to the Wagerr network, and 
+devising subsystems that translate the Wagerr network value to the WGR token value.  
+ 
+ICO structure incentivizes maximal distribution 
+From the beginning, the ICO structure gamifies participation by rewarding early investors 
+with the prospect of progressive bonuses contingent upon the ICO’s incremental success. 
+Early investors thus are not only invested in the wellbeing of the coin, but also in the 
+optimal success of the ICO. As the ICO approaches sale of the maximum number of coins, 
+the Wagerr network becomes increasingly distributed, meaning that more and more 
+people are invested in Wagerr. The very structure of the ICO promotes a basic goal of 
+decentralization which makes the network more robust. Secondarily, this gamification of 
+the ICO makes it more fun, aligning with Wagerr’s commitment to the freedom to pursue 
+happiness. 
+ 
+Value coupling creates incentives for participants to contribute network value 
+Value coupling mechanisms incentivize all who hold Wagerr to contribute to the value of 
+the Wagerr network, with greater rewards incentivizing greater investments in Oracle 
+Masternodes which perform the security operations, consensus agent functions, and 
+contract management roles at the heart of the sports betting blockchain. 
+ 
+Price stabilization enables currencies to function as a store of value 
+Since the key value coupling mechanism involves destroying a percentage of all betting 
+fees, increased betting volume augments the network value by means of a self-regulating 
+coin supply. Because this mechanisms adjusts dynamically with the price of the WGR token, 
+the system favors balanced growth, mitigating price fluctuations in either direction. While 
+bitcoin, the first mover, remains king among digital currencies, its unmoored value 
+ 
+ 
+13 
+
+ 
+
+prevents long term commercial adoption as a store of value beyond its momentary use in 
+value transactions. In other words, a coin that ranges in value from $200-$3000 in a year is 
+too volatile to serve all of the functions of a currency. 
+ 
+Bitcoin still clearly plays a vital role in international economics as a pressure valve in times 
+of crisis. Bitcoin’s volatility also makes for exciting opportunities for speculative trading. 
+Wagerr, however, hopes to see other developers designing digital currency economies that 
+solve real world problems and fit into the lives of people whose current everyday 
+economies depend primarily upon centralized currencies. 
+ 
+ 
+7.0 Betting Engine & Technical Architecture  
+ 
+The innovation and technical leaps that Wagerr makes is contained in its simple but 
+powerful Smart Contracts and powerful 2nd layered consensus agents known as Oracle 
+Masternodes 
+ 
+The Wagerr network has two layers. The first layer is the standard Proof of Stake (POS) 
+blockchain that allows users to send coins from one standard address to another. The 
+second layer of the network is comprised of Oracle masternodes. This layer allows players 
+to place bets on events that the Oracle masternodes confirm and post as real world 
+matches. 
+ 
+There are three types of betting transactions on the Wagerr network. 
+● Head to Head 
+● Multi User 
+● Peerless Direct on Chain 
+ 
+ 
+7.1 Head to Head Betting Process 
+ 
+The blockchain mediates bets between two players taking opposite sides on upcoming 
+sporting events. The fee for an executed contract is 2% of the payout. 1% goes to the 
+processing Oracle and 1% gets burned. Here is the flow of a head to head bet from start to 
+finish. 
+
+ 
+ 
+14 
+
+ 
+
+ 
+Wagerr System Allows 
+ 
+1. Step 1​ Oracles actively searching for new events inside supported leagues, always 
+trying to build consensus for upcoming events. Consensus for a new event requires 
+a supermajority; Of the 2000 possible Oracle Masternodes, 1500 need to report the 
+same event defined by the Event’s UTC Time, and their unique identifying codes.  
+ 
+2. Step 2​ User are able to view the posted events and place bets against existing 
+posted bets or set a new line and matched amount (for a taker or bet partner to fill). 
+Once betting pairs are determined to be complementary, a smart contract can be 
+created and initiated on the Wagerr blockchain 
+ 
+3. Step 3 ​Now that a smart contract is initiated, the development and burn portion of 
+the fees within that bet contract are distributed and burned. (48% destroyed, 2% to 
+Wagerr development fund) The Oracle Masternodes create transactions dependent 
+on the two opposing bets predicted outcome. 
+ 
+
+ 
+ 
+15 
+
+ 
+
+4. Step 4​ After the event concludes, the Oracle network relies again on supermajority 
+consensus to determine the outcome of the event. This posting allows the contract 
+to be signaled for resolution. 
+ 
+5. Step 5​ Once the bet has been signalled for resolution the winning bets are 
+processed and paid out accordingly. All non-resolved events in the issue of a tie or 
+event never occurring the contract is resolved via the Oracle masternode network 
+and both sides receive their bet back minus the fee. Once the smart contract is 
+resolved the oracle who processes the bet receives their portion of the fee. 
+ 
+7.2 Multi User betting 
+ 
+To make it easier to find and fulfill more bets on low volume events, the system allows 
+multiple players to be paired against a single bettor. This ensures that large bets do not 
+require an exact match to forge a contract. The fee for this transaction is 4 percent. 2% of 
+the fee goes to the Oracle processing the transaction and 2% gets burned. ​Here is the Flow 
+of a multiple user bet from start to finish. 
+ 
+
+ 
+ 
+ 
+ 
+ 
+16 
+
+ 
+
+7.3 Peerless Direct Chain betting 
+ 
+In the final phase of major development of the token, Wagerr gives the player the option to 
+forgo looking for a match and bet directly against the chain, using the chain itself to take 
+their bet automatically. The fee for this transaction is 6 percent. 3% of the fee goes to the 
+Oracle that processes the request and 3% is automatically burned. ​Here is the Flow of a 
+multiple user bet from start to finish. 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+17 
+
+ 
+
+7.4 Creating and Resolving events 
+ 
+Once the event is completed, the Oracle Masternode network can begin to post the 
+outcome data. An event outcome is confirmed only after 75% of all Oracle Masternodes 
+achieve consensus on the outcome. Once the outcome is finalized and posted, the Wagerr 
+network recognizes completion of the contract, and the winning user is paid out 
+accordingly.  
+
+ 
+Creating events is dependent on The Oracle Masternodes posting data that can be 
+consensually verified.  Wagerr achieves this through creating a unique means of structuring 
+events and bets.  Below you can see exactly how the bets will be posted and how unique 
+events are distinguished as single events. 
+ 
+
+ 
+ 
+ 
+18 
+
+ 
+
+7.5 Time Related Conditions (Atomic Pairing) 
+ 
+Betting closes 10 blocks before the event is scheduled to begin.  
+ 
+Most contractual conditions surrounding bets are related to real-world time. Block times 
+are dynamic, not static, while events are coded in Coordinated Universal Time (UTC).  Block 
+time closing in on bets being accepted is no later than 10 blocks before the event happens. 
+(10 Blocks = 10:40:00) (target/approx) 
+ 
+When a user posts a bet on the cusp of approximately the 10 minute mark, one of two 
+events will occur on the blockchain, resulting either in contract formation (match and 
+confirm), or transaction failure (in which case, the transaction would not be accepted, and 
+the pre-bid coin locations remain unaltered). 
+ 
+In order for the transaction to confirm, two conditions must be met: first, there must be a 
+match between the amount of the initiating bet and the amounts of the complementary 
+bets taking the other side. Second, the official time that the block containing this 
+transaction is first confirmed on the chain (encoded in UTC time) must be prior to the 
+T-minus-10 minute mark for the sporting event. 
+ 
+In technical terms, “atomic pairing” is the synchronization of two conditions (the two sides 
+of the betting contract) occurring at the same time. 
+and the bet is taken, the bet is an atomic transaction (meaning that the transactions 
+happen at the same time or in the same block) This ensures that the bets that are taken 
+they get accepted and processed in time. It also ensures that users do not have to pay fees 
+on bets that are never matched. 
+ 
+The timeframe for a payout to take place will be a target time of 1 hour after the event 
+outcome is resolved. Oracle Masternodes post data for all supported leagues every hour as 
+long as Oracles are in agreement of the outcome the payout should take place no longer 
+than 90 minutes after the event ends. 
+ 
+In the event of a tie, push, or the event not taking place, the Oracle Masternode network 
+will resolve the and confirm and initiate the return of the wagered amount back to the 
+bettors original wallet addresses minus the betting fee. This process can take up to 24 
+hours to ensure the Oracle Masternode network has time to achieve consensus. 
+ 
+7.6 Activating an Oracle Masternode 
+ 
+Activating an Oracle Masternode is the process by which an individual chooses to promote 
+their node, engage in a 30 day contract of service and become a consensus agent. This 
+contract ensures that owners have to maintain a level of service and agree to lock the 
+collateralized coins in a simple smart contract that initiates a timed release. 
+ 
+ 
+19 
+
+ 
+
+ 
+Oracle Masternode requirements: 
+ 
+● 25000 WGR collateralized over a 30 day service contract 
+● Uptime 99%+ (measured weekly) 
+● Retrieve and input sporting event outcomes data 
+● Public IP with a forced network port number 
+● Bandwidth to accommodate the total volume of API calls 
+ 
+7.7 Promotion queue 
+ 
+In order to balance opportunities to operate Oracle Masternodes against the efficiencies of 
+the two-tier network and the need to have WGR tokens available for betting, the network 
+will cap the total number of Oracle Masternodes operating on the network. 
+ 
+Once the network has reached its maximum designated Oracle count, all wallets that apply 
+for promotion to Oracle Masternode status enter a queue awaiting an opening (either 
+voluntary withdrawal or involuntary demotion of an acting node). Promotion is on a first 
+come, first served basis, i.e., the nodes that have spent the longest time in the queue get 
+promoted first. 
+ 
+Oracles that are promoted must submit and synchronize match data every hour. This 
+allows for quick payouts of resolved events. When events cannot be resolved due to the 
+match not being played or other extenuating circumstances, the bets are refunded after 48 
+hours without a resolution. 
+ 
+7.8 Demotion 
+ 
+Non-Participating or underperforming Oracle Masternodes can be demoted from (or 
+promoted to) the network depending on a combination of several factors: 
+ 
+● Network connectivity uptime 
+● Less than 50% participation on submission in all leagues 
+● Results submission accuracy 
+● Non-renewal of 30 day collateral contract 
+ 
+7.9 Governance 
+ 
+Once the distributed network is established and stable, the original Wagerr development 
+team will fully relinquish control of the github and distribute the role of governance to the 
+network. The Wagerr network achieves decentralized governance through a voting system 
+in which each Oracle Masternode holds the franchise. This second tier of the network 
+ 
+ 
+20 
+
+ 
+
+extends the principles of proof of stake to the most heavily invested Oracle Masternodes 
+which perform the essential functions of the sports betting blockchain.  
+ 
+Funds have been allocated for continuous investment of ongoing development to 
+contribute growing value to the network and to fund adaptations to any unanticipated 
+phenomena not accounted for in the original design. The Oracle intranet collectively has 
+the power to vote on network rules, development targets, and the allocation of dedicated 
+development funds. 
+ 
+7.9.1 Payout dispute 
+ 
+In the event that a user or node believes they did not receive a proper payout, there are 
+measures users can take to signal and petition the Oracle Masternode network to request 
+a review of the resolution to their bet. Signaling for a review is as simple as submitting a 
+contract. Supermajority consensus (75%) of the Oracle Masternodes must be obtained to 
+overturn or invalidate betting contracts. 
+ 
+7.9.2 Penalized nodes 
+ 
+If a node continues to submit match data that falls out of consensus after they have been 
+demoted in the past, the Oracle network can vote to penalize the node of any of the fees 
+collected since its promotion. The network recovers these coins via the collateralized coins 
+via 90% supermajority vote in the terms of the smart contract. 
+ 
+7.9.3 Oracle Masternode voting  
+ 
+A decentralized voting mechanism within the Wagerr wallet allows network and protocol 
+changes to be proposed. From there, the Oracle Masternodes as a whole vote on the 
+proposal. Each change or modification passed with two thirds majority is deployed to the 
+main network automatically. 
+ 
+Example: An Oracle operator would vote on a protocol or core change simply by using the 
+command “masternode vote yay” or “masternode vote nay,” votes would then propagate 
+across the network, be tallied, and the instructions would be followed by the network itself.  
+ 
+Operators have the option to abstain by simply not voting. Abstaining Oracle Masternodes 
+are not counted in the voting tally. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+21 
+
+ 
+
+7.9.4 Potential network threats  
+ 
+The structure of the Wagerr network anticipates that some bad actors, given the 
+opportunity, might attempt to feed bad sporting events outcome data to the network. 
+ 
+Consequences for bad actors: See 7.9.2 Penalized nodes. 
+ 
+The Oracle Masternode network requires multiple checks on contracts  to safeguard 
+against false winners. 
+ 
+The rigid language of the smart contract structure leaves no vulnerable surface for attack. 
+ 
+Supermajority (75% ) vs. simple majority (51%) 
+Oracle Masternode operators have a deeply vested interest in the security and integrity of 
+the blockchain, event results, core protocols, and coin code.  
+ 
+Events require 75% network consensus, ensuring that the posted data is highly reliable. 
+Consider this 75% requirement in contrast with almost all digital currencies which require a 
+simple majority (over 50%) to be considered “consensus.” Wagerr governance and security 
+protocols are far more secure. 
+ 
+Major protocol changes require two thirds (66.67%) consensus among Oracle Masternodes. 
+The ability to acquire this much of the network would be either cost prohibitive, or 
+logistically impossible due to the anonymity of the system. 
+ 
+Furthermore, even if attackers attained 66.67% of the network, they would have the most 
+to lose by attempting to manipulate the network in their favor. If they were to change the 
+rules to produce unfair outcomes, their bad actions would drive the value of the Wagerr 
+network and WGR token to zero. The more any Wagerr network participant owns, the more 
+incentive they have to enhance network value — and the more disincentive they have to 
+harm the network. Again, the transparency of open source code means that any hostile 
+change would be flagged. The sustained buying pressure necessary to achieve 
+disproportionate network control would drive up the price of WGR, requiring a huge 
+investment, such than any attempt to abuse the system would result in catastrophic losses 
+for the bad actor. 
+ 
+Wagerr eliminates the possibility of low cost network attacks by charging higher fees for 
+activities that consume resources, but detract, rather than add, value to the network. For 
+instance: 
+ 
+● The network restricts high volume/small value bets by requiring minimum bet 
+amounts.  
+● The network also imposes increased fees for small value bets.  
+ 
+ 
+22 
+
+ 
+
+ 
+7.10 Sports data Feeds 
+ 
+Wagerr is dependent on the Oracle masternodes to successfully report real match data 
+correctly to allow for bets to be posted and resolved correctly. There are multiple ways the 
+Oracle Masternodes can gather sports fee information. No matter where the source of 
+information is coming from the requirement of the oracles is to format the data correctly to 
+ensure the post can fall in consensus with the other Oracle Masternodes on the network. 
+ 
+● Sport betting API’s (mostly paid services) 
+● Sport Site scrapes (espn,yahoo,etc) 
+● Manual entry 
+ 
+Sport betting API’s are the easiest and most consistent way to ensure that each Oracle 
+Masternode reports as accurately as possible and participates in reinforcing the network.  
+ 
+Sport site scrapes are the most complex way for Oracle Masternodes to collect data. They 
+require the most work but also are the cheapest method. This requires a script to pull data 
+off of news sites such as Yahoo, ESPN, and CBS Sports. 
+ 
+Manual entry allows the users to directly insert outcomes of unique events. If the operators 
+watch the game or just want to input the day’s data themselves they can do so manually 
+through the RPC and virtual interface. 
+ 
+To ensure not all oracles are pulling data from the same source, Wagerr requires the oracle 
+to report to the network its data source, and, if necessary, the network will force a limit on 
+each source. 
+ 
+7.11 Network Add-ons & Enhancements 
+ 
+The Wagerr network will contain an ever expanding list of improvements and add-ons far 
+into the future. The roadmap outlines 3 primary enhancements that are paramount to 
+Wagerr’s Success. 
+ 
+● Event Chat Addon 
+● Rematch Function/friend challenge 
+● Dynamic Odd Balancing 
+● Moneyline betting 
+● Season winner/champions bets 
+● Fantasy Sports Betting 
+
+ 
+ 
+23 
+
+ 
+
+ 
+ 
+7.12 Scalability 
+ 
+Wagerr is a single service blockchain. The smart contracts and the entire network are 
+designed to accommodate only a limited number of betting and transaction types. 
+Application Specific Smart Contracts (ASSC) are a rigid class of contracts that allow Wagerr 
+to know the exact structure of every contract that is proposed and initiated on the Wagerr 
+blockchain. This allows all parties to have access to contracts that are proven to be safe, 
+secure, and resolvable. 
+ 
+Wagerr also relies on the contracts to function as phased transactions. When the bets are 
+made and initiated, the transaction created for contract resolution is already waiting for the 
+result to be posted, then keying off of that result for the disposition. Once the Oracle 
+Masternodes come to consensus on an unique event and post the outcome, the contracts 
+can be completed and paid out in the same block.  This allows the network to scale and 
+process large amounts of bets at the same time without causing a delay in resolution.  
+ 
+IP and hardcoded port requirements ensure that every Oracle Masternode is being 
+operated on a dedicated hardware server or virtual private server (VPS). In other words, 
+Oracle Masternode operators are not able to run multiple nodes on a single server. These 
+requirements ensure the second tier network is both as decentralized as possible, and that 
+each Oracle Masternode server is adequately powered to handle the Wagerr network load 
+at any scale. 
+ 
+7.13 Fee Structure 
+ 
+Network fees are imperative for the Wagerr network to succeed long term. Where the fees 
+go and how they are distributed to the network depends on the types of transactions and 
+protections in place. 
+ 
+Bet & General Network fees 
+ 
+● Head to Head betting 2% winning side 
+● Multi-User betting 4% winning side 
+● Peerless Direct chain betting 6% winning side 
+● Network transaction fee 0.0001 
+● Bet Minimum of below 1 Wagerr bet fees triple 
+ 
+The fees on the 1st layer are standard 0.0001 WGR to transfer WGR from wallet to wallet to 
+prevent a DDoS attack of low cost. 
+ 
+ 
+ 
+24 
+
+ 
+
+7.14 Supported Leagues 
+ 
+When Wagerr fully launches the teams and leagues that are supported are critical. The 
+more leagues that are supported the larger the potential user base becomes. The larger 
+ 
+Sport Leagues supported at launch. 
+ 
+● Basketball 
+○ NBA, NCAA Men's, EuroLeague, 
+● Baseball 
+○ MLB, NCAA Baseball, World Series of Baseball 
+● Hockey 
+○ NHL, KHL, AHL 
+● AM Football 
+○ NFL, NCAAF 
+● Soccer 
+○ FIFA, UEFA, COFEDCUP, EPL, MLS, ELO, ELT, FACUP  
+● Rugby 
+○ NRL, RFL, EPSHIP, TRC, RWC 
+● Cricket  
+○ ICC, CWC, INTC 
+● Golf 
+○ PGA, ETOUR, RYDRCUP 
+● Tennis 
+○ ATP, DAVISC, ITF, GST 
+● MMA 
+○ UFC, BEL 
+● Boxing 
+○ International 
+● Olympics 
+○ Winter, Summer 
+ 
+Sport Leagues supported for Peerless Direct Chain betting 
+ 
+● Horse Racing 
+○ International 
+● Motor Sports 
+○ NASCAR, FORMULA-1, INDYCAR 
+ 
+Adding new leagues/teams and new supported match types can be done through voting 
+and governance functions that allow Oracle Masternodes to make proposals to add new 
+leagues, change names, and update bet options. 
+ 
+ 
+25 
+
+ 
+
+ 
+8.0 Competitive Analysis 
+
+ 
+
+The digital currency space is quickly becoming saturated with projects that create new 
+tokens and ecosystems. Wagerr stands out more than most of these projects due to the 
+fact that the network is dedicated to a large single use function: Sports betting. The market 
+for this single purpose is overwhelming and the demands that it puts on the network and 
+chain are significant. 
+ 
+Scalability and security are therefore paramount. The only way to achieve this kind of scale 
+is to be a single purpose blockchain — very good at one thing. For Wagerr to ensure that it 
+can process and payout thousands of bets on thousands of events a day, Wagerr has to be 
+efficient and powerful, and not overloaded with functions and features. 
+ 
+In this comparison chart you can see two projects that also use Ethereum technology — 
+Gnosis, and Augur. Both of these projects differ dramatically from Wagerr in that they rely 
+exclusively on complex peer to peer (P2P) prediction markets, whereas Wagerr offers 
+simple and efficient P2P contracts while taking it to the next level with peerless Direct Chain 
+betting.
+
+ 
+The fundamental differences are as follows: 
+ 
+● Designed as a single industry solution 
+● Linking usage to Price (value coupling) 
+● A self correcting deflationary economy 
+● 2nd tier network properly incentivized 
+● Rigid smart contracts ensure effective scaling 
+ 
+ 
+ 
+26 
+
+ 
+
+Wagerr accounts for the scaling issues by targeting only one industry and limiting what can 
+be implemented on the blockchain. Combining that with the rigid contracts of ASSC, 
+Wagerr can ensure that contracts are not open ended and protect users on all levels. 
+
+ 
+
+9.0 Developmental Roadmap 
+ 
+The Wagerr team has been hard at work since September of 2016. Large portions of the 
+betting engine are complete as well as the ASSC contract system. The Oracle Masternode 
+posting mechanisms for how they collect and post data is also near completion. 
+ 
+The development of Wagerr is critical to the project's future success. Even though Wagerr is 
+an open source project and anyone can assist or help build it in the future, the launch team 
+is committed to the long term vision of the project and will deliver on launch commitments. 
+ 
+● Late Q3 2017 ​-Testnet released. The Wagerr testnet deploys, allowing players to 
+preview Head to Head bet matching and general wallet functions. Oracle 
+Masternode owners can become familiar with their operation and test different 
+configurations for best results. 
+ 
+● Q4 2017​ - Head to Head Betting is deployed and the chain goes live. ​The blockchain 
+mediates bets between two players taking opposite sides on upcoming sporting 
+events. The fee for an executed contract is 2% of the payout. 1% goes to the 
+processing Oracle and 1% gets burned. 
+ 
+● Q4 2017​ - Event Chat Add-on. Every event will have its own chat room that will allow 
+those who are betting on the event to communicate with one another. Users can get 
+to know who they are betting against and talk about the event live while it happens. 
+ 
+● Q1 2018​ - Multi User Betting. ​To make it easier to find and fulfill more bets on low 
+volume events, the system allows multiple players to be paired against a single 
+bettor. This ensures that large bets do not require an exact match to forge a 
+contract. The fee for this transaction is 4 percent. 2% of the fee goes to the Oracle 
+processing the transaction and 2% gets burned. 
+ 
+● Late Q1 2018​ - Challenge/ Rematch Add-on. The Challenge and Rematch system 
+allows the player to message previous betting partners and issue challenges or ask 
+for rematches. This expands on the concept of an address book by allowing users to 
+see, track, and rematch past players and easily invite friends to use Wagerr to bet 
+against one another. 
+ 
+● Q2 2018​ - Peerless Direct Chain Betting. ​Wagerr gives the player the option to forgo 
+looking for a match and bet directly against the chain, which takes the other side of 
+ 
+ 
+27 
+
+ 
+
+the bet automatically. The fee for this transaction is 6 percent. 3% of the fee goes to 
+the Oracle that processes the request and 3% is automatically burned. 
+ 
+●
+
+ 
+ 
+
+Q2 2018​ - Dynamic Odds Balancing. For Direct on Chain betting, Wagerr incentivizes 
+betting on the other side when one side gets overweighted. This feature allows the 
+Wagerr chain to ensure that it exposes the network to the smallest amount of 
+payout liability. 
+
+10.0 ICO Details 
+
+ 
+
+The Wagerr ICO starts June 1st 2017 and runs until June 25th. The primary goals for the ICO 
+are to introduce Wagerr to the world in a way that promotes fair, effective, and global 
+distribution, cultivating rhizomatic decentralization. 
+
+ 
+
+10.1 ICO Bonus Structure 
+ 
+Wagerr’s ICO bonuses are structured very differently than the average offerings. Wagerr 
+designed the bonus structure to incentivize participants that buy in to continue promoting 
+the offering even after they buy. Wagerr achieves this through having the bonuses be 
+dependent on the later rounds success. 
+ 
+With up to 20 rounds of sales, a progressive bonus system rewards early adopters while 
+encouraging word of mouth marketing and the complete sale of each round. Participants in 
+each round win a 1% bonus at the completion of subsequent rounds. For example, Round 
+1 participants win a total 4% bonus at the completion of Round 5.. Participants in Rounds 
+6-10 also have a chance to win Golden Tickets. 150,000 coins are allocated for this special 
+random bonus. 
+ 
+Example 1 
+ 
+The ICO fully sells out, round one participants would receive a 9% bonus and round two 
+participants would receive a 8% bonus and so on. 
+Example 2 
+ 
+The ICO only sells out 5 rounds and ends, participants in round one would receive a 
+bonus of 4%, participants in round two would receive a 3% bonus and so on. 
+ 
+10.2 ICO Milestones 
+ 
+Funding milestones secure the development of major features on the Wagerr road map. 
+With the completion of Round 1, Wagerr pledges to issue tokens, and build a Head to Head 
+ 
+ 
+28 
+
+ 
+
+bet matching system. Completion of Round 3 funds Multi User Betting; completion of 
+Round 5 secures Direct On Chain Betting. 
+ 
+10.3 ICO Contingencies 
+ 
+If Round 1 is not fully funded by the end of the ICO, the ICO will extend or restart. If Round 
+10 successfully completes on or before June 14th 2017, the ICO will expand to maximize 
+distribution and capitalization for development. The ICO will extend by no more than 10 
+Rounds. The hard cap for maximum token issuance is 200 million tokens. 
+ 
+10.4 ICO Distribution  
+ 
+The amount of coins that are created for the Wagerr chain are all dependent on how many 
+coins sell during the ICO. Because we do not know the total that will be sold, the ICO 
+operates based off of percentages to ensure fairness for all. The ICO percentages are as 
+follows. 
+ 
+● 85% of Available coins are for sale open to the public 
+● 4% of Available coins are reserved for bonuses 
+● 8% of Available coins are escrowed for the Developers 
+● 3% of Available coins are allocated for marketing 
+ 
+ 
+11.0 ICO Fund Allocation & Future Development 
+ 
+● Development - Fund continued development of Wagerr, which is vital to the ability 
+to continue adding new leagues, maintain API advancement, integrate more 
+accurate results and deeper source pools, and implement new betting types. This is 
+the largest reserve of ICO funds, ensuring that talent can be attracted.  
+● Marketing - Continue advertising to encourage adoption and usage of Wagerr, 
+develop positive public relations, pursue partnerships with entities that advance 
+toward these goals, and promote the advantages of decentralized sports betting. 
+● Legal - Assist with navigating regulations where needed. The main focus will be on 
+advocacy and lobbying to promote open access worldwide.  
+● Consulting - Hire industry experts from a wide spectrum of sectors including: 
+Gaming, Business Strategy, Blockchain technology, and Marketing and 
+Communications to advise Wagerr development, messaging, and overall goals. 
+● Accounting - Ensure responsible management, allow for resources to improve 
+transparency and accountability, improve overall sustainability, and work with Legal 
+and Consulting to advance the project. 
+ 
+
+ 
+ 
+29 
+
+ 
+
+The funds that Wagerr raises during the crowdsale for the WGR token will be used 
+according to the chart shown below. Wagerr will be open and transparent about all fund 
+movements and sales to fund any portion of the plan. 
+ 
+
+ 
+This diagram shows the allocation of funds that are raised via selling WGR in the ICO. 
+ 
+11.1 Developer portion of ICO coins 
+ 
+8% of the coins minted for the ICO will be allocated to the Wagerr developers. 75% of these 
+coins will be escrowed for the first year and if moved all movements will be shared and 
+communicated fairly and openly. The remaining coins will be released and split among the 
+team members and advisors. 
+ 
+11.2 Development Fees  
+ 
+Wagerr was designed to be completely decentralized, and to ensure continuous 
+development in this tradition, developer fees were built into every single bet. The coins 
+earned off of these fees will go into a network address that the Oracle Masternodes control 
+via voting. By having the Oracle Masternode network control these fees ensures that the 
+Wagerr network will always be able to grow and expand far into the future. 
+ 
+11.3 Future Development 
+ 
+Wagerr is and always will be a fully decentralized open source project. The Oracle 
+Masternodes governance will allow the network to vote on proposed changes and 
+improvements. All the development funds collected by its portion of the betting fees (2% of 
+all the betting fees) are controlled by the Oracle Masternode network. This reality ensures 
+that Wagerr will always be able to reward ongoing development for generations to come. 
+ 
+ 
+30 
+
+ 
+
+ 
+ 
+12.0 Conclusion 
+ 
+Wagerr is more than just a coin. It’s a technology poised to disrupt the entire sports betting 
+industry — and a revolution in the design of digital currency economies. 
+ 
+Wagerr pairs cutting edge blockchain technology with a new take on an industry 
+desperately in need of decentralization. 
+ 
+Traditional sports betting requires participants to entrust valuable assets to untrustworthy 
+individuals and organizations constrained by unpredictable regulations, often in 
+jurisdictions that criminalize the core practice. The risks of sports betting are absurdly 
+compounded. The pure fun of sports betting lies in trying to predict an uncertain future. 
+But legacy betting models multiply what bettors put at risk, regardless of the outcome of 
+the sporting event — their assets, their freedom, their lives are all in jeopardy from crooked 
+bookies, law enforcement, and predatory loan sharks. Centralized systems are excessively 
+risky, excessively costly, unpredictable, and unfair to bettors, and often even unfair to 
+licensed participants in the regulated betting industry. When power is centralized in 
+governments, corporate or private books, the bettor is so dependent on the reliability of 
+unreliable elements that sports betting is actually a bit crazy. It doesn’t have to be that way. 
+ 
+Wagerr offers not only a decentralized sports betting blockchain, but also a sustainable 
+economy that produces, perhaps for the first time, a digital asset in a decentralized 
+economy with the full functions of a currency. Wagerr is: 
+ 
+● a ledger,  
+● a medium of exchange, and  
+● a decentralized store of value.  
+ 
+A match made in blockchain heaven. 
+Putting these two achievements together — disrupting the sports betting industry and 
+revolutionizing digital currency — what we get is a decentralized sports betting network 
+that dramatically improves the conditions of sports betting. And as long as a modest 
+fraction of the trillion dollar sports betting industry adopts the Wagerr network for betting, 
+the value of the central token, WGR, will systematically be sustained in a relatively stable 
+growth trajectory with dynamically moderated volatility. Sports betting and the blockchain 
+were meant to be. 
+ 
+ 
+
+Wagerr is the future of sports betting. The future of sports betting belongs on the blockchain. 
+
+ 
+ 
+ 
+ 
+31 
+
+ 
+
+Works Cited 
+ 
+
+https://www.dash.org/forum/threads/self-sustainable-decentralized-governance-by-blockchain.4708/ 
+
+ 
+https://www.nytimes.com/2014/11/14/opinion/nba-commissioner-adam-silver-legalize-spo
+rts-betting.html 
+ 
+http://www.espn.com/chalk/story/_/id/18487333/william-hill-says-sunday-was-worst-day-ev
+er 
+ 
+https://hackernoon.com/smart-contracts-turing-completeness-reality-3eb897996621 
+ 
+ 
+ 
+
+ 
+ 
+32 
+
+

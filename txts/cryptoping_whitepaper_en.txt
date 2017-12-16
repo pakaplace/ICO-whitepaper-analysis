@@ -1,0 +1,225 @@
+ 
+
+White Paper
+May 2017
+
+CryptoPing White Paper, May 2017
+
+2
+
+Contents
+Abstract
+
+3
+
+Problem
+
+4
+
+Solution
+
+5
+
+Project
+
+6
+
+Future
+
+7
+
+Token and subscription
+
+8
+
+Investing
+
+9
+
+Contacts
+
+10
+
+CryptoPing White Paper, May 2017
+
+3
+
+Abstract
+Cryptocurrency markets are so vibrant and eventful nowadays that it’s hard to keep track of what’s
+going on with every single coin. Crypto traders pour large amounts of eﬀort and time into
+interpreting charts in diﬀerent ways, reading forums and Twitter feeds and gathering information
+about coins from other sources in attempts to predict market trends and make profitable trades.
+Crypto markets are volatile, making the task even harder. Shilling and other forms of disinformation
+(like spreading FUD — fear, uncertainty, disorder), or even just false promises from coin developers
+quite often stop traders on their quest for profit.
+
+CryptoPing White Paper, May 2017
+
+4
+
+Problem
+In 2017, a sharp surge of new crypto traders is boosting trading volumes and rates of almost every
+alternative cryptocurrency (altcoins) and Bitcoin itself. That also makes prices of some altcoins more
+volatile than before, while constantly growing Bitcoin rate keeps increasing traders’ stress levels.
+Bitcoin is losing its share in total crypto market capitalisation despite of its increasing value. Market
+capitalisations of some altcoins has already exceeded hundreds of millions of dollars, and that’s only
+the beginning.
+It’s impossible to factor in all the trends, events and subtleties that shape markets. Making a good
+trade can be diﬃcult even for experienced traders, let alone newcomers. New traders don’t recognise
+market trends and can’t make good trading decisions. For people who just have started to trade
+cryptocurrencies, the “what to buy” problem is important now more than ever.
+
+CryptoPing White Paper, May 2017
+
+5
+
+Solution
+CryptoPing oﬀers a solution — an assistant bot that can hint that market situation changes and it
+might be a good time to buy a certain altcoin. Bot’s market watching and analysis algorithms are
+already tested and verified in practice. Users can easily sign up and activate the bot and start to get
+signals from exchanges right away. Being experienced or new trader, no user gets any advantage over
+other bot users, because all users receive all signals at the time. It’s up to traders to weigh the market
+in signals’ context and make all trading decisions by themselves.
+To cover most of the devices and platforms and deliver signals on time we’ve decided to use
+messengers. Everyone uses them anyway, so the solution to signal delivery platform is already there:
+the bot looks to users just like another chat contact. The bot has all necessary commands to manage
+notifications, and the interface is friendly enough even for people who have no prior experience with
+bots or trading.
+Bot signals look simple yet have just right amount of information, despite of complex inner works of
+the service itself. Users receive signal messages that include:
+— coin ticker;
+— link to an exchange that produced the signal;
+— trading volume diﬀerence for the last hour;
+— change to the coin rate to BTC;
+— amount of signals on the coin for the last 7 days;
+— coin market capitalisation value in USD.
+This information proved to be suﬃcient to decide at a glance whether to look into a signalled coin.
+All further analysis has to be performed by traders and the result will depend on their experience,
+interests and goals.
+Additionally we’re building a platform for social trading, that will be useful to both new and
+experienced traders. Pro traders will be able to publish their trading results by signals daily, and new
+traders will be able to follow pros and copy their trades for a small subscription fee.
+
+CryptoPing White Paper, May 2017
+
+Project
+Project core has several parts that are responsible for:
+— market data being assembled individually by coin;
+— situation and trend analysis by coin;
+— looking for similar coin behaviour in the past;
+— making decisions on signal initiation;
+— generating signals and tracking their results;
+— sending signals to users;
+— analysing signal quality and providing feedback for decision-making system.
+The Telegram bot is a separate part of the project, integrated with the core. Slack bot is currently in
+development. Being able to switch between signal delivery platforms is equally important for users
+and us, the team, because recent messenger bans by governments in diﬀerent countries raise all
+kinds of concerns.
+We have plans to release a standalone application that will receive bot signals much like messenger
+apps. The application will be integrated with the system core more closely, allowing us to develop
+automatic trading functionality that will be a lot less vulnerable to hacking than existing serverbased trading apps.
+
+6
+
+CryptoPing White Paper, May 2017
+
+7
+
+Future
+Early bot adopters have already discovered the quality and utility of bot signals. There are about one
+thousand of altcoins out there, nobody can track everything, and the bot works just right: there are
+numerous cases when it sent signals right before a coin pump or even long before that.
+At the moment CryptoPing is just a bot that helps with tracking price movements and coin pumps
+on several exchanges. We want it to evolve into a platform where every beginner in crypto markets
+can get necessary information and community support, and start trading quickly.
+When we say “support” we mean online tutorials, following experienced traders that secure from
+most of risky trades, and market situation coverage that is actually on point.
+We also have plans to develop an auto-trading app that will be released only after system algorithms
+are meticulously re-tested and optimised. We want auto-trading to work in fire-and-forget mode,
+and are looking forward to delivering steady profits to our users.
+We are concerned that users without deep enough technical knowledge provide third-party trading
+services with API keys from their accounts on exchanges. When third-party services get hacked, the
+perpetrators gain access to users’ API keys and start trading to their benefit using accounts of others,
+while regular users just lose assets. We will not store any keys on CryptoPing servers, thus accessing
+them by hacking our systems will be impossible. All API keys will be stored on users’ devices only
+and won’t be transmitted to CryptoPing services at all.
+
+8
+
+CryptoPing White Paper, May 2017
+
+Token and subscription
+Name
+
+CryptoPing
+
+Ticker
+
+PING
+
+Initial supply
+
+10,000,000
+
+Platform
+
+Waves
+
+We have chosen Waves platform for a reason. A lot of CryptoPing users are either new to crypto
+markets or to trading in general, and we want our token to work on a simple platform that is easy to
+understand and use, while Waves are very welcoming towards new people in crypto community. We
+believe that it’s more important to grow the community than to race technologies and win
+blockchain coolness competitions.
+After ICO ends we will burn all the unclaimed tokens (they will be sent to an address without private
+key, rendering them unusable). We will work towards adding the token to several exchanges and
+introduce subscription-based access to CryptoPing after the token is added to any of the exchanges.
+Subscriptions will be paid in PING tokens. We will burn 75% of subscription fees during 6 months
+after subscription is introduced, and 25% of fees for a year after that.
+
+CryptoPing White Paper, May 2017
+
+9
+
+Investing
+ICO starts on May 25, 2017 at 00:00 UTC. The sale will continue for one month until June 25, 2017
+00:00 UTC. Maximum total amount of investments is 1000 BTC. 9,000,000 PING tokens are
+reserved for ICO, the 1,000,000 left is for 10% referral program payouts. Tokens can be purchased
+for BTC, LTC, WAVES, DASH, ETH, ETC. All unclaimed tokens will be burned, and full report on
+investments and resulting supply of tokens will be released.
+For investments more than 100 BTC we oﬀer a 15% discount, that will result in getting 15% more
+tokens for the same investment amount.
+We will be assessing and verifying ICO results for a week after it ends. After that, all investors will be
+able to withdraw their tokens to Waves wallets.
+Adding PING to exchanges will follow after we introduce subscriptions to CryptoPing with tokens.
+The buybacks and token burning will begin at the same time.
+
+CryptoPing White Paper, May 2017
+
+Contacts
+Website
+
+http://cryptoping.tech
+
+ICO site
+
+http://cryptoping.tech/ico
+
+Roadmap
+
+http://cryptoping.tech/roadmap
+
+Twitter
+
+@cryptoping
+
+E-mail
+
+admin@cryptoping.tech
+
+Bitcoin Talk
+
+https://bitcointalk.org/index.php?topic=1920653
+
+10
+
+

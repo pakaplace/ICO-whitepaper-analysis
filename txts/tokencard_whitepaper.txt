@@ -1,0 +1,4067 @@
+TokenCard/Token Platform Whitepaper v1.0.5
+David Hoggard, Mel Gelderman and Peter Vessenes
+April 4, 2017
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+1
+
+Contents
+1 TokenCard Executive Summary
+1.1 The Debit Card . . . . . . . . .
+1.2 The TKN Token . . . . . . . .
+1.3 Cash and Burn . . . . . . . . .
+1.4 TKN Creation Event . . . . . .
+1.5 Use of Funds . . . . . . . . . .
+1.6 Prudence: Reserve Tokens . . .
+1.7 The Future . . . . . . . . . . .
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+2 Motivation
+3 User Scenarios
+3.1 Remittance to Mom . . .
+3.2 E-sports gamer and trader
+3.3 Indonesian worker . . . .
+3.4 San Francisco Transplant
+
+4
+4
+4
+4
+4
+5
+5
+5
+5
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+6
+6
+6
+7
+7
+
+4 Token Platform Detailed Overview
+4.1 Smart Contract Wallet . . . . . . . . .
+4.2 Token App . . . . . . . . . . . . . . .
+4.2.1 Spending Options . . . . . . .
+4.2.2 Spending limits . . . . . . . . .
+4.2.3 Security functionality . . . . .
+4.2.4 Card loading functionality . . .
+4.2.5 Other Items on The Roadmap
+4.2.6 Charts and Dashboards . . . .
+4.2.7 Top tier UI/UX . . . . . . . . .
+4.3 Fees . . . . . . . . . . . . . . . . . . .
+4.4 Credit Card/Debit Card Purchase . .
+4.5 Agent Network Deposits . . . . . . . .
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+7
+7
+8
+8
+8
+8
+8
+9
+9
+9
+9
+10
+10
+
+5 TokenCard at a glance
+5.1 Control . . . . . . . . . . .
+5.2 Community . . . . . . . . .
+5.3 General Public . . . . . . .
+5.4 Synergy . . . . . . . . . . .
+5.5 Standard Wallet . . . . . .
+5.6 Gateway . . . . . . . . . . .
+5.7 Token Agnostic . . . . . . .
+5.8 Innovative spending options
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+10
+10
+10
+10
+10
+11
+11
+11
+11
+
+6 Market
+6.1 Ethereum Community . . . . . .
+6.2 Platform Specific Markets . . . .
+6.3 Ditching Banks Altogether . . . .
+6.4 Chinese Market . . . . . . . . . .
+6.5 Marketing/Product Strategy . .
+6.5.1 Ethereum / Token Market
+6.5.2 Broader Market . . . . . .
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+11
+11
+12
+12
+12
+12
+12
+13
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+7 TKN In Depth
+
+13
+2
+
+CONTENTS
+
+7.1
+7.2
+
+CONTENTS
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+13
+14
+14
+14
+15
+15
+15
+15
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+15
+16
+16
+16
+16
+17
+17
+18
+18
+18
+23
+24
+24
+24
+24
+24
+24
+25
+
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+15%
+. . .
+. . .
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+25
+25
+25
+26
+26
+26
+26
+27
+27
+27
+27
+27
+28
+28
+28
+28
+28
+28
+29
+
+10 Contact
+10.1 TokenCard . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10.2 New Alchemy – Token Ecosystem Services . . . . . . . . . . . . . . . . . . . . . . . . .
+
+29
+29
+29
+
+7.3
+7.4
+7.5
+7.6
+
+DGX Purchase Example . . . . . . .
+Cash and Burn . . . . . . . . . . . .
+7.2.1 Definitions . . . . . . . . . .
+Cash and Burn Example 1 . . . . . .
+Cash and Burn Example 2 . . . . . .
+Economic Consequences of The TKN
+TKN Fee Reduction . . . . . . . . .
+7.6.1 Portfolio Spending Example .
+
+. . . .
+. . . .
+. . . .
+. . . .
+. . . .
+Model
+. . . .
+. . . .
+
+8 Technology Roadmap
+8.1 Contract Wallet . . . . . . . . . . . . .
+8.2 Contract Wallet Access . . . . . . . .
+8.3 Allowance . . . . . . . . . . . . . . . .
+8.4 Additional Security Features . . . . . .
+8.5 Card Spending Modes . . . . . . . . .
+8.6 Multi-User management . . . . . . . .
+8.7 Token App (iOS/Android) . . . . . . .
+8.8 Set-up Wizard . . . . . . . . . . . . .
+8.9 Wireframes, Usability Studies . . . . .
+8.10 TokenCard Transaction Walkthrough .
+8.11 Server Specifications . . . . . . . . . .
+8.11.1 Scale . . . . . . . . . . . . . . .
+8.11.2 Performance . . . . . . . . . .
+8.11.3 Backups and Failover . . . . .
+8.12 Release schedule: . . . . . . . . . . . .
+8.12.1 Minimum Viable Product – 120
+8.12.2 v1 Release - 240 days . . . . .
+
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+days
+. . .
+
+9 Finances
+9.1 Rough TKN Projections . . . . . . . . . . . . . .
+9.1.1 Good . . . . . . . . . . . . . . . . . . . .
+9.1.2 Better . . . . . . . . . . . . . . . . . . . .
+9.1.3 Great . . . . . . . . . . . . . . . . . . . .
+9.2 Token Creation Details . . . . . . . . . . . . . . .
+9.2.1 TKN Creation Ratios . . . . . . . . . . .
+9.2.2 Token Bonus . . . . . . . . . . . . . . . .
+9.3 Additional TKN . . . . . . . . . . . . . . . . . .
+9.3.1 Monolith Studio, and Advisors . . . . . .
+9.3.2 Capital Reserve . . . . . . . . . . . . . . .
+9.3.3 Example . . . . . . . . . . . . . . . . . . .
+9.4 Funding Breakdown . . . . . . . . . . . . . . . .
+9.5 Core Development – 30% . . . . . . . . . . . . .
+9.6 Operational – 25% . . . . . . . . . . . . . . . . .
+9.7 Marketing – 40% . . . . . . . . . . . . . . . . . .
+9.7.1 Partnerships and Ecosystem Integration –
+9.8 Direct Sales and Marketing – 25%+ . . . . . . .
+9.9 Legal and Compliance – 5% . . . . . . . . . . . .
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+3
+
+1
+
+1
+1.1
+
+TOKENCARD EXECUTIVE SUMMARY
+
+TokenCard Executive Summary
+The Debit Card
+
+TokenCard is a debit card usable at payment terminals around the world, including ATMs. TokenCard
+customers back/fund their own card with allowances from ERC20 compatible contract wallets. At
+launch, TokenCard will allow users to fund their card with ETH, TKN and up to five of the following
+tokens that will be elected for inclusion by the community: REP, MKR, DGD, ICN, MLN, GNT, 1ST
+and SNGLS.
+
+1.2
+
+The TKN Token
+
+TokenCard is creating the TKN tokens for a limited time. A fixed number will be created during the
+presale, and no more will be created thereafter. The TKN Token provides a TKN holder with the
+right to use the TokenCard for transaction using TKN without having to pay additional licensing
+fees (transaction fees charged by third party card issuers and payment system providers remain
+applicable). Payments made with TokenCard using tokens other than TKN is, however- in addition to
+the transaction fee charged by the card issuing partner – subject to the payment of a license fee as
+remuneration for the use of the software protocol developed as part of the TokenCard project. The
+TKN Asset Contract, accrues this 1% licensing fee on debit card transactions using tokens other than
+TKN. TKN holders can burn their TKN in return for a pro-rata share of accumulated licensing fees
+through a unique mechanism licensed from New Alchemy called “Cash and Burn”. Fees from card
+swipes will be assessed in the token being used to fund the swipe. These fees will be sent directly to
+the TKN Asset Contract. Over time, this contract will - in a fully automated way and without any
+management required- accrue tokens in proportion to the tokens used by TokenCard customers around
+the world. For a full description of the TKN token, see section 7.
+
+1.3
+
+Cash and Burn
+
+At any time, a holder of TKN can “Cash and Burn” the TKN. Thereby, a holder of TKN burns and in
+return receives a pro-rata share of licensing fees held by the TKN Asset Contract. The holder will
+irrevocably destroy the TKN, and in exchange, the TKN Asset Contract will transfer the respective
+tokens to the holder.
+
+1.4
+
+TKN Creation Event
+
+TokenCard aims to create $4.5mm of TKN for sale in exchange for ETH and other tokens from our
+initial token partners. We believe so strongly in the future of the token economy that not only are we
+the first company to offer to create our tokens in exchange for other tokens, we will give contributions
+in certain tokens a discount.
+For full details on the TKN Creation Event, see section 9.2. In brief, the tokens will be sold at a
+discount to early buyers at a rate sliding from 150 TKN : 1 ETH down to 100 TKN: 1 ETH at the
+$4.5mm mark. If the cap is reached, we will continue to sell and create TKN for 24 hours – this will
+protect those who wish to participate in the event if all tokens sell out quickly.
+Those who purchase with other tokens from our approved list will receive a 2.5% - 5% TKN bonus,
+depending on the token.
+If funds are raised to the cap and ETH is priced at $50, about 21 million tokens will be created.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+4
+
+1.5
+
+1.5
+
+Use of Funds
+
+2
+
+MOTIVATION
+
+Use of Funds
+
+The proceeds from the funds will finance development, partnership programs, float (both fiat and
+token), operations, regulatory and most importantly, marketing and customer acquisition.
+Most of these costs are somewhat fixed. For more details read our Use of Funds section 9.7.
+Because of this, any money we receive from pre-sales over our minimum will largely go to marketing
+and customer acquisition. This creates a value multiplier for the project: as we have more money we
+will be able to spend a higher percentage on customer acquisition and boost spending commensurately.
+We believe issuing TokenCard in China will be critical to building the transactional volume for the
+card. Entering the Chinese market from the outside can be difficult and expensive; the more successful
+our TKN creation event, the more quickly we will be able to capture this market.
+
+1.6
+
+Prudence: Reserve Tokens
+
+We have some concerns about other project’s capitalization in these early days of the token economy.
+In particular, most projects dilute out their token holdings by 80%; this dilution isn’t equity dilution,
+but worse – often giving away 80% of gross revenues. This may be imprudent.
+Lessons from modern markets show that both debt and equity are useful tools for raising capital.
+Therefore we are minting an amomunt of 15% of all TKN but not offering them for sale during this
+presale.
+These TKN will not be issued or sold during the initial pre-sale and are locked in a smart contract. If
+at some point it seems advisable for the TokenCard project to sell more tokens, some or all of these
+may be offered in an auction format or some other format that suits the capital needs of the project.
+In the interim, these TKN will not be used in any way. They will not be considered as issued for Cash
+and Burn calculations. They will not grant anyone other usage benefits in the TokenCard system.
+It is possible these TKN will never be issued, however, we feel it is prudent to have some backup if
+needed. In any event, TokenCard will engage directly with TKN holders to seek guidance and market
+reaction before any of the Reserve tokens are offered.
+
+1.7
+
+The Future
+
+We have big plans. Our mobile app will allow customers a number of features that they cannot easily
+access with other digital currency and token wallet apps. Read more in Section 4.1.
+We aim over time to bring about a world which makes access to tokens far easier than it is today, far
+more intuitive, with far less friction.
+
+2
+
+Motivation
+
+7 years after the creation of Bitcoin, one of the greatest experiments to date, we have witnessed the
+emergence of a new industry. Ethereum has added a Turing-complete layer into the mix, and broadened
+the horizon of what is possible by an order of magnitude. This in turn has facilitated the creation of a
+new synergistic ecosystem, one that promises to overturn the status-quo.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+5
+
+3
+
+USER SCENARIOS
+
+Over the years numerous attempts have been made to bring cryptocurrency to the masses yet adoption
+is still slow and cumbersome. These companies and projects have failed to identify and address the
+main issues present in making mass adoption of digital assets possible. The core issues remain:
+1. Security, storing assets is cumbersome and inevitably people choose to store their assets
+under a third party’s control, like an exchange. This defeats one of the greatest properties of
+cryptocurrency, and exposes them to risks that have consistently proven to be catastrophic. A
+system is needed that can securely store assets without compromise on usability.
+2. Usability, numerous steps are often involved in seeing real use of one’s digital assets. A user
+needs wallets, exchanges and accounts on various services. They are required to withdraw,
+deposit, do KYC and even become amateur traders. A system is needed that eliminates
+these steps, and offers a seamless plug-and-play experience for the uninitiated that
+can be integrated across platforms.
+3. Volatility, forcing people to use a volatile asset like Bitcoin is a no-go. The people have spoken,
+and it deters more than it attracts leaving only a risk-taking fringe. A stable, more diverse
+asset class is needed.
+Through the game-changing power of Ethereum we now have the tools at hand to create a distributed
+banking replacement for the post-bank era that promises to solve these problems and in the process
+outperform traditional banking counterparts in flexibility, efficiency and transparency.
+The Token and TokenCard platform proposed in this document strategically targets and solves these
+issues and will position itself at the heart of the effort to facilitate the mainstream adoption of the
+compelling Ethereum Ecosystem and dominate this next phase in financial history.
+
+3
+3.1
+
+User Scenarios
+Remittance to Mom
+
+Mac lives in Florida, and his mother lives in the Philippines. Every month, Mac sends home money
+for her. He used to use Western Union (expensive), tried Paypal (froze funds for no reason) and then
+wired directly from his bank (slow and expensive).
+Mac doesn’t have any interest in speculation, but he does want to be able to help his mom out and
+make sure she stays safe and doesn’t have trouble because she has too much cash at one time. He also
+wants to be able to get her money instantly when she needs it.
+Every month he purchases enough money in a few different stable tokens, including DollarCoins and
+Dai - kept in his own token Wallet. He went ahead and signed his mom up for a TokenCard. She uses
+it at ATMs and merchants across the Philippines. If she’s running low, Mac transfers her more funds.
+Because the transfers happen directly on the Ethereum Blockchain, he can get his mom money in less
+than 15 seconds. And Mac feels happy because the fees are extraordinarily reasonable.
+This problem goes away completely, and Mac doesn’t worry about his mom anymore.
+
+3.2
+
+E-sports gamer and trader
+
+Sonja is a European E-sports Gamer and market prediction savant. She earns her entire living beating
+plebes at Counterstrike using FirstBlood’s e-sports betting network, and beating plebes pretending to
+be experts on the Augur and Gnosis prediction markets.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+6
+
+3.3
+
+Indonesian worker
+
+4
+
+TOKEN PLATFORM DETAILED OVERVIEW
+
+Sonja is tired of moving money around between REP, 1ST and her bank account. Her bankers are
+confused by where she gets her money. She decides to close her bank account altogether and get a
+TokenCard.
+She is starting to learn more about the decentralized economy and is glad she has a TokenCard; any
+earnings are directly available to be used in the real world. No action required. She recently uploaded
+a popular video to SingularDTV and can see her SNGLS balance grow steadily in the Token App. She
+won’t look back.
+
+3.3
+
+Indonesian worker
+
+Amir lives in Indonesia. He works hard and saves money for his family. In the past his savings have
+lost a lot of their value as a concequence of national currency fluctuations. This doesn’t sit right with
+him, so he has been looking for solutions. Disapointingly local banks only support Indonesian Rupiah
+and other services are hard to apply for.
+Amir was able to apply and do KYC directly from within the Token App in minutes. Astounded by
+the possibilities, Amir has now decided to hold his savings in a comfortable mix of Gold, Dollar and
+Euro tokens.
+He has never heard about blockchain, bitcoin or ethereum. But the Token app gives him a curated
+and comfortable enviroment for him to use this technology in. Amir is convinced he has made the
+right choice.
+
+3.4
+
+San Francisco Transplant
+
+James is a 23 year old Englishman living in San Francisco, and he has no bank account. He doesn’t
+trust banks. Instead he uses TokenCard for most purchases. Every time he wants to buy something,
+he pulls out his TokenCard, swipes his card, and the merchant is paid.
+James is also really worried about the US currency and its ability to hold value, so he doesn’t like to
+have dollars in his investment portfolio. Instead he has a combination of digital currencies – ETH and
+DAI, and also precious metals like Digix Gold stored in his own contract wallet.
+When James swipes his TokenCard, the TokenCard System sells a little bit of each of his Tokens,
+keeping James’ asset allocation at his desired rates, and uses the proceeds to fund his purchase.
+With TokenCard and the Ethereum Blockchain, James stays in control of his investments at all times –
+the funds only leave his wallet when he swipes, and then only if the transaction meets pre-specified
+requirements.
+
+4
+4.1
+
+Token Platform Detailed Overview
+Smart Contract Wallet
+
+Upon a user joining the platform they launch their own Token Contract Wallet, or grant allowances to
+their existing wallets.
+This Contract Wallet acts as the equivalent of a bank account that holds funds and enforces security
+parameters, but, crucially, it is controlled only by the user. Users run through a setup wizard and are
+prompted to customize settings to fit their preference, including:
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+7
+
+4.2
+
+Token App
+
+4
+
+TOKEN PLATFORM DETAILED OVERVIEW
+
+• Setting daily limits to safeguard assets
+• Setting up a base currency for example ETH (any fiat deposited into this will automatically
+convert upon load).
+Typically digital currency security is a tradeoff between usability and functionality. Users must trade
+security of their funds for convenience when they decide whether to hold tokens themselves or leave
+them at an exchange. We think we can do better.
+By shifting control of user assets back into their own hands and giving them easy to manage fine-grained
+control of their digital assets safeguarded by the security of smart contracts, users can have better
+security and substantially improved usability.
+
+4.2
+
+Token App
+
+The Token App is the main way a user interacts with his Token Contract Wallet and TokenCard. The
+Token app operates the Token Contract Wallet and gives customers a simple way to access their token
+portfolio and manage their debit card and security profiles.
+Our roadmap for the App includes the following (MVP/Alpha features in bold)
+4.2.1
+
+Spending Options
+
+• Single (Single Asset spend)
+• Multi Asset (Splits Transaction between multiple assets)
+• Portfolio Spending (Maintains a desired portfolio allocation)
+4.2.2
+
+Spending limits
+
+• Token denominated
+• Fiat denominated (calculated using an oracle)
+• Percentage based
+• Time based (Approve Transactions for a specified period of time)
+4.2.3
+
+Security functionality
+
+• Ability to temporarily freeze TokenCard
+• Limit Token Contract Wallet withdrawals
+• “Stop-the-world” drain to a secure address
+4.2.4
+
+Card loading functionality
+
+• Credit/Debit Card fiat to token exchange
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+8
+
+4.3
+
+Fees
+
+4.2.5
+
+4
+
+TOKEN PLATFORM DETAILED OVERVIEW
+
+Other Items on The Roadmap
+
+• Simple integrated token-to-token asset exchange functionality
+• Automated token portfolio rebalancing
+4.2.6
+
+Charts and Dashboards
+
+• Loading – history of how much, source
+• Spending – how much (fiat & token) and where (Starbucks) – map (API) integration
+possible
+• Blockchain transaction info (who to & how much)
+• Platform earnings
+• Asset income (Dividends accumulated from tokens)
+• Estimated cost basis for acquired tokens
+4.2.7
+
+Top tier UI/UX
+
+• Accessible for non-Ethereum users (simple & intuitive)
+– In-app KYC
+• Financial Management tools
+– Basic Graphs and Charts
+– Budgeting tools
+– Payment categorization
+• Push notifications whenever a transaction is made
+
+4.3
+
+Fees
+
+As we will be working with a payments network Partner, we also are subject to their fee schedule. Fees
+are set by the partner and are revenue-shared with TokenCard. This is expected to be the main source
+of operating revenue for the company. A full fee schedule is available in the end user agreement on
+delivery of the card.
+We also charge a 1% licensing fee that accrues to TKN holders. This fee is billed in the underlying
+token being sold and is smart contract enforced, 100% of these fees will be sent to the TKN Asset
+Contract. TKN holders have the possibility to burn TKN and in return collect a pro-rata share of the
+TKN Asset Contract, i.e. to ‘cash and burn’ rather than merely hold TKN.
+TKN tokens themselves are not subject to the licensing fee. TKN is described in greater detail in the
+‘TKN’ section - 7.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+9
+
+4.4
+
+4.4
+
+Credit Card/Debit Card Purchase
+
+5
+
+TOKENCARD AT A GLANCE
+
+Credit Card/Debit Card Purchase
+
+Sending tokens directly to the Token Contract Wallet works for people who are already familiar with
+Ethereum. However, as our objective is to allow non-Ethereum users to access the platform, we need
+other solutions. The first is a simple debit card or credit card purchase of tokens through our app. For
+certain assets with enough liquidity, we can provide a simple fiat to crypto exchange service. This is a
+relatively simple financial service to offer, however it may require regulatory approval and adequate
+fraud mitigation, and as such will be a feature not available in the MVP release, but most likely in a
+later release instead.
+
+4.5
+
+Agent Network Deposits
+
+The vision for Token is to enable users to cancel their bank account, and to provide a solution to
+users without one. Loading your Token wallet using a credit/debit card is only sufficient for those who
+already are served by some level of banking.
+To reach a larger audience, we may integrate with agent networks such as Western Union and PayPoint,
+which allow for cash or check deposits with their agents. These agent deposits would remit to
+TokenCard, which would convert to tokens and allows us to credit the user’s Token Wallet, without
+the need for a credit/debit card.
+
+5
+5.1
+
+TokenCard at a glance
+Control
+
+TokenCard users are able to store and transfer tokenized assets securely, without introducing a third
+party. By retaining control, users never subject themselves to centralized risks, whilst benefiting from
+the efficiency and cost reduction that comes with eliminating a third party.
+
+5.2
+
+Community
+
+The project will focus on initially providing a solution for the Ethereum community, with a smart
+contract powered debit card that can spend Ether and other ERC20 compliant tokens and allows for
+various spending modes that support the lifestyles of those who wish to transact primarily in tokens.
+
+5.3
+
+General Public
+
+Moving forward, the project will shift focus to the general public. By using our debit card as an
+introduction to this transformative technology, we aim to provide a familiar user interface (a plastic
+card and app) where users retain all the benefits of Ethereum without having to master them.
+
+5.4
+
+Synergy
+
+TokenCard directly benefits from the powerful products currently being developed on Ethereum like
+asset-backed tokens, stable coins and other tokenized assets and strongly supplements their value
+proposition. By providing a way for these projects to become useful to people outside of the community
+through TokenCard, they can expand their market dramatically.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+10
+
+5.5
+
+Standard Wallet
+
+6
+
+MARKET
+
+TokenCard makes every token better
+
+5.5
+
+Standard Wallet
+
+TokenCard is capable of working directly with the standard ERC20 contract wallets (Ethereum
+Foundation/Consensys/Parity). These token wallets are relatively secure, but not as widely used as
+hoped. We believe the improved usability and focus on real-world transactional security needs will
+make the Token Contract Wallet a desirable first-class wallet solution for most token holders.
+
+5.6
+
+Gateway
+
+TokenCard allows for mass adoption of consumer-facing Ethereum platforms like Singular and FirstBlood that greatly benefit from the streamlining of the user experience. With TokenCard integration
+users can seamlessly start reaping the benefits of Ethereum dapps without needing to perform complicated actions.
+
+5.7
+
+Token Agnostic
+
+The platform is token agnostic – users are given freedom to chose how to hold value and transact.
+With TokenCard, regular users will have an expanding pool of assets at their fingertips within the
+Token App.
+
+5.8
+
+Innovative spending options
+
+Users will be able to pay in multiple assets at the same time while keeping their portfolio balanced.
+This is a world first; customers will be able to keep all of their assets fully invested at all times, and
+not worry about manual reallocation when they wish to spend.
+
+6
+
+Market
+
+Our current roadmap focuses on several distinct markets and user-bases where TokenCard is best
+positioned to excel. In general, we have the underlying Ethereum community, platform specific markets
+and general public banking replacement.
+
+6.1
+
+Ethereum Community
+
+Providing a payment solution for the underlying Ethereum community is the most basic use-case for
+this market. However, it should not be underestimated. With a rapidly growing market cap among
+Ether and ERC20 tokens, there is an accompanying need for payment utility of assets on the network.
+The Market Cap for Ether alone currently sits close to $3,000,000,0001 dollars. We expect to spearhead
+and capture the bulk of the payments market on Ethereum as TokenCard offers solutions to systematic
+problems in the space and is native to Ethereum. We expect substantial transactional volume with
+TokenCard and this will scale with the Ethereum/Token economy.
+1 coinmarketcap.com
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+11
+
+6.2
+
+Platform Specific Markets
+
+6.2
+
+6
+
+MARKET
+
+Platform Specific Markets
+
+The most exciting use-cases for TokenCard are within the many different markets that are being tapped
+into by other projects in the space. We are actively integrating TokenCard with these native Ethereum
+platforms, giving TKN holders direct access to diversified markets while providing connections to a
+major payment rail for the platform’s underlying user-base.
+We believe that this is where TokenCard’s true role in the ecosystem lies, with integration benefitting:
+TokenCard, the integrated platform, and most importantly, the end users themselves. This also suggests
+strong growth prospects for TKN; the success of integrated platforms translates directly across to
+TKN holders.
+TokenCard makes every partnered project with a token far, far better. We believe there will be rapid
+uptake by token holders worldwide.
+
+6.3
+
+Ditching Banks Altogether
+
+Sentiment and expectation towards what ‘banking’ is and what it should be, is rapidly changing. 94%
+of consumers under 35 years old are active users of online banking, and another 27% would consider a
+branchless digital bank. 33% of millennials believe they won’t need a bank in five years, and 33% are
+also open to switching banks in the next 90 days. A final 71% would rather go to the dentist than
+listen to what banks say.2 With a growing distrust and detachment between banks and consumers, it
+is fair to say that there is a tech savvy market open to innovation.
+TokenCard more than qualifies as a candidate for regular users looking to get rid of their bank
+altogether, offering not only a top-tier UI/UX experience, but also providing genuine innovation
+through Ethereum.
+Low-cost immediate network transfer of assets, access to the token economy, complete control of ones
+assets and exposure to an ecosystem of innovators will more than appeal to current and forthcoming
+generations.
+
+6.4
+
+Chinese Market
+
+We will be able to issue TokenCards into the Chinese market at launch. We believe this is a massive
+opportunity. Tokens are popular in China already, and experience shows there will be rapid innovation
+in the Chinese market – some will filter to the West quickly, and some may not. Either way, TKN
+holders will get access to this innovation at the same time Chinese customers get the benefits of the
+card.
+
+6.5
+
+Marketing/Product Strategy
+
+6.5.1
+
+Ethereum / Token Market
+
+Our initial target market will be token holders of other projects and the Ethereum community in
+general. This is not a numerically large group, but it is extraordinarily wealthy, and strongly demands
+this product.
+2 First
+
+Data 2015
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+12
+
+7
+
+TKN IN DEPTH
+
+Because TokenCard makes every other token project better, it will grow rapidly whenever any one of
+the other token projects sees growth. We forecast massive growth in the token ecosystem over the next
+two years, and will be there to provide real value to each token issuer.
+We will be granting the top 500 pre-purchasers of TKN with a complementary special
+edition TokenCard and access to the Beta/MVP.
+6.5.2
+
+Broader Market
+
+Our strategy to capture the general public will start with social media, and likely extend to partnerships
+and traditional media. We’ll be working closely with a dedicated marketing team to construct campaigns
+and strategies to attract a broader user to the platform.
+Strategies that tap into network effects, for example, by recommending friends and family to the
+platform in exchange for a free card, will be key to growing the platform. TokenCard’s role within the
+Ethereum ecosystem offers sufficient innovation to capture interest from larger media outlets, which
+will complement our marketing effort.
+We believe we will be able to capture significant ROI on Customer Lifetime Value vs. Acquisition cost
+in many markets, and plan to spend a significant portion of the token sale proceeds on growing this
+customer base, while remaining judicious and careful.
+
+7
+
+TKN In Depth
+
+TKN is a special kind of Ethereum token. It is the base currency of the TokenCard and provides
+advantageous usage rights and benefits to its holder with regard the TokenCard : Whereas transactions
+in other tokens using the debit card pay a 1% smart contract enforced licensing fee, such licensing fee
+does not apply to transactions in TKN. TKN holders can in addition burn their TKN an in return
+collect a pro-rata share of licensing fees accumulated in the TKN Asset Contract through a unique
+mechanism called “Cash and Burn”.
+
+7.1
+
+DGX Purchase Example
+
+A TokenCard customer holds DGX (A gold-backed token) and prefers to conduct her affairs in gold.
+She has dinner at her local bistro, and the cost totals $50. This $50 equates to roughly 1.2 DGX. She
+swipes her TokenCard.
+TokenCard’s servers immediately withdraw 1.2DGX plus the Licensing fee from her Token Contract
+Wallet. The Licensing fee is 1%, so she pays in total 1.212DGX. 1.2DGX is exchanged by TokenCard
+for USD. These USD will be swept into TokenCard’s debit card account as float for the next card
+swipe.
+The remaining 0.012DGX is sent directly to the TKN Asset Contract.
+Since fees are paid in the token transacted in, the most popular tokens used for transacting will
+accumulate respective licensing fees to the TKN Asset Contract.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+13
+
+7.2
+
+Cash and Burn
+
+7.2
+
+7
+
+TKN IN DEPTH
+
+Cash and Burn
+
+A TKN holder can burn his TKN and in return collect a current pro-rata share of licensing fees
+accumulated in the TKN Asset Contract by calling TKN’s burn function. Doing so will permanently
+destroy the TKN.
+7.2.1
+
+Definitions
+
+There are TKNT TKN issued.
+There are TKNh units of TKN held by a certain holder of TKN.
+There are m distinct tokens held in the TKN Asset Contract.
+The TKN Asset Contract holds Tm tokens for the mth token contract.
+Then the holder of TKN, if he decides to trigger the “Cash and Burn” function and thereby relinquish
+its TKN, will receive the following pro-rata share of licensing fees accumulated in the TKN Asset
+Contract:
+Received:
+[T1 , T2 , . . . , Tm ] ∗
+
+7.3
+
+TKNh
+TKNT
+
+Cash and Burn Example 1
+
+A TKN holder has 500TKN, the current TKN supply is 10000TKN.
+The TKN Asset Contract holds 10DAI, 100ETH, 500DGX and 250REP.
+His pro-rata share of licensing fees accumulated in the TKN Asset Contract equals:
+[10DAI, 100ET H, 500DGX, 250REP ] ∗
+
+500
+10000
+
+If he burns his TKN, he will receive
+500
+= 5.00%
+10000
+of the held tokens, giving him:
+[0.5DAI, 5ET H, 25DGX, 12.5REP ]
+After ‘burning’ his TKN, the remaining supply of TKN will now equal:
+10000 − 500 = 9500
+This means that remaining TKN holders, if they decide to trigger the ‘Cash and Burn’ function, will
+recieve a higher pro-rata share of the licensing fees per TKN than before the burn. A separate TKN
+holder who also held 500 TKN would now have a pro-rata share equal to:
+500
+= 5.26%
+9500
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+14
+
+7.5
+
+Economic Consequences of The TKN Model
+
+7.4
+
+8
+
+TECHNOLOGY ROADMAP
+
+Cash and Burn Example 2
+
+If the TKN supply is 1,000,000 and a certain user has 100 TKN, and the Asset Contract holds DGX,
+DGD, REP and SNGLS in the following ratios, then the User’s pro-rata share of the licensing fees
+would be as follows:
+Token
+
+Number Held
+
+DGX
+DGD
+REP
+SNGLS
+
+10,000
+20,000
+55,000
+1,000,000
+
+1 TKN’s Share
+
+User’s Share
+
+0.01
+0.02
+0.055
+1.0
+
+1.0
+2.0
+5.5
+100.0
+
+The user with 100 TKN wants to burn is TKN and collect his pro-rata share of the licensing fees
+accumulated in the TKN Asset Contract. He burns the 100 TKN, and receives 1 DGX and 2 DGD,
+5.5 REP and 100.0 SNGLS.
+All the other TKN are still backed by 0.01 DGX, 0.02 DGD and etc. per TKN.
+
+7.5
+
+Economic Consequences of The TKN Model
+
+The TokenCard platform will over time grow to support tokens from most, if not all projects. This is
+likely to grow to a staggering number of unique tokens. If a specific token becomes valuable or popular
+its proportional use with TokenCard will go up and as such will accrue to the Asset Contract.
+Burning reduces the total pool of TKN in circulation and proporionally increases the stake of future
+licensing fees to remaining TKN holders. We expect TKN burning to be rare, but to the extent it
+occurs, TKN holders who do nothing will gain a proportional increase in the share of future fees.
+
+7.6
+
+TKN Fee Reduction
+
+As the base currency of TokenCard, transactions using TKN pay no licensing fee for the TKN amount
+of the fee. If a user transacts purely in TKN, he pays no licensing fee. If a transaction involves multiple
+currencies the fee for the portion paid in TKN is voided.
+7.6.1
+
+Portfolio Spending Example
+
+Let’s go back to our first example where a user is paying for a $50 meal at a restaurant. Let’s say now
+she decides to pay for the meal half in DGX and the other half in TKN. Essentially this would be two
+transactions: $25 each in DGX and TKN.
+The licensing fee paid will only be on the $25 DGX transaction, and would equate to half of the
+original fee of 0.012 DGX, in total 0.006DGX for the same transaction.
+
+8
+
+Technology Roadmap
+
+We have spent the bulk of our time on product planning. There is too much to encapsulate in this
+whitepaper, but we encourage interested participants to engage with us over email mel@monolith.
+ventures) or our slack channel
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+15
+
+8.1
+
+Contract Wallet
+
+8.1
+
+8
+
+TECHNOLOGY ROADMAP
+
+Contract Wallet
+
+The Token Contract Wallet is a smart contract that governs a user’s tokens and secures them within
+its code. The Token Contract Wallet’s main function is to host to the users digital assets in a secure
+manner and allows for various functionality integrated directly into the system. It serves as the
+foundation for the rest of the platform’s features.
+Users will not need a contract wallet to try out the system, instead they can grant an allowance.
+However, the Token Contract Wallet will allow fine-grained security features, and we anticipate users
+will either migrate to the wallet, or “wrap” their preferred wallet with the Token Contract Wallet in
+general.
+
+8.2
+
+Contract Wallet Access
+
+Access to the systems can be achieved by:
+1. The Token App – Provides a refined and user friendly experience with a setup wizard, and
+simple ability to integrate with user’s existing Token wallet.
+2. Blockchain Browser – Third party Ethereum browser tools like Mist, Parity and MetaMask
+can give access to TokenCard systems. TokenCard smart contracts will be created with Web3
+support in mind, and Web3 support will be considered for all frontend TokenCard applications.
+
+8.3
+
+Allowance
+
+TokenCard has access to withdraw funds from the user’s Token Contract Wallet and is constrained
+by these user set options. We plan an array of awesome features over time, and will start with basic
+security features in the MVP.
+Options are not mutually exclusive; more than one could be active at any time.
+• Daily Fiat Limits - Uses an oracle to calculate fiat amount and sets a cap based on that. Will
+initially use a TokenCard-maintained oracle until reliable third party options become available in
+the community.
+Example: $1000 equivalent in tokens can be spent per day.
+• Daily Token Limits - A fixed number of tokens per day are allowed to be withdrawn.
+Example: 20 ETH per day.
+• Percentage Limits - A fixed percentage of Tokens per given time period allowed to be withdrawn.
+Example: 2% of each spendable tokens per day are allowed to be withdrawn.
+• Time based Limits - Opening up withdrawals for a specified amount of time.
+Example: 1h long allow up to large $10k spends – this would be triggered by a button in the app marked
+something like “GO BIG”.
+
+8.4
+
+Additional Security Features
+
+There are a number of security scenarios we are workshopping now. Some will likely be supported in
+the final app.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+16
+
+8.5
+
+Card Spending Modes
+
+8
+
+TECHNOLOGY ROADMAP
+
+1. User set limits A user could set daily contract withdrawal limits on their own side to prevent
+losses in the event a third party gains access to their private key and password. Alternatively
+the user could limit the specific addresses the contract could withdraw to.
+This could be combined with an Emergency Contract Migration, as defined below, and would significantly mitigate the risk of catastrophic loss of tokens.
+2. Emergency Contract Migration A user could preemptively allow TokenCard to send all
+tokens to a pre-specified ‘safe’ destination in case of emergency. Could be called by either party
+in case of an ongoing attack.
+Example: A user with poor personal security has lost access to his Token Contract Wallet, but did
+grant TokenCard the right to do an emergency sweep if something bad happens. Limits on his own side
+prevent a third party attacker from withdrawing more than $100 per day.
+One day the Token app gives him a push notificaiton of a $100 withdrawal he did not authorize. He
+contacts TokenCard support to initiate an emergency contract migration to a predefined safe sweep
+address that he controls. TokenCard remains functional throughout the process, and the user has
+minimized losses.
+3. Temporary Card freeze – Pauses card use in the case of misplacement. Can be re-enabled at
+any time.
+
+8.5
+
+Card Spending Modes
+
+With TokenCard we are able to pioneer a number of flexible and unique ways to manage spending.
+The main spending modes planned are:
+• Single asset spending - A single asset is selected to be made available to be spent with
+TokenCard. Other assets can be added to the queue to give an order of priority.
+Example: A $100 swipe is payed for in ETH.
+• Multi asset spending – A user can pay with multiple assets at a time. He can select up to
+5 different assets, giving each a percentage and distributing the payment between them. This
+allows unprecedented control of personal portfolio allocation.
+Example: A user has set up his TokenCard to pay with 50% ETH, 30% REP and 20% DGX. When
+she pays for a $500 utility bill, the equivalent of $250 of ETH, $150 of REP and $100 of DGX are
+withdrawn simultaneously from her Token Contract Wallet.
+• Dynamic portfolio spending - Spending is based on fiat weighting of assets. Users give target
+portfolio weightings and withdrawals are optimized to maintain the user given weightings.
+Example: A user targets a portfolio value of 20% DGX and 80% ETH. Recently the value of DGX has
+gone up and now represents a larger percentage of the portfolio. This means a card swipe will now
+withdraw proportionally more DGX to bring the percentage closer to the set target.
+• Other spending modes – tax efficient, illiquid proxy asset and other spending modes are being
+explored to aid users in specific scenarios.
+
+8.6
+
+Multi-User management
+
+Wallet holders may attach specific allowances or other rules to multiple cards. These could have
+many features: from family budget management to expense account reimbursement rules. Watch-only
+accounts may be set up to monitor expenses.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+17
+
+8.7
+
+Token App (iOS/Android)
+
+8.7
+
+8
+
+TECHNOLOGY ROADMAP
+
+Token App (iOS/Android)
+
+The Token App (Android & iOS) is the primary interface customers will use to interact with the
+platform. The Token App is designed to give best-in-class functionality with a top-tier UI design.
+
+8.8
+
+Set-up Wizard
+
+Upon first launch the users run through a setup wizard and are prompted to customize settings to fit
+their preference. The process includes the following steps:
+1. A user downloads the app
+2. User can create new contract/key or import key.
+3. Puts in password and is prompted to make a backup of key.
+4. Contract launches/loads (TokenCard pays for gas)
+5. Choose express or advanced setup wizard.
+6. User chooses his base currency from a ranked/curated list
+• Likely a list of ‘stable’ currencies and other assets, like DGX or DAI.
+• The base token is what the Token Contract Wallet is loaded with if fiat is sent to fund the
+wallet.
+Example: A user sets his base currency as DGX. He sends money to TokenCard through a bank transfer.
+TokenCard credits his account in the transfer equivalent of DGX.
+7. Finally, he puts in his name to complete his account and profile picture.
+He now has a Token Contract Wallet, can send and receive from others and make use of various services
+like the token-to-token exchange. Once users get acquainted with the system they can apply for the
+TokenCard itself. This launches a TokenCard application setup wizard:
+1. Pay for TokenCard (if sufficient balance on Token Contract Wallet)
+2. Next fill out a standard form with KYC/AML details that get forwarded to TokenCard. All
+required KCY/AML can be done inside the app in the span of a few minutes.
+3. TokenCard gets delivered to their home address.
+
+8.9
+
+Wireframes, Usability Studies
+
+We have over 80 page states and hundreds of transitions diagrammed and designed. These are a sample
+of our current thinking, and not final.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+18
+
+8.9
+
+Wireframes, Usability Studies
+
+8
+
+TECHNOLOGY ROADMAP
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+19
+
+8.9
+
+Wireframes, Usability Studies
+
+8
+
+TECHNOLOGY ROADMAP
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+20
+
+8.9
+
+Wireframes, Usability Studies
+
+8
+
+TECHNOLOGY ROADMAP
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+21
+
+8.9
+
+Wireframes, Usability Studies
+
+8
+
+TECHNOLOGY ROADMAP
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+22
+
+8.10
+
+8.10
+
+TokenCard Transaction Walkthrough
+
+8
+
+TECHNOLOGY ROADMAP
+
+TokenCard Transaction Walkthrough
+
+With TokenCard, balances are stored in the user’s contract wallet, therefore we implement a unique
+model where cards are effectively “empty” up until the moment they are used, known as a 0-balance
+method.
+The process goes as follows:
+1. A user attempts a transaction.
+2. A spend request API call from payments network comes in. Lists type, amount, CardID etc.
+3. Database lookup on CardID to see what Token Contract Wallet address is associated with it.
+4. Load Ethereum state and read Token Contract Wallet for settings: available balance, spending
+modes, allowance etc.
+5. Generate transaction specific payment profile. (100$: 80%ETH 20%DGX)
+6. Evaluate an order book and calculate amount(s) to be used.
+7. Perform sell
+8. Initiate withdrawal from Token Contract Wallet
+9. API call to load specific card with amount needed.
+10. Confirm tx request.
+11. User completes transaction and receives live push notification.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+23
+
+8.11
+
+Server Specifications
+
+8.11
+8.11.1
+
+8
+
+TECHNOLOGY ROADMAP
+
+Server Specifications
+Scale
+
+The TokenCard system will support at launch 1,000 transactions per minute with maximum lag of 1
+second at load, and “Four Nines” reliability worldwide.
+8.11.2
+
+Performance
+
+The backend servers for TokenCard will be able to:
+1. Accept a request from the debit network
+2. Access a smart contract’s functions on the Ethereum Blockchain
+3. Post a transaction on the Ethereum Blockchain
+4. Respond to the debit network
+All of these must be accomplished within 300ms in order to get a sub-one-second full latency from card
+swipe to approval. As Ethereum scales, this will become easier to do without risk. In the beginning,
+TokenCard will take some risk from double spending as it functions at the necessary speeds.
+8.11.3
+
+Backups and Failover
+
+1. The TokenCard systems will be architected to achieve “four 9s” reliability: 4 minutes per month
+or less of downtime.
+2. Backups: TokenCard systems will be able to relaunch from a backup in under 1 minute.
+3. Failover: The TokenCard systems will be able to failover successfully between regional datacenters.
+
+8.12
+
+Release schedule:
+
+We expect TokenCard will take years to mature into our full vision. To get there, the team has
+committed to a 120-day major release cadence.
+Our first release will be an MVP in limited release.
+8.12.1
+
+Minimum Viable Product – 120 days
+
+This MVP is aimed at users with some basic technical knowledge of Ethereum and gives access to the
+core features: Token Contract Wallet, PoS/ATM payments debit card and payment support for tokens
+like ETH, DGX, REP, 1ST, SNGLS and MKR. This phase will consist of a limited 500 card run and
+will give priority access to early contributors.
+We will release the MVP product and cards at a launch party exclusive to purchasers of TKN in the
+Token Creation Event.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+24
+
+9.1
+
+Rough TKN Projections
+
+8.12.2
+
+9
+
+FINANCES
+
+v1 Release - 240 days
+
+The 1.0 release of the TokenCard platform consists of delivering the technology detailed in this
+document – primarily the Token App, instant in-app token exchange, advanced security options and
+the initial asset management suite.
+
+9
+
+Finances
+
+As we plan out the TokenCard future, we have put some time into projecting out business and TKN
+values. These projections are necessarily flawed – we don’t know what will happen. Despite the highly
+speculative nature of these projections, we are offering them to help those participating in the Token
+Creation Event to understand different levers and possible outcomes for the project.
+Since January 2017, Ethereum and the Token market have grown at a value-weighted average of about
+300,000% annually (or 6.7x per three months). We do not believe this growth rate will continue over
+the next two years. We have therefore taken a range of growth from 20% to 100% per six month period
+as our range for projections.
+
+9.1
+
+Rough TKN Projections
+
+Below are some rough projections of TKN performance under different conditions semi-annually over
+four periods. We have made several assumptions described below and hypothetical context for the
+scenarios is given.
+We expect a good start to user growth with our platform, and expect to capture a substantial portion
+of the Ethereum community and see success from launching in China. We also expect to see several
+successful Ethereum platforms and tokens drive users to TokenCard.
+We have based our average user spend on debit card reports that give an average spend of $9,291 per
+year in the U.S.3 In general, there will be average higher user spend in earlier periods as adoption will
+primarily consist of the underlying Ethereum community who hold substantial wealth. Average user
+transaction spend declines as we expand to other markets.
+Licensing fees are calculated simply as 1% of transaction volume and we have also taken into account
+growth in users transacting in TKN.
+9.1.1
+
+Good
+
+In a good scenario, we see quick adoption from the Ethereum community and expansion to other
+markets happens successfully. We enter the Chinese market 12 months after launch, and some Ethereum
+platforms and tokens see success outside of the community.
+Year
+
+0.5
+
+1
+
+1.5
+
+2
+
+TokenCard Users
+Average user spend
+Transaction Volume
+Transactions in TKN
+Licensing fees accrued (USD)
+
+20,000
+6,000
+120,000,000
+10%
+1,080,000
+
+100,000
+5,000
+500,000,000
+15%
+4,250,000
+
+250,000
+4,000
+1,000,000,000
+20%
+8,000,000
+
+500,000
+3,500
+1,750,000,000
+25%
+13,125,000
+
+3 2015
+
+Debit Issuer Study – Pulse Netwo
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+25
+
+9.2
+
+Token Creation Details
+
+9.1.2
+
+9
+
+FINANCES
+
+Better
+
+In a better scenario, we have very good initial uptake from the underlying Ethereum community. We
+expand to China successfully before the end of the first year with the help of marketing and customer
+acquisition campaigns. We see success as a remittance solution, and certain Ethereum platforms and
+tokens begin to see adoption by the general public, which also boosts our user-base.
+Year
+
+0.5
+
+1
+
+1.5
+
+2
+
+TokenCard Users
+Average user spend
+Transaction Volume
+Transactions in TKN
+Licensing fees accrued (USD)
+
+35,000
+6,000
+$210,000,000
+10%
+1,890,000
+
+150,000
+6,000
+$900,000,000
+15%
+$7,650,000
+
+300,000
+4,000
+$1,200,000,000
+20%
+$9,600,000
+
+600,000
+4,000
+$2,400,000,000
+25%
+$18,000,000
+
+9.1.3
+
+Great
+
+In the “great” scenario, marketing and customer acquisition strategies see very strong uptake initially.
+We are able to expand to China quickly and secure several synergetic partnerships that help reach
+other markets. Integration with successful innovative Ethereum platforms and tokens help expand
+our user base even further. Customers spend less TKN because value is rising so quickly. Customer
+acquisition strategies remain successful and adoption is fast.
+Year
+
+0.5
+
+1
+
+1.5
+
+2
+
+TokenCard Users
+Average user spend
+Transaction Volume
+Transactions in TKN
+Licensing fees accrued (USD)
+
+50,000
+6,000
+300,000,000
+10%
+$2,700,000
+
+250,000
+6,000
+1,500,000,000
+10%
+$13,500,000
+
+500,000
+4,000
+2,000,000,000
+10%
+$18,000,000
+
+750,000
+4,000
+$3,000,000,000
+10%
+$27,000,000
+
+9.2
+
+Token Creation Details
+
+Token creation will commence May 2nd 2017.
+•
+•
+•
+•
+
+Ether, Fiat and Tokens can be contributed and turned into TKN
+The creation will be capped upon receipt of $4.5mm.
+The Token Creation period will last seven days.
+If the cap is reached before the end of seven days, additional contributions will be accepted for
+24 hours in case users missed a very short window for TKN creation.
+• No more TKN will be created after this period.
+
+9.2.1
+
+TKN Creation Ratios
+
+Early contributers will create more TKN than later ones, per ETH.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+26
+
+9.3
+
+Additional TKN
+
+9.2.2
+
+9
+
+Cumulative Amount committed in USD
+
+TKN per ETH rate
+
+0-750,000
+750,000-1,500,000
+1,500,000-2,250,000
+2,250,000-3,000,000
+3,000,000-3,750,000
+3,750,000-4,500,000
+(possible 24 hr period)
+
+150
+140
+130
+120
+110
+100
+100
+
+FINANCES
+
+Token Bonus
+
+Contributors can contribute in certain tokens instead of ETH. Instructions and supported tokens will
+appear on our website before the TKN Token Creation.
+Tokens will have a per-token cap based on the trading volumes and value of the token.
+Tokens that are partnered with TokenCard will receive a 2.5%-5% bonus in TKN; all details will appear
+on our site before the Token Creation.
+
+9.3
+
+Additional TKN
+
+Additional TKN will be created for the Capital Reserve, Monolith Studio, advisors and early investors
+as follows.
+9.3.1
+
+Monolith Studio, and Advisors
+
+• 20% of TKN created during the creation event will be created for Monolith Studio, locked in a
+smart contract for 18 months. We wish to benefit only if the project is operationally successful.
+• 5% of TKN created during the creation event will be created for and granted to advisors.
+9.3.2
+
+Capital Reserve
+
+15% of the TKN supply will be credited to the reserve, but not issued. These TKN will be available
+as an additional fundraising mechanism for the TokenCard project, but may never be issued, depending
+on circumstances in the future. For more, read our section “Prudence”.
+9.3.3
+
+Example
+
+During the Token Creation event, we imagine exactly 5 million TKN are created in response to
+incoming payments.
+After the Token Creation event ends, the following TKN are created:
+• 1,666,667 TKN for Monolith Studio
+• 416,666 TKN for advisors
+• 1,250,000 TKN for the Reserve
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+27
+
+9.4
+
+Funding Breakdown
+
+9
+
+FINANCES
+
+In total, 7,083,333 TKN are ‘issued’ and 1,250,000 TKN are held in reserve.
+If at some point, $7.08mm worth of tokens are held in the Token Asset Contract, and no TKN have
+been burned. Each TKN would receive $1 worth of tokens if burned.
+
+9.4
+
+Funding Breakdown
+
+Funds raised during the TKN Creation Event will be used solely for the development and benefit of
+the Token platform. The level of funding received dictates the distribution of funds, however, our
+TKN reserve structure allows us to reduce the variability in what can be achieved. Funding breakdown
+in a $4.5mm funding scenario is discussed below.
+
+9.5
+
+Core Development – 30%
+
+Core development will involve the building of the technology as described in this document. This
+includes: the Token App, smart contract systems, payments network integration, server-side code and
+exchange integration.
+
+9.6
+
+Operational – 25%
+
+This covers the necessary costs incurred for a functional platform. This includes: sufficient individual
+ERC20 token exchange balances, sufficient fiat counterpart balances covering 5 day transactional
+volume, separate payments network costs, staffing, management and other related expenses.
+
+9.7
+
+Marketing – 40%
+
+Marketing spend will be split into partnership spend and direct consumer marketing.
+9.7.1
+
+Partnerships and Ecosystem Integration – 15%
+
+Ecosystem integration is an important component of our long-term plan for TokenCard. This long
+term plan involves integrating projects and platforms with TokenCard, and exploring synergies that
+return success for both parties. Part of this budget will also be allocated jointly with DigixGlobal,
+through a partnership to access a broader user base.
+
+9.8
+
+Direct Sales and Marketing – 25%+
+
+Sales and Marketing will drive this business, and the value of TKN. We intend to put as much money
+and time into these as we possibly can in order to maximize the value of TokenCard and TKN and
+dominate this post-bank era. Extra money contributed during Token Creation will be largely allocated
+here as well.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+28
+
+9.9
+
+Legal and Compliance – 5%
+
+9.9
+
+10
+
+CONTACT
+
+Legal and Compliance – 5%
+
+There are legal costs that go along with setting up an international financial services operation. Certain
+services planned for the TokenCard platform, such as a ‘fiat to token’ exchange, may require proper
+regulatory approval and licenses in some jurisdictions. Although these licenses are not typically difficult
+to acquire, they incur costs: bonding, capital and operational.
+
+10
+10.1
+
+Contact
+TokenCard
+
+To reach us, please email Mel Gelderman at mel@monolith.ventures.
+
+10.2
+
+New Alchemy – Token Ecosystem Services
+
+New Alchemy provided a wide range of services critical to the success of TokenCard, from technology
+to strategy to writing and marketing. Contact Paige Freeman at hello@newalchemy.io to learn more
+about New Alchemy helps companies interested in the Token ecosystem.
+
+Copyright 2017, Monolith Studio. Contact mel@monolith.ventures
+
+29
+
+

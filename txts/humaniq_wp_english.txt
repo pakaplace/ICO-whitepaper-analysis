@@ -1,0 +1,1080 @@
+Humaniq Whitepaper
+Alex Fork†
+Abstract
+The Humaniq team is building a next generation model for financial
+services (Banking 4.0) which is based on Blockchain technology,
+mobile devices and biometric identification systems. We will use
+cryptofinancing (Initial Coin Offering) for growth capital rather than
+traditional venture capital and shareholders.
+Our aim is to empower a market of 2 billion people who currently don’t have access to banking across the world. Almost half the
+world — over three billion people — live on less than $2.50 a day.
+At least 80% of humanity lives on less than $10 a day. More than
+80 percent of the world’s population lives in countries where income
+differentials are widening.
+We believe Humaniq can help reverse these trends and help
+bring people out of poverty by giving them banking tools that can
+provide liquidity for entrepreneurial ventures via loans, investment,
+online work and cryptofinancing as well as create new opportunities in
+the digital economy, locally, nationally and internationally. Humaniq
+can also help mitigate the refugee crises occurring in many countries
+in the West due to economic disparity and lack of opportunities in
+emerging economies.
+Our unique selling proposition (USP) in the digital banking
+market is our use of Blockchain technology combined with biometrics
+and a focus on mobile technology. We plan to not only provide a
+software solution but also bring mobile hardware (phones) into the
+markets we are aiming for in Africa, Asia and South America.
+
+†
+
+alex@humaniq.co, fb.com/fork.alex, linkedin.com/in/alexfork
+
+1
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+Contents
+1 Mission
+
+3
+
+2 What makes Humaniq special?
+
+4
+
+3 Vision
+
+7
+
+4 Emission Model
+
+8
+
+5 The ICO
+12
+5.1 The key holders . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+6 The Pre-ICO (survey)
+
+14
+
+7 Our development process
+
+14
+
+8 The timeline of Humaniq
+
+16
+
+9 Technical
+9.1 Issues and responses to them . . . . . . . .
+9.2 BioID: technology . . . . . . . . . . . . . . .
+9.3 BioID: user experience . . . . . . . . . . . .
+9.4 Mobile Wallet . . . . . . . . . . . . . . . . .
+9.5 Contracts on Ethereum blockchain . . . . .
+9.6 Sending a transaction with Mobile Wallet .
+9.7 Sending transactions without Mobile Wallet
+9.8 Coins are integer . . . . . . . . . . . . . . .
+10 Conclusions
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+17
+20
+21
+21
+21
+22
+22
+22
+22
+23
+
+Page 2
+humaniq.co
+
+Humaniq Whitepaper
+
+1
+
+Banking for Unbanked
+
+Mission
+“A small body of determined spirits
+fired by an unquenchable faith in their mission
+can alter the course of history.”
+Mahatma Gandhi
+
+Look at this map:
+
+Figure 1: indeed, where they are?..
+You may notice: there are unbanked regions on Earth. As a matter of
+fact, nearly 2.5 billion people live in regions where no banking infrastructure
+exist. The only form of payment available in those regions is manually giving
+banknotes (and/or coins) to a counterparty.
+What makes it worse, even in banked regions, there are millions of people
+without passports or any other forms of identity or documentation, thus
+they are cut off from modern banking facilities. According to a recent World
+Bank estimate, the total number of people who did not have identification
+documents amounted to 1.5 billion by 2016.
+We at Humaniq, will provide a new financial infrastructure for everyone
+who has a smartphone with a camera. The smartphone is necessary to make
+and receive payments, and the camera is needed to earn the first coins. The
+price of smartphones is falling every year and they are currently priced at
+between $10-$20 on the low end.
+
+Page 3
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+Figure 2: 2.5 billion adults are unbanked
+To put it in simple words, Humaniq is banking for the unbanked.
+Our ultimate goals are:
+ä to integrate 2.5 billion people disconnected from the international business community, and empower them to free themselves from the chains
+of poverty,
+ä to shift emerging economies into the cryptoeconomy.
+
+2
+
+What makes Humaniq special?
+“The biggest room in the world is the room
+for improvement.”
+Helmut Schmidt
+
+It is natural to ask why the problem of banking for the unbanked cannot
+be solved by Bitcoin or any other cryptocurrency. And the questions can also
+be asked: «What makes Humaniq special?», «Are you just another startup
+offering yet another mobile wallet app?»
+
+Page 4
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+At first glance, it looks like any Bitcoin mobile wallet could be used in
+unbanked regions. But if you think deeper about this, you will discover the
+following issues:
+8 The problem: the number of satoshis in circulation (or any other
+small units of crypto) is insufficient for some regions. E.g., in Indonesia
+(250 million people), there’s just not enough digital currency to have
+substantial daily turnover (volume). Bitcoin is scarce, and if you don’t
+have bitcoins, you are inclined not so to be interested in the network.
+For regions poorly integrated into the international financial system,
+it would take a lot of time for sufficient liquidity to appear in the
+local market. But there’s no doubt that such regions have their own
+domestic economy today. It’s just they are almost exclusively cashbased.
+4 Our solution: unlike other cryptocurrencies, Humaniq provides an
+egalitarian emission mechanism. The amount of coins that one person
+can mint is limited, and this is what makes Humaniq so special. This
+mechanism has nothing to do with competing in specialized hardware,
+having access to specialized hardware, wasting electricity, or owning
+the coins preliminarily. It may be called proof-of-face, and nothing is
+more fair than that.
+8 The problem: the lack of local exchanges. Even now in 2017, there
+are lots of countries where no infrastructure to buy or sell cryptocurrency exists. This is the issue even for some European countries, which
+have no problems with Internet adoption and where virtually the entire
+population is using smartphones. We’d like to stress that it has been
+more than 8 years since the first cryptocurrency launched, and more
+than 7 years since the first cryptocurrency exchange ever appeared.
+4 Our solution: since our platform provides infrastructure for people to
+earn Humaniq coins from home, we understand that people would eventually like to exchange cryptocurrency for local currency. Of course,
+we provide such infrastructure in our app. (And still, we are in talks
+with some national and international shopping franchises in various
+countries we are targeting — and engaging them to add Humaniq as a
+payment option.)
+
+Page 5
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+8 The problem: some states are concerned with pseudo-anonymity of
+cryptocurrencies, which causes recurring legal issues associated with
+them.
+4 Our solution: since app users have to pass bio-identification, there
+is no anonymity in Humaniq. That is good news for transparency
+advocates, and that makes Humaniq unviable for financing terrorism,
+trading drugs and all the other deadly sins Bitcoin is accused of. Another point is, Humaniq provides the ability to earn while working from
+countries abroad. This enables an export-driven economy in depressed
+regions, improves living standards of depressed regions, and reduces
+the impetus for migration, which is great for all governments both in
+developed and in developing countries.
+8 The problem: the network effect of Bitcoin (and other cryptocurrencies) is relatively small because of relative usage complexity. According
+to the report from Juniper Research, the number of active Bitcoin users
+around the world could reach 4.7 million people by the end of 2019.
+Even now the network has reached the capacity limit of 250 thousand
+transactions. Eight years of the Bitcoin era have passed; compared to
+PayPal, after 8 years it had 100 million active accounts, despite the
+fact that it appeared with less developed online infrastructure and can
+require passport details for use.
+4 Our solution: we discarded the private and public key approach,
+which confuses newcomers; we also had to reject using fractional amounts
+of coins, since decimal fractions may be uneasy for people with little
+or no education. It’s very simple. Coins are whole numbers (integers),
+faces are used as passwords — if you think it gets any easier than that,
+please tell us what could be simpler.
+8 The problem: complexity of reputation accounting in anonymous
+communities, needed for various p2p-solutions (p2p-insurance, p2pbanking).
+4 Our solution: we handle this problem with our bio-identification procedure. By the beginning of 2017, elegant solutions for biometric authentication already exist. If we take a combination of authentication
+
+Page 6
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+methods it increases the likelihood of a near hundred-percent authentication.1 Our approach is to use one random authentication method
+each time. Every authentication takes no more than two seconds and
+is as easy as unlocking a smartphone.
+8 The problem: the lack of crypto evangelists in undeveloped regions,
+which contributes to people’s unawareness of innovative payment systems.
+4 Our solution: the reasons why people don’t promote cryptocurrencies in undeveloped regions are understandable: technical complexity
+of the subject, language difficulties, no financial incentive etc. But
+we’ve targeted our project directly at such regions. Working on the
+problem, we have studied nearly everything about the current state of
+developing countries. We talked to ∼100 prominent bitcoiners who live
+in developing countries such as Sierra Leone, Afghanistan, Botswana,
+Pakistan and Indonesia. Dozens of them decided to enter our Humaniq Ambassador Program: they will teach people about how to use
+Humaniq and earn cryptocurrency for that.
+This is why Bitcoin or any other crypto isn’t used in unbanked regions.
+And won’t be used. The currency of unbanked regions (the dark ones on
+Figure 1) is called Humaniq.
+
+3
+
+Vision
+“Visions are worth fighting for. Why spend
+your life making someone else’s dreams?”
+Tim Burton
+
+In Humaniq, the amount of coins that one person can mint is limited,
+and that is what makes Humaniq truly special.
+This may sound really strange for an experienced crypto-community
+member. How did we achieve this?
+We did it with the help of bio-identification. Our bio-identification has
+to be passed only once, taking less than 20 seconds and does not require to
+have any e-mail or passport. And modern face recognition algorithms for
+neural networks can check one’s identity with incredible accuracy.
+1
+
+It is worth noting that the use of hardware solutions, for example, a fingerprint scanner, allows signal counterfeiting at hardware level.
+
+Page 7
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+Briefly, bio-identification is obligatory to create a wallet; every user is
+given coins for passing bio-identification; the process consists of taking series
+of photos, recording videos of the user making facial gestures, and recording
+the user’s speech. For details, move to subsection 9.3.
+To prevent theft of coins, every time a user signs in into the app, he or
+she must pass the authentication procedure. The authentication is similar
+to bio-identification, but much shorter: the user has to repeat just one of
+the recorded gestures in the front of the camera. It is as easy as unlocking a
+smartphone.
+The software we have developed works with the cheapest hardware solutions on Android 5.0: with smartphones that cost $10-$15. Such affordable
+devices are usually fitted with a front-facing camera and microphone, and
+thus are sufficient to install a mobile wallet and to authenticate the user.
+After passing the bio-identification, everyone is invited to earn additional
+coins by inviting friends and making transactions. Moreover, we enable the
+possibility for everyone to earn a living with their mobile phones, and that’s
+what is truly impressive.
+You may ask — how? Well, we work with local companies and brands to
+achieve this. Our cherished will is to make Humaniq the de facto currency
+of the world where over three billion people live on less than $2.50 a day.
+Humaniq can give these people the opportunity to break free from poverty,
+improving the lives of their families and themselves by entering and helping
+create a new mobile digital economy. Imagine now... over two billion users
+improving capitalization of popular services by getting used to them — isn’t
+that what brands dream of? Isn’t that why Facebook is making a play with
+internet.org?
+Our user may purchase a smartphone perhaps even with a loan — and after the purchase, cover his or her expenses within several weeks, by executing
+simple actions.
+
+4
+
+Emission Model
+“Cryptoeconomic system may contain its own
+currency and token system which would be useful in any sense in some system aspect. Units
+of currency can be generated by the system and
+then sold or distributed directly as award for
+participation in system operation.”
+Vitalik Buterin
+
+Page 8
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+We feel honored to repeat it once more: Humaniq provides an egalitarian
+emission mechanism. The amount of coins that one person can mint
+is limited , and that is what makes Humaniq so special.
+This mechanism has nothing to do with competing in specialized hardware, having access to specialized hardware, wasting electricity, or owning
+the coins preliminarily. It may be called proof-of-face, as we’ve mentioned,
+and there’s nothing more fair than that.
+In this section, we are about to present the details of the emission model
+we chose. Developing it, we pursued the following objectives:
+1) The early adopters should receive more money than the later ones.
+2) The total amount of coins that will ever be issued must be five times
+bigger than the amount of coins issued via Pre-ICO + ICO.
+3) Emission proceeds until kmax people are registered. kmax should be
+relatively big.
+4) In average, one user is granted with 500 coins.
+5) Tokens are issued by the smart contract upon request.
+6) Emission per one person is carried out not by one-time payment2 , but
+in accordance with a scoring function which depends on the person’s
+activity: passing through bio-identification, inviting friends, making
+transactions.
+Let E(k) be the amount of HMQ coins that may be granted to the
+person who was k-th to pass the bioidentification in the Humaniq app (the
+user number k). The objective number 1 tells that the function E(k)
+should be decreasing one. We chose the simplest decreasing function — the
+linear one:
+Emax − Emin
+E(k) = Emax −
+·k
+kmax
+Thus, at k = 0 E(k) = Emax , and at k = kmax the correspondence E(k) =
+Emin holds. We chose Emax equal to 860, and Emin equal to 140. Finally for
+2
+
+We think that it is fair to issue coins stepwise depending on the everyday involvement
+of a user. We wish to avoid the mistake of some altcoins, which made their rewards onetime payments and which suffered from users not having incentives to use the platform
+on a regular basis.
+
+Page 9
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+the maximum possible amount for the k-th video registrant
+
+
+720
+E(k) = round 860 −
+·k
+kmax
+
+(4.1)
+
+Let us draw a graph showing the controlled supply of coins:
+
+E(k)
+860
+
+140
+
+100
+0
+
+kmax
+
+k
+
+Figure 3: The distribution of Humaniq coins. Red line represents the maximum possible amount of coins a user can be granted with respect to the
+scoring function. Blue line represents the number of coins that the user is
+granted if his or her only action is passing bio-identification.
+
+Denote the total amount of coins sold via Pre-ICO + ICO by Vico . According to the objective number 2, only 4Vico coins will be earned by users
+of the Humaniq app. Thus, the maximum possible amount of Humaniq coins
+is limited by 5Vico .
+The objective number 4 states that the total average number of coins
+that a user can mint in-app must be close to 500, thus giving
+500 ≈
+
+kX
+max
+k=1
+
+kmax
+1
+1 X
+E(k)
+E(k) =
+=
+· (4Vico ),
+kmax
+kmax
+kmax
+k=1
+
+
+kmax = round
+
+Vico
+125
+
+Page 10
+humaniq.co
+
+
+(4.2)
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+immediately follows. This provides the restriction upon the total amount of
+people who can mint the tokens in-app.3 We use the conventional rounding
+function to guarantee that kmax is integer.
+The scoring function mentioned in objective number 5 describes how
+people can earn their E(k) coins in the Humaniq app. It is structured as
+follows:
+(denoting the HMQ/USD exchange rate by r, so that 15r becomes the
+Humaniq equivalent of $15)
+• mobile app installation — min(round(0.01 · c1 · E(k)); 15r) HMQ
+• receiving first coins from a friend — min(round(0.04 · c2 · E(k)); 15r)
+HMQ (one-time payment)
+• passing the bio-identification — min(round(0.15 · c3 · E(k)); 15r) HMQ
+(one-time payment)
+• a referred friend passed bio-identification4 —
+min(round(0.1 · c4 · E(k)); 15r) HMQ (for every 5 first friends invited)
+• execution of a transaction within first month after installation —
+min(round(0.05 · c5 · E(k)); 15r) HMQ (one-time payment)
+• execution of a transaction within second month after installation —
+min(round(0.1 · c6 · E(k)); 15r) HMQ (one-time payment)
+• execution of a transaction within the third month —
+min(round(0.15 · c7 · E(k)); 15r) HMQ (one-time payment)
+• additional earning opportunities are provided by local and global startups and senior companies.
+For moments when exchange rate HMQ/USD diminishes, the emission
+can be delayed. The exchange rate is treated diminished, if
+current rate < average rate for the last week.
+3
+
+The Pre-ICO has passed, and some conclusions may be already done. Exactly
+31824818 HMQ tokens were generated; thus, even before the start of the ICO, the inequality Vico > 31 · 106 holds, and, due to (4.2), kmax > 248000.
+4
+Humaniq balances cannot be fractional. You are invited to guess why, and then check
+your guess in the subsection 9.8.
+
+Page 11
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+By the start, every coefficient in the tuple (c1 , c2 , c3 , c4 , c5 , c6 , c7 ) is set
+to 1, but after some time these coefficients are going to become mutable.
+For the first period of their mutability, the control over these coefficients
+will be community-driven, but eventually this control will be forwarded to
+a neural network, whose goal will be to maximize several reasonable metrics
+(the installations’ rate of growth, transactions’ number rate of growth).
+Thus, the amount of HMQ that can be granted to a user is E(k), where
+k is the number of users who passed the identification before him or her.
+The formula (4.1) can be used to calculate the potential benefit.
+The earning opportunities aren’t limited by this. Start-ups and senior
+companies pay additional amounts of HMQ to people executing their tasks.
+The list of tasks available at you region can be found in the tab «Offers».
+Our ultimate dream is that everyone could purchase the smartphone, install
+the Humaniq app and then cover his or her expenses on the same day, executing simple actions.5 That is why we tether our emission to the Humaniq
+equivalent of $15.
+
+5
+
+The ICO
+“Just as treasures are uncovered from the
+earth, so virtue appears from good deeds, and
+wisdom appears from a pure and peaceful mind.
+To walk safely through the maze of human life,
+one needs the light of wisdom and the guidance
+of virtue.”
+Buddha
+
+Despite we have enough money to develop the project on our own, we
+think it is fair to allow everyone to invest in the project. To make the procedure egalitarian, we have chosen to utilise cryptofinancing via an initial coin
+offering (ICO) rather than take on venture capital. Moreover, a crowdsale is
+a brilliant way to attract media attention.
+Our crowdsale has two stages — the Pre-ICO and the ICO. The Pre-ICO
+took place since 15 Dec 2016 till 28 Dec 2016.
+
+The ICO starts by 6 Apr 2017, CET 00:00 and
+ends by 26 Apr 2017, CET 23:59.
+5
+
+The price of cheapest smartphone able to perform mobile wallet functions and fitted
+with front-facing camera falls down every year and is now about $10-20.
+
+Page 12
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+To buy Humaniq, the only payment options during the ICO are Bitcoin
+(BTC) and Ethereum (ETH). During the ICO, the rates are as follows:
+
+1 ETH buys 1000 HMQ (+ bonuses)
+for BTC-buyers: your BTC counts as the
+equivalent amount of ETH6
+We also offer the following bonuses for those who invest earlier:
+6-7th of Apr
+8-14th of Apr
+15-21th of Apr
+22-26th of Apr
+
++ 49.9%
++ 25%
++ 12.5%
++ 0%
+
+Since all Humaniq balances are whole numbers (integers) and fractional
+amounts of coins are not possible (see subsection «Coins are integer» for the
+reasoning), we had to come with the solution for the arising subtlety. We
+chose different ways to handle the problem of fractional HMQ for Bitcoinusing and Ethereum-using participants.
+For Bitcoin participants, if the amount of HMQ to be bought is less than
+112358 HMQ, rounding down is performed; otherwise, if a buyer wishes to
+buy more than 112358 HMQ, the amount of HMQ to be bought is rounded
+up.
+For Ethereum participants, we decided to conduct bounce-back transactions (and hardcode them in the smart contract). E.g. if you transfer 3.1415926 ETH and no bonuses are applied, you are about to receive
+3141.5926 HMQ, but since HMQ balances are integer, the amount of ether
+equal to 0.5926 HMQ is sent back to you.
+Participating in the ICO doesn’t require passing bio-identification.
+
+5.1
+
+The key holders
+
+Our fundkeepers are:
+
+Alex Fork
+George Basiladze
+Bitcointalk user btcsec
+6
+
+with respect to the BTC/ETH exchange rate at the moment of purchase
+
+Page 13
+humaniq.co
+
+Humaniq Whitepaper
+
+6
+
+Banking for Unbanked
+
+The Pre-ICO (survey)
+
+The purpose of the Pre-ICO was to create a discussion on issues raised by
+the project, to attract the attention of leading experts in the industry, and
+to raise funds to prepare the promotion and public relations of the project,
+as well as prepare a quality ICO.
+We chose the following rates for the Pre-ICO stage:
+
+1 ETH buys 1500 HMQ (+ bonuses)
+for BTC-buyers: for the whole Pre-ICO campaign,
+we treated every your bitcoin as 93.5 ETH
+We announced that if the amount collected is less than 10000 ETH,
+all funds will be returned. Fortunately, we collected7 99.002855 BTC and
+3122.362977 ETH, which amounted to more than the announced threshold.
+The following bonuses were available during the Pre-ICO stage:
+First 12 hours
+16th of Dec
+17-19th of Dec
+20-22nd of Dec
+23-25th of Dec
+26-28th of Dec
+
++ 70%
++ 50%
++ 33%
++ 20%
++ 7%
++ 0%
+
+We are delighted to inform you that 31824818 HMQ tokens have already
+been distributed during the Pre-ICO (in complete accordance with these
+bonuses), and we look forward to our upcoming ICO, which will provide the
+answer on the final quantity of tokens that can ever be generated Vico and
+thus determine the constant kmax from (4.2).
+All rewards and bounties were distributed within one week after the end
+of Pre-ICO, just as it was claimed.
+
+7
+
+Our development process
+“Success or failure of a team is determined by
+how its members communicate and interact.”
+Ichak Adizes
+7
+
+To stress his personal responsibility for the pre-ICO, our founder Alex Fork decided
+to use the bitcoin wallet he uses since 2013. To make accounting easier, right before the
+start all the bitcoins were drained away from there, making the balance zero.
+
+Page 14
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+Future Fintech keeps in contact with more than 200 fintech start-ups.
+One of the challenges of most projects is access to the customer base. This
+is why the implementation of our solution will help young projects (P2P
+lending, insurance, mobile wallets, scoring, freelance, etc.) offer their ideas
+to people who have no experience in the financial sector. Therefore, the
+project will be developed as follows.
+The main development team develops the core. Others join later and develop their start-ups or solutions on a ready-made platform. We use Github
+to bring the core team and third parties together.
+We are open to get suggestions and ideas from ordinary users — from
+the Community. We always keep in touch with them via the Humaniq app,
+as well as on Bitcointalk and on our brand blog on Medium. Users also join
+us via our Slack channel, read the latest news on Facebook and Twitter, and
+participate in discussions on our subreddit.
+
+Figure 4: join us to see how we work
+Close interaction with users and testing an idea or a prototype on potential consumers allows us to make the right decisions and save resources.
+This is why customer development greatly reduces the investor risk. After
+all, theory often differs from practice, and developers’ opinions on ergonomics
+and ease of use may differ from the perceptions of the product’s end users.
+Users often have their own understanding of a set of must have functions,
+and ignorance of their real needs can lead to the failure of the entire start-up.
+
+Page 15
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+As such, our analysts and trend watchers, together with the developers,
+will consider every feature request communicated by users in the community.
+Some ideas greatly improve the product; but, at the same time, the development of one option can take an hour or two, while the implementation of
+another can take a few days.
+Analysts and trend watchers will also evaluate the feasibility of each
+request and explore it within the context of market trends. The developers,
+in their turn, will integrate them properly if new ideas are given thumbs up.
+At the same time, budget and deadlines must be met. Therefore, some
+ideas are rejected for one reason or another, while others form the list of
+tasks for the team of developers.
+Thanks to this, analysts, trend watchers, investors, users, project managers and programmers themselves are always aware of the current development stage of a project. Any interested user and even a developer can
+connect to it from various sides and get a respective reward:
+• participate in beta testing;
+• voice their ideas for improving the product in the Community;
+• develop their start-up;
+• become an analyst or a trend watcher.
+As you can see, our project development scheme allows and supports
+the active participation of users. Customer development allows us to create
+a product that meets their needs and wishes, which eventually ensures its
+success.
+
+8
+
+The timeline of Humaniq
+“The best way to predict the future is to
+create it.”
+Peter Drucker
+
+The milestones on this road are:
+• 2016, October-November — Humaniq Whitebook is written
+• 2016, December — Launch of Humaniq.co website.
+
+Page 16
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+• 2016, December — the pre-ICO.
+• 2017, January-February — smart contract development, due diligence,
+marketing campaign
+• 2017, February — a meeting with Humaniq project partners in India.
+• 2017, February — announcing Humaniq online-hackathon in partnership with (yet undisclosed) well-known blockchain media
+• 2017, February — the start of the ICO (crowdsale).
+• 2017, April — headlining the BlockShow Europe 2017, giving talks
+on panel discussions, concluding results of the hackathon and giving
+awards to winners
+• 2017, April — crowdsale concludes.
+• 2017, May — prototype of Android mobile app.
+• 2017, July — Product launch: the mobile app (wallet with bioID)
++ exchange app.
+• 2017, September — global expansion in two directions: to underdeveloped regions (expansion of the network of users in Africa, Asia, South
+America) and to the cities that are crucial to modern business (London,
+Singapore, Hong Kong and San Francisco).
+• 2018 — integration of virtual cards, of fintech start-ups, and further
+decentralization of Humaniq architecture.
+
+9
+
+Technical
+“Architecture is inhabited sculpture.”
+Constantin Brancusi
+
+From the technical point of view, to implement the idea, the following
+ingredients are required:
+1) mobile app, which is what users see. We’re talking about Android app,
+since in underdeveloped regions market share of Android OS is close
+to 95%. Making an iOS App is less important in our case, but for the
+sake of perfection we actively develop it.
+
+Page 17
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+2) appropriate bio-identification/authentication software
+3) such software essentially produces a «chunk» of every person’s identity;
+these chunks are used for identification/authentication and must be
+stored somewhere in decentralized manner
+4) these chunks must be encrypted
+5) identification procedure must cost zero for end users (at least for the first
+time)
+6) authentication procedure must cost zero for end users (at least for the
+first time)
+7) secure consensus algorithm (e.g. robust blockchain)
+8) transactions should cost zero for senders if possible.
+To satisfy the first and second conditions, it is enough to build the apps,
+and to buy licensing rights for the best available bioID solution. Chapter 9.2
+is devoted entirely to how we made our choice of the solution.
+To satisfy the third condition, we should allow every PC to become a
+Humaniq node. On encryption (fourth condition), our approach is similar
+to Storj and (announced by Ethereum) Swarm’s one.
+To meet the fifth condition, it is enough to specify in the protocol that
+nodes have to add «chunks» of a new person to their database, keep their
+databases synchronized, and are not paid for that. It’s exactly like in Bitcoin:
+full nodes kept on their hard drives containing the ledger of all transactions
+that have ever happened without any financial incentive.
+The sixth condition resolves like the previous one: people verify and
+broadcast identities of authenticating users for free. Again, exactly like in
+Bitcoin: peers verify and broadcast new blocks and transactions, and nobody
+gets paid for that.
+Speaking on condition eight, for the first few months of the network’s
+existence transaction fees will be zero for end users. However, this is to
+be changed in future, since the founders cannot pay Ethereum fees forever.
+We are about to decentralize the project architecture and to make it nondependent on founders, giving everyone the possibility to run a Humaniq
+node.
+We are using Ethereum for the project and the ICO campaign because
+this platform allows us to create a secure solution quickly, with few resources,
+and without loss of quality thanks to:
+
+Page 18
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+Figure 5: The inner structure of the Humaniq platform
+• smart contracts (we plan to conduct the audit of our smart contracts);
+• reliability of a ready and operating blockchain, in contrast to the risks
+associated with deploying own blockchain;
+• future development of the Ethereum project and stated opportunities.
+The only tough issue is the centralization. Humaniq has several components: software part, neural network and database. In the future, all these
+components are to be decentralized.
+
+Page 19
+humaniq.co
+
+Humaniq Whitepaper
+
+9.1
+
+Banking for Unbanked
+
+Issues and responses to them
+
+Humaniq is based on blockchain technology. Major component — transaction settlement will be done on Ethereum blockchain using Standard Token
+(ERC20) contract. New tokens are emitted for every authenticated user and
+the rules of emission are controlled by «Emission smart contract». Humaniq
+servers are responsible for authorization of users on the blockchain via Biometric ID services as well as approving additional token emission. Users will
+only interact with Mobile Wallet for their smartphones.
+Scrupulous readers may say that this system has a number of centralized
+places carrying risks. But there are answers to this:
+1. Each user can use the Ethereum client wallet without using additional
+services.
+2. It should be admitted that Bitcoin protocol add-on services are used
+by an overwhelming majority of Bitcoin users; and this is the normal
+operation of a payment system, and our operation will be based on the
+same principles. And since security issues are undertaken by Ethereum,
+this allows us to focus on the client-oriented decentralized business
+model.
+3. With reference to bio-identification and mobile wallet, we will move
+towards open source and hereafter decentralization.
+4. Besides the above-mentioned, the service development strategy is a
+decentralized business model, i.e. stimulating creation of several mobile wallets by third-party teams, chatbots, exchange services, service
+rendering.
+5. Today there is no technological opportunity to put bio-identification
+into blockchain, however if there is a possibility to help people now,
+and to develop ecosystem of cryptoeconomics — it should be done.
+There are three key components of Humaniq:
+• the app (which is essentially also the mobile wallet)
+• Humaniq servers
+• contracts on Ethereum blockchain.
+
+Page 20
+humaniq.co
+
+Humaniq Whitepaper
+
+9.2
+
+Banking for Unbanked
+
+BioID: technology
+
+We understand that biometry is not finance, and we’re not specialists
+in this technology. As a consequence, we’re actively working with various
+well-established companies, who specialize in computer vision and/or image
+recognition.
+Hence, to execute bio-identification, we are going to invite a solution
+provider when we are ready to make the choice. We have not yet signed any
+formal agreements, and, due to the high responsibility of this step, we are
+not rushing. We plan to announce which service provider we have chosen
+and to provide corresponding formal agreements during the crowdsale.
+
+9.3
+
+BioID: user experience
+
+During the first launch of the Humaniq app, one must pass through the
+bio-identification procedure8 . Otherwise, the Humaniq interface just won’t
+show up.
+This bio-identification is arranged as follows. A registrant is required
+to make a photo of themselves with the smartphone, to record a video of
+smiling and grinning, and to pronounce the text shown on the screen. To
+avoid counterfeits, the device ID is added and the text is chosen at random
+out of very large pool; it eliminates the ability to use pre-prepared audio
+tracks. All the instructions are shown on the mobile phone screen, so of
+course no prerequisite knowledge is needed to use the app; you don’t need to
+know anything about the app in advance. You may download the app from
+Google Play and try it yourself.
+This authentication method takes less than five seconds and requires no
+e-mail, SMS, passport, and you don’t have to worry about losing or forgetting
+your password. This is the real proof of identity.
+
+9.4
+
+Mobile Wallet
+
+The Mobile Wallet is an interface for mobile (iOS, Android) users that
+provides them with quick access to their balances and lets them transact
+with other users/merchants.
+The Mobile Wallet manages private and public keys for the user, which
+are used to sign transactions locally.
+8
+
+Fortunately, a frontal camera and a microphone are now built in all devices.
+
+Page 21
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+It also has a built-in module for collecting biometric user data, such as
+voice and video, which can be used to bind a user with their identity and
+provide them with additional features of the platform, such as action-based
+emission.
+The Mobile Wallet also includes an API for third-party developers so
+they can interact with the Wallet: access balances, send transactions.
+
+9.5
+
+Contracts on Ethereum blockchain
+
+There are two contracts that are already deployed on the blockchain.
+First one is Standard Token Contract (ERC20) that keeps track of user
+balances and allows them to transfer tokens between each other. Second
+one is responsible for token emission. However, we understand that with the
+decentralization proceedings we will be involved in the development of an
+ample web of contracts; follow our Github to stay keen on updates.
+
+9.6
+
+Sending a transaction with Mobile Wallet
+
+1. Transaction is generated on the smartphone and then signed using local
+private key.
+2. Signed transaction data is submitted to Humaniq servers.
+3. Transaction is relayed to the Ethereum blockchain to the Humaniq
+Token Smart Contract.
+
+9.7
+
+Sending transactions without Mobile Wallet
+
+1. If the user already has Humaniq tokens they might transact directly
+using Token smart contract bypassing Humaniq servers.
+2. After signing the transaction user might send it directly to Ethereum
+blockchain.
+3. This brings an advantage of control over the transaction publication
+and propagation (because there might be a delay due to a high load
+on the Humaniq servers).
+
+9.8
+
+Coins are integer
+
+Any Humaniq balance cannot be fractional. It can only be integer. We’re
+targeted at providing undereducated people with modern finance, and we
+
+Page 22
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+don’t expect all of our users to be great at fraction calculus. The integer
+amount of coins makes it easier for undereducated people to count their
+money.
+
+10
+
+Conclusions
+
+The Humaniq project was launched to create a financial infrastructure for
+people who were previously isolated from it. We are using the most advanced
+and mass technologies: the blockchain with the possibility to connect thirdparty projects, a mobile application, along with bio-identification. Humaniq
+will also add to the science of cryptoeconomics, the well-being of developing
+countries, and can even benefit the European economy.
+For cryptoeconomy:
+• expanding the amount of cryptoeconomy users will result in a positive
+development in this industry
+• original inherently friendly and open source architecture of Banking
+4.0 will help start-ups to get instant access to customers around the
+world and obtain financial support from the Humaniq project
+• bio-identification will allow testing reputation systems and personalized interaction programs, introducing this realm to charitable organisations, NGOs and United Nation services.
+For developing countries:
+• poverty level reduction
+• remote work and economic growth: greater opportunities for savings
+will increase the lending capacity of the population; collection of customer financial data will reduce lending risks
+• innovation and infrastructure: electronic finances will allow the creation of new business models and products
+• reduction in class inequality: financial services can provide new opportunities for billions people living on less than $2.50 a day and bring
+them to the middle class, greatly improving their lives
+
+Page 23
+humaniq.co
+
+Humaniq Whitepaper
+
+Banking for Unbanked
+
+• establishing gender equality: engaging the female population in the
+electronic finance system will raise incomes of health care and education systems; a barrier for women in financial account registration
+will dissolve, and women will have more control over their funds and
+business
+• improving the quality of education through remote access and payment
+capabilities.
+For the EU:
+• improving the economic situation in third world countries will reduce
+the current immigration challenges faced by advanced economies, particularly in the European Union where the influx is creating huge
+strains on the social welfare systems and high costs associated with
+the problem.
+Humaniq is not welfare or charity, we are more about empowering people to change their lives and pull themselves out of economic disparity by
+participating in a new digital economy that they can help build.
+
+Page 24
+humaniq.co
+
+

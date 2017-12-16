@@ -1,0 +1,1231 @@
+ABSTRACT:
+This whitepaper describes a comprehensive platform for remote online
+real estate transactions using Smart Contracts. Propy is a proposed
+implementation of this platform, which intends to reduce reliance on
+intermediaries while improving liquidity and security.
+CONTENTS
+1. INTRODUCTION........................................................................................... 3
+1.1 BACKGROUND........................................................................................ 3
+1.2 THE PROBLEM....................................................................................... 3
+1.3 THE SOLUTION....................................................................................... 4
+1.4 BLOCKCHAIN AS A NEW STANDARD FOR PROPERTY REGISTRIES......... 5
+1.5 TECHNOLOGY LIMITATIONS................................................................... 6
+1.6 SMART CONTRACTS FOR THE EXISTING LEGAL FRAMEWORK............. 7
+1.7 TOWARDS A DECENTRALIZED P2P SYSTEM.......................................... 9
+1.8 REGULATION CHANGE........................................................................... 9
+2. PROPY PLATFORM V.1.............................................................................. 11
+2.1 PROPY - ONLINE PROPERTY STORE...................................................... 11
+2.2 PROPY REGISTRY - GLOBAL TITLE REGISTRY........................................ 13
+2.2.1 PROPY REGISTRY SMART CONTRACTS ARCHITECTURE............. 14
+2.3 COMPLEMENTARY SOFTWARE COMPONENTS................................... 17
+2.3.1 PROPY EXPLORER........................................................................ 17
+2.3.2 API LIBRARIES............................................................................. 19
+2.3.3 DATA STANDARDS....................................................................... 19
+2.4 TRANSACTION PLATFORM V.1. PROTOTYPE WORKFLOW................... 20
+3. PROPY PLATFORM V.2 FOR DECENTRALIZED P2P SALES........................ 23
+3.1 OVERVIEW........................................................................................... 23
+3.2 SMART CONTRACTS PARTICIPANTS..................................................... 23
+3.3 WORKFLOW......................................................................................... 24
+4. BUSINESS MODEL..................................................................................... 25
+5. PROPY TOKEN (PRO)................................................................................. 26
+5.1 INTRODUCTION................................................................................... 26
+5.2 REGISTRY FEES..................................................................................... 27
+5.3 TOKEN FLOW OVERVIEW.................................................................... 27
+5.4 ECONOMIC MODEL............................................................................. 27
+5.5 PROPY REGISTRY FEE USAGE............................................................... 28
+5.6 NETWORK GROWTH............................................................................ 28
+5.7 DONATIONS......................................................................................... 29
+5.8 COMPANY............................................................................................ 30
+6. CONCLUSION............................................................................................. 31
+
+PROPY WHITE PAPER
+
+2
+
+1. INTRODUCTION
+1.1 BACKGROUND
+Throughout history, real estate has arguably served as the most stable
+store of value. Together with labor, as Adam Smith noted in The Wealth
+of Nations, land serves as not only a store but a producer of wealth1. Real
+estate’s popularity over the years has been derived from the fact that not
+only is land typically an asset which nearly always appreciates in value, but
+also is often an income-producing asset, generating further capital wealth
+for its owners. While beneficial for 16th-century nobles to find a safe
+place to store value, real estate’s illiquidity nowadays presents significant
+inefficiencies for investors, especially those buying properties abroad.
+Despite these inefficiencies, the overseas property market is significant
+and growing. Between 2009 and 2016 the demand for cross-border real
+estate transactions increased 334% from $65 billion to $340 billion2. We
+believe this market should be and can be much, much larger.
+1.2 THE PROBLEM
+Today, the global real estate market is worth $217 trillion and makes up
+more than half the value of all mainstream assets worldwide3. One great
+differentiator between real estate and other major asset classes is liquidity.
+Compared to exchange-traded securities such as equities and government
+bonds, real estate markets are not as organized or efficient as other
+markets, with incredibly slow transaction times and less efficient price
+discovery mechanisms. As a result, substantial capital is trapped in less
+liquid investments, often concentrated in certain geographic areas devoid
+of domestic investment opportunities. While many investors with excess
+liquidity would welcome the opportunity to invest in foreign real estate
+assets, there are currently substantial impediments to such investment
+activity.
+China is an excellent example of this problem. Currently, Chinese citizens
+are among the largest groups of foreign investor in the U.S. real estate
+
+Smith, A. The Wealth of Nations. 1776.
+Savills, Around the World in Dollars and Cents. 2017.
+3
+Savills, Around the World in Dollars and Cents. 2017.
+1
+2
+
+PROPY WHITE PAPER
+
+3
+
+1. INTRODUCTION
+
+market. Chinese investors own over $28 billion in U.S. residential property4.
+However, the total value of the U.S. residential real estate market is over
+$29 trillion5. Foreign investment in the U.S. residential sector could be
+potentially equal to hundreds of billions of dollars if foreign investors
+were properly educated on how to invest and provided with the facility to,
+among other things, close real estate transactions online. In the current
+market, Chinese who intend to invest in foreign real estate mainly rely on
+family and friends to obtain referrals to local brokers, who in turn work with
+international brokers in selling a property. This process is time-consuming,
+involves too many intermediaries, and often, the property the buyers are
+seeking for is sold to another investor before the process is complete.
+The core of the problem is the lack of international standards or
+comprehensively available platforms for the electronic transfer and
+recording of real estate. Each country (and in some cases, as in the
+United States, even individual counties) maintains its own registry
+and establishes national (or local) rules for property deed registration
+and transfers. Moreover, legacy property rights registry systems were
+developed to handle local real estate transfers but are ill-equipped to
+handle international ownership transfers. As a result, there is an inferior
+experience for people on both sides of the marketplace. Additionally, the
+informality of procedures prevalent in certain jurisdictions makes them
+particularly susceptible to fraud or tampering. There is currently no single
+tool available that allows a property investor to research, pay for, and
+reliably secure and record ownership of international property online.
+1.3 THE SOLUTION
+Propy aims to solve the problems facing international real estate transactions
+by creating a novel unified property store and asset transfer platform for the
+global real estate industry. Initially the Propy Registry will mirror official land
+registry records in which transfers of real estate are recorded. Ultimately,
+however, Propy’s vision is that jurisdictions will adopt the Propy Registry as
+their official ledger of record such that the transfer of a property on the
+
+4
+5
+
+Global elite buys trophy apartments. Financial Times. 2015
+How Much is Every Home in America Worth? A Lot. Zillow Research. 2016
+
+PROPY WHITE PAPER
+
+4
+
+1. INTRODUCTION
+
+Propy Registry constitutes the legal transfer of the property and the legal
+registration of that transfer. By leveraging Propy Registry and Propy’s smart
+contracts platform, unnecessary delays and impediments inherent to legacy
+property rights registrations systems could be eliminated. The Propy platform
+seeks to enhance the security of transactions while reducing inefficiencies
+through its innovative use of mobile, cloud and blockchain technologies
+linking buyers, sellers, investors and registries around the world.
+1.4 BLOCKCHAIN AS A NEW STANDARD FOR PROPERTY REGISTRIES
+Blockchain technology holds great promise for a range of industries and
+use cases, including real estate. A blockchain is a type of shared database,
+the contents of which are verified and agreed upon by a network of
+independent actors. In order for a new piece of data (such as the new
+owner of a transferred property) to be added to the blockchain, the
+independent verifiers must come to consensus as to its validity.
+Because each new set of transactions (a “block”) is cryptographically linked
+to the previous block, it is extraordinarily difficult to change data stored
+in a blockchain and any such change would be readily detectable. Thus
+blockchains are widely considered to be immutable and thus can serve as
+a record of proof of ownership.
+When transacting in a blockchain platform, each user makes use of a public
+address (needed for other actors in the network to send a transaction to
+that user), and a cryptographically paired “private key.” Private keys are
+used to sign transactions digitally, a form of authentication to ensure that
+a given user has genuinely generated a transaction.
+Blockchain is a relatively new technology. The first implementation of
+blockchain, Bitcoin, launched in 2009. The Ethereum blockchain was
+released in 2015. In addition to the distributed ledger capability of the
+Bitcoin blockchain, the Ethereum blockchain allows so-called “smart
+contracts,” which are programs stored in the Ethereum blockchain that
+can act autonomously to execute sophisticated transactions6.
+
+6
+
+“Ethereum Whitepaper”, https://github.com/ethereum/wiki/wiki/White-Paper, 2016
+
+PROPY WHITE PAPER
+
+5
+
+1. INTRODUCTION
+
+The rise of Ethereum and other smart contract platforms has allowed the
+creation of decentralized applications, or DApps. A DApp is an application
+whose entire or partial backend code runs on a decentralized ledger with
+a user interface to facilitate interaction with the blockchain code7. Code
+written to the blockchain is publically accessible, and since the code is
+running on multiple computers, there is no central point of failure.
+Blockchain is currently considered one of the most secure technologies for
+digital asset transfer due to its distributed nature and use of sophisticated
+cryptography. Smart contacts, therefore, offer a potential solution for the
+management of real estate transactions via the introduction of a universal,
+distributed ledger that does not require trust in a single third party.
+1.5 TECHNOLOGY LIMITATIONS
+The main limitations of blockchain technology today are:
+1.	Transaction time, which is currently ten minutes on average for
+Bitcoin (blockchain.info) and seventeen seconds on average for
+Ethereum (ethstats.net);
+2.	The cost for each transaction/smart contract execution; and
+3.	The limited ability of the network to interface with real-world
+information.
+Despite these limitations, Propy believes that blockchain technology is
+well suited as a solution to conduct real estate transactions, because the
+number of transactions in real estate trading is relatively low due to the
+nature of the sector and the relatively high value of real estate assets. In
+addition the current transaction time for recording on blockchain is not a
+limitation for the Propy’s solution because otherwise it requires weeks or
+months to acquire a property and complete a transfer of ownership.
+
+7
+
+“Your First DApp”, https://dappsforbeginners.wordpress.com/tutorials/your-first-dapp/, 2017.
+
+PROPY WHITE PAPER
+
+6
+
+1. INTRODUCTION
+
+1.6 SMART CONTRACTS FOR THE EXISTING LEGAL FRAMEWORK
+Propy’s engineering team has designed a real estate transaction tool
+powered by smart contracts, combining solutions from the legal, blockchain
+and payments industries. Using blockchain technology, Propy has prototyped
+some of the core technology that will become the Propy Registry as a DApp
+that allows each party to a real estate transaction — including the broker,
+buyer, seller and title agent/notary—to sign off on a transaction for properties
+located in California, which is Propy’s intended first market. The workflow
+of the processes has been built to meet the market rules within the legacy
+property rights registry systems currently existing in the state of California.
+The goal of launching the Propy platform only in California at first is to allow
+the current prototype to be narrowly focused on driving consumer testing,
+adoption and improvements within a closed test market. Thereupon, Propy
+will seek to implement the Propy solution and drive continuous rapid growth
+throughout key markets around the world.
+Ultimately, the Propy Registry will make it possible for every single step of a
+real estate transaction, from the buyer’s reservation of the property to the
+signing of the purchase agreements for the delivery of the title deeds, to be
+recorded on blockchain and executed with smart contracts.
+However, due to blockchain’s new and innovative nature, Propy recognizes
+the existence of regulatory and infrastructure limitations in the current
+technology as applicable to real estate transactions and is in the process of
+building a multi-stage solution to be gradually phased in over time.
+The first iteration of the Propy DApp (which includes a centralized interface
+and decentralized smart contracts) intends to streamline existing real estate
+market processes by, among other things, reducing the need to rely on the
+multiple intermediaries currently involved in the real estate transactions.
+While aspects of the process will be partly decentralized, it will primarily
+make the current real estate transfer process easier to manage and more
+transparent. As it develops, Propy intends to transition towards a pure
+P2P decentralized system that obviates the need for most of the existing
+intermediaries involved in real estate transactions today. We note that certain
+intermediaries performing physical functions such as property inspection
+will remain part of the transaction process at least in the immediately
+
+PROPY WHITE PAPER
+
+7
+
+1. INTRODUCTION
+
+foreseeable future. The final stage in that evolution would be the adoption
+of the Propy Registry as the legal ledger of record for real estate title
+transfers in a given jurisdiction. Based on the founders’ many years of crossborder property purchase experience to date, we anticipate that emerging
+markets, hungry for investments in real estate and less encumbered by
+entrenched special interests, such as bureaucracy, corruption and too many
+intermediaries, will see the benefits of a pure P2P transaction model. Propy
+has already begun the process of accelerating this transition across multiple
+metropolitan markets by talking to governments, local lawyers and local real
+estate players. The team has developed a network of brokers in the UAE, UK,
+U.S. and a pipeline of international customers from Asia.
+
+FIGURE 1. Development Roadmap.
+
+PROPY WHITE PAPER
+
+8
+
+1. INTRODUCTION
+
+1.7 TOWARDS A DECENTRALIZED P2P SYSTEM
+Traditionally, international standards are established via conventions, laws
+and regulations enacted by governments. As a result of the lack of standards
+with international scope, the current electronic land title registry solutions
+function as multiple incompatible sets of siloed data which must be manually
+parsed and translated to work with external platforms. The Propy Registry
+can solve that problem. In order to do so, and for the Propy Registry to
+ultimately deliver on its full promise, it will need to transition from a ledger
+that mirrors official land registry ledgers to being the official ledger of record.
+For a government to adopt this technology, it would need to recognize the
+legality of the electronic deeds and the ledger. Propy is actively engaging
+with local and state governments to accelerate the acceptance of the
+Propy Registry as a legally valid ledger of record for real estate transfers.
+Additionally, Propy is working with the governments of several emerging
+countries where, due to systems’ inefficiencies, corruption and the lack of
+regulatory complexity, a transition to a new system is expected to be more
+straightforward; the specific countries to be disclosed in due course as
+partnerships are confirmed.
+1.8 REGULATION CHANGE
+There are two possible legislative environments we are currently
+preparing for:
+1.	The first one would be the current context, where governments
+recognize their legacy databases as the exclusive legal evidence of
+ownership. In this environment, Propy intends to initially conduct
+business and thus, the current development of Propy is geared towards
+mirroring government records in the blockchain with the goal of
+providing a platform for foreign real estate investors to conveniently
+and remotely carry out property transactions. The Propy Registry
+acts as a source of fast delivered evidence of property transfer for
+brokers and serves as a mirror of the ownership transfers currently
+taking place at the title registries of the targeted markets (U.S., UK,
+UAE). Brokers who focus on foreign real estate investments, have
+expressed the need to have available technology that could allow
+
+PROPY WHITE PAPER
+
+9
+
+1. INTRODUCTION
+
+the online processing of real estate purchases with the additional
+layers of security that the Propy Registry intends to provide.
+2.	The second legislative environment would arise when progressive
+governments start recognizing the benefits of ownership transfers
+on blockchain as a more desirable alternative instead of trying
+to continue to enhance the existing real estate registries. The
+widespread adoption of a blockchain system to manage real estate
+titles positions Propy to provide a sole, decentralized source of
+validation for real estate transactions.
+
+BEFORE PROPY:
+Offline steps
+
+Registry
+
+Bank X
+
+Escrow Agent*
+Title Deed
+
+Buyer
+
+Portals
+
+Manual
+Processing
+
+Ownership Verification
+
+Title Agent*
+
+Ownership Recording
+Land Registry
+
+Seller
+Attorney for Title
+Delay or Risk
+
+*
+Bank Y
+
+Notary
+
+Title insurance and title
+agent are relevant for the
+US. In some countries the
+role of the title agents
+is played by others, i.e.
+notary and lawyers.
+
+FIGURE 2. Legacy title transfer.
+
+PROPY WHITE PAPER
+
+10
+
+2. PROPY PLATFORM V.1
+Propy consists of multiple software components, as further described
+below.
+2.1 PROPY - ONLINE PROPERTY STORE
+Propy is an online global real estate store, allowing buyers, sellers, brokers,
+and escrow/title agents/notaries to come together through the utilization
+of a suite of smart contracts to facilitate transactions. Propy provides a
+network for these actors to connect with each other and conduct real
+estate purchases online.
+The culmination of the transaction is a digital transfer of ownership on the
+Propy Registry. For more information about these processes and smart
+contracts, please refer to section 3.
+As of the date of this paper, the Propy DApp has been developed to
+allow users to find properties and initiate the purchase process. The
+current system consists of the following features and primary functions:
+•	 Web-based platform Propy & iOS App
+Propy;
+•	 Messenger;
+•	 Localization in site and application is
+available in Chinese, Russian, and Arabic;
+•	 Brokers’ activity (check-ins, reviews);
+•	 Module for data aggregation and
+standardization of property listings.
+Currently works with eight types of data
+feeds;
+•	 Off-market subscription providing access
+to locked property listings;
+•	 Neighbourhood data: air-pollution, walk
+score, schools; and
+•	 Reservation fee payment.
+
+PROPY WHITE PAPER
+
+11
+
+2. PROPY PLATFORM V.1
+
+The existing product uses the following technology:
+A.	Server: C# with .NET Web API Service, MongoDB Database with
+two replica sets, OAuth authentication, all services hosted on
+Microsoft Azure;
+B.	iOS Application Client: ObjectiveC, supports all phones with
+minimum version of iOS8 - https://itunes.apple/us/app/propybuy-rent-properties/id1017369540?mt=8;
+C.	Website, www.propy.com: ASP.NET 4, MVC 5, React.js; and
+D.	Web-based Transaction Platform prototype: open Ethereumbased blockchain, Java, web3, truffle.
+In the future, Propy intends to use a distributed database to store listings as
+an intermediate step along the way to a decentralized solution. The mobile
+app and the desktop application would have a digital wallet to store Propy
+Utility Tokens (PROs) and users would be able to store in those wallets the
+PROs that they collect via the rewards programs that are further described
+in Section 5 below.
+	
+
+PROPY WHITE PAPER
+
+12
+
+2. PROPY PLATFORM V.1
+
+2.2 PROPY REGISTRY - GLOBAL TITLE REGISTRY
+Each property has a unique title that serves as evidence of ownership. The
+ownership of properties is usually tracked by the recordation of such titles in
+organized property registries which are managed by regional governmental
+organizations. As previously discussed, Propy aims to develop the Propy
+Registry with the ultimate goal of becoming a global registry for title deed
+ownership information, which would be made available to worldwide
+entities, similar to a DNS8 system for website domains.
+
+WITH PROPY AND BLOCKCHAIN
+
+Title Deed
+
+Buyers’ Banks
+
+Payment
+
+Ownership Verification
+
+Buyer
+Approve
+Unified distributed Ledger
+with Smart Contracts
+
+Current Title / Land Registry
+
+Ownership Recording
+
+Payment
+
+Title Deed
+Seller
+
+Sellers’Banks
+
+FIGURE 3. Interaction of transaction participants via the blockchain,
+described in further detail in Section 2.4
+
+Domain Name Servers (DNS) are the Internet’s equivalent of a phone book. They maintain
+a directory of domain names and translate them to Internet Protocol (IP) addresses.
+8
+
+PROPY WHITE PAPER
+
+13
+
+2. PROPY PLATFORM V.1
+
+As the Propy Registry evolves into a system that enables buyers to validate
+real estate transactions legally, Propy intends to include a modular system
+to allow regional governments to provide country-specific rules and
+regulations related to real estate transactions that would be incorporated
+into the Propy’s smart contracts platform. The set of smart contracts
+developed to date are able to assist executing a real estate purchase within
+the current market and legal infrastructure in California, i.e. in compliance
+with rules and policies of escrow and title companies and in compliance
+with the California laws governing the recording and purchase process
+rules.
+2.2.1 PROPY REGISTRY SMART CONTRACTS ARCHITECTURE
+Propy Registry consists of multiple contracts interacting with each
+other, and follows a microservices architecture approach9. Each
+contract is responsible for a single type of record in the system. Each
+contract contains functions that allow the creation and modification of
+records, contract updates and other administrative functions.
+The list of contracts that have been developed to date and a brief
+description of their functions are listed below:
+A.	Title Contract:
+a.	Responsible for storing and updating property metadata
+on the blockchain; and
+b.	The PROs are used to unlock the services within the
+Propy platform that would permit creating and updating
+property records.
+B.	Deed Contract:
+a.	Manages relevant information for Escrow services;
+b.	Tracks and initiates the invitation of participants in the
+transaction (i.e. title agent); and
+c.	 Requires PROs to create and update deed related records.
+
+Microservice architecture is a method of developing software applications as a suite of
+independently deployable, small, modular services in which each service runs a unique
+process and communicates through a well-defined, lightweight mechanism to serve a
+business goal.
+9
+
+PROPY WHITE PAPER
+
+14
+
+2. PROPY PLATFORM V.1
+
+SMART CONTRACTS
+TITLE
+CONTRACT
+
+DEED
+CONTRACT
+
+IDENTITY
+CONTRACT
+
+Titles
+
+Deeds
+
+Identities
+
+Administrator
+Pub. key
+(Propy)
+
+Administrator
+Pub. key
+(Propy)
+
+Administrator
+Pub. key
+(Propy)
+
+PROPY
+WEBSITE & APP
+Identity Verification
+
+Registry
+administrator
+ECDSA private key
+
+ECDSA
+Private Key
+
+Title Deed
+Recording
+Recording Office /
+Land Registry
+
+Identity
+Data
+(private)
+
+Transfer
+Notary Office /
+Title Company
+
+FIGURE 4. Interaction between the Propy smart contracts and the real
+world data.
+C.	Identity Contract:
+a.	Stores multiple records with identity information for all
+users of the system; and
+b.	Contains KYC features for verifying legal identity.
+
+PROPY WHITE PAPER
+
+15
+
+2. PROPY PLATFORM V.1
+
+The list of contracts which are currently under development and a
+brief description of their functions are listed below:
+A.	Agreements Contract:
+a.	Stores instances of various legal agreements (purchase
+agreements, inspection reports, disclaimers), that need to
+be digitally signed for Deed transactions.
+B.	Electronic Signatures Contract:
+a.	Stores digital signatures for all documents, participating in
+the Propy Registry;
+b.	Allows to having multiple signatories acting in different
+capacities in the same document; and
+c.	 Validates digital signature’s format.	
+
+IDENTITY
+
+TITLE
+
+ID
+Name
+Signature
+
+ID
+Address
+Status
+Current Owner
+
+DEED
+ID
+Seller_ID
+Buyer_ID
+Status*
+Propy_ID
+* Status:
+•	 waiting for deposit
+•	 security deposit received
+•	 full payment received
+•	 payment released
+
+AGREEMENTS
+ID
+Doc Type
+Deed ID
+
+ROLE
+WHITELIST
+
+ELECTRONIC
+SIGNATURE
+Agreement ID
+Role
+Signature ID
+Signature Hash
+
+Person ID
+Role
+
+FIGURE 5.
+Smart contracts architecture.
+
+PROPY WHITE PAPER
+
+16
+
+2. PROPY PLATFORM V.1
+
+C.	Payments Contract:
+a.	Manages the initiation of payment requests.
+b.	Tracks status of payment requests.
+c.	 Confirms authenticity of payments using variations
+of SPV algorithm (Simplified Payment Verification).
+Specific implementations will vary depending on each
+payment processor.
+D.	Escrow Contracts:
+a.	Contains Escrow/Title Agent functionality (adding
+data about the escrow account number, title transfer
+signing).
+b.	Allows a verified Escrow Agent to lock and release
+payments.
+c.	 Individual Parties Contracts: related to a particular real
+person. Contains KYC features.
+The fig. 5 diagram visualizes the information, roles and interaction
+between each of the smart contracts, described above.
+The following participants are involved in different capacities in
+the smart contracts:
+1.	Seller
+2.	Buyer
+3.	Broker
+4.	Escrow/Title Agent (or Notary)
+5.	Recording Office (or Title Registry)
+6.	Money Transmitter
+7.	Real Estate Inspector
+2.3 COMPLEMENTARY SOFTWARE COMPONENTS
+Propy will seek to develop a number of complementary software
+components for the Propy Registry to accelerate the growth of the network.
+
+PROPY WHITE PAPER
+
+17
+
+2. PROPY PLATFORM V.1
+
+2.3.1 PROPY EXPLORER
+The contract explorer, Propy Explorer, is an open and extensible front
+end which acts as a gateway for accessing information about properties
+and transactions in the Propy Registry, as well as Propy Utility Tokens.
+For more details about Propy Utility Tokens, please see section 5.
+Propy Explorer intends to provide a sleek interface, within which
+users can search within the Propy Registry. Propy Explorer receives
+data from two locations: Propy’s central database, and Propy Registry.
+Propy Registry only handles real estate title ownership, while more
+sizeable data, such as images, property description, purchase
+agreement content, come from Propy’s central database (storage may
+be decentralized in the future). Users view transactions within those
+databases through Propy Explorer.
+
+PROPY EXPLORER
+GLOBAL LISTING
+STATISTICS
+
+Search
+
+ACTIVE
+PROPERTIES
+
+Properties
+Owners
+Transactions
+Total $ spent
+$ spent this payout period
+
+Address
+Status Change
+Value Estimate
+Address
+Status Change
+Value Estimate
+
+ACTIVE
+USERS
+Name
+Properties
+Name
+Properties
+Name
+Properties
+
+RECENT TRANSACTIONS
+Address
+Status Change
+Value Estimate
+
+Ownership
+Purchased by:
+
+Name
+Properties
+
+FIGURE 6. Propy Explorer UI Mockup.
+
+PROPY WHITE PAPER
+
+18
+
+2. PROPY PLATFORM V.1
+
+2.3.2 API LIBRARIES
+Propy is developing API libraries to enable easy access to registry
+data for third-party applications. The libraries interact directly with
+the smart contracts and do not rely on the availability of the Propy
+website or other centralized components.
+2.3.3 DATA STANDARDS
+Propy plans to develop standards for storing real estate title deeds on
+the blockchain, which would consist of a set of metadata such as the
+address, owner details, right typology, property typology, coordinates,
+property condition. The Propy team has extensive experience and
+in-depth knowledge of the real estate market in the U.S., European
+countries, the Middle East and China. That experience is intended to
+help build universal data standards, constructed from the metadata
+enumerated above, that can be adopted globally.
+Propy standards and developer’s APIs are intended to empower an
+entire ecosystem of real estate applications.
+Propy has undertaken the challenging mission of developing industryaccepted data standards for real estate transactions, being cognizant
+of the present obstacles associated with interoperable data and
+metadata that have been growing in industries such as for example
+geospatial technologies (Open Geospatial Consortium), electronics
+(Sematech), medical devices, and other activities.
+Typically, interoperability standards definitions proceed most
+successfully through a strategic mixture of:
+A.	Mapping the ecosystem of stakeholders who generate, use,
+analyze and repurpose the data;
+B.	Designing a prototype platform demonstrating the economic
+and technical costs, risks and inability to reuse or trust data
+exchanged in its pre-standardized form;
+C.	Identifying early adopters and innovative thinkers across the
+ecosystem for whom the costs and risks are a burden, and
+
+PROPY WHITE PAPER
+
+19
+
+2. PROPY PLATFORM V.1
+
+to whom or by whom innovative uses of standardized data
+would be of benefit;
+D.	Mapping the transactional flow of data, in a typical use case,
+in order to see how the data is already defined as standardized
+by specific processes as “trusted in use”;
+E.	Extracting the trustworthy data definitions, and creating a
+concordance (often via APIs) in order to tag trusted data by
+the process that created or used it;
+F.	Developing the technical specifications for qualifying the
+standardized data and metadata;
+G.	Proposing the standard data definitions to the stakeholders
+who operate, use or rely on the business process; and
+H.	Seeking ISO or other international standards setting
+organizational approval of the standards so that ISO-compliant
+software, hardware and services can expand the supply,
+demand and utility of standardized interoperable data.
+2.4 TRANSACTION PLATFORM V.1. PROTOTYPE WORKFLOW
+Below is a description of the main flow of activities expected to occur
+in the Propy platform as currently envisioned for a real estate purchase
+in California:
+1.	Buyer finds a property for sale in the Propy DApp.
+2.	Buyer provides a flat reservation fee (approximately $5,000) to
+ensure that he or she has a legitimate interest in purchasing a
+property. Broker sends the notification to seller about the offer
+submitted by buyer and invites the seller to get registered in Propy
+to close the deal. Seller accepts the deposit, and thus the offer.
+Buyer and Seller both provide KYC/AML documentation. The KYC
+process is outsourced to a third party provider such as Civic.
+3.	Purchase and Sale agreement is generated by Propy and sent to
+the parties.
+a.	The Title Contract establishes the parameters of the
+transaction in order to comply with applicable regional
+regulations.
+4.	Propy performs ownership verification at Propy Registry via Escrow/
+Title agent participation at Propy’s system.
+
+PROPY WHITE PAPER
+
+20
+
+2. PROPY PLATFORM V.1
+
+5.	Buyer receives notification that ownership has been verified and
+signs the agreement electronically.
+6.	If the price proposed by the buyer is accepted by the seller, she will
+proceed to electronically execute the agreement.
+7.	If the buyer in connection with the property purchase opted to
+perform a property inspection (and appraisal), then within seven
+days, Propy would provide, at an additional cost, an inspection
+report prepared by a third-party service provider.
+8.	Money is transferred to an escrow account, set by an Escrow/Title
+Agent at the dashboard in Propy DApp, either in one transfer or X%
+deposit and Y% in installments. Fiat currency will be used.
+9.	Propy generates the payment form for Buyer and tracks the
+payment with its payment processor partner(s).
+10.	Propy marks payment as received on Payment Smart Contract
+Status once the wire transfer arrives as per notification by the
+payment processor partner(s).
+11.	Propy verifies again the ownership at the Propy Registry ledger
+and via third parties such as title company and records the asset
+transfer on the Propy Registry in “Pending” mode, notifies the
+Recording Office and sends the blockchain hash to the recording
+office and to all the other parties involved.
+12.	Prepare property for the transaction.
+a.	Propy notifies Seller and Buyer that the funds have been
+received and ownership is clean and “Pending.”
+13.	Sign electronic Transfer of Title Deed with Escrow/Title Agent.
+a.	Propy generates Title form for Buyer and Seller to sign.
+b.	Seller accepts and signs a Title Transfer contract at the Escrow/
+Title Agent’s Office (or E-notary in the future).
+c.	 Buyer accepts and signs the Title Transfer contract/
+d.	E-notary verification takes place or Title Agent signs the deed.
+Transferring property ownership.
+14.	Escrow Agent submits the sale closing documents to recording
+office.
+a.	Recording office changes ownership records.
+b.	Propy issues own electronic title deed with blockchain hash
+and QR code to the buyer (All the documents collected
+during the transaction besides the title deed are enforceable.
+We believe this will be a catalyst for the Propy title deed to
+become enforceable as well).
+
+PROPY WHITE PAPER
+
+21
+
+2. PROPY PLATFORM V.1
+
+c.	 Recording Office issues the physical Title Deed via mail to the
+Buyer.
+d.	Escrow Agent distributes money to Seller, Brokers and itself
+and via the dashboard at Propy notifies about the completion
+of this step.
+15.	Deed Smart contract after the notification from step 11 marks
+the transaction as “Completed” on the Propy Registry (shows
+transaction ID here).
+Post conditions: Property’s ownership is changed from Seller to Buyer in
+Propy Registry.
+
+RECORDING
+OFFICE
+
+PROPY
+
+BLOCKCHAIN
+
+Payment, documents
+signing, ect
+Transaction
+started
+Create e-deed
+Transaction for title XXX has started
+
+Update title status
+to locked
+
+E-deed
+is created
+
+Documents
+processing
+Documents processing completed
+
+Deed is executed, title is finalized
+
+Deed
+is approved
+
+FIGURE 7. Propy title issuance and recording within the existing ecosystem.
+
+PROPY WHITE PAPER
+
+22
+
+3. PROPY PLATFORM V.2 FOR
+DECENTRALIZED P2P SALES
+3.1 OVERVIEW
+The following description of technology and processes represents Propy’s
+goals for the future and is subject to change based on regulatory and
+market requirements.
+As mentioned previously, the ultimate vision of Propy is not merely to
+operate within the existing real estate legal infrastructure, but to disrupt
+the legacy system by providing a far superior solution. The Propy team has
+developed an idea for advanced real estate transaction services, provided
+that the legal environment catches up with this disruptive new blockchain
+technology. The Propy Registry, Property Store and other services will
+achieve its full promise if and when land registries are modernized to
+support this technology and recognize the Propy Registry as effectuating
+a binding and legally enforceable change in title. Among the things that
+need to happen to make this possible are:
+1.	Digital signature in public blockchain need to be recognized as
+legally binding.
+2.	An identity system needs to be adopted, it would associate
+individuals with a specific blockchain address (eID cards with
+biometry is one of the options).
+3.	Each government agency, participating in real estate transaction,
+should have a smart contract-based API (especially crucial for
+entities in charge of property taxes estimation and collection).
+4.	All records from real estate land registries should migrate to the
+blockchain.
+3.2 SMART CONTRACTS PARTICIPANTS
+Below is a list of the participants that need to be involved in the smart
+contracts:
+1.	Seller
+2.	Buyer
+3.	Notary or E-Notary or Government Validator
+4.	Broker (optional)
+5.	Real Estate Inspector (optional)
+
+PROPY WHITE PAPER
+
+23
+
+3. PROPY PLATFORM V.2 FOR DECENTRALIZED P2P SALES
+
+3.3 WORKFLOW
+The workflow below gives a high level overview of how a P2P real estate
+transaction would work:
+1.	Seller lists a property in the Propy DApp.
+2.	Buyer finds a property in Propy DApp that matches his criteria.
+3.	Buyer submits an offer via smart contract to the registry subject
+to minimum legally compliant conditions (including specifying
+whether to include an inspection report).
+4.	Seller accepts an offer by signing it with their digital signature.
+5.	Intermediaries perform their actions (inspection and other
+requirements of the smart contract, provided by the buyer).
+6.	Once the conditions mentioned above are met a smart contract
+triggers the payment system for Buyer to pay in cryptocurrency
+(any currency can be supported).
+7.	Smart contract accepts the payment and transfer the ownership to
+the new owner on the Propy Registry once all terms and conditions
+are met.
+As mentioned in (3), we are making the system modular and letting Buyers
+provide a number of conditions and inspection requirements. In such a
+circumstance, the third party involved in satisfying the conditions signs
+the smart contract with a digital signature.
+System notifies intermediaries
+Intermediaries carry out their respective actions, and notify
+the system that their actions are complete
+4
+
+3
+1
+
+Buyer submits offer
+for property
+
+Seller accepts offer
+
+2
+
+6
+Intermediaries
+
+Buyer
+5
+
+Propy Registry on
+Blockchain
+
+Seller
+
+Property changes
+ownership in propy registry
+Cryptocurrency is moved from Buyer to Seller
+
+Figure 7. P2P Transactions in the Propy DApp
+
+PROPY WHITE PAPER
+
+24
+
+4. BUSINESS MODEL
+Propy has a very simple and scalable business model. When a property is
+purchased on the Propy network, Propy takes a small percentage of the
+final purchase price. Propy charges real estate brokers per transaction for
+using Propy’s technology and tools. Payment will initially be made in fiat
+currencies, and cryptocurrencies are plan to be added over time in the
+jurisdictions where it is possible to do so. With a $340bn market size of all
+cross-border real estate acquisitions and dispositions trading annually10,
+the addressable market for Propy is significant.
+The percentage that Propy takes from the final purchase price can be
+smaller than the one currently charged by the existing intermediaries
+in the real estate disposition process. Future expansions of the Propy.
+com platform plan to eliminate multiple intermediaries, which would
+progressively decrease transaction cost over time.
+
+10
+
+“Cross-border capital flows to thrive as world grows older”, JLL, 2016.
+
+PROPY WHITE PAPER
+
+25
+
+5. PROPY TOKEN (PRO)
+5.1 INTRODUCTION
+The PRO tokens are designed to be used to unlock a smart contract for
+title transfer in the Propy Registry. PRO tokens are built on the ERC-20
+token standard, which allows for simple integration into users‘ wallets.
+The essential and obligatory steps for a real estate acquisition on Propy
+Registry includes the execution of the Deed Contract and Title Contract,
+which are necessary for the transfer of property title and the recording
+of the change of ownership. The Propy Registry, will require the use of
+PROs to pay the associated “Registry Fees” to record these modification
+on blockchain.
+Using PROs in the Propy platform is intended to be simple and user
+friendly. Users would initiate the writing of new data to the Propy registry
+via Propy’s interface, whether that data would result in the creation of
+new title, or transferring a title already recorded in the system.
+As such, the use of PROs will be necessary to access the services provided
+in the Propy platform, as it would act as:
+•	 A uniform method of settlement for interacting with Propy Registry,
+which reduces time delays and independence from any particular
+fiat currency.
+•	 A decentralized registry requires some barrier to entry to initiate
+transactions, otherwise the Propy network would be overloaded
+with unnecessary records. The usage of PROs is crucial for the
+network in order to prevent spam. If requests to write new
+information to the network were free, attackers could repeatedly
+send faulty requests; this ‘blockchain bloat’ would prevent genuine
+requests from reaching validators in the network.
+
+PROPY WHITE PAPER
+
+26
+
+5. PROPY TOKEN (PRO)
+
+5.2 REGISTRY FEES
+As defined in section 2.2.1, the following contracts will require fee
+payment:
+•	 Title contract — for all operations, that require creation and
+updates of title records.
+•	 Deed contract — for all operations, associated with creation and
+updates of deeds.
+The company will develop a method to insure that the Registry fees remain
+within a reasonable range relative to comparable services priced in fiat.
+5.3 TOKEN FLOW OVERVIEW
+The specific flow of PROs would be slightly different for users who already
+own PROs than for those who do not at the time of the property purchase.
+The users who do not own PROs have to buy them in the third party
+marketplaces in order to transact.
+Below is a description of the basic flow of PROs:
+1.	Once a Buyer has selected a property to buy, it will initiate the
+transaction via the Propy website/application.
+2.	As Buyer goes through the KYC process, an identity record will be
+created in Identity contract.
+3.	Buyer would then make a Reservation fee payment in fiat and pay
+the Registry Fees in PROs (see section 5.2).
+4.	Records in the Deed and Title Contracts are intended to be unlocked
+and executed as the purchase process occurs.
+5.	The collected PROs are intended to be distributed as per section 5.5.
+5.4 ECONOMIC MODEL
+The PROs have a fixed supply of 100 million. The entire supply of tokens
+will be issued at the beginning of the token sale. New tokens cannot be
+created and the existing ones cannot be destroyed. Therefore, as demand
+rises, there is no corollary increase in supply.
+
+PROPY WHITE PAPER
+
+27
+
+5. PROPY TOKEN (PRO)
+
+The PRO will be necessary to utilize the Propy Registry regardless of
+whether it is accessed through the utilization of Propy services or a third
+party interface.
+5.5 PROPY REGISTRY FEE USAGE
+The PROs paid for the Registry Fees would be distributed as follows: 1/3 would
+be distributed to the company and 2/3 would be added to the Network Growth
+Pool (as defined in section 5.6).
+5.6 NETWORK GROWTH
+Initially, 35% of the total supply of PROs would
+be reserved for network growth. Additionally,
+the network growth pool will receive ⅔ of
+PROs collected from all the transactions as
+described in section 5.5. The network growth
+pool of PROs would be used to incentivize the
+engagement of users in the platform.
+Propy users would receive rewards in PROs
+when undertaking certain actions on the
+platform. For example, when a broker, home
+buyer, or home seller joins the platform, they
+would receive a reward in PROs for doing so.
+This reward system intends to encourage the
+adoption of the Propy platform worldwide. As
+more users join the platform, there could be
+an associated increase in the number of real
+estate transactions performed on the platform.
+Propy also intends to make distributions of
+PROs from the network growth development
+pool to governments and other large
+institutional actors to incentivize the utilization
+of the platform. Propy expects that this would
+accelerate the realization of Propy’s vision —
+
+PROPY WHITE PAPER
+
+28
+
+5. PROPY TOKEN (PRO)
+
+the acceptance of the Propy Registry as a universal, decentralized legal
+ledger for real estate ownership.
+5.7 DONATIONS
+Propy is aware that blockchain technology is not yet mature enough to
+handle the load implied by millions of users, or billions of transactions.
+While current network performance and infrastructure is predicted to be
+sufficient for the future expansion and utilization of the Propy Registry,
+Propy recognizes the importance of continued protocol-level development
+to help achieve the ubiquitous usage of blockchain technology and to
+support the load implied by millions of users and billions of transactions.
+In pursuit of our vision, we are reserving 15% of the total supply of PROs
+for donations to different organizations within the blockchain ecosystem
+to support the improvement of blockchain infrastructure so that it can
+also meet the transactional requirements of Propy and the Propy Registry
+at scale. As part of this effort, Propy plans to donate to the foundations
+such as Ethereum Foundation to support their research and development
+towards scalability. Additionally, Propy plans to make donations to
+support educational efforts in blockchain. Propy also intends to support
+hackathons, Solidity educational programs, and blockchain courses.
+The Donation Tokens will be distributed to foundations selected by the
+company within three months after the crowdsale end date, on the
+condition that the Donation Tokens will be locked for twelve months after
+the crowdsale end date. After they are unlocked, the Donation Tokens can
+be used by the foundations as follows:
+A.	Support of development of blockchain and widespread integration.
+B.	Support of research towards blockchain scalability and identity.
+C.	Support of education efforts in blockchain technology.
+
+PROPY WHITE PAPER
+
+29
+
+5. PROPY TOKEN (PRO)
+
+5.8 COMPANY
+15%, or 15 million of the total supply of PROs is intended to be reserved
+for the company unders following conditions:
+•	 2 million Development Tokens will be immediately available for
+use by the company;
+•	 5 million Development Tokens will be locked for 12 months from
+the Crowdsale End Date;
+•	 5 million Development Tokens will be locked for 24 months from
+the Crowdsale End Date;
+•	 3 million Development Tokens will be locked for 36 months after
+the Crowdsale End Date.
+Once unlocked, the company reserves the right to use the Development
+Tokens for any purposes at its sole discretion. If Company elects to sell any
+of the Development Tokens, the Company will sell such Tokens for a price
+no less than the Price Per Token, and the company may elect to provide
+Bonus Tokens to the purchasers of such Tokens, but the bonus rate will not
+exceed 10%.
+
+PROPY WHITE PAPER
+
+30
+
+6. CONCLUSION
+Propy’s vision is to ultimately enable a global real estate market with a
+unified real-time purchase interface and a decentralized title registry.
+It is being designed to allow real estate assets to become more liquid
+while providing users with greater control over the transaction process.
+To achieve that goal, Propy intends to further the development of a
+new ecosystem of token holders, brokers, governments and end users
+incentivized to support the transition to a seamless, secure, and globally
+recognized real estate transaction network.
+Propy expects that if it succeeds in carrying out its vision the following
+will occur:
+•	 It is anticipated that brokers and real estate corporations will
+progressively start using the Propy platform to access foreign
+buyers in an easier way and to be able close transactions nearly
+instantly and securely online.
+•	 Governmental entities, notaries and title companies need a system
+to transfer data among each other and combat fraud and, in some
+cases, corruption in global real estate markets. Propy proposes
+that governments could use the Propy platform to improve the
+transparency of local real estate markets and therefore improved
+attractiveness for foreign investors.
+•	 Finally, most importantly, the consumers — buyers and sellers —
+will be able to buy and sell real estate assets faster, cheaper, and
+more securely.
+
+PROPY WHITE PAPER
+
+31
+
+

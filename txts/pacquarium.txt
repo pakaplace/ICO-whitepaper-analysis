@@ -1,0 +1,778 @@
+CHRONOBANK - PHASE 1: A NON-VOLATILE DIGITAL TOKEN BACKED BY
+LABOUR-HOURS
+
+THE CHRONOBANK TEAM
+CHRONOBANK.IO
+INFO@CHRONOBANK.IO
+
+Abstract. This whitepaper abstractly describes a system designed to tokenise labour-hours using blockchain
+technology. ChronoBank is a proposed implementation of the described system that can be deployed in several
+economic localities. The proposed system leverages smart contract techniques to automate a process whereby
+a country-specific ‘labour-hour’ token may be redeemed for real labour-hours via legally binding (traditional)
+contracts with labour-offering companies. The proposed ‘stable-coin’ implementation provides a non-volatile,
+inflation-resistant digital asset transfer system.
+
+1. Introduction
+
+centralises the entire wealth of the system. Typical stablecoins are also subject to fluctuations in the value of their
+underlying asset. While these fluctuations are usually very
+small when compared with fluctuations in traditional cryptocurrencies, they are still significant. For example, USDT
+is subject to the devaluation of USD due to inflation.
+In this paper, we propose a stable cryptocurrency system which addresses the aforementioned drawbacks of
+existing stable currency solutions. Specifically, we propose
+a new type of token which is not backed by any existing
+fiat currency or physical store of wealth, but instead is
+backed by legally binding contractual obligations to provide real-world labour-hours. As such, the system and its
+controlling entity are not responsible for the centralised
+storage and management of wealth. Further, the value of
+an unskilled labour-hour in a particular geographic region
+naturally adjusts according to economic conditions such
+as inflation, thereby maintaining the long-term intrinsic
+value of the cryptocurrency.
+This paper is organised as follows: In Section 2 we provide an overview of the system as a whole before discussing
+the technical details of the necessary system components
+and processes. Section 3 provides economic considerations
+in brief, regarding the real-world deployment of this system
+and its feasibility. Finally, Section 4 discusses future directions and applications of the system and of ChronoBank.
+The appendix of this document provides supporting reference of several concepts introduced throughout the paper.
+In particular Appendix B and C list the variables that encapsulate the functionality of the system. These variables
+are also summarised in Table 1.
+
+With the advent of cryptocurrencies, relatively instant low-cost transfers of value have become a reality.
+Blockchain technology, which is a defining feature of most
+cryptocurrencies, has recently been applied to solve a great
+variety of problems. Currently the most widespread implementation of blockchain technology is Bitcoin [1], which is
+a simple asset transfer system. The asset in Bitcoin’s case
+is a bitcoin (BTC). The value of this token has seen rapid
+variation since its inception in 2009, which has hindered
+its feasibility as a global currency.
+There have been a variety of attempts to realise the
+advantages of blockchain technology while simultaneously
+mitigating issues regarding the stability of value for cryptocurrency applications. To achieve this, many attempts
+employ the notion of a stable-coin, whereby each token of
+value in the system has a counterpart of equal worth stored
+in a non-digital and tangible form in the ‘real world’.
+Two example implementations of the aforementioned
+stable-coin paradigm are listed below:
+USDT by Tether[2]:
+Each USDT token is backed by an equivalent
+amount of United States Dollars (USD) held in
+a reserve account by the private company Tether
+Limited.
+Digix[3]:
+Each token is backed by an equivalent amount of
+gold, which is stored in reserves by a dedicated
+precious metal storage custodian.
+In both examples, it is always possible for a token holder
+to redeem that token for its counterpart, thus ensuring its
+fundamental ‘stable’ value.
+Another notable example of a stable-coin is Bitshares [4],
+which attempts to decentralise the entire system through
+the use of digital Contract For Differences (CFD) [5] interactions. The system presented in this whitepaper does not
+attempt to achieve decentralisation, but instead attempts
+to address some of the drawbacks surrounding existing
+centralised stable-coins. These drawbacks include difficulties regarding the storage of physical or economic wealth,
+and the increasing likelihood of attacks, as a single entity
+
+2. The ChronoBank System
+Similar to existing stable-coins (such as USDT by Tether
+and Digix), we propose a centralised entity that coordinates
+the creation, redemption, and destruction of Labour-Hour
+Tokens (LHT). We refer to this entity as the ChronoBank
+Entity (CBE). It is responsible for the acquisition and
+coordination of legally binding contracts for labour, in
+addition to the creation and dissemination of LHT. Ultimately the role of the CBE is to ensure the stability
+1
+
+CHRONOBANK - PHASE 1: A NON-VOLATILE DIGITAL TOKEN BACKED BY LABOUR-HOURS
+
+2
+
+Figure 1. An overview of the ChronoBank system. This diagram shows the system’s constituents and their interactions.
+CBE refers to the ChronoBank Entity, LOC to Labour-Offering Companies, LHT to Labour-Hour Tokens and TIME to
+the token purchased during the crowdsale.
+of the LHT system through careful management of the
+system’s underlying processes. This section will provide
+details describing the proposed processes, practices, and
+operations undertaken by the CBE and its associates. An
+overview of the functionality of the ChronoBank system’s
+constituents is shown in Figure 1.
+The system as a whole is designed with the intent of a
+single deployment per economic region. For instance, the
+system could be deployed once in Australia using the value
+of one labour-hour in the Australian economy, measured in
+Australian dollars. As this document is an abstract description of the system, it does not refer to any region-specific
+implementation but instead refers to generalised system
+parameters that must be tailored for each region. With few
+exceptions, all processes and structures described in this
+document may have slight variations in implementation
+between regions in which ChronoBank operates.
+The initial implementation of the CBE will utilise the
+Ethereum[6] blockchain; however, future implementations
+may tokenise assets on alternative blockchain systems (e.g.
+Waves [7], Bitcoin [1]) when it is deemed appropriate.
+The CBE provides economic benefit both to the environment in which it is deployed, and to a group of stakeholders
+that assist the CBE by providing initial operating capital.
+Unlike the region-specific deployment of the CBE system,
+only one group of CBE stakeholders (a.k.a. TIME token
+holders) exists globally. These stakeholders provide initial
+operating capital to the CBE in the form of both fiat and
+cryptocurrencies, in exchange for a portion of future profits
+attained by the CBE.
+
+2.1. Stakeholders & TIME Tokens
+In order to fund the development and operation of the
+ChronoBank system, there will be a fundraising phase
+known as the crowdsale. During the crowdsale, individuals
+
+may purchase TIME tokens at a fixed rate, which provides
+the token holder with the right to receive a proportion of
+the profits arising from the operation of the system. In
+addition to the entitlements regarding the system’s operating profit, holders of TIME tokens will also be granted
+the right to vote on important decisions regarding the
+ChronoBank system.
+TIME tokens will be developed utilising the Ethereum
+ecosystem, specifically leveraging the ERC20 token
+standard[8]. The ERC20 specification will be extended to
+provide voting functionality and rewards distribution; this
+is discussed further in Sections 2.1.3 and 2.1.2 below.
+2.1.1. Crowdsale
+During the crowdsale, TIME tokens will be created as
+necessary and sold at the fixed price of 100 TIME tokens
+for 1 bitcoin (BTC). There is no limit to the number of
+TIME tokens generated during the crowdsale; however, no
+further TIME tokens will be generated after this phase of
+the project.
+ρ
+Total percentage of minted LHT taken by the CBE
+fc
+Fee taken during minting by the CBE
+fr
+Fee taken during redemption by the CBE
+fi
+Issuance fee taken during minting
+S
+Percentage of minted LHT put into the SGF
+LT
+Percentage of minted LHT put into the Liquidity Reserve
+Percentage of minted LHT used for LOC insurance
+L0
+M
+Number of months until L0 is transferred into the SGF
+l
+Percentage of LT used for LOC insurance
+P
+Interval between TIME token reward payouts
+Table 1. List of abstract variables and constants used
+throughout this paper for reader’s reference. See the Appendix for further details.
+
+CHRONOBANK - PHASE 1: A NON-VOLATILE DIGITAL TOKEN BACKED BY LABOUR-HOURS
+
+All TIME tokens purchased during the crowdsale will
+constitute 88% of the total TIME tokens generated during the initialisation of the ChronoBank system. The
+remaining 12% of tokens will be split with 10% given to
+the ChronoBank.io team (for ongoing research and development) and 2% to advisors and early adopters of the
+system.
+
+Figure 2. Issuance fees (fi ) and transaction fees (ft ) are
+deposited into the rewards contract. TIME holders can
+withdraw a portion of the LHT after each snapshot, if their
+TIME tokens were deposited into the contract.
+2.1.2. TIME Token Rewards
+For the use of the LHT, users will be charged a fixed
+fee, ft = 0.15% on all transactions. Complementary to
+transaction fees, issuance fees (fi ) will be taken during
+the minting process (further details in Section 2.2.1). The
+issuance fees will start at 3% during the first year of operation and will stepwise decrease by 1% each year until a
+final issuance fee of 1% is achieved and maintained.
+Both the transaction and issuance fees will be automatically collected and sent to a rewards contract on the
+Ethereum blockchain as shown in Figure 2. The rewards
+contract is designed such that TIME token holders can
+withdraw their earned rewards in a manner that makes
+them non-unique (i.e. withdrawal of rewards is not tracked
+on a per-token basis) and hence tradeable on exchanges
+for equal value.
+The rewards contract will allow TIME token holders to
+retrieve their rewards at regular payout intervals, P . At
+any given stage, TIME holders may deposit their tokens
+into the rewards contract. At the onset of a payout interval, a snapshot of deposited TIME tokens and the current
+contract reward balance will be taken1. The rewards will
+be divided equally among the TIME tokens that were deposited at the time of the snapshot. Depositors may then
+withdraw their share of rewards during the following payout interval. At the next payout snapshot, any unclaimed
+rewards will be forfeited and added to the total balance of
+that snapshot. Figure 3 illustrates this concept by plotting
+the rewards contract balance over time. We also note that
+we expect P to be of the order of a few months.
+TIME holders may deposit and withdraw their TIME
+tokens at any stage, however only TIME holders who have
+deposited before the snapshot of each payout interval can
+
+3
+
+claim rewards. Withdrawing TIME tokens from the contract will also withdraw any rewards currently owed to
+the depositor. TIME holders may also leave their tokens
+deposited in the rewards contract indefinitely and claim
+their rewards periodically.
+
+Figure 3. The rewards contract receives Pr rewards for
+every payout interval P (in our example, we assume that
+Pr is constant). At each snapshot, the portion of rewards
+that are not withdrawn is d. Rewards that are not withdrawn roll over to the following payout interval P . The
+dashed line indicates the withdrawable balance, which reduce over each payout interval as TIME holders withdraw
+their rewards.
+This reward payout system gives upper bounds to the
+amount of rewards that can be stored in the contract in any
+interval, under some reasonable assumptions. The total
+rewards obtained via fees for a particular payout interval,
+P , is Pr . If we assume a constant amount of transaction
+and issuance fees per payout interval (i.e. a constant Pr ),
+and an average percentage of locked TIME holders that do
+not withdraw in any payout interval, d, we can calculate
+the upper bound of the LHT stored in the smart contract
+through the limiting geometric series relation2:
+∞
+X
+
+Pr dk = Pr (1 − d)−1 .
+
+(1)
+
+k=0
+
+To clarify this, let us take a conservative estimate, that
+90% of all locked TIME token holders do not withdraw
+their rewards in every payout interval (only 10% actually
+withdraw). In this scenario, no more than 10Pr worth
+of rewards will be stored in the rewards contract at any
+given time. A less conservative estimate, being 50% of
+locked TIME holders withdrawing each payout interval,
+will ensure the rewards contract never contains more than
+2Pr worth of rewards. Through the careful (and potentially dynamic) choice of P we can find a balance between
+practicality (frequency of reward withdrawal) and security
+(safe level of stored value in a smart contract).
+2.1.3. TIME Voting
+From time to time, the CBE may hold polls on the
+Ethereum blockchain to elicit the opinion of TIME token
+holders. Poll results will be incorporated into decisions
+made by the CBE concerning the financial or technical
+
+1The transaction for which may be initiated by anyone, but typically by the CBE.
+2Assuming 0 ≤ d < 1.
+
+CHRONOBANK - PHASE 1: A NON-VOLATILE DIGITAL TOKEN BACKED BY LABOUR-HOURS
+
+direction and/or implementation of the CBE system. Only
+valid TIME holders are considered current stakeholders in
+the CBE system and are the only parties authorised to
+participate in a poll.
+
+2.2. Labour-Hour Tokens
+Labour-Hour Tokens (LHT) are the fundamental unit
+of value within the ChronoBank system. The purpose
+of these tokens is to provide a non-volatile, inflationaryresistant digital store of value on various blockchains. We
+envisage these tokens for utilisation in future systems, such
+as LaborX (see Section 4 for a brief overview).
+A Labour-Hour Token will be derived from a standard
+Ethereum ERC20 token and will be tradeable on all major
+exchanges. The ChronoBank system will ensure that these
+tokens will always have a 1 to 1 mapping with legally bound
+promises of labour-hours from various Labour-Offering
+Companies (LOC). As such, token holders may also redeem these tokens at any given time for their real-world
+labour-hour counterpart. This section details the various
+processes required to feasibly sustain the 1 to 1 mapping
+of LHT to offered labour-hours and ensure the economic
+stability of the ChronoBank system.
+
+4
+
+• S - A portion to be sent to the Security Guarantee
+Fund (SGF) (see Section 2.3.2).
+• LT - The total portion sent to the Liquidity Reserve (Section 2.3.1). This fund is further split by
+a variable percentage, l, into LI (LOC insurance)
+and L0 (liquidity) (see Section 2.3.1 for further
+details).
+For clarity, we write the obvious explicit relation,
+ρ = fc + fi + S + LT .
+
+(2)
+
+We expect that the system will maintain fixed fees, but
+will vary S, l and LT (and hence ρ) on a case-by-case basis
+to control the stability and viability of the ChronoBank
+ecosystem. The purpose of the Liquidity Reserve and Security Guarantee Funds are detailed in the Funds Section
+(2.3) and a brief discussion of the economic feasibility of
+this system is discussed in Section 3.
+
+2.2.1. Minting
+The minting process takes place when a company offering labour-hours (Labour-Offering Company (LOC))
+chooses to enter into a legally binding agreement with the
+CBE. The CBE must then run strict checks (the guidelines
+of which are described in the business outline [9]) of the
+LOC wishing to participate in the ChronoBank system.
+Once the LOC is approved, the CBE and LOC will negotiate on various parameters (summarised in Appendix
+B) before entering a legally binding contract whereby the
+LOC promises labour-hours in exchange for LHT (or the
+fiat equivalent). The CBE will then publish a hash of the
+contract on the Ethereum blockchain and store the contract on a decentralised storage system such as IPFS [10] or
+SWARM [11]. This gives a transparent ledger detailing the
+current state of the backed LHT. The exact mechanisms
+behind the minting process are non-trivial and we refer the
+reader to Figures 4 and 5 during the following discussion
+of the process. When an LOC and the CBE have agreed
+on terms, the CBE mints the equivalent amount of LHT
+as labour-hours offered by the LOC, ensuring the 1 to 1
+relationship between the two. Of the newly minted tokens,
+the CBE will retain ρ percent3, providing the remaining
+(1 − ρ) of minted LHT to the LOC. In practice, the CBE
+can sell the (1 − ρ) of minted LHT on exchanges and provide the LOC with the fiat equivalent, should they not
+wish to deal with cryptocurrencies. The ρ percent held by
+the CBE will be immediately subdivided into the following
+portions (shown diagrammatically in Figure 5).
+• fc ∈ [0, 0.01] - A fee charged by the CBE for
+services provided.
+• fi - The issuance fee which will go to the rewards contract for TIME token holders (see Section 2.1.2).
+
+Figure 4. Procedural overview of the ChronoBank minting process.
+
+Figure 5. Fund distribution of minted LHT.
+2.2.2. Redemption
+As LHT are fundamentally backed by real-world labourhours, holders may redeem their tokens at any time
+for these backed hours. To do so, holders will deposit
+their LHT into a redemption contract on the Ethereum
+blockchain. Along with the deposit, holders will provide
+relevant data detailing their redemption request, such as
+
+3All percentages introduced in this document should be read as decimals. Hence (1 − ρ) ≥ 0.
+
+CHRONOBANK - PHASE 1: A NON-VOLATILE DIGITAL TOKEN BACKED BY LABOUR-HOURS
+
+labour type(s), location(s) of work, date/time of work, contact information, etc. The request will trigger the CBE to
+search and match relevant LOCs to the redemption request.
+If found, the CBE will return the most suitable LOCs that
+fit the request. To discourage recurrent requests and to
+remunerate the CBE for its service, the CBE will take a
+small fee, fr ∈ [0, 0.01] from the deposited tokens. The
+amount of labour-hours matched will be less than or equal
+to the LHT tokens deposited, less the CBE’s fee. Any
+unmatched requests or unfulfilled hours can be withdrawn
+from the redemption contract by the depositor. As a redundancy, the redemption contract will have a built-in
+holding period, after which depositors may withdraw their
+deposited LHT. This protects depositors from inactive or
+stagnant CBEs.
+Once the CBE has returned a list of compatible LOCs,
+a depositor may accept or reject the offered LOC(s). If
+rejected, the depositor can withdraw their deposited LHT
+less the CBE’s service fee. If accepted, the CBE will advise
+the chosen LOC of all relevant details. The redemption contract will hold the LHT until the work has been completed
+and the depositor is satisfied. A dispute resolution system
+may be used to ensure work is completed as requested.
+Once the labour has been satisfactorily completed, the
+deposited LHT will be destroyed, again ensuring the 1 to
+1 relationship of LHT to backed labour-hours.
+2.2.3. Intrinsic Value
+We have thus far ensured a 1 to 1 correspondence between LHT and labour-hours but have not yet defined
+the value of either. The intrinsic value of one LHT and
+thus one labour-hour is region-dependant. Although any
+arbitrary value can be chosen, we peg the value of one
+LHT to be roughly the average hourly wage of a region for
+practical reasons.
+The average hourly wage of a region will be defined
+via the official statistics bureau of that specific region. If
+one were to trivially adjust the LHT to the most recent
+statistics released for a given region, the price of LHT
+would stepwise shift on the release date of the statistics.
+Typically these statistics are released yearly and in such
+scenarios a predictive stepwise jump each year would occur. To implement a smooth transition from one statistics
+point to another, we propose that the pegged price of LHT
+be a linear interpolation between the two points. This
+would require the LHT price to lag behind the most recent
+statistics by the duration of at least one extra statistics
+release.
+Let us illustrate this with a clear example, as depicted in
+Figure 6. Let us determine the price of LHT during April,
+2010 in a region where the statistics bureau publishes a
+data point in January each year. This data point indicates
+the average wage in that region for the previous year. The
+price will be calculated by retrieving two data points: A2008
+and A2009 , the average wage in 2008 (released in January,
+2009) and the average wage in 2009 (released in January,
+2010) respectively. We take a linear interpolation between
+these two points to find the price of LHT in April, 2010.
+In this example, this will over-approximate4 the average
+wage in April, 2008. This example shows that the LHT
+price in April 2010 will be the over-approximated average
+
+5
+
+wage in April 2008, demonstrating how the pegged price
+of LHT will lag behind the current actual average wage.
+It should be noted that this doesn’t affect any aspects of
+offering or redeeming labour. The value of labour offered
+or redeemed is independent of the price of a single LHT.
+However, the value will be measured with respect to the
+fixed price of a single LHT token.
+
+Figure 6. The base price of one LHT in April 2010, X,
+can be calculated as the linear interpolation between the
+average wage in 2008 and 2009 (A2008 and A2009 ).
+For any given region, typically there are sub-regions
+which have varying costs associated with providing labour
+work. We wish to integrate these costs within our definition of a single LHT. To do so, we take the maximum of
+each cost within a sub-region and add it to the average
+wage of the region to provide the fundamental price of
+LHT. Specifically we have:
+L = (1 + max(Y )) X ,
+
+(3)
+
+where X is the linearly interpolated function of average
+wages described above and Y is the individual cost in a
+sub-region as a percentage of work done. L as defined
+in equation (3) is the pegged price of LHT for any given
+region. This value will vary linearly throughout each year
+in a transparent and predictable manner.
+
+2.3. Funds
+The uniqueness of backing a digital token with contractual debt requires various safeguards to ensure contracts
+are always upheld and potential defaulting is accounted
+for. There are a number of adverse scenarios that can
+occur with a debt-backed system. Our proposed solutions
+involve the careful maintenance of two extra funds, the
+Liquidity Reserve and the Security Guarantee Fund (SGF).
+In this section we detail the operation of these funds and
+how they address some of the issues that can arise in this
+system.
+2.3.1. Liquidity Reserve
+The liquidity reserve is an offline LHT storage fund
+controlled by the CBE. It receives a percentage, LT , of
+newly minted LHT during the minting process (Section
+2.2.1). There are two services that this function provides
+the ChronoBank system:
+
+4This is a poor approximation that assumes a linear growth, where the start of the year is the average wage of that year and the end of
+the year the is average wage of the following year.
+
+CHRONOBANK - PHASE 1: A NON-VOLATILE DIGITAL TOKEN BACKED BY LABOUR-HOURS
+
+(1) LOC Risk Mitigation - During the minting process,
+an LOC will be paid (1 − ρ) percent of the labourhours they contractually agree to provide. Therefore LOCs inherently take some risk in the form
+of immediate redemption. If an LOC’s promise of
+labour-hours is immediately redeemed, they stand
+to lose ρ percent of these hours. To mitigate this,
+the CBE will store a percentage of minted LHT,
+LI (see Section 2.2.1) for each LOC, to reimburse
+the LOC in the event that more than (1−ρ) labourhours are redeemed. LI will cover all excess (i.e.
+more than (1 − ρ) ) redeemed tokens until the
+reserve, LI , is depleted.
+We formalise this by introducing the mitigated
+tokens payed to an LOC, LM , as
+LM = min(LI , E) .
+
+(4)
+
+where E is the excess LHT to be redeemed by the
+LOC, defined as:
+(
+R − (1 − ρ), if R > (1 − ρ).
+E=
+(5)
+0,
+if R ≤ (1 − ρ).
+with R being the total percentage of LHT redeemed.
+The mitigation reserve, LI is not constant, but
+is gradually transferred to the SGF (Section 2.3.2).
+The rate at which this fund is transferred is derived from the parameter, M , which specifies the
+total number of months until the funds are entirely transferred, and is negotiated during the
+minting process. The mitigation reserve funds will
+be transferred monthly at a uniform rate (LI /M ).
+This procedure then allows the CBE to statistically choose ρ, LT and M given the risk profile
+and reputation of any given LOC during the minting process. For example, ρ, LT and M can be
+designed such that within a 95 percent confidence
+interval, an LOC does not lose more than (ρ − ζ)
+worth of the labour-hours promised over a given
+time5. Here ζ is a number that quantifies the risk
+that the LOC is willing to accept. This degree
+of freedom allows the CBE to manage LOCs of
+varying risk profiles.
+(2) LHT Liquidity - The price of LHT will ultimately
+be governed by the price at which the CBE buys
+and sells LHT6. The funds used for this are stored
+in the Liquidity Reserve. L0 of newly minted tokens (see Section 2.2.1) will be accrued in this
+fund. The CBE will then stabilise the price of
+LHT and provide liquidity in various markets by
+buying and selling LHT at the fundamental price
+detailed in Section 2.2.3.
+The parameter, l, chosen during contract negotiations, specifies the percentage of LT that goes to
+LI (the amount used for LOC insurance and which
+is gradually transferred to the Safety Guarantee
+Fund) and L0 (the amount that is permanently
+used for liquidity). Through careful management
+of the parameter, l, the CBE can maintain the
+desired volume of funds in the Liquidity Reserve.
+
+6
+
+As this fund will hold both LHT and volatile currencies, care must be taken to manage volume
+due to the potential price fluctuations of the held
+currencies.
+One immediate-use case of this fund will be in
+the initial system set-up. When the first LOCs become part of the system, the freshly minted LHTs
+will need to be sold to transfer the resulting funds
+to the LOC. Initially the demand for LHT will
+be low and funds from the Liquidity Reserve will
+be used to bootstrap this process. A percentage
+of the crowdsale funds will be deposited into the
+Liquidity Reserve for this purpose.
+2.3.2. Security Guarantee Fund
+One of the major drawbacks in a debt-backed currency
+system is the possibility of backers (LOC in our case) defaulting on their contractual obligations. Despite the care
+in vetting LOCs during the minting process, we expect
+there to be a percentage of companies that will inevitably
+default. The SGF’s main purpose is to provide a fund reservoir as insurance to protect against defaulting companies.
+In practice, this fund will burn held LHT tokens to the
+equivalent amount of outstanding labour-hours promised
+by the defaulting LOC.
+Statistical estimates should be taken for the average
+probability of LOCs defaulting. These estimates will give a
+measure defining the amount of LHT that should be stored
+inside the SGF fund at any given time. The amount stored
+in the SGF will be proportional to the amount of debt, and
+hence be proportional to the amount of LHT in existence
+(as every LHT is backed by one owed labour-hour). This
+required value can be reached and maintained through the
+management of the minting variables, S, l and LT .
+
+3. Economic Considerations
+In this section we briefly mention some interesting properties and immediate economic consequences of this system.
+
+3.1. Economic Incentives
+First and foremost, the system must be designed such
+that there are economic incentives for both LOCs and LHT
+holders to participate in the system. For an LOC, the incentive to participate in the ChronoBank system comes in
+the form of an interest-free-like loan. When an LOC agrees
+to participate in the system and offers labour-hours, the
+company effectively receives an interest-free loan, which
+needs to be paid back when their contract expires. For
+this to be enticing to an LOC, we require that over the
+period of the contract the amount of money paid for the
+service of the loan is less than that of alternate means for
+loans, e.g. local bank loans.
+We consider a simplistic example to demonstrate the
+feasibility of such a scenario. Consider that a bank loan,
+which charges IB percent in interest per annum, has an
+upfront cost of C and is of total amount H. Over a period of time, t, and assuming no regular repayments are
+
+5This can occur because the holdings of an LOC increase over time due to assumed external investment.
+6Combined with the fact that one LHT has a fundamental intrinsic value of one labour-hour.
+7We use a no-repayment loan to clarify the analogy to our system and remove some mathematical complexity which obscures our point.
+
+CHRONOBANK - PHASE 1: A NON-VOLATILE DIGITAL TOKEN BACKED BY LABOUR-HOURS
+
+necessary7, the LOC stands to lose:
+C + H((1 + IB )t − 1) − HII t .
+
+(6)
+
+The first term corresponds to the upfront cost of the loan,
+the second term to total interest owed at time, t, and
+the final term is potential interest earnings from external
+investments. Here we’ve defined an average yearly interest
+gain from external investments, II .
+Alternatively, the LOC may participate with the
+ChronoBank system. If the LOC offers H hours of labour,
+it would receive H(1 − ρ) LHT in return, and would be
+required to pay (1 + σt)H worth of LHT back upon the
+expiration of the contract (assumed at time, t). Here σ is a
+percentage representing the average yearly price increase8
+of LHT. It quantifies an inflated price of LHT due to an
+assumed increase in average wage over the contract period.
+Therefore, with the ChronoBank system, the LOC stands
+to lose,
+H(ρ + σt) − (1 − ρ)HII t .
+
+(7)
+
+The first term here originates from the initial sum taken
+by ChronoBank, Hρ, and from the price fluctuation of
+LHT over time. The second term comes from the potential
+earnings from external investments with the (1 − ρ)H LHT
+received.
+In this simplistic example, an LOC would be economically incentivised to participate in the ChronoBank system
+if the total fees of the ChronoBank system are less than
+the total fees of the alternative bank loan, explicitly:
+
+H(ρ + (σ + ρII )t) < C + H (1 + IB )t − 1 . (8)
+Here, (σ + ρII ) represents the average yearly price fluctuation of LHT combined with ρ percent of an average
+expected investment return. With the reasonable assumption that this quantity is less than the interest rate of a
+bank loan, IB , equation (8) can always be satisfied for
+some time period, t, given all other variables fixed. In
+fact, the longer the contractual time, t, the greater the
+cost-saving is to the LOC. So in this simplistic example, we
+can see that this system incentivises LOCs to participate
+in the ChronoBank system for longer periods of time9.
+Furthermore, the CBE and LOC are able to adjust both
+H and ρ during the negotiations of their initial contractual
+agreement, enabling the tuning of economic incentives in
+less favourable economic regions/scenarios.
+As for LHT holders, their economic incentive is more
+obvious. LHT, compared to its stable-coin predecessors, is
+inflationary-resistant. Therefore, holders should have an
+economic incentive to use LHT as its value should increase
+relative to local inflationary fiat currencies. We should
+note that buying and holding LHT as an investment (and
+therefore decreasing the liquidity of the token) is not in a
+holder’s best interest, as the gains in doing so are often
+less than external investment strategies.
+
+3.2. System Stability
+This section is concerned with the ability of the
+ChronoBank system to sustain various economic hurdles,
+which we refer to as its stability.
+
+7
+
+The stability of the ChronoBank system hinges on the
+CBE correctly managing the minting process. Through
+the minting process, the two funds, Liquidity Reserve and
+SGF, are controlled and maintained.
+As the system grows, funds will accrue in both the Liquidity Reserve and the SGF. LHT is only removed from
+the SGF in the event of an LOC defaulting. The Liquidity
+Reserve only decreases in value in the event that a held
+volatile currency devalues. Therefore, both funds should
+grow as the system evolves. As the funds reach a sustainable level, the percentage of LHT taken during the minting,
+ρ, can be decreased, further enhancing the economic incentive for more LOCs to join the system. A greater number
+of LOCs participating will mean a greater number of LHT
+in existence and a greater volume of funds accrued in both
+the SGF and Liquidity Reserve. The stability of the system
+will be proportional to the value stored in the SGF and
+Liquidity Reserve and, therefore, we expect the system to
+become more stable as it develops.
+
+3.3. Potential Pitfalls
+A number of potential pitfalls can occur during the operation of this system. In this section we briefly summarise
+the major and most obvious ones, along with our proposed
+solutions.
+
+• An LOC defaulting on its promise of labour-hours.
+As previously mentioned, this will be covered by
+the SGF. The CBE will burn the necessary LHT
+from the SGF fund to maintain the 1 to 1 relation
+of LHT to labour-hours.
+• Large supply/demand causing price fluctuations.
+This can be handled by a sufficiently deep Liquidity Reserve, which will provide demand in times
+of high supply and vice versa. Initially funds from
+the crowdsale will be placed into the liquidity fund,
+and as the system grows the liquidity fund will be
+maintained at a level deemed operationally safe
+to cover this scenario.
+• Redemption of all LHT. The LHT at any given
+time will always be backed by contractual labourhours in a 1 to 1 mapping. Therefore, this scenario
+is possible and the system will continue to function
+in this event. However, the risk in this occurrence
+lies with the participating LOCs, who will be required to pay back their LHT in the form of labour.
+The SGF (Section 2.3.1) can also absorb some of
+the cost of this scenario. It will be at the CBE’s
+discretion to use the SGF to assist in this very
+unlikely scenario.
+• Increased demand at contract expiry. As a contract expires, an LOC will be required to buy back
+an equivalent amount of LHT to the labour-hours
+that are left on the contract. This could potentially create periods of large demand. In these
+scenarios, we will counter the demand with the
+Liquidity Reserve and, if necessary, the SGF.
+
+8This could also potentially decrease.
+9Adding regular repayments to bank loans adds complexity to this simplistic example and although decreasing the size of the right-hand
+
+side of equation (8) it does not change our final result.
+
+CHRONOBANK - PHASE 1: A NON-VOLATILE DIGITAL TOKEN BACKED BY LABOUR-HOURS
+
+8
+
+4. Future Work
+
+5. Conclusion
+
+Economic Models. Key to the success of the ChronoBank
+system is an informed choice of the aforementioned economic parameters. It is essential to perform further analysis so as to determine how parameter modification impacts
+the feasibility and sustainability of the system in a wider
+context. This will necessarily be performed before a realworld implementation is constructed.
+LaborX. The digital asset transfer system described in
+this document is proposed as a first step towards a larger
+decentralised labour system. LHT as described by this
+paper forms the base currency for a decentralised labour exchange platform entitled LaborX. The intention of LaborX
+is to enable peer-to-peer exchange of labour-hours with
+LHT, thereby reducing the centralisation of the proposed
+ChronoBank system. LaborX will incorporate a rating
+system whereby holders of LHT can identify fair trades by
+examining the quality and/or specialisation of the labour
+provider, given their history on the platform. By enabling
+direct exchange of LHT with labour-hours, the system’s
+dependency on contractual arrangements with LOCs is
+significantly reduced. This potentially reduces the cost
+and increases the stability of the system as a whole.
+
+This paper proposes a non-volatile, inflationaryresistant, digital asset transfer system. This innovative
+system is only made possible by recent advancements in
+blockchain and cryptographic technologies. Leveraging
+these technologies, this system tokenises contractual debt
+in a manner that can be both economically feasible and
+highly practical for digital platforms, such as LaborX. The
+intrinsic value of the proposed token mirrors the average
+hourly rate of human labour - the most fundamental unit
+of economic value.
+
+References
+[1] Satoshi Nakamoto. Bitcoin: A peer-to-peer electronic cash
+system. 2008.
+[2] Tether.to. Tether: Fiat currencies on the bitcoin blockchain.
+2014.
+[3] Anthony C. Eufemio Kai C. Chng Shaun Djie. Digix’s whitepaper: The gold standard in crypto-assets. 2016.
+[4] Fabian Schuh Daniel Larimer. Bitshares 2.0: Financial smart
+contract platform. 2015.
+[5] Investopedia. Contract for difference.
+[6] Gavin Wood. Ethereum: A secure decentralised generalised
+transaction ledger. Ethereum Project Yellow Paper, 2014.
+[7] Sasha Ivanov. Waves whitepaper. 2016.
+[8] Ethereum Request for Comments (ERC) 20.
+[9] The ChronoBank Team. ChronoBank: Business Outline.
+[10] IPFS: A peer-to-peer hypermedia protocol to make the web
+faster, safer, and more open.
+[11] Viktor Tron Aron Fisher Daniel A. Nagy. SWARM.
+
+CHRONOBANK - PHASE 1: A NON-VOLATILE DIGITAL TOKEN BACKED BY LABOUR-HOURS
+
+9
+
+Appendix A. Terminology
+The following is a list of terms used throughout this document.
+• CBE - The ChronoBank Entity.
+• LHT - Labour-Hour Token.
+• LOC - Labour-Offering Company.
+• SGF - Security Guarantee Fund.
+
+Appendix B. Minting Contract Parameters
+There are number of parameters that are required to be negotiated during the minting process. For clarity we list here
+the variables that should be considered and determined by the CBE during the minting process:
+• S - A percentage of the minted tokens to be stored in the Security Guarantee Fund.
+• LT - The total percentage to be stored in the liquidity fund.
+• l - The percentage of LT dictating how much of the liquidity fund is used as LOC insurance, LI . The remaining
+funds will be kept for liquidity in L0 .
+• M - The total number of months until the LOC Insurance LI is transferred to the Security Guarantee Fund.
+This dictates the rate at which the funds are transferred, i.e. LI /M per month.
+• Expiry Date - The expiry date of the contract, whereby the LOC must buy back the value of the minted LHT.
+Through the definition of the above variables, the CBE on a case-by-case basis will fix ρ, the total percentage deducted
+from LOCs initially through the relation (2).
+
+Appendix C. Fee Summary
+The fees of the ChronoBank system can be summarised in the following:
+• fc - This is the fee taken by the CBE during the minting process for services rendered. We expect fc ∈ [0, 0.01].
+• fi - This is the issuance fee, which will be taken during minting and deposited into the TIME token holder’s
+rewards contract. This will start at 3 percent and decrease by 1 percent each year until it is maintained at a
+steady 1 percent.
+• ft - These are transaction fees, which are deposited into the TIME token holders rewards contract. This is a flat
+fee of 0.15%.
+• fr - This is a fee taken by the CBE during the redemption process for services provided and to add a deterrent
+to continual redemption requests. We expect fc ∈ [0, 0.01].
+
+

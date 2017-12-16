@@ -1,0 +1,641 @@
+TRACKR
+
+Whitepaper
+July 2017
+
+CONTENTS
+1 Executive Summary
+
+3
+
+2 Background
+
+4
+
+3 Proposed Solution
+
+5
+
+4 Technology
+
+6
+
+4.1 Mobile Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6
+
+4.1.1
+
+Dashboard . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6
+
+4.1.2
+
+Watchers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+
+5 Future & Roadmap
+5.1 Roadmap . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6 Infrastructure
+6.1 Servers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+8
+9
+9
+
+6.2 Database . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+6.3 Security . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+6.4 Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+7 Token Sale
+
+11
+
+7.1 Investment Purposes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+8 TKR Token
+
+12
+
+8.1 TKR token usability and process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+9 ICO Details
+
+13
+
+9.1 Crowd Funding . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+9.2 Bounty Campaign . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+9.3 Exchange Availability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+10 Privacy & Security
+
+15
+
+10.1 Personal Data Insurance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+
+TRACKR
+
+1
+
+|
+
+3
+
+EXECUTIVE SUMMARY
+
+Trackr is initially a mobile application, and will later become a fully fledged web platform, which
+offers real-time alerts on cryptocurrency market shifts as they are about to happen The Trackr
+platform offers an all-in-one interface to view and manage your portfolio, predicts cryptocurrencies deemed safe for investment (based on historical analysis and current market trend) in addition
+to allowing users to set up watchers to alert on various crypto currencies based on their invocation
+criteria. Furthermore, Trackr will also use historical data models in the future and apply machine
+learning to obtain prediction models by finding patterns in existing data and simulations.
+Trackr is different from other tools such as Coindash, Blockfolio or any other portfolio management related application since it does not relate to just displaying your static assets and the values
+thereof. Trackr enables the user to run a wide set of ’tests’ to determine their future growth. Another important distinction is that Trackr does not save any of its user data on its servers, nor does
+it transmit any user data, all data is stored locally on the user’s client.
+We believe that by educating users, new or experienced, with valuable information will enable
+them to more easily make an informed decision on whether a certain development is worth pursuing.
+This document explains our proposal for the architecture for Trackr, its diverse features and aspects, proposals and the roadmap.
+The Trackr token, (’TKR’), is primarily intended to serve as a subscription fee to access certain features of the platform. A free tier is provided at no cost to all users for most functionality, while
+a few other capabilities will require a monthly nominal fee payable in TKR to use them. Furthermore, features that may utilize the TKR token are still being worked on and more information will
+be shared in due time.
+TKR is an ERC20 token issued on the decentralized Ethereum blockchain. A safe and publicly auditable smart contract will handle the exchange of ETH (Ether) for TKR tokens during the token
+creation phase.
+A total of 65 500 000 TKR tokens will be in existence whereby 90% is allocated to the ICO campaign, 5% to the bounty campaign and the remaining 5% to the team. An additional 500 000 TKR
+tokens will be available for the purposes of exchanging pre-ICO tokens to ICO tokens.
+
+4
+
+2
+
+TRACKR
+
+|
+
+BACKGROUND
+
+Over the past few years cryptocurrencies are gaining significant traction, both online and in the
+local media. On the 11th of January 2011 Bitcoin had a market capitalization of around $1.5 million dollars, today this number stands tall at over $40 billion dollars (Coindesk, 2017) for just Bitcoin alone. Cryptocurrencies have ever since been on the rise with various new coins emerging
+over the past few years such as LTC (a derivative of Bitcoin), Ripple, Doge, and most interestingly
+— Ethereum. Ethereum is a decentralized blockchain which has ’smart contracts’ to facilitate autonomous code execution when certain criteria are met.
+The surge of various cryptocurrencies has put more pressure on traders to keep track of the market and the media in an attempt to invest with low risk and high return. It is becoming notoriously
+difficult to keep up with the constant emergence of new coins and technologies; the market is continuously in a very volatile state as media announcements can easily swing the pendulum in any
+direction in a matter of hours.
+New players to the cryptocurrency market may be reluctant to invest due to the lack proper analysis and knowledge in the field, while some invest a small amount to test the waters. Unfortunately, the increase in value of cryptocurrencies also attributes directly to the amount of fraudulent schemes that are prevalent, as is also the case outside the cryptocurrency world. Most investors often invest blindly based on unwarranted media hype, attractive schemes (using flattery
+to convince the investor) and false promises among other things.
+Ethereum, now the 2nd largest cryptocurrency, has paved the way for many alt coins to exist. Currently there are speculated to be around nearly 1000 alt coins, a good amount of which are based
+on ERC20, Ethereum’s token standard which defines a set of common rules a token contract has to
+enact. The overwhelming number of coins on the market makes it essential to have the right tools
+at one’s disposal to assess the market prior to investment.
+
+TRACKR
+
+3
+
+|
+
+5
+
+PROPOSED SOLUTION
+
+Trackr is initially a mobile application for Android and iOS phones initially (later on for the web)
+which aims to tackle the aforementioned problems by allowing users perform automatic analysis
+of their crypto investments. The user interface is optimized to provide users a snapshot of their
+profit/loss and identify areas for improving their investment strategies regardless of experience.
+Users also have the ability to add Watchers; this allows the users to set up custom notifications to
+alert them whenever certain criteria are met on various cryptocurrencies.
+Trackr will analyze exchanges, cryptocurrencies, media and trend and assess a performance score
+through various algorithms to indicate popularity for each coin. Trade impulse recognition notifies
+the user immediately when any sudden irregularity is detected.
+Users are sent a mobile push notifications to alert them of any such developments. Furthermore,
+notifications formats such as e-mail, SMS (country restrictions) and webhooks (to perform programmatic actions) will also be supported in the near future.
+The purpose is for traders of all sorts to be able to use Trackr to ’predict’ their future growth
+through a series of tools such as machine-learning predictions (targeting top cryptocurrencies),
+running Monte Carlo simulations on the users’ portfolios or simply using historical analysis or media exposure prediction. The project already has a public Alpha which can be downloaded for iOS
+and Android devices and is capable of importing transactions from your wallet and visualizing your
+profit/loss trajectory.
+Watchers alerts will provide the most basic information required for the trader to make an informed decision on whether a certain development is worth pursuing. An example alert provides
+the following information:
+
+•
+
+Exchange (i.e. Poloniex)
+
+•
+
+Currency Pair (i.e. BTC/ETH)
+
+•
+
+Change in the given metric
+
+•
+
+Invocation criteria and metadata
+
+The given Watcher will alert the user based on the curated settings (Trackr provides some initial
+predefined settings). Ultimately the intent of the Watchers are to relieve the pressure of having to
+analyze the market constantly and allow the software to do all the heavy lifting.
+
+6
+
+4
+
+TRACKR
+
+|
+
+TECHNOLOGY
+
+This section provides an introductory overview of some of the features that will make up the Trackr
+application in its Alpha version for the mobile.
+
+|
+
+4.1
+
+Mobile Application
+
+The initial offering will be a fully functional mobile client that allows the user to perform a few
+tasks:
+
+•
+
+First and foremost, the user is able to keep track of their portfolio value through a visualized
+view of their ROI based on aggregated market data provided by multiple exchanges platforms.
+
+•
+
+Secondly, the user is able to set up smart alerts, also referred to as Watchers.
+
+•
+
+Lastly, the user is able to view market data and add their Ether wallet address to visualize their
+portfolio over time.
+
+The Trackr’s backend is responsible for all the number-crunching to compute market data from a
+number of exchanges and your preset preferences, it then delivers these back to the user in an
+optimized data structure, minimizing bandwidth used in
+the process.
+A local mobile cache is used to store old data while new
+data is being fetched (data can be slightly out-of-date for
+up to a maximum of one minute).
+
+4.1.1
+
+|
+
+Dashboard
+
+The dashboard is the first point of entry into the application. As shown in the image, this page at a quick glance
+provides the user with a summarized view of their holdings, current pricing, eventual alerts set up on any currencies, historical versus current value chart, and the
+change percentage.
+
+FIGURE 1
+
+Dashboard Page
+
+TRACKR
+
+4.1.2
+
+7
+
+|
+
+Watchers
+
+The most interesting feature integrated into the Trackr app is the ability to add Watchers, also recognized as rules or alerts. Watchers allow the users to set up customized alerts on any of the currencies or exchanges they wish to track. The purpose of this feature is to make it as easy as possible
+for users to setup and be able to track any number of currencies or trades with a huge variety of
+rules.
+The initial implementation will have the following set of configuration that a user is able to
+configure a Watcher to detect and alert for:
+
+•
+
+Currency pair and exchanges
+
+•
+
+Price value for a currency pair
+
+•
+
+Relative price and trade volume
+
+Any Watcher that is set up is promptly saved on our backend servers; this is required for us to be able to inform
+the user if and when a certain set of data matches their
+criteria. Whenever a watcher fires a signal off the user
+will receive a mobile push notification, there are future
+plans to include e-mail, SMS and webhook support as
+soon as possible.
+Initially, only a handful of number exchanges are supported, these will be increased several times a month.
+We are doing our utmost to support all exchanges
+eventually. However, it ultimately depends on the exchange itself and whether they have the supported opFIGURE 2
+
+Watchers Page
+
+erations.
+
+Cryptocurrencies are notoriously volatile and as such value can increase or decrease by a high
+magnitude multiple times a day. Delays could mean that traders lose out on a potential return.
+Watchers allows users to stay ahead of the market by notifying users immediately if and when a
+volatile market trend has been detected.
+
+8
+
+5
+
+TRACKR
+
+|
+
+FUTURE & ROADMAP
+
+Our intention is to keep adding useful functionality as we progress; we’ve added the upcoming
+time-line for the next few months in a chronological order. This does not dictate all the upcoming
+features as we may add things with feedback from the community, but it gives a rough indication
+of our timeline. The first initial step is to get the Alpha released before conducting our ICO.
+
+|
+
+5.1
+
+Roadmap
+
+v. Iona
+• Release of Alpha version (iOS/Android)
+• Conduct the ICO (16th of August)
+v. Eday
+• Implementation of subscription based services
+• Increase the amount of available exchanges and currencies
+• Team expansion
+v. Barra
+• Offline notifications and alerts through SMS
+• Automatic coin tracking for new alt coins
+• Browse your addresses and their transactions
+• Monte Carlo simulations for your portfolio
+v. Skye
+• Smart analysis of alt coin trends based on media exposure
+• Real-time data streaming
+• Start development of web client
+• In-app trading with other users
+v. Hoy
+• Add webhooks as an endpoint to Watcher alerts
+• Safe investment predictions based on historical analysis
+• Automatic wallet tracking feature
+• Arbitrage opportunities for most currencies and exchanges
+v. Ulva
+• Functional web client with desktop notifications support
+• Cryptocurrency ranking
+• Machine learning / AI for investment predictions
+v. Eigg
+• Create teams in Trackr to collaborate
+• Public API release
+• Synchronization of mobile and web data
+
+TRACKR
+
+6
+
+|
+
+9
+
+INFRASTRUCTURE
+
+The majority of our infrastructure is hosted on AWS (Amazon Web Services), this section will provide in-depth insight on how we have set up our services.
+
+6.1
+
+|
+
+Servers
+
+Our servers that interact with the Trackr platform run in auto-scaled groups. Whenever an increase in load has been detected the auto scaling group will start up a new server that bootstraps
+and starts serving. The servers run our backend in isolated environments inside Amazon’s Elastic
+Container Service using Docker (a container solution). This effectively holds in that we can spin
+up multiple containers on each server provided they have the capacity to do so. Once capacity has
+reached its defined threshold a new server is launched according to the auto-scaling operation.
+Owing to the need to handle aggressive amounts of requests per second, we are wary of the amount
+of load this will generate on our servers and databases. Caching has been implemented with a very
+low time-to-live to ensure that requests are responded to immediately and a low latency is maintained for the majority of the requests. Moreover, everything has been load-balanced to ensure
+the stress on our servers are uniformly distributed.
+
+6.2
+
+|
+
+Database
+
+We use PostgreSQL as our database, it is a powerful object-relational database that meets standard compliance and offers high throughput and performance. We ensure that our database runs
+on a high availability mode and is constantly backed up in the event of a data loss. Our database is
+replicated in real-time to a secondary database, meaning that if the primary database goes down
+the secondary will take over until the primary is back online.
+
+6.3
+
+|
+
+Security
+
+Security is a top priority on our list; we have gone to great lengths to ensure 100% safety and encryption protection of the data on our servers. Our storage (database or otherwise) use an encryption key to encrypt all data at rest and utilizes hardware security modules to do so. All data in
+transit is secured using SSL/HTTPS.
+Our database and caching servers run in an isolated environment (persistence tier) with no ingress
+
+10
+
+TRACKR
+
+or egress to the Internet. Our API servers have egress connectivity to the Internet; however they
+cannot accept any connections coming in. Lastly, we ensure that the only point of entry is our loadbalancer, which then internally redirects the traffic as appropriate. ACLs (access control lists) are
+in place to act as a firewall to block any unwanted traffic, both inside and outside our network.
+
+6.4
+
+|
+
+Diagram
+
+A diagram is depicted with a general overview as to how requests are fulfilled. There is more infrastructure behind the scene that is not shown as it does not directly relate to the Trackr platform
+(such as our emailing service or website).
+
+FIGURE 3
+
+AWS Infrastructure Diagram
+
+TRACKR
+
+7
+
+|
+
+11
+
+TOKEN SALE
+
+An alpha version will be available for users to test for both iOS and Android with access to initial
+basic set of features before the launch of the ICO.
+
+7.1
+•
+
+|
+
+Investment Purposes
+
+Infrastructure Costs - One of primary costs we’ll have to deal with is our infrastructure. Currently most if not all of our services run on AWS (Amazon Web Services). We estimate that
+under peak hours and heavy load our servers will scale up to as much as 5 or 10 times, in addition to this there are also significant costs to reserve instances (servers) upfront with AWS for
+a dedicated amount of time.
+
+•
+
+Team Expansion - Our intention is to expand the team so we can continue to add more features
+at a fast pace and improve the overall user experience. Transparency is very important to us to
+ensure a healthy relationship with the community, we will answer any question raised by the
+community on any of our processes.
+
+•
+
+Research and Development - A lot of time goes into researching various designs and algorithm.
+A feature such as investment predictions based on popularity may sound easy at first, however
+when you factor in that fake news and articles need to be vetted programmatically it becomes
+a complex problem to solve. Moreover, we’re looking into AI and machine learning to make
+future predictions for currencies.
+
+•
+
+Advertising and Marketing - In order to promote a continuous and positive growth of the platofrm
+and the team we will need to invest in advertising and marketing. Advertisement will also be
+funded through the bounty program to generate interest.
+
+•
+
+Legal - We need to ensure that Trackr complies with the various legislations in place governing
+the rights of our users, and in order to do so a portion of the crowdsale funding will go into legal.
+
+12
+
+8
+
+TRACKR
+
+|
+
+TKR TOKEN
+
+Once the ICO has concluded, an on-line registration portal will be in progress for token holders to
+register. Registering itself is optional but allows for anyone that has any amount of TKR tokens to
+participate in its success. The verification process will require the token holder to either send a
+unique nonce applicable to the registered account or verify their wallet they have their tokens on
+by signing a message. Stringent regulations require us to verify identity for token holders (Know
+Your Customer). Please be wary of your local regulations, if in doubt seek out advise prior to contributing to the token sale.
+The TKR token’s primary purpose is a currency which can be used to purchase, advertise or trade
+with other users on the Trackr platform offering. Remember that contributing to Trackr you agree
+to purchase TKR tokens that are functional utility tokens on the Trackr platform. TKR tokens are
+not securities, are non-refundable and aren’t for speculative investment. No promises of future
+performance or value are or will be made with respect to TKR tokens, including no promise of inherent value, no promise of continuing payments, and no guarantee that TKR will hold any particular
+value.
+
+8.1
+
+|
+
+TKR token usability and process
+
+•
+
+Users pay a nominal monthly fee for the subscription of ‘advanced features’ with TKR.
+
+•
+
+Users may wish to share their successful portfolio, requesting users will be able to see their
+portfolio for the price specified by the user. The exchange of tokens would be conducted by
+smart-contracts, a modest service fee (1–5%) is applied and the remainder is sent to the owner
+of the portfolio.
+
+•
+
+Users can promote non-obtrusive and subtle cryptocurrency news advertisement in the newssection. This effectively means that their news goes through an approval process after which
+non-subscribers will see it in the news section. The promotion of news will cost TKR tokens.
+Subscribed users may be able to lower their subscription by allowing promoted news to be displayed to them.
+
+•
+
+Tokens are slowly burned at a percentage over time,
+
+Trackr will also be integrated into the Blockchain (using Web3 via JSON-RPC), making heavy use of
+smart-contracts. This will be the primary way of providing subscription on the platform and trading
+between users (such as sharing portfolios, models, specialized alerts). The integration itself will
+primarily take on the desktop client and can be configured to target your local or externally node.
+
+TRACKR
+
+9
+
+|
+
+13
+
+ICO DETAILS
+
+The crowdsale period will start on 16th of August 2017 at 12 PM UTC and will last for exactly 30
+days until 15th of September 2017. The actual start time may vary slightly by a few hours.
+FIGURE 4
+
+9.1
+
+|
+
+Token Distribution
+
+Crowd Funding
+
+The Trackr token, (’TKR’), will be distributed at a rate of 5000 TKR tokens for each (1) ETH to all
+contributors during the ICO. A total of 58 500 000 TKR tokens are made available for crowd funding. There is a bonus allocation depending on the contribution date, which is as follows:
+
+•
+
+Contributions made in the first 48 hours of the ICO will receive a +20% bonus.
+
+•
+
+Contributions made after the first 48 hours until the end of the second week (14 day period)
+will receive a +10% bonus
+
+•
+
+Contributions made during the third week will receive a 5% bonus.
+
+•
+
+Any contributions made outside the aforementioned periods will receive no bonus allocation.
+
+The minimum amount of Ether that can be sent to the smart contract is 10 Finney (0.01 Ether).
+
+14
+
+9.2
+
+TRACKR
+
+|
+
+Bounty Campaign
+
+Users can assist by advertising on any social media platform they belong to or help with certain
+tasks such as translating the white paper, news posts and more. A bounty campaign will be set up
+a few weeks prior to the ICO. The campaign will be reviewed on a weekly basis based on users and
+points will be rewarded appropriately based on a number of factors (quality, merit, # of audience
+reached, and so on).
+A total of 5% is allocated for the bounty campaign and will be distributed after the ICO has concluded depending on the amount of points they have collected during the weeks leading up to and
+including during the duration of the ICO.
+
+9.3
+
+|
+
+Exchange Availability
+
+Once the ICO has concluded the TKR token will be available to trade on various exchanges. We
+will be negotiating with several exchanges and aim to get the token on as soon as possible. Any
+information pertaining to exchange availability for the token will be made available as soon as we
+have verification.
+
+FIGURE 5
+
+Funds Distribution
+
+TRACKR
+
+15
+
+| PRIVACY & SECURITY
+
+10
+
+Your privacy is of utmost importance and priority on the Trackr platform and will be handled as
+such. We have employed the following security measures and guidelines to protect your data at
+rest or in transit.
+
+•
+
+We fully comply with the Data Protection Act 1998 as specified by the UK government, this
+covers legislation relating to any data processing which could be used to identify living people.
+
+•
+
+All data in transit are sent over HTTPS, this prevents eavesdropping on any data that has been
+transmitted and safeguards against man-in-the-middle attacks.
+
+•
+
+Only data that is required by our server will be requested, we will not collect more information
+than necessary. We may choose to add features in the future that may collect additional data;
+however, this will be clearly communicated prior to the use of those features.
+
+•
+
+All data stored on our servers at rest is encrypted using standard AES-256 encryption algorithm, this includes the database, servers and all backups.
+
+10.1
+
+| Personal Data Insurance
+
+Portfolios have traditionally always been a potential issue as they could indicate your position in
+the market and give valuable information away. Trackr ensures that no information related to the
+holdings of any of your coins is stored on our servers or transmitted. All data is stored locally on
+the user’s mobile phone, this gives the user complete assurance that they alone are privy to what
+is stored in their wallets.
+Trackr’s role will be limited to only fetching currency pricing data from our API servers and to
+store the user’s Watcher settings. The aforementioned statement also applies to our planned wallet tracking feature, all wallet addresses will be stored locally only.
+Trackr will never send out the amount of any currency you own, all calculation is performed locally.
+Information pertaining to the currency types or pairs (i.e. BTC, ETH, GNT, WAVES) and exchange
+information you own will be sent only for the purpose of requesting an accurate representation of
+your portfolio, however, it will not be stored on our servers.
+
+

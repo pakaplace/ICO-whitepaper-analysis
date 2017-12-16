@@ -1,0 +1,1193 @@
+ 
+
+Intelligent​ ​Trading 
+Technologies​ ​(ITT) 
+State-of-the-art​ ​data​ ​science​ ​tools​ ​and​ ​artificial​ ​intelligence​ ​networks​ ​providing​ ​actionable
+real-time​ ​trading​ ​signals​ ​for​ ​success​ ​in​ ​the​ ​cryptocurrency​ ​markets.
+
+ 
+ 
+ 
+ 
+ 
+Whitepaper 
+17-August-2017
+edited​ ​11-September-2017
+
+Website:​ ​intelligenttrading.org/
+Token​ ​Sale​ ​Site:​ ​intelligenttrading.org/token-sale/
+Telegram​ ​Bot:​​ ​(currently​ ​in​ ​private​ ​Beta)
+Twitter:​ ​twitter.com/ITT_Token
+Slack​ ​(join):​ ​itt-token-slack.herokuapp.com/
+Slack​ ​(team):​ ​https://itt-token.slack.com
+Github:​ ​github.com/intelligenttrading
+Reddit:​ ​reddit.com/r/ITT_Token
+Email:​​ ​info@intelligenttrading.org
+
+Table​ ​of​ ​Contents 
+0​ ​–​ ​Important​ ​Notice
+
+2
+
+1​ ​-​ ​Executive​ ​Summary
+
+8
+
+2​ ​-​ ​Background,​ ​Problem​ ​Overview
+Cryptocurrency​ ​Markets
+Artificial​ ​Intelligence
+Artificial​ ​Intelligence​ ​in​ ​Cryptocurrency​ ​Markets
+
+9
+9
+9
+11
+
+3​ ​-​ ​Mission​ ​Statement
+
+12
+
+4​ ​-​ ​Platform
+ITT​ ​Bot​ ​UI​ ​Mock​ ​up
+Alert​ ​Description
+Details​ ​of​ ​the​ ​Alert
+Additional​ ​Sections​ ​in​ ​Testing
+Technology​ ​Architecture
+
+13
+14
+14
+15
+17
+17
+
+5​ ​-​ ​Roadmap
+Phase​ ​1:​ ​Initial​ ​Development
+Phase​ ​2
+Phase​ ​3
+
+19
+19
+19
+20
+
+6​ ​-​ ​Token​ ​Mechanism
+
+21
+
+7​ ​-​ ​ITT​ ​Token​ ​Sale
+
+23
+
+8​ ​-​ ​Leadership​ ​(Team)
+
+26
+
+9​ ​-​ ​Legal​ ​Considerations
+
+28
+
+10​ ​–​ ​KYC​ ​Policy
+
+29
+
+11​ ​-​ ​Acknowledgements
+
+31
+
+1
+
+0​ ​–​ ​Important​ ​Notice
+PLEASE​ ​READ​ ​THIS​ ​SECTION​ ​AND​ ​THE​ ​FOLLOWING​ ​SECTIONS​ ​ENTITLED
+“DISCLAIMER​ ​OF​ ​LIABILITY”,​ ​“NO​ ​REPRESENTATIONS​ ​AND​ ​WARRANTIES”,
+“REPRESENTATIONS​ ​AND​ ​WARRANTIES​ ​BY​ ​YOU”,​ ​“CAUTIONARY​ ​NOTE​ ​ON
+FORWARD-LOOKING​ ​STATEMENTS”,​ ​“MARKET​ ​AND​ ​INDUSTRY​ ​INFORMATION
+AND​ ​NO​ ​CONSENT​ ​OF​ ​OTHER​ ​PERSONS”,​ ​“NO​ ​ADVICE”,​ ​“NO
+FURTHER​ ​INFORMATION​ ​OR​ ​UPDATE”,​ ​“RESTRICTIONS​ ​ON​ ​DISTRIBUTION
+AND​ ​DISSEMINATION”,​ ​“NO​ ​OFFER​ ​OF​ ​SECURITIES​ ​OR​ ​REGISTRATION”​ ​AND
+“RISKS​ ​AND​ ​UNCERTAINTIES”​ ​CAREFULLY.
+IF​ ​YOU​ ​ARE​ ​IN​ ​ANY​ ​DOUBT​ ​AS​ ​TO​ ​THE​ ​ACTION​ ​YOU​ ​SHOULD​ ​TAKE,​ ​YOU
+SHOULD​ ​CONSULT​ ​YOUR​ ​LEGAL,​ ​FINANCIAL,​ ​TAX​ ​OR​ ​OTHER​ ​PROFESSIONAL
+ADVISOR(S).
+The​ ​ITT​ ​tokens​ ​are​ ​not​ ​intended​ ​to​ ​constitute​ ​securities​ ​in​ ​any​ ​jurisdiction.​ ​This​ ​Whitepaper
+does​ ​not​ ​constitute​ ​a​ ​prospectus​ ​or​ ​offer​ ​document​ ​of​ ​any​ ​sort​ ​and​ ​is​ ​not​ ​intended​ ​to​ ​constitute​ ​an
+offer​ ​of​ ​securities​ ​or​ ​a​ ​solicitation​ ​for​ ​investment​ ​in​ ​securities​ ​in​ ​any​ ​jurisdiction.
+This​ ​Whitepaper​ ​does​ ​not​ ​constitute​ ​or​ ​form​ ​part​ ​of​ ​any​ ​opinion​ ​on​ ​any​ ​advice​ ​to​ ​sell,​ ​or​ ​any
+solicitation​ ​of​ ​any​ ​offer​ ​by​ ​the​ ​distributor/vendor​ ​of​ ​the​ ​ITT​ ​tokens​ ​(the​ ​“Distributor”)​ ​to
+purchase​ ​any​ ​ITT​ ​tokens​ ​nor​ ​shall​ ​it​ ​or​ ​any​ ​part​ ​of​ ​it​ ​nor​ ​the​ ​fact​ ​of​ ​its​ ​presentation​ ​form​ ​the
+basis​ ​of,​ ​or​ ​be​ ​relied​ ​upon​ ​in​ ​connection​ ​with,​ ​any​ ​contract​ ​or​ ​investment​ ​decision.
+The​ ​Distributor​ ​will​ ​be​ ​an​ ​affiliate​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​(“Intelligent​ ​Trading
+Technologies”),​ ​and​ ​will​ ​deploy​ ​all​ ​proceeds​ ​of​ ​sale​ ​of​ ​the​ ​ITT​ ​tokens​ ​to​ ​fund​ ​Intelligent​ ​Trading
+Technologies​ ​cryptocurrency​ ​project,​ ​businesses​ ​and​ ​operations.
+No​ ​person​ ​is​ ​bound​ ​to​ ​enter​ ​into​ ​any​ ​contract​ ​or​ ​binding​ ​legal​ ​commitment​ ​in​ ​relation​ ​to​ ​the​ ​sale
+and​ ​purchase​ ​of​ ​the​ ​ITT​ ​tokens​ ​and​ ​no​ ​cryptocurrency​ ​or​ ​other​ ​form​ ​of​ ​Payment​ ​is​ ​to​ ​be
+accepted​ ​on​ ​the​ ​basis​ ​of​ ​this​ ​Whitepaper.
+Any​ ​agreement​ ​as​ ​between​ ​the​ ​Distributor​ ​and​ ​you​ ​as​ ​a​ ​purchaser,​ ​and​ ​in​ ​relation​ ​to​ ​any​ ​sale​ ​and
+purchase,​ ​of​ ​ITT​ ​tokens​ ​(as​ ​referred​ ​to​ ​in​ ​this​ ​Whitepaper)​ ​is​ ​to​ ​be​ ​governed​ ​by​ ​only​ ​a​ ​separate
+document​ ​setting​ ​out​ ​the​ ​terms​ ​and​ ​conditions​ ​(the​ ​“T&Cs”)​ ​of​ ​such​ ​agreement.​ ​In​ ​the​ ​event​ ​of
+any​ ​inconsistencies​ ​between​ ​the​ ​T&Cs​ ​and​ ​this​ ​Whitepaper,​ ​the​ ​former​ ​shall​ ​prevail.
+You​ ​are​ ​not​ ​eligible​ ​and​ ​you​ ​are​ ​not​ ​to​ ​purchase​ ​any​ ​ITT​ ​tokens​ ​in​ ​the​ ​Intelligent​ ​Trading
+Technologies​ ​Initial​ ​Token​ ​Sale​ ​(as​ ​referred​ ​to​ ​in​ ​this​ ​Whitepaper)​ ​if​ ​you​ ​are​ ​a​ ​citizen,​ ​resident
+(tax​ ​or​ ​otherwise)​ ​or​ ​green​ ​card​ ​holder​ ​of​ ​the​ ​United​ ​States​ ​of​ ​America​ ​or​ ​a​ ​citizen​ ​or​ ​resident​ ​of
+the​ ​Peoples​ ​Republic​ ​of​ ​China.
+No​ ​regulatory​ ​authority​ ​has​ ​examined​ ​or​ ​approved​ ​of​ ​any​ ​of​ ​the​ ​information​ ​set​ ​out​ ​in​ ​this
+Whitepaper.​ ​No​ ​such​ ​action​ ​has​ ​been​ ​or​ ​will​ ​be​ ​taken​ ​under​ ​the​ ​laws,​ ​regulatory​ ​requirements​ ​or
+
+2
+
+rules​ ​of​ ​any​ ​jurisdiction.​ ​The​ ​publication,​ ​distribution​ ​or​ ​dissemination​ ​of​ ​this​ ​Whitepaper​ ​does
+not​ ​imply​ ​that​ ​the​ ​applicable​ ​laws,​ ​regulatory​ ​requirements​ ​or​ ​rules​ ​have​ ​been​ ​complied​ ​with.
+There​ ​are​ ​risks​ ​and​ ​uncertainties​ ​associated​ ​with​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor​ ​and​ ​their​ ​respective​ ​businesses​ ​and​ ​operations,​ ​the​ ​ITT​ ​tokens,​ ​the​ ​Intelligent​ ​Trading
+Technologies​ ​Initial​ ​Token​ ​Sale​ ​and​ ​the​ ​Intelligent​ ​Trading​ ​Technologies​ ​Wallet
+(each​ ​as​ ​referred​ ​to​ ​in​ ​this​ ​Whitepaper).
+This​ ​Whitepaper,​ ​any​ ​part​ ​thereof​ ​and​ ​any​ ​copy​ ​thereof​ ​must​ ​not​ ​be​ ​taken​ ​or​ ​transmitted​ ​to​ ​any
+country​ ​where​ ​distribution​ ​or​ ​dissemination​ ​of​ ​this​ ​Whitepaper​ ​is​ ​prohibited​ ​or​ ​restricted.
+No​ ​part​ ​of​ ​this​ ​Whitepaper​ ​is​ ​to​ ​be​ ​reproduced,​ ​distributed​ ​or​ ​disseminated​ ​without​ ​including​ ​this
+section​ ​and​ ​the​ ​following​ ​sections​ ​entitled​ ​“Disclaimer​ ​of​ ​Liability”,​ ​“No​ ​Representations​ ​and
+Warranties”,​ ​“Representations​ ​and​ ​Warranties​ ​By​ ​You”,​ ​“Cautionary​ ​Note​ ​On​ ​Forward-Looking
+Statements”,​ ​“Market​ ​and​ ​Industry​ ​Information​ ​and​ ​No​ ​Consent​ ​of​ ​Other​ ​Persons”,​ ​“Terms
+Used”,​ ​“No​ ​Advice”,​ ​“No​ ​Further​ ​Information​ ​or​ ​Update”,​ ​“Restrictions​ ​On​ ​Distribution​ ​and
+Dissemination”,​ ​“No​ ​Offer​ ​of​ ​Securities​ ​Or​ ​Registration”​ ​and​ ​“Risks​ ​and​ ​Uncertainties”.
+DISCLAIMER​ ​OF​ ​LIABILITY
+To​ ​the​ ​maximum​ ​extent​ ​permitted​ ​by​ ​the​ ​applicable​ ​laws,​ ​regulations​ ​and​ ​rules,​ ​Intelligent
+Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​shall​ ​not​ ​be​ ​liable​ ​for​ ​any​ ​indirect,​ ​special,
+incidental,​ ​consequential​ ​or​ ​other​ ​losses​ ​of​ ​any​ ​kind,​ ​in​ ​tort,​ ​contract​ ​or​ ​otherwise​ ​(including​ ​but
+not​ ​limited​ ​to​ ​loss​ ​of​ ​revenue,​ ​income​ ​or​ ​profits,​ ​and​ ​loss​ ​of​ ​use​ ​or​ ​data),​ ​arising​ ​out​ ​of​ ​or​ ​in
+connection​ ​with​ ​any​ ​acceptance​ ​of​ ​or​ ​reliance​ ​on​ ​this​ ​Whitepaper​ ​or​ ​any​ ​part​ ​thereof​ ​by​ ​you.
+NO​ ​REPRESENTATIONS​ ​AND​ ​WARRANTIES
+Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​does​ ​not​ ​make​ ​or​ ​purport​ ​to​ ​make,​ ​and
+hereby​ ​disclaims,​ ​any​ ​representation,​ ​warranty​ ​or​ ​undertaking​ ​in​ ​any​ ​form​ ​whatsoever​ ​to​ ​any
+entity​ ​or​ ​person,​ ​including​ ​any​ ​representation,​ ​warranty​ ​or​ ​undertaking​ ​in​ ​relation​ ​to​ ​the​ ​truth,
+accuracy​ ​and​ ​completeness​ ​of​ ​any​ ​of​ ​the​ ​information​ ​set​ ​out​ ​in​ ​this​ ​Whitepaper.
+REPRESENTATIONS​ ​AND​ ​WARRANTIES​ ​BY​ ​YOU
+By​ ​accessing​ ​and/or​ ​accepting​ ​possession​ ​of​ ​any​ ​information​ ​in​ ​this​ ​Whitepaper​ ​or​ ​such​ ​part
+thereof​ ​(as​ ​the​ ​case​ ​may​ ​be),​ ​you​ ​represent​ ​and​ ​warrant​ ​to​ ​Intelligent​ ​Trading​ ​Technologies
+and/or​ ​the​ ​Distributor​ ​as​ ​follows:
+A. you​ ​agree​ ​and​ ​acknowledge​ ​that​ ​the​ ​ITT​ ​tokens​ ​do​ ​not​ ​constitute​ ​securities​ ​in​ ​any​ ​form​ ​in
+any​ ​jurisdiction;
+B. you​ ​agree​ ​and​ ​acknowledge​ ​that​ ​this​ ​Whitepaper​ ​does​ ​not​ ​constitute​ ​a​ ​prospectus​ ​or​ ​offer
+document​ ​of​ ​any​ ​sort​ ​and​ ​is​ ​not​ ​intended​ ​to​ ​constitute​ ​an​ ​offer​ ​of​ ​securities​ ​in​ ​any
+jurisdiction​ ​or​ ​a​ ​solicitation​ ​for​ ​investment​ ​in​ ​securities​ ​and​ ​you​ ​are​ ​not​ ​bound​ ​to​ ​enter
+3
+
+C.
+
+D.
+
+E.
+
+F.
+
+G.
+H.
+
+I.
+
+J.
+
+into​ ​any​ ​contract​ ​or​ ​binding​ ​legal​ ​commitment​ ​and​ ​no​ ​cryptocurrency​ ​or​ ​other​ ​form​ ​of
+ITT​ ​is​ ​to​ ​be​ ​accepted​ ​on​ ​the​ ​basis​ ​of​ ​this​ ​Whitepaper;
+you​ ​agree​ ​and​ ​acknowledge​ ​that​ ​no​ ​regulatory​ ​authority​ ​has​ ​examined​ ​or​ ​approved​ ​of​ ​the
+information​ ​set​ ​out​ ​in​ ​this​ ​Whitepaper,​ ​no​ ​action​ ​has​ ​been​ ​or​ ​will​ ​be​ ​taken​ ​under​ ​the​ ​laws,
+regulatory​ ​requirements​ ​or​ ​rules​ ​of​ ​any​ ​jurisdiction​ ​and​ ​the​ ​publication,​ ​distribution​ ​or
+dissemination​ ​of​ ​this​ ​Whitepaper​ ​to​ ​you​ ​does​ ​not​ ​imply​ ​that​ ​the​ ​applicable​ ​laws,
+regulatory​ ​requirements​ ​or​ ​rules​ ​have​ ​been​ ​complied​ ​with;
+you​ ​agree​ ​and​ ​acknowledge​ ​that​ ​this​ ​Whitepaper,​ ​the​ ​undertaking​ ​and/or​ ​the​ ​completion
+of​ ​the​ ​Intelligent​ ​Trading​ ​Technologies​ ​Initial​ ​Token​ ​Sale,​ ​or​ ​future​ ​trading​ ​of​ ​the​ ​ITT
+tokens​ ​on​ ​any​ ​cryptocurrency​ ​exchange,​ ​shall​ ​not​ ​be​ ​construed,​ ​interpreted​ ​or​ ​deemed​ ​by
+you​ ​as​ ​an​ ​indication​ ​of​ ​the​ ​merits​ ​of​ ​the​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor,​ ​the​ ​ITT​ ​tokens,​ ​the​ ​Intelligent​ ​Trading​ ​Technologies​ ​Initial​ ​Token​ ​Sale​ ​and
+the​ ​Intelligent​ ​Trading​ ​Technologies​ ​Wallet​ ​(each​ ​as​ ​referred​ ​to​ ​in​ ​this​ ​Whitepaper);
+the​ ​distribution​ ​or​ ​dissemination​ ​of​ ​this​ ​Whitepaper,​ ​any​ ​part​ ​thereof​ ​or​ ​any​ ​copy​ ​thereof,
+or​ ​acceptance​ ​of​ ​the​ ​same​ ​by​ ​you,​ ​is​ ​not​ ​prohibited​ ​or​ ​restricted​ ​by​ ​the​ ​applicable​ ​laws,
+regulations​ ​or​ ​rules​ ​in​ ​your​ ​jurisdiction,​ ​and​ ​where​ ​any​ ​restrictions​ ​in​ ​relation​ ​to
+possession​ ​are​ ​applicable,​ ​you​ ​have​ ​observed​ ​and​ ​complied​ ​with​ ​all​ ​such​ ​restrictions​ ​at
+your​ ​own​ ​expense​ ​and​ ​without​ ​liability​ ​to​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor;
+you​ ​agree​ ​and​ ​acknowledge​ ​that​ ​in​ ​the​ ​case​ ​where​ ​you​ ​wish​ ​to​ ​purchase​ ​any​ ​ITT​ ​tokens,
+the​ ​ITT​ ​tokens​ ​are​ ​not​ ​to​ ​be​ ​construed,​ ​interpreted,​ ​classified​ ​or​ ​treated​ ​as:
+a. any​ ​kind​ ​of​ ​currency​ ​other​ ​than​ ​cryptocurrency;
+b. debentures,​ ​stocks​ ​or​ ​shares​ ​issued​ ​by​ ​any​ ​person​ ​or​ ​entity​ ​(whether​ ​Intelligent
+Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor)
+c. rights,​ ​options​ ​or​ ​derivatives​ ​in​ ​respect​ ​of​ ​such​ ​debentures,​ ​stocks​ ​or​ ​shares;
+d. rights​ ​under​ ​a​ ​contract​ ​for​ ​differences​ ​or​ ​under​ ​any​ ​other​ ​contract​ ​the​ ​purpose​ ​or
+pretended​ ​purpose​ ​of​ ​which​ ​is​ ​to​ ​secure​ ​a​ ​profit​ ​or​ ​avoid​ ​a​ ​loss;
+e. units​ ​in​ ​a​ ​collective​ ​investment​ ​scheme;
+f. units​ ​in​ ​a​ ​business​ ​trust;
+g. derivatives​ ​of​ ​units​ ​in​ ​a​ ​business​ ​trust;​ ​any​ ​other​ ​security​ ​or​ ​class​ ​of​ ​securities;​ ​or
+h. an​ ​investment​ ​contract.
+you​ ​are​ ​fully​ ​aware​ ​of​ ​and​ ​understand​ ​that​ ​you​ ​are​ ​not​ ​eligible​ ​to​ ​purchase​ ​any​ ​ITT
+tokens​ ​if​ ​you​ ​are​ ​a​ ​citizen,​ ​resident​ ​(tax​ ​or​ ​otherwise)​ ​or​ ​green​ ​card​ ​holder​ ​of​ ​the​ ​United
+States​ ​of​ ​America​ ​or​ ​a​ ​citizen​ ​or​ ​resident​ ​of​ ​the​ ​Peoples​ ​Republic​ ​of​ ​China;
+you​ ​have​ ​a​ ​basic​ ​degree​ ​of​ ​understanding​ ​of​ ​the​ ​operation,​ ​functionality,​ ​usage,​ ​storage,
+transmission​ ​mechanisms​ ​and​ ​other​ ​material​ ​characteristics​ ​of​ ​cryptocurrencies,
+blockchain-based​ ​software​ ​systems,​ ​cryptocurrency​ ​wallets​ ​or​ ​other​ ​related​ ​token​ ​storage
+mechanisms,​ ​blockchain​ ​technology​ ​and​ ​smart​ ​contract​ ​technology;
+you​ ​are​ ​fully​ ​aware​ ​and​ ​understand​ ​that​ ​in​ ​the​ ​case​ ​where​ ​you​ ​wish​ ​to​ ​purchase​ ​any​ ​ITT
+tokens,​ ​there​ ​are​ ​risks​ ​associated​ ​with​ ​Intelligent​ ​Trading​ ​Technologies​ ​and​ ​the
+Distributor​ ​and​ ​their​ ​respective​ ​business​ ​and​ ​operations,​ ​the​ ​ITT​ ​tokens,​ ​the​ ​Intelligent
+Trading​ ​Technologies​ ​Initial​ ​Token​ ​Sale.
+you​ ​agree​ ​and​ ​acknowledge​ ​that​ ​neither​ ​Intelligent​ ​Trading​ ​Technologies​ ​nor​ ​the
+Distributor​ ​is​ ​liable​ ​for​ ​any​ ​indirect,​ ​special,​ ​incidental,​ ​consequential​ ​or​ ​other​ ​losses​ ​of
+any​ ​kind,​ ​in​ ​tort,​ ​contract​ ​or​ ​otherwise​ ​(including​ ​but​ ​not​ ​limited​ ​to​ ​loss​ ​of​ ​revenue,
+4
+
+income​ ​or​ ​profits,​ ​and​ ​loss​ ​of​ ​use​ ​or​ ​data),​ ​arising​ ​out​ ​of​ ​or​ ​in​ ​connection​ ​with​ ​any
+acceptance​ ​of​ ​or​ ​reliance​ ​on​ ​this​ ​Whitepaper​ ​or​ ​any​ ​part​ ​thereof​ ​by​ ​you;​ ​and
+K. all​ ​of​ ​the​ ​above​ ​representations​ ​and​ ​warranties​ ​are​ ​true,​ ​complete,​ ​accurate​ ​and
+non-misleading​ ​from​ ​the​ ​time​ ​of​ ​your​ ​access​ ​to​ ​and/or​ ​acceptance​ ​of​ ​possession​ ​this
+Whitepaper​ ​or​ ​such​ ​part​ ​thereof​ ​(as​ ​the​ ​case​ ​may​ ​be).
+CAUTIONARY​ ​NOTE​ ​ON​ ​FORWARD-LOOKING​ ​STATEMENTS
+All​ ​statements​ ​contained​ ​in​ ​this​ ​Whitepaper,​ ​statements​ ​made​ ​in​ ​press​ ​releases​ ​or​ ​in​ ​any​ ​place
+accessible​ ​by​ ​the​ ​public​ ​and​ ​oral​ ​statements​ ​that​ ​may​ ​be​ ​made​ ​by​ ​Intelligent​ ​Trading
+Technologies​ ​and/or​ ​the​ ​Distributor​ ​or​ ​their​ ​respective​ ​directors,​ ​executive​ ​officers​ ​or​ ​employees
+acting​ ​on​ ​behalf​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​or​ ​the​ ​Distributor​ ​(as​ ​the​ ​case​ ​may​ ​be),​ ​that
+are​ ​not​ ​statements​ ​of​ ​historical​ ​fact,​ ​constitute​ ​“forward-looking​ ​statements”.​ ​Some​ ​of​ ​these
+statements​ ​can​ ​be​ ​identified​ ​by​ ​forward-looking​ ​terms​ ​such​ ​as​ ​“aim”,​ ​“target”,​ ​“anticipate”,
+“believe”,​ ​“could”,​ ​“estimate”,​ ​“expect”,​ ​“if”,​ ​“intend”,​ ​“may”,​ ​“plan”,​ ​“possible”,​ ​“probable”,
+“project”,​ ​“should”,​ ​“would”,​ ​“will”​ ​or​ ​other​ ​similar​ ​terms.​ ​However,​ ​these​ ​terms​ ​are​ ​not​ ​the
+exclusive​ ​means​ ​of​ ​identifying​ ​forward-looking​ ​statements.​ ​All​ ​statements​ ​regarding​ ​Intelligent
+Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor’s​ ​financial​ ​position,​ ​business​ ​strategies,​ ​plans​ ​and
+prospects​ ​and​ ​the​ ​future​ ​prospects​ ​of​ ​the​ ​industry​ ​which​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or
+the​ ​Distributor​ ​is​ ​in​ ​are​ ​forward-looking​ ​statements.​ ​These​ ​forward-looking​ ​statements,​ ​including
+but​ ​not​ ​limited​ ​to​ ​statements​ ​as​ ​to​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor’s
+revenue​ ​and​ ​profitability,​ ​prospects,​ ​future​ ​plans,​ ​other​ ​expected​ ​industry​ ​trends​ ​and​ ​other
+matters​ ​discussed​ ​in​ ​this​ ​Whitepaper​ ​regarding​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor​ ​are​ ​matters​ ​that​ ​are​ ​not​ ​historic​ ​facts,​ ​but​ ​only​ ​predictions.
+These​ ​forward-looking​ ​statements​ ​involve​ ​known​ ​and​ ​unknown​ ​risks,​ ​uncertainties​ ​and​ ​other
+factors​ ​that​ ​may​ ​cause​ ​the​ ​actual​ ​future​ ​results,​ ​performance​ ​or​ ​achievements​ ​of​ ​Intelligent
+Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​to​ ​be​ ​materially​ ​different​ ​from​ ​any​ ​future​ ​results,
+performance​ ​or​ ​achievements​ ​expected,​ ​expressed​ ​or​ ​implied​ ​by​ ​such​ ​forward-looking
+statements.​ ​These​ ​factors​ ​include,​ ​amongst​ ​others:
+A. changes​ ​in​ ​political,​ ​social,​ ​economic​ ​and​ ​stock​ ​or​ ​cryptocurrency​ ​market​ ​conditions,​ ​and
+the​ ​regulatory​ ​environment​ ​in​ ​the​ ​countries​ ​in​ ​which​ ​Intelligent​ ​Trading​ ​Technologies
+and/or​ ​the​ ​Distributor​ ​conducts​ ​its​ ​respective​ ​businesses​ ​and​ ​operations;
+B. the​ ​risk​ ​that​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​may​ ​be​ ​unable​ ​or
+execute​ ​or​ ​implement​ ​their​ ​respective​ ​business​ ​strategies​ ​and​ ​future​ ​plans;
+C. changes​ ​in​ ​interest​ ​rates​ ​and​ ​exchange​ ​rates​ ​of​ ​fiat​ ​currencies​ ​and​ ​cryptocurrencies;
+D. changes​ ​in​ ​the​ ​anticipated​ ​growth​ ​strategies​ ​and​ ​expected​ ​internal​ ​growth​ ​of​ ​Intelligent
+Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor;
+E. changes​ ​in​ ​the​ ​availability​ ​and​ ​fees​ ​billable​ ​to​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor​ ​in​ ​connection​ ​with​ ​their​ ​respective​ ​businesses​ ​and​ ​operations;
+F. changes​ ​in​ ​the​ ​availability​ ​and​ ​salaries​ ​of​ ​employees​ ​who​ ​are​ ​required​ ​by​ ​Intelligent
+Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​to​ ​operate​ ​their​ ​respective​ ​businesses​ ​and
+operations;
+G. changes​ ​in​ ​preferences​ ​of​ ​customers​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor;
+5
+
+H. changes​ ​in​ ​competitive​ ​conditions​ ​under​ ​which​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or
+the​ ​Distributor​ ​operate,​ ​and​ ​the​ ​ability​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor​ ​to​ ​compete​ ​under​ ​such​ ​conditions;
+I. changes​ ​in​ ​the​ ​future​ ​capital​ ​needs​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor​ ​and​ ​the​ ​availability​ ​of​ ​financing​ ​and​ ​capital​ ​to​ ​fund​ ​such​ ​needs;
+J. war​ ​or​ ​acts​ ​of​ ​international​ ​or​ ​domestic​ ​terrorism;
+K. occurrences​ ​of​ ​catastrophic​ ​events,​ ​natural​ ​disasters​ ​and​ ​acts​ ​of​ ​God​ ​that​ ​affect​ ​the
+businesses​ ​and/or​ ​operations​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor;
+L. other​ ​factors​ ​beyond​ ​the​ ​control​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor;​ ​and
+M. any​ ​risk​ ​and​ ​uncertainties​ ​associated​ ​with​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor​ ​and​ ​their​ ​businesses​ ​and​ ​operations,​ ​or​ ​the​ ​ITT​ ​tokens.
+All​ ​forward-looking​ ​statements​ ​made​ ​by​ ​or​ ​attributable​ ​to​ ​Intelligent​ ​Trading​ ​Technologies
+and/or​ ​the​ ​Distributor​ ​or​ ​persons​ ​acting​ ​on​ ​behalf​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor​ ​are​ ​expressly​ ​qualified​ ​in​ ​their​ ​entirety​ ​by​ ​such​ ​factors.​ ​Given​ ​that​ ​risks​ ​and
+uncertainties​ ​that​ ​may​ ​cause​ ​the​ ​actual​ ​future​ ​results,​ ​performance
+or​ ​achievements​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​to​ ​be​ ​materially
+different​ ​from​ ​that​ ​expected,​ ​expressed​ ​or​ ​implied​ ​by​ ​the​ ​forward-looking​ ​statements​ ​in​ ​this
+Whitepaper,​ ​undue​ ​reliance​ ​must​ ​not​ ​be​ ​placed​ ​on​ ​these​ ​statements.​ ​These​ ​forward-looking
+statements​ ​are​ ​applicable​ ​only​ ​as​ ​of​ ​the​ ​date​ ​of​ ​this​ ​Whitepaper.
+Neither​ ​Intelligent​ ​Trading​ ​Technologies,​ ​the​ ​Distributor​ ​nor​ ​any​ ​other​ ​person​ ​represents,
+warrants​ ​and/or​ ​undertakes​ ​that​ ​the​ ​actual​ ​future​ ​results,​ ​performance​ ​or​ ​achievements​ ​of
+Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​will​ ​be​ ​as​ ​discussed​ ​in​ ​those
+forward-looking​ ​statements.​ ​The​ ​actual​ ​results,​ ​performance​ ​or​ ​achievements​ ​of​ ​Intelligent
+Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​may​ ​differ​ ​materially​ ​from​ ​those​ ​anticipated​ ​in​ ​these
+forward-looking​ ​statements.
+Nothing​ ​contained​ ​in​ ​this​ ​Whitepaper​ ​is​ ​or​ ​may​ ​be​ ​relied​ ​upon​ ​as​ ​a​ ​promise,​ ​representation​ ​or
+undertaking​ ​as​ ​to​ ​the​ ​future​ ​performance​ ​or​ ​policies​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or
+the​ ​Distributor.​ ​Further,​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​disclaim​ ​any
+responsibility​ ​to​ ​update​ ​any​ ​of​ ​those​ ​forward-looking​ ​statements​ ​or​ ​publicly​ ​announce​ ​any
+revisions​ ​to​ ​those​ ​forward-looking​ ​statements​ ​to​ ​reflect​ ​future​ ​developments,​ ​events​ ​or
+circumstances,​ ​even​ ​if​ ​new​ ​information​ ​becomes​ ​available​ ​or​ ​other​ ​events​ ​occur​ ​in​ ​the​ ​future.
+MARKET​ ​AND​ ​INDUSTRY​ ​INFORMATION​ ​AND​ ​NO​ ​CONSENT​ ​OF​ ​OTHER
+PERSONS
+This​ ​Whitepaper​ ​includes​ ​market​ ​and​ ​industry​ ​information​ ​and​ ​forecasts​ ​that​ ​have​ ​been​ ​obtained
+from​ ​internal​ ​surveys,​ ​reports​ ​and​ ​studies,​ ​where​ ​appropriate,​ ​as​ ​well​ ​as​ ​market​ ​research,
+publicly​ ​available​ ​information​ ​and​ ​industry​ ​publications.​ ​Such​ ​surveys,​ ​reports,​ ​studies,​ ​market
+research,​ ​publicly​ ​available​ ​information​ ​and​ ​publications​ ​generally​ ​state​ ​that​ ​the​ ​information​ ​that
+they​ ​contain​ ​has​ ​been​ ​obtained​ ​from​ ​sources​ ​believed​ ​to​ ​be​ ​reliable,​ ​but​ ​there​ ​can​ ​be​ ​no
+assurance​ ​as​ ​to​ ​the​ ​accuracy​ ​or​ ​completeness​ ​of​ ​such​ ​included​ ​information.
+6
+
+Save​ ​for​ ​Intelligent​ ​Trading​ ​Technologies,​ ​the​ ​Distributor​ ​and​ ​their​ ​respective​ ​directors,
+executive​ ​officers​ ​and​ ​employees,​ ​no​ ​person​ ​has​ ​provided​ ​his​ ​or​ ​her​ ​consent​ ​to​ ​the​ ​inclusion​ ​of
+his​ ​or​ ​her​ ​name​ ​and/or​ ​other​ ​information​ ​attributed​ ​or​ ​perceived​ ​to​ ​be​ ​attributed​ ​to​ ​such​ ​person​ ​in
+connection​ ​therewith​ ​in​ ​this​ ​Whitepaper​ ​and​ ​no​ ​representation,​ ​warranty​ ​or​ ​undertaking​ ​is​ ​or
+purported​ ​to​ ​be​ ​provided​ ​as​ ​to​ ​the​ ​accuracy​ ​or​ ​completeness​ ​of​ ​such​ ​information​ ​by​ ​such​ ​person
+and​ ​such​ ​persons​ ​shall​ ​not​ ​be​ ​obliged​ ​to​ ​provide​ ​any​ ​updates​ ​on​ ​the​ ​same.
+While​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​have​ ​taken​ ​reasonable​ ​actions​ ​to
+ensure​ ​that​ ​the​ ​information​ ​is​ ​extracted​ ​accurately​ ​and​ ​in​ ​its​ ​proper​ ​context,​ ​Intelligent​ ​Trading
+Technologies​ ​and/or​ ​the​ ​Distributor​ ​have​ ​not​ ​conducted​ ​any​ ​independent​ ​review​ ​of​ ​the
+information​ ​extracted​ ​from​ ​third​ ​party​ ​sources,​ ​verified​ ​the​ ​accuracy​ ​or​ ​completeness​ ​of​ ​such
+information​ ​or​ ​ascertained​ ​the​ ​underlying​ ​economic​ ​assumptions​ ​relied​ ​upon​ ​therein.
+Consequently,​ ​neither​ ​Intelligent​ ​Trading​ ​Technologies,​ ​the​ ​Distributor,​ ​nor​ ​their​ ​respective
+directors,​ ​executive​ ​officers​ ​and​ ​employees​ ​acting​ ​on​ ​their​ ​behalf​ ​makes​ ​any​ ​representation​ ​or
+warranty​ ​as​ ​to​ ​the​ ​accuracy​ ​or​ ​completeness​ ​of​ ​such​ ​information​ ​and​ ​shall​ ​not​ ​be​ ​obliged​ ​to
+provide​ ​any​ ​updates​ ​on​ ​the​ ​same.
+TERMS​ ​USED
+To​ ​facilitate​ ​a​ ​better​ ​understanding​ ​of​ ​the​ ​ITT​ ​tokens​ ​being​ ​offered​ ​for​ ​purchase​ ​by​ ​the
+Distributor,​ ​and​ ​the​ ​businesses​ ​and​ ​operations​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor,​ ​certain​ ​technical​ ​terms​ ​and​ ​abbreviations,​ ​as​ ​well​ ​as,​ ​in​ ​certain​ ​instances,​ ​their
+descriptions,​ ​have​ ​been​ ​used​ ​in​ ​this​ ​Whitepaper.​ ​These​ ​descriptions​ ​and​ ​assigned​ ​meanings
+should​ ​not​ ​be​ ​treated​ ​as​ ​being​ ​definitive​ ​of​ ​their​ ​meanings​ ​and​ ​may​ ​not​ ​correspond​ ​to​ ​standard
+industry​ ​meanings​ ​or​ ​usage.
+Words​ ​importing​ ​the​ ​singular​ ​shall,​ ​where​ ​applicable,​ ​include​ ​the​ ​plural​ ​and​ ​vice​ ​versa​ ​and
+words​ ​importing​ ​the​ ​masculine​ ​gender​ ​shall,​ ​where​ ​applicable,​ ​include​ ​the​ ​feminine​ ​and​ ​neuter
+genders​ ​and​ ​vice​ ​versa.​ ​References​ ​to​ ​persons​ ​shall​ ​include​ ​corporations.
+NO​ ​ADVICE
+No​ ​information​ ​in​ ​this​ ​Whitepaper​ ​should​ ​be​ ​considered​ ​to​ ​be​ ​business,​ ​legal,​ ​financial​ ​or​ ​tax
+advice​ ​regarding​ ​Intelligent​ ​Trading​ ​Technologies,​ ​the​ ​Distributor,​ ​the​ ​ITT​ ​tokens,​ ​the​ ​Intelligent
+Trading​ ​Technologies​ ​Initial​ ​Token​ ​Sale.​ ​You​ ​should​ ​consult​ ​your​ ​own​ ​legal,​ ​financial,​ ​tax​ ​or
+other​ ​professional​ ​adviser​ ​regarding​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​and
+their​ ​respective​ ​businesses​ ​and​ ​operations,​ ​the​ ​ITT​ ​tokens,​ ​the​ ​Intelligent​ ​Trading​ ​Technologies
+Initial​ ​Token​ ​Sale.​ ​You​ ​should​ ​be​ ​aware​ ​that​ ​you​ ​may​ ​be​ ​required​ ​to​ ​bear​ ​the​ ​financial​ ​risk​ ​of
+any​ ​purchase​ ​of​ ​ITT​ ​tokens​ ​for​ ​an​ ​indefinite​ ​period​ ​of​ ​time.
+NO​ ​FURTHER​ ​INFORMATION​ ​OR​ ​UPDATE
+7
+
+No​ ​person​ ​has​ ​been​ ​or​ ​is​ ​authorised​ ​to​ ​give​ ​any​ ​information​ ​or​ ​representation​ ​not​ ​contained​ ​in
+this​ ​Whitepaper​ ​in​ ​connection​ ​with​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​and
+their​ ​respective​ ​businesses​ ​and​ ​operations,​ ​the​ ​ITT​ ​tokens,​ ​the​ ​Intelligent​ ​Trading​ ​Technologies
+Initial​ ​Token​ ​Sale​ ​and​ ​the​ ​Intelligent​ ​Trading​ ​Technologies​ ​Wallet​ ​(each​ ​as​ ​referred​ ​to​ ​in​ ​the
+Whitepaper)​ ​and,​ ​if​ ​given,​ ​such​ ​information​ ​or​ ​representation​ ​must​ ​not​ ​be​ ​relied​ ​upon​ ​as​ ​having
+been​ ​authorised​ ​by​ ​or​ ​on​ ​behalf​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor.​ ​The
+Intelligent​ ​Trading​ ​Technologies​ ​Initial​ ​Token​ ​Sale​ ​(as​ ​referred​ ​to​ ​in​ ​the​ ​Whitepaper)​ ​shall​ ​not,
+under​ ​any​ ​circumstances,​ ​constitute​ ​a​ ​continuing​ ​representation​ ​or​ ​create​ ​any​ ​suggestion​ ​or
+implication​ ​that​ ​there​ ​has​ ​been​ ​no​ ​change,​ ​or​ ​development​ ​reasonably​ ​likely​ ​to​ ​involve​ ​a​ ​material
+change​ ​in​ ​the​ ​affairs,​ ​conditions​ ​and​ ​prospects​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor​ ​or​ ​in​ ​any​ ​statement​ ​of​ ​fact​ ​or​ ​information​ ​contained​ ​in​ ​this​ ​Whitepaper​ ​since​ ​the​ ​date
+hereof.
+RESTRICTIONS​ ​ON​ ​DISTRIBUTION​ ​AND​ ​DISSEMINATION
+The​ ​distribution​ ​or​ ​dissemination​ ​of​ ​this​ ​Whitepaper​ ​or​ ​any​ ​part​ ​thereof​ ​may​ ​be​ ​prohibited​ ​or
+restricted​ ​by​ ​the​ ​laws,​ ​regulatory​ ​requirements​ ​and​ ​rules​ ​of​ ​any​ ​jurisdiction.​ ​In​ ​the​ ​case​ ​where
+any​ ​restriction​ ​applies,​ ​you​ ​are​ ​to​ ​inform​ ​yourself​ ​about,​ ​and​ ​to​ ​observe,​ ​any​ ​restrictions​ ​which
+are​ ​applicable​ ​to​ ​your​ ​possession​ ​of​ ​this​ ​Whitepaper​ ​or​ ​such​ ​part​ ​thereof​ ​(as​ ​the​ ​case​ ​may​ ​be)​ ​at
+your​ ​own​ ​expense​ ​and​ ​without​ ​liability​ ​to​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor.
+Persons​ ​to​ ​whom​ ​a​ ​copy​ ​of​ ​this​ ​Whitepaper​ ​has​ ​been​ ​distributed​ ​or​ ​disseminated,​ ​provided
+access​ ​to​ ​or​ ​who​ ​otherwise​ ​have​ ​the​ ​Whitepaper​ ​in​ ​their​ ​possession​ ​shall​ ​not​ ​circulate​ ​it​ ​to​ ​any
+other​ ​persons,​ ​reproduce​ ​or​ ​otherwise​ ​distribute​ ​this​ ​Whitepaper​ ​or​ ​any​ ​information​ ​contained
+herein​ ​for​ ​any​ ​purpose​ ​whatsoever​ ​nor​ ​permit​ ​or​ ​cause​ ​the​ ​same​ ​to​ ​occur.
+NO​ ​OFFER​ ​OF​ ​SECURITIES​ ​OR​ ​REGISTRATION
+This​ ​Whitepaper​ ​does​ ​not​ ​constitute​ ​a​ ​prospectus​ ​or​ ​offer​ ​document​ ​of​ ​any​ ​sort​ ​and​ ​is​ ​not
+intended​ ​to​ ​constitute​ ​an​ ​offer​ ​of​ ​securities​ ​or​ ​a​ ​solicitation​ ​for​ ​investment​ ​in​ ​securities​ ​in​ ​any
+jurisdiction.​ ​No​ ​person​ ​is​ ​bound​ ​to​ ​enter​ ​into​ ​any​ ​contract​ ​or​ ​binding​ ​legal​ ​commitment​ ​and​ ​no
+cryptocurrency​ ​or​ ​other​ ​form​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​is​ ​to​ ​be​ ​accepted​ ​on​ ​the​ ​basis
+of​ ​this​ ​Whitepaper.​ ​Any​ ​agreement​ ​in​ ​relation​ ​to​ ​any​ ​sale​ ​and​ ​purchase​ ​of​ ​ITT​ ​tokens​ ​(as
+referred​ ​to​ ​in​ ​this​ ​Whitepaper)​ ​is​ ​to​ ​be​ ​governed​ ​by​ ​only​ ​the​ ​T&Cs​ ​of​ ​such​ ​agreement​ ​and​ ​no
+other​ ​document.​ ​In​ ​the​ ​event​ ​of​ ​any​ ​inconsistencies​ ​between​ ​the​ ​T&Cs​ ​and​ ​this​ ​Whitepaper,​ ​the
+former​ ​shall​ ​prevail.
+You​ ​are​ ​not​ ​eligible​ ​to​ ​purchase​ ​any​ ​ITT​ ​tokens​ ​in​ ​the​ ​Intelligent​ ​Trading​ ​Technologies​ ​Initial
+Token​ ​Sale​ ​(as​ ​referred​ ​to​ ​in​ ​this​ ​Whitepaper)​ ​if​ ​you​ ​are​ ​a​ ​citizen,​ ​resident​ ​(tax​ ​or​ ​otherwise)​ ​or
+green​ ​card​ ​holder​ ​of​ ​the​ ​United​ ​States​ ​of​ ​America​ ​or​ ​a​ ​citizen​ ​or​ ​resident​ ​of​ ​the​ ​Peoples​ ​Republic
+of​ ​China.
+No​ ​regulatory​ ​authority​ ​has​ ​examined​ ​or​ ​approved​ ​of​ ​any​ ​of​ ​the​ ​information​ ​set​ ​out​ ​in​ ​this
+8
+
+Whitepaper.​ ​No​ ​such​ ​action​ ​has​ ​been​ ​or​ ​will​ ​be​ ​taken​ ​under​ ​the​ ​laws,​ ​regulatory​ ​requirements​ ​or
+rules​ ​of​ ​any​ ​jurisdiction.​ ​The​ ​publication,​ ​distribution​ ​or​ ​dissemination​ ​of​ ​this​ ​Whitepaper​ ​does
+not​ ​imply​ ​that​ ​the​ ​applicable​ ​laws,​ ​regulatory​ ​requirements​ ​or​ ​rules​ ​have​ ​been​ ​complied​ ​with.
+RISKS​ ​AND​ ​UNCERTAINTIES
+Prospective​ ​purchasers​ ​of​ ​ITT​ ​tokens​ ​(as​ ​referred​ ​to​ ​in​ ​this​ ​Whitepaper)​ ​should​ ​carefully
+consider​ ​and​ ​evaluate​ ​all​ ​risks​ ​and​ ​uncertainties​ ​associated​ ​with​ ​Intelligent​ ​Trading
+Technologies,​ ​the​ ​Distributor​ ​and​ ​their​ ​respective​ ​businesses​ ​and​ ​operations,​ ​the​ ​ITT​ ​tokens,​ ​the
+Intelligent​ ​Trading​ ​Technologies​ ​Initial​ ​Token​ ​Sale,​ ​all​ ​information​ ​set​ ​out​ ​in​ ​this​ ​Whitepaper
+and​ ​the​ ​T&Cs​ ​prior​ ​to​ ​any​ ​purchase​ ​of​ ​ITT​ ​tokens.​ ​If​ ​any​ ​of​ ​such​ ​risks​ ​and​ ​uncertainties
+develops​ ​into​ ​actual​ ​events,​ ​the​ ​business,​ ​financial​ ​condition,​ ​results​ ​of​ ​operations​ ​and​ ​prospects
+of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​could​ ​be​ ​materially​ ​and​ ​adversely
+affected.​ ​In​ ​such​ ​cases,​ ​you​ ​may​ ​lose​ ​all​ ​or​ ​part​ ​of​ ​the​ ​value​ ​of​ ​the​ ​ITT​ ​tokens.
+
+9
+
+1​ ​-​ ​Executive​ ​Summary
+
+Cryptocurrency​ ​markets​ ​have​ ​increased​ ​in​ ​popularity​ ​in​ ​recent​ ​years.​ ​What​ ​started​ ​with​ ​Bitcoin,
+a​ ​decentralized​ ​payment​ ​system​ ​to​ ​circumvent​ ​government​ ​manipulation​ ​of​ ​currencies​ ​and
+redefining​ ​“Money”​ ​as​ ​we​ ​know​ ​it,​ ​has​ ​evolved​ ​and​ ​has​ ​recently​ ​gained​ ​critical​ ​mass​ ​with
+investors,​ ​traders,​ ​entrepreneurs​ ​and​ ​consumers.​ ​From​ ​a​ ​total​ ​cryptocurrency​ ​Market
+Capitalization​ ​of​ ​less​ ​than​ ​$10B​ ​in​ ​2012​ ​to​ ​~$144B​ ​today​ ​(17-Aug-17),​ ​cryptocurrencies
+continue​ ​to​ ​gain​ ​in​ ​value​ ​and​ ​distribution.
+Although​ ​the​ ​recent​ ​increase​ ​of​ ​the​ ​cryptocurrencies’​ ​market​ ​cap​ ​and​ ​presence​ ​is​ ​rather
+unprecedented,​ ​many​ ​believe​ ​that​ ​that​ ​this​ ​trend​ ​will​ ​not​ ​only​ ​continue,​ ​but​ ​will​ ​increase.​ ​With
+the​ ​near-constant​ ​inflow​ ​of​ ​newly​ ​available​ ​cryptocurrencies,​ ​traders​ ​are​ ​spending​ ​more​ ​time
+than​ ​ever​ ​trying​ ​to​ ​find​ ​suitable​ ​investment​ ​opportunities​ ​among​ ​the​ ​sea​ ​of​ ​choices.​ ​Numerous
+tools​ ​have​ ​risen​ ​already​ ​to​ ​help​ ​traders​ ​in​ ​their​ ​quest​ ​for​ ​profit.​ ​Trading​ ​bots,​ ​and​ ​alerts​ ​are
+already​ ​around,​ ​but​ ​these​ ​are​ ​constantly​ ​leaving​ ​traders​ ​wishing​ ​for​ ​more.
+The​ ​availability​ ​of​ ​cryptocurrencies​ ​is​ ​a​ ​new​ ​and​ ​transformative​ ​phenomenon,​ ​and​ ​relevant​ ​data
+sources​ ​are​ ​scarce​ ​and​ ​fragmented.​ ​Nevertheless,​ ​it​ ​is​ ​without​ ​question​ ​that​ ​blockchain
+technology​ ​and​ ​cryptocurrencies​ ​will​ ​play​ ​a​ ​more​ ​important​ ​role​ ​in​ ​our​ ​lives​ ​going​ ​forward.
+Blockchain​ ​technology​ ​is​ ​a​ ​complete​ ​game-changer,​ ​and​ ​investing​ ​in​ ​these​ ​disruptive
+technologies​ ​at​ ​the​ ​very​ ​early​ ​stages​ ​should​ ​undoubtable​ ​be​ ​extremely​ ​profitable.​ ​The​ ​real
+question​ ​is​ ​which​ ​of​ ​the​ ​cryptocurrencies​ ​will​ ​dominate​ ​this​ ​space​ ​in​ ​the​ ​coming​ ​future.​ ​Investors
+in​ ​this​ ​space​ ​(both​ ​new​ ​and​ ​experienced)​ ​need​ ​a​ ​tool​ ​to​ ​discern​ ​the​ ​good​ ​from​ ​the​ ​bad
+investments,​ ​and​ ​an​ ​efficient​ ​method​ ​to​ ​make​ ​this​ ​selection​ ​process​ ​as​ ​easy​ ​as​ ​possible.
+Our​ ​mission​ ​is​ ​to​ ​increase​ ​adoption​ ​and​ ​awareness​ ​of​ ​cryptocurrencies.​ ​Using​ ​the​ ​hyperbolic
+technology​ ​and​ ​artificial​ ​intelligence​ ​(AI)​ ​to​ ​identify​ ​market​ ​signals​ ​and​ ​patterns​ ​that​ ​cannot​ ​be
+programmed​ ​by​ ​humans,​ ​we​ ​are​ ​building​ ​the​ ​tool​ ​that​ ​will​ ​undoubtedly​ ​help​ ​you​ ​become​ ​a​ ​more
+knowledgeable​ ​and​ ​successful​ ​trader.
+
+10
+
+2​ ​-​ ​Background,​ ​Problem​ ​Overview
+Cryptocurrency​ ​Markets 
+
+Cryptocurrency​ ​markets​ ​continue​ ​to​ ​increase​ ​in​ ​awareness​ ​and​ ​popularity.​ ​In​ ​2017,​ ​the​ ​prices​ ​of
+more​ ​popular​ ​virtual​ ​currencies,​ ​such​ ​as​ ​bitcoin​ ​and​ ​ethereum,​ ​have​ ​soared​ ​to​ ​record​ ​highs​ ​amid
+increased​ ​investor​ ​interest.​ ​This​ ​increase​ ​in​ ​investor​ ​interest​ ​has​ ​led​ ​to​ ​the​ ​emergence​ ​of​ ​many
+other​ ​available​ ​options.
+With​ ​just​ ​a​ ​few​ ​lines​ ​of​ ​code,​ ​nearly​ ​anyone​ ​can​ ​issue​ ​their​ ​own​ ​new​ ​cryptocurrencies​ ​and​ ​offer
+it​ ​to​ ​the​ ​world.​ ​These​ ​other​ ​options​ ​include​ ​numerous​ ​“alt-coins”​ ​and​ ​“app​ ​tokens”,​ ​which​ ​have
+arisen​ ​to​ ​tackle​ ​many​ ​different​ ​opportunities​ ​for​ ​which​ ​the​ ​blockchain​ ​provides​ ​next-gen
+solutions.​ ​These​ ​currencies,​ ​developed​ ​on​ ​the​ ​blockchain,​ ​offer​ ​built-in​ ​transparency​ ​-​ ​but​ ​an
+understanding​ ​of​ ​coding​ ​is​ ​required​ ​to​ ​comprehend​ ​the​ ​technologies​ ​and​ ​whether​ ​they​ ​are​ ​truly
+capable​ ​of​ ​the​ ​disruption​ ​they​ ​claim.
+This​ ​increase​ ​in​ ​the​ ​number​ ​of​ ​available​ ​cryptocurrencies​ ​has​ ​allowed​ ​for​ ​an​ ​unprecedented
+opportunity​ ​for​ ​traders,​ ​but​ ​it​ ​also​ ​makes​ ​it​ ​makes​ ​a​ ​trader’s​ ​job​ ​increasingly​ ​more​ ​complex​ ​to
+identify​ ​exceptional​ ​investment​ ​vehicles.​ ​Cryptocurrency​ ​market​ ​participants​ ​are​ ​overwhelmed
+by​ ​a​ ​very​ ​large​ ​and​ ​growing​ ​amount​ ​of​ ​data​ ​that​ ​needs​ ​to​ ​be​ ​digested​ ​and​ ​understood​ ​to​ ​be
+successful.
+Young,​ ​volatile,​ ​borderless,​ ​and​ ​available​ ​24/7​ ​-​ ​these​ ​markets​ ​are​ ​extremely​ ​far​ ​from​ ​efficient.
+This​ ​means​ ​that​ ​there​ ​are​ ​significant​ ​excess​ ​returns​ ​to​ ​be​ ​had,​ ​or​ ​Alpha​ ​-​ ​especially​ ​when
+compared​ ​with​ ​traditional​ ​markets.​ ​Cryptocurrency​ ​markets​ ​are​ ​still​ ​in​ ​their​ ​infancy​ ​and​ ​we​ ​have
+yet​ ​to​ ​see​ ​a​ ​significant​ ​influx​ ​of​ ​institutional​ ​interest.
+The​ ​cryptocurrency​ ​market​ ​has​ ​evolved​ ​during​ ​the​ ​age​ ​of​ ​the​ ​internet,​ ​so​ ​information​ ​itself​ ​is
+quite​ ​easy​ ​to​ ​come​ ​by​ ​-​ ​but​ ​good​ ​unbiased​ ​information​ ​is​ ​very​ ​difficult​ ​to​ ​identify​ ​from​ ​the
+massive​ ​amount​ ​of​ ​available​ ​information.​ ​There​ ​are​ ​multiple​ ​instances​ ​of​ ​misinformation,
+disinformation​ ​and​ ​widespread​ ​“pump​ ​&​ ​dump”​ ​schemes.​ ​With​ ​all​ ​of​ ​this​ ​conflicting​ ​available
+information,​ ​what​ ​is​ ​the​ ​truth​ ​and​ ​what​ ​is​ ​a​ ​distraction?​ ​ ​If​ ​traders​ ​can​ ​properly​ ​analyze​ ​and
+absorb​ ​only​ ​the​ ​useful​ ​information,​ ​there​ ​are​ ​myriad​ ​ways​ ​to​ ​generate​ ​superior​ ​returns​ ​and​ ​profit.
+
+Artificial​ ​Intelligence 
+
+Artificial​ ​intelligence,​ ​specifically​ ​neural​ ​networks​ ​used​ ​in​ ​machine​ ​learning,​ ​are​ ​designed​ ​as
+software​ ​that​ ​emulates​ ​the​ ​activity​ ​of​ ​the​ ​human​ ​brain​ ​and​ ​how​ ​it​ ​processes​ ​information.​ ​These
+neural​ ​network​ ​models​ ​are​ ​particularly​ ​useful​ ​for​ ​predicting​ ​future​ ​events​ ​when​ ​trained​ ​on
+historical​ ​data.
+The​ ​use​ ​of​ ​these​ ​technologies​ ​has​ ​improved​ ​data​ ​science​ ​and​ ​data​ ​analyses​ ​and​ ​has​ ​recently
+become​ ​impressively​ ​effective​ ​for​ ​certain​ ​tasks​ ​when​ ​compared​ ​to​ ​traditional​ ​algorithms​ ​based
+on​ ​hard​ ​coded​ ​rules​ ​and​ ​pure​ ​statistical​ ​analysis.​ ​Machine​ ​intelligence​ ​as​ ​an​ ​evolving​ ​field,
+11
+
+represents​ ​the​ ​largest​ ​opportunity​ ​for​ ​staying​ ​ahead​ ​in​ ​any​ ​market​ ​where​ ​competition​ ​makes
+innovation​ ​necessary.
+Artificial​ ​Intelligence​ ​has​ ​been​ ​around​ ​for​ ​a​ ​while,​ ​and​ ​investments​ ​in​ ​Artificial
+Intelligence-based​ ​startups​ ​is​ ​not​ ​a​ ​new​ ​thing.​ ​Since​ ​2012,​ ​the​ ​number​ ​of​ ​deals​ ​and​ ​dollars
+contributed​ ​to​ ​Artificial​ ​Intelligence​ ​startups​ ​has​ ​been​ ​on​ ​the​ ​rise,​ ​and​ ​2016​ ​was​ ​a​ ​record​ ​year​ ​for
+startups​ ​globally.​ ​The​ ​chart​ ​below​ ​displays​ ​the​ ​increasing​ ​funding​ ​rounds​ ​of​ ​AI​ ​startups​ ​over​ ​the
+last​ ​5​ ​years.
+
+Source:​​ ​CB​ ​Insights
+Current​ ​popular​ ​utilization​ ​of​ ​AI​ ​technology​ ​is​ ​the​ ​simple​ ​substitution​ ​of​ ​routine​ ​human​ ​tasks.
+This​ ​is​ ​the​ ​simplest​ ​application​ ​because​ ​AI​ ​is​ ​fast​ ​and​ ​accurate,​ ​without​ ​fatigue.​ ​For​ ​example,
+estimation​ ​of​ ​stock​ ​price​ ​impact​ ​of​ ​news​ ​announcements​ ​by​ ​comparing​ ​precedential​ ​cases,
+reading​ ​financial​ ​results​ ​or​ ​analyst​ ​reports​ ​to​ ​find​ ​hidden​ ​causality​ ​between​ ​many​ ​companies’
+results,​ ​text​ ​mining​ ​of​ ​Twitter​ ​to​ ​find​ ​correlation​ ​between​ ​stock​ ​price​ ​and​ ​some​ ​words,​ ​etc.
+Artificial​ ​intelligence​ ​has​ ​been​ ​used​ ​for​ ​over​ ​18​ ​years​ ​in​ ​traditional​ ​financial​ ​market​ ​trading,​ ​to
+generate​ ​additional​ ​returns​ ​for​ ​many​ ​hedge​ ​funds​ ​and​ ​banks.​ ​This​ ​trend​ ​is​ ​expected​ ​to​ ​continue.
+For​ ​investment​ ​and​ ​trading​ ​decisions,​ ​financial​ ​services​ ​have​ ​recently​ ​been​ ​adopting​ ​AI​ ​tools.
+Capable​ ​of​ ​processing​ ​and​ ​comprehending​ ​data​ ​faster​ ​than​ ​any​ ​human,​ ​the​ ​potential​ ​for​ ​both
+high-frequency​ ​trading​ ​and​ ​longer-term​ ​predictions​ ​based​ ​on​ ​intelligent​ ​intuitions​ ​leads​ ​to
+substantially​ ​greater​ ​captured​ ​profits.
+
+12
+
+Artificial​ ​Intelligence​ ​in​ ​Cryptocurrency​ ​Markets 
+
+Currently,​ ​cryptocurrency​ ​traders​ ​spend​ ​countless​ ​hours​ ​in​ ​chat​ ​groups,​ ​forums,​ ​social​ ​media​ ​and
+scanning​ ​new​ ​sites​ ​for​ ​information​ ​-​ ​all​ ​while​ ​trying​ ​to​ ​simultaneously​ ​comprehend​ ​complicated
+technical​ ​analysis​ ​and​ ​execute​ ​trades​ ​at​ ​the​ ​precisely​ ​right​ ​time.
+If​ ​a​ ​tool​ ​were​ ​to​ ​exist​ ​to​ ​help​ ​traders​ ​analyze​ ​all​ ​of​ ​this​ ​available​ ​information​ ​and​ ​allow​ ​them​ ​to
+easily​ ​profit​ ​from​ ​it,​ ​it​ ​would​ ​be​ ​incredibly​ ​useful.​ ​This​ ​is​ ​done​ ​by​ ​pairing​ ​traditional​ ​market
+(stocks,​ ​fiat​ ​currencies,​ ​bonds,​ ​derivatives)​ ​trading​ ​concepts​ ​with​ ​today’s​ ​cutting-edge​ ​pattern
+recognition​ ​and​ ​machine​ ​learning​ ​capabilities.​ ​These​ ​technologies​ ​allow​ ​the​ ​software​ ​to​ ​scan,
+analyze,​ ​and​ ​interpret​ ​the​ ​massive​ ​amount​ ​of​ ​information​ ​available.​ ​With​ ​this​ ​information,​ ​this
+intelligent​ ​tool​ ​would​ ​then​ ​identify​ ​entry​ ​points​ ​and​ ​notify​ ​the​ ​trader​ ​about​ ​these​ ​price
+movements​ ​before​ ​they​ ​happen.​ ​This​ ​would​ ​allow​ ​traders​ ​to​ ​profit​ ​from​ ​these​ ​moves​ ​when​ ​they
+happen,​ ​not​ ​get​ ​an​ ​alert​ ​after​ ​the​ ​profits​ ​have​ ​been​ ​made.​ ​Fortunately,​ ​Intelligent​ ​Trading
+Technologies​ ​(ITT)​ ​is​ ​building​ ​this​ ​ultimate​ ​companion​ ​for​ ​the​ ​ALL​ ​traders.
+Let​ ​ITT’s​ ​platform​ ​do​ ​the​ ​heavy​ ​lifting​ ​and​ ​analyze​ ​all​ ​the​ ​relevant​ ​input​ ​data​ ​for
+cryptocurrencies​ ​and​ ​deliver​ ​game-changing​ ​trading​ ​ideas​ ​to​ ​you​ ​to​ ​execute.​ ​ITT​ ​trading​ ​bots​ ​can
+be​ ​customized​ ​to​ ​cater​ ​to​ ​your​ ​preferences​ ​for​ ​time​ ​of​ ​day,​ ​trading​ ​volumes,​ ​risk​ ​level,​ ​hold
+timings,​ ​among​ ​others.​ ​ITT​ ​will​ ​monitor​ ​all​ ​of​ ​the​ ​relevant​ ​information,​ ​24/7,​ ​on​ ​your​ ​behalf.
+ITT’s​ ​platform​ ​will​ ​automatically​ ​author​ ​a​ ​strategy,​ ​and​ ​it​ ​give​ ​you​ ​the​ ​commands​ ​to​ ​execute.
+ITT​ ​will​ ​then​ ​send​ ​you​ ​actionable​ ​trading​ ​alerts​ ​during​ ​the​ ​day​ ​and​ ​in​ ​time​ ​for​ ​you​ ​make​ ​the​ ​final
+call​ ​whether​ ​to​ ​trade.
+Our​ ​intelligent​ ​bot​ ​(Tier​ ​2,​ ​scheduled​ ​to​ ​be​ ​released​ ​4Q17)​ ​will​ ​be​ ​capable​ ​of​ ​self-programming
+and​ ​reprogramming​ ​to​ ​match​ ​changes​ ​in​ ​the​ ​market,​ ​adjusting​ ​indicator​ ​weights,​ ​and​ ​continuous
+optimization​ ​as​ ​an​ ​agent​ ​motivated​ ​solely​ ​on​ ​maximizing​ ​the​ ​traders​ ​hourly​ ​return​ ​rate.
+
+13
+
+3​ ​-​ ​Mission​ ​Statement
+
+The​ ​goal​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​is​ ​to​ ​empower​ ​traders​ ​with​ ​consolidated
+cryptocurrency​ ​market​ ​predictors​ ​served​ ​by​ ​our​ ​fleet​ ​of​ ​AI-powered​ ​data​ ​bots​ ​orchestrated​ ​to
+produce​ ​intelligent​ ​insights​ ​from​ ​a​ ​vast​ ​world​ ​of​ ​real-time​ ​data.
+Thousands​ ​of​ ​alt-coins​ ​price​ ​movements​ ​across​ ​multiple​ ​exchanges​ ​is​ ​just​ ​the​ ​initial​ ​torrent​ ​of
+data​ ​users​ ​must​ ​ingest​ ​to​ ​effectively​ ​trade​ ​cryptocurrencies.​ ​The​ ​most​ ​experienced​ ​traders​ ​rely​ ​on
+a​ ​host​ ​of​ ​services​ ​to​ ​help​ ​them​ ​derive​ ​insights​ ​from​ ​the​ ​slew​ ​of​ ​market​ ​indicators​ ​popping​ ​up
+every​ ​second.​ ​We​ ​want​ ​to​ ​empower​ ​every​ ​beginner​ ​trader​ ​with​ ​consolidated​ ​insights​ ​on​ ​when​ ​to
+buy,​ ​sell,​ ​or​ ​hold​ ​their​ ​diverse​ ​portfolio​ ​of​ ​coins.​ ​Intelligent​ ​insights​ ​mean​ ​using​ ​deep​ ​learning
+and​ ​statistical​ ​analysis​ ​to​ ​communicate​ ​a​ ​“why”​ ​behind​ ​each​ ​market​ ​predictor.
+State-of-the-art​ ​data​ ​science​ ​tools​ ​and​ ​neural​ ​networks​ ​should​ ​be​ ​employed​ ​to​ ​provide​ ​actionable
+real-time​ ​trading​ ​signals​ ​for​ ​success​ ​in​ ​the​ ​cryptocurrency​ ​markets.​ ​These​ ​disruptive
+technologies​ ​are​ ​constantly​ ​and​ ​consistently​ ​changing​ ​our​ ​lives.​ ​It’s​ ​time​ ​to​ ​leverage​ ​these
+technologies​ ​into​ ​cryptocurrencies.
+ITT​ ​tokens​ ​will​ ​be​ ​a​ ​disruptor​ ​to​ ​traditional​ ​trading​ ​models.​ ​This​ ​token​ ​sale​ ​gives​ ​early​ ​adopters
+a​ ​unique​ ​opportunity​ ​to​ ​become​ ​an​ ​early​ ​subscriber​ ​and​ ​investor​ ​in​ ​the​ ​value​ ​of​ ​these​ ​trading
+insights.
+The​ ​ITT​ ​team​ ​will​ ​use​ ​the​ ​token​ ​sale​ ​funds​ ​to​ ​further​ ​our​ ​current​ ​model,​ ​rolling​ ​out​ ​new​ ​and
+exclusive​ ​bots​ ​only​ ​available​ ​via​ ​the​ ​ITT​ ​Platform​ ​with​ ​subscriptions​ ​payments​ ​only​ ​accepting
+ITT​ ​tokens.
+
+14
+
+4​ ​-​ ​Platform
+
+“Computers​ ​are​ ​useless.​ ​They​ ​can​ ​only​ ​give​ ​you​ ​answers.”​ ​–​ ​Pablo​ ​Picasso
+“I​ ​believe​ ​that​ ​the​ ​most​ ​important​ ​single​ ​thing,​ ​beyond​ ​discipline​ ​and​ ​creativity,​ ​is​ ​daring​ ​to
+dare.”​ ​–​ ​Maya​ ​Angelou
+In​ ​determining​ ​a​ ​good​ ​investment​ ​in​ ​any​ ​market,​ ​there​ ​are​ ​two​ ​primary​ ​methods​ ​used​ ​to​ ​try​ ​to
+predict​ ​an​ ​asset’s​ ​future​ ​price:
+● Fundamental​ ​Analysis​ ​(FA)
+○ Typically​ ​for​ ​longer-term​ ​trading,​ ​FA​ ​involves​ ​determining​ ​an​ ​asset’s​ ​true​ ​value
+based​ ​on​ ​its​ ​intrinsic​ ​properties​ ​as​ ​well​ ​as​ ​the​ ​state​ ​of​ ​the​ ​market.
+● Technical​ ​Analysis​ ​(TA)
+○ Technical​ ​analysis​ ​involves​ ​reading​ ​indicators​ ​and​ ​chart​ ​patterns​ ​to​ ​determine
+price​ ​trends,​ ​TA​ ​is​ ​normally​ ​not​ ​concerned​ ​with​ ​the​ ​company’s​ ​fundamentals.
+Technical​ ​analysis​ ​is​ ​typically​ ​used​ ​for​ ​day/swing​ ​trading​ ​(i.e.​ ​short-to-medium
+term​ ​trading)​ ​and​ ​looks​ ​at​ ​past​ ​price​ ​action​ ​to​ ​determine​ ​future​ ​values.
+Looking​ ​at​ ​simply​ ​FA​ ​&​ ​TA​ ​is​ ​not​ ​enough,​ ​however.​ ​There​ ​are​ ​many​ ​day​ ​traders​ ​out​ ​there​ ​trying
+to​ ​profit​ ​from​ ​this.
+Fortunately,​ ​trading​ ​using​ ​TA​ ​works​ ​really​ ​well​ ​in​ ​cryptocurrency​ ​markets,​ ​and​ ​ultimately​ ​the
+goal​ ​is​ ​to​ ​provide​ ​you​ ​with​ ​quality​ ​data​ ​to​ ​make​ ​educated​ ​choices.​ ​However,​ ​when​ ​trading​ ​based
+on​ ​TA,​ ​it​ ​is​ ​fairly​ ​common​ ​to​ ​receive​ ​mixed​ ​indicators​ ​(one​ ​bullish,​ ​one​ ​bearish).​ ​The​ ​added
+value​ ​from​ ​a​ ​smart​ ​platform​ ​powered​ ​by​ ​AI​ ​is​ ​to​ ​intelligently​ ​scan​ ​for​ ​even​ ​more​ ​indicators​ ​or
+signals​ ​from​ ​multiple​ ​data​ ​sources​ ​to​ ​support​ ​one​ ​direction​ ​or​ ​the​ ​other.​ ​AI​ ​is​ ​constantly​ ​learning
+and​ ​adapting​ ​to​ ​changing​ ​market​ ​conditions.
+ITT’s​ ​platform​ ​learns​ ​from​ ​historical​ ​time​ ​series​ ​of​ ​price​ ​and​ ​volume.​ ​ITT’s​ ​data​ ​bots​ ​are
+constantly​ ​scanning​ ​and​ ​learning​ ​from​ ​the​ ​vast​ ​array​ ​of​ ​data​ ​available​ ​on​ ​the​ ​internet.​ ​Therefore
+the​ ​model​ ​is​ ​expected​ ​to​ ​be​ ​effective​ ​if​ ​the​ ​market​ ​environment​ ​is​ ​consistent​ ​with​ ​the​ ​near​ ​past.
+This​ ​is​ ​something​ ​that​ ​the​ ​machine​ ​learning​ ​helps​ ​with​ ​-​ ​because​ ​at​ ​times​ ​mere​ ​humans​ ​may
+perceive​ ​the​ ​cryptocurrency​ ​market​ ​as​ ​unpredictable​ ​when​ ​in​ ​fact​ ​clear​ ​patterns​ ​emerge​ ​when
+reading​ ​between​ ​the​ ​lines.
+Even​ ​in​ ​a​ ​nascent,​ ​volatile,​ ​and​ ​not​ ​yet​ ​efficient​ ​market​ ​such​ ​as​ ​the​ ​cryptocurrency​ ​markets,
+technical​ ​analysis​ ​can​ ​accurately​ ​predict​ ​price​ ​action​ ​based​ ​on​ ​historical​ ​data.​ ​The​ ​shortfall
+comes​ ​with​ ​that​ ​this​ ​cannot​ ​predict​ ​a​ ​human’s​ ​motivations​ ​and​ ​actions.​ ​If​ ​a​ ​whale​ ​decides​ ​to
+move​ ​a​ ​market,​ ​given​ ​the​ ​lack​ ​of​ ​regulations​ ​and​ ​potential​ ​for​ ​market​ ​manipulation,​ ​the​ ​best
+quantitative​ ​model​ ​in​ ​the​ ​world​ ​won’t​ ​be​ ​able​ ​to​ ​predict​ ​the​ ​price​ ​swings.​ ​Obviously,​ ​the​ ​model
+does​ ​not​ ​foresee​ ​any​ ​of​ ​idiosyncratic​ ​event​ ​such​ ​as​ ​natural​ ​disaster,​ ​referendum,​ ​or​ ​political
+change​ ​which​ ​are​ ​very​ ​difficult​ ​for​ ​humans​ ​too.​ ​Who​ ​could’ve​ ​predicted​ ​the​ ​GDAX,​ ​one​ ​of​ ​the
+largest​ ​and​ ​most​ ​active​ ​cryptocurrency​ ​exchanges​ ​out​ ​there,​ ​and​ ​the​ ​flash​ ​crash​ ​in​ ​June​ ​where
+ETH​ ​prices​ ​dropped​ ​from​ ​$319​ ​to​ ​$0.10​ ​in​ ​an​ ​instant.
+15
+
+When​ ​deciding​ ​what​ ​indicators​ ​to​ ​use​ ​on​ ​ITT’s​ ​platform,​ ​we​ ​did​ ​a​ ​thorough​ ​analysis​ ​of​ ​what
+currently​ ​exists,​ ​and​ ​made​ ​a​ ​wish-list​ ​of​ ​indicators​ ​that​ ​would​ ​be​ ​included​ ​on​ ​the​ ​platform.
+From​ ​nearly​ ​a​ ​year​ ​of​ ​meticulous​ ​backtesting​ ​and​ ​tweaking​ ​our​ ​indicators,​ ​we​ ​have​ ​come​ ​up​ ​with
+a​ ​useful​ ​lot.
+The​ ​exact​ ​triggers​ ​for​ ​these​ ​indicators​ ​is​ ​proprietary,​ ​but​ ​the​ ​source​ ​code​ ​for​ ​Tier​ ​1​ ​pricing
+indicators​ ​is​ ​available​ ​on​ ​GitHub.
+
+ITT​ ​Bot​ ​UI​ ​Mock​ ​up
+
+The​ ​above​ ​screenshot​ ​is​ ​from​ ​the​ ​current​ ​Tier​ ​1​ ​ITT​ ​Platform.​ ​The​ ​data​ ​is​ ​pulled​ ​live​ ​from
+multiple​ ​exchanges.​ ​Each​ ​alert​ ​will​ ​be​ ​a​ ​concise​ ​summary​ ​either​ ​“BULLISH”​ ​or​ ​“BEARISH”
+and​ ​has​ ​a​ ​link​ ​to​ ​full​ ​details​ ​of​ ​the​ ​report.
+
+Alert​ ​Description 
+
+The​ ​alerts​ ​are​ ​easy​ ​to​ ​understand.​ ​Current​ ​Tier​ ​1​ ​alerts​ ​are​ ​showing​ ​the​ ​following:
+● Trading​ ​Pair
+○ The​ ​cryptocurrency​ ​pair​ ​for​ ​which​ ​the​ ​alert​ ​is​ ​triggered.​ ​In​ ​this​ ​example,
+ETH/USDT​ ​(Ethereum/USD​ ​Tether).
+● Overall​ ​Rating
+○ This​ ​gives​ ​you​ ​a​ ​quick​ ​sign​ ​of​ ​what​ ​our​ ​algorithms​ ​are​ ​predicting​ ​with​ ​the​ ​asset.
+The​ ​two​ ​options​ ​are:
+16
+
+●
+
+●
+
+●
+●
+
+■ Bullish
+■ Bearish
+○ The​ ​strength​ ​of​ ​this​ ​signal​ ​will​ ​be​ ​rated​ ​up​ ​to​ ​5​ ​stars​ ​(strongest​ ​signal)
+○ This​ ​is​ ​a​ ​weighted​ ​summary​ ​of​ ​the​ ​summation​ ​of​ ​all​ ​the​ ​indicators.​ ​These
+weightings​ ​continue​ ​to​ ​be​ ​optimized​ ​for​ ​excess​ ​returns.
+○ This​ ​rating​ ​is​ ​a​ ​link​ ​to​ ​a​ ​full​ ​report​ ​detailing​ ​the​ ​alerts​ ​that​ ​were​ ​triggered.
+Time​ ​Horizon
+○ Each​ ​alert​ ​comes​ ​with​ ​an​ ​expected​ ​Time​ ​Horizon​ ​for​ ​the​ ​alert.​ ​These​ ​horizons​ ​are
+defined​ ​by​ ​number​ ​of​ ​trading​ ​periods​ ​(15​ ​minute​ ​intervals).
+■ Short​ ​(minutes)
+■ Medium​ ​(hours)
+■ Long​ ​(days)
+○ Short​ ​Time​ ​Horizon​ ​represents​ ​<20​ ​periods,​ ​Medium​ ​represents​ ​20-50​ ​periods,
+and​ ​long​ ​represents​ ​>50​ ​periods.
+Exchange
+○ This​ ​shows​ ​the​ ​exchange​ ​on​ ​which​ ​the​ ​trading​ ​alert​ ​was​ ​triggered,​ ​in​ ​this
+example:​ ​Bittrex.
+○ The​ ​exchange​ ​name,​ ​Bittrex,​ ​is​ ​actually​ ​a​ ​link​ ​that​ ​will​ ​take​ ​you​ ​to​ ​see​ ​the
+indicated​ ​trading​ ​pair.
+Price​ ​Summary
+○ Current​ ​price​ ​of​ ​the​ ​trading​ ​pair​ ​along​ ​with​ ​change​ ​in​ ​the​ ​past​ ​2​ ​hours.
+Volume​ ​Summary
+○ Current​ ​buy/sell​ ​volume​ ​along​ ​with​ ​the​ ​increase​ ​from​ ​the​ ​average​ ​buy/sell​ ​volume
+over​ ​the​ ​past​ ​2​ ​hours.
+
+Details​ ​of​ ​the​ ​Alert 
+
+By​ ​clicking​ ​on​ ​the​ ​alert​ ​link,​ ​users​ ​will​ ​be​ ​taken​ ​to​ ​a​ ​summary​ ​of​ ​what​ ​triggered​ ​the​ ​trading
+alerts.​ ​This​ ​summary​ ​is​ ​broken​ ​out​ ​into:
+Technicals​ ​-​ ​Price​ ​&​ ​Volume
+In​ ​development​ ​of​ ​the​ ​bot,​ ​we​ ​have​ ​incorporated​ ​many​ ​different​ ​technical​ ​indicators​ ​for​ ​testing.
+Currently,​ ​the​ ​only​ ​the​ ​most​ ​relevant​ ​and​ ​consistent​ ​indicators​ ​are​ ​being​ ​used.
+How​ ​indicators​ ​work​ ​is​ ​all​ ​about​ ​how​ ​they​ ​are​ ​used​ ​in​ ​a​ ​trading​ ​plan.​ ​Moving​ ​Averages,​ ​MACD,
+RSI,​ ​CCI​ ​do​ ​their​ ​job​ ​in​ ​terms​ ​of​ ​calculations.​ ​The​ ​real​ ​added​ ​value​ ​is​ ​how​ ​ITT's​ ​technology
+interprets​ ​the​ ​information​ ​and​ ​learns​ ​from​ ​it​ ​as​ ​part​ ​of​ ​an​ ​overall​ ​trading​ ​strategy.​ ​There​ ​is
+absolutely​ ​no​ ​"holy​ ​grail"​ ​single​ ​indicator​ ​or​ ​signal.​ ​Proper​ ​use​ ​of​ ​standard​ ​indicators​ ​with
+meticulous​ ​backward​ ​and​ ​forward​ ​testing,​ ​paired​ ​with​ ​having​ ​the​ ​use​ ​of​ ​these​ ​indicators​ ​evolve
+as​ ​the​ ​market​ ​evolves​ ​to​ ​optimize​ ​the​ ​trading​ ​strategy​ ​for​ ​maximum​ ​trade​ ​returns.
+This​ ​section​ ​will​ ​start​ ​with​ ​an​ ​overall​ ​rating​ ​for​ ​the​ ​section,​ ​based​ ​on​ ​a​ ​weighted-average​ ​of​ ​the
+indicators​ ​included​ ​in​ ​this​ ​section.
+
+17
+
+● Price
+○
+○
+○
+○
+○
+
+Percentage​ ​change​ ​in​ ​price​ ​during​ ​recent​ ​periods.
+SMA​ ​&​ ​EMA​ ​for​ ​multiple​ ​periods
+RSI​ ​-​ ​14,​ ​21​ ​periods
+Stoch
+StochRSI
+■ Stoch​ ​RSI​ ​Fast​ ​K​ ​&​ ​Slow​ ​D​ ​values​ ​from​ ​multiple​ ​period​ ​data
+■ The​ ​moving​ ​average​ ​&​ ​slope​ ​of​ ​these​ ​values​ ​over​ ​previous​ ​periods
+○ Moving​ ​Average​ ​Convergence​ ​Divergence​ ​(MACD).
+■ The​ ​sign​ ​and​ ​value​ ​MACD
+○ Commodity​ ​Channel​ ​Index​ ​(CCI)
+■ CCI​ ​calculation​ ​(20​ ​periods)​ ​versus​ ​price​ ​action
+○ Average​ ​True​ ​Range​ ​(ATR)​ ​-​ ​14​ ​periods
+● Volume
+○ To​ ​eliminate​ ​short​ ​term​ ​fluctuations​ ​in​ ​volume​ ​to​ ​minimize​ ​false​ ​signals,​ ​we​ ​use​ ​a
+proprietary​ ​model​ ​for​ ​volume​ ​calculated​ ​using​ ​a​ ​weighted​ ​mix​ ​of:
+■ On​ ​Balance​ ​Volume​ ​(OBV)​ ​determining:
+● Whale/Rich​ ​List​ ​Ownership​ ​%
+● 24​ ​hour​ ​Change​ ​in​ ​Whale/Rich​ ​List​ ​Ownership​ ​%
+■ Klinger​ ​Oscillator
+■ The​ ​total​ ​buy​ ​volume​ ​in​ ​the​ ​past​ ​periods​ ​versus​ ​the​ ​average​ ​buy​ ​volume​ ​in
+the​ ​past​ ​24​ ​hours.
+■ The​ ​percentage​ ​change​ ​in​ ​buy​ ​volume​ ​for​ ​the​ ​past​ ​periods​ ​versus​ ​the
+average​ ​buy​ ​volume​ ​in​ ​the​ ​past​ ​24​ ​hours.
+■ The​ ​slope​ ​of​ ​buy​ ​volume​ ​for​ ​the​ ​past​ ​periods.
+■ Total​ ​buy​ ​&​ ​sell​ ​orders,​ ​mid​ ​price​ ​and​ ​spread​ ​of​ ​the​ ​order​ ​book
+■ Buy​ ​Order/Sell​ ​Order​ ​Ratio​ ​for​ ​entire​ ​order​ ​book
+● Candles
+○ Trendlines
+○ Support
+○ Resistance
+○ A​ ​mix​ ​of​ ​Marubozu​ ​&​ ​Doji​ ​formations​ ​indicators
+Sentiment
+Sentiment​ ​Indicators​ ​are​ ​where​ ​the​ ​artificial​ ​intelligence​ ​features​ ​really​ ​shine.​ ​Tier​ ​2​ ​subscription
+will​ ​include​ ​these​ ​features,​ ​current​ ​(beta-testing)​ ​indicators​ ​include:
+● Social
+○ ITT’s​ ​platform​ ​bots​ ​scan​ ​the​ ​following​ ​sites:
+■ BitcoinTalk​ ​Forums
+■ Twitter
+■ Reddit
+■ YouTube
+○ Focusing​ ​on​ ​the​ ​following:
+■ Positive/Negative​ ​Mentions
+■ Proprietary​ ​bullish/bearish​ ​indicators
+18
+
+● News
+○ ITT’s​ ​platform​ ​bots​ ​scan​ ​the​ ​following​ ​sites:
+■ Google​ ​News
+■ Popular​ ​Cryptocurrency​ ​news​ ​sites​ ​such​ ​as:
+● Coin​ ​Telegraph
+● Coin​ ​Desk
+○ Focusing​ ​on​ ​the​ ​following:
+■ Positive/Negative​ ​Mentions
+■ Proprietary​ ​bullish/bearish​ ​indicators
+● Google​ ​Trends
+○ ITT’s​ ​Platform​ ​scans​ ​google​ ​trends​ ​for​ ​key​ ​search​ ​queries.
+
+Additional​ ​Sections​ ​in​ ​Testing 
+
+We​ ​continue​ ​to​ ​test​ ​additional​ ​features​ ​in​ ​the​ ​ITT​ ​Platform.​ ​Currently​ ​investigating​ ​more
+Fundamental​ ​Analysis​ ​aspects​ ​by​ ​looking​ ​at​ ​correlations​ ​of:
+● Longevity​ ​of​ ​target​ ​asset’s​ ​project.
+● Correlation​ ​of​ ​returns​ ​and​ ​target​ ​asset’s​ ​core​ ​team’s​ ​number​ ​of​ ​developers.
+● Number​ ​of​ ​Followers​ ​of​ ​cryptocurrency’s​ ​Twitter​ ​and​ ​Reddit​ ​Accounts.
+● For​ ​Proof​ ​of​ ​Work​ ​Coins:
+○ Track​ ​percentage​ ​increases​ ​in​ ​nodes
+
+Technology​ ​Architecture
+
+Tokens:​​ ​ERC-20​ ​token,​ ​finite​ ​supply​ ​of​ ​21,000,000.00000000
+Contracts:​​ ​Service​ ​subscription​ ​in​ ​contract
+Blockchain:​​ ​Ethereum​ ​network
+Scalability:​​ ​99.99%​ ​uptime​ ​as​ ​containerized​ ​on​ ​Google​ ​Cloud​ ​Platform
+Performance:​​ ​800ms​ ​SLA​ ​target​ ​for​ ​data-point​ ​to​ ​user​ ​push​ ​notification
+Decentralized​ ​and​ ​Redundant:​​ ​Ethereum​ ​network
+Secure​ ​and​ ​Foolproof:​​ ​User​ ​session​ ​is​ ​anonymous​ ​and​ ​no​ ​user​ ​data​ ​is​ ​touched​ ​in​ ​Tier​ ​1,​ ​2
+subscriptions.​ ​Tier​ ​3​ ​is​ ​hosted​ ​internally​ ​on​ ​private​ ​servers​ ​in​ ​Switzerland.
+
+19
+
+Service​ ​Data​ ​Flowchart:
+
+20
+
+5​ ​-​ ​Roadmap
+
+"Collaboration​ ​allows​ ​teachers​ ​to​ ​capture​ ​each​ ​other's​ ​fund​ ​of​ ​collective​ ​intelligence."​ ​--Mike
+Schmoker
+
+Phase​ ​1:​ ​Initial​ ​Development 
+
+4Q16
+● Concept​ ​realization​ ​of​ ​a​ ​trading​ ​assistant​ ​for​ ​Cryptocurrency​ ​Markets.
+1Q17
+● Development​ ​of​ ​an​ ​advanced​ ​trading​ ​assistant​ ​(on​ ​Telegram)​ ​begins​ ​as​ ​a​ ​side​ ​project.
+● Initial​ ​Telegram​ ​Bot​ ​included​ ​trading​ ​alerts​ ​based​ ​on​ ​predefined​ ​price​ ​and​ ​volume​ ​change
+with​ ​limited​ ​available​ ​cryptocurrencies.
+● Testing​ ​continues​ ​by​ ​founders,​ ​friends,​ ​and​ ​advisors.
+● Increased​ ​development​ ​leads​ ​to​ ​introduction​ ​of​ ​technical​ ​analysis​ ​indicators​ ​in​ ​trading
+alerts.
+2Q17
+● Authoring​ ​of​ ​whitepaper​ ​as​ ​3​ ​new​ ​advisors​ ​join​ ​the​ ​team.
+● Continued​ ​development​ ​and​ ​testing​ ​of​ ​more​ ​advanced​ ​features​ ​with​ ​Telegram​ ​bot​ ​-​ ​an
+additional​ ​artificial​ ​intelligence​ ​professional​ ​joined​ ​to​ ​incorporate​ ​AI​ ​features​ ​into​ ​ITT.
+
+Phase​ ​2 
+
+3Q17
+● ITT​ ​Platform​ ​(bots​ ​and​ ​algorithms)​ ​continues​ ​to​ ​be​ ​tweaked​ ​and​ ​optimized​ ​to​ ​produce
+market-beating​ ​returns.
+● Private​ ​Beta​ ​Tier​ ​1​ ​ITT​ ​Bot​ ​released​ ​on​ ​Telegram​ ​for​ ​limited​ ​public​ ​use​ ​(using​ ​Technical
+Analysis,​ ​AI​ ​features​ ​not​ ​included).
+● ITT​ ​Token​ ​Sale.
+● Acceleration​ ​of​ ​development​ ​in​ ​statistical​ ​data​ ​modelling,​ ​and​ ​trader​ ​experience​ ​patterns.
+4Q17
+● Tier​ ​2​ ​AI-enabled​ ​ITT​ ​Bot​ ​released​ ​on​ ​a​ ​subscription-based​ ​model.
+● Personalized​ ​trading​ ​alert​ ​settings​ ​made​ ​available​ ​on​ ​ITT​ ​Bot.
+● Availability​ ​of​ ​Portfolio​ ​management​ ​companion​ ​app.
+1Q18
+● Support​ ​added​ ​for​ ​Simplified​ ​Mandarin,​ ​Korean,​ ​Japanese,​ ​Cantonese,​ ​Spanish
+● Additional​ ​Features​ ​added​ ​to​ ​ITT​ ​Bot​ ​-​ ​Social​ ​Media​ ​Sentiment​ ​Indicators.​ ​Investigate
+potential​ ​inclusion​ ​of​ ​predictive​ ​markets​ ​-​ ​partnership​ ​with​ ​Augur/Gnosis.
+● Continue​ ​to​ ​build​ ​ITT​ ​community​ ​of​ ​traders.
+
+21
+
+Phase​ ​3 
+
+2Q18
+● ITT​ ​users​ ​gain​ ​access​ ​to​ ​exclusive​ ​cryptocurrencies​ ​Research​ ​reports​ ​(buy/sell)
+● Release​ ​of​ ​alternative​ ​alerts​ ​-​ ​via​ ​Slack,​ ​WeChat,​ ​Twitter,​ ​Wire,​ ​Ambit
+3Q18
+● ITT​ ​launches​ ​separate​ ​quant​ ​fund​ ​with​ ​the​ ​introduction​ ​of​ ​Tier​ ​3​ ​subscription​ ​options.
+Ongoing
+● ITT​ ​Bot​ ​will​ ​continue​ ​to​ ​be​ ​tweaked​ ​and​ ​developed​ ​-​ ​these​ ​data​ ​bots​ ​will​ ​be​ ​constantly
+re-tested​ ​and​ ​optimized.
+● We​ ​intend​ ​to​ ​bring​ ​institutional-level​ ​trading​ ​technology​ ​and​ ​make​ ​it​ ​available​ ​to​ ​the
+masses.​ ​Smart​ ​automated​ ​loss​ ​prevention​ ​trades​ ​available.
+● API​ ​access​ ​to​ ​user​ ​accounts​ ​on​ ​exchanges​ ​for​ ​faster​ ​trade​ ​initiating​ ​and​ ​option​ ​for
+implementing​ ​smart​ ​automated​ ​loss​ ​prevention​ ​trades.
+Machine​ ​learning​ ​and​ ​specifically​ ​the​ ​implementation​ ​of​ ​generative​ ​adversarial​ ​networks​ ​will
+will​ ​further​ ​disrupt​ ​the​ ​growing​ ​effectiveness​ ​in​ ​trading​ ​crytpocurrency​ ​assets.​ ​Furthermore,​ ​our
+focus​ ​will​ ​remain​ ​on​ ​both​ ​infrastructure​ ​and​ ​tuning​ ​the​ ​neural​ ​models​ ​to​ ​effectively​ ​produce
+high-confidence​ ​trading​ ​predictions​ ​from​ ​trillions​ ​of​ ​data​ ​signals​ ​ranging​ ​from​ ​media​ ​outlets,
+social​ ​networks,​ ​international​ ​trade​ ​relations,​ ​current​ ​events,​ ​and​ ​technology​ ​advancements.
+While​ ​timing​ ​is​ ​difficult​ ​to​ ​predict,​ ​the​ ​team​ ​has​ ​its​ ​sights​ ​set​ ​upon​ ​an​ ​AI​ ​assistant​ ​capable
+self-programming,​ ​retraining,​ ​and​ ​continued​ ​self-optimization.​ ​And,​ ​at​ ​the​ ​same​ ​time​ ​promoting
+open​ ​and​ ​transparent​ ​transacting​ ​inside​ ​smart​ ​contracts​ ​on​ ​the​ ​Ethereum​ ​network​ ​blockchain.
+
+22
+
+6​ ​-​ ​Token​ ​Mechanism
+The​ ​Intelligent​ ​Trading​ ​Technology​ ​Token​ ​(ITT)​ ​is​ ​an​ ​ERC20​ ​Ethereum​ ​token.​ ​Ethereum​ ​tokens
+are​ ​represented​ ​as​ ​smart​ ​contracts​ ​that​ ​are​ ​executed​ ​on​ ​the​ ​publicly-available​ ​Ethereum
+blockchain.​ ​The​ ​ITT​ ​token’s​ ​design​ ​follows​ ​the​ ​widely-adopted​ ​token​ ​implementation​ ​standards.
+This​ ​allows​ ​token​ ​holders​ ​to​ ​easily​ ​store​ ​and​ ​manage​ ​their​ ​ITT​ ​tokens​ ​using​ ​existing​ ​solutions
+including​ ​Ethereum​ ​Wallet.
+The​ ​source​ ​code​ ​to​ ​ITT’s​ ​smart​ ​contract​ ​is​ ​publicly​ ​available​ ​on​ ​GitHub.​ ​The​ ​supply​ ​of​ ​ITT
+tokens​ ​is​ ​limited​ ​to​ ​21​ ​million​ ​ITT​ ​tokens.​ ​The​ ​Ethereum​ ​network​ ​enforces​ ​that​ ​there​ ​will​ ​never
+be​ ​more​ ​than​ ​this​ ​initial​ ​21​ ​million​ ​ITT​ ​tokens​ ​minted.
+ITT​ ​tokens​ ​are​ ​essential​ ​to​ ​pay​ ​all​ ​subscription​ ​fees​ ​on​ ​the​ ​ITT​ ​platform.​ ​ ​We​ ​will​ ​burn​ ​25%​ ​of
+the​ ​subscription​ ​fees​ ​collected​ ​from​ ​ITT's​ ​users.
+We​ ​will​ ​continue​ ​to​ ​support​ ​and​ ​promote​ ​the​ ​trading​ ​of​ ​ITT​ ​tokens​ ​on​ ​several​ ​exchanges,​ ​as​ ​well
+as​ ​introduce​ ​subscription-based​ ​access​ ​to​ ​ITT’s​ ​Platform​ ​after​ ​the​ ​ITT​ ​token​ ​is​ ​added​ ​to​ ​an
+adequate​ ​number​ ​of​ ​exchanges​ ​to​ ​allow​ ​for​ ​sufficient​ ​volume.
+Subscriptions,​ ​paid​ ​in​ ​ITT​ ​tokens​ ​will​ ​target​ ​prices​ ​to​ ​that​ ​uphold​ ​two​ ​goals:
+- maintains​ ​enough​ ​exclusivity​ ​to​ ​prevent​ ​the​ ​user​ ​crowd​ ​from​ ​becoming​ ​a
+market-manipulator
+- remain​ ​available​ ​to​ ​amateur​ ​low-volume​ ​traders
+Tier​ ​1​ ​Subscription​ ​Services​ ​-​ ​This​ ​ITT​ ​Bot​ ​sends​ ​alerts​ ​based​ ​on​ ​numerous​ ​technical
+indicators,​ ​and​ ​will​ ​start​ ​off​ ​around​ ​$5/month,​ ​payable​ ​in​ ​ITT​ ​Tokens.
+The​ ​pricing​ ​mechanism​ ​is​ ​a​ ​product​ ​of​ ​factors​ ​including​ ​number​ ​of​ ​subscribers,​ ​inverse
+relationship​ ​of​ ​the​ ​USD​ ​value​ ​of​ ​the​ ​ITT​ ​Token,​ ​and​ ​elastic​ ​to​ ​the​ ​ratio​ ​of​ ​total​ ​subscribers​ ​to
+Total​ ​Market​ ​Cap​ ​of​ ​all​ ​cryptocurrencies.
+P = (aS + bP
+
+−1
+IT T )
+
+* 0.95
+
+0.5+c(S/C G )
+
+Tier​ ​2​ ​Subscription​ ​Services​ ​-​ ​This​ ​ITT​ ​Bot​ ​will​ ​send​ ​customizable​ ​alerts​ ​personalized​ ​by
+artificial​ ​intelligence​ ​(neural​ ​network)​ ​models​ ​tuned​ ​to​ ​your​ ​trading​ ​goals​ ​and​ ​optimized​ ​to​ ​your
+individual​ ​trading​ ​ability.​ ​ ​ ​The​ ​Tier​ ​2​ ​ITT​ ​Bot​ ​will​ ​start​ ​off​ ​around​ ​$20/month,​ ​payable​ ​in​ ​ITT
+Tokens.
+A​ ​similar​ ​pricing​ ​mechanism​ ​was​ ​used​ ​in​ ​producing​ ​the​ ​ideal​ ​pricing​ ​equilibrium,​ ​adding
+elasticity​ ​in​ ​price​ ​according​ ​to​ ​the​ ​ratio​ ​of​ ​AI-Powered​ ​traders​ ​(ITT​ ​Service​ ​users)​ ​versus
+non-AI-Powered​ ​traders.​ ​ ​This​ ​ensures​ ​the​ ​effectiveness​ ​of​ ​the​ ​AI​ ​advantage​ ​of​ ​ITT’s​ ​Platform.
+P = (aS + bP
+
+−1
+IT T
+
+−1
+
+−1
+
+e(C S *C G )+f (T S *T G )
++ cC IT T + dC −1
+G ) * 0.95
+
+23
+
+Tier​ ​3​ ​Subscription​ ​Services​ ​-​ ​According​ ​to​ ​the​ ​Roadmap​ ​in​ ​3Q18,​ ​ITT​ ​will​ ​launch​ ​a​ ​separate
+quant​ ​fund​ ​powered​ ​by​ ​the​ ​ITT​ ​Platform’s​ ​technology.​ ​ ​ITT​ ​tokens​ ​will​ ​represent​ ​the​ ​future
+exclusive​ ​opportunity​ ​to​ ​convert​ ​into​ ​a​ ​separate​ ​quant​ ​fund​ ​using​ ​ITT's​ ​technology.
+
+24
+
+7​ ​-​ ​ITT​ ​Token​ ​Sale
+
+For​ ​the​ ​ITT​ ​token​ ​sale,​ ​contributors​ ​can​ ​receive​ ​updates​ ​and​ ​announced​ ​on​ ​the​ ​ITT​ ​token​ ​sale
+webpage​ ​(​intelligenttrading.org/token-sale/​).
+The​ ​ITT​ ​token​ ​sale​ ​period​ ​will​ ​last​ ​until​ ​USD​ ​$4.2​ ​million​ ​equivalent​ ​in​ ​Ethereum/Bitcoin
+tokens​ ​have​ ​been​ ​raised,​ ​or​ ​for​ ​a​ ​maximum​ ​duration​ ​of​ ​1​ ​calendar​ ​month,​ ​whichever​ ​is​ ​earlier.
+Start​ ​Date:​​ ​August​ ​18,​ ​2017​ ​at​ ​14:00​ ​UTC
+End​ ​Date:​​ ​September​ ​17,​ ​2017​ ​at​ ​14:00​ ​UTC
+CAP:​​ ​ ​We​ ​are​ ​raising​ ​approximately​ ​$4.2M​ ​USD​ ​denominated​ ​in​ ​ETH/BTC​ ​in​ ​our​ ​token​ ​sale.
+Being​ ​a​ ​crowdfunded​ ​project,​ ​a​ ​majority​ ​of​ ​75​ ​%​ ​will​ ​be​ ​owned​ ​by​ ​the​ ​crowdfunding
+participants​ ​in​ ​the​ ​form​ ​of​ ​ITT​ ​tokens,​ ​while​ ​25​ ​%​ ​ITT​ ​tokens​ ​will​ ​be​ ​reserved​ ​for​ ​the​ ​original
+development​ ​team,​ ​advisors,​ ​bounties​ ​and​ ​the​ ​earliest​ ​adopters/contributors.​ ​ITT​ ​Tokens
+reserved​ ​for​ ​original​ ​development​ ​team​ ​and​ ​advisors​ ​will​ ​be​ ​subject​ ​to​ ​a​ ​12-month​ ​holding
+period​ ​to​ ​serve​ ​as​ ​a​ ​long-term​ ​incentive​ ​for​ ​the​ ​founding​ ​team.
+21,000,000​ ​ITT​ ​Tokens​ ​will​ ​be​ ​created:
+● 75%​ ​of​ ​Tokens​ ​available​ ​for
+crowdfunding​ ​participants​ ​and
+traded​ ​on​ ​exchanges
+● 15%​ ​of​ ​Tokens​ ​available​ ​for​ ​User
+Rewards​ ​(acquisition,​ ​performance
+and​ ​bonuses)
+● 10%​ ​of​ ​tokens​ ​available​ ​for
+original​ ​contributors/dev
+team/advisors​ ​(subject​ ​to
+12-month​ ​holding​ ​period)
+
+As​ ​with​ ​all​ ​token​ ​sales,​ ​there​ ​are​ ​many​ ​possible​ ​benefits​ ​of​ ​participating.​ ​The​ ​direct​ ​benefit​ ​is
+that​ ​you​ ​are​ ​helping​ ​Intelligent​ ​Trading​ ​Technologies​ ​further​ ​the​ ​development​ ​of​ ​its​ ​product.
+ITT’s​ ​Platform​ ​will​ ​allow​ ​for​ ​increased​ ​inclusion​ ​of​ ​beginner​ ​crypto​ ​traders,​ ​giving​ ​them​ ​greater
+trading​ ​confidence​ ​in​ ​the​ ​cryptocurrency​ ​markets​ ​and​ ​should​ ​help​ ​encourage​ ​more​ ​traders​ ​to
+enter​ ​the​ ​market.
+Additionally,​ ​once​ ​the​ ​tokens​ ​are​ ​listed​ ​on​ ​many​ ​exchanges,​ ​there​ ​potentially​ ​would​ ​be​ ​an
+opportunity​ ​to​ ​make​ ​a​ ​profit​ ​selling​ ​tokens​ ​after​ ​you’ve​ ​purchased​ ​them.
+
+25
+
+Token​ ​sale​ ​participants​ ​will​ ​be​ ​able​ ​to​ ​send​ ​Ether​ ​(ETH)​ ​or​ ​Bitcoin​ ​(BTC)*​ ​to​ ​the​ ​Intelligent
+Trading​ ​Technologies’​ ​token​ ​sale​ ​address​ ​only​ ​after​ ​the​ ​start​ ​of​ ​the​ ​token​ ​sale​ ​period.
+Please​ ​only​ ​contribute​ ​to​ ​official​ ​ETH​ ​address​ ​as​ ​listed​ ​on​ ​the​ ​official​ ​Intelligent​ ​Trading
+Technologies​ ​Website​ ​(​http://token-sale.intelligenttrading.org​).​ ​Any​ ​other​ ​addresses​ ​posted
+before/during/after​ ​the​ ​token​ ​sale​ ​period​ ​anywhere​ ​other​ ​than​ ​the​ ​official​ ​website
+(​http://token-sale.intelligenttrading.org​)​ ​should​ ​not​ ​be​ ​used.
+*Bitcoin​ ​(BTC)​ ​contributions​ ​will​ ​only​ ​be​ ​taken​ ​in​ ​special​ ​circumstances​ ​in​ ​amounts​ ​>50​ ​BTC.
+Please​ ​email​ ​for​ ​more​ ​information​ ​at​ ​info@intelligenttrading.org​.
+Contributors​ ​who​ ​purchase​ ​ ​ITT​ ​tokens​ ​between​ ​August​ ​18​ ​and​ ​September​ ​1​ ​(during​ ​the​ ​first​ ​two
+weeks​ ​of​ ​the​ ​token​ ​sale)​ ​will​ ​receive​ ​bonus​ ​ITT​ ​tokens​ ​based​ ​on​ ​the​ ​table​ ​below.
+Capital​ ​Committed
+
+ITT​ ​Bonus​ ​Tokens
+
+<​ ​5​ ​ETH*
+
++0%
+
+5​ ​ETH*​ ​-​ ​50​ ​ETH*
+
++10%
+
+>50​ ​ETH*
+
++20%
+
+ETH*​ ​-​ ​also​ ​applies​ ​to​ ​an​ ​equivalent​ ​amount​ ​in​ ​BTC​ ​at​ ​time​ ​of​ ​transaction.
+ITT​ ​tokens​ ​will​ ​be​ ​delivered​ ​to​ ​your​ ​ETH​ ​Wallet​ ​shortly​ ​after​ ​the​ ​token​ ​sale​ ​period​ ​ends,​ ​and
+then​ ​tradable​ ​on​ ​exchanges​ ​shortly​ ​thereafter.
+On​ ​the​ ​project​ ​website​ ​(​intelligenttrading.org/faq​),​ ​you​ ​will​ ​also​ ​find​ ​a​ ​detailed​ ​guide​ ​on​ ​how​ ​to
+participate​ ​in​ ​the​ ​ITT​ ​token​ ​sale​ ​using​ ​either​ ​the​ ​Ethereum​ ​Wallet​ ​or​ ​Parity.​ ​Please​ ​do​ ​not​ ​send
+contributions​ ​from​ ​an​ ​exchange​ ​or​ ​any​ ​wallet​ ​for​ ​which​ ​you​ ​do​ ​not​ ​control​ ​the​ ​private​ ​key.
+Please​ ​check​ ​your​ ​local​ ​laws​ ​and​ ​regulations​ ​prior​ ​to​ ​participating.​ ​Unfortunately,​ ​citizens​ ​and
+residents​ ​of​ ​the​ ​United​ ​States​ ​and​ ​the​ ​People’s​ ​Republic​ ​of​ ​China​ ​cannot​ ​currently​ ​participate​ ​in
+the​ ​ITT​ ​token​ ​sale​ ​due​ ​to​ ​due​ ​to​ ​regulations​ ​in​ ​those​ ​jurisdictions.​ ​Please​ ​see​ ​our​ ​Terms​ ​&
+Conditions​ ​for​ ​more​ ​information.
+
+26
+
+Use​ ​of​ ​Token​ ​Sale​ ​Proceeds
+
+The​ ​funds​ ​raised​ ​with​ ​allow​ ​ITT​ ​to​ ​scale​ ​up​ ​operations​ ​until​ ​we​ ​become​ ​cashflow​ ​positive​ ​at
+which​ ​point​ ​we​ ​will​ ​follow​ ​a​ ​not​ ​for​ ​profit​ ​model​ ​and​ ​will​ ​be​ ​able​ ​to​ ​lower​ ​subscription​ ​fees​ ​to
+the​ ​users.​ ​The​ ​funds​ ​will​ ​be​ ​distributed​ ​according​ ​to​ ​the​ ​table​ ​below​ ​and​ ​spent​ ​on​ ​direct​ ​costs
+according​ ​to​ ​the​ ​Roadmap.​ ​A​ ​breakdown​ ​can​ ​be​ ​seen​ ​below.
+
+Primary​ ​Development​ ​-​ ​60%
+
+Sixty​ ​percent​ ​of​ ​the​ ​funds​ ​received​ ​during​ ​the​ ​token​ ​sale​ ​will​ ​be​ ​allocated​ ​for​ ​development​ ​and
+continued​ ​improvement​ ​to​ ​the​ ​ITT​ ​Platform​ ​and​ ​open-source​ ​project​ ​as​ ​laid​ ​out​ ​in​ ​our
+development​ ​roadmap.​ ​Funds​ ​raised​ ​will​ ​allow​ ​for​ ​AI​ ​integration,​ ​Slack​ ​bot,​ ​WeChat​ ​bot,​ ​web
+dashboard,​ ​and​ ​auto-trading​ ​via​ ​API​ ​connection​ ​to​ ​exchanges​ ​as​ ​they​ ​become​ ​available.
+
+Marketing-​ ​10%
+
+As​ ​the​ ​value​ ​of​ ​ITT​ ​Tokens​ ​and​ ​the​ ​ITT​ ​Platform​ ​will​ ​jointly​ ​benefit​ ​from​ ​more​ ​users,​ ​marketing
+will​ ​be​ ​done​ ​through​ ​social​ ​media,​ ​direct​ ​marketing,​ ​partnerships​ ​and​ ​affiliate​ ​programs.
+
+Outreach-​ ​10%
+
+Our​ ​outreach​ ​funds​ ​will​ ​be​ ​utilised​ ​to​ ​provide​ ​education​ ​to​ ​the​ ​public​ ​on​ ​the​ ​ITT​ ​Platform​ ​and
+cryptocurrencies​ ​in​ ​general.​ ​Increased​ ​awareness​ ​of​ ​cryptocurrencies​ ​and​ ​blockchain,​ ​will​ ​allow
+for​ ​increased​ ​use​ ​of​ ​ITT​ ​Platforms​ ​and​ ​ultimately​ ​more​ ​liquidity​ ​in​ ​the​ ​markets​ ​in​ ​which​ ​we
+operate.​ ​This​ ​will​ ​also​ ​include​ ​outreach​ ​to​ ​ITT’s​ ​users​ ​for​ ​feedback​ ​-​ ​ensuring​ ​that​ ​we​ ​continue
+to​ ​provide​ ​a​ ​relevant​ ​product​ ​that​ ​continues​ ​to​ ​add​ ​significant​ ​value​ ​to​ ​their​ ​trading​ ​experience.
+We​ ​intend​ ​to​ ​firmly​ ​establish​ ​ITT​ ​as​ ​the​ ​dominant​ ​player​ ​in​ ​the​ ​Trading​ ​Alert​ ​space.
+
+Operating​ ​Expenditures​ ​-​ ​20%
+
+Twenty​ ​percent​ ​of​ ​the​ ​token​ ​sale​ ​funds​ ​will​ ​be​ ​reserved​ ​for​ ​operating​ ​expenditures.​ ​These​ ​will​ ​be
+allocated​ ​for​ ​any​ ​non-development,​ ​hosting​ ​and​ ​legal​ ​expenses.
+27
+
+8​ ​-​ ​Leadership​ ​(Team)
+
+“Great​ ​things​ ​in​ ​business​ ​are​ ​never​ ​done​ ​by​ ​one​ ​person.​ ​They‘re​ ​done​ ​by​ ​a​ ​team​ ​of​ ​people.”
+-​ ​Steve​ ​Jobs
+"Talent​ ​wins​ ​games,​ ​but​ ​teamwork​ ​and​ ​intelligence​ ​win​ ​championships."​ ​--Michael​ ​Jordan
+Benjamin​ ​Lakoff​,​ ​CFA
+Co-Founder
+Ben​ ​is​ ​an​ ​entrepreneur​ ​and​ ​finance​ ​professional.​ ​He​ ​is​ ​an​ ​avid​ ​active​ ​trader​ ​in
+both​ ​traditional​ ​and​ ​cryptocurrency​ ​markets.​ ​He​ ​holds​ ​the​ ​Chartered​ ​Financial
+Analyst​ ​(CFA)​ ​designation​ ​and​ ​has​ ​been​ ​investing​ ​in​ ​Blockchain​ ​start-ups
+heavily​ ​since​ ​mid-2016.​ ​Ben​ ​joins​ ​ITT’s​ ​team​ ​with​ ​broad​ ​and​ ​diverse
+experience​ ​across​ ​various​ ​business​ ​sectors​ ​including​ ​mergers​ ​&​ ​acquisitions,
+equity​ ​markets,​ ​banking,​ ​and​ ​lately​ ​the​ ​Head​ ​of​ ​Planning​ ​in​ ​a​ ​more​ ​diversified
+and​ ​entrepreneurial​ ​organization.​ ​He​ ​is​ ​fluent​ ​in​ ​English,​ ​Portuguese,​ ​and
+Spanish​ ​and​ ​currently​ ​lives​ ​in​ ​Bangkok,​ ​Thailand.
+Thomas​ ​Counsell
+Co-​ ​Founder
+Tom​ ​holds​ ​a​ ​Computer​ ​Science​ ​degree​ ​from​ ​Purdue​ ​University.​ ​In​ ​2012,​ ​he
+cofounded​ ​the​ ​largest​ ​artisan​ ​ecommerce​ ​site​ ​in​ ​Morocco​ ​while​ ​serving​ ​with​ ​the
+US​ ​Peace​ ​Corps.​ ​In​ ​2015,​ ​he​ ​created​ ​Noble​ ​Software​ ​Foundation​ ​and
+Incorporeal​ ​Ltd.​ ​while​ ​leading​ ​large​ ​software​ ​development​ ​operations​ ​for
+technology​ ​startups​ ​in​ ​Thailand​ ​including​ ​Agoda.com​ ​and​ ​serving​ ​as​ ​CTO​ ​at
+CareerBolt​ ​and​ ​Aztrana.com.​ ​Tom​ ​brings​ ​to​ ​ITT​ ​a​ ​unique​ ​set​ ​of​ ​diverse
+cross-culture​ ​skills​ ​and​ ​experience​ ​deploying​ ​world-class​ ​applications​ ​used​ ​by
+millions​ ​internationally.​ ​He​ ​now​ ​resides​ ​in​ ​Czech​ ​Republic​ ​focussing​ ​on
+practical​ ​applications​ ​of​ ​the​ ​latest​ ​artificial​ ​intelligence​ ​and​ ​blockchain
+technologies.
+Marcelo​ ​Barbosa
+Platform​ ​Developer
+With​ ​17+​ ​years​ ​of​ ​experience,​ ​Marcelo​ ​has​ ​led​ ​teams​ ​as​ ​a​ ​backend​ ​and
+full-stack​ ​engineer​ ​at​ ​Ovirt,​ ​Fedora​ ​Linux​ ​and​ ​CentOS​ ​Linux,​ ​GlusterFS,
+SizeOf,​ ​Datacom,​ ​Red​ ​Hat,​ ​Lojas​ ​Renner,​ ​Neo​ ​Networks​ ​and​ ​SIJ.​ ​His
+specialization​ ​in​ ​cloud​ ​services,​ ​open-source​ ​products,​ ​scalable​ ​server
+infrastructure,​ ​API​ ​design,​ ​and​ ​blockchain​ ​has​ ​honed​ ​his​ ​passions​ ​for
+problem-solving​ ​and​ ​product​ ​development.
+
+28
+
+Peter​ ​H
+Trading​ ​Advisor
+Peter​ ​is​ ​based​ ​in​ ​the​ ​USA,​ ​and​ ​has​ ​spent​ ​the​ ​past​ ​six​ ​years​ ​in​ ​investments
+working​ ​for​ ​the​ ​Asset​ ​Management​ ​divisions​ ​of​ ​JPMorgan​ ​and​ ​Wells​ ​Fargo.
+Peter's​ ​trading​ ​experience​ ​spans​ ​all​ ​asset​ ​classes​ ​and​ ​he​ ​has​ ​deep​ ​knowledge​ ​of
+fundamental​ ​and​ ​technical​ ​analysis​ ​and​ ​modeling.​ ​Peter​ ​is​ ​addicted​ ​to​ ​trading
+cryptos​ ​and​ ​is​ ​passionate​ ​about​ ​this​ ​project​ ​because​ ​he​ ​sees​ ​great​ ​value​ ​in​ ​the
+resource​ ​that​ ​ITT​ ​will​ ​be​ ​for​ ​all​ ​crypto​ ​investors,​ ​from​ ​the​ ​first​ ​time​ ​buyer​ ​to
+professional​ ​traders.
+Due​ ​to​ ​the​ ​unknown​ ​ramifications​ ​of​ ​the​ ​US​ ​regulatory​ ​environment​ ​for
+licensed​ ​individuals,​ ​Peter​ ​has​ ​chosen​ ​to​ ​remain​ ​anonymous​ ​at​ ​this​ ​time
+Sebastian​ ​Bausch
+Advisor
+Sebastian​ ​is​ ​a​ ​security​ ​analyst​ ​and​ ​has​ ​been​ ​passionate​ ​about​ ​cryptocurrencies
+since​ ​2011.​ ​He​ ​is​ ​the​ ​co-founder​ ​of​ ​Criton​ ​Group,​ ​a​ ​risk​ ​consulting​ ​firm​ ​with
+focus​ ​on​ ​Asia.​ ​Sebastian​ ​studied​ ​Mandarin​ ​at​ ​Xiamen​ ​University​ ​and​ ​holds​ ​a
+postgraduate​ ​degree​ ​from​ ​the​ ​University​ ​of​ ​Nottingham.
+Poramin​ ​Insom
+Development​ ​Advisor
+Poramin​ ​is​ ​the​ ​founder​ ​and​ ​core​ ​developer​ ​of​ ​Zcoin​,​ ​an​ ​$30M​ ​Market​ ​cap
+anonymous​ ​cryptocurrency.​ ​He​ ​is​ ​the​ ​CEO​ ​of​ ​Satang​,​ ​a​ ​mobile​ ​bitcoin​ ​wallet​ ​in
+Southeast​ ​Asia.​ ​He​ ​is​ ​also​ ​the​ ​world's​ ​first​ ​person​ ​to​ ​implement​ ​stealth
+addresses​ ​in​ ​QT-Wallets,​ ​improving​ ​cryptocurrency​ ​anonymity.​ ​He​ ​earned​ ​a
+master's​ ​degree​ ​in​ ​Information​ ​Security​ ​from​ ​Johns​ ​Hopkins​ ​University​ ​where
+he​ ​wrote​ ​a​ ​paper​ ​on​ ​a​ ​proposed​ ​practical​ ​implementation​ ​of​ ​the​ ​Zerocoin
+protocol.
+
+29
+
+9​ ​-​ ​Legal​ ​Considerations
+
+Please​ ​read​ ​this​ ​section​ ​carefully.​ ​If​ ​you​ ​are​ ​in​ ​any​ ​doubt​ ​as​ ​to​ ​the​ ​action​ ​you​ ​should​ ​take,​ ​you
+should​ ​consult​ ​your​ ​legal,​ ​financial,​ ​tax​ ​or​ ​other​ ​professional​ ​advisor(s).
+ITT​ ​tokens​ ​are​ ​functional​ ​utility​ ​tokens​ ​within​ ​the​ ​ITT​ ​platform.​ ​ITT​ ​tokens​ ​are​ ​not​ ​securities,
+and​ ​are​ ​not​ ​intended​ ​to​ ​constitute​ ​securities​ ​in​ ​any​ ​jurisdiction.​ ​ITT​ ​tokens​ ​are​ ​also
+non-refundable​ ​and​ ​are​ ​not​ ​for​ ​speculative​ ​investment.
+Intelligent​ ​Trading​ ​Technologies’​ ​whitepaper​ ​and​ ​website​ ​do​ ​not​ ​constitute​ ​a​ ​prospectus​ ​or​ ​offer
+document​ ​of​ ​any​ ​sort,​ ​and​ ​are​ ​not​ ​intended​ ​to​ ​constitute​ ​an​ ​offer​ ​of​ ​securities​ ​or​ ​a​ ​solicitation​ ​for
+investment​ ​in​ ​securities​ ​in​ ​any​ ​jurisdiction.​ ​This​ ​whitepaper​ ​and​ ​website​ ​do​ ​not​ ​constitute​ ​or
+form​ ​part​ ​of​ ​any​ ​opinion​ ​on​ ​any​ ​advice​ ​to​ ​sell,​ ​or​ ​any​ ​solicitation​ ​of​ ​any​ ​offer​ ​by​ ​the
+distributor/vendor​ ​of​ ​the​ ​ITT​ ​tokens​ ​(the​ ​“Distributor”)​ ​to​ ​purchase​ ​any​ ​ITT​ ​tokens​ ​nor​ ​shall​ ​it​ ​or
+any​ ​part​ ​of​ ​it​ ​nor​ ​the​ ​fact​ ​of​ ​its​ ​presentation​ ​form​ ​the​ ​basis​ ​of,​ ​or​ ​be​ ​relied​ ​upon​ ​in​ ​connection
+with,​ ​any​ ​contract​ ​or​ ​investment​ ​decision.​ ​Contribution​ ​to​ ​the​ ​ITT​ ​token​ ​is​ ​by​ ​way​ ​of​ ​donation​ ​to
+the​ ​Distributor.
+The​ ​Distributor​ ​will​ ​be​ ​an​ ​affiliate​ ​of​ ​Intelligent​ ​Trading​ ​Technologies,​ ​and​ ​will​ ​deploy​ ​all
+proceeds​ ​of​ ​sale​ ​of​ ​the​ ​ITT​ ​tokens​ ​to​ ​fund​ ​ITT’s​ ​cryptocurrency​ ​project,​ ​businesses​ ​and
+operations.
+No​ ​person​ ​is​ ​bound​ ​to​ ​enter​ ​into​ ​any​ ​contract​ ​or​ ​binding​ ​legal​ ​commitment​ ​in​ ​relation​ ​to​ ​the​ ​sale
+and​ ​purchase​ ​of​ ​the​ ​ITT​ ​tokens​ ​and​ ​no​ ​cryptocurrency​ ​or​ ​other​ ​form​ ​of​ ​payment​ ​is​ ​to​ ​be
+accepted​ ​on​ ​the​ ​basis​ ​of​ ​this​ ​whitepaper.
+Any​ ​agreement​ ​as​ ​between​ ​the​ ​Distributor​ ​and​ ​you​ ​as​ ​a​ ​purchaser,​ ​and​ ​in​ ​relation​ ​to​ ​any​ ​sale​ ​and
+purchase,​ ​of​ ​ITT​ ​tokens​ ​(as​ ​referred​ ​to​ ​in​ ​this​ ​whitepaper)​ ​is​ ​to​ ​be​ ​governed​ ​by​ ​only​ ​a​ ​separate
+document​ ​setting​ ​out​ ​the​ ​terms​ ​and​ ​conditions​ ​(the​ ​“T&Cs”)​ ​of​ ​such​ ​agreement.​ ​In​ ​the​ ​event​ ​of
+any​ ​inconsistencies​ ​between​ ​the​ ​T&Cs​ ​and​ ​this​ ​whitepaper,​ ​the​ ​former​ ​shall​ ​prevail.
+You​ ​are​ ​not​ ​eligible​ ​and​ ​you​ ​are​ ​not​ ​to​ ​purchase​ ​any​ ​ITT​ ​tokens​ ​in​ ​the​ ​Intelligent​ ​Trading
+Tokens​ ​Sale​ ​(as​ ​referred​ ​to​ ​in​ ​this​ ​whitepaper)​ ​if​ ​you​ ​are​ ​a​ ​citizen,​ ​resident​ ​(tax​ ​or​ ​otherwise)​ ​or
+green​ ​card​ ​holder​ ​of​ ​the​ ​United​ ​States​ ​of​ ​America​ ​or​ ​a​ ​citizen​ ​or​ ​resident​ ​of​ ​the​ ​Peoples​ ​Republic
+of​ ​China.
+No​ ​regulatory​ ​authority​ ​has​ ​examined​ ​or​ ​approved​ ​of​ ​any​ ​of​ ​the​ ​information​ ​set​ ​out​ ​in​ ​this
+whitepaper.​ ​No​ ​such​ ​action​ ​has​ ​been​ ​or​ ​will​ ​be​ ​taken​ ​under​ ​the​ ​laws,​ ​regulatory​ ​requirements​ ​or
+rules​ ​of​ ​any​ ​jurisdiction.​ ​The​ ​publication,​ ​distribution​ ​or​ ​dissemination​ ​of​ ​this​ ​whitepaper​ ​does
+not​ ​imply​ ​that​ ​the​ ​applicable​ ​laws,​ ​regulatory​ ​requirements​ ​or​ ​rules​ ​have​ ​been​ ​complied​ ​with.
+There​ ​are​ ​risks​ ​and​ ​uncertainties​ ​associated​ ​with​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the
+Distributor​ ​and​ ​their​ ​respective​ ​businesses​ ​and​ ​operations,​ ​the​ ​ITT​ ​tokens,​ ​and​ ​the​ ​ITT​ ​Token
+Sale​ ​(each​ ​as​ ​referred​ ​to​ ​in​ ​this​ ​whitepaper).
+30
+
+This​ ​whitepaper,​ ​any​ ​part​ ​thereof​ ​and​ ​any​ ​copy​ ​thereof​ ​must​ ​not​ ​be​ ​taken​ ​or​ ​transmitted​ ​to​ ​any
+country​ ​where​ ​distribution​ ​or​ ​dissemination​ ​of​ ​this​ ​whitepaper​ ​is​ ​prohibited​ ​or​ ​restricted.​ ​No​ ​part
+of​ ​this​ ​whitepaper​ ​is​ ​to​ ​be​ ​reproduced,​ ​distributed​ ​or​ ​disseminated.
+To​ ​the​ ​maximum​ ​extent​ ​permitted​ ​by​ ​the​ ​applicable​ ​laws,​ ​regulations​ ​and​ ​rules,​ ​Intelligent
+Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor​ ​shall​ ​not​ ​be​ ​liable​ ​for​ ​any​ ​indirect,​ ​special,
+incidental,​ ​consequential​ ​or​ ​other​ ​losses​ ​of​ ​any​ ​kind,​ ​in​ ​tort,​ ​contract​ ​or​ ​otherwise​ ​(including​ ​but
+not​ ​limited​ ​to​ ​loss​ ​of​ ​revenue,​ ​income​ ​or​ ​profits,​ ​and​ ​loss​ ​of​ ​use​ ​or​ ​data),​ ​arising​ ​out​ ​of​ ​or​ ​in
+connection​ ​with​ ​any​ ​acceptance​ ​of​ ​or​ ​reliance​ ​on​ ​this​ ​whitepaper​ ​or​ ​any​ ​part​ ​thereof​ ​by​ ​you.
+Prospective​ ​purchasers​ ​of​ ​ITT​ ​tokens​ ​(as​ ​referred​ ​to​ ​in​ ​this​ ​whitepaper)​ ​should​ ​carefully​ ​consider
+and​ ​evaluate​ ​all​ ​risks​ ​and​ ​uncertainties​ ​associated​ ​with​ ​Intelligent​ ​Trading​ ​Technologies,​ ​the
+Distributor​ ​and​ ​their​ ​respective​ ​businesses​ ​and​ ​operations,​ ​the​ ​ITT​ ​tokens,​ ​and​ ​the​ ​ITT​ ​Token,​ ​all
+information​ ​set​ ​out​ ​in​ ​this​ ​whitepaper​ ​and​ ​the​ ​T&Cs​ ​prior​ ​to​ ​any​ ​purchase​ ​of​ ​ITT​ ​tokens.​ ​If​ ​any
+of​ ​such​ ​risks​ ​and​ ​uncertainties​ ​develops​ ​into​ ​actual​ ​events,​ ​the​ ​business,​ ​financial​ ​condition,
+results​ ​of​ ​operations​ ​and​ ​prospects​ ​of​ ​Intelligent​ ​Trading​ ​Technologies​ ​and/or​ ​the​ ​Distributor
+could​ ​be​ ​materially​ ​and​ ​adversely​ ​affected.​ ​In​ ​such​ ​cases,​ ​you​ ​may​ ​lose​ ​all​ ​or​ ​part​ ​of​ ​the​ ​value​ ​of
+the​ ​ITT​ ​tokens.
+The​ ​reports​ ​and​ ​signals​ ​produced​ ​as​ ​an​ ​outcome​ ​of​ ​this​ ​project​ ​are​ ​for​ ​informational​ ​purposes
+only.​ ​These​ ​signals​ ​should​ ​NOT​ ​be​ ​regarded​ ​as​ ​“investment​ ​advice”​ ​or​ ​as​ ​a​ ​“recommendation”
+regarding​ ​a​ ​course​ ​of​ ​action,​ ​including​ ​without​ ​limitation​ ​as​ ​those​ ​terms​ ​are​ ​used​ ​in​ ​any
+applicable​ ​law​ ​or​ ​regulation.
+This​ ​information​ ​is​ ​provided​ ​with​ ​the​ ​understanding​ ​that​ ​with​ ​respect​ ​to​ ​the​ ​material​ ​provided​ ​in
+this​ ​project​ ​(i)​ ​the​ ​person​ ​who​ ​prepared​ ​this​ ​document​ ​is​ ​not​ ​acting​ ​in​ ​a​ ​fiduciary​ ​or​ ​advisory
+capacity​ ​under​ ​any​ ​contract​ ​with​ ​you,​ ​or​ ​any​ ​applicable​ ​law​ ​or​ ​regulation,​ ​(ii)​ ​that​ ​you​ ​will​ ​make
+your​ ​own​ ​independent​ ​decision​ ​with​ ​respect​ ​to​ ​any​ ​course​ ​of​ ​action​ ​in​ ​connection​ ​herewith,​ ​as​ ​to
+whether​ ​such​ ​course​ ​of​ ​action​ ​is​ ​appropriate​ ​or​ ​proper​ ​based​ ​on​ ​your​ ​own​ ​judgment​ ​and​ ​your
+specific​ ​circumstances​ ​and​ ​objectives,​ ​and​ ​(iii)​ ​that​ ​you​ ​are​ ​capable​ ​of​ ​understanding​ ​and
+assessing​ ​the​ ​merits​ ​of​ ​a​ ​course​ ​of​ ​action​ ​and​ ​evaluating​ ​investment​ ​risks​ ​independently.​ ​You
+may​ ​not​ ​rely​ ​on​ ​the​ ​material​ ​contained​ ​herein.​ ​The​ ​person​ ​who​ ​wrote​ ​the​ ​codes​ ​to​ ​produce​ ​these
+documents​ ​shall​ ​not​ ​have​ ​any​ ​liability​ ​for​ ​any​ ​damages​ ​of​ ​any​ ​kind​ ​whatsoever​ ​relating​ ​to​ ​these
+documents.
+
+10​ ​–​ ​KYC​ ​Policy
+
+Please​ ​read​ ​this​ ​section​ ​carefully.​ ​If​ ​you​ ​are​ ​in​ ​any​ ​doubt​ ​as​ ​to​ ​the​ ​action​ ​you​ ​should​ ​take,​ ​you
+should​ ​consult​ ​your​ ​legal,​ ​financial,​ ​tax​ ​or​ ​other​ ​professional​ ​advisor(s).
+Intelligent​ ​Trading​ ​Technologies​ ​will​ ​require​ ​a​ ​completed​ ​Know​ ​Your​ ​Client​ ​(“KYC”)
+documentation​ ​on​ ​all​ ​contributors​ ​over​ ​the​ ​BTC​ ​or​ ​ETH​ ​equivalent​ ​of​ ​US$10,000.​ ​Upon
+completion​ ​of​ ​the​ ​token​ ​sale,​ ​Intelligent​ ​Trading​ ​Technologies​ ​will​ ​engage​ ​our​ ​legal​ ​advisors​ ​to
+collect​ ​and​ ​review​ ​KYC​ ​documentation​ ​from​ ​individuals​ ​and​ ​entities​ ​that​ ​are​ ​applicable.​ ​The
+following​ ​shall​ ​be​ ​required:
+31
+
+Individuals
+● Completed​ ​Compliance​ ​Form​ ​–​ ​Individual
+● Certified​ ​colour​ ​picture​ ​passport​ ​page
+● Certified​ ​utility​ ​bill​ ​showing​ ​current​ ​residential​ ​address
+If​ ​the​ ​individual​ ​is​ ​not​ ​a​ ​citizen​ ​of​ ​one​ ​of​ ​the​ ​following​ ​countries,​ ​additional​ ​information​ ​is
+required:​ ​Argentina,​ ​Australia,​ ​Austria,​ ​Bahamas,​ ​Bahrain,​ ​Barbados,​ ​Belgium,​ ​Bermuda,​ ​Brazil,
+British​ ​Virgin​ ​Islands,​ ​Canada,​ ​Cayman​ ​Islands,​ ​Denmark,​ ​Finland,​ ​France,​ ​Germany,​ ​Gibraltar,
+Greece,​ ​Guernsey,​ ​Hong​ ​Kong,​ ​Iceland,​ ​India,​ ​Ireland,​ ​Isle​ ​of​ ​Man,​ ​Israel,​ ​Italy,​ ​Japan,​ ​Jersey,
+Liechtenstein,​ ​Luxembourg,​ ​Malta,​ ​Mexico,​ ​Netherlands,​ ​New​ ​Zealand,​ ​Norway,​ ​Panama,
+People’s​ ​Republic​ ​of​ ​China,​ ​Portugal,​ ​Singapore,​ ​Spain,​ ​Sweden,​ ​Switzerland,​ ​Turkey,​ ​United
+Arab​ ​Emirates,​ ​United​ ​Kingdom,​ ​United​ ​States​ ​of​ ​America.
+● Reference​ ​from​ ​a​ ​bank​ ​where​ ​the​ ​individual​ ​has​ ​had​ ​a​ ​business​ ​relationship​ ​for​ ​more​ ​than
+2​ ​years.
+● Reference​ ​from​ ​a​ ​professional​ ​whom​ ​the​ ​individual​ ​has​ ​had​ ​a​ ​business​ ​relationship​ ​for
+more​ ​that​ ​2​ ​years.
+Legal​ ​Entities
+●
+●
+●
+●
+●
+●
+
+Completed​ ​Compliance​ ​Form​ ​–​ ​Entity
+Certified​ ​Certificate​ ​of​ ​Incorporation​ ​/​ ​Formation
+Certified​ ​Memorandum​ ​and​ ​Articles​ ​of​ ​Association​ ​/​ ​Bylaws
+Certified​ ​Register​ ​of​ ​Directors​ ​and​ ​Officers*
+Certified​ ​Register​ ​of​ ​Members**
+Structure​ ​Chart
+
+*We​ ​will​ ​also​ ​require​ ​KYC​ ​on​ ​the​ ​directors​ ​of​ ​the​ ​entity​ ​in​ ​the​ ​same​ ​form​ ​as​ ​referenced​ ​above
+for​ ​an​ ​individual​ ​or​ ​entity.
+**We​ ​will​ ​also​ ​require​ ​KYC​ ​on​ ​the​ ​member(s)​ ​holding​ ​10%​ ​or​ ​more​ ​of​ ​the​ ​issued​ ​shares​ ​in​ ​the
+same​ ​form​ ​as​ ​referenced​ ​above​ ​for​ ​an​ ​individual​ ​or​ ​entity.
+***​ ​Certified​ ​documents​ ​must​ ​be​ ​certified​ ​or​ ​notarised​ ​by​ ​a​ ​lawyer​ ​or​ ​licensed​ ​notary.
+****If​ ​there​ ​are​ ​any​ ​regulated​ ​entities​ ​within​ ​the​ ​structure,​ ​please​ ​advise​ ​as​ ​there​ ​may​ ​be
+exemptions​ ​that​ ​can​ ​be​ ​applied.
+
+32
+
+11​ ​-​ ​Acknowledgements
+Many​ ​people​ ​have​ ​committed​ ​to​ ​support​ ​the​ ​Intelligent​ ​Trading​ ​Technologies​ ​project​ ​with​ ​their
+time,​ ​energy,​ ​and​ ​network.​ ​We​ ​would​ ​like​ ​to​ ​use​ ​this​ ​opportunity​ ​to​ ​express​ ​our​ ​gratitude​ ​to
+everyone​ ​who​ ​supported​ ​us​ ​throughout​ ​the​ ​course​ ​of​ ​development​ ​of​ ​this​ ​project.​ ​Thank​ ​you!
+A​ ​special​ ​thanks​ ​to​ ​Iglu,​ ​Bangkok​ ​Meetups,​ ​Ethereum​ ​Team​ ​and​ ​their​ ​technology,​ ​Coin
+exchanges​ ​for​ ​their​ ​useful​ ​APIs​ ​and​ ​many​ ​others​ ​for​ ​their​ ​support,​ ​feedback​ ​and
+improvements​ ​to​ ​the​ ​ITT​ ​Platform! 
+
+33
+
+

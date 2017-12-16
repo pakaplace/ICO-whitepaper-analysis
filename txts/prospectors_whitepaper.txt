@@ -1,0 +1,816 @@
+Contents:
+1. Synopsis
+2. Goal
+3. Objectives and visions
+4. Project structure
+5. Organizations
+6. Token
+7. Short description of the game:
+Goal
+Gold
+Player’s account
+Worker
+Game world
+Land parcel
+Raw materials
+Technology
+Material
+Building
+Product
+Alliance
+Joint commercial organization
+Bank
+Store
+Transport
+Railway
+Game processes
+8. Assets, their characteristics, and cooperation with game
+9. Development and plans for the future
+10. Team
+11. Conclusion
+
+3
+4
+4
+5
+6
+6
+7
+7
+7
+8
+8
+9
+9
+9
+10
+10
+11
+11
+13
+13
+13
+13
+13
+13
+14
+14
+18
+20
+21
+
+The given document is not final and can be edited
+
+Synopsis
+Prospectors is the first of its kind economic, multi-player, real-time strategy with real
+trading and economic relations. Game events happen in a virtual world that resembles Earth in
+the middle of the 19th century, in the epoch of the initial capital formation.
+News has spread about rich gold-fields in the uninhabited northern lands. It has intrigued
+a huge number of adventurers in search of fast personal gain. Caravans of gold miners are
+headed northwards, taking their families with them and leaving their homes abandoned. Gold
+dealers, moneylenders, traders, and various gentlemen of fortune are making their way.
+However, it turns out that there are not many land parcels with significant gold deposits,
+so not every prospector will be able to stake a rich claim. One can grow rich, however, not only
+by sifting gravel for gold or finding a goldmine. The north is a land of unlimited opportunities,
+covered by thick forests and earth, full of iron and coal.
+Besides, one should not forget that miners need tools, which must be produced and sold
+to them. From the temporary mining colonies, big towns will grow with time, and they will need
+capable hands to build and develop them. Thus, there is a big need for a workforce in the
+game. Everyone can find work to his liking: work in the mines, at construction, felling the trees,
+or starting industrial development, including the processing of raw materials or manufacturing
+tools and transport.
+The thing that starts as a gold rush should grow into complex trade and economic
+relations with time, so players who have skills in finance and accounting will also be able to
+realize their potential.
+
+https://prospectors.io
+
+3
+
+Goal
+To create an alternative reality in the form of the blockchain-based economic
+strategy with game-time monetization.
+
+Objectives
+The primary task before our team is creating a Massive Multiplayer
+Online Real- Time Economic Strategy (MMORTES) that will use a game
+crypto-currency. The distinguishing characteristic of Prospectors,
+which is absent in any other existing online game, will be the
+possibility of monetizing the time spent in the game. In other words,
+players will be able to not only enjoy the game but also to earn
+from it, as well. One will be able to convert the gold made in the
+game into real money.
+The Prospectors game world will be based on the actual
+economic model of the second part of the 19th and early 20th
+centuries. To implement the real economic processes and
+plausible financial models, our team consulted the leading
+experts in the field.
+We plan to launch the web version of the game platform and
+the mobile apps for Android/iPhone, which will provide the players
+with the access to the game anywhere, anytime.
+
+https://prospectors.io
+
+4
+
+Project Structure
+The contract will create gold tokens—220 million coins in total. This number is not
+accidental; it is the approximate amount of all the gold on Earth, which also includes the
+unextracted gold. All tokens will be sent to the Fund of New Lots.
+The Fund of New Lots is a fund where the gold, hidden in the game’s land parcels, will be
+stored. 33% of the fund balance will be provided to the game server and randomly
+distributed among the lots in the game.
+Later on, additional game servers will be created, and, correspondingly, the gold will be
+provided to them also. The possibility of server cooperation will be created, as well.
+The players can extract the gold. With the help of multiple game assets (created personally
+or by other players) and workers on the land lots, a player will be able to mine gold. For
+registration and further usage, a player will be charged a fee that goes to the State.
+The State is a Decentralized Autonomous Organization (DAO), where the members of
+Council are the gold owners. The State has a budget; the Council has the right to influence
+its formation and usage. Players’ taxes fill the budget, and afterward it is distributed
+between the following funds: Fund of New Lots, Fund of Development and Expenses,
+Fund of Rewards for Voting, and Fund of Destruction.
+
+https://prospectors.io
+
+5
+
+Organizations
+Players can unite within the organization. When there is consensus among players,
+the game will create an organization that will belong to the players. Through voting and
+consensus, players will be able to choose, and afterward change (if necessary) the
+management of the organization. They will also provide the management with certain
+authorities and some amount of gold. The organization can operate this amount in the game
+and divide it as income between the members according to their shares.
+
+Token
+Gold (PGL) is a token and also the main currency of the game, necessary for
+interaction between players; it can only be earned in the game. The amount of gold is limited
+to 220 million coins.
+Half of the gold, 110 million of all tokens, is put into the game and can be extracted in
+parts.
+
+https://prospectors.io
+
+6
+
+60 million PGL have been allocated to the crowdfunding campaign; another 50 million PGL
+tokens have been allocated to the team of developers, pre-sale, and the Bounty program.
+The tokens allocated to the team of developers will be frozen for five periods—20% in half
+a year and the other 80% in four years (20% per year). All the tokens that were unsold
+during the crowdfunding campaign will be sent to the fund of the game.
+Token-holders will influence the regulation of token inflation, as they will be able to set
+tariffs for the range of goods and services from the State, thus providing a balance. Also,
+the bulk of tokens collected from the players by the State as a tax will be burnt.
+
+Short Description of the Game
+Goal
+Get as much gold as possible, which will require different game assets and workforces.
+Gold
+Gold (PGL) is the main game currency, which serves as a tool for financial relations in the
+game.
+Whenever a worker extracts gold from a plot, the complexity of extraction increases. With
+each subsequent effort, the amount of gold extracted decreases until full depletion of the
+field. To increase the extraction of gold, the player must interact with game technologies
+that are specially provided for this purpose.
+In the game, gold will be needed for improvement of the account, remuneration of outside
+workers, trade, and payment of State fees. If the player wants to develop faster, he will
+need gold.
+
+https://prospectors.io
+
+7
+
+Player’s Account
+Every player has three workers with some initially specified skills. They can be sent to
+work on the player’s lot, for example, washing gold. Or a player can offer the workers’
+services (according to his skills) to anyone willing to hire them, or he can attend a labor
+exchange, where he can hire additional workers.
+A player has a right to stake any claim, anywhere, and with any aim (if this claim is free).  
+A player can sell, exchange, or grant any of his own movable and immovable properties to
+any other player. To facilitate selling and buying of properties, exchanges will be created.
+
+Worker
+A worker resides on the lot. Any worker’s movements on the map take some time.
+Accordingly, the bigger is the distance, the longer it takes.
+
+A worker has:
+1. The speed of movement
+2. The speed of work.
+3. Stamina (the maximal time of work without rest)
+n addition, a worker will receive the record of
+service (for the time spent for work, a player will
+receive certain points). The charged points can be
+distributed of the player’s own accord. A player
+can develop two approaches in parallel:
+developing knowledge (needed for fulfilling certain
+work) and a directly influencing a worker’s
+performance (the speed of movement and
+work, the stamina and capacity).
+
+https://prospectors.io
+
+8
+
+Game World
+Everything in this world of alternative reality is situated on the map. Every player
+can view everything that is happening there: who registers which new lots, what is being
+built, etc. In addition, the map can show the location of visible raw materials (wood,
+water, clay, and stone).
+One can also choose a free lot for registration or check what belongs to whom on the
+map.
+
+Land Parcel
+Everything that is located on a parcel is a property of that parcel. If nobody owns a
+parcel, then everything on it is correspondingly common and can be taken by anyone.
+Any player can stake a claim on the map (if a lot is free) and use it as he wishes by virtue
+of rental and tax payments. In the case of non-payment, a lot can be restricted (all works
+on the lot are forbidden), and sanctions can be imposed. And in the case of failure to pay
+the penalty, the lot will be confiscated. (It lapses to the government if the penalty is equal
+to the approximate value of the lot and all the immovable property on it) and will be sold
+on the real estate exchange.
+One can construct a building on a lot and work in various approaches according to the
+tenant’s wish and the technology available.
+
+Raw materials are situated on the lot. If one has the right to the land, he automatically
+has the right to extract raw materials. In addition, raw materials can be processed for
+further usage in other branches of industry.
+
+https://prospectors.io
+
+9
+
+At the moment, the following kinds of raw materials are known, divided into visible and
+invisible:
+Visible:
+•
+
+wood
+
+•
+
+stone
+
+•
+
+clay
+
+•
+
+water
+
+Invisible:
+•
+
+gold
+
+•
+
+ironstone
+
+•
+
+coal
+
+Fields of work:
+•
+
+Extraction
+
+•
+
+Building
+
+•
+
+Production
+
+•
+
+Commerce
+
+Technology – is knowledge that a worker can possess to fulfill a particular work. A
+worker must possess certain skills to fulfill some kind of work. Some knowledge is built-in
+by the system, and everything else a player can choose at the beginning of the game.
+During the game, a player will be able to additionally develop his workers.
+
+Material is a product of the treatment and processing of raw materials needed to
+construct buildings and make products. The processing is carried out in particular buildings
+with the use of the workers’ labor.
+
+https://prospectors.io
+
+10
+
+Buildings – can be built only on a land lot that has a required size and is possessed by
+a player himself. Every building has a certain size. Buildings can be divided into several
+types: extraction, processing, production, etc. To carry out building works, the workers
+must possess builders’ skills. They need a diploma, which can be received in the Academy
+(from the State). Players must have a project for the building they want to erect.
+
+Products are the result of the workers’ labor, produced in a particular building of certain
+materials. A product allows a worker to fulfill a certain type of work or to work more
+efficiently.
+
+https://prospectors.io
+
+11
+
+PRODUCT MANUFACTURING
+
+https://prospectors.io
+
+12
+
+Alliances
+
+– are associations of people, united by some conditions for ommunication,
+
+acquaintance, or further creation of commercial organizations.
+There are two types of alliances:
+Closed – entry only by invitation
+Open – free entry.
+
+Joint Commercial Organizations are organizations that belongs to several
+players. They can have a head, gold, and any other movable and immovable properties.
+They can hire workers, rent land lots, erect buildings, etc
+•
+
+The management is chosen by voting.
+
+•
+
+The creation of organizations happens by achieving consensus among players.
+
+•
+
+The income of organizations will be divided between the players according to the
+percentage of gold (or other property) contributed to the organization.
+
+Banks are buildings (technology) that can be owned by players or organizations. Banks
+can provide loans (with or without the security of any property), take deposits, and pay
+interest to depositors.
+
+Stores are buildings (technology) that can be owned by players or organizations. The
+owner can sell implements or raw materials from his lot. The price of the wares will be set
+by the store owner himself.
+
+Transport
+For the effective movement of materials through the map, transport is needed.
+•
+
+Hand-barrows can carry a few materials or anything else.
+
+•
+
+Carts can carry larger amounts of materials or anything else.
+
+•
+
+A big cart can carry plenty of materials or anything else.
+
+The transport concept can be improved or changed.
+
+Railways are a kind of transport that can convey great amounts of materials or
+anything else at very high speed. The only drawback of this kind of transportation is that
+a railway can deliver wares only to the railway stations. However, for the long distance
+transportation, it is very profitable and economically effective.
+
+https://prospectors.io
+
+13
+
+A railway consists of:
+•
+
+land parcel
+
+•
+
+Rail
+
+•
+
+‣
+
+ties
+
+‣
+
+rail-track
+
+Locomotive
+
+Cars
+•
+
+Rail cars
+
+•
+
+Coaches
+
+A train burns coal to move.
+
+Game processes:
+•
+
+Gold mining
+
+•
+
+Building
+
+•
+
+Production of goods
+
+Assets, their characteristics, and cooperation with
+the Game
+
+https://prospectors.io
+
+14
+
+Account
+1. An account in the game can co-own several organizations.
+2. It has:
+•
+
+Workers
+
+•
+
+rights to use a location
+
+3. It can cooperate with another account:
+•
+
+hire workers from other accounts
+
+•
+
+offer the services of his workers to other
+
+accounts
+•
+
+pass/sell/give something for rent
+
+•
+
+transfer the rights for location
+
+•
+
+enter an alliance
+
+•
+
+create an organization
+
+Land (map section)
+Rented lot:
+•
+
+Requires money for registration.
+
+•
+
+Requires constant taxation for usage.
+
+•
+
+Is protected by the State from thieves.
+
+•
+
+In the case of non-payment of taxes, the State makes an assessment of the
+property located on the land and grants a reprieve in a form of credit, which must
+be paid off by a certain time. If this doesn’t happen, the State nationalizes the
+property and sells it. The lot is then rented by a potential buyer.
+
+•
+
+At the moment of registration, all the property located on the lot goes to the
+tenant-buyer.
+
+Free lot:
+•
+
+Does not require fees and taxes.
+
+•
+
+Does not guarantee the safety of the things left on it.
+
+•
+
+Cannot have buildings.
+
+•
+
+Extraction can be carried out only by personal workers of the player.
+
+https://prospectors.io
+
+15
+
+Additionally, a lot:
+•
+
+Has a certain size.
+
+•
+
+Can have resources.
+
+•
+
+Is used for building and/or extraction of resources.
+
+Resources
+Type:
+•
+
+Above-ground (The remaining resources and their locations are visible on the
+
+map.)
+•
+
+Underground (The remaining resources are invisible, and one should carry out
+
+investigations.)
+
+Materials are the resources after the processing.
+Immovables:
+1. Types or buildings (according to their purpose):
+•
+
+Extraction
+
+•
+
+Production
+
+•
+
+Commerce
+
+2. To erect a building:
+•
+
+Work force, knowledge, implements, and time are required.
+
+•
+
+Material is required.
+
+•
+
+Land lot is required.
+
+Industry activities:
+Extraction
+•
+
+Land with resources is required.
+
+•
+
+Work force, knowledge, implements or building, and time are required.
+
+Production
+•
+
+Knowledge, resources/materials, work force, implements, and time are required.
+
+Construction
+•
+
+Technology, work force, resources/materials/products, land lot, and time are
+
+required
+
+https://prospectors.io
+
+16
+
+Commerce
+•
+
+Possibility of selling or passing any object to any player.
+
+Worker:
+•
+
+Is owned by account, cannot be sold. Everything that interacts with a worker
+
+cannot be lost.
+•
+
+Can move through the map on his own or with transport
+
+•
+
+Operates products and implements
+
+•
+
+Has skills:
+‣
+
+Skill – speed of going
+
+‣
+
+Skill – stamina
+
+‣
+
+Skill – capacity
+
+‣
+
+Skill – speed of work
+
+Product:
+•
+
+Is a part of technology
+
+•
+
+Has a purpose (fields of activities)
+
+•
+
+Time of usage
+
+•
+
+Efficiency
+
+•
+
+Speed
+
+•
+
+Weight
+
+•
+
+Capacity
+
+•
+
+Can be used together with certain other things.
+
+State:
+•
+
+Is a governing body in the game
+
+•
+
+Acts as a guarantor of safety of the rented lots
+
+•
+
+Sets a price policy and sells technologies
+
+•
+
+Gathers land taxes
+
+Diploma:
+•
+
+Is issued during the development of the worker
+
+•
+
+Is required to interact with industry activities
+
+https://prospectors.io
+
+17
+
+Technology:
+•
+
+The technological processes of receiving, processing, treating, assembling, or
+building, and their descriptions include a form of instructions, technical rules,
+and requirements
+
+Alliance:
+•
+
+The association of accounts with noncommercial purpose
+
+Organization:
+•
+
+An account that can be accessed by several players
+
+•
+
+Doesn’t have its own workers
+
+•
+
+Is governed by co-owners
+
+•
+
+Organization entry and walkout by separate players is defined by the coowners in mutually beneficial terms
+
+https://prospectors.io
+
+18
+
+Development and plans for the future
+The initial idea was to develop the server part of the game based on the Ethereum
+platform, but today we understand that this is not economically expedient; also, this
+platform is not fast enough to perform the intended tasks. It is unacceptable to require the
+player to pay for each action in the game and then make him wait for this action. The
+player should be able to play for free and enjoy the process as much as possible, so the
+lion’s share of money will be allocated to such things as graphics, music, and interface.
+At the first stage, we will develop a web client for the gaming platform and mobile apps for
+Android and iOS. We also plan to use the Unity platform. The server part at this stage will
+be centralized and will be developed in the GO programming language.
+The second stage is migration of the server part of the game to a decentralized platform,
+based on third-party technologies. As we look to the future implementation of these plans,
+we consider several options such as:
+
+IOTA
+
+EOS
+
+Bitshares
+
+The selection of a decentralized platform will be decided later.
+
+https://prospectors.io
+
+19
+
+Team
+
+Andriy Maslievich
+
+Nazar Chervinskiy
+
+Max Karkach
+
+Co-founder of “Prospectors”. A
+leading developer and smartcontract developer. Co-founder of
+“Coinews” - the magazine about
+crypto-currencies and blockchain
+technologies.
+
+Co-founder and initial creator of
+the “Prospectors” idea. Co-founder
+of “Coinews” – the magazine about
+crypto-currencies and blockchain
+technologies.
+
+Co-founder of “Prospectors”.
+Developer. Designer and
+illustrator.
+
+Oksana Vasylytsya
+Co-founder of “Prospectors”.
+Expert in economics. Leading
+developer of the game’s economic
+model.
+
+Taras Yeserskiy
+Co-founder of “Prospectors”.
+Author and chief editor of
+“Coinews” - the magazine about
+crypto- currencies and blockchain
+technologies.
+
+https://prospectors.io
+
+Sergiy Chervinskiy
+Co-founder of “Prospectors”.
+Author and illustrator.
+
+20
+
+Conclusion
+In the end, one should mention that our team devotes the biggest part of our time to
+creating the economic model for the game balance supply. We use real instruments to calculate
+the game assets, taking into account the number of materials used and time spent for their
+creation. A team of developers uses real data and adapts them to the game. Our game is very
+extensive, and not all of its aspects are covered in detail in this document. However, we clearly
+understand the directions of development and the limits of our capacities.
+
+https://prospectors.io
+
+21
+
+

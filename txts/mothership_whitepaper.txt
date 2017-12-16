@@ -1,0 +1,152 @@
+Financial services for
+Blockchain companies, eResidents and digital nomads.
+
+Section 1: Products
+Mothership is building blockchain financial services around the Estonian
+e-Residence government programme. The core of these services are:
+
+!
+A token market for the EU, democratising funding for new blockchain
+projects
+Acting as a gateway to cryptocurrency markets for Estonian blockchain
+companies and a go-to place for launching new ones, Mothership will
+help prospective startups build a legal framework for digital assets and
+execute successful funding campaigns.
+
+!
+A new wallet, connected to your e-Resident digital identity
+Your Mothership wallet can be connected to your e-Residency digital
+identity, protecting your funds with digital signatures and streamlining
+your decisions to simply spend or save.
+
+!
+A secure, stable cryptocurrency exchange with additional features for
+e-Residents and EU businesses
+A state-of-the-art digital asset exchange with focus on security, great
+customer service and reliability. Mothership will run on world's best
+infrastructure and provide 24/7 uninterrupted access to markets. When
+integrated with e-Residency, verification for individuals and companies
+becomes an easy process, allowing you to switch from ETH to EUR in
+moments.
+
+!
+A blockchain and exchange connected hosting platform for your own
+applications
+Mothership will provide a PaaS solution for hosting applications in the
+same datacenter with our exchange. Users will be able to build high
+frequency trading bots, payment gateways or any other apps using any
+programming language. Direct connection to the exchange will
+guarantee minimal latency, while automatic scaling and managed
+runtime will allow developers to focus on what really matters - building
+apps.
+
+Section 2: e-Residency
+Estonia is the first country to oﬀer e-Residency, a government-issued
+digital ID available to anyone in the world. It is a legally binding signature
+that allows to register an EU based company entirely online. Technically
+it is a pair of RSA keys linked with your identity.
+When linked with Mothership, e-Residency becomes even more powerful
+- it allows you to incorporate your blockchain business in Estonia,
+operate it 100% remotely, get a bank account and link it with our
+exchange.
+Estonia estimates 10,000,000 e-Residents by 2025. Mothership is proud
+to be working with the Estonian government’s e-Residency team to help
+build the future.
+Our partner from e-Residency team is Oleg Gutsol, a serial entrepreneur
+and now a Head of Global Growth at e-Residency.
+Learn more about e-Residency at https://e-resident.gov.ee
+Important note is that Mothership services will be available for anyone,
+but e-Residents will be able to enjoy additional security and integration
+features. 
+
+Section 3: Team & Advisors
+
+Section 4: Fundraising
+The Token
+MSP will be built on the Ethereum platform as an ERC20 token. There will
+be a total supply of 200,000,000 MSP.
+MSP serves as a core part of Mothership, and is required for:
+- Access to Premium and Platinum account tiers
+- The Mothership app platform layer
+- Community curation and insight rewards
+- Access to Mothership beta products
+- Mothership reputation management
+In addition, Mothership will repurchase MSP on the free market using
+20% of fees from Mothership products. The repurchased MSP will be
+permanently destroyed. We will do so until 50% of the supply is
+destroyed.
+
+The Fundraising
+Here are some important notes on how the fundraising will work:
+1. This fundraising oﬀering will end on 28th July or when all tokens are
+sold.
+2. MSP token is priced in ETH, 1 ETH = 5800 MSP.
+3. The crowdfunding will run on Ethereum Smart Contract, accepting
+ETH payments in exchange for MSP tokens.
+4. Tokens that remain unsold by the end of the crowdfund will be
+permanently destroyed.
+
+5. The token will be available as follows:
+
+6.
+7.
+
+70% of MSP tokens will be available for purchase in this
+fundraising round.
+20% of MSP tokens are reserved for purchase by our Strategic
+Investors.
+5% of MSP tokens will be earned through the Mothership Referral
+Program in this fundraising round.
+5% of MSP tokens will be reserved for the team and advisors.
+Participants of the crowdfund will gain access to their MSP 24 hours
+after the crowdfund ends.
+At least 50,000,000 MSP must be sold for the fundraising to be
+considered a success. If less are sold, all buyers will be refunded.
+
+The Referral Program
+
+-
+
+Each crowdsale participant will be provided with a unique referral
+URL ( http://buy.msp.cx/?r=x ).
+
+-
+
+A referrer will receive an additional amount of tokens equal to 5% of
+the tokens bought by all of their referred buyers.
+
+-
+
+This additional 5% is taken from the reserved 5% referral fund.
+
+-
+
+For example:
+
+-
+
+You and a friend both purchase 100 MSP, but your friend signs
+up using your referral link.
+
+-
+
+You will receive: 105 MSP.
+Your friend will receive: 100 MSP.
+
+When Mothership launches, these referral URLs will be converted to
+exchange referrals where you will receive 5% of your referred users
+trading fees. When users you referred during the crowdsale sign up
+for Mothership, you will receive referral rewards for them too.
+
+Section 5: Timeline
+To learn more about our development timeline, please refer to our
+Transparent Roadmap:
+https://trello.com/b/icEYDrpu/mothership-transparent-roadmap
+
+Section 6: Contact
+https://mothership.cx
+Email: hello@mothership.cx
+Telegram: https://t.me/mothershipcx
+Twitter: https://twitter.com/MothershipCX
+
+

@@ -1,0 +1,684 @@
+ETHEROLL DICE GAME
+WHITEPAPER
+Draft version 1.2
+Please note that this document does not constitute to it being a Prospectus of any sort,
+neither do we intend to misrepresent the sale of this sort as being an Initial Public Offering or
+Share/Equity offering. This token sale does not involve the exchange of crypto currencies for
+any form of Ordinary Shares in Etheroll, neither does the DICE token purchaser receive any
+form of dividend that is guaranteed. This crowdfund will not accept fiat currency.
+
+Etheroll Whitepaper
+Etheroll is an Ethereum-based dice gambling Dapp that enables individuals to place bets on
+the result of a 100-sided dice roll without user deposits or sign-ups, using Ether – the 2nd
+most popular cryptocurrency in the world. Players can choose their own odds with our
+unique UI and payouts are instant. Game code is built entirely on top of the Ethereum
+blockchain, which allows for a level of transparency and accountability that traditional
+online casinos simply cannot provide.
+Table of contents
+1) Abstract
+a. Provably-fair
+b. Market Opportunity
+2) Solution
+3) Attributes
+4) Our Vision
+5) DICE Token
+6) DICE Conversion Schedule
+7) Use of funds
+8) Security
+9) Platform Design
+a. UI/UX
+b. Architecture
+10) Timeline
+11) Disclaimer
+Draft
+February 2017
+
+Etheroll Whitepaper
+Abstract
+Etheroll is a provably-fair Ethereum-based dice gaming Dapp which allows individuals to:
+i.
+
+Place bets in units of Ether
+The Etheroll dice game has the following characteristics:
+a. Transparent source code
+b. Players set their own odds
+c. No deposits
+d. No sign-ups
+e. Immediate payouts
+f. Competitively low 1% house edge
+g. Intuitive web-based user interface
+
+ii.
+
+Bet on the house by holding DICE tokens
+100% of all profit Etheroll earns is allocated to token holders. Profit is distributed to
+token holders proportional to the number of tokens they hold. DICE token holders
+enjoy exposure to every bet made on the platform, with the advantage of the house
+edge always being in their favour. Due to the law of large numbers, token holders
+should always return a profit. The house edge is 1% which means there is a
+consistent 1% expected value (EV) for token holders.
+
+Provably-fair
+Our random number generation uses open source blockchain-based Oraclize.it (a provablyhonest oracle service) to retrieve an integer safely from outside of the blockchain. This
+integer is supplied by Random.org via TLSNotary. The Etheroll smart-contract then performs
+sha3() encryption on the result returned from Random.org and the IPFS address of the
+TLSNotary proof to achieve the final dice result.
+Currently, this is the safest way for Etheroll to generate its random numbers. This method
+ensures potential attacking miners and/or 3rd parties cannot control the final value of our
+final dice result.
+Etheroll will continue to develop on its random number generation. Etheroll is currently
+using the following method for retrieving a random number for the results of its dice game:
+Upon receiving a valid bet via the playerRollDice(uint rollUnder) function, our smartcontract queries Oraclize.it via a partially encrypted, nested query. A partially encrypted,
+nested query ensures that the API key Etheroll uses to call Random.org remains safe, whilst
+publicly exposing our random number request and range, to ensure players the Etheroll
+smart-contract is behaving honestly.
+
+Etheroll Whitepaper
+To protect the Etheroll API key, Oraclize utilizes an Elliptic Curve Integrated Encryption
+Scheme composed of the following algorithms:
+1. An Elliptic Curve Diffie-Hellman Key Exchange (ECDH), which uses secp256k1 as curve
+and ANSI X9.63 with SHA256 as Key Derivation Function. This algorithm is used to
+derive a shared secret from the Oraclize public key and the sender private key.
+2. The shared secret is used by an AES-256 in Galois Counter Mode (GCM), an
+authenticated symmetric cipher, to encrypt the query. The authentication tag is 16bytes of length and the nonce is chosen to be ‘000000000000’ (96 bits of length),
+which is safe because the shared secret is different for every encrypted query.
+Oraclize then returns the concatenation of the encoded point (i.e the public key of
+the senders), the authentication tag and the encrypted text.
+The decrypted query is delivered to Random.org which in turn supplies the JSON response
+which includes an integer ranging from 1-100. The following is the Solidity code for this
+query:
+bytes32 rngId = oraclize_query("nested", "[URL]
+['json(https://api.random.org/json-rpc/1/invoke).result.random.data.0',
+'\\n{\"jsonrpc\":\"2.0\",\"method\":\"generateSignedIntegers\",\"params\":{\"apiKe
+y\":${[decrypt]
+BBdNQjoFRtO/Od/8NmPt+rdMjLiRAciRv+NxvI5vtiSSgcrUFT9vx636i0xetTG5Rqy1tWtnG4Uaw7GuVe
+b3HDYHoS2WXFYBpoK+XqXQIzcQwzgiyHjyGN+yl1ia581kX0fYb8FLOcFGIvRtx6aas8+mfXpGFvk=},\"
+n\":1,\"min\":1,\"max\":100,\"replacement\":true,\"base\":10${[identity]
+\"}\"},\"id\":1${[identity] \"}\"}']", gasForOraclize);
+
+The random numbers requested are exactly as expected via the following request:
+n\":1,\"min\":1,\"max\":100,\"replacement\":true
+
+This query asks Random.org to return 1 number, a minimum of 1, a maximum of 100, and
+each request to be a separate event. Note the encrypted API key as the long sequence of
+scrambled characters.
+When Random.org receives this query, it recognizes our decrypted API key and uses
+atmospheric noise to provide the Etheroll API key with a truly random integer. Atmospheric
+noise is caused by natural atmospheric processes, primarily lightning discharges in
+thunderstorms. On a worldwide scale, 3.5 million lightning flashes occur daily. This is about
+40 lightning flashes per second.
+The sum of these lightning flashes results in atmospheric noise, which is observed by a radio
+receiver in the form of a combination of white noise and impulse noise.
+IPFS stored TLSNotary proof of the transaction proves Oraclize.it did not alter the results
+from the Random.org service in anyway. The proof string is exactly the IPFS multi-hash that
+identifies the TLSNotary proof. Players will fetch the proof if they wish, for example at
+http://ipfs.io/ipfs/proof
+
+Etheroll Whitepaper
+At the time the Etheroll smart-contract receives the JSON response of the random number
+in the function __callback(bytes32 myid, string result, bytes proof) .
+The integer result is sha3() on-chain to produce the final dice result. The following
+algorithm ensures the dice result is provably fair for our players:
+Let r be the random value returned from Random.org via Oraclize.
+Let p be the IPFS address of the PageSigner TLSNotary proof content.
+
+The following Solidity code example is used to produce a provably-fair random number
+bounded between l and u inclusive (1, 100) and guaranteed to be evenly distributed across
+the range of values.
+finalResult = uint(sha3(r, p)) % 100 + 1;
+
+Our smart-contract then calculates the value of the integer finalResult against the original
+integer that was submitted by the player (stored as playerNumber) via a mapping to the
+player address via the following:
+mapping (bytes32 => uint) playerNumber;
+function playerRollDice(uint rollUnder){
+playerNumber[rngId] = rollUnder;
+
+}
+If finalResult is lower than playerNumber submitted by the player, the player wins. At
+which point, the smart-contract calculates the required payout and pays bets instantly,
+whilst engraving properties of the bet into the Ethereum blockchain (as an event) for a
+tamper proof history of all bets.
+
+Opportunity
+The market size of the online-gambling industry for 2016 is estimated to be $45 billion USD.
+These are impressive numbers. However, online-gambling does not consist entirely of
+cryptocurrency gambling alone. Let’s take a closer look at the current cryptocurrency
+gambling market. We will first focus our attention on the Bitcoin gambling market, and use
+this as a guide towards the future potential market of gambling on top of the world’s 2nd
+most popular cryptocurrency, Ether.
+i.
+
+ii.
+iii.
+
+iv.
+
+Bitcoin currently has a market cap of ~$14 billion USD. [1]
+It is estimated that 50-60% of all Bitcoin transactions relate to online gambling. [2]
+In the past year, Bitcoin and alt-coin casino revenue was 3,173,833 BTC with a profit
+of 15,173.6 BTC. In the same period, 20.83 billion bets have been placed across
+Bitcoin casinos. [3]
+Bitcoin is currently the largest cryptocurrency by market cap and as such, represents
+the largest share of the cryptocurrency gambling market. SatoshiDice launched its
+
+Etheroll Whitepaper
+Bitcoin based dice game in 2012 and currently enjoys a lion share of the Bitcoin dice
+game market with 134,374 Bitcoin wagered last year alone.
+The following table illustrates reported revenue for popular Bitcoin casinos in 2016
+[4]:
+
+v.
+vi.
+
+Casino
+
+Bets
+
+Wagered
+
+Primedice
+
+11.25 billion
+
+1,222,914 BTC
+
+Bustabit
+
+205.35 million
+
+606,083 BTC
+
+BetKing
+
+321.06 million
+
+256,431 BTC
+
+SatoshiDice
+
+456.94 million
+
+134,374 BTC
+
+BetterBets
+
+375.69 million
+
+64,461 BTC
+
+BitDice
+
+32.17 million
+
+168,726 BTC
+
+The current market cap of Ethereum is ~$965 million.
+Ethereum was released in mid 2015 and by early 2016 was the 2nd largest
+cryptocurrency by market cap. No other cryptocurrency has seen such tremendous
+growth in such a short amount of time. [5]
+
+Ethereum is a disruptive technology, that looks to change the way the world does business.
+Ether, which is the native token of Ethereum, is reasonably new to the crypto-currency
+market, having only launched in July of 2015. The rise of Ether has been gargantuan in a
+very short time, with many predicting its market cap to eventually outnumber that of
+Bitcoin, at ~$14 billion.
+The Ethereum market cap is currently ~$965 million. The Ethereum market cap grew
+extremely quickly, in part, due to the programmable ability to run smart-contracts
+(auditable code) on the Blockchain. World banks, large accountant firms (including the big
+four), business solutions and application developers are looking at how to leverage this
+network to reduce the cost-of-business. This is something Bitcoin is unable to offer.
+Hardening efforts of the protocol by the core development team in 2016 suggest an
+extremely positive and healthy outlook for the Ethereum protocol. The future of the
+Ethereum protocol and its underlying Ether token is looking extremely positive.
+Taking the staggering growth of the Ethereum market cap (~$965 million) into account as
+well as the numbers related to Bitcoin gambling, Etheroll proposes tremendous opportunity
+arising for the traditional style of dice game to be ported over to the Ethereum protocol.
+Such a platform requires experienced, honest and reliable operators with a proven track
+record, an intuitive web-based interface, adjustable odds, zero deposits, zero sign-ups,
+
+Etheroll Whitepaper
+immediate payouts and a team committed to further innovation of their game in the fastpaced environment of Ethereum.
+
+Solution
+Etheroll is a service which provides a provably-fair and transparent, web-based Ethereum
+dice gambling Ðapp (decentralized application). Etheroll game code is decentralized and
+immutable. Players will be 100% confident Etheroll behaves in a provably-fair manner,
+thanks to the nature of the Ethereum protocol.
+Our smart-contract layer runs entirely on the Ethereum blockchain, it is auditable,
+transparent, verifiable and provably-fair.
+Etheroll accepts wagers from players in the form of Ether via its unique web-based
+interface. The decentralized and immutable nature of our smart-contract layer, ensures
+players will bet in units of Ether with 100% confidence their funds are not being held by a
+3rd party subject to the risk of hacks, theft, or misconduct by the Etheroll smart contract.
+The decentralized nature of the Ethereum protocol also ensures that our smart-contract is
+immutable and always available, with no possibility of downtime via DDOS attacks, hosting
+issues, and/or government, or other forms of intended interruption to the service.
+Players are assured the Etheroll dice game behaves as it is intended to, thanks to the opensource nature of our smart-contracts, which are verifiable by the public.
+
+Attributes
+i.
+
+Provably-fair
+The result of our random number is provably-fair thanks to the following formula:
+Let r be the random value returned from Random.org via Oraclize.
+Let p be the IPFS address of the PageSigner TLSNotary proof content.
+
+The following code is then used to produce a provably-fair random number bounded
+between l and u inclusive and guaranteed to be evenly distributed across the range
+of values.
+finalResult = uint(sha3(r, p)) % 100 + 1;
+
+ii.
+
+Players Set Their Own Odds
+Players have the power and choice to set their own odds for each dice roll. This
+characteristic allows players to adjust each dice roll to suit their individual risk profile,
+in turn, increasing the overall enjoyment and user experience of the Etheroll dice
+game. Inspiration for this type of game play is drawn from the ‘SatoshiDice style’ of
+dice gambling. This is the real dice gambling experience on the Ethereum network.
+
+iii.
+
+A Web-based Web3.js Interface
+
+Etheroll Whitepaper
+A friendly and intuitive, Web3.js web-based user interface makes it easy for our
+users to place bets and interact with the Ethereum blockchain. User-centric design
+and development practices ensure Etheroll will be the easiest dice game to interact
+with on the Ethereum protocol. Our intuitive user interface is built with the player in
+mind and employs a responsive CSS framework for extra flexibility and maximum
+usage by a wide variety of web based clients. This is truly dice gambling on the
+Ethereum network the way you imagined it.
+iv.
+
+Low House Edge
+The Etheroll house edge is currently set to be 1%. Our house edge is also adjustable
+to suit the market, so it will always remain competitive.
+The house edge is calculated and deducted only in the instance of a win. For
+example, if a player places a bet size of 1 Ether at 50/50 odds, the player will be
+rewarded a total profit of 0.98 Ether. The commission Etheroll receives in the event
+of a loss will be calculated accordingly:
+(((betSize * (chanceOfLoss/chanceOfWin)) + betSize) * houseEdgeAsPercent)
+
+In our example, a player placing a bet of 1 Ether at 50/50 odds, with 1% house edge,
+if Etheroll loses the bet:
+(((1* (50/50))+1)*0.01) =
+
+v.
+
+0.02 Ether commission
+
+A Trusted and Experienced Team
+Etheroll are early pioneers in the Ethereum dice gambling space and have real-world
+experience working on Ethereum since February of 2016. In June of 2016, Etheroll
+was in the middle of its original crowdfund (which was among the top 15 most
+successful crypto-currency crowdfunds at the time) when the DAO hack took place.
+48 hours later, in the interests of our valued token holders, and on our own volition,
+we suspended the crowdfund and refunded the ~$50K that we raised in the few days
+the crowdfund was open. Whilst we were not susceptible to the same attack vector
+that the DAO was, we decided the simplest and absolute safest option was to refund
+all Ether and run the crowdfund again at a later date.
+Since June 2016 Etheroll has researched, coded, implemented, and coded again,
+security oriented programming (SOP) techniques for Solidity and hired independent
+3rd party security auditors (Piper Merriam - independent of Consensys) to audit our
+Ethereum smart contracts. We are proud to announce that we have recently
+received a ‘pass’ on the security audit of our core game and crowdfund contracts.
+Etheroll’s recent history proves it has the experience, honesty, and technical know-
+
+Etheroll Whitepaper
+how to accomplish its goals, as proven by our recent crowdfund ‘success’ in June of
+2016. Etheroll considers the postponed crowdfund in June of 2016 to be a
+tremendous success. After successfully refunding 100% of the Ether within 48 hours
+of the DAO hack, our valued token holders were pleased with the speed, honesty
+and transparency of our actions. Trust is earnt in the cryptocurrency community. We
+have earnt that trust from the Ethereum community over the past year. [6]
+vi.
+
+In-house Solidity Programmers
+All Solidity smart-contract code for Etheroll is written in-house. This means Etheroll
+is extremely nimble and will adapt quickly in an ever-changing Ethereum
+environment at low cost without the need to set aside a budget or waste precious
+time pursuing trusted, experienced and competent programmers. We are open to
+innovation and will continue to improve the quality and overall experience of our
+dice game. Faster processing times, and an improved RNG are areas of focus moving
+forward.
+
+vii.
+
+No deposits, no sign-ups
+Traditional online casinos retain player deposits and/or wins until a withdraw
+request is made by the player. Usually, withdraw requests take time, sometimes
+days, and expose traditional online casino models as a prime target for hackers
+and/or malicious employees who may see an opportunity to steal player funds.
+Thanks to the nature of the Ethereum blockchain and the design patterns we have
+chosen, the Etheroll smart-contract does not require players to sign up for an
+account, or deposit Ether to play Etheroll. We only accept Ether from players at the
+time that they place their bets. This significantly reduces the risk profile of Etheroll
+compared to the traditional online casino model.
+
+viii.
+
+Open source and verifiable
+The Etheroll source code is open source and verifiable. Players and DICE token
+holders alike are free to verify the game does indeed do what it says. This unique set
+of characteristics allows for an environment that keeps Etheroll honest and levels
+the playing field in the online gambling space between players and the house.
+
+ix.
+
+Cryptographically Secure
+The properties and values of each bet are engraved into the blockchain in a tamperproof manner. This provides irrefutable proof of the history of all bets. At any time,
+players will review their bet history with 100% confidence there is no room for
+tampering or corruption of betting results by Etheroll. Thanks to the nature of the
+Ethereum protocol, all bets submitted to Etheroll are cryptographically secure in
+nature when they are transcribed into the blockchain. At any point in time, players
+
+Etheroll Whitepaper
+have the ability to review details about any bets.
+x.
+
+True ‘Dice Gameplay’
+Dice gambling is by far the most popular game in of all cryptocurrency gambling. The
+ability for players to choose their own odds is integral to dice games and is what
+makes the traditional dice game so popular. Our unique web-based UI empowers the
+player by allowing them to set their own odds.
+
+xi.
+
+#1 in SEO
+Thanks to our expertise in SEO, Etheroll ranks extremely highly in organic Google
+search results for the term “Ethereum dice”, “Ethereum gambling”, “Ethereum
+casino”. We will continue to see growth in this area.
+
+Our vision
+Our future, and data from existing Bitcoin online gambling sites tell an interesting story.
+SatoshiDice is an existing Bitcoin game that runs on the Bitcoin blockchain and can be used
+as an insight into the potential future market size of gambling on the Ethereum protocol:
+“Responsible for more than 50% of daily network volume on the Bitcoin blockchain,
+SatoshiDice reported first year earnings from wagering at an impressive ฿33,310
+($13,740,000). During the year, players bet a total of ฿1,787,470 in 2,349,882
+individual bets at an average monthly growth rate of 78%. Earnings were calculated
+from eight months of data covering May to December, 2012.” [7]
+Etheroll will play a significant role in the future of the gambling online using Ethereum
+thanks to the following characteristics of the platform:
+i.
+ii.
+iii.
+
+iv.
+v.
+vi.
+vii.
+
+Players will choose their own odds.
+No deposits, no sign-ups.
+Our web interface is easy and intuitive for players to place bets. Designed from the
+ground up to appeal to a wide audience used to ‘SatoshiDice style betting’, Etheroll
+is the first Ethereum dice game to truly offer a similar experience on the Ethereum
+protocol.
+Early first mover advantage – the network effect.
+Low house edge. Our 1% house edge is the lowest on Ethereum.
+A nimble in-house development team that is quick to react to development advances
+in Ethereum, focus includes advances in RNG and bet processing times.
+Honest and experienced team.
+
+Ethereum is the 2nd largest crypto-currency by market cap at ~$965 million. Many believe
+the Ethereum market cap will eventually be equal to or higher than that of Bitcoin. We
+envision explosive growth in the future of Ether and Ether dice gambling.
+The Etheroll smart-contract development phase is 100% complete and scheduled for launch
+
+Etheroll Whitepaper
+March of 2017. Our 6-month goal is to gain at least a 60% market share of the current online
+gambling marketplace on the Ethereum blockchain and from there world domination.
+
+DICE Token (DICE)
+The DICE token is an Ethereum ERC20 standard token with additional custom functionality
+for the purposes of being used within the Etheroll ecosystem. The DICE token is minted in a
+once-off event during our strictly limited 14-day token creation phase.
+Each DICE token grants its owner the following rights and has the following characteristics:
+Direct earnings – Proportional to the number of tokens they hold. Token holders as a
+collective receive 100% of the Ether generated by the game. Ether is generated by the game
+via players losing bets and the built-in 1% house-edge. Tokens holders are exposed to each
+bet that is processed on the platform with the advantage of the 1% house-edge always
+being in their favour.
+Fully transferable p2p – The DICE token will be fully exchangeable p2p and available for
+trade on exchanges.
+Voting rights – The DICE token enables holders to vote on proposals set-forth by the
+Etheroll team. For example, lowering or raising the house edge, or, adding a new game to
+the suite.
+
+Conversion Schedule
+The DICE Token is strictly limited in supply. Minted only during our token creation phase for
+a total of 14 days there is a total of 25,000,000 DICE tokens are on offer. There will never be
+another mintage of DICE tokens.
+Start Date: The token creation phase begins 10:00 UTC February 13th 2017
+Duration: 14 days.
+Week 1: 200 DICE (ROL) tokens for 1 ETH (Ξ)
+Week 2: 100 DICE (ROL) tokens for 1 ETH (Ξ)
+Total supply: 25,000,000
+The crowdfund address: 0x805129C7144688224c122c924E3855D5b4FA01D8
+The founding team is pre-allocated 2.5m tokens. Any tokens that remain unsold after the
+token creation phase will be destroyed to rule out the possibility of dilution. The number of
+tokens remaining after the destruction of unsold tokens is the final mintage. No other
+tokens will ever be created.
+Use of funds:
+
+Etheroll Whitepaper
+i.
+
+ii.
+
+80% of all Ether raised during the crowdfund becomes the house bankroll to pay
+winning bets. Token holders as a collective receive 100% of profits the house
+bankroll generates.
+20% of all Ether raised during the crowdfund period is sent to Etheroll to continue
+funding development of the platform.
+
+Security
+Our smart-contracts are subject to 3rd party security audits, conducted by Piper Merriam
+(independent of Consensys). Each smart contract we deploy to main-net is subject to the
+following internal security protocol. Internal live/automated Truffle testing phases, 3rd party
+security audit phase. Contracts are deployed from in-house private-chains to Ropsten (testnet) for live testing, only after internal live testing has been satisfied, contracts are then
+deployed to main-net.
+We will not deploy a smart-contract that has not been signed off by an 3rd party
+independent security audit. Signed off 3rd party independent security audits are available for
+perusal for the entire suite of our smart-contracts.
+
+Platform Design
+UI/UX
+Players are able to place bets and change their odds with our dice game directly on our
+website using the Mist browser and our intuitive UI.
+You will find a video demonstration of our UI/UX at youtube.com/watch?v=8moxZOwd39M.
+If you would prefer to experience it in full for yourself, please load etheroll.com using the
+Mist browser available here then follow the instructions under our “How to Play” tab.
+Alternatively, you can use the Google Chrome extension Metamask to place bets.
+
+Etheroll Whitepaper
+
+A screenshot of our UI. Note the slider (bottom left) which allows players to adjust their own odds.
+
+Architecture Overview
+The structure of the Etheroll application is comprised of 4 smart contracts, each of them
+handling a different aspect of the platform. Etheroll employs a modular approach in the
+design of its smart-contract architecture, to ensure integrity and safety of the ecosystem.
+For example, the Game contract does not have any function during the crowdfunding
+period, nor does the Crowdfund contract interact with day-to-day game play.
+The following outlines the core functionality for each contract, and its current development
+status:
+Game contract
+Status: Completed
+Security audit available: Yes
+Responsible only for accepting and processing all bets via the playerRollDice(uint
+rollUnder) function. This is the smart-contract that a player interacts with. This contract
+manages things like the house-edge, minimum bet, maximum bet, random number
+generation, calculation of payouts, calculation of refunds.
+Crowdfund contract
+Status: Completed
+Security audit available: Yes
+Responsible only for accepting Ether only during the crowdfunding period. At the end of the
+crowdfund period 80% of Ether raised will be moved from this contract to the multi-sig
+
+Etheroll Whitepaper
+wallet contract and from there Ether is sent to the Game contract for actual game play. If
+the funding goal is not reached, Ether raised is available for withdraw by each token holder
+via the safeWithdraw() function.
+Token contract
+Status: Completed
+Security audit available: Yes
+Responsible only for distributing tokens during the crowdfunding period and tracking the
+token balance of an address, this contract allows for token transfers to take place on
+exchanges except during Reward payout periods, which locks the token for security
+purposes. The Etheroll Token contract is a standard ERC-20 token with added functionality
+for use of the token within the Etheroll ecosystem. The DICE token will not be tradeable
+until 13 weeks after the start of the crowdfund campaign.
+Rewards contract
+Status: Work in progress
+Security audit available: TBC
+Responsible only for calculating the amount of Ether rewards available for withdraw by each
+token holder’s address. Only token holders have the special rights to interact with the
+Rewards contract. Every 12 weeks, profit accumulated from the game is sent to this
+contract. This contract enables token holders to withdraw Ether rewards proportional to
+their DICE token ownership for 5 days, every 12 weeks. If a token holder does not withdraw
+their rewards during the 5-day reward period, their rewards for that phase are forfeit. 100%
+of any profit the Game contract generates is distributed to token holders, proportional to
+their ownership of DICE tokens.
+
+Timeline
+2016: Development of game code & website – complete
+November 2016: In-house game testing - ongoing
+January 2017: Security audit of game code – complete
+December 2016: Development of crowdfund code – complete
+January 2017: Announcement & White Paper release - complete
+January 2017: Security audit of crowdfund code – complete
+January 2017: Crowdfund public awareness – ongoing
+February 2017: Crowdfund opens – February 13th 2017
+February 2017: Crowdfund closes – February 27th 2017
+May 2017: DICE token listed on exchanges
+2017: Continued marketing, research & development into new games and/or random
+number generation techniques to continue improvement and growth of core offering.
+
+Disclaimer
+RISKS ASSOCIATED WITH THE ETHEROLL DICE TOKEN
+
+Etheroll Whitepaper
+DICE (ROL) is a cryptographic token used to represent a % ownership in the initial Etheroll
+bankroll. Owners of DICE are eligible to receive rewards in the form of Ether based on the
+performance of the bankroll. Owners of DICE are exposed to the wins and losses.
+DICE is not a crypto currency
+At the time of this writing, DICE (i) cannot be exchanged for goods
+or services, (ii) has no known uses outside the Etheroll platform, and (iii) cannot currently be
+traded on any known exchanges.
+DICE is not an investment
+There is no guarantee that the DICE you purchase will increase in value and/or provide any
+return.
+DICE is not evidence of ownership or right to control
+Controlling DICE does not grant its controller ownership or equity in the Etheroll platform as
+a whole. DICE does not necessarily grant any right to participate in the control, the direction
+or decision-making of the Etheroll platform.
+Risk of losing access to DICE due to loss of credentials
+The purchaser’s DICE can only be accessed with login credentials selected by the purchaser.
+The loss of these credentials will result in the loss of DICE. Best practices dictate that
+purchasers safely store credentials in one or more backup locations geographically
+separated from the working location.
+Risk of losing Ether, due to lucky players
+There is a risk that due to the variance in gambling, the house bankroll could be bankrupted
+and token holders lose their initial investment.
+Risks associated with the Ethereum protocol
+DICE and the Etheroll platform are based upon the Ethereum protocol. As such, any
+malfunction,
+unintended function or unexpected functioning of the Ethereum protocol may cause the
+Etheroll
+platform or DICE to malfunction or function in an unexpected or unintended manner. Ether,
+the
+native unit of account of the Ethereum Protocol may itself lose value.
+Risk of unfavorable regulatory action in one or more jurisdictions
+Blockchain technologies have been the subject of scrutiny by various regulatory bodies
+around
+the world. The functioning of the Etheroll platform and DICE could be impacted by one or
+more
+regulatory inquiries or actions, including but not limited to restrictions on the use or
+possession
+
+Etheroll Whitepaper
+of digital tokens like DICE, which could impede or limit the development of the Etheroll
+platform.
+Risk of competition
+Following the token sale and the development of the initial version of the Etheroll platform,
+it is
+possible that alternative Ethereum gambling platforms could be established, which utilize
+the
+same open source code and open source protocol underlying the Etheroll platform. The
+Etheroll platform may have to compete with these alternative platforms, which could
+potentially negatively impact the performance of the Etheroll platform and DICE.
+Risk of insufficient interest in Etheroll or distributed applications
+It is possible that the Etheroll platform will not be used by large numbers of individuals, and
+that there will be limited public interest in the creation and development of distributed
+applications. Such a lack of interest could impact the development of the Etheroll platform
+and therefore the potential uses or value of DICE.
+Risk that the Etheroll platform, as developed, will not meet the expectations of the token
+holder
+The Etheroll platform is presently under development and may undergo significant changes
+before
+its full release. Any expectations regarding the form and functionality of DICE or the Etheroll
+platform held by the purchaser may not be met upon release, for any number of reasons
+including a change in
+the design and implementation plans and execution of the Etheroll platform.
+Risk of theft and hacking
+Hackers or other groups or organizations may attempt to interfere with the Etheroll
+platform or the
+availability of DICE in any number of ways, including without limitation denial of service
+attacks,
+Sybil attacks, spoofing, smurfing, malware attacks, or consensus-based attacks.
+Risk of security weaknesses in the Etheroll platform
+The Etheroll platform consists of software that is based on open-source software. There is a
+risk that the Etheroll team, or other third parties may intentionally or unintentionally
+introduce weaknesses or bugs into the core infrastructural elements of the Etheroll
+platform, interfering with the use of or causing the loss of DICE and/or ETH.
+Risk of weaknesses or exploitable breakthroughs in the field of cryptography
+Advances in cryptography, or technical advances such as the development of quantum
+computers, could present risks to crypto currencies and the Etheroll platform, which could
+result in
+the theft or loss of DICE and/or ETH.
+
+Etheroll Whitepaper
+Risk of lack of adoption or use of the Etheroll platform
+While DICE should not be viewed as an investment, it may return value over time. That
+value may
+be limited if the Etheroll platform lacks use and adoption. If this becomes the case, there
+may be
+few or no profits to draw from, or even a loss of your initial investment.
+Risk of an unfavorable fluctuation of Ethereum value
+The Etheroll team intends to use part of the proceeds of the DICE token sale (20%) to fund
+further development of the Etheroll platform. The proceeds of the DICE token sale will be
+denominated in Ethereum. If the value of Ethereum fluctuates unfavorably during or after
+the token sale, the Etheroll team may not be able to fund development, or may not be able
+to develop the platform in the manner that it intended or promised.
+Risk of malfunction in the Etheroll platform
+It is possible that the Etheroll platform malfunctions in an unfavorable way, including but
+not
+limited to one that results in the loss of DICE and/or ETH.
+Unanticipated risks
+Crypto-currency is a relatively new and untested technology. In addition to the risks set
+forth here, there are risks that the Etheroll team cannot anticipate. Risks may further
+materialize as unanticipated combinations or variations of the risks set forth here.
+
+References
+1. Source: [https://blockchain.info/charts/market-cap]
+2. Source: [http://lsvp.com/2013/08/23/at-least-half-of-all-bitcoin-transactions-are-for-online3.
+4.
+5.
+6.
+
+7.
+
+gambling/]
+Source: [https://thebitcoinstrip.com/stats/2015-01-02-to-2016-12-25]
+Source: [https://thebitcoinstrip.com/stats/2015-01-02-to-2016-12-25]
+Source: [https://coinmarketcap.com/]
+Source:
+[https://www.reddit.com/r/etheroll/comments/4ooyod/crowdsale_now_closed_eth_has_been_refu
+nded/]
+Source: [http://www.forbes.com/sites/jonmatonis/2013/01/22/bitcoin-casinos-release-2012earnings/#8039cf650cb2]
+
+

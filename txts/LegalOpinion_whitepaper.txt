@@ -1,0 +1,141 @@
+MinexCoin Legal Opinion
+MinexCoin Concept
+Introduction and Background
+To proceed with the legal analysis, it is important to first lay the grounds by way of introducing the different
+cryptocurrencies that exist and how the cryptocurrency industry has evolved over time.
+Classic cryptocurrency, that is Bitcoin, is a cryptocurrency in its traditional sense, since it has characteristics
+customary to usual currencies because Bitcoin acts as an account within the system, a store of value and a
+medium of exchange. It is, however, digital and virtual in nature by being encrypted. The key innovative feature
+is that it is the first decentralized currency powered by an open public ledger technology that records and
+validates all transactions, called the Blockchain.
+Over time, other categories of cryptocurrencies came into existence and those include tokens and so-called
+alternative cryptocurrency coins (“altcoins”), the latter is a cryptocurrency that aims to be an alternative to
+Bitcoin, usually built on its open-sourced original protocol but differ in underlying codes and, thus, in key
+features. Token is often a representation of a particular asset, which is fungible and tradeable, hence why it can
+be anything from commodities to loyalty points, or representation of a utility, that usually resides on top of the
+blockchain. The key difference between cryptocurrencies and tokens is that with the latter there is no need to
+create or modify any underlying code, since tokens can be created on top of the platform (e.g. Ethereum)
+powered by smart contracts. The main differentiating factor between cryptocurrency and token can, thus, be
+narrowed down to an answer to the following question: “was a coin intended to act as a separate currency with
+its own separate blockchain or was created on top of the already existing platform.”
+Another crucial differentiating factor between tokens and cryptocurrencies that is worth noting at the outset,
+is that tokens emission is centralized whilst cryptocurrencies are decentralized in nature and are the
+consequence of mining, hence, they cannot be influenced in any away and are only subject to market forces.
+MinexCoin Legal Design
+Based on the above, MinexCoin falls under the definition of cryptocurrency since it was intended to act as an
+alternative type of cryptocurrency asset with innovative features based on Bitcoin’s open source code. In
+summary, MinexCoin presents itself as a decentralized open-source cryptocurrency that can be used by anyone
+but can be influenced by no one since it is akin to Bitcoin- decentralized cryptocurrency controlled only by
+market forces. Due to the fact that the code of cryptocurrency is open-source, all users are equal in the ability
+to create any services or applications in which this cryptocurrency will be used.
+
+US Securities Laws
+Background
+By way of a background, U.S. Securities and Exchange Commission (“SEC) has a three-part mission: protection
+of investors, maintenance of fair, orderly and efficient markets and facilitation of capital formation. In order to
+implement its mission SEC has quite a wide mandate on reviews and enforcement actions it may undertake in
+upholding its mission.
+
+On 25 July 2017, it was announced that SEC issues investigative report concluding that DAO tokens were, in
+fact, securities.1 The idea behind DAO was to create a decentralized autonomous venture fund. The SEC came
+to a conclusion that DAO tokens were securities that are regulated as a matter of the U.S. securities regulation
+because the enterprise was essentially a pooled investment vehicle. The reason being the nature of the DAO
+token that gave investors a right to vote on the projects that should be funded and receive profits from those
+projects as a return on their investments.
+It is important to note, that U.S. securities regulation does not regulate the investment instrument as such, but
+the transactions that relate to it, which is why it is crucial to analyze whether a transaction may involve a security
+by way of applying the Howey Test2 described below. If that is the case, then the transaction has to be registered
+subject to the available securities exemption. Registration, in turn, entails disclosure of certain information
+including description of security being offered and information about company’s management.
+Violation of registration requirements can lead to holding the person, who offers or sale securities without any
+registration, liable in respect of the person purchasing such security from. The security purchaser may then sue
+to recover the consideration paid for such security with interest thereon, less the amount of any income
+received thereon, upon the tender of such security, or for damages if he no longer owns the security (Sec. 12 of
+Securities Act of 1933 of the USA).
+Is MinexCoin a Security?
+In the context of coins and ICO, the relevant test applied by the U.S. Courts is the Howey Test. It is used to
+determine whether an instrument qualifies as an ‘investment contract’ as defined by federal and state securities
+laws.
+The seminal Supreme Court case for determining whether an instrument meets the definition of security
+is SEC v. Howey, 328 U.S. 293 (1946). The Supreme Court has reaffirmed the Howey analysis as recently
+as 2004. Howey focuses specifically on the term “investment contract” within the definition of security,
+noting that it has been used to classify those instruments that are of a “more variable character” that
+may be considered a form of “contract, transaction, or scheme whereby an investor lays out money in a
+way intended to secure income or profit from its employment.” Not every contract or agreement is an
+“investment contract” and the Supreme Court developed a four-part test to determine whether an
+agreement constitutes an investment contract and therefore a security.
+In the case of United Housing Foundation, Inc. v Forman (1975), The U.S. Supreme court summarized the test
+the following way:
+“the basic test for distinguishing the transaction from other commercial
+dealings is whether the scheme involves an investment of money in a
+common enterprise with profits to come solely from the efforts of others. . .
+This test, in shorthand form, embodies the essential attributes that run
+through all of the Court's decisions defining a security. The touchstone is
+the presence of an investment in a common venture premised on a
+reasonable expectation of profits to be derived from the entrepreneurial or
+managerial efforts of others. By profits, the Court has meant either capital
+appreciation resulting from the development of the initial investment, . . .
+or a participation in earnings resulting from the use of investors' funds, . . .
+“Report of Investigation Pursuant to Section 21(a) of the Securities Exchange Act of 1934: The Dao,” SEC Release No. 34-81207
+(July 25, 2017), (https://www.sec.gov/litigation/investreport/34-81207.pdf ).
+2 Securities and Exchange Commission v. W. J. Howey Co., 328 U.S. 293 (1946) case.
+1
+
+In such cases, the investor is "attracted solely by the prospects of a return"
+on his investment. . .. By contrast, when a purchaser is motivated by a
+desire to use or consume the item purchased. . . - the securities laws do
+not apply.”
+Based on the above and later cases, that have expanded the term “money” to include investments of assets
+other than money, we can deduce the following key parts to the Howey test:
+1. It is an investment of money or other tangible or definable consideration
+2. The investment of money is in a common enterprise
+3. There is an expectation of profits from the investment, which comes solely from the efforts of others
+Applying the test above to MinexCoin, we find the following:
+1. It is an investment of money or other tangible or definable consideration
+On this point, it is crucial to note that MNXs, being the cryptocurrency akin to Bitcoin as described earlier, can
+be mined, which in turn means that their emission is decentralized. Overall, this leads to the conclusion that
+one can obtain them without investing any money or other tangible or definable consideration but just the
+computing power. One can purchase MNXs on exchange, but, being only one of the ways of getting the
+cryptocurrency, we consider this factor to be only partly satisfied.
+2. The investment of money is in a common enterprise
+The law on the “common enterprise” element is somewhat unclear and not easily susceptible to analysis.
+However, there are three approaches to define whether common enterprise exists:
+•
+
+•
+•
+
+under the horizontal approach, a common enterprise is deemed to exist where multiple
+investors pool funds into an investment and the profits of each investor correlate with those of
+the other investors;
+under the narrow vertical approach, a common enterprise exists, if the profits of investor are
+tied to the promoter;
+under the broad vertical approach, a common enterprise exists, if the success of investor
+depends on the promoter’s expertise.
+
+We do not consider this factor to be satisfied, since, although relationship between market-actors is horizontal
+in nature, there is no “common enterprise” as such; the system created is completely decentralized blockchainbased financial system where actors are completely autonomous from one another.
+3. There is an expectation of profits from the investment, which comes solely from the efforts of others
+In our case as MNX’s are used only as a cryptocurrency, which can be traded on exchange and that aims to act
+as part of the global ecosystem of digital assets. It is an autonomous crypt-asset, which can be mined, not only
+purchased. All this negates the possibility of this factor to be satisfied.
+Summary
+As we see in our case the only one factor of the Howey test that is partly satisfied, in our opinion, is “the
+investment of money or other tangible or definable consideration”. Other two factors we consider not to be
+satisfied. For token to be considered a security all three elements have to be present, thus, there is a low risk
+that the MinexCoin will fall under the definition of securities according to the U.S. federal and state laws,
+
+especially considering that its build on the decentralized principles and can be obtained by way of mining. We
+find that MinexCoin is not securities since it is an open-source cryptocurrency, meaning it can be used by
+anyone.
+
+Final Conclusion
+Based on the above analysis we find that MinexCoin, being the decentralized cryptocurrency akin to Bitcoin,
+has very low legal risks due to its decentralized nature meaning there is no way one can influence the MinexCoin
+price setting apart from general market forces.
+Disclaimer: Juscutum Attorneys Association cannot and does not intend to guarantee that the information given above will coin cide
+with the position of the regulatory authorities. By giving the disclaimer herein Juscutum Attorneys Association disclaims any
+responsibility for the consequences (whether direct or indirect) that may arise due to differences in the regulatory approaches and
+approaches identified in this Legal Opinion.
+
+

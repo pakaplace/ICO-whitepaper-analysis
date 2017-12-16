@@ -1,0 +1,392 @@
+Whitepaper
+
+CONTENTS
+
+1.
+
+ABSTRACT
+
+1
+
+1.1
+
+What is iDice
+
+1
+
+1.2
+
+Provably Fair
+
+1
+
+2.
+
+INTRODUCTION
+
+2
+
+2.1
+
+Market Analysis
+
+2
+
+2.2
+
+iDice Solution
+
+3
+
+3.
+
+OUR VISION
+
+4
+
+3.1
+
+Mission Statement
+
+4
+
+3.2
+
+Executive Summary
+
+4
+
+3.3
+
+Development Roadmap
+
+5
+
+3.4
+
+iDice Mobile
+
+5
+
+4.
+
+TOKEN CREATION EVENT
+
+6
+
+4.1
+
+Details
+
+6
+
+4.2
+
+How to Join
+
+6
+
+5.
+
+iDice TOKEN
+
+7
+
+5.1
+
+Ownership Rights
+
+7
+
+5.2
+
+Conversion Schedule
+
+7
+
+5.3
+
+iDice Token Architecture
+
+8
+
+5.4
+
+Other Features
+
+8
+
+6.
+
+Use of Funds
+
+9
+
+7.
+
+Disclaimer
+
+10
+
+1.
+ABSTRACT
+1.1 What is iDice
+iDice is a dice gambling Dapp powered by the Ethereum network. iDice allows players to:
+•
+
+Place bets in units of Ether.
+
+•
+
+Bet on the house by holding iDice tokens.
+
+100% of all profit iDice earns is distributed amongst token holders, proportional to the number
+of tokens they hold. eg. If you hold 5% of all tokens, you will receive 5% of all profit generated
+by iDice. iDice token holders enjoy the advantage of the house edge always being in their favor.
+Token holders should always return a profit according to the law of large numbers. The house
+edge will be set competitively and token holders have an expected value that is always equivalent to the house edge.
+iDice has a fully transparent source code available at etherscan.io. iDice does not require deposits nor sign ups. The payout of games is always immediate.
+
+1.2 Provably Fair
+
+iDice uses open source blockchain-based Oraclize.it to
+retrieve a random integer supplied by Random.org via
+TLSNotary. The iDice smart contract then performs encryption on the integer provided by Random.org and the
+IPFS address of the TLSNotary proof to compute the
+game result.
+This method is the safest and most reliable method for
+iDice to generate random numbers without 3rd party interference of the game’s final result. You find our contract source code on our website iDice.io under the
+“Contracts” section of the main menu. Our contracts are
+available to the public on etherscan.io
+
+1
+
+2.
+INTRODUCTION
+2.1 Market Opportunity
+The market size of the world-wide online gambling industry is estimated to be $ 47.11 billion
+USD. At the time of this writing, Bitcoin has a market cap of $40.9 billion USD with roughly
+$1.56 billion USD worth of BTC being exchanged every 24 hour period[1]. It is estimated that at
+least 50% of all these transactions are gambling related[2].
+Ethereum has a Market Cap of $21.5 billion USD[1], with roughly
+$550.8 million worth of Ether exchanged every 24 hour period
+[1]
+. Due to the programmable ability to run smart-contracts on
+the blockchain, large international institutions are beginning to
+find ways to leverage this network to reduce business costs.
+This is the primary advantage Ethereum has over bitcoin.
+Ethereum has experience tremendous growth over the past
+year, with prices rising by a factor of 21. Such tremendous
+growth rates highlight a growing need for experienced, honest
+and reliable Dapps.
+In addition, there is a huge opportunity in blockchain gambling
+that exists in mobile development. Today, the majority of internet traffic come from mobile devices. It is reported that 60% of all searches[3] and the majority of all internet traffic are coming
+from mobile devices. Internet traffic coming from mobile platforms has surpassed desktops in
+2016[4], and that number is still growing today.
+
+1. Source: [https://coinmarketcap.com/]
+2. Source: [http://lsvp.com/2013/08/23/at-least-half-of-all-bitcoin-transactions-are-for-online-gambling/]
+3. Source: [http://www.smartinsights.com/mobile-marketing/mobile-marketing-analytics/mobile-marketing
+-statistics/]
+4. Source: [http://searchengineland.com/report-nearly-60-percent-searches-now-mobile-devices-255025]
+
+2
+
+2.2 iDice Solution
+iDice is a service which provides a provably-fair and transparent, web-based Ethereum dice
+gambling Dapp. iDice game code is decentralized and immutable. Players can play on iDice.io
+knowing that iDice behaves in a provably-fair manner, thanks to the nature of the Ethereum
+protocol.
+Our smart contract layer runs entirely on the Ethereum Blockchain.
+•
+
+Auditable
+
+•
+
+Transparent
+
+•
+
+Verifiable
+
+The Decentralized Nature of Ethereum protocol ensures that iDice is immutable and always
+available, with no possibility of downtime via DDOS attacks, hosting issues, or other forms of
+intended interruption to the service.
+iDice is not looking to compete with pre-existing gambling Dapps like vDice and Etheroll. We
+seek to find our own niche in the mobile app market by specifically targetting mobile users.
+There is currently no other mobile gambling app in the sector. Our mobile gambling app will be
+the first of its kind and will grant us a monopoly over mobile gambling that will last for several
+months before there will be any competitors that enter the segment. By the time competitors
+enter the market, our mobile app will already feature multiple game types such as blackjack,
+slots, roulettes and more, guaranteeing our top position in the mobile app segment.
+
+3
+
+3.
+Our Vision
+3.1 Mission Statement
+Our mission at iDice is to provide the best open source platform for decentralized gambling
+that offers a smooth and reliable user experience without any sacrifice in safety and security of
+our users.
+
+3.2 Executive Summary
+
+iDice is a platform for fully decentralized blockchain gambling Dapps. Powered by the Ethereum
+network, we are the world’s first fully decentralized gambling Dapp. The iDice platform provides our players with a fully transparent and fair gambling experience without the use of any
+server architecture. All our games compute results through an oracle and are completely open
+source, allowing us to provide the smoothest and most reliable experience without any compromise in the safety and security of our users.
+iDice users can relax knowing that their wallets are not at risk of getting hacked when using the
+iDice platform. Unlike traditional gambling Dapps such as SatoshiDICE, there are no servers, no
+accounts, and no deposits required on the iDice platform. Our players can play our games from
+the safety of their own wallets. Our platform’s trust and safety is guaranteed by the Ethereum
+blockchain.
+iDice’s revolutionary platform is open source, which means anyone can use our platform to create their own gambling Dapp and utilize the iDice brand. Players can play these games knowing
+that they can put their trust in the code without having to worry about any conflict of interest
+with the developers.
+
+4
+
+3.3 Development Roadmap
+
+Our mission at iDice is to provide the best open source platform for decentralized gambling
+that offers a smooth and reliable user expeience without any sacrifice in safety and security of
+our users.
+
+3.4 iDice Mobile
+
+To this date, there is still a lack of a high performance mobile
+gambling app that is powered by Blockchain Technology. We
+believe that mobile development is a huge opportunity for the
+iDice platform to showcase its superior performance over its
+competitors. iDice Mobile will be the worlds first fully decentralized mobile gambling app so that iDice will stay with our users wherever they go.
+
+5
+
+4.
+Token Creation Event
+4.1 Details
+iDice token creation event will commence on June 12, 2017 at UTC 0:00 and end on June 26,
+2017 at UTC 0:00.
+•
+
+Only Ether can be contributed and turned into iDice tokens
+
+•
+
+The token sale will last 14 days
+
+•
+
+iDice tokens will be distributed in response to ETH contributions
+
+•
+
+No more iDice tokens will be created after this period
+
+•
+
+Contributions within the first hour will have a creation ratio of 200:1 ETH
+
+•
+
+Contributions within the first 7 days will have a creation ratio of 170:1 ETH
+
+•
+
+Contributions within the last 7 days will have a creation ratio of 130:1 ETH
+
+•
+
+500,000 tokens will be pre-allocated to the development team.
+
+•
+
+Any tokens that remain unsold after the token creation phase will be destroyed.
+
+4.2 How to Join
+1. Go to: https://crowdsale.idice.io
+2. Click the button that says “JOIN OUR CROWDSALE”
+3. Follow the instructions prompted by the site
+
+4. You can claim your tokens once the crowdsale is over.
+
+6
+
+5.
+iDice TOKENS
+The iDice token is a standard Ethereum ERC 20 token with additional functionality for the purpose of being used within the iDice ecosystem. iDice tokens are minted in a one off event during our limited 14 day token creation phase.
+
+5.1 Ownership Rights
+Each iDice token grants the owner the following rights:
+•
+
+Direct Earnings–Proportional to the number of tokens they hold. Token holders as a collective receive 100% of the profit generated by iDice. Ether is generated by the game via
+players losing bets. Token holders are exposed to each bet that is processed on the
+platform with the advantage of the 1% house-edge always being in their favor. The profit
+from iDice is sent to the token contract and is accumulated in its balance.
+
+•
+
+Fully Transferrable—The iDice token will be fully exchangeable and available for trade on
+exchanges.
+
+5.2 Conversion Schedule
+iDice tokens are limited in supply. Minted only during our token creation phase for a total of 14
+days, there is a total of 5,000,000 iDice tokens on offer. The development team will be pre allocated 500,000 tokens.
+START DATE: June 12, 2017 at UTC 00:00
+
+END DATE: June 26, 2017 at UTC 00:00
+Each token holder gets an amount of token proportional to the ETH they deposit into the
+crowdsale (ICO), in these ratios:
+iDice Power Hour (1st hour of launch): 200:1 ETH
+First 7 days: 170:1 ETH
+Last 7 days: :130:1 ETH
+Total supply: 5,000,000
+
+7
+
+5.3 iDice Token Architecture (ICE TOKENS)
+ICE tokens are standard ERC 20 smart contracts. They will be fully transferable and will grant
+the token holder the right to claim a portion of iDice’s profits in proportion to the total # of ICE
+tokens. Eg. If someone has 20,000 ICE tokens and there is a total of 5million tokens, they will be
+entitled to have (200,000/5,000,000*100%)=4% of all profit that iDice generates.
+We are in the midst of having our tokens listed on various exchanges. Token holders will be free
+to buy and sell ICE tokens once they are listed.
+
+5.4 Other Features
+iDice tokens are the safest and simplest approach to distribute iDice game profits to investors.
+There will be a separate smart contract that token holders can excute with withdraw the iDice
+profits they are entitled to. Token holders will be able withdraw profits every month. (Note: We
+are working hard to automate the profit withdrawl process so this may be improved and updated in the future.)
+iDice tokens are fully transferable and exchangeable on exchanges. We are currently in the
+midst of contacting exchanges to get listed
+
+8
+
+6.
+USE OF FUNDS
+35% of all Ether raised during the crowdfund will become the house bankroll to pay winning
+bets. Token Holders as a collective receive 100% of iDice game profits.
+
+30% of all Ether raised will be used by iDice development team to fund further development of
+the iDice Platform, as well as to fund the development and implementation of other game
+types on the iDice platform.
+
+20% of all Ether raised will be used in the development and launch of the world’s first mobile
+blockchain gambling app, which will be available for both Android and IOS Devices.
+
+15% of all Ether raised will be used for promotion and marketing purposes.
+
+*These numbers are on a projection and may change depending on the amount raised from the crowdsale. *
+
+9
+
+7.
+DISCLAIMER
+iDice tokens are native of the iDice blockchain Dapp. It cannot be deemed to be any kind of equity of any real-world company. This Initial Crowdsale-Offering is not distributing equity of iDice
+in anyway. There are always technological, political and market risks associated with the Blockchain industry. iDice is not responsible for any losses that occur due these risks.
+
+10
+
+

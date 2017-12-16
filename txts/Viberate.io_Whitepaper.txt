@@ -1,0 +1,1535 @@
+A CROWDSOURCED
+LIVE MUSIC ECOSYSTEM
+AND A BLOCKCHAIN-BASED
+MARKETPLACE WHERE
+ANYONE CAN PARTICIPATE
+
+“Everything around you that you call life
+was made up by people that were no
+smarter than you and you can change it,
+you can influence it, you can build your
+own things that other people can use.
+Once you learn that, you’ll never be the
+same again.”
+Steve Jobs
+
+1.	ABSTRACT
+
+This paper describes the crowdsourced booking and payment platform for the live music
+industry that will ultimately be scaled to all live creative engagements. Based on the
+Ethereum platform, it utilizes smart contracts that solve decades-old problems that live
+performers have with getting demand, determining their value/price, negotiating terms,
+executing agreements and getting paid. Its main pillars are an innovative database of
+millions of artist profiles, ranked according to social media popularity; a tokenized incentive
+program for musicians’ fans; a talent booking process; and a blockchain-based contract
+and payment system.
+The paper explains two main parts:
+•	
+The core focus of the service: live music ecosystem database
+	
+and a live music marketplace, and
+•	
+the implementation of the blockchain technology and the Viberate token (VIB).
+
+2.	 MISSION STATEMENT
+
+We are focused on giving every musician on the planet an equal opportunity to get into
+the spotlight, no matter if they are a garage band or a stadium rock star. Good musicians
+need good representation, and we are here to do the job.
+
+3.	VISION
+
+Our vision is to revolutionize the way musicians are presented and booked as well as to
+open the world of live music to anyone who wants to participate in it by decentralizing
+discovery and booking processes with the use of the blockchain technology.
+
+4.	PROBLEM
+
+Music can be roughly divided into two parts: recorded and live music. While the recorded
+part has become a showcase for the digital economy with Apple’s iTunes and streaming
+services, such as Spotify and Pandora, the live music market has stayed the same for
+decades if not from the very beginning. Viberate is going to change that – just like Uber
+changed taxis, Airbnb changed room renting and Netflix changed TV.
+The live music industry is heavily centralized and controlled by a few major talent agencies,
+who look after professional musicians. Their agents sell performances of their clients to
+event organizers. Having an agent is a crucial component of every professional musician’s
+career, and his role as a salesperson is to sell as many good gigs as possible while making
+sure that the musician gets paid.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+Such a high level of centralization generates profits only for a small group of people,
+while the majority of others, involved in the live music industry, are left struggling. Small,
+independent music enterprises such as underground clubs, labels and local event
+organizers are bullied out of the business by big, often even corrupt, corporations on
+a daily basis. This represents a dooming effect on the cultural diversity of mankind. The
+preservation of independent creative engagements is a crucial driving force for maintaining
+our creative spirits that define us as people.
+The live music market’s demand side is represented by the event organizers while the
+supply side is represented by musicians.
+
+4.1.
+SUPPLY SIDE:
+MUSICIANS
+
+4.2.
+DEMAND SIDE:
+EVENT ORGANIZERS
+
+Musicians need agents in order to land enough gigs to make a living, and most of the
+musicians don’t stand a chance of getting spotted. Only a fraction of a percent of all the
+world’s musicians have proper representation and are lucky enough to have music as their
+primary source of income. The rest are left on their own, struggling with exposure in a
+heavily saturated market, dealing with marketing, sales, networking, legal, taxation and debt
+collection issues instead of focusing on the creative part of the music business. Many
+times those artists don’t work with contracts, are often not compensated for their work, or
+don’t have the option of working legally at all (ex. cash payments, tax evasion).
+Absence of a powerful and honest intermediary often means trouble for the artist in any
+of the aforementioned fields. There is a clear need for an entity that would effectively and
+safely represent all those who don’t have a privilege of an agent. Blockchain technology
+offers the best tools for this task.
+On the demand side, we have the event organizers. They need to be on top of trends in live
+music and are constantly on the hunt for interesting musicians to fill the lineup. A good
+event organizer in a busy city can organize up to three or four events weekly with several
+musicians on the lineup. Such frequency soon leads to the organizer not knowing who to
+book next. An event organizer’s product is a ticket, and their primary goal is to sell as many
+tickets as possible. To do this they need a good program and a good ticket sales channel.
+Also, when booking musicians that don’t have an agent or a company representing them,
+organizers might have a problem with issuing payments unless they agree to pay in cash,
+which is often illegal from a tax perspective. Dealing with low profile musicians can also
+result in problems like no-shows, poor performance and other issues related to a poorly
+organized booking process and lack of clear and thorough contracts.
+There have been numerous blockchain-based solutions for recorded music, but no one has
+focused on the live segment. Until now.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+Our end game is to disrupt the music
+industry as we know it by becoming the
+biggest global talent marketplace.
+
+5.	VIBERATE
+
+Viberate is a platform that joins the entire live music ecosystem under one roof. Currently it
+acts as IMDB for live music, where profiles are ranked according to their online popularity. It
+is built and curated by the Viberate user community. Our end game is to disrupt the music
+industry as we know it – by becoming the biggest global talent marketplace.
+Viberate’s database, community, holistic approach and marketplace features are the four
+elements that make its service unique and revolutionary.
+
+5.1.
+THE BIGGEST CURATED
+LIVE MUSIC DATABASE
+IN THE WORLD
+
+The foundations of our extensive musician database go all the way back to our pilot project,
+a simple ranking service for DJs. We started off as a directory of no more than a couple
+of thousand DJs, but soon grew into a massive database of over 50,000 musicians. Over
+the years we’ve expanded to all music genres and upgraded our database to 120,000
+musicians, 40,000 music venues and 60,000 events.
+Since anyone can contribute towards our growth, the database is growing on a daily basis,
+and at that rate, we plan to gradually grow towards millions of entities from all around the
+world.
+
+The profiles are updated daily from a variety of social media and streaming channels,
+ticketing services and online artist calendars.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+The profiles feature:
+•	
+official social media links
+•	
+user ratings
+•	
+daily updated stats from all major social media and streaming channels,
+	
+including fan growth, user engagement and fan geo distribution
+•	
+recent content (audio, video, photos)
+•	
+gig dates with ticket links
+•	
+contact info
+Where applicable, the profiles feature contact forms, where visitors can contact agents,
+managers or artists directly with business inquiries.
+
+5.2.
+A DECENTRALIZED
+COMMUNITY-BASED
+SERVICE, FUELED BY
+THE VIBERATE
+TOKEN (VIB)
+
+Viberate has always been decentralized in its core. The database has always been open to
+the public, so anyone could add new artists. We managed to build the database we have
+today with the help of over 50,000 contributors and we will always keep it open for anyone
+to take part in maintaining its relevance.
+Such a level of decentralization allows Viberate to be on top of rapidly moving trends in the
+music industry. Using the blockchain technology to crowdsource the curating process of
+the information in musician, venue and event profiles is the only reasonable and rational
+way to keep the database up to date and relevant.
+
+COMMUNITY CONTRIBUTES TO VIBERATE
+
+VIBERATE GROWS
+
+COMMUNITY GETS REWARDED
+
+Those 50,000 Viberate contributors didn’t get anything in return for their contributions.
+Now the blockchain technology allows us to reward them for their work with Viberate
+tokens (VIBs) from our bounty allocation.
+The VIB represents the atomic unit of our crowdsourced concept, and the service’s growth
+and relevance depends on it.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+The VIB will become a go-to currency for the music industry as a whole. Besides using the
+tokens on the Viberate platform, there will also be an array of smart contracts connected
+with the music industry where VIBs will be used as a core currency (see chapters 5.4.2 and
+5.4.3 for more details).
+
+5.2.1.
+REWARDED
+ACTIONS
+
+5.2.2.
+SOURCING
+DYNAMICS
+
+5.2.3.
+REWARDING
+DYNAMICS
+
+5.3.
+THE ENTIRE
+MUSIC ECOSYSTEM
+IN ONE PLACE
+
+Contributors are rewarded for the following actions:
+•	
+registering to the service (welcome award)
+•	
+referring friends
+•	
+promoting the service
+•	
+adding new profiles into the database
+	
+(points credited when the profile is verified by the editorial team)
+•	
+curating existing profiles
+	
+(points credited when the suggested change is accepted by the editorial team)
+•	
+writing editorial content
+•	
+	
+•	
+•	
+	
+•	
+	
+	
+	
+•	
+•	
+	
+•	
+	
+	
+•	
+	
+	
+
+Initially, the bounty pool will be sourced upon ICO
+with 5% of all issued tokens (10,000,000 VIB).
+For the first 2,000 days, we will distribute 5,000 tokens daily among contributors.
+Additionally, the pool will later be funded by different streams, but never from issuing 	
+new tokens.
+Such dynamics allow for the uninterrupted supply of new tokens into the bounty fund
+and at the same time positively influences the trading volume and liquidity of the VIB
+on exchanges.
+Each rewarded action will be assigned a fixed amount of points.
+At the end of each 24-hour period, the accrued points will be exchanged into
+VIBs at the daily exchange rate.
+The exchange rate will be calculated according to the number of rewarded actions
+in the respective period with a formula. The total daily VIB budget will be divided
+by the number of rewarded actions for that day.
+After the exchange, VIB tokens will be credited to each user’s wallet and the user will
+be able to redeem them for concert tickets and merchandize or exchange them for
+other cryptocurrencies in exchanges that will list the VIB.
+
+We see the music ecosystem as a network of:
+•	musicians
+•	
+music venues
+•	
+event organizers and events
+•	
+booking agencies
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+EVENT ORGANIZER
+
+EVENTS
+
+MUSICIANS/
+PERFORMER
+
+BOOKING
+AGENCIES
+
+VENUES
+
+Viberate features their profiles and offers tools for all of them. Being a part of this online
+ecosystem allows these entities to easily expose either to the general public or to a targeted
+audience. Profiles are also equipped with contact information that enables users to engage
+among themselves and thus pursue different business opportunities, which makes Viberate
+a perfect networking tool and business platform.
+To make exploring through the ecosystem easier and more efficient, profiles are listed
+in customizable charts. Visitors can use genre, country or social media filters to find the
+perfect match – whether it is a musician for a Friday night’s private party, a local club, or a
+festival they are interested in.
+Profiles are ranked according to their social media popularity. Social media and streaming
+site analytics are processed by our own powerful analytics engine, capable of analyzing
+billions of data points daily. It taps into public and private APIs of analyzed channels, and
+processes and saves the data about online fan following and engagement for each of the
+profiles. Data is then compared with the previous period and shown in simple graphs, so
+users can easily determine who’s on the rise and who’s fading away.
+This way Viberate offers a complete and thorough overview of the whole live music
+industry and enables the following of the trends when they happen.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+5.4.
+THE FIRST EVER
+BLOCKCHAIN-BASED
+LIVE MUSIC
+MARKETPLACE
+
+With the database and communication channels in place, our platform enables the
+implementation of a live music marketplace on both, B2B (musician-event organizers) as
+well on B2C (ticketing, crowdfunding live performances) levels.
+
+EVENT ORGANIZER
+
+MUSICIAN
+
+Rate colaboration
+
+Discovery
+
+Exposure
+
+Booking
+
+Booking
+
+Service fee
+
+5.4.1.
+MATCHING
+MUSICIANS WITH
+EVENT ORGANIZERS
+
+Event organizers will be able to book musicians directly through our service, just like
+tourists book accommodation on Airbnb. They will pick them from the massive selection of
+profiles using our social media metrics. After the gig is over, the event organizer will review
+the musician and vice versa.
+Listing both, demand and supply, of the live music market, Viberate represents a great
+sales channel for already-established acts, but more importantly – a priceless tool and
+an excellent sales showcase for millions of unrepresented (long-tail) musicians from all
+around the world. It’s a matchmaking platform that digitizes the job that talent booking
+agencies have done for over a hundred years with one more important difference – any
+musician can join, regardless of genre, country, fame level or gig history.
+We will utilize the advantage of smart contracts during the negotiation process. Crucial
+information about the booking will be negotiated and then written into the smart contract:
+•	
+date and time of performance
+•	
+venue and event organizer details
+•	
+duration of performance
+•	
+artist fee
+•	
+technical and hospitality requirements
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+It’s a matchmaking platform that digitizes
+the job that talent booking agencies have
+done for over a hundred years with one
+more important difference – any musician
+can join, regardless of genre, country,
+fame level or gig history.
+
+Viberate will use smart contracts, sourcing the above mentioned variables directly from
+the artist booking backend, where every artist will set their own booking requirements and
+preferences. Once agreed, the terms will be written into the smart contract, which will then
+be sealed with a timestamp and put onto the blockchain. Any additions or alterations will
+result in voiding the old contract and replacing it with a new one, provided both parties
+confirm the alteration on the blockchain.
+When it comes to payments, one of the biggest advantages of using the blockchain
+technology in the artist booking process is the ability to offer an escrow. It’s the safest way
+for both parties when dealing with artist bookings. However, fiat currencies escrow in most
+countries requires a set of licenses from centralized authorities such as a central bank
+or the Ministry of Treasury and Finance. Using a cryptocurrency with a combination of a
+smart contract solves this issue and allows for effective and safe escrow.
+Bookings on Viberate will be made using Ether (ETH) and Viberate tokens (VIBs) along with
+following these steps:
+•	
+Upon digitally signing the contract, the event organizer (buyer) pays the agreed
+	
+number of ETH or VIB plus a service fee to a specially created wallet that holds
+	
+the coins until the event is fully executed.
+•	
+The event organizer has 24 hours to file a complaint in case the artist has breached 	
+	
+the contract in any way (no-show, cutting the performance short for an unexplained 	
+	
+reason, excessive behavior, etc.) and after that period ends, the artist fee is released 	
+	
+to the artist’s wallet.
+•	
+In case of a breach, a dispute is triggered, which is handled by a trained tribunal 	
+	
+of music business experts who give the verdict based on provided evidence (photos, 	
+	
+exchanged e-mails, etc.). The members then vote to decide whether to return the 	
+	
+withheld fee to the organizer or clear the payment into the artist’s wallet.
+When the booking is fully executed and the event is over, both parties will review each other
+and the reviews will be published on their profiles.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+5.4.2.
+TICKETING
+
+Our massive database of events will enable fans to easily find and buy tickets to see their
+favorite performer live. Entity profiles already include the information about show dates, which
+link to an outside ticket vendor. But soon Viberate will introduce its own ticketing system:
+•	
+The ticketing system will be accessed through a DApp. Musicians or venue owners
+	
+will be able to create ticketed events without any intermediary (such as Ticketmaster)
+	
+on a decentralized system.
+•	
+Tickets will be sold only when both musician and venue owner confirm the event.
+	
+With that, the sales will start and the tickets will be ported to the Ethereum
+	
+network via VIBBridge.
+•	
+From that point, any user from anywhere in the world will be able to buy the tickets 	
+	
+with Ether or VIB and hold them in their Ethereum wallet. Tickets will be 		
+	
+cryptographically secured and linked directly to the user’s public key and verifiable 	
+	
+over the public blockchain. Every generated ticket will be connected to a buyer’s 	
+	
+Viberate account. With this, we will disable any possible ticket counterfeiting or fraud.
+•	
+Funds will be held in escrow on the smart contract until the event is successfully 	
+	completed.
+•	
+At the door the user will show the ticket in a form of a QR code to the venue’s staff, 	
+	
+who will scan the code, mark it as used and let the user into the venue.
+
+5.4.3.
+DTX – DECENTRALIZED
+TICKET EXCHANGE
+
+Ticket buyers will have a chance to change the ticket owner. This way we will introduce
+a secondary ticket marketplace, so that people, who won’t be able to attend the event for
+which they purchased their ticket, will be able to sell the ticket to other Viberate users via
+DTX and charge the price in ETH or VIB.
+It happens often that a popular band comes to town and the tickets quickly sell out. Fans
+can still find a reseller or an e-Bay ad to purchase the ticket for multiples of the actual price.
+With DTX fans will be able find peers who cannot go to the event but have bought the
+ticket. Fans will be able to set the maximum price they are willing to pay for the ticket or
+buy the ticket right away from an existing member who is selling it. The system will be
+decentralized, taking place on the Ethereum network.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+a) Technical details
+EVENT ORGANIZER
+
+DTX
+
+Sells tickets
+
+VIBBridge
+
+Buys tickets
+
+Creates tickets/events
+
+Pushes tickets to DTX,
+via VIBBridge
+
+Redeems tickets
+
+DTX is a p2p ticket exchange running on the Ethereum blockchain for ticket sellers, users and
+event organizers. Because trust is paramount, we will integrate our Viberate platform directly
+into the DTX. Viberate will be used for a secure bridge between physical tickets and their
+representations on the Ethereum blockchain. The only way to issue tickets for an event is to be
+a member on the platform and a verified ticket reseller or event organizer.
+While DTX will be easily integrated into any existing wallet, service or exchange, we will also create
+a single page application where users will be able to use all of the features of the application
+while browsing with an Ethereum integrated browser (Mist, Parity, Chrome+metamask, Status,
+etc.).
+Each ticket group will be simulated as an ERC20 token, which means that users will be able to
+send and receive them on all ERC20 compliant wallets. The protocol will be easily integrated to
+exchanges, Ethereum ATMs and other solutions currently on the market, so anyone will be able
+to transfer tickets with whichever wallet or software they want. This will also give an opportunity
+to BTC ATM operators to offer tickets on their ATMs.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+The app will have no charts, order books or trades. Users will have a simple yet advanced
+searching mechanism where they will be able to filter and sort artists, events and venues, as
+well as get tickets tailored to their preference, all in a truly trustless ticketing system manner.
+With the public and private key, cryptography users will be 100% certain that the ticket bought
+is actually theirs, and that no one can steal the ticket while they have full control of their private
+key. Because only the owner has its corresponding private key, only he or she can sign the
+transaction to redeem the ticket or send it to someone else.
+Thanks to the blockchain integration, they can also be certain that the ticket was not
+counterfeited or sold to two different people.
+Example of user’s wallet:
+ 
+<Ethereum public key> <- User’s public key that holds the tickets
+	
+•	 Event 1
+	
+•	 Event 2 (Data: Vip)
+	
+•	 Event 3 (5 tickets) (Data: Welcome drink for each ticket)
+The DTX platform will also be used for ticket auctions. Users will be able to set the minimum
+price in VIBs that they want to get, and others will be able to bid while the auction is running. This
+will fill the blank for the upper tier tickets for which fans are willing to pay a little bit extra.
+ 
+With the help of Oraclize, we will feed the data to the contract and limit the queries to the event
+start. After that, the sales will be final to provide users with easy access to tickets without
+technical difficulties.
+
+b) VIBBridge
+USER 1
+has ticket
+
+1.
+Creates a sell query at
+10 VIB for the ticket
+
+2.
+DTX shows the trade publicly,
+and locks the ticket
+
+USER 2
+has VIB
+
+DTX
+
+3.
+User 2 allows DTX to send VIB
+to User 1 for a ticket
+
+4.
+DTX creates the trade in one transaction,
+now User 1 has 10 VIB and User 2 has the ticket
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+VIBBridge is a solution running on our servers that will be responsible for two main functionalities:
+1.	
+	
+	
+	
+2.	
+	
+	
+
+5.4.4.
+CROWDFUNDING
+LIVE PERFORMANCES
+
+A centralized trusted entity that creates entities (tickets) in DTX from the Viberate 	
+platform and guarantees that the tickets are actually reserved for users that hold them – 	
+In the future we will implement a system that will be able to prove our ticket holdings for 	
+the members.
+A bridge between events on the blockchain and social media – We would like to push 	
+different interesting events automatically to our social media channels (like auctions for 	
+special tickets).
+
+We know the hassle of living in a small city or a place where there are no large concerts. Until
+now there was only one option – get some friends together and take a road trip to a venue far
+away, and after the event go back home. Now we’re offering a decentralized alternative.
+Fans will have the option to crowdfund the fee of a certain performer they want to see play.
+A campaign will be open for a defined period of time, and anyone will have a chance to contribute
+towards the targeted fee.
+This way we will utilize the advantages of the decentralized economy to bring musicians
+to markets that are otherwise overlooked. The power of crowdfunding has proven to move
+boundaries, and we believe that we can use it to revolutionize the way music events are being
+planned and executed.
+The whole process will run as follows:
+•	
+Users will interact with smart contracts through the DAPP, a single page application that
+	
+will be connected to Viberate’s database and smart contracts.
+•	
+They will create new crowdfunding campaigns or join existing ones.
+•	
+Upon creation, they will send some VIB or ETH to the contract from their wallet and set 	
+	
+up 	 all the necessary data for the crowdfunding campaign (location, musician, date, etc.).
+•	
+When the event will be created, the specially-created VIBPulse app will automatically 	
+	
+push the newly created campaign to all social media so other users will be able to see it 	
+	
+and contribute.
+•	
+When the crowdfunding goal is successfully completed, the chosen musician and the 	
+	
+venue will get the message via the Viberate platform that they may claim and execute 	
+	
+the	 event, using the budget acquired via the crowdfunding campaign.
+•	
+If the funding goal is not met, and the deadline has passed, all the contributors will get 	
+	
+their funds back.
+•	
+When the event is scheduled, all the funds get converted into tickets that users can claim 	
+	
+with their accounts on the Viberate platform.
+•	
+After the event is finished, the musician can claim their portion of the acquired funds into 	
+	
+their wallet.
+This solution will be fully integrated into Viberate and the DTX and developed on the Ethereum
+blockchain. This introduces the trustless model of crowdfunding on the Ethereum platform
+(ICO) into the music industry.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+6.	 BUSINESS MODELS
+
+The platform allows for the implementation of different business models in a B2B as well
+as in a B2C segment.
+On a B2B segment, Viberate can act as a marketplace, targeted advertising platform,
+networking tool and a data analytics service. On a B2C segment, we will tap into the
+ticketing business.
+
+6.1.
+BOOKING
+COMMISSION
+
+The music industry has worked using booking (service) fees from the very beginning.
+Agents that represent artists usually take a 10 to 20% booking commission on the artist’s
+net fee. This kind of work system is proven and well accepted by the stakeholders, so we
+intend to keep it, but due to benefits of using an automated blockchain-based platform,
+thus having lower overhead costs, we can afford to charge the fee on the lower price range.
+The booking fee will be distributed towards covering the operational costs of the service
+and funding bounty budgets.
+
+6.2.
+ADVERTISING
+REVENUE
+
+6.3.
+ACCESS TO PREMIUM
+INDUSTRY CONTACTS
+
+6.4.
+TICKETING
+
+6.5.
+3RD PARTY
+INTEGRATIONS
+
+Listed artists will have an option to expose their profiles in different charts (e.g. a rock band
+in Germany is exposed on Germany’s top chart for rock bands).
+Exposure will be bought with VIB or ETH using smart contracts, where terms such as the
+duration and price will be defined. Once paid, the smart contract will trigger the exposure of
+the artist’s profile on the agreed position and for the agreed period of time.
+The price in VIB and ETH will be set automatically, based on the current demand for the
+respective position.
+Certain musician profiles include a direct contact option to the artist’s agent, manager or
+the artist himself. In order to contact those entities, a user needs to pay a fee in ETH or VIB.
+Aside from this feature being a revenue source, the purpose of charging for access to
+premium contacts is to prevent spam.
+Listing hundreds of thousands of events, listed on profiles of performing artists, Viberate
+has the unique opportunity to tap into this multi-billion market. Paper tickets are giving
+way to electronic ones, and we want to go a step further by implementing a blockchainbased ticketing service, where we will charge a commission on every ticket sold through
+our system.
+Viberate’s analytical content provides insightful information for several different outlets,
+such as music media, streaming services, larger booking agencies and other services that
+could benefit from extensive music analytics. We will charge a monthly cost per integrated
+profile or a monthly lump sum to use the whole database. 3rd party integrations will also be
+made available via our API, where we will charge for API calls.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+On a B2B segment, Viberate can act as
+a marketplace, targeted advertising
+platform, networking tool and a data
+analytics service. On a B2C segment, we
+will tap into the ticketing business.
+
+7.	MARKET
+7.1.
+SIZE
+
+•	
+According to a research conducted by CISAC and UNESCO, the music industry has 	
+	an annual turnover of $250 billion USD.
+•	
+Live performances take up to one third of that amount.
+•	
+There are around 50 million music events taking place globally each year.
+•	
+While represented artists account for a small fraction of a percent, millions of 	
+	
+smaller artists are unrepresented. Their fees range from less than $100
+	
+all the way to a couple thousand USD.
+•	
+The live music sector is growing rapidly due to a technological development, 		
+	
+which allows people to engage in music easier than ever (it only takes a Mac 		
+	
+and a YouTube tutorial to become a DJ).
+An estimation, based on the above numbers, predicts the addressable market of $35B per
+year in unrepresented artist fees.
+
+7.2.
+COMPETITION
+
+Currently, our only real competition exists outside the blockchain ecosystem. Solutions
+for the music industry that are using the blockchain technology, such as Creativechain,
+Soundchain and Musicoin focus only on royalty collection and not on live music.
+As a talent marketplace, Viberate mostly has competitors in a form of traditional booking
+agencies such as William Morris Endeavour, Creative Artists Agency, United Talent Agency
+and Paradigm just to name a few of the biggest players. However, Viberate’s main target
+market isn’t their clients. We aim to attract musicians with smaller profiles, who are
+unrepresented.
+Furthermore, instead of competing with major agencies by poaching artists from their
+rosters, we want to work with them by offering them a sales channel to generate more
+gig leads for their musicians, much like Booking.com offers a great sales channel to hotels,
+instead of working against them.
+
+7.3.
+GO TO MARKET STRATEGY
+7.3.1.
+TRADITIONAL
+ONLINE ADVERTISING
+
+Although Viberate is already publicly accessible, we plan to launch campaigns,
+accompanying different milestones in the project’s roadmap. Campaigns will be targeted
+towards database growth as well as to lead generation (e.g. bookings, ad buy).	
+•	
+•	
+•	
+
+Social media: Facebook and Twitter
+SEM: Google AdWords search and network campaigns
+Network ads: Httpool Ad Network
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+7.3.2.
+EVENT
+PRESENCE
+
+As a service, targeted towards a B2B sector, we need to maintain our appearance at notable
+music events such as:
+•	festivals
+•	
+club events
+•	concerts
+•	
+music conferences
+We can plug into bigger music events with a curated stage, sponsor the backstage and the
+artist green room.
+At conferences we have already successfully secured panel features, provided insights
+for keynote speakers, and in the future we plan to have representation with stands and
+demo booths on major music conferences globally.
+
+7.3.3.
+CELEBRITY
+MARKETING
+
+Influencer marketing turned out to be a successful strategy for numerous projects. That’s
+why we are working with a German based agency Passiontainment to look for endorsement
+partnerships with celebrities, especially well known musicians.
+Endorsements include:
+•	
+the right to associate a musician’s brand name with Viberate
+•	
+social media posts
+•	
+public statements
+•	
+press releases
+Celebrities will be compensated directly with VIBs.
+
+7.3.4.
+PRESS
+
+Apart from the existent media partnership with the world’s biggest dance culture magazine,
+Mixmag, we will periodically release interesting industry insights, using the analytics data
+Viberate offers through its powerful social media analytics engine. Such information is
+exclusive and cannot be acquired easily without some kind of analytics software, so it’s a
+precious piece of information for journalists.
+We already tested the concept and got significant media attention.
+The team employs marketing and PR executives with years of experience in corporate and
+celebrity marketing (see chapter Team), so most promotional activities will be planned and
+executed in-house.
+A detailed media plan along with PR activities will be shared among VIB holders.
+
+7.3.5.
+PUBLIC
+RECOGNITION
+
+Viberate has been recognized by the European Commission’s Music Moves Europe
+initiative as one of eight European startups that will disrupt the global music industry:
+https://ec.europa.eu/programmes/creative-europe/actions/music-moves-europe
+The EU government gave the company a chance to present at the Commission’s pavilion at
+one of the world’s largest music conferences, MIDEM in Cannes.
+Viberate also has the full support of the Ministry of Economic Development and
+Technology of the Republic of Slovenia, with a signed endorsement letter by the Minister,
+Zdravko Pocivalsek.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+8.	ROADMAP
+
+Testing the market - Topdeejays.com
+We tested the market with a simple DJ ranking
+service named Topdeejays.com.
+With the help of our users, we’ve rapidly grown
+from a directory of a couple of thousands DJs
+to a massive database of more than 50.000
+musicians.
+
+APRIL 2015
+
+MARCH 2013
+Going all in - Viberate
+After the success of Topdeejays.com,
+we decided to actively pursue the idea of
+digitalizing the live music industry.
+We expanded the team, opened a designated
+Viberate office and developed a detailed
+project plan. To enable project monetization,
+we started planning the implementation of
+different business models.
+
+First round of funding - $560,000
+In April 2016, we received our first round of
+funding from several domestic investors.
+
+APRIL 2016
+Viberate 1.0 launch - Analytical
+content
+We launched the first version of our service on
+the biggest electronic music conference in the
+world - the Amsterdam Dance Event.
+
+OCTOBER 2016
+
+The service, that contained detailed analytical
+content for over 50.000 musicians, was
+subscription based.
+
+Second round of funding - $440,000
+In February 2017, we received our second
+round of funding from an angel investor.
+
+APRIL 2017
+
+Viberate 2.0 launch - expanding to all
+music genres
+With version 2.0 we expanded to all music
+genres. We now have a database of over
+120.000 musician profiles, containing all
+relevant information, including relevant
+analytical content, latest media feed and
+booking informaton.
+
+JULY 2017
+
+FEBRUARY 2017
+
+Welcoming the team of blockchain
+experts
+To help us integrate the blockchain technology
+into our service, we hired a team of experts
+with rich domain knowledge and years of
+experience in the field of cryptocurrencies and
+blockchain technology.
+
+JUNE 2017
+ICO campaign launch
+To prepare our service for the ICO, we
+launched the ICO campain, including the
+publication of a designated ICO website with
+all the relevant info for the potential ICO
+participants.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+Launch of the Venue and Event
+profiles
+Pursuing our vision to joun the entire live
+music ecosystem in one place, we upgraded
+our entity database with the profiles of 40.000
+music venues and 60.000 events.
+All our profiles are furnished with relevant
+and up-to-date information, that makes the
+discovery and decision-making process
+simple, fast and efficient.
+
+AUGUST 2017
+
+The ICO
+
+SEPTEMBER 2017
+
+As a first step in implementing the blockchain
+technology into our service and to assure the
+next round of financing, we’ll be launching a
+Viberate ICO in September 2017.
+
+Launch of the Booking Agency profiles
+To alleviate the promotion of musicians,
+represented by booking agencies, we’ll be
+launching designated booking agency profiles,
+featuring rosters of represented musicians.
+
+Q4 2017
+
+Launch of Event Organizer profiles
+
+Q1 2018
+
+Integration of the ticket sales
+platform
+By Q3 2018, we’ll have affiliate deals in place
+with all major ticket vendors, to provide our
+users with the option to purchase event
+tickets directly off the site.
+In later stages, we’re planning to develop our
+own internal ticket sales system.
+
+Q4 2018
+
+Additionally, we’ll be launching event organizer
+profiles, that will enable the event organizers
+to showcase their work, promote their events
+and directly engage with other entities.
+
+Q3 2018
+
+Business and booking platform launch
+We’ll upgrade our communication system
+with comprehensive business and booking
+tools, that will enable our entities to take full
+advantage of a simple digitalized process
+of booking musicians and pursuing other
+business opportunities.
+
+Extended blockchain features
+integration
+We’ll gradually introduce advanced blockchain
+features, such as smart contracts and DAOs,
+that will be used in different stages of the
+musician booking process.
+Only then we’ll achieve our mission to fully
+digitalize and decentralize the live music
+industry.
+
+Q4 2018 & Q1 2019
+
+Q1 2019
+
+Global marketing, PR and sales
+campaign
+With the aim of spreading the awareness
+about our service, we’ll be performing different
+marketing, PR and sales activities on a global
+scale.
+We’ll commission marketing experts to help us
+maximize the effectiveness of our endeavours.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+9.	TEAM
+
+The team behind the project is a combination of experienced managers, event organizers,
+developers and cryptocurrency experts.
+The founders gained their music domain knowledge over 20 years of working in the music
+industry, managing artists, touring, organizing events and running a successful record
+label. They created some of the biggest event brands in their region, including a beach
+festival Disconautica, attracting up to 80 thousand visitors each year.
+They discovered the pains of the industry the hard way, and now they are offering solutions
+to their industry peers with Viberate.
+Besides organizing their own events, they have offered event management services to big
+international clients, such as Philip Morris, Hewlett-Packard, Microsoft, Vodafone and many
+others.
+The crypto part of the team already owns a successful project named CreditBit.
+They have been actively engaged in the crypto community for the last eight years.
+
+9.1.
+FOUNDERS
+
+Matej Gregorčič, CEO
+Linkedin: https://www.linkedin.com/in/matejgregorcic/
+Matej has been an entrepreneur for most of his life, starting as a teenager. He founded a
+marketing agency and took it from selling ideas in a shared office space to becoming one
+of the biggest event management agencies in his country. His company won numerous
+awards at marketing festivals and did some pioneering work in digital marketing back when
+Facebook was still considered a small website. Working with big international clients, his
+team members never missed a deadline. He specializes in team leadership and strategic
+planning, utilizing knowledge he gained studying mathematics and economics.
+Vasja Veber, COO
+Linkedin: https://www.linkedin.com/in/vasjaveber/
+Vasja started his first business in the mid ‘90s when he was 15 years old. Working from
+his room, he built simple websites for clients. After earning a Master’s degree in marketing
+from the University of Ljubljana, he joined Matej to found a music management agency.
+Since then he has been managing one of the best techno DJs in the world UMEK, taking
+care of his 100 gigs per year. Vasja overlooks all day-to-day business operations, related
+to a superstar musician’s career, from working with booking agents all the way to travel
+logistics and taxes. In over 10 years in the music business, he managed to grow an
+impressive network of influencers in the music industry. Vasja is also a member of the
+Washington Chapter of The Recording Academy (Grammy Awards).
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+Uroš Umek, Professional DJ, Founder, Celebrity Ambassador
+Facebook fan page: https://www.facebook.com/umek.si/
+Uroš is widely known just under his stage name UMEK. Any true techno fan knows his
+legacy. Umek is an award-winning producer and an A-list techno DJ. He is personally
+responsible for kickstarting the electronic music scene in his home country by organizing
+some of Slovenia’s first ever illegal raves. Since then he has gone on to become one of the
+world’s best-known techno artists, having made his name on the world stage, graduating
+from the dark underground clubs of Europe’s capital cities, to the massive techno stages of
+the world’s most high-profile music festivals such as Ultra, EDC and Tomorrowland. UMEK
+was voted number 3 Techno DJ globally by a prominent magazine, DJ Mag.
+
+9.2.
+LEAD
+DEVELOPERS
+
+Boštjan Žakelj, CTO
+Linkedin: https://www.linkedin.com/in/bostjan-zakelj-b138874/
+Bostjan is an experienced senior engineer with deep knowledge in Linux and Windows
+(Azure) server management, PHP programming, CSS/XML coding, mobile applications,
+CMS systems, mongoDB noSQL database management and network security. He has been
+a lead tech force in Viberate since the very beginning and is responsible for building a social
+media analytics engine, capable of analyzing billions of data points daily.
+Rok Bavec, Senior Developer, Data Scientist
+Linkedin: https://www.linkedin.com/in/rok-bavec-ba88a610a/
+Rok graduated from applied mathematics at the Faculty of Mathematics, University of
+Ljubljana. He is an organized, creative and highly-focused developer with knowledge in PHP
+programming, mySQL databases, noSQL databases (mongoDB) as well as experienced
+in web development. He specializes in data analytics, where he developed a series of
+algorithms for measuring online popularity among musicians.
+Rok Babič, Senior Blockchain Developer
+Linkedin: https://www.linkedin.com/in/rok-babi%C4%8D-a3843852/
+Rok started his tech career as a developer at a leading ERP provider in the region. As soon as
+he heard of blockchain, he was hooked and spent the next years developing and maintaining
+solutions on top of Bitcoin and other altcoins. He found his true passion, though, with the
+release of Ethereum, where he immediately started developing decentralized applications
+on top of the platform. After a few successful projects, he cofounded Spartan Solutions
+d.o.o., where they aim towards becoming a leading decentralized solutions provider and
+integrator in the region. After successfully executing a number of decentralized solutions,
+Rok primarily focuses on promoting decentralized apps, planning the architecture of
+blockchain-based solutions and consulting startups in blockchain space.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+9.3.
+GENERAL
+STAFF
+
+Dr. Ina Veber, General Counsel
+Linkedin: https://www.linkedin.com/in/ina-veber-67457a68/
+Ina is a lawyer with a PhD in International Business. She specializes in international law and
+intellectual property legislation with an emphasis on music-related legal matters. She was
+an assistant professor at the University of Primorska in Slovenia, where she published a
+number of papers in the field of internationalization.
+After that she pursued a career as a legal consultant in music and startup business, offering
+her services to musicians, labels and event organizers as well as a number of technological
+startups. Currently she’s researching the implications of the blockchain technology on
+intellectual property and how it can be used to protect involved parties and improve solving
+disputes.
+Kristian Gorenc, CMO
+Linkedin: https://www.linkedin.com/in/kristiangorenc/
+Kristian got his B.Sc. in Marketing from the Faculty of Economics, University of Ljubljana.
+He specializes in digital marketing and PR. In his career he worked for brands such as Nivea,
+Vodafone, Axe, Beko and many others, strategically planning and executing successful
+brand and sales campaigns regionally and nationally. He is also a skilled PR professional
+for musicians, taking care of social media presence, advertising and press relations for a
+superstar musician and his label.
+
+9.4.
+ADVISORS
+
+Dr. Mark Pleško, Nuclear Physicist, Angel Investor
+Linkedin: https://www.linkedin.com/in/markplesko/
+A prodigy nuclear physicist (co-discovery of matter turning into antimatter), Mark was the
+first one to see potential in the team and the project’s vision. Enough to get on board and
+back them early. Mark is more than just an angel investor; he is actively involved in the
+company’s strategic planning as well as day-to-day operation.
+He is also the main founder and CEO of the high tech company Cosylab that is the world
+leader in large nuclear accelerator control systems, with yearly profit margins exceeding
+30-40%. Among Cosylab’s customers are the world’s largest national laboratories and
+international projects, such as CERN, the international fusion project ITER, SLAC at Stanford
+University, KEK in Japan and several novel cancer treatment centers worldwide which use
+protons and Carbon ion accelerators to kill cancer tumors with submillimeter precision.
+Dejan Roljić, ABC Acceleration Business City
+Linkedin: https://www.linkedin.com/in/dejan-roljic-50a90912/
+Founder of ABC Accelerator, Slovenia’s first and biggest accelerator with offices in Ljubljana,
+Munich and San Jose, Dejan is a serial entrepreneur, who founded his first company when
+he was 16 and managed to do two exits by the time he was 26. Dejan played a crucial role
+when Viberate was raising a seed round of financing and is a key part of the project when it
+comes to investor relations.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+Peter M. Moricz, Blockchain Business Development
+Linkedin: https://www.linkedin.com/in/petermmoricz/
+Peter successfully navigated through some of the most severe financial crises of our time
+and developed a great expertise and reputation for effectively managing risk. His derivatives
+product knowledge is diverse, having spent over 20 years trading US and European Fixed
+Income, FX, equity indexes, crude oil and gold futures. Recently Peter’s career has focused
+on risk and compliance issues. Between 2014 and 2016 he was Vice President at JP
+Morgan Private Bank in London, where he was responsible for compliance with all US,
+UK and EU regulatory requirements, leading sales and execution supervision in line with
+industry standards. He also worked with Regtech, Fintech companies and Co-Founded a
+Trade Finance Blockchain company called ChainX.
+Collin LaHay, Blockchain Expert, Founder @ Gambit
+Linkedin: https://www.linkedin.com/in/collinlahay/
+Collin earned his B.Sc. in Business Administration with a Marketing option from the
+University of Wisconsin, River Falls. After a twelve-year career in search engine optimization
+and digital advertising, he moved his expertise over to finance and started trading the
+cryptocurrency markets in early 2013. Since then, Collin has been trading the inefficiencies
+of the crypto markets full-time, as well as being a leading escrow trust-agent on Bitrated and
+one of the largest super-affiliates for the flagship crypto exchanges. Collin has developed
+and managed his own blockchain project, GambitCrypto, since 2015 and leads a private
+trading group, who develop their own proprietary trading algorithms, bots and tools.
+Charlie Shrem, Blockchain Expert, Co-Founder @ Bitcoin Foundation
+Personal website: http://charlieshrem.com/
+Charlie Shrem is an American entrepreneur and bitcoin advocate. He co-founded a startup
+company, BitInstant, and is a founding member of the Bitcoin Foundation, formerly serving
+as Vice Chairman. By 2013 BitInstant was processing approximately 30% of all bitcoin
+transactions. Shrem is featured in “The Rise and Rise of Bitcoin,” a documentary directed
+by Nicholas Mross that explores the origins and development of bitcoin. It premiered at the
+2014 Tribeca Film Festival. He is also featured in the 2016 documentary film, “Banking on
+Bitcoin,” discussing how bitcoin technology will shape lives and in the 2015 book, “Digital
+Gold,” by Nathaniel Popper, which covers the rise of bitcoin.
+As a former owner of a nightclub that accepted Bitcoin, Charlie is a priceless advisor to
+the Viberate team – because of his deep knowledge of the blockchain as well as running a
+music venture.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+Prof. Dr. Jure Leskovec, Professor @ Stanford University, Pinterest
+Stanford personal page: https://cs.stanford.edu/people/jure/
+Jure Leskovec is an Associate Professor of Computer Science at Stanford University. His
+research focuses on mining and modeling large social and information networks, their
+evolution and diffusion of information, and influence over them. After selling his startup,
+Kosei, to Pinterest, he took a position of Chief Scientist, leading Pinterest labs. As one of the
+world’s leading big data experts and researchers, Professor Leskovec is advising Viberate’s
+development team on data mining and the service’s social media analytics engine.
+Ram Santhosh Kumar Budime, CEO @ Bitins.net
+LinkedIn: https://www.linkedin.com/in/ram-santhosh-kumar-budime-494133149/
+Ram’s entrepreneurial activities are focused in the areas of digital currencies like Bitcoin,
+Blockchain and Fintech with a keen eye for emerging technologies trends and the business
+instincts to position companies in the critical path. In 2016, while working as Head of
+Business Development at GreCom company, he Co-founded BitIns and serves as CEO.
+BitIns mission is to provide people and businesses with easy access to digital money.
+Ram is also an active supporter of non-profit organisations in India and he likes physical
+fitness. In Viberate’s team Ram is in charge of getting the VIB on crypto exchanges as well
+as offering contributors fast and reliable fiat to ETH exchange service.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+Viberate already received an angel
+investment, therefore token buyers
+are contributing to a project that
+already went through the scrutiny
+of due diligence made by VCs and
+angel investors.
+
+10.	VIB TOKEN CROWD SALE
+10.1.
+VIB TOKEN
+
+10.2.
+ELIGIBILITY
+
+10.2.1.
+EARLY FUNDING
+AND CURRENT
+OWNERSHIP
+
+Viberate token is fully ERC20 compliant and will be available for purchase with ETH.
+Symbol: VIB
+Base token price upon the launch of the crowdsale will be set to $0.1.
+ETH/USD exchange rate will be locked based on September 5 market exchange rate and
+will be valid for the entire time of the crowd sale.
+Unlike many other projects using just an idea to raise funds via token crowd sales or initial
+coin offerings, without an actual product or at least a proof of concept, Viberate is up and
+running. Viberate already has a user base, established business partnerships and media
+coverage.
+The project was bootstrapped with $400,000 of the founders’ own savings. The funds were
+used to produce an MVP and to build the initial database of musicians.
+This gave the team a solid foundation to raise an angel round of $1,000,000 from a
+Slovenian ABC Accelerator and two angel investors. The funds were spent to launch the
+platform with profiles of 120,000 musicians and start working on profiles for music venues
+(for more information about past progress, refer to the chapter Roadmap).
+Viberate already received an angel investment, therefore token buyers are contributing to
+a project that already went through the scrutiny of due diligence made by VCs and angel
+investors.
+Contributors contribute voluntarily and their participation cannot in any way be defined
+or treated as an equity investment into the company that owns the project and IP on the
+address www.viberate.com. Contributors agree with Terms of Service published on www.
+viberate.io/TOS
+The ownership of the token does not include the right to:
+•	
+ownership of the company
+•	
+ownership of the service’s IP
+•	
+profits of the service
+•	
+participate in decision making, unless options are put up on voting to token holders
+The founding team still owns the majority stake in the project (83.33%) and has a majority
+vote, thus complete control over strategy as well as day-to-day decision making.
+
+10.2.2.
+INTELLECTUAL
+PROPERTY
+
+The company owns all intellectual property of the service, which includes:
+•	
+brand name and domain
+•	
+source code of the website
+•	
+ranking algorithm
+•	
+database of profiles
+Contributors / token owners do not get any ownership of the company’s intellectual
+property.
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+10.2.3.
+WHY FUNDING
+WITH THE TOKEN
+CROWDSALE
+
+10.3.
+TOKEN SALE
+DETAILS
+
+We decided to fund further development of the service with a token crowdsale, because of
+two main reasons:
+•	
+Viberate will become completely decentralized in terms of database growth and
+	
+curation, and members of the community need to benefit financially from their work 	
+	
+by contributing in terms of content and sales.
+•	
+Technical and business development still needs to stay centralized and focused on 	
+	
+developing new features and bringing in revenues, which requires funding.
+
+Beginning of ICO: 5th of September 2017
+(block number will be announced one week before)
+We will create a smart contract that will handle the whole ICO process automatically. Main
+features of the smart contract will be:
+
+10.3.1.
+MINIMUM
+GOAL
+
+The smart contract will have a security measure for the contributors. If the minimum goal
+is not reached, we will not have access to the funds, and participating contributors will get
+a full refund. This measure protects the contributors from fraud and eliminates the need
+for an escrow.
+
+10.3.2.
+MAXIMUM
+DEVELOPMENT
+CAP AND MAXIMUM
+TOTAL CAP
+
+We are against uncapped ICOs, because we believe the company should raise the amount
+of money it needs to accomplish the goals from the roadmap. Furthermore, uncapped
+ICOs turned out to be harmful for the tokenized economy, often driven by greed and taken
+advantage of by the hype.
+We strive to deliver our features as comprehensive as possible, which is why we made
+product and technical development a priority of our operations. This decision is strongly
+reflected in our financial strategy that is divided into two phases.
+•	
+The development cap defines the maximum amount of funds, needed to accomplish
+	
+the development goals, defined in our roadmap. A portion of the funds is also reserved
+	
+for the initial marketing campaign on a smaller scale.
+•	
+The marketing cap is intended to cover the cost of marketing, namely direct sales, and
+	
+the launch of a global PR and advertising campaign. With the service firmly in place,
+	
+our main goal in the second phase is to spread the word about Viberate all over the 	
+	world.
+
+ICO start
+
+Minimum goal: $1M
+
+Production phase of ICO
+
+$6M
+
+Maximum goal: $12M
+
+Marketing phase of ICO
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+In case the ICO does not reach the envisioned amount, none of the development or
+marketing activities will be completely omitted, but the dynamics of their execution might
+change. We’ll rely on operating profits to fuel growth. If needed, our operations will only be
+scaled down to extend the runway far enough to achieve all development and marketing
+goals we’ve set.
+Unsold tokens will be transferred into the marketing budget. Tokens will be locked into a
+smart contract and accessible after one year, when the global marketing campaign will
+begin. The lockdown is to prove the contributors we believe in the value of the Viberate
+tokens (VIB) and as reassurance that the tokens won’t be sold immediately and will be spent
+only for the marketing and sales activities.
+
+10.3.3.
+AUTOMATIC
+TOKEN ISSUANCE
+
+The ICO contract will be directly linked to the Token contract so that instant issuance of
+tokens will be possible. Users will be able to see in real time how many tokens they will get
+in return to their contribution and will not need to wait for an extended period of time to get
+them (sending will be enabled immediately after ICO ends).	
+
+10.3.4.
+DISTRIBUTION
+OF ISSUED
+TOKENS
+
+•	
+Total number of generated VIBs: 200,000,000
+•	
+60% of tokens will be sold in the ICO to secure funds for further product development,
+	
+operations and international expansion
+•	
+16% of tokens will be held by project founders and the rest of the team that helped to
+	
+bring the project to life with their hard work and dedication
+•	
+4% of tokens will be given to early stage angel investors, true believers,
+	
+who showed a lot of trust and provided rocket fuel for our idea
+•	
+5% of tokens is intended for the initial stocking of the bounty pool to award contributors,
+	
+who help build and curate our database of entities
+•	
+8% of tokens will be awarded to our advisors and ambassadors that helped the project
+	
+with their knowledge and expertise
+•	
+7% of tokens will be reserved for future partners who will join the project at a later 	
+	stage
+All tokens belonging to founders, employees and seed investors will be reverse vested for
+24 months with monthly cliffs.
+
+Crowdsale - 60%
+
+Founders & Team - 16%
+
+Investors - 4%
+
+200.000.000
+
+Viberate Contributors - 5%
+
+VIB TOKENS
+
+Advisors & Ambassadors - 8%
+
+Future partners - 7%
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+10.3.5.
+DISCOUNTS
+
+Early contributors will be rewarded with a discount. The discount rate will drop with every
+week, starting at 12% and ending with 0% on the last week of the ICO.
+
+12%
+
+9%
+
+6%
+
+3%
+
+0%
+
+Week 1
+
+Week 2
+
+Week 3
+
+Week 4
+
+BONUS
+
+ICO start
+
+BONUS
+
+BONUS
+
+BONUS
+
+BONUS
+
+ICO end
+
+First 48h
+
+10.4.
+FUNDS DISTRIBUTION
+
+10.4.1.
+ALLOCATION OF
+THE PRODUCT
+DEVELOPMENT
+PHASE
+CONTRIBUTIONS
+
+•	
+	
+	
+•	
+	
+•	
+	
+•	
+	
+•	
+	
+
+40%
+
+15%
+
+15%
+
+20%
+
+10%
+
+Technical
+development
+& user experience
+
+Product development
+& management
+
+Database expansion
+& support
+
+Marketing, sales,
+& PR
+
+General and
+administrative
+expenses
+
+40% of contributions is intended to cover the technical development costs of the
+upcoming service features, starting with implementing marketplace functionalities
+and additional entity features
+15% of contributions will cover the costs of non-technical product development,
+including project management, team management and business development
+15% of contributions will be allocated to cover the costs of adding new entities into 	
+the database, internally curating existing ones and setting up a support center
+20% of contributions will fund the first marketing phase, covering basic marketing
+operations, including advertising campaigns for user acquisition and branding
+10% of contributions will cover day-to-day operations, office rent, office equipment, 	
+travel expenses and legal fees
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+10.4.2.
+ALLOCATION OF THE
+MARKETING PHASE
+CONTRIBUTIONS
+
+•	
+	
+•	
+	
+•	
+	
+
+25%
+
+15%
+
+60%
+
+Direct sales
+expansion
+
+Global PR
+campaign
+
+Global advertising
+campaign
+
+25% of contributions will cover the costs of direct sales to our target audiences, 	
+including direct calls and personal meetings
+15% of contributions will finance a global, ongoing PR campaign, targeted towards
+specialized and mainstream media
+60% of contributions will cover the costs of an ongoing global ad campaign covering
+all relevant media outlets, designed to increase our userbase and assure marketplace liquidity
+
+WWW.VIBERATE.IO · ICO@VIBERATE.COM
+
+CONTACTS
+General inquiries:
+Viberate d.o.o.
+Podutiska 92
+1000 Ljubljana
+Slovenia
+E-mail: ico@viberate.com
+Service: www.viberate.com
+ICO: www.viberate.io
+
+

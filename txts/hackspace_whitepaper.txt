@@ -1,0 +1,1045 @@
+Invest in the future and change the world for the better
+
+Whitepaper v 1.1
+(updated)
+
+CONTENTS
+LEGAL DISCLAIMERS..............................................................................................................................................3
+	
+
+Risk Disclosure............................................................................................................................................3
+
+INTRODUCTION.....................................................................................................................................................6
+ABOUT HACKSPACE CAPITAL...........................................................................................................................8
+	
+
+Background and Structure...................................................................................................................8
+
+	Mission.............................................................................................................................................8
+	Vision..............................................................................................................................................9
+	
+
+Management Team..................................................................................................................................9
+
+HACKSPACE – ENCATA PARTNERSHIP.........................................................................................................13
+	EnCata...........................................................................................................................................13
+	
+
+Development Process of Hardware Startups............................................................................14
+
+HACKSPACE – WORKING RELATIONSHIP...............................................................................................15
+HACKSPACE CAPITAL DEAL FLOW...............................................................................................................17
+	HandEnergy..........................................................................................................................17
+	
+
+Smart Pourer..............................................................................................................................................18
+
+	
+
+Smart Cup...................................................................................................................................................18
+
+	
+
+Sleep Capsule............................................................................................................................................19
+
+	
+
+Clean & Pure...............................................................................................................................................19
+
+	Circl.................................................................................................................................20
+HACKSPACE TOKEN SALE................................................................................................................................21
+	
+
+Token Sale – General Information................................................................................................21
+
+	
+
+HAC Token Sale Overview...............................................................................................................22
+
+	
+
+Rights and Opportunities of TOKEN holders..........................................................................23
+
+	
+
+Use of Proceeds ....................................................................................................................................23
+
+	
+
+Term Sheet.................................................................................................................................................26
+
+	
+
+Token Sale Bonuses and Referrals.............................................................................................27
+
+CONCLUSION..............................................................................................................................29
+
+© Hackspace Capital 2017
+
+2 of 30
+
+LEGAL DISCLAIMERS
+Risk Disclosure
+This White Paper is for informational purposes only and does not constitute an offer or
+solicitation to sell shares or securities or any other investment instrument in Hackspace
+Capital (“HACKSPACE”) or any affiliated company in any jurisdiction.
+The HACKSPACE tokens (“HAC TOKENS”) discussed in this White Paper are not intended
+to resemble a security (debt or equity) in any form in any jurisdiction. HAC TOKENS are a
+payment mechanism for products and services developed and offered on the HACKSPACE
+network. HAC TOKENS are NOT intended for speculative use and any speculative buyers of
+HAC TOKENS risk significant financial loss.
+None of the information or analyses presented in this White Paper are intended to form
+the basis for any investment decision, and no specific recommendations are intended.
+Accordingly, this document does not constitute investment advice or counsel or
+solicitation for investment in any security. Potential buyers of HAC TOKENS should consult
+their personal legal, tax, financial and other professional advisors as to the implications of
+buying HAC TOKENS.
+This White Paper, or any part herein, may not be reproduced or distributed without
+including the entirety of this section “Risk Disclosure” in any reproduction or distribution.
+This White Paper, or any part herein, may not be reproduced and distributed to any country
+or jurisdiction where distribution of this White Paper may be restricted or prohibited.
+HACKSPACE expressly disclaims any and all responsibility for any direct or consequential
+loss or damage of any kind whatsoever arising directly or indirectly from: (i) reliance on any
+information contained in this document, (ii) any error, omission or inaccuracy in any such
+information or (iii) any action resulting therefrom.
+Regulatory Issues
+No regulatory agency in any country or jurisdiction has examined or approved the
+information set out in this White Paper. The publication and distribution of this document
+does not imply that the applicable laws, rules or regulatory requirements in any jurisdiction
+have been complied with.
+
+© Hackspace Capital 2017
+
+3 of 30
+
+HACKSPACE has engaged and received advice from legal counsel in the United States of
+America, European Union (EU), Russian Federation and Peoples Republic of China regarding
+regulatory issues as they relate to HAC TOKENS. As the regulatory environment regarding
+Token Sales in the USA is uncertain and changing, HACKSPACE will wait until receiving
+recommendations from its legal counsel before offering HAC TOKENS to the general public
+in the United States. As such, the first emission of HAC TOKENS envisioned in this White
+Paper (19 September, 2017) is not available to USA citizens, green card holders or tax
+residents. HACKSPACE will ask any potential buyer to confirm prior to registration that
+they are not a US citizen, green card holder or tax resident.
+Together with its US legal advisor, HACKSPACE will continue to monitor the regulatory
+environment in the US regarding Token Sales and as appropriate adjust its policy prior to
+subsequent emissions of HAC TOKENS.
+Caution regarding ‘Forward-Looking Statements’
+This White Paper discusses the plans and forecasts of HACKSPACE as regarding its work
+with EnCata and investment into and development of hardware technology startups. It
+must be emphasized that these forward- looking statements do not reflect historical facts
+but the future plans of HACKSPACE.
+These forward-looking statements involve known and unknown risks, uncertainties and
+other factors which may cause the actual future results, performance or achievements of
+HACKSPACE to materially differ from those discussed or anticipated in the White Paper.
+These risk factors include, among others:
+HACKSPACE may be unable to realize the plans for investment and product development
+discussed in this document due to:
+		
+Poor investment decisions
+		
+Changes in customer preferences/market conditions
+		
+Unavailability of talented/qualified workforce
+		
+Insufficient capital to fully develop network/products
+Changes in legal, social, and economic conditions in the countries where HACKSPACE
+operates which could negatively impact the operations of HACKSPACE and the companies
+it has invested in.
+Changes in the regulation of crypto-currencies and blockchain networks which could limit
+the ability of HACKSPACE to legally operate as planned in certain countries or jurisdictions.
+
+© Hackspace Capital 2017
+
+4 of 30
+
+Catastrophic or long-term technical or security failures in the Ethereum Blockchain.
+Dramatic changes in exchange rates between HAC TOKENS and other crypto or fiat
+currencies.
+Force Majeure circumstances such as wars, acts of terrorism, natural disasters or other acts
+of God.
+The above risk factors and others could have a negative impact on the ability of HACKSPACE
+to fulfill its business plan, potentially resulting in a lack of liquidity or products for HAC
+TOKEN holders. This could lead to significant deterioration of value of HAC TOKENS and
+financial loss for owners of HAC TOKENS.
+
+© Hackspace Capital 2017
+
+5 of 30
+
+INTRODUCTION
+Hackspace Capital («HACKSPACE») is creating a dynamic new bridge between the worlds of
+cryptocurrencies/blockchain technologies and crowdfunding. HACKSPACE has partnered
+with EnCata LLC («EnCata») - an elite design engineering/prototyping company for hi-tech
+startups - to bring to the public both a new cryptocurrency and blockchain eco-system
+as well as an ongoing series of cutting edge hardware products and related services on
+which to spend the currency.
+HACKSPACE will launch a Token Sale on September 19, 2017 at 9 PM Singapore time
+(UTC +8). Similar to other crowdfunding campaigns for hardware products, buyers
+of the HACKSPACE coins («HAC TOKENS») will be entitled to use their HAC TOKENS
+to acquire newly developed hardware products and services from the HACKSPACE
+portfolio of companies («PORTFOLIO») and partner companies. Unlike traditional
+crowdfunding campaigns, however, HAC TOKENS will allow token holders to acquire
+not just one piece of a product in its design-to-manufacture stage but any product
+or service in the PORTFOLIO at up to a 20% discount and up to 3 months before the
+official market entry.
+In the brief history of Token Sale’s, HACKSPACE is providing the first and only opportunity
+for both investors and users of hi-tech connected products to participate in a range of
+hardware startups in their early stages and gain access to hi-tech R&D services.
+The proceeds from this Token Sale will be used to:
+	
+Invest in existing and future hardware startups which will provide goods and
+services for HAC TOKEN holders.
+	
+Build a factory for mass producing the products developed by HACKSPACE startups
+to reduce costs, control quality and accelerate the process.
+	
+Develop hackerspaces, R&D centers and a startup academy to aid and develop
+future inventors and entrepreneurs to assure a perpetual volume of quality products for
+HAC TOKEN holders.
+
+HAC TOKENS can be freely bought, sold and traded on the HACKSPACE platform or other
+liquid exchanges, and thus individuals looking to acquire certain products through the
+PORTFOLIO can purchase the HAC TOKENS from existing holders on the exchange platform
+and receive up to a 20% discount on their desired product or service within its ecosystem.
+
+© Hackspace Capital 2017
+
+6 of 30
+
+HACKSPACE expects the exclusive and high quality deal flow via EnCata and the fact that
+certain products, services and discounts will be available only to token holders will create
+long-term ongoing demand for the HAC TOKENS.
+This White Paper will expand on the following four key elements of HACKSPACE and the
+HAC Token Sale:
+	
+
+HACKSPACE
+	
+Background and Structure
+	Mission
+	Vision
+	
+Management Team
+HACKSPACE partnership with EnCata
+	
+Background of EnCata
+	
+Development of Hardware Startups
+	
+HACKSPACE-EnCata Working Relationship
+HACKSPACE Deal Flow and Current Projects
+HACKSPACE Token Sale
+	
+Token Sal General Information
+	
+Token Sal Overview
+	
+Rights of HAC TOKEN Holders
+	
+Use of Proceeds
+	
+Term Sheet
+	
+HAC TOKEN Distribution and Bonuses
+
+© Hackspace Capital 2017
+
+7 of 30
+
+ABOUT HACKSPACE CAPITAL
+Background and Structure
+HACKSPACE is a company formed in 2017 for the purpose of investing in and developing
+the most promising early stage technology hardware and connected hardware startups
+identified by its strategic partner, the engineering catalyst EnCata.
+HACKSPACE also serves as an online platform/shop, where people can acquire products and
+services created and offered by HACKSPACE startups and partner companies. HACKSPACE
+provides startups with multilayered support such as: organization of administrative
+processes, legal support, business consulting, coordination and supervision of the project’s
+life cycle, marketing via its partner companies, R&D, scientific research, engineering
+development and preparations for mass production.
+
+Mission
+The founders of HACKSPACE are driven by the goal of building and improving upon
+successful ideas and technologies for the betterment of humanity. In the case of this Token
+Sale, HACKSPACE wants to expand upon and improve the game changing crowdfunding
+concept for technology hardware products.
+While similar to crowdfunding in that buyers of HAC TOKENS («BUYERS») purchase
+products before they are fully developed and produced, with HAC TOKENS the BUYERS
+are protected from losing their money if a product is never fully developed. This is because
+the HAC TOKENS they acquire via their initial purchase can be used on any product or
+service developed in the HACKSPACE PORTFOLIO.
+Thus, while some companies and products invested in by HACKSPACE might fail (although
+the direct working relationship between HACKSPACE and EnCata will reduce the likelihood
+of such failure), the HACKSPACE funding structure means that BUYERS will never lose their
+money via individual product/company failure as BUYERS can use their HAC TOKENS for
+another HACKSPACE developed product or simply sell their HAC TOKENS to others.
+The founders of HACKSPACE believe this will not only protect BUYERS from financial loss,
+but also accelerate the development of products via crowdfunding efforts, thus increasing
+
+© Hackspace Capital 2017
+
+8 of 30
+
+the amount of innovative and beneficial products for society at large.
+
+Vision
+The Token Sale and creation of a blockchain platform for the rapid development and
+distribution of the most promising hardware technology products is just the first stage in
+the vision the HACKSPACE founders have for improving the world through engineering.
+HACKSPACE wants to expand beyond its initial product development/distribution
+platform to create a worldwide engineering ecosystem to provide talented young
+inventors and entrepreneurs the ability to most quickly and efficiently realize their dream
+products. HACKSPACE plans to use funds from its development to create hackspaces1 and
+infrastructure in key global innovation hotspots to train and foster the next generation
+of inventors and entrepreneurs. In an increasingly divided world, the HACKSPACE team
+believes in the powerful combination of creative young minds using science and technology
+to develop products which heal divisions and help create common experiences and unity
+among the disparate peoples of the world.
+
+Management Team
+
+Mikhail Zhyvets
+CEO at Hackspace Capital
+Systems Engineering degree from the Belorussian State University of Information and
+Radioelectronics. Mikhail has been involved in the game development industry as an
+engineer, company founder and executive manager for 12+ years. His most famous title
+“World of Tanks” has generated more than $1 billion in revenue; among the top five free
+online games in the world.
+
+1
+
+Hackspaces can be defined as social places for engineers and tech-entrepreneurs with certain manufacturing and office facilities
+
+which create a collaborative environment where new hardware startups and engineering teams can emerge.
+
+© Hackspace Capital 2017
+
+9 of 30
+
+Oleg Kondrashov
+CTO at Hackspace Capital, CEO at EnCata
+Oleg Kondrashov graduated from the faculty of Mathematics and Mechanics of Belarus
+State University. CEO and founder of EnCata, the leading engineering catalyst in the CIS.
+Founder and CEO of BDC Air, BDC Holding and BDC, ALC. An expert on LEAN management
+and production, Mr. Kondrashov is a frequent speaker on innovative technology at
+international seminars and conferences. He was named Minsk “Person of the Year 2016 for
+Industrial Innovation.”
+
+Michael Tavis
+CFO at Hackspace Capital
+Michael Tavis is a US citizen with undergraduate and graduate degrees from Dartmouth
+College and Princeton University. He was previously a Citicorp investment banker and
+managing director of the $340 million Russian American Enterprise Fund. Before joining
+Hackspace Capital, Mr. Tavis has been founding, investing in and managing a series of startup manufacturing companies in Eastern Europe.
+
+Dr. Petr Dudin
+CCO at Hackspace Capital, Partner and СSO at EnCata
+Petr earned his BSc and MSc in chemistry from Belarus State University, following with PhD
+
+© Hackspace Capital 2017
+
+10 of 30
+
+in nanotechnology from University of Warwick (UK). Petr then worked in management
+consulting and in a private equity fund as an analyst, covering an investment portfolio
+worth $50 million in equity. In 2015 Petr joined EnCata as a partner, implementing his
+vision of ‘catalyzing’ hi-tech and scientific ideas into marketable products.
+
+Petr Sidelnikov
+Financial Manager at Hackspace Capital
+Petr is graduated from Belarus State Economics University (BSEU). Petr has 14 years of work
+experience in finance. Petr was on the currency control board of the largest bank in Belarus,
+followed by 6 years of experience as a senior financial analyst.
+
+Fedor Mukin
+CIO at Hackspace Capital
+Fedor is a well-known developer and investor in the game development industry with
+15+ years of experience. Fedor acted as the CEO of ARISE game studio, which originally
+initiated development of the World of Tanks game (still holds the Guinness record for the
+Most Players Online Simultaneously on one MOG Server). Under Fedor’s management
+ARISE studio was successfully acquired by the Wargaming Company.
+
+© Hackspace Capital 2017
+
+11 of 30
+
+Michael Vaga
+Marketing Manager at Hackspace Capital, CEO at HandEnergy
+Considered by many as a prodigious tech-entrepreneur, Michael is the inventor and founder
+of the HandEnergy startup, which raised over $120,000 in a crowdfunding campaign and
+drew much media attention from The Telegraph, BBC, Mashable and others. Michael is a
+talented full-stack software programmer, design engineer and marketing wizard.
+
+© Hackspace Capital 2017
+
+12 of 30
+
+HACKSPACE – ENCATA PARTNERSHIP
+EnCata
+A key element to HACKSPACE success is a constant pipeline of cutting edge technology
+products to offer holders of HAC TOKENS and the public at large. HACKSPACE has thus
+entered into a formal agreement with EnCata, the leading regional catalyst for hardware
+startups, to receive an exclusive first look and right of refusal at investing into startups with
+which EnCata is working.
+EnCata (www.encata.net), is based in the dynamically evolving and engineering rich tech
+hub of Minsk, Belarus. A December, 2016 Wall Street Journal article labeled: «Belarus is
+emerging as the Silicon Valley of Eastern Europe» highlights the growing importance and
+opportunity of Belarus as a hi-tech and development center. There are currently 40,000
+Belorussian software engineers, and such popular applications as MSQRD, AIMATTER,
+Viber, Klondike, Knights&Brigts, Zombie Farm and World of Tanks originated in Belarus.
+EnCata, founded by 2016 Minsk «Person of the Year for Industrial Innovation,» Oleg
+Kondrashov, employs nearly 100 developers, design and manufacturing engineers in
+taking the most promising hardware startups from Russia, Belarus, Ukraine and Kazakhstan
+from the ‘good idea’ stage to a company with completed 3D design, manufacturing
+documentation, bill of materials and fully functioning prototypes ready for mass production.
+EnCata provides a fully integrated ‘one stop’ service for tech entrepreneurs in order to
+help them develop the most appealing and efficient products possible. EnCata not only
+performs the necessary tasks of creating the engineering design documentation and
+working prototypes, but also acts as a full service engineering consultancy in organizing
+the most cost effective product development and manufacturing process. EnCata houses
+all the necessary facilities in one place, including a design office, project office, its own
+production managers and consultants, impressive world-class R&D facilities and an array
+of industrial machinery for industrial prototype manufacturing. EnCata is working under
+the philosophy of LEAN and Toyota Production System (TPS) that helps to manage the
+entire Product Lifecycle. EnCata is able to impart its knowledge and experience with these
+systems to its clients.
+EnCata has become the darling of regional private investors, business angels and
+incubators as EnCata’s full service ‘catalyst’ program provides the highest chance of success
+
+© Hackspace Capital 2017
+
+13 of 30
+
+for hardware startups. It is fair to say that EnCata has virtually no quality competition in its
+central markets of Russia, Belarus, Ukraine, Kazakhstan and thus has a virtual monopoly in
+seeing and working with the best startup teams and projects in the region.
+Critically, for HACKSPACE, EnCata engagements require 3-6 months of close working
+cooperation with the founders and management teams of the startups. Thus, EnCata
+not only understands which are the most promising products emerging from the region,
+but their close work with startup teams enables EnCata a lengthy period to evaluate the
+quality of the management, which is arguably the most critical element of any successful
+enterprise.
+EnCata’s R&D centers are the heart of the company, where EnCata’s engineers develop
+new designs and also manufacture sophisticated prototypes. R&D centers are built on the
+Toyota Production System.
+
+Development Process of Hardware Startups
+EnCata utilizes the US Space Agency (NASA) Technological Readiness Level («TRL»)
+classification system to identify 1) the developmental stage of startups EnCata engages and
+2) the necessary process to bring the company and the product ready for mass production
+and market launch. TRL is based on the scale from 1 to 9, where 9 is a working technology
+and a finished product fully prepared for the production chain. Most startups fail at TRL3/4 (lab demonstration and home-built prototypes) but EnCata’s one stop program takes
+companies from this stage through TRL-9, ready for mass production and public launch.
+
+© Hackspace Capital 2017
+
+14 of 30
+
+TRL 1. 	
+
+General principles observed and reported. Scientific knowledge generated,
+general concept proposed.
+
+TRL 2. 	
+
+Concept formulated in greater details, applications identified and assessed.
+
+TRL 3. 	
+
+First lab demonstration, key predicted parameters validated.
+
+TRL 4. 	
+
+Key functionality demonstrated and documented in a form of MVP.
+
+TRL 5. 	
+
+Prototype or system elements validated in a relevant environment.
+
+TRL 6.
+
+Full-scale prototype demonstration .
+
+TRL 7. 	
+
+Prototype performance fully demonstrated in operational environment.
+
+TRL 8.
+
+Final configuration of the prototype demonstrated through a set of validated
+
+	
+
+tests. Production documentation completed.
+
+TRL 9. 	
+
+Final product entering the market.
+
+HACKSPACE – ENCATA WORKING RELATIONSHIP
+HACKSPACE and EnCata have agreed that EnCata will identify to HACKSPACE its most
+promising hardware/connected hardware products and teams and HACKSPACE will have
+the first exclusive opportunity to review and invest in these projects.
+During the first nine months of 2017, EnCata has been engaged in approximately 50 projects
+and identified 10 exceptional companies which it has referred to HACKSPACE. Most of
+EnCata’s projects involve Russian and Belorussian startups but have also recently included
+projects in the USA and Oman. Start-up projects are brought to EnCata from sponsored
+incubators or entrepreneurs who need a quality, reliable engineering catalyst to advance
+their projects from early TRL stages to mass production readiness at TRL-9. Often, when
+entrepreneurs bring projects to EnCata directly, EnCata will organize pre-seed funding to
+provide the essential early financing. EnCata has been so successful in the quality and
+reliability of its work with incubators, that it has established a relationship where it provides
+an initial review of projects for the incubators to streamline the bureaucratic work of the
+administrators. Incubators then pass their accepted projects back to EnCata for product
+development and implementation.
+When a startup, led by EnCata, has advanced its project to TRL-9, the startup needs to raise a
+
+© Hackspace Capital 2017
+
+15 of 30
+
+seed funding round of capital to finance and bring to market the first mass produced batch
+of its product. The required capital will generally be in the range of $500,000 - $2 million.
+It’s at this stage that EnCata will identify its absolutely best products and management
+teams and refer them to HACKSPACE as a potential source of capital. With assistance from
+EnCata, HACKSPACE then carries out a thorough due diligence of the product, market,
+management team and capabilities of the startup. In addition to seed funding for mass
+production, HACKSPACE/EnCata will assist the startup in branding of the product, creating
+unique photo and video content, developing a marketing campaign for a “loud launch” of
+the product on the international market, potentially creating and realizing a crowdfunding
+campaign (for market evaluation and analysis); performing viral media campaigns and
+direct advertising of the product in physical and digital media space.
+As part of the investment protocol, HAC TOKEN holders (at a discount of up to 20% of the
+advertised price) will be given priority in receiving the first run of the produced product.
+As opposed to traditional crowdfunding campaigns where a buyer advances money prior
+to full product development in order to be among the first to receive the product, HAC
+TOKEN holders receive the same benefit of first delivery, but WITHOUT the risk that they
+lose their money if the product is never delivered. HAC TOKENS are only exchanged for the
+actual product or services introduced through the HACKSPACE platform.
+
+© Hackspace Capital 2017
+
+16 of 30
+
+HACKSPACE CAPITAL DEAL FLOW
+Currently, there are 10 hardware startups which EnCata has referred to HACKSPACE based
+on what EnCata views as superior products with superior management. These products
+(and most of the anticipated HACKSPACE products going forward) are primarily connected
+hardware products, combining real world devices with sophisticated operational and/or
+community oriented software.
+Four of these projects are still in internal development and six are approaching TRL 9 and
+ready for further investment in mass production and market entry. HACKSPACE expects
+as many as 20 more projects will enter the pipeline by year end. The following describes in
+more detail the six live projects which HACKSPACE intends to bring to market in the near
+future.
+
+HandEnergy (www.hand.energy)
+HandEnergy’s revolutionary energy ball is the first portable generator of “green” energy
+using only the movement of the human hand. Created by 19 year old prodigy Michael
+Vaga, the device contains a unique generating system which via the gentle rotation of
+the ball in your hand allows both electricity generation and energy storage for charging
+mobile devices such as smartphones, portable speakers, etc... The initial model comes in
+an attractive design in black and white. There is the option of Bluetooth synchronization
+of the HandEnergy ball with a mobile device, and the ball itself can be used as a game
+controller, owing to the accelerometer inside. The HandEnergy ball comes with its own
+mobile App platform with the goal of creating a vibrant online community of HandEnergy
+users engaged in different challenges and competitions. The device is light (only 280
+grams), and if desired can be charged by a regular power outlet.
+HandEnergy has raised more than $120K on crowdfunding platforms. There have been
+many articles posted about the device on outlets such as The Telegraph, BBC, Mashable
+and many others; and the HandEnergy promotional video on its website has been viewed
+more than 10 million times!!!! HACKSPACE is making its first live investment in HandEnergy
+and expects first delivery of the product in the fourth quarter 2017.
+
+© Hackspace Capital 2017
+
+17 of 30
+
+Smart Pourer
+Smart Pourer is a technically sophisticated pouring cap with a special contactless tag used
+primarily to measure and record information regarding spirits and alcoholic beverages.
+Smart Pourer provides very useful information for all participants in the production and
+consumption of alcoholic drinks, from manufacturers to distributors to bars and restaurants
+and finally the end consumer.
+For the consumer, smart pourer is a valuable tool in measuring the gross amount of alcohol
+consumed at a particular sitting or over a longer period of time such as a week or month.
+At home or in a bar, the consumer can set a limit on alcohol consumption and smart pourer
+will stop pouring or notify the participants (i.e. bartender) when the limit is reached. As
+smart pourer measures the alcohol content of a drink, it can also be used by consumers to
+keep bars and restaurants honest in not allowing them to ‘water down’ drinks. The smart
+pourer tag can be used as a payment device, allowing consumers to swipe their cards or
+smartphones against the tag and be automatically billed for the drink. Finally, smart pourer
+can monitor home consumption of alcohol, assuring that non-intended users (sorry kids!)
+don’t secretly raid the liquor supply.
+Smart Pourer allows bars and restaurants to monitor consumption by clients (recently
+bars have been sued by customers involved in drunk driving accidents), pouring habits of
+bartenders and customer trends and preferences.
+Finally, smart pourer provides valuable ongoing information to manufacturers and
+distributors on which particular beverages are ‘hot’ in which particular regions, etc…
+The smart pourer App will provide users with targeted statistics and records on all
+information associated with the consumption of alcohol The App will also provide an
+interactive feature, providing consumers information regarding nearby bars or restaurants
+and the current availability of desired beverages.
+
+Smart Cup
+In keeping with a beverage theme, HACKSPACE will also bring to its HAC TOKEN holders a
+‘smart cup’ for automated preparation of coffee, tea, baby food, soup and other beverages/
+foods requiring temperature preparation and control.
+Smart Cup comes with a user friendly mobile App that notifies you when the beverage’
+
+© Hackspace Capital 2017
+
+18 of 30
+
+is ready and maintains the desired temperature until the user is ready to consume it. The
+smart cup is particularly safe and convenient for making baby food; it executes the cycle
+of water boiling, preparation, cooling and temperature maintenance until your baby is
+ready to eat. It’s precise temperature control prevents any chance of your baby eating food
+which is either dangerously hot or disappointingly cold.
+Smart Cup owners will be able to purchase specially prepared capsules of tasty and
+nutritious coffee, tea, babyfood, soup, etc…, further simplifying the preparation process.
+
+Sleep Capsule
+It is not possible to overrate the importance of sleep. Sleep is the basis of our physical and
+mental well being, our mood, creativity and efficiency. Aside from regular nighttime sleep,
+it has been repeatedly proven that short rest during the day can be very beneficial to our
+health, concentration and effectiveness. NASA researchers have shown that 20-30 minute
+naps (NASA claims 26 minutes is the ideal nap time!) allow the sleeper to reach the critical
+Stage 2 sleep cycle, enhancing alertness and concentration thereafter.
+EnCata is currently engaged in a project developing a recreational portable sleep capsule
+to facilitate 20-30 minute naps, either at the workplace, home or even in specially created
+“nap centers”. The project, in coordination with clinical specialists and the Moscow RAS
+Institution of Higher Nervous Activity has targeted the price of the capsule at less than
+$5,000, roughly half the cost of similar products on the market.
+A key component of the nap capsule is a special App which has been developed to control
+the capsule from mobile devices. The App monitors the sleep cycle so that the nap ends
+(with appropriate acoustic and light accompaniment) at the most ‘wakeful’ phase (i.e. when
+the body is ready to wake up) of the sleep cycle so one feels refreshed and alert. The App
+also provides diagnostic information from each nap.
+
+Clean & Pure
+Neuroscientists have repeatedly proven the impact of overall air quality and aroma on our
+mood, well being and effectiveness. HACKSPACE will introduce to its HAC TOKEN holders a
+unique portable device for the creation and maintenance of a healthy microclimate inside
+and around the workspace. The device is easily activated through connection by USB port
+to a computer or through a regular electric outlet or power unit. Clean & Pure is of small
+
+© Hackspace Capital 2017
+
+19 of 30
+
+size and thus easily fits on a corner of a standard work desk and can be taken home after
+the workday to improve the home climate also.
+A special mobile App has been developed for Clean & Pure which, among other things, will
+maintain and control the device for air purification, ultrasonic humidification, ionization,
+temperature and humidity control and the monitoring of oxygen and carbon dioxide levels.
+In addition, the App and device can custom program aromatization of the work area, with
+a variety of available scents. The device can also function as a portable air conditioner for
+particularly hot days or office environments.
+
+Circl
+Circl is an innovative electric motorbike, or gyrocycle, with unique features. Thanks to
+the frame’s tilt and relatively short length, Circl has quick turning capability and high
+maneuverability, allowing it to navigate traffic and city obstacles with a minimum reduction
+in speed. Circl’s large wheel diameter and increased clearance allow equal comfort on
+city streets or country roads and the wheel can be easily changed for snow conditions or
+replaced by a float for continuing on water. Circl’s electronics are protected by a waterproof
+frame and the unit is supplied with a hermetically sealed luggage rack and user friendly
+mobile app for remote control.
+
+© Hackspace Capital 2017
+
+20 of 30
+
+HACKSPACE TOKEN SALE
+Token Sale – General Information
+Token Sales have become very popular during the past two years as a means of fundraising
+or crowdfunding, allowing startups mostly associated with cryptocurrencies and
+blockchain technologies to raise funds from a diverse worldwide investor/client base to be
+used to finance the startup’s products or services. In exchange for liquid cryptocurrencies
+such as bitcoin or ether, investors/clients are provided with newly minted digital coins or
+tokens issued by the sponsoring startup. These coins can be freely traded and their value
+can be connected to the profitability or activities of the startup or can be exchanged for
+future goods or services of the startup. Through August, 2017, more than $2 billion has
+been raised via Token Sales.
+The HACKSPACE Token Sale, as described in the following paragraphs, is similar to other
+Token Sales in that HAC TOKENS can be freely traded for liquid cryptocurrencies or fiat
+currencies. It differs from many Token Sales, however, because the HAC TOKENS are in
+no way dependent on the operating results or profits of HACKSPACE, but instead can
+always be traded for tangible developed products and top-notch engineering services of
+the HACKSPACE companies. In this way, the HACKSPACE Token Sale more resembles an
+improved version of a crowdfunding campaign.
+Similar to crowdfunding campaigns, HAC TOKEN holders pre-fund the development of
+tangible products or services, but crucially, HAC TOKENS are freely tradable so if the desired
+product never reaches the market or the HAC TOKEN holder changes his mind, he can
+simply sell/trade the TOKENS to others interested in the products. As HAC TOKEN holders
+will be able to acquire HACKSPACE products and premium services introduced through
+the HACKSPACE ecosystem up to 3 months before the official market entry and up to
+20% below the advertised price, there should always be a strong demand for HAC TOKENS.
+Thus, as opposed to traditional crowdfunding campaigns where buyers are tied to the
+development of a particular product and risk losing their money if the product is never
+developed, HAC TOKEN holders are free to sell their HAC TOKENS at any time on a liquid
+exchange or HACKSPACE platform or use their HAC TOKENS for the purchase of different
+products or services then they initially intended. This provides HAC TOKEN holders less risk
+of loss and more flexibility than in standard crowdfunding campaigns.
+
+© Hackspace Capital 2017
+
+21 of 30
+
+HAC Token Sale Overview
+HACKSPACE has authorized the issuance of up to 1.000.000.000 (one billion) HAC TOKENS,
+with 51% to be issued directly to the public in 12 monthly sessions of 24 hours each. The
+first issuing session will be September 19, 2017. HAC TOKENS will be sold in an auction
+format, with the price of the HAC TOKENS fixed at the completion of the auction.
+Following the BitCoin emission scheme, each monthly HAC Token Sale session will issue
+50% of TOKENS issued the previous month in line with the schedule shown below:
+
+1st month
+
+255 000 000
+
+2nd month
+
+127 500 000
+
+3rd month
+
+63 750 000
+
+4th month
+
+31 875 000
+
+5th month
+
+15 937 500
+
+6th month
+
+7 968 750
+
+7th month
+
+3 984 375
+
+8th month
+
+1 992 187
+
+9th month
+
+996 093
+
+10th month
+
+498 046
+
+11th month
+
+249 023
+
+12th month
+
+124 511
+
+© Hackspace Capital 2017
+
+22 of 30
+
+Rights and Opportunities of TOKEN holders
+Buyers of HAC TOKENS will have the right to:
+	
+Exchange HAC TOKENS for goods and services produced by the HACKSPACE
+network of companies. HAC TOKEN HOLDERS will receive the products up to 3 months in
+advance and at a significant discount to the general market.
+	
+Exchange HAC TOKENS for engineering services with minimal contracts and
+paperwork, significantly reducing the barriers between engineering service providers and
+their clients.
+	
+Freely exchange HAC TOKENS for other crypto or fiat currencies on liquid exchanges
+or sell HAC TOKENS via the HACKSPACE platform to buyers interested in acquiring
+HACKSPACE goods and services.
+HACKSPACE believes that the opportunity to acquire goods and services of HACKSPACE
+and partner companies at up to a 20% discount should always provide a liquid environment
+and strong global demand for sellers of HAC TOKENS, given its products and services are at
+the core of science and technology development.
+
+Use of Proceeds
+HACKSPACE will use the proceeds from the Token Sale to
+	
+Complete the development of its existing startup projects
+	
+Create its proprietary online platform
+	
+Hire specialized marketing, analytical and product development staff
+	
+Further develop its R&D and engineering infrastructure to support the premium
+services offered through this Token Sale.
+	
+Build a production center to manufacture and reduce production costs of the
+newly developed products of HACKSPACE portfolio startups.
+	
+Accelerate its project development pipeline
+	
+Create hackspaces and infrastructure in key global innovation hotspots to train and
+mentor the next generation of inventors and entrepreneurs.
+
+© Hackspace Capital 2017
+
+23 of 30
+
+Attracted investments
+
+© Hackspace Capital 2017
+
+Use of Proceeds
+
+$5M
+
+Finish the development of the online HAKERSPACE
+platform Launch of HandEnergy official sales through
+Amazon and other world retailers. International marketing
+campaign,SMM. Technical support, analytics, tests and
+examinations. Formation of a new team, recruiting of new
+employees.
+Investment in another startup (2 in total) and opening 1
+hackerspace.
+
+$10M
+
+4 startups funded for mass-production.
+4 hackerspaces to be opened.
+Preparation and execution of crowdfunding campaigns
+for market analysis. Development of an online shop and
+international hardware platform.
+
+$20M
+
+9 startups funded for mass-production.
+6 hackerspaces to be opened.
+Further expansion and growth of the online platform
+through sustainable sales.
+
+$30M
+
+4 startups funded for mass-production.
+4 hackerspaces to be opened.
+Major expansion in HACSPACE infrastructure: opening
+1 factory for products mass-production.
+
+$50M
+
+8 startups funded for mass-production.
+8 hackerspaces to be opened.
+1 factory for products mass-production opened.
+2 R&D centers opened.
+
+$70M
+
+20 startups funded for mass-production.
+8 hackerspaces to be opened.
+1 factory for products mass-production opened.
+2 R&D centers opened.
+
+$100M
+
+30 startups funded for mass-production
+8 hackerspaces to be opened
+1 factory for products mass-production opened
+2 R&D centers opened
+
+24 of 30
+
+© Hackspace Capital 2017
+
+25 of 30
+
+Term Sheet
+Project Description
+
+Hackspace Capital aims to create an innovative engineering
+ecosystem with a network of elite technology companies
+realizing their products and services on our platform.
+
+Hackspace Capital
+
+Hackspace Capital is a venture fund which finances cutting
+edge hardware/connected hardware projects from the seed
+stage through mass production.
+
+Description
+Token Symbol
+Total Tokens
+
+HAC
+1 billion
+
+authorized
+Token Background
+
+HAC is built as an ERC token on the Ethereum Blockchain
+
+Start Date
+
+19 September 2017,
+9 PM Singapore time (UTC +8)
+3 PM Munich time (UTC +1)
+2 PM London time (UTC 0)
+9 AM New York (UTC - 4)
+4 PM Moscow (UTC +3)
+10 PM Tokyo (UTC +9)
+9 PM Beijing (UTC +8)
+
+End Date
+
+20 September 2018,
+9 PM Singapore time (UTC +8)
+3 PM Munich time (UTC +1)
+2 PM London time (UTC 0)
+9 AM New York (UTC - 4)
+4 PM Moscow (UTC +3)
+10 PM Tokyo (UTC +9)
+9 PM Beijing (UTC +8)
+
+Total Coin Offering
+
+12 sessions, 24 hrs each
+
+Sessions
+Token Price
+
+© Hackspace Capital 2017
+
+Determined at completion of each monthly auction. Token
+price will be determined ‘post’-factum’, upon completion
+of each Token Sale session, by simply dividing the [revenue
+received from the Token Sale session] by the [number of
+tokens sold].
+
+26 of 30
+
+Percentage of all HAC
+
+51%
+
+tokens for public
+Percentage of all HAC
+
+39%
+
+tokens for Hackspace
+Capital current and
+future projects
+(startups)
+Percentage of all HAC
+
+5%
+
+tokens for marketing,
+bounties, advisors,
+bonuses etc
+Percentage of all HAC
+
+5%
+
+tokens for long-term
+alignment of interests
+Target Amount Public
+
+$100,000,000.00
+
+Token Sales
+(Not fixed)
+Project Status
+
+Live Company
+
+On September 19, 2017 starting at 9 PM Singapore time (UTC +8) 255’000’000 (255 million)
+of all tokens will be offered for purchase to the public, under the symbol HAC.
+
+Token Sale Bonuses and Referrals
+Each 24 hour monthly HAC Token Sale session will be divided into 4 stages:
+1. Buyers of HAC TOKENS during the first 2 hour stage will receive a 50% HAC TOKEN
+bonus.
+
+© Hackspace Capital 2017
+
+27 of 30
+
+2. Buyers of HAC TOKENS during the next 4 hour stage will receive a 30% HAC TOKEN
+bonus.
+3. Buyers of HAC TOKENS during the next 16h stage will receive a 10% HAC TOKEN bonus.
+4. Buyers of HAC TOKENS during the final 2 hour stage will not receive a HAC TOKEN bonus.
+Beginning with the second scheduled auction of HAC TOKENS, HACKSPACE retains the
+right to postpone or change the time and/or date of such auctions.
+HACKSPACE TOKEN holders can also earn bonus HAC TOKENS via referrals. HAC TOKEN
+holders will receive a bonus equal to 5% of the value of HAC TOKENS purchased by any
+individual or group referred by them to HACKSPACE.
+
+© Hackspace Capital 2017
+
+28 of 30
+
+CONCLUSION
+Here, at HACKSPACE Capital, we believe that inventors are our future. We see our mission as
+the creation of an innovative engineering ecosystem for young inventors throughout the
+world. Our desire is that every talented inventor has access to all the necessary resources
+to turn their ideas into reality as quickly and effectively as possible. Perhaps some of them
+may not only improve our individual lives but also improve the world at large. Our aim is
+the establishment of the world’s best engineering ecosystem with the fastest and most
+organized process of product realization from “idea stage” to mass production.
+We also believe that blockchain technology and cryptocurrency are the future of
+transactions. For that reason, we are creating our own online platform where holders will
+be able to exchange HAC TOKENS for products and services presented by our startups.
+Considering the anticipated growth of HACKSPACE and the quantity of our present and
+future startups, we expect that HAC TOKENS will become a convenient, liquid currency,
+enabling an accelerated development of innovative products.
+Aside from providing the development of world changing products, HACKSPACE believes
+that the ability to exchange HAC TOKENS for any product in the HACKSPACE network (at up
+to a 20% discount!) and freely sell HAC TOKENS to others who want those products, should
+provide security and ongoing demand for the HAC TOKENS. Our ongoing investment into
+the most exciting companies will provide a constant supply of desirable products on which
+HAC TOKENS can be spent.
+Invest in the future and change the world for the better!
+
+© Hackspace Capital 2017
+
+29 of 30
+
+Legal entity
+Name	
+
+HACSP CAPITAL LTD
+
+Reg. Number	
+
+ΗΕ 372187
+
+Type	
+
+Limited Company
+
+SubType	
+
+Private
+
+Name Status	
+	
+Organisation Status	
+
+Current Name
+
+Adress
+
+16 Pentelis str., Nicosia 2401, Cyprus
+
+© Hackspace Capital 2017
+
+Active
+
+30 of 30
+
+

@@ -1,0 +1,1033 @@
++
+White Paper
+July 2017
+
+Social is a cryptocurrency that will be
+used within Nexus, a secure and private
+decentralized social network with integrated
+marketplace and ad platform
+
+CONTENT
+Abstract
+What are Socials?
+What is Nexus?
+Market
+Functionality
+Multi-Wallet
+Debit Card
+Marketplace
+Tor & VPN Integration
+Crowdfunding
+Decentralization
+Friends & Followers
+Image Editor
+Instant Messaging
+Mobile Applications
+Privacy
+Account Types
+Additional Features
+
+Technical Information
+Instant Access Debit Card
+Blockchains
+VPN
+Tor
+Multi-Wallet
+Ad Platform
+
+Pre-ICO
+Pre-ICO Details
+Pre-ICO Funds
+
+2
+
+3
+4
+4
+5
+6
+6
+7
+7
+8
+8
+8
+8
+8
+9
+9
+9
+9
+10
+11
+11
+11
+12
+12
+12
+12
+12
+12
+12
+
+Nexus ICO White Paper – Social Coins
+
+Main ICO
+ICO Details
+Coin Distribution
+Unsold Coins
+Minimum Goal
+Funds Allocation
+Bonus Rates
+
+Why Contribute
+Ad Platform
+On-Selling
+
+Contributing Rules
+Exchanges
+Roadmap and Development Plan
+Q4 2017
+Q1 2018
+Q2 2018
+Q3 2018
+Q4 2018
+Beyond
+
+Smart Contract
+Company Information
+Australian Registration
+Trademark
+
+Team
+Advisors
+Contact & Support
+
+12
+12
+13
+13
+13
+13
+14
+15
+16
+16
+16
+16
+17
+17
+17
+17
+17
+17
+17
+18
+18
+18
+18
+19
+20
+21
+
+ABSTRACT
+Almost 2.5 billion people on Earth use some form of social
+networking. Account data is harvested, and accessed by large
+corporations every day.
+Nexus is a new generation of social network. All data and
+uploads will exist on the blockchain instead of centralized
+servers. Nexus is a feature rich platform that allows you to
+communicate with friends and family in multiple different and
+unique ways, while providing state-of-the-art security and
+privacy.
+By decentralizing and encrypting all data and uploads,
+Nexus hopes to eliminate all invasion of privacy that
+large corporations are currently performing. End-to-end
+message encryption ensures only you and the person you’re
+communicating with can read what is sent, and nobody in
+between, not even Nexus. Imagine a full decentralized social
+network where all data and multimedia is stored on the
+blockchain instead of centralized servers.
+The network will contain its very own native cryptocurrency
+to be used for all purchases, called Social. SCL can be used to
+buy goods and services from other users, purchase ad spaces
+from the integrated ad platform, donate to crowd funding
+campaigns, and much more.
+Nexus will create a gateway between Social coins and the real
+world by offering an instant access debit card that can be used
+almost anywhere on Earth.
+Be a part of history by participating in the Initial Coin Offering.
+By getting in early, you’ll have the chance to be the first in
+the world to hold Social coins. As more users join Nexus, the
+demand for Social will increase, while the total amount of
+coins will never exceed 50 million.
+Nexus is giving the power back to the people.
+
+Nexus ICO White Paper – Social Coins
+
+3
+
+WHAT ARE
+SOCIALS?
+Social aims to be the native
+cryptocurrency coin/token
+for Nexus. Social coins will be
+used throughout the Nexus
+marketplace and to buy and
+sell goods and services.
+
+WHAT IS
+NEXUS?
+Nexus is a social network
+built on modern technologies
+that also integrates popular
+features of e-commerce and
+crowdfunding. The network
+primarily concentrates on
+privacy, control of settings,
+security and listening to the
+voice of the community.
+Nexus is a platform that is
+already available to the public
+to sign up and use on iOS,
+Android and the web.
+Web: https://nexus.social,
+iOS: https://bit.ly/nexus-ios-app,
+Android: https://bit.ly/nexus-android-app
+
+4
+
+Nexus ICO White Paper – Social Coins
+
+Socials will also be used
+within the integrated Nexus
+ad platform. Impressions and
+clicks will be exchanged for
+Socials. These ads will be
+displayed within the user’s
+news feed. The Nexus ad
+platform will aim to be a far
+more affordable advertising
+method than other networks.
+
+MARKET
+Nexus will target two major markets: social and e-commerce. Both markets are multibillion-dollar
+industries that are currently controlled by large corporations.
+Nexus, along with its Social coins, hopes to create a decentralized social network paired with an
+online marketplace and much more.
+Market Statistics
+Social media advertising spend is projected to reach nearly $36 billion globally in 2017, with the
+U.S. and Canada spending the most and eclipsing $12.5 billion in 2016.
+E-commerce sales is expected to grow almost 12% in the next few years. Global retail ecommerce
+sales will reach $1.915 trillion in 2016, accounting for 8.7% of total retail spending worldwide. 71%
+of shoppers believe they will get a better deal online than in stores.
+Number of social media users worldwide
+from 2010 to 2021 (in billions)
+
+Number of digital buyers worldwide from
+2014 to 2021 (in billions)
+
+Nexus ICO White Paper – Social Coins
+
+5
+
+FUNCTIONALITY
+Multi-Wallet
+Nexus account wallets will be able to hold and store any
+Ethereum ERC20 standard token.
+ShapeShift.io integration will allow users to convert between
+tokens seamlessly straight from their Nexus account.
+Functionality will include converting Socials between
+ShapeShift supported ERC20 standard tokens or buying Socials
+directly with other ERC20 tokens. The Nexus account wallet is
+planned for launch early 2018.
+
+6
+
+Nexus ICO White Paper – Social Coins
+
+Marketplace
+
+Debit Card
+
+Nexus is a social platform
+that incorporates e-commerce
+functions. In simple terms,
+you can create a “product
+post” that represents a
+good or service. Friends and
+followers can see this and
+then purchase it directly with
+their Socials.
+
+The Nexus debit card will
+connect directly to the user’s
+account wallet.
+
+For example, if you wanted to
+sell your old laptop. You would
+simply take a few pictures of
+it, attach a title, description,
+optional location and your
+price in Socials. Depending on
+whether you set your product
+post as public or private,
+other users around the world
+will be able to search for it via
+keywords and/or location.
+
+The debit card will allow users
+to spend their Social coins as
+fiat currency anywhere in the
+world. Fees will be minimal
+and as the card uses Visa
+infrastructure you can use it
+almost anywhere in the world.
+Seamless Apple Pay and
+Android Pay integrations will
+follow shortly after.
+The instant access debit card
+will cost approximately $10 in
+SCL to order the physical card,
+and approximately $2 in SCL
+to generate a virtual card for
+Apply Pay or Android Pay.
+
+If a user decides to purchase
+your good or service, they can
+simply click the “Purchase”
+button attached to the post,
+and Socials are automatically
+transferred from their Nexus
+account wallet, directly to
+yours. Simple as that!
+The marketplace is already
+a working demo that exists
+within both the mobile
+applications and the web
+platform. The automatic
+purchasing functionality
+will be developed after
+the integration of the user
+account web wallet in Q2 2018
+
+Nexus ICO White Paper – Social Coins
+
+7
+
+Tor & VPN
+Integration
+By integrating the Tor API to
+our mobile applications, we
+hope to keep Nexus a secure
+and private social network.
+Tor functionality will be opt-in
+and only used by the account
+if requested.
+We also have plans to use
+a built-in VPN within both
+mobile apps that can be
+paired with Tor to offer
+extreme browsing privacy
+while using Nexus.
+
+Crowdfunding
+The Nexus platform also
+incorporates crowdfunding
+posts and functionality, called
+“Funds”. Any user has the
+ability to create a fund post
+for a specific cause alongside
+an image, description, and
+goal. Other users on Nexus
+can then donate Socials to the
+fund post and have their name
+displayed as a donator to that
+post.
+The fund posts are currently
+operational within Nexus. The
+donation functionality is not
+yet automated as it is waiting
+on the integration of Social
+coins to the Nexus platform.
+Fund posts will be operational
+at the same time as product
+posts.
+
+Decentralization
+Nexus plans to go completely
+decentralized by utilizing
+already existing blockchain
+applications. All data and
+multimedia uploads will be
+stored on the blockchain by
+the end of 2018, as stated in
+our roadmap.
+
+Friends & Followers
+Nexus has developed a unique
+way to develop connections
+within the network. Any user
+can follow any other user,
+although if the required user
+has “approvals” turned on,
+the follow request will not be
+initiated until it is approved.
+If user A follows user B, and
+then user B follows user A
+back, this then becomes a
+friendship. Friendships are
+more powerful connections on
+Nexus and they allow for more
+functionality such as instant
+messaging, faster searching,
+tagging and much more.
+
+Image Editor
+Nexus incorporates an
+advanced image editor that
+is available both online
+and through our mobile
+applications.
+Our editor allows for all
+kinds of adjustments such as
+cropping, rotating, zooming,
+panning, flipping and even
+adding photo filters.
+Each of our photo filters was
+handpicked and designed to
+ensure a variety of different
+styles to match your personal
+preference.
+
+8
+
+Nexus ICO White Paper – Social Coins
+
+Instant Messaging
+Messaging is a feature that
+almost every social platform
+incorporates these days.
+Nexus wants to take it one
+step further and offer mini
+features within the instant
+messaging functionality.
+While chatting with a friend
+you’ll also have the ability
+to send Socials instantly to
+them, request Socials, send
+multimedia attachments
+(images, GIFs, videos), emojis
+and much more. We also
+plan on allowing the sending
+and receiving of other ERC20
+standard tokens through
+instant messages.
+Instant messages are the
+most used feature within a
+social networking platform, so
+Nexus hopes to make it more
+enjoyable and sociable for its
+users.
+Nexus hopes to integrate endto-end message encryption.
+This ensures only you and the
+person you’re communicating
+with can read what is sent,
+and nobody in between, not
+even Nexus.
+
+Mobile Applications
+Nexus is available for
+download on both the iOS App
+Store and Google Play Store.
+All features available on the
+web platform are also within
+both mobile applications.
+
+The mobile apps have the
+ability to store your username
+and password securely in the
+devices encrypted storage for
+easy and painless logins. Both
+apps vary in download size
+depending on the device, but
+on average are less than 10MB
+to install
+
+Privacy
+We ensure that users have full
+control over both their data
+and accounts privacy. This is
+why we have created two very
+basic privacy settings within
+your account.
+Visibility: Whether or not
+you would like your profile
+displayed publically.
+Approval: Whether you would
+like to approve each user as
+they request to follow you.
+
+Account Types
+Nexus has created an account
+type for both personal users
+and businesses. Upon signing
+up, users are prompted to
+select an account type that
+best suits them.
+Business accounts consist of
+slightly different settings,
+while personal accounts are
+best aimed for the average
+every day user.
+Users can switch between
+account types at any time
+simply from their account
+settings page.
+
+Both versions are compatible
+with push notifications so that
+you receive updates directly
+to your phone in real time.
+
+Nexus ICO White Paper – Social Coins
+
+9
+
+Additional Features
+If you want to know all the
+ins and outs of Nexus, we
+recommend creating an
+account. The platform has
+much more to offer such as
+events, groups, filtering, GIF
+libraries, custom emojis, user
+tagging, hash tagging, and
+much more.
+
+10
+
+Nexus ICO White Paper – Social Coins
+
+TECHNICAL INFORMATION
+Instant Access Debit Card
+We will use a technique called JITF (Just in Time Funding). Here’s a breakdown on how an entire
+transaction will work using the Nexus debit card:
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+User is issued a physical or virtual Nexus debit card that is linked to their account wallet
+Card contains $0 at all times
+User swipes card to pay for a purchase
+Transaction is sent to our server
+Server checks which fiat currency is requested (USD, AUD, EUR)
+Nexus checks if user account wallet contains enough Social (SCL) to make the purchase
+SCL is then sold for requested fiat
+Fiat is moved to the debit card
+Transaction is approved
+Card balance is back to $0
+
+The debit card will be built on Visa infastructure and will integrated with a Nexus back end API
+for all transactions.
+
+Blockchains
+The Nexus platform will utilize multiple existing blockchains for SCL transfers, data storage and
+multimedia uploads.
+TRANSFERS
+As SCL is an ERC20 based Ethereum token, it is only logical that Ethereum will be used for all
+transactions within the marketplace, ad platform, crowdfunding, token swapping, and all other
+related currency transfer features.
+All marketplace purchases will be first sent through a master account controlled by Nexus, the
+3% fee taken, and then rest forwarded to the sellers address. Both TX fees will be absorbed by
+Nexus, not the seller.
+MULTIMEDIA UPLOADS
+As of current, the team plans on utilizing Storj for all multimedia uploads and storage. Storj
+now allows for video and audio streaming over the blockchain which will be very beneficial to
+a social network like Nexus. This decision may change before implementation as development
+for decentralized storage is not planned until mid 2018 and new blockchain based multimedia
+storage applications are being released often.
+DATA STORAGE
+Database storage will rely on BigchainDB. After investigating multiple blockchain based data
+storage option, we found that BigchainDB had the best technology, fastest blockchain write
+speeds and seamless integrations. As stated above, the decision of this may change before
+implementation if a better decentralized database solution arises.
+
+Nexus ICO White Paper – Social Coins
+
+11
+
+VPN
+The built in VPN will be opt-in only and available within the iOS and Android applications only,
+not the web version of Nexus. The functionality will be an integrated client and will rely on
+the open source OpenVPN. The decision of which open source application to utilize may change
+before implementation.
+
+Tor
+Tor offers multiple different integration solutions such as their open source packages (Orbit),
+router API, Tor Browser, and much more. We plan on implementing features from Tor slowing to
+make sure that they benefit our users instead of disturbing them. We will first offer a beta for a
+Tor Browser integrated client to see how that goes with the community.
+
+Multi-Wallet
+Each user on Nexus will be assigned a multi-wallet that supports all ERC20 based tokens. The
+wallet will rely on Ethereum’s open source Web3 project for transfers and signing transactions.
+Users will not have the ability to export their private key. This is a feature that we may allow in
+the near future.
+
+Ad Platform
+The Nexus ad platform will be semi-automatic and self-serve. Any user with a Nexus account and
+SCL balance above 0 can create and submit an ad campaign through the platform.
+All submited campaigns will be manually approved by Nexus support staff before going live on
+the network to ensure quality and compliance. All costs will be in SCL, and will be based on CPC
+(cost per click) and CPI (cost per impression).
+The ad platform will show very basic metrics on first launch and may expand on this in the near
+future.
+Ads will not be target specific on first launch, although we do have plans to improve this in the
+near future.
+
+12
+
+Nexus ICO White Paper – Social Coins
+
+Pre-ICO
+Our pre-ICO will begin on the 28th of July 2017 and will run for 10 days until the 7th of August
+2017. All Socials will be available during the pre-ICO with no maximum (besides hard cap) and
+no minimum.
+
+Pre-ICO Details
+Maximum for sale pre-ICO
+Pre-ICO price
+Minimum transaction amount
+Pre-ICO sale period
+
+47,500,000 SCL
+1 ETH = 850 SCL
+0.04 ETH
+01:00am GMT Jul 28 2017 to
+01:00am GMT Aug 7 2017
+
+Coin distribution
+
+Contract will distribute coins/tokens instantly upon
+receiving ETH
+No minimum
+
+Minimum pre-ICO goal
+
+Our pre-ICO has an exclusive bonus rate of 850 SCL per 1 ETH for the entire period. This
+presale is aimed to raise funds to advertise and market the main ICO.
+
+Pre-ICO Funds
+Pre-ICO funds will go into marketing the main ICO. We are planning multiple approaches of
+digital marketing such as banner ads, press releases, signature campaigns and social media.
+
+Main ICO
+Our ICO structure will perform an immediate exchange of Social coins from your contributed
+Ether.
+
+ICO Details
+Role of coin/token
+Symbol
+Maximum supply (hard cap)
+For sale this ICO
+
+Used to buy goods, services and ad spaces on Nexus
+SCL
+50,000,000 SCL
+47,500,000 SCL Emission rate
+
+Emission rate
+Accepted currencies
+Price
+Minimum transaction amount
+ICO sale period
+
+No new coins will ever be created
+ETH only
+1 ETH = 500 SCL
+0.04 ETH
+01:00am GMT Aug 17 2017 to 01:00am GMT Sep 15 2017
+
+Nexus ICO White Paper – Social Coins
+
+13
+
+Coin distribution
+Minimum goal
+If minimum not met
+
+Contract will distribute coins/tokens instantly upon
+receiving ETH
+250,000 SCL
+Refunds will be issued via the smart-contract
+
+Coin Distribution
+95% of all coins are available for purchase during the ICO. A maximum of 5% of the total
+supply of coins will be given to promote the product via multiple forms of digital marketing
+and development.
+Zero tokens will be distributed to the Nexus team, instead, we will be implementing a “buyback” program (see below). This will highly reduce the probability of a day one exchange
+dump that happens to most new tokens that hit the market.
+No coins are offered for bounties as all bounty payouts are in BTC.
+Here is a breakdown on where all coins will be:
+Nexus team
+0 SCL
+Marketing campaigns
+2,500,000 SCL
+Pre & Main ICO
+47,500,000 SCL
+
+Buy-Back Program
+Instead of allocating X amount of SCL to the team during the ICO period, we will be
+launching a buy-back program on the exchange. This way, SCL will be purchased with BTC
+instead of being allocated free of charge to team members.
+A total of 5% of all SCL in circulation will be purchased back during the first 24 hours to help
+SCL enter a bullish trend.
+
+Unsold Coins
+Our smart contract is set to only create (mint) coins/tokens as it accepts ETH. Therefore,
+there will be no unsold coins remaining after the ICO has been finalized.
+
+Minimum Goal
+We have strategically set a minimum funding goal for the crowdsale. If the minimum goal is
+not set, full refunds will be made via the smart-contract.
+If the main ICO does not pass the minimum specified, all remaining pre-ICO funds are
+returned to the investors minus marketing expenses.
+
+14
+
+Nexus ICO White Paper – Social Coins
+
+Funds Allocation
+All raised funds from the ICO will be liquidated slowly to ensure no market disruptions.
+Development
+Security Audits
+Legals
+Hardware Upgrades
+Advertising
+
+65%
+10% (max 3000 ETH)
+10% (max 1000 ETH)
+5% (max 100 ETH)
+10%
+
+Bonus Rates
+Our main ICO will have an ongoing bonus structure for the entire crowdsale period.
+First day
+Week 1
+Week 2
+Week 3
+Week 4
+
+1
+1
+1
+1
+1
+
+ETH
+ETH
+ETH
+ETH
+ETH
+
+=
+=
+=
+=
+=
+
+750
+700
+650
+600
+550
+
+SCL
+SCL
+SCL
+SCL
+SCL
+
+Nexus ICO White Paper – Social Coins
+
+15
+
+WHY CONTRIBUTE
+The number of Social coins is limited to 50,000,000 and no further coins can be created due to
+the strict laws of smart-contracts.
+All coins sold within the pre-ICO and main ICO will be the only Socials ever in circulation. Once
+Nexus is complete and integrates Social coins inside the marketplace, the demand of Socials will
+increase, as more people demand it as a form of payment for their goods and services.
+Due to our “buy-back” program, the chances of SCL entering a bullish market once it hits an
+exchange is high. If the bullish trend sticks, the price of SCL should increase steadily.
+Bonus rates are offered for every period of the ICO. This means that participating during the
+ICO, the contributor will recieve the base rate of 1 ETH = 500 SCL plus the current bonus in
+effect.
+
+16
+
+Nexus ICO White Paper – Social Coins
+
+Ad Platform
+Nexus plans to integrate a fully functional and semi-automatic ad platform
+in Q3 2018. The ad platform will allow users to create ads that are displayed
+within the news feed. All ad spaces will cost an amount in Socials that is yet
+to be determined. Charges will cost per impression and per click and will
+automatically deduct the amount in Social from the accounts web wallet.
+
+On-Selling
+All Socials that Nexus makes via the marketplace fees and ad spaces will be
+on-sold via the Nexus website.
+Socials will be sold for ETH, BTC or via USD from a credit card. The rate of
+socials will be the last seven days high +2%. This will ensure the constant
+price rise of Socials.
+All ETH and BTC raised from fees on Nexus will only be liquidated when the
+business requires further funds.
+
+Contributing Rules
+There are strict rules and precautions to follow while participating within the Socials ICO.
+• Send ETH from your personal Ethereum wallet (such as MyEtherWallet, Metamask,
+Parity, Mist or Ledger).
+• Set Limit to 200,000.
+• Do not send funds from exchanges like Coinbase, Poloniex etc.
+• Do not send your funds before the crowdsale has begun.
+• SCL will be sent immediately to the wallet from which the ETH arrived.
+Before contributing to the ICO, please make sure you have read and agreed to our
+“crowdsale agreement” document found below.
+https://ico.nexus.social/pdfs/legals/Nexus-Crowdsale-Agreement.pdf
+
+Exchanges
+Nexus has prepared all required documentation to be listed on exchanges. We are
+currently talking with a few exchanges and plan to be listed on at least one major
+exchange shortly after the finaliztion of the ICO.
+
+Nexus ICO White Paper – Social Coins
+
+17
+
+Roadmap and Development Plan
+Our future roadmap and development plan is transparent and precise. We plan on
+redeveloping the entire Nexus platform for speed, security and reliability.
+
+Q1 2018
+Q4 2017
+Release new version of Nexus
+front-end.
+• Full front-end re-development
+in Angular 4
+• CI adaption for zero downtime
+on new releases
+• Open source front-end
+• Split back-end API from frontend project
+
+Q2 2018
+Finalise integration of
+Social coins into Nexus for
+marketplace purchases and
+fund donations.
+Perform one or more third
+party security audits.
+Create secure web based
+wallet for each user inside
+their Nexus account.
+
+Q4 2018
+Move data and uploads to
+decentralized and encrypted
+storage.
+Distribution of Nexus debit
+card.
+
+18
+
+Nexus ICO White Paper – Social Coins
+
+Release new version of Nexus backend.
+• Re-evaluate and optimize
+NodeJS backend
+• Better security for API
+• Post reactions
+• Restructure models and
+database for faster queries
+• End-to-end message encryption
+• Integrate 2FA
+
+Q3 2018
+Ad platform where Socials can
+be traded for advertising.
+Development and integration
+of the Nexus debit card
+
+Beyond
+Just a few of the features we hope
+to integrate in the near future.
+• Integration of Tor API and builtin VPN
+• Bidding system for purchasing in
+the marketplace
+• Multilingual functionality to suit
+all users
+• Send Socials and other stored
+tokens through instant messages
+• Allowing general public users to
+become moderators and earn
+Socials
+• Single sign on functionality for
+third party integrations
+• Host multiple account logins
+without logging out
+• Continuously adding new
+features suggested by the users
+
+Smart Contract
+Our contract follows the ERC20 standard Ethereum token code, so Socials can be stored in
+any compatible ERC20 wallet.
+Our crowdsale smart contract has been audited and is available for review online via the
+following Etherscan link.
+https://etherscan.io/address/0x582e3d8dcd41f586fbcc6559f16476d20b
+2a3b95#code
+
+Company Information
+Nexus is a company trading under FatCat Group Pty Ltd in Australia. The original entity
+name behind the ACN (Australian Company Number) was Nexus Social Network, but later
+changed to FatCat Group so that all technology can be licensed under the same parent
+entity.
+
+Australian Registration
+To view more information about our company and the entities under it, please visit the
+following link:
+http://abr.business.gov.au/SearchByAbn.aspx?abn=82169756343
+
+Trademark
+Nexus has a trademark registered in Australia for our slogan, “The centre of all
+connections” and our logo. You can view information about our trademark via the
+following link:
+https://search.ipaustralia.gov.au/trademarks/search/view/1689010?q=1689010
+
+Nexus ICO White Paper – Social Coins
+
+19
+
+Team
+
+Jade Mulholland Mo Abbas
+Founder & Lead Developer
+
+https://www.linkedin.com/in/jade-mulholland/
+https://stackoverflow.com/users/1799136/fizzix
+
+Jade graduated from Bond University with
+a Bachelor of Multimedia Design with a
+double major in Information Technology and
+advertising. Since then Jade has been working
+as a full stack JavaScript developer with
+modern technologies such as Angular, NodeJS,
+TypeScript and Webpack.
+
+Backend & Solidity Developer
+https://www.linkedin.com/in/mohamad-abbas-16086115/
+https://stackoverflow.com/uers/1592884/moes
+
+Mohamad has been working as a backend
+developer with Microsoft technologies for
+decades. His experience varies from online
+stock market platforms to fully integrated
+custom CRM systems. Mo’s recent experience
+includes Solidity development and smart
+contracts with Ethereum.
+
+Selena Bunting
+
+Sara Fitzwilliam
+
+Kelly Gooch
+
+Selena is the head of all
+public relations and business
+communications for Nexus.
+She leads international
+promotions and also speaks
+Chinese.
+
+Sara is the lovely lady on
+the other side of the screen
+answering all customer
+support enquires. She’s the
+backbone of the organization
+and helps keep everything on
+track.
+
+Kelly is the second half of our
+Nexus support team. She leads
+social media posts, instant
+messages and also assists with
+marketing.
+
+Public Relations &
+Communications
+
+20
+
+Nexus Support
+
+Nexus ICO White Paper – Social Coins
+
+Social Media
+
+Advisors
+
+Frank Bonnet Hansco Leek
+Advisor Advisor
+
+https://www.linkedin.com/in/frank-bonnet3b890865/
+
+Frank is the founder and
+lead developer of DCORP, an
+autonomous, decentralized
+and democratic organization
+that exists on the blockchain
+as a series of smart-contracts.
+Frank provides his expertise
+on Solidity development for
+our smart-contracts.
+
+https://www.linkedin.com/in/hansco-leek5bb86210/
+
+Stockbroker, entrepreneur,
+investor, early Bitcoin adopter
+and co-owner/founder at
+Autodealers (successful
+Automotive IT company)
+among others. Hansco assists
+and advises with service
+management and business
+relations.
+
+Nexus ICO White Paper – Social Coins
+
+21
+
+Contact & Support
+If you have any questions about Nexus, Socials, our team, our technology, or
+anything in between, feel free to reach out.
+Website: https://nexus.social
+ICO Info: https://ico.nexus.social
+Email: support@nexus.social
+BitcoinTalk: https://bitcointalk.org/index.php?topic=2100970
+Facebook: https://www.facebook.com/nexussocialnetwork
+Instagram: https://www.instagram.com/nexus_app
+Twitter: https://twitter.com/nexus_socials
+Reddit: https://www.reddit.com/r/nexus_social
+Slack: http://slack.nexus.social/
+Telegram: https://t.me/nexus_social
+YouTube: https://www.youtube.com/channel/UCoSx37iRR5KZ2TgMSzgk_mg
+
+

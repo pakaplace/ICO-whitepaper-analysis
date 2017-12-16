@@ -1,0 +1,832 @@
+ 
+
+ 
+
+ 
+ 
+ 
+
+district0x​ ​Network 
+ 
+White​ ​Paper​ ​v0.3 
+September​ ​14th,​ ​2017 
+ 
+
+A​ ​cooperative​ ​of​ ​decentralized​ ​marketplaces​ ​and​ ​communities. 
+Powered​ ​by​ ​Ethereum,​ ​Aragon,​ ​and​ ​IPFS. 
+ 
+ 
+Matus​ ​Lestan 
+matus@district0x.io 
+ 
+Joe​ ​Urgo 
+joe@district0x.io 
+ 
+Alexander​ ​Khoriaty 
+alexander@district0x.io 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+2 
+
+Abstract 
+In​ ​this​ ​paper,​ ​we​ ​offer​ ​an​ ​overview​ ​of​ ​the​ ​district0x​ ​Network,​ ​a​ ​collective​ ​of​ ​decentralized 
+marketplaces​ ​and​ ​communities,​ ​hereafter​ ​referred​ ​to​ ​as​ ​districts.  
+ 
+Districts​ ​exist​ ​as​ ​decentralized​ ​entities,​ ​built​ ​upon​ ​a​ ​standard​ ​open​ ​source​ ​framework 
+comprised​ ​of​ ​Ethereum​ ​smart​ ​contracts​ ​and​ ​front-end​ ​libraries,​ ​hereafter​ ​referred​ ​to​ ​as 
+d0xINFRA. 
+ 
+d0xINFRA​ ​provides​ ​districts​ ​with​ ​core​ ​functionalities​ ​that​ ​are​ ​necessary​ ​to​ ​operate​ ​an 
+online​ ​marketplace​ ​or​ ​community.​ ​Namely,​ ​the​ ​ability​ ​for​ ​users​ ​to​ ​post​ ​listings,​ ​filter​ ​and 
+search​ ​through​ ​listings,​ ​rank​ ​peers​ ​and​ ​amass​ ​reputation,​ ​and​ ​send​ ​invoices​ ​and​ ​collect 
+payments.​ ​The​ ​d0xINFRA​ ​framework​ ​is​ ​designed​ ​to​ ​be​ ​open​ ​and​ ​extendable,​ ​allowing 
+districts​ ​to​ ​be​ ​customized​ ​and​ ​granted​ ​additional​ ​functionality​ ​through​ ​the​ ​use​ ​of​ ​auxiliary 
+modules.  
+ 
+We​ ​also​ ​introduce​ ​the​ ​district0x​ ​Network​ ​Token​ ​in​ ​order​ ​to​ ​facilitate​ ​open​ ​participation 
+and​ ​coordination​ ​across​ ​the​ ​network​ ​while​ ​providing​ ​protections​ ​from​ ​malicious​ ​actors. 
+The​ ​district0x​ ​Network​ ​Token​ ​is​ ​a​ ​multi-utility​ ​token​ ​which​ ​is​ ​required​ ​for​ ​application​ ​to 
+the​ ​district0x​ ​Network,​ ​utilized​ ​in​ ​an​ ​incentivized​ ​voting​ ​game​ ​to​ ​dictate​ ​access​ ​to​ ​a​ ​suite 
+of​ ​ancillary​ ​services​ ​exclusive​ ​to​ ​network​ ​members,​ ​used​ ​to​ ​signal​ ​support​ ​or​ ​disapproval 
+for​ ​proposals​ ​made​ ​by​ ​network​ ​participants,​ ​and​ ​which​ ​can​ ​be​ ​staked​ ​to​ ​deposit​ ​pools​ ​to 
+mint​ ​tokens​ ​providing​ ​district-specific​ ​rights​ ​on​ ​third-party​ ​platforms.  
+ 
+
+ 
+
+ 
+ 
+3 
+
+Table​ ​of​ ​Contents 
+Introduction
+
+4 
+
+Districts
+
+5 
+
+d0xINFRA
+
+8 
+
+Auxiliary​ ​Modules
+
+9 
+
+Governance​ ​by​ ​Aragon
+
+1​0 
+
+The​ ​District​ ​Registry
+
+1​1 
+
+district0x​ ​Network​ ​Token
+
+1​4 
+
+district0x​ ​Network​ ​Token​ ​Distribution
+
+1​6 
+
+Roadmap
+
+1​7 
+
+Projected​ ​Use​ ​of​ ​Contributions
+
+1​8 
+
+Management​ ​of​ ​Contributions
+
+19 
+
+Transparency​ ​Policy
+
+20 
+
+Team
+
+21 
+
+Appendix
+ 
+ 
+
+22 
+
+ 
+
+ 
+ 
+4 
+
+Introduction 
+In​ ​recent​ ​years,​ ​the​ ​economic​ ​powers​ ​of​ ​decentralization​ ​have​ ​materialized.​ ​Uber​ ​has 
+disintermediated​ ​transportation​ ​and​ ​achieved​ ​a​ ​valuation​ ​of​ ​$69B1.​ ​Airbnb​ ​has​ ​made 
+similar​ ​disruptions​ ​in​ ​the​ ​lodging​ ​sector,​ ​giving​ ​them​ ​a​ ​value​ ​of​ ​$31B2​ ​by​ ​most​ ​recent 
+measures.​ ​Entrenched​ ​conglomerates​ ​are​ ​being​ ​uprooted​ ​by​ ​upstarts​ ​who​ ​realize​ ​that 
+value​ ​is​ ​in​ ​the​ ​network​ ​effect​ ​of​ ​their​ ​users,​ ​rather​ ​than​ ​the​ ​cost​ ​of​ ​physical​ ​assets​ ​they 
+own​ ​or​ ​expend.  
+ 
+While​ ​customers​ ​of​ ​these​ ​services​ ​have​ ​enjoyed​ ​lower​ ​prices​ ​and​ ​better​ ​user 
+experiences​ ​relative​ ​to​ ​those​ ​available​ ​in​ ​the​ ​past,​ ​they​ ​are​ ​still​ ​subject​ ​to​ ​higher​ ​costs 
+than​ ​they​ ​would​ ​be​ ​without​ ​for-profit​ ​third-parties​ ​extracting​ ​fees​ ​and​ ​they​ ​have​ ​little​ ​say 
+over​ ​the​ ​evolution​ ​of​ ​these​ ​platforms.​ ​Despite​ ​business​ ​models​ ​relying​ ​upon​ ​sustaining 
+massive​ ​user​ ​bases​ ​that​ ​allow​ ​them​ ​to​ ​operate​ ​at​ ​scale,​ ​users​ ​have​ ​no​ ​means​ ​of 
+participating​ ​in​ ​the​ ​value​ ​creation​ ​reaped​ ​from​ ​their​ ​use​ ​of​ ​these​ ​centrally​ ​controlled 
+platforms.​ ​Until​ ​recent​ ​advancements​ ​in​ ​trustless​ ​network​ ​design,​ ​network​ ​participants 
+had​ ​few​ ​reliable​ ​means​ ​for​ ​self-organizing​ ​without​ ​a​ ​centralized​ ​party. 
+ 
+The​ ​advent​ ​and​ ​subsequent​ ​development​ ​of​ ​the​ ​Ethereum​ ​protocol​ ​has​ ​opened​ ​the​ ​door 
+for​ ​experimentation​ ​in​ ​decentralized​ ​organizational​ ​structures​ ​and​ ​the​ ​distribution​ ​of 
+governance​ ​rights​ ​to​ ​a​ ​network’s​ ​participants.​ ​Projects​ ​such​ ​as​ ​Aragon​,​ ​Boardroom​, 
+Colony​,​ ​and​ ​Giveth​​ ​are​ ​actively​ ​working​ ​to​ ​harness​ ​the​ ​powers​ ​of​ ​Ethereum​ ​for​ ​these 
+purposes,​ ​building​ ​platforms​ ​that​ ​enable​ ​non-technical​ ​users​ ​to​ ​create​ ​and​ ​administrate 
+decentralized​ ​organizations.​ ​These​ ​tools​ ​allow​ ​for​ ​new​ ​means​ ​of​ ​group​ ​coordination 
+through​ ​economic​ ​incentives,​ ​making​ ​it​ ​possible​ ​to​ ​disintermediate​ ​marketplaces​ ​and 
+communities​ ​and​ ​to​ ​allocate​ ​voting​ ​rights​ ​to​ ​their​ ​participants.​ ​In​ ​short,​ ​citizens​ ​of​ ​the 
+internet​ ​can​ ​now​ ​build​ ​and​ ​control​ ​the​ ​platforms​ ​they​ ​frequent​ ​every​ ​day. 
+ 
+Utilizing​ ​the​ ​aforementioned​ ​technologies,​ ​the​ ​district0x​ ​Network​ ​will​ ​facilitate​ ​the 
+operation​ ​and​ ​governance​ ​of​ ​marketplaces​ ​and​ ​communities​ ​as​ ​decentralized​ ​entities. 
+The​ ​district0x​ ​Network​ ​will​ ​enable​ ​the​ ​recreation​ ​of​ ​many​ ​of​ ​the​ ​internet’s​ ​most​ ​popular 
+applications​ ​and​ ​services​ ​while​ ​eliminating​ ​rent-seeking​ ​and​ ​the​ ​relinquishment​ ​of 
+decisions​ ​and​ ​personal​ ​data​ ​to​ ​third-parties.  
+ 
+ 
+1
+
+​ ​https://www.recode.net/2017/5/25/15686886/ride-hail-valuation-investment-uber-didi-lyft 
+​ ​https://www.wsj.com/articles/airbnb-valued-at-31-billion-after-new-funding-round-1489086240 
+
+2
+
+ 
+ 
+5 
+
+Districts 
+The​ ​district0x​ ​Network​ ​is​ ​comprised​ ​of​ ​districts.​ ​Districts​ ​are​ ​markets​ ​and​ ​communities 
+that​ ​exist​ ​as​ ​decentralized​ ​entities​ ​built​ ​upon​ ​the​ ​d0xINFRA​ ​framework.  
+ 
+At​ ​the​ ​core​ ​of​ ​every​ ​district​ ​are​ ​components​ ​necessary​ ​to​ ​operate​ ​a​ ​marketplace​ ​or 
+bulletin​ ​board​ ​application.​ ​All​ ​districts​ ​provide​ ​the​ ​following​ ​baseline​ ​functionalities: 
+ 
+● Posting​ ​and​ ​listings  
+● Search​ ​and​ ​filtering 
+● Ranking​ ​and​ ​reputation 
+● Payments​ ​and​ ​invoicing 
+ 
+These​ ​capabilities​ ​are​ ​tied​ ​together​ ​and​ ​made​ ​accessible​ ​to​ ​users​ ​via​ ​list,​ ​thumbnail,​ ​and 
+gallery-style​ ​user​ ​interfaces,​ ​popularized​ ​by​ ​online​ ​services​ ​such​ ​as​ ​Craigslist​ ​and​ ​Reddit.  
+
+Ethlance 
+Launched​ ​on​ ​the​ ​Ethereum​ ​MainNet​ ​in​ ​January​ ​2017,​ E
+​ thlance​​ ​is​ ​a​ ​freelance​ ​job​ ​market 
+and​ ​the​ ​first​ ​district​ ​of​ ​the​ ​district0x​ ​Network.  
+ 
+
+ 
+ 
+
+ 
+ 
+6 
+Ethlance​ ​allows​ ​users​ ​to​ ​create​ ​an​ ​employer/employee​ ​profile,​ ​list​ ​and​ ​apply​ ​for​ ​open 
+positions,​ ​rank​ ​and​ ​provide​ ​feedback​ ​for​ ​employers/employees,​ ​and​ ​to​ ​send/receive 
+invoices.​ ​Ethlance​ ​does​ ​not​ ​charge​ ​any​ ​service​ ​fees,​ ​and​ ​users​ ​pay​ ​only​ ​the​ ​necessary 
+cost​ ​of​ ​gas​ ​to​ ​broadcast​ ​their​ ​profiles,​ ​posts,​ ​messages,​ ​feedback,​ ​and​ ​invoices​ ​to​ ​the 
+Ethereum​ ​network.  
+ 
+Ethlance’s​ ​code​ ​is​ ​completely​ ​open-source​ ​at​ g
+​ ithub.com/district0x/ethlance​.​ ​Ethlance’s 
+front-end​ ​source​ ​files​ ​are​ ​written​ ​in​ ​Clojurescript​ ​and​ ​served​ ​via​ ​IPFS​.​ ​Ethlance’s​ ​backend 
+logic​ ​is​ ​governed​ ​by​ ​14​ ​smart​ ​contracts​ ​deployed​ ​on​ ​the​ ​Ethereum​ ​MainNet​ ​(Appendix​ ​A). 
+ 
+Since​ ​its​ ​launch,​ ​over​ ​410​ ​users​ ​have​ ​created​ ​a​ ​profile​ ​and​ ​more​ ​than​ ​190​ ​open​ ​positions 
+have​ ​been​ ​listed.​ ​Projects​ ​such​ ​as​ ​Status​,​ ​Aragon​,​ ​Colony​,​ ​WeTrust​,​ ​Rex​,​ ​JAAK​,​ ​and 
+Giveth​​ ​are​ ​amongst​ ​those​ ​currently​ ​hiring​ ​via​ ​Ethlance.   
+ 
+As​ ​the​ ​original​ ​district,​ ​Ethlance​ ​serves​ ​as​ ​an​ ​experimental​ ​sandbox​ ​for​ ​the​ ​creation​ ​and 
+refinement​ ​of​ ​the​ ​d0xINFRA​ ​framework​ ​and​ ​will​ ​be​ ​developed​ ​in​ ​perpetuity​ ​alongside 
+other​ ​districts​ ​deployed​ ​by​ ​the​ ​district0x​ ​team.  
+
+Name​ ​Bazaar 
+
+The​ ​second​ ​district​ ​to​ ​be​ ​deployed​ ​to​ ​the​ ​district0x​ ​Network​ ​will​ ​be​ ​Name​ ​Bazaar​,​ ​a 
+peer-to-peer​ ​marketplace​ ​for​ ​the​ ​exchange​ ​of​ ​names​ ​registered​ ​via​ ​the​ ​Ethereum​ ​Name 
+Service​.​ ​Name​ ​Bazaar​ ​intends​ ​to​ ​provide​ ​an​ ​easily​ ​discoverable​ ​registry​ ​of​ ​ENS​ ​names 
+that​ ​have​ ​been​ ​made​ ​available​ ​for​ ​purchase​ ​by​ ​their​ ​owners.  
+ 
+Amongst​ ​available​ ​options,​ ​owners​ ​will​ ​be​ ​able​ ​to​ ​choose​ ​to​ ​open​ ​customized​ ​auctions 
+or​ ​list​ ​their​ ​names​ ​for​ ​sale​ ​at​ ​fixed​ ​prices.​ ​Sellers​ ​will​ ​have​ ​the​ ​option​ ​of​ ​setting​ ​their 
+prices​ ​in​ ​ETH​ ​or​ ​any​ ​ERC20​ ​token.  
+ 
+Name​ ​Bazaar​ ​will​ ​also​ ​allow​ ​for​ ​the​ ​trading​ ​of​ ​subdomains,​ ​enabling​ ​the​ ​exchange​ ​of 
+usernames​ ​in​ ​decentralized​ ​applications​ ​such​ ​as​ ​Status​​ ​and​ ​organization​ ​names​ ​in​ ​the 
+Aragon​ ​Network​ ​Company​ ​Registry​. 
+
+Meme​ ​Factory 
+
+Inspired​ ​by​ ​the​ ​work​ ​of​ ​Simon​ ​de​ ​la​ ​Rouviere​ ​and​ ​his​ C
+​ uration​ ​Markets​​ ​design,​ ​the​ ​third 
+district​ ​to​ ​be​ ​deployed​ ​to​ ​the​ ​district0x​ ​Network​ ​is​ ​Meme​ ​Factory​.​ ​Meme​ ​Factory​ ​will 
+allow​ ​users​ ​to​ ​mint​ ​their​ ​own​ ​tokenized​ ​memes​ ​and​ ​offer​ ​them​ ​for​ ​sale​ ​immediately.  
+
+ 
+ 
+7 
+Meme​ ​Factory​ ​will​ ​provide​ ​an​ ​interface​ ​for​ ​the​ ​creation​ ​of​ ​provably​ ​rare​ ​digital​ ​assets​ ​on 
+the​ ​Ethereum​ ​blockchain​ ​which​ ​can​ ​be​ ​immediately​ ​posted​ ​to​ ​a​ ​bulletin​ ​board-style 
+marketplace​ ​for​ ​exchange.  
+ 
+Tokenizing​ ​and​ ​posting​ ​a​ ​meme​ ​to​ ​Meme​ ​Factory​ ​will​ ​resemble​ ​the​ ​process​ ​of​ ​creating​ ​a 
+new​ ​post​ ​on​ ​Reddit.​ ​Minting​ ​a​ ​tokenized​ ​meme​ ​will​ ​resemble​ ​the​ ​process​ ​of​ ​upvoting. 
+The​ ​number​ ​of​ ​tokens​ ​in​ ​existence​ ​for​ ​a​ ​particular​ ​meme​ ​at​ ​any​ ​given​ ​time​ ​will​ ​act​ ​as​ ​the 
+ranking​ ​mechanism,​ ​resembling​ ​the​ ​number​ ​of​ ​upvotes​ ​a​ ​post​ ​has​ ​received.​ ​These 
+functions​ ​will​ ​be​ ​tied​ ​together​ ​with​ ​a​ ​Curation​ ​Market​ ​model,​ ​with​ ​the​ ​cost​ ​of​ ​minting​ ​and 
+the​ ​rates​ ​at​ ​which​ ​one​ ​can​ ​redeem​ ​their​ ​memes​ ​governed​ ​by​ ​a​ ​scaling​ ​pricing​ ​curve. 
+
+Future​ ​Districts 
+
+Following​ ​the​ ​launch​ ​of​ ​Meme​ ​Factory,​ ​the​ ​district0x​ ​team​ ​intends​ ​to​ ​continue​ ​to 
+introduce​ ​new​ ​districts​ ​to​ ​the​ ​district0x​ ​Network.​ ​The​ ​district0x​ ​Network​ ​makes​ ​use​ ​of​ ​an 
+open​ ​proposal​ ​process,​ ​allowing​ ​all​ ​community​ ​members​ ​to​ ​submit​ ​ideas​ ​for​ ​new​ ​districts 
+via​ ​the​ ​district0x​ ​GitHub​. 
+ 
+The​ ​district0x​ ​Network​ ​Token​ ​offers​ ​a​ ​means​ ​for​ ​network​ ​participants​ ​to​ ​signal​ ​which 
+districts​ ​they​ ​would​ ​like​ ​to​ ​see​ ​built​ ​and​ ​deployed​ ​to​ ​the​ ​network​ ​next,​ ​enabling​ ​holders 
+to​ ​coordinate​ ​around​ ​ideas​ ​which​ ​will​ ​add​ ​the​ ​most​ ​utility.​ ​Signaling​ ​is​ ​currently​ ​facilitated 
+via​ ​the​ ​District​ ​Proposal​ ​Voting​ ​dApp​,​ ​a​ ​customized​ ​implementation​ ​of​ ​CarbonVote​.  
+
+District​ ​Creation​ ​Platform 
+
+The​ ​district0x​ ​Network​ ​will​ ​ultimately​ ​be​ ​comprised​ ​of​ ​global​ ​marketplaces​ ​and 
+hyperlocal​ ​communities​ ​alike.​ ​The​ ​district​ ​creation​ ​platform​ ​will​ ​provide​ ​users​ ​with​ ​an 
+easy​ ​to​ ​use​ ​interface​ ​to​ ​design​ ​and​ ​deploy​ ​their​ ​own​ ​districts​ ​to​ ​the​ ​district0x​ ​Network.  
+ 
+The​ ​district​ ​creation​ ​platform​ ​will​ ​provide​ ​a​ ​way​ ​to​ ​customize​ ​the​ ​parameters​ ​of​ ​the​ ​smart 
+contracts​ ​powering​ ​a​ ​district​ ​and​ ​will​ ​offer​ ​numerous​ ​UI​ ​options​ ​to​ ​support​ ​a​ ​wide​ ​variety 
+of​ ​markets​ ​and​ ​communities.​ ​The​ ​district​ ​creation​ ​interface​ ​will​ ​feature​ ​an​ ​auxiliary 
+module​ ​directory,​ ​similar​ ​to​ ​the​ ​Apple​ ​App​ ​Store​,​ ​to​ ​allow​ ​for​ ​the​ ​easy​ ​discovery​ ​of 
+plugins​ ​that​ ​extend​ ​the​ ​functionality​ ​and​ ​utility​ ​of​ ​districts.  
+ 
+ 
+
+ 
+ 
+8 
+
+d0xINFRA 
+d0xINFRA​ ​is​ ​an​ ​open​ ​source​ ​framework​ ​comprised​ ​of​ ​Ethereum​ ​smart​ ​contracts​ ​and 
+front-end​ ​libraries​ ​that​ ​govern​ ​the​ ​deployment​ ​of​ ​new​ ​districts​ ​to​ ​the​ ​network​ ​and 
+provide​ ​their​ ​baseline​ ​functionalities.  
+ 
+Each​ ​district’s​ ​backend​ ​logic​ ​will​ ​be​ ​controlled​ ​by​ ​a​ ​combination​ ​of​ ​d0xINFRA​ ​contracts 
+shared​ ​by​ ​all​ ​districts​ ​on​ ​the​ ​network​ ​and​ ​a​ ​set​ ​of​ ​district-specific​ ​contracts.​ ​Similarly,​ ​for 
+the​ ​front-end,​ ​districts​ ​will​ ​share​ ​reusable​ ​components​ ​where​ ​possible,​ ​primarily 
+‘under-the-hood’​ ​front-end​ ​logic,​ ​while​ ​still​ ​allowing​ ​for​ ​broad​ ​visual​ ​UI​ ​diversity. 
+ 
+
+ 
+ 
+The​ ​district0x​ ​Network​ ​seeks​ ​to​ ​be​ ​home​ ​to​ ​a​ ​vast​ ​array​ ​of​ ​markets​ ​and​ ​communities.​ ​In 
+accordance​ ​with​ ​this​ ​vision,​ ​d0xINFRA​ ​has​ ​been​ ​designed​ ​as​ ​an​ ​open​ ​and​ ​extendable 
+modular​ ​system​ ​that​ ​allows​ ​districts​ ​to​ ​implement​ ​unique​ ​features​ ​and​ ​enhanced 
+functionality​ ​via​ ​the​ ​plug-in​ ​of​ ​auxiliary​ ​modules​ ​(covered​ ​in​ ​the​ ​following​ ​section).  
+
+ 
+ 
+9 
+
+Auxiliary​ ​Modules 
+
+To​ ​allow​ ​for​ ​the​ ​development​ ​and​ ​deployment​ ​of​ ​new​ ​features,​ ​functionality,​ ​and 
+revenue​ ​generating​ ​mechanisms​ ​to​ ​districts,​ ​districts​ ​can​ ​be​ ​customized​ ​and​ ​extended 
+through​ ​the​ ​use​ ​of​ ​auxiliary​ ​modules. 
+ 
+An​ ​example​ ​of​ ​an​ ​auxiliary​ ​module​ ​that​ ​could​ ​potentially​ ​generate​ ​revenue​ ​for​ ​a​ ​district, 
+is​ ​one​ ​which​ ​provides​ ​a​ ​mechanism​ ​for​ ​users​ ​to​ ​bid​ ​on​ ​premium​ ​placement​ ​of​ ​their 
+listings,​ ​similar​ ​to​ ​Google​ ​AdWords.​ ​Winning​ ​bids​ ​would​ ​be​ ​sent​ ​to​ ​the​ ​district’s 
+governance​ ​pool.​ ​The​ ​participants​ ​in​ ​a​ ​district​ ​ultimately​ ​determine​ ​how​ ​funds​ ​in​ ​their 
+governance​ ​pool​ ​are​ ​to​ ​be​ ​allocated​ ​via​ ​their​ ​voting​ ​processes. 
+ 
+Another​ ​example​ ​of​ ​a​ ​potential​ ​revenue​ ​generating​ ​auxiliary​ ​module,​ ​is​ ​one​ ​which​ ​allows 
+for​ ​the​ ​optional​ ​insurance​ ​of​ ​proposals​ ​on​ ​the​ ​platform.​ ​ ​One​ ​could​ ​imagine​ ​a​ ​third-party 
+service​ ​deploying​ ​a​ ​module​ ​to​ ​offer​ ​financial​ ​guarantees​ ​on​ ​arrangements​ ​between 
+users​ ​of​ ​the​ ​platform​ ​in​ ​exchange​ ​for​ ​a​ ​fee. 
+ 
+An​ ​example​ ​of​ ​an​ ​auxiliary​ ​module​ ​that​ ​can​ ​enhance​ ​the​ ​user​ ​experience​ ​of​ ​a​ ​district​ ​is​ ​a 
+moderation​ ​mechanism​ ​that​ ​allows​ ​for​ ​the​ ​flagging​ ​and​ ​takedown​ ​of​ ​spam,​ ​malicious 
+links,​ ​or​ ​explicit​ ​content. 
+ 
+Districts​ ​will​ ​decide​ ​on​ ​a​ ​district​ ​by​ ​district​ ​basis​ ​what​ ​auxiliary​ ​modules​ ​are​ ​implemented 
+via​ ​their​ ​governance​ ​processes.  
+ 
+Third​ ​parties​ ​are​ ​encouraged​ ​to​ ​develop​ ​and​ ​contribute​ ​auxiliary​ ​modules​ ​to​ ​district0x. 
+They​ ​are​ ​incentivized​ ​to​ ​do​ ​so​ ​via​ ​the​ ​ability​ ​to​ ​charge​ ​districts​ ​fees​ ​for​ ​usage​ ​rights. 
+ 
+
+ 
+
+ 
+
+ 
+ 
+10 
+
+Governance​ ​by​ ​Aragon 
+
+Launched​ ​in​ ​2017,​ ​Aragon​​ ​is​ ​an​ ​operating​ ​system​ ​for​ ​decentralized​ ​entities.​ ​The​ ​Aragon 
+platform​ ​provides​ ​an​ ​easy​ ​to​ ​use​ ​interface​ ​for​ ​creating,​ ​administering,​ ​and​ ​governing 
+virtual​ ​entities.   
+ 
+Aragon​ ​allows​ ​for​ ​user-friendly​ ​management​ ​of​ ​the​ ​basic​ ​components​ ​of​ ​an​ ​entity​ ​such 
+as​ ​voting​ ​right​ ​distribution,​ ​role​ ​assignments,​ ​and​ ​accounting.​ ​The​ ​behavior​ ​of​ ​an​ ​Aragon 
+entity​ ​can​ ​be​ ​customized​ ​by​ ​changing​ ​its​ ​bylaws. 
+ 
+The​ ​creation​ ​of​ ​a​ ​district​ ​on​ ​the​ ​district0x​ ​Network​ ​will​ ​trigger​ ​the​ ​creation​ ​of​ ​a​ ​deposit 
+pool​ ​and​ ​corresponding​ ​entity​ ​on​ ​the​ ​Aragon​ ​Network.​ ​Through​ ​the​ ​district0x​ ​Network 
+Token​ ​staking​ ​interface,​ ​token​ ​holders​ ​can​ ​stake​ ​their​ ​tokens​ ​to​ ​deposit​ ​pools​ ​to​ ​mint 
+tokens​ ​which​ ​represent​ ​voting​ ​rights​ ​in​ ​district-specific​ ​Aragon​ ​entities,​ ​via​ ​which​ ​all​ ​of 
+the​ ​district’s​ ​governance​ ​activities​ ​will​ ​occur.  
+ 
+Voting​ ​rights​ ​can​ ​be​ ​used​ ​to​ ​partake​ ​in​ ​the​ ​processes​ ​that​ ​determine​ ​the​ ​characteristics 
+of​ ​a​ ​district​ ​ranging​ ​from​ ​its​ ​design,​ ​to​ ​its​ ​functionality,​ ​to​ ​its​ ​accepted​ ​code​ ​of​ ​conduct,​ ​to 
+the​ ​way​ ​revenue​ ​generated​ ​by​ ​the​ ​district​ ​is​ ​utilized​ ​or​ ​distributed. 
+ 
+Aragon​ ​entities​ ​created​ ​for​ ​districts​ ​will​ ​come​ ​preconfigured​ ​with​ ​a​ ​suggested​ ​set​ ​of 
+bylaws​ ​and​ ​parameters,​ ​but​ ​district​ ​participants​ ​can​ ​vote​ ​to​ ​change​ ​these​ ​as​ ​they​ ​see​ ​fit. 
+ 
+
+ 
+
+ 
+ 
+11 
+
+The​ ​District​ ​Registry 
+
+The​ ​District​ ​Registry​ ​is​ ​a​ ​decentrally​ ​maintained​ ​district​ ​whitelist,​ ​storing​ ​the​ ​credentials 
+of​ ​districts​ ​which​ ​have​ ​been​ ​granted​ ​access​ ​to​ ​the​ ​district0x​ ​Network.​ ​The​ ​presence​ ​of​ ​a 
+district​ ​in​ ​the​ ​District​ ​Registry​ ​signifies​ ​that​ ​the​ ​district​ ​has​ ​been​ ​accredited​ ​by​ ​district0x 
+Network​ ​Token​ ​holders​ ​as​ ​non-malicious​ ​and​ ​value-additive​ ​to​ ​the​ ​district0x​ ​Network. 
+ 
+Inclusion​ ​in​ ​the​ ​District​ ​Registry​ ​grants​ ​a​ ​district​ ​access​ ​to​ ​a​ ​suite​ ​of​ ​ancillary​ ​services 
+exclusive​ ​to​ ​members​ ​of​ ​the​ ​district0x​ ​Network.​ ​Registered​ ​districts​ ​are​ ​also​ ​eligible​ ​for 
+inclusion​ ​in​ ​the​ ​district0x​ ​Network​ ​Token​ ​staking​ ​interface,​ ​whereby​ ​token​ ​holders​ ​can 
+stake​ ​their​ ​DNT​ ​to​ ​a​ ​district’s​ ​deposit​ ​pool​ ​to​ ​mint​ ​voting​ ​rights​ ​in​ ​the​ ​respective​ ​district’s 
+Aragon​ ​entity. 
+ 
+A​ ​user​ ​interface​ ​will​ ​allow​ ​token​ ​holders​ ​to​ ​submit​ ​new​ ​district​ ​proposals​ ​to​ ​the​ ​District 
+Registry,​ ​challenge​ ​proposals,​ ​and​ ​vote​ ​for​ ​or​ ​against​ ​proposals​ ​in​ ​any​ ​ongoing​ ​voting 
+period.​ ​Additionally,​ ​token​ ​holders​ ​can​ ​vote​ ​to​ ​alter​ ​parameters​ ​for​ ​the​ ​District​ ​Registry​ ​at 
+large​ ​through​ ​the​ ​same​ ​interface.  
+
+Proposals​ ​and​ ​Deposits 
+
+To​ ​seek​ ​placement​ ​in​ ​the​ ​District​ ​Registry,​ ​authors​ ​of​ ​qualifying​ ​district​ ​proposals​ ​must 
+submit​ ​a​ ​deposit​ ​of​ ​district0x​ ​Network​ ​Tokens​ ​along​ ​with​ ​their​ ​completed​ ​proposal​ ​to​ ​the 
+District​ ​Registry’s​ ​application​ ​pool.​ ​This​ ​application​ ​will​ ​remain​ ​idle​ ​until​ ​the​ ​challenge 
+period​ ​passes.  
+ 
+If​ ​no​ ​challenge​ ​is​ ​raised​ ​during​ ​this​ ​period,​ ​the​ ​district​ ​will​ ​be​ ​included​ ​in​ ​the​ ​District 
+Registry​ ​and​ ​the​ ​initial​ ​deposit​ ​will​ ​be​ ​transferred​ ​to​ ​the​ ​district’s​ ​deposit​ ​pool​ ​on​ ​behalf 
+of​ ​the​ ​applicant,​ ​assigning​ ​the​ ​initial​ ​voting​ ​rights​ ​in​ ​the​ ​corresponding​ ​Aragon​ ​entity​ ​to 
+the​ ​applicant.​ ​Additionally,​ ​before​ ​any​ ​challenge​ ​occurs,​ ​the​ ​author​ ​may​ ​choose​ ​to 
+withdraw​ ​their​ ​application,​ ​reclaiming​ ​their​ ​deposit​ ​and​ ​forfeiting​ ​their​ ​chance​ ​for 
+inclusion​ ​in​ ​the​ ​District​ ​Registry​ ​until​ ​a​ ​later​ ​application​ ​is​ ​made.​ ​Applicants​ ​may​ ​apply​ ​for 
+placement​ ​in​ ​the​ ​District​ ​Registry​ ​as​ ​frequently​ ​as​ ​desired. 
+
+Challenges 
+At​ ​any​ ​point​ ​during​ ​or​ ​after​ ​the​ ​challenge​ ​period,​ ​any​ ​district0x​ ​Network​ ​Token​ ​holder 
+may​ ​choose​ ​to​ ​challenge​ ​a​ ​listing’s​ ​inclusion​ ​within​ ​the​ ​District​ ​Registry​ ​by​ ​sending​ ​an 
+equivalent​ ​deposit​ ​amount​ ​to​ ​the​ ​application​ ​pool.​ ​This​ ​initiates​ ​a​ ​voting​ ​period,​ ​during 
+
+ 
+ 
+12 
+which​ ​DNT​ ​holders​ ​across​ ​the​ ​network​ ​may​ ​vote​ ​in​ ​favor​ ​or​ ​against​ ​the​ ​inclusion​ ​of​ ​the 
+proposal​ ​in​ ​the​ ​District​ ​Registry.​ ​Votes​ ​are​ ​weighted​ ​according​ ​to​ ​a​ ​user’s​ ​DNT​ ​balance, 
+and​ ​are​ ​partially​ ​locked​ ​in​ ​a​ ​commit-reveal​ ​process​ ​inspired​ ​by​ ​Colony’s​ ​voting​ ​system​.
+If​ ​at​ ​the​ ​end​ ​of​ ​the​ ​voting​ ​period,​ ​vote​ ​counts​ ​are​ ​weighted​ ​in​ ​favor​ ​of​ ​inclusion​ ​to​ ​the 
+District​ ​Registry,​ ​the​ ​application​ ​succeeds​ ​and​ ​the​ ​challenger’s​ ​deposit​ ​is​ ​forfeited. 
+Likewise,​ ​if​ ​vote​ ​counts​ ​are​ ​weighted​ ​against​ ​inclusion​ ​to​ ​the​ ​Registry,​ ​the​ ​application​ ​is 
+rejected,​ ​and​ ​the​ ​applicant’s​ ​deposit​ ​is​ ​forfeited.  
+ 
+In​ ​both​ ​cases,​ ​a​ ​portion​ ​of​ ​the​ ​forfeited​ ​deposit​ ​gets​ ​distributed​ ​as​ ​a​ ​reward​ ​to​ ​voters​ ​on 
+the​ ​winning​ ​side​ ​of​ ​the​ ​vote​ ​in​ ​proportion​ ​with​ ​their​ ​vote​ ​size,​ ​and​ ​the​ ​depositor​ ​of​ ​the 
+winning​ ​side​ ​has​ ​their​ ​deposit​ ​returned.​ ​Voters​ ​from​ ​both​ ​sides​ ​never​ ​have​ ​funds​ ​at 
+stake,​ ​and​ ​will​ ​have​ ​their​ ​voting​ ​tokens​ ​returned​ ​to​ ​them​ ​in​ ​full​ ​regardless​ ​of​ ​the​ ​outcome 
+of​ ​the​ ​challenge.​ ​Applicants​ ​and​ ​challengers​ ​stand​ ​to​ ​lose​ ​their​ ​deposit​ ​from​ ​losing​ ​the 
+vote,​ ​while​ ​voters​ ​only​ ​stand​ ​to​ ​gain​ ​from​ ​participation.
+
+Parameterization
+All​ ​numeric​ ​parameters​ ​of​ ​the​ ​District​ ​Registry​ ​are​ ​flexible,​ ​and​ ​can​ ​themselves​ ​be​ ​voted 
+on​ ​for​ ​change​ ​through​ ​the​ ​propose-and-challenge​ ​process​ ​described​ ​above.​ ​The 
+district0x​ ​team​ ​will​ ​define​ ​the​ ​initial​ ​parameter​ ​values​ ​and​ ​will​ ​stake​ ​the​ ​initial​ ​deposits 
+required​ ​for​ ​these​ ​parameters.​ ​The​ ​parameter​ ​set​ ​is​ ​as​ ​follows: 
+
+ 
+
+● Required​ ​Deposit​ ​-​ ​The​ ​number​ ​of​ ​district0x​ ​Network​ ​Tokens​ ​needed​ ​to​ ​submit​ ​an 
+application​ ​to​ ​the​ ​Registry. 
+● Challenge​ ​Period​ ​Length​ ​-​ ​The​ ​amount​ ​of​ ​time​ ​(measured​ ​in​ ​blocks)​ ​that​ ​an 
+application​ ​must​ ​remain​ ​idle​ ​for​ ​challenge​ ​before​ ​automatic​ ​inclusion​ ​in​ ​the 
+Registry. 
+● Voting​ ​Period​ ​Length​ ​-​ ​The​ ​amount​ ​of​ ​time​ ​(measured​ ​in​ ​blocks)​ ​that​ ​a​ ​challenge 
+will​ ​remain​ ​open​ ​for​ ​voting​ ​commits​ ​from​ ​token​ ​holders. 
+● Reveal​ ​Period​ ​Length​ ​-​ ​The​ ​amount​ ​of​ ​time​ ​(measured​ ​in​ ​blocks)​ ​during​ ​which 
+committed​ ​votes​ ​can​ ​be​ ​revealed​ ​for​ ​a​ ​particular​ ​challenge. 
+● Required​ ​Vote​ ​Share​ ​Ratio​ ​-​ ​The​ ​ratio​ ​[0​ ​-​ ​1]​ ​of​ ​committed​ ​AND​ ​revealed​ ​tokens​ ​in 
+a​ ​vote​ ​required​ ​to​ ​uphold​ ​an​ ​application’s​ ​place​ ​in​ ​the​ ​District​ ​Registry.​ ​A​ ​higher 
+number​ ​implies​ ​a​ ​higher​ ​bar​ ​of​ ​acceptance​ ​to​ ​the​ ​Registry. 
+● Awarded​ ​Ratio​ ​-​ ​The​ ​ratio​ ​[0​ ​-​ ​1]​ ​of​ ​forfeited​ ​deposits​ ​in​ ​a​ ​challenge​ ​that​ ​gets 
+rewarded​ ​to​ ​the​ ​winning​ ​depositor.​ ​A​ ​higher​ ​number​ ​is​ ​more​ ​rewarding​ ​for​ ​the 
+depositor,​ ​a​ ​lower​ ​number​ ​is​ ​more​ ​rewarding​ ​for​ ​voters. 
+
+ 
+ 
+13 
+The​ ​district0x​ ​team​ ​will​ ​affix​ ​the​ ​initial​ ​parameter​ ​set​ ​to​ ​the​ ​following​ ​values: 
+ 
+● Required​ ​Deposit​ ​-​ ​1,000​ ​DNT 
+● Challenge​ ​Period​ ​Length​ ​-​ ​24,200​ ​blocks​ ​(about​ ​one​ ​week) 
+● Voting​ ​Period​ ​Length​ ​-​ ​24,200​ ​blocks 
+● Reveal​ ​Period​ ​Length​ ​-​ ​7,000​ ​blocks​ ​(about​ ​48​ ​hours) 
+● Required​ ​Vote​ ​Share​ ​Ratio​ ​-​ ​.5​ ​(A​ ​simple​ ​majority​ ​decides​ ​to​ ​accept/reject 
+applications) 
+● Awarded​ ​Ratio​ ​-​ ​.5​ ​(A​ ​challenger​ ​needs​ ​66.7%​ ​confidence​ ​in​ ​success​ ​to​ ​justify​ ​a 
+challenge) 
+ 
+The​ ​graphic​ ​below​ ​illustrates​ ​the​ ​flow​ ​of​ ​value​ ​between​ ​network​ ​participants​ ​in​ ​the​ ​event 
+of​ ​a​ ​proposal​ ​being​ ​challenged​ ​and​ ​granted​ ​access​ ​to​ ​the​ ​network​ ​after​ ​a​ ​voting​ ​period. 
+ 
+ 
+
+ 
+
+ 
+ 
+14 
+
+district0x​ ​Network​ ​Token 
+
+To​ ​facilitate​ ​open​ ​participation​ ​and​ ​coordination​ ​across​ ​the​ ​network​ ​while​ ​providing 
+protections​ ​from​ ​malicious​ ​actors​ ​we​ ​introduce​ ​the​ ​district0x​ ​Network​ ​Token​ ​(DNT).​ ​The 
+district0x​ ​Network​ ​Token​ ​is​ ​a​ ​multi-utility​ ​ERC20​ ​token​​ ​providing​ ​holders​ ​with​ ​both 
+network​ ​wide​ ​governance​ ​utility​ ​and​ ​a​ ​means​ ​of​ ​gaining​ ​access​ ​to​ ​district-specific​ ​voting 
+rights. 
+
+Network​ ​Governance​ ​Utility 
+
+The​ ​district0x​ ​Network​ ​Token​ ​is​ ​used​ ​for​ ​interaction​ ​with​ ​the​ ​District​ ​Registry​ ​and​ ​to 
+govern​ ​various​ ​aspects​ ​of​ ​the​ ​district0x​ ​Network​ ​at​ ​large.  
+ 
+Currently,​ ​district0x​ ​Network​ ​Token​ ​holders​ ​can​ ​utilize​ ​their​ ​DNT​ ​to​ ​signal​ ​for​ ​which 
+districts​ ​they​ ​would​ ​like​ ​the​ ​district0x​ ​team​ ​to​ ​build​ ​and​ ​deploy​ ​next​ ​to​ ​the​ ​district0x 
+Network.​ ​Token​ ​holders​ ​also​ ​have​ ​the​ ​ability​ ​to​ ​signal​ ​their​ ​support​ ​or​ ​disapproval​ ​for 
+proposals​ ​made​ ​by​ ​network​ ​participants​ ​via​ ​the​ ​district0x​ ​Feedback​ ​Dapp. 
+ 
+Gradually,​ ​additional​ ​district0x​ ​Network-wide​ ​governance​ ​utility​ ​will​ ​be​ ​introduced​ ​to​ ​the 
+district0x​ ​Network​ ​Token,​ ​experimenting​ ​with​ ​different​ ​capabilities​ ​and​ ​allowing​ ​time​ ​for 
+testing​ ​and​ ​refinement​ ​before​ ​committing​ ​to​ ​permanent​ ​designs​ ​for​ ​implementation.  
+ 
+Before​ ​the​ ​current​ ​district0x​ ​Network​ ​roadmap​ ​will​ ​be​ ​considered​ ​complete,​ ​governance 
+of​ ​the​ ​network​ ​at​ ​large​ ​will​ ​be​ ​turned​ ​over​ ​entirely​ ​to​ ​district0x​ ​Network​ ​Token​ ​holders.  
+
+District-Specific​ ​Governance​ ​Utility 
+
+The​ ​district0x​ ​Network​ ​Token​ ​can​ ​be​ ​staked​ ​to​ ​deposit​ ​pools​ ​to​ ​mint​ ​tokens​ ​providing 
+district-specific​ ​voting​ ​rights​ ​in​ ​corresponding​ ​Aragon​ ​entities.​ ​These​ ​voting​ ​rights​ ​allow 
+holders​ ​to​ ​directly​ ​participate​ ​in​ ​the​ ​governance​ ​of​ ​districts​ ​on​ ​the​ ​network.  
+ 
+Upon​ ​staking​ ​DNT​ ​to​ ​a​ ​district’s​ ​deposit​ ​pool,​ ​participants​ ​will​ ​receive​ ​tokenized​ ​voting 
+rights​ ​in​ ​the​ ​respective​ ​district’s​ ​Aragon​ ​entity,​ ​which​ ​they​ ​will​ ​retain​ ​for​ ​the​ ​duration​ ​of 
+the​ ​time​ ​their​ ​tokens​ ​remained​ ​staked.​ ​The​ ​rate​ ​at​ ​which​ ​voting​ ​rights​ ​are​ ​dispensed​ ​will 
+be​ ​governed​ ​by​ ​a​ ​sliding​ ​pricing​ ​curve​ ​with​ ​the​ ​amount​ ​of​ ​DNT​ ​required​ ​to​ ​stake​ ​to​ ​mint​ ​1 
+voting​ ​right​ ​increasing​ ​as​ ​a​ ​district’s​ ​deposit​ ​pool​ ​grows.  
+ 
+
+ 
+ 
+15 
+Participants​ ​are​ ​free​ ​to​ ​exit​ ​a​ ​district​ ​at​ ​any​ ​time,​ ​so​ ​long​ ​as​ ​they​ ​do​ ​not​ ​have​ ​votes​ ​cast 
+in​ ​an​ ​open​ ​vote,​ ​by​ ​un-staking​ ​their​ ​district0x​ ​Network​ ​Tokens.​ ​If​ ​a​ ​participant​ ​has​ ​cast 
+votes​ ​in​ ​an​ ​open​ ​vote,​ ​they​ ​are​ ​free​ ​to​ ​exit​ ​the​ ​district​ ​as​ ​soon​ ​as​ ​the​ ​voting​ ​period 
+closes.  
+ 
+Voting​ ​rights​ ​are​ ​immediately​ ​forfeited​ ​and​ ​retired​ ​upon​ ​the​ ​un-staking​ ​of​ ​DNT​ ​from​ ​a 
+district.​ ​After​ ​being​ ​un-staked,​ ​DNT​ ​can​ ​immediately​ ​be​ ​staked​ ​to​ ​other​ ​districts.​ ​The 
+frequency​ ​and​ ​duration​ ​of​ ​voting​ ​periods​ ​for​ ​a​ ​given​ ​district​ ​are​ ​defined​ ​in​ ​their 
+respective​ ​bylaws.  
+ 
+Unless​ ​specified​ ​in​ ​the​ ​bylaws​ ​of​ ​a​ ​district,​ ​there​ ​are​ ​no​ ​restrictions​ ​on​ ​the​ ​percentage​ ​of 
+a​ ​district’s​ ​voting​ ​rights​ ​that​ ​a​ ​participant​ ​can​ ​acquire​ ​and​ ​possess​ ​at​ ​any​ ​given​ ​time. 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+16 
+
+district0x​ ​Network​ ​Token​ ​Distribution 
+
+The​ ​district0x​ ​Genesis​ ​Contract​ ​minted​ ​1,000,000,000​ ​district0x​ ​Network​ ​Tokens.  
+ 
+The​ ​district0x​ ​Genesis​ ​Contract​ ​has​ ​allocated​ ​the​ ​minted​ ​district0x​ ​Network​ ​Tokens​ ​as 
+follows: 
+ 
+● 600,000,000​ ​=​ ​Distributed​ ​to​ ​participants​ ​in​ ​Contribution​ ​Period​ ​v0.1 
+● 140,000,000​ ​=​ ​Reserved​ ​for​ ​potential​ ​Contribution​ ​Period​ ​v0.2 
+● 40,000,000​ ​=​ ​Reserved​ ​for​ ​potential​ ​Contribution​ ​Period​ ​v0.3 
+● 200,000,000​ ​=​ ​Distributed​ ​to​ ​Founders​ ​(vest​ ​over​ ​the​ ​course​ ​of​ ​2​ ​years) 
+● 15,000,000​ ​=​ ​Distributed​ ​to​ ​Advisors​ ​(vest​ ​over​ ​the​ ​course​ ​of​ ​2​ ​years) 
+● 5,000,000​ ​=​ ​Distributed​ ​to​ ​Early​ ​Contributors​ ​(vest​ ​over​ ​the​ ​course​ ​of​ ​6​ ​months) 
+ 
+DNT​ ​tokens​ ​minted​ ​for​ ​allocation​ ​to​ ​founders,​ ​advisors,​ ​and​ ​early​ ​contributors​ ​are​ ​subject 
+to​ ​a​ ​vesting​ ​schedule.​ ​Founder​ ​and​ ​advisor​ ​tokens​ ​are​ ​allocated​ ​over​ ​a​ ​24-month​ ​vesting 
+period,​ ​with​ ​a​ ​6-month​ ​cliff.​ ​Early​ ​contributor​ ​tokens​ ​are​ ​allocated​ ​over​ ​a​ ​6-month​ ​vesting 
+period,​ ​with​ ​a​ ​3-month​ ​cliff.  
+
+Contribution​ ​Period​ ​v0.1  
+
+Contribution​ ​Period​ ​v0.1​ ​began​ ​on​ ​July​ ​18th,​ ​2017​ ​and​ ​ended​ ​on​ ​August​ ​1st,​ ​2017.​ ​During 
+this​ ​time,​ ​a​ ​total​ ​of​ ​43,169​ ​ETH​ ​of​ ​contributions​ ​were​ ​received.​ ​Within​ ​24​ ​hours​ ​of​ ​the​ ​end 
+of​ ​the​ ​event,​ ​600,000,000​ ​district0x​ ​Network​ ​Tokens​ ​were​ ​divided​ ​and​ ​distributed​ ​to​ ​the 
+participants.  
+
+Contribution​ ​Periods​ ​v0.2​ ​and​ ​v0.3 
+
+A​ ​total​ ​of​ ​180,000,000​ ​district0x​ ​Network​ ​Tokens​ ​have​ ​been​ ​reserved​ ​to​ ​ensure​ ​the 
+continued​ ​efforts​ ​of​ ​the​ ​district0x​ ​Network,​ ​in​ ​the​ ​event​ ​that​ ​additional​ ​contributions​ ​are 
+needed​ ​to​ ​fulfill​ ​the​ ​district0x​ ​Network​ ​roadmap.  
+ 
+Contribution​ ​Periods​ ​v0.2​ ​and​ ​v0.3​ ​are​ ​subject​ ​to​ ​occur​ ​only​ ​after​ ​both​ ​the​ ​completion​ ​of 
+the​ ​key​ ​milestones​ ​cited​ ​on​ ​the​ ​district0x​ ​roadmap​ ​(outlined​ ​in​ ​the​ ​following​ ​section)​ ​and 
+18​ ​months​ ​have​ ​passed​ ​since​ ​the​ ​previous​ ​Contribution​ ​Period.​ ​Contribution​ ​Periods​ ​v0.2 
+and​ ​v0.3​ ​will​ ​not​ ​occur​ ​if​ ​additional​ ​funding​ ​is​ ​not​ ​necessary​ ​to​ ​complete​ ​the​ ​project’s 
+remaining​ ​roadmap​ ​items.  
+
+ 
+ 
+17 
+
+Roadmap 
+Prior​ ​to​ ​potential​ ​Contribution​ ​Period​ ​v0.2 
+●
+●
+●
+●
+●
+
+Deploy​ ​d0xINFRA 
+Migrate​ ​Ethlance​ ​to​ ​d0xINFRA 
+Deploy​ ​Name​ ​Bazaar​ ​to​ ​district0x​ ​Network 
+Deploy​ ​Meme​ ​Factory​ ​to​ ​district0x​ ​Network 
+Deploy​ ​the​ ​District​ ​Registry 
+
+Prior​ ​to​ ​potential​ ​Contribution​ ​Period​ ​v0.3 
+●
+●
+●
+●
+
+Enable​ ​district​ ​extendability​ ​via​ ​auxiliary​ ​modules 
+Deploy​ ​auxiliary​ ​module​ ​directory 
+Deploy​ ​5​ ​additional​ ​districts​ ​to​ ​district0x​ ​Network 
+Deploy​ ​district0x​ ​Network​ ​Token​ ​staking​ ​interface 
+
+Following​ ​potential​ ​Contribution​ ​Period​ ​v0.3 
+
+ 
+ 
+
+● Deploy​ ​district​ ​creation​ ​interface 
+● Deploy​ d
+​ istrict0x​ ​Network​ ​directory 
+● Complete​ ​handover​ ​of​ ​governance​ ​of​ ​the​ ​district0x​ ​Network​ ​to​ ​district0x​ ​Network 
+Token​ ​holders 
+
+ 
+
+ 
+ 
+18 
+
+Projected​ ​Use​ ​of​ ​Contributions 
+
+Contributions​ ​received​ ​during​ ​Contribution​ ​Period​ ​v0.1​ ​will​ ​be​ ​used​ ​exclusively​ ​for​ ​the 
+development​ ​and​ ​expansion​ ​of​ ​the​ ​district0x​ ​Network.  
+
+Development​ ​Expenses 
+
+Contributions​ ​allocated​ ​for​ ​development​ ​expenses​ ​will​ ​be​ ​utilized​ ​to​ ​cover​ ​costs 
+associated​ ​with​ ​the​ ​refinement​ ​of​ ​d0xINFRA,​ ​the​ ​deployment​ ​of​ ​new​ ​districts​ ​to​ ​the 
+district0x​ ​Network,​ ​the​ ​creation​ ​of​ ​auxiliary​ ​modules,​ ​improvements​ ​to​ ​districts 
+developed​ ​in-house,​ ​security​ ​audits,​ ​and​ ​the​ ​launch​ ​of​ ​the​ ​district​ ​creation​ ​platform. 
+
+Operational​ ​Expenses 
+
+Contributions​ ​allocated​ ​for​ ​operational​ ​expenses​ ​will​ ​cover​ ​any​ ​costs​ ​associated​ ​with 
+accounting,​ ​business​ ​development,​ ​community​ ​management,​ ​education,​ ​people 
+operations,​ ​recruiting,​ ​support,​ ​and​ ​any​ ​other​ ​administrative​ ​tasks.  
+
+Marketing​ ​Expenses 
+
+Contributions​ ​allocated​ ​for​ ​marketing​ ​expenses​ ​will​ ​cover​ ​any​ ​costs​ ​associated​ ​with​ ​the 
+promotion​ ​of​ ​the​ ​district0x​ ​Network,​ ​districts​ ​on​ ​the​ ​district0x​ ​Network,​ ​the​ ​d0xINFRA 
+framework,​ ​and​ ​the​ ​district0x​ ​Power​ ​Plant.  
+
+Legal​ ​Expenses 
+
+Contributions​ ​allocated​ ​for​ ​legal​ ​expenses​ ​will​ ​cover​ ​any​ ​legal​ ​costs​ ​associated​ ​with​ ​the 
+establishment​ ​and​ ​operation​ ​of​ ​District0x​ ​Ltd.,​ ​the​ ​establishment​ ​and​ ​operation​ ​of 
+entities​ ​selected​ ​as​ ​service​ ​providers​ ​by​ ​the​ ​district0x​ ​Network,​ ​and​ ​any​ ​unforeseen 
+legal​ ​costs​ ​necessary​ ​to​ ​resolve​ ​matters​ ​that​ ​could​ ​pose​ ​a​ ​threat​ ​to​ ​the​ ​district0x 
+Network. 
+
+The​ ​district0x​ ​Power​ ​Plant 
+
+Inspired​ ​by​ ​the​ ​Slack​ ​Fund​,​ ​the​ ​district0x​ ​team​ ​will​ ​seek​ ​to​ ​establish​ ​an​ ​entity​ ​to​ ​support 
+the​ ​expansion​ ​of​ ​the​ ​district0x​ ​Network,​ ​advance​ ​the​ ​infrastructure​ ​upon​ ​which​ ​it​ ​is​ ​built, 
+foster​ ​the​ ​emergence​ ​of​ ​a​ ​developer​ ​ecosystem,​ ​and​ ​back​ ​the​ ​efforts​ ​of​ ​partner​ ​projects 
+that​ ​offer​ ​opportunities​ ​for​ ​interoperability. 
+ 
+
+ 
+ 
+19 
+
+Management​ ​of​ ​Contributions 
+
+As​ ​an​ ​Ethereum-based​ ​project,​ ​the​ ​long-term​ ​viability​ ​and​ ​utility​ ​of​ ​the​ ​district0x​ ​Network 
+is​ ​directly​ ​correlated​ ​to​ ​the​ ​continued​ ​development​ ​of​ ​the​ ​Ethereum​ ​protocol​ ​and​ ​growth 
+of​ ​its​ ​user​ ​base.​ ​Given​ ​such,​ ​after​ ​hedging​ ​2​ ​years​ ​worth​ ​of​ ​runway​ ​into​ ​a​ ​stable​ ​coin,​ ​we 
+intend​ ​to​ ​pay​ ​all​ ​wages​ ​to​ ​team​ ​members​ ​in​ ​ETH,​ ​to​ ​pay​ ​all​ ​possible​ ​expenses​ ​with​ ​ETH, 
+and​ ​to​ ​hold​ ​all​ ​idle​ ​funds​ ​in​ ​ETH​ ​in​ ​a​ ​multisig​ ​wallet​ ​indefinitely. 
+ 
+Understanding​ ​that​ ​the​ ​price​ ​of​ ​ETH​ ​relative​ ​to​ ​fiat​ ​currencies​ ​can​ ​be​ ​highly​ ​volatile,​ ​we 
+have​ ​left​ ​the​ ​door​ ​open​ ​to​ ​additional​ ​contribution​ ​periods​ ​in​ ​the​ ​event​ ​that​ ​further 
+funding​ ​becomes​ ​necessary​ ​for​ ​the​ ​completion​ ​of​ ​the​ ​district0x​ ​Network​ ​roadmap​ ​due​ ​to 
+a​ ​sustained​ ​decline​ ​in​ ​ETH/USD​ ​prices. 
+ 
+In​ ​the​ ​event​ ​that​ ​ETH​ ​continues​ ​to​ ​appreciate​ ​vs​ ​USD​ ​and​ ​excess​ ​contributions​ ​remain 
+upon​ ​the​ ​completion​ ​of​ ​the​ ​district0x​ ​Network​ ​roadmap,​ ​options​ ​will​ ​be​ ​explored​ ​to 
+return​ ​ETH​ ​to​ ​district0x​ ​Network​ ​Token​ ​holders. 
+ 
+ 
+
+ 
+
+ 
+ 
+20 
+
+Transparency​ ​Policy 
+
+As​ ​a​ ​community-centric​ ​project,​ ​we​ ​believe​ ​operational​ ​transparency​ ​is​ ​paramount.​ ​The 
+following​ ​steps​ ​will​ ​be​ ​taken​ ​to​ ​ensure​ ​that​ ​district0x​ ​Network​ ​Token​ ​holders​ ​will​ ​have 
+access​ ​to​ ​an​ ​adequate​ ​amount​ ​of​ ​information​ ​about​ ​the​ ​progression​ ​of​ ​the​ ​district0x 
+Network​ ​and​ ​the​ ​usage​ ​of​ ​contributions​ ​received​ ​from​ ​supporters.  
+
+Financial​ ​Disclosures 
+
+● The​ ​multisig​ ​wallet​ ​in​ ​which​ ​contributions​ ​are​ ​held​ ​will​ ​always​ ​be​ ​publicly 
+displayed​ ​at​ ​https://district0x.io/transparency/  
+● Quarterly​ ​updates​ ​on​ ​our​ ​financial​ ​position​ ​and​ ​usage​ ​of​ ​contributions​ ​will​ ​be 
+made​ ​publicly​ ​available​ ​at​ ​https://district0x.io/transparency/  
+
+Service​ ​Provider​ ​Disclosures 
+
+● Public​ ​work​ ​profile​ ​links​ ​(LinkedIn,​ ​GitHub)​ ​for​ ​all​ ​service​ ​providers​ ​presently 
+contracted​ ​by​ ​the​ ​district0x​ ​Network​ ​will​ ​be​ ​accessible​ ​at​ ​https://district0x.io/team/  
+● All​ ​wages​ ​paid​ ​to​ ​service​ ​providers​ ​presently​ ​contracted​ ​by​ ​the​ ​district0x​ ​Network 
+will​ ​be​ ​publicly​ ​accessible​ ​from​ ​https://district0x.io/transparency/  
+
+Development​ ​Disclosures 
+
+● Bi-weekly​ ​development​ ​updates​ ​will​ ​be​ ​published​ ​to​ ​https://blog.district0x.io/  
+● A​ ​link​ ​to​ ​the​ ​current​ ​district0x​ ​Network​ ​roadmap​ ​will​ ​always​ ​be​ ​publicly​ ​accessible 
+at​ ​https://district0x.io/transparency/  
+● A​ ​link​ ​to​ ​the​ ​district0x​ ​GitHub​ ​repository​ ​will​ ​always​ ​be​ ​publicly​ ​accessible​ ​at 
+https://district0x.io/transparency/   
+
+Contact​ ​Information 
+
+● A​ ​link​ ​to​ ​a​ ​public​ ​district0x​ ​Network​ ​chat​ ​client​ ​(Slack,​ ​Gitter,​ ​or​ ​similar​ ​platform) 
+will​ ​always​ ​be​ ​publicly​ ​accessible​ ​at​ ​https://district0x.io/team/  
+● The​ ​district0x​ ​email​ ​address​ ​will​ ​always​ ​be​ ​displayed​ ​at​ ​https://district0x.io/team/  
+● The​ ​email​ ​address​ ​of​ ​all​ ​district0x​ ​team​ ​members​ ​will​ ​always​ ​be​ ​displayed​ ​at 
+https://district0x.io/team/  
+
+ 
+ 
+21 
+
+Team 
+ 
+Matus​ ​Lestan 
+Co-founder​ ​-​ ​Tech​ ​Lead 
+ 
+Developed​ ​Ethlance​ ​as​ ​the​ ​first​ ​district.​ ​Matus​ ​is​ ​a​ ​lifelong 
+developer​ ​with​ ​a​ ​strong​ ​passion​ ​for​ ​decentralization. 
+Previously​ ​working​ ​as​ ​a​ ​freelance​ ​developer​ ​for​ ​8​ ​years, 
+Matus​ ​is​ ​now​ ​known​ ​for​ ​pushing​ ​the​ ​Clojure-Ethereum 
+ecosystem​ ​forward​ ​via​ ​numerous​ ​open​ ​source​ ​contributions. 
+ 
+Joe​ ​Urgo 
+Co-founder​ ​-​ ​Strategy​ ​and​ ​Operations​ ​Lead 
+ 
+Founder/CEO​ ​at​ ​Sourcerers,​ ​Joe​ ​is​ ​a​ ​curious​ ​explorer​ ​of 
+decentralized​ ​business​ ​models​ ​and​ ​token-enabled 
+governance​ ​structures.​ ​Previously​ ​Joe​ ​worked​ ​as​ ​an 
+Operations​ ​Manager​ ​at​ ​Coinbase,​ ​a​ ​Derivatives​ ​Trader​ ​at 
+Three​ ​Arrows​ ​Capital,​ ​and​ ​a​ ​Professional​ ​Poker​ ​Player. 
+ 
+Alexander​ ​Khoriaty​ ​-​ ​Project​ ​Manager 
+Mike​ ​Konkov​ ​-​ ​Clojurescript​ ​Developer 
+Filip​ ​Bielejec​ ​-​ ​Clojurescript​ ​Developer 
+P.J.​ ​Leimgruber​ ​-​ ​Marketing​ ​Lead 
+Brady​ ​McKenna​ ​-​ ​Community​ ​Manager 
+Farhan​ ​Shaikh​ ​-​ ​Community​ ​Manager 
+
+Advisors 
+Luis​ ​Cuende​ ​-​ ​Co-founder​ ​at​ ​Aragon 
+Carl​ ​Bennett​ ​-​ ​Co-founder​ ​at​ ​Status 
+Brayton​ ​Williams​ ​-​ ​Co-founder​ ​at​ ​Boost​ ​VC 
+Vincent​ ​Zhou​ ​-​ ​Founder​ ​at​ ​FBG​ ​Capital 
+Manmeet​ ​Singh​ ​-​ ​Co-founder​ ​at​ ​Blockseed​ ​Ventures 
+
+ 
+ 
+22 
+
+Appendix 
+Appendix​ ​A 
+
+Ethlance’s​ ​backend​ ​logic​ ​is​ ​governed​ ​by​ ​14​ ​smart​ ​contracts​ ​deployed​ ​on​ ​the​ ​Ethereum 
+MainNet: 
+ 
+● EthlanceViews​​ ​-​ ​0x1f286cB2EB7AE530FD85FD6EcE2e17d4f60D8DaA 
+● EthlanceUser​​ ​-​ ​0x27d233fa6032e848a016092d70493b2a5f13a95f 
+● EthlanceMessage​​ ​-​ ​0xf94aa98bde7589719f1f08c6fb032debd0d7e9e6 
+● EthlanceConfig​​ ​-​ ​0xe7d8d05f8328ea5b8fba5a77d4e4172487264bda 
+● EthlanceContract​​ ​-​ ​0x8F24AF20ad202C77686B771AD3dBc6b1fe28dDdD 
+● EthlanceSponsor​​ ​-​ ​0xb9f7d3b60ec29bd73fd66428f140ed5b0e1ef6ec 
+● EthlanceInvoice​​ ​-​ ​0x78f1072964d7f110e06670c229794afbdce7e474 
+● EthlanceSearchJobs​​ ​-​ 0
+​ x9e2f85eea233047e527039681ad84448c8926690 
+● EthlanceFeedback​​ ​-​ 0
+​ x2249713725c8a4a070a61de0bdce6b1081014185 
+● EthlanceSponsorWallet​​ ​-​ ​0xc80d2cb06ce606395178692de07ea9da1f873aa3 
+● EthlanceUser2​​ ​-​ ​0x42c3e6bf6e47ad3d6cbb0b966c44e9331e96dd3e 
+● EthlanceDB​​ ​-​ ​0x5371a8d8d8a86c76de935821ad1a3e9b908cfced 
+● EthlanceJob​​ ​-​ ​0xB9E80ce5A7CbbA0Aab685797F6585AD1f3c90028 
+● EthlanceSearchFreelancers​​ ​-​ ​0x43386ad7af76ca5384bc06ae0c74e230f32744ee 
+
+Appendix​ ​B 
+
+A​ ​special​ ​thanks​ ​to​ ​the​ ​following​ ​community​ ​members​ ​for​ ​their​ ​feedback​ ​and​ ​continued 
+support​ ​of​ ​the​ ​district0x​ ​Network: 
+ 
+● Luis​ ​Cuende 
+● Nadav​ ​Hollander 
+● Carl​ ​Bennetts 
+● Stephen​ ​King 
+● Jarrad​ ​Hope 
+● Jorge​ ​Mielgo 
+● Steven​ ​McKie 
+● Griff​ ​Green 
+● Jorge​ ​Izquierdo 
+● Phil​ ​Kurtland 
+● Jake​ ​Vartanian 
+● Alexander​ ​Chopan 
+● Jake​ ​Brukhman 
+● Alex​ ​Maslar 
+● Max​ ​Mersch 
+● Christina​ ​De​ ​Paris 
+● Simon​ ​de​ ​la​ ​Rouviere 
+● Tatu​ ​Kärki 
+● George​ ​Li 
+● Chase​ ​Cole 
+
+

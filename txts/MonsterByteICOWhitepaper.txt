@@ -1,0 +1,547 @@
+Table of Contents
+1.0
+2.0
+3.0
+4.0
+
+Abstract
+Manifesto
+Problem Overview
+Product Overview
+4.1 BitcoinRush.io
+4.2 Peerbet.org
+4.3 Bit777.com
+5.0 ICO Overview
+6.0 Exchanges
+7.0 Benefits
+8.0 Economics: Monster Byte B2C Revenue Model
+5.1 Sportsbook
+5.2 Casino Edge
+5.3 Peerbet
+9.0 Economics: Monster Byte B2B Revenue Model
+10.0 Competitive Analysis
+12.0 Marketing Plan
+12.0 Developmental Roadmap
+13.0 ICO Fund Allocation
+14.0 Conclusion
+
+1.0 Abstract
+Monster Byte Inc. is a technology company which owns a suite of long-standing and
+profitable Cryptocurrency Gambling websites, all of which have been custom-built
+with proprietary technology owned by Monster Byte Inc.
+Our company is seeking expansion and revenue growth by increased marketing and
+product development while also entering into wholesale B2B operations via
+white-labeling all existing software for resale and licensing purposes.
+Since its inception, Monster Byte Inc. has been on a mission to become the world’s
+premier destination for cryptocurrency gamblers to not only wager on sports, but
+also bet on casino games like Blackjack, Roulette, and Baccarat. We have a distinct
+advantage over our competitors as we can cater towards both the sports betting
+and casino game demographic. Further, our B2C portals are all well-established and
+have a great reputation within the bitcoin gaming community.
+
+2.0 Manifesto
+Our mission is to leverage the powerful nature of cryptocurrencies (such as Bitcoin)
+as the perfect medium for a fast, safe, and fun gaming chip which is rapidly gaining
+mainstream acceptance within the online gambling community. We aim for
+complete customer satisfaction by offering a fair, safe, and superior customer
+experience.
+
+3.0 Problem Overview
+Various problems affect traditional online gaming sites, affecting both operators and
+players, Monster Byte is well positioned to address these needs in the industry.
+Issues affecting operators: ​The principal issue affecting online gaming operators is
+fraud. Whether it’s a credit card scammer attempting to play with others money, or
+a player attempting a chargeback after losing their deposit, traditional fiat gaming
+sites leave room for fraudulent activity by its users. Additionally, most banks and
+internet financial institutions (such as PayPal) are weary of supporting gaming
+websites.
+
+Monster Byte’s solution:​ Through the use of cryptocurrencies, the risk of
+chargebacks is completely eliminated. Cryptocurrencies also eliminate the need of
+using third party financial partners to handle transfers of funds.
+1
+
+Issues affecting players: ​The issues affecting players are more diverse than those
+affecting the operator. They include the following:
+●
+
+Speed of deposits and withdrawals: Players at traditional fiat gaming
+websites need to wait for their bank wire (if they are not using a credit card)
+to get to the sites in-game wallet before being able to play. Regardless of
+their deposit method, the player must wait several days to receive their
+withdrawal if they decide to stop playing and cash-out.
+
+●
+
+High House Edge and “Stacked Decks”: While online gaming websites have
+much lower house edges relative to that of physical casinos, the return to the
+player is still low considering online establishments do not have nearly the
+overhead that physical casinos have. Most online games have a house edge
+around ~5%. On top of that, it is nearly impossible for players to tell if they
+were cheated or simply had terrible luck after an unlikely loss.
+
+●
+
+Lack of privacy: If a player does not want their spouse to know they are
+wagering, it is difficult to remain discreet when their credit/bank statements
+would show that they made a deposit, or received a payment from a gaming
+site.
+
+Monster Byte’s solution:​ Monster Byte is prepared to meet player needs where its
+fiat counterparts have failed.
+●
+
+Cryptocurrency deposits are nearly instant, and withdrawals are handled
+immediately.
+
+●
+
+Monster Byte offers games with as low as a 0% house edge, as well as a dice
+game with a flat 1% house edge. Players get a lot more bang for buck.
+Further, all games built by Monster Byte are built with using the Provably Fair
+paradigm.
+○ At a high level, Provably Fair Shuffling is a technique that Monster Byte
+leverages which allows the user to reshuffle the deck before it is dealt.
+The system first shuffles the deck once, and then presents the user
+with a hash of the the shuffled deck before any wagers are made.
+Then, whenever the user places a wager, he can optionally provide a
+client_seed. The system then uses the client_seed provided to
+reshuffle the deck in a deterministic way. At the end of the wager the
+software reveals the initial shuffle, which allows the user to verify that
+the system presented them with a valid hash, and also reshuffled the
+deck in the correct way. Since there is no way of the system to know
+2
+
+the value of the client_seed until the moment the hand was dealt,
+there is no way to manipulate the outcome of the shuffle of the deck.
+
+Example of Provably Fair Verification
+
+●
+
+Finally, the ability to play without having to show forms of identification, and
+not having your record of deposits/withdrawals appearing on a monthly
+statement ensure that players privacy is respected.
+
+4.0 Product Overview
+4.1 BitcoinRush.io
+
+3
+
+Founded in 2013, BitcoinRush.io (formerly known as CasinoBitco.in) was the first
+Bitcoin Sportsbook to offer Provably Fair Bitcoin Casino Games, starting with
+Blackjack. Overtime, based on player feedback and demand, we have been able to
+expand and enhance these offerings. No download is required, and all games are
+available for free across all browser types and mobile devices. BitcoinRush.io is a
+credible and established leader in the Bitcoin Gambling space.
+Generally speaking there are three main sets of products on BitcoinRush.io, the
+Sportsbook, Casino, and Peer to Peer Games.
+Sportsbook
+● Since 2013, we have handled almost 17,000 bitcoin worth of wagers
+(~$45MM US at time of authoring) within the sportsbook.
+● BitcoinRush.io supports over 24 different wagering markets, from US Football
+all the way down to exotics like Auto Racing.
+● Spreads, Moneylines, Totals, Parlays, Halftime, and Asian Markets offered.
+● Competitive leaderboard system based on volume of bettors.
+
+Provably Fair Casino
+● Since inception, users have wagered 18,000 bitcoin (~$50MM US at time of
+authoring) in our casino.
+● BitcoinRush.io utilizes a Provably Fair system with its Casino games.
+● Games Provided
+○ Blackjack
+○ Roulette
+○ Hi-Lo
+4
+
+○
+○
+
+Baccarat
+Video Poker
+
+Peer to Peer Games
+● Bitcoin Rush is a Peer to peer multiplayer game which offers a new refreshing
+way to bet BTC, all head to head.
+● Super Bowl and March Madness Squares Contests
+4.2 Peerbet
+
+4.5.1 Dice
+Bitcoin dice games are definitely the most well-known Bitcoin powered
+casino game accessible online. Bitcoin dice allows players to enter the
+game with provable odds on their rolls, decide their own risk, all while
+the house takes just a 1% edge, the lowest of any gambling game
+online.
+4.5.2 Wheel
+The Betting Wheel on PeerBet offers a new way of gambling but
+without the usual house edge. On this wheel based game users will
+find the wheel is divided up into different segments, and the aim of the
+game is to predict which segment of the wheel is going to spin in
+opposite the winning pointer. Users can choose to place a bet on any
+of the segments or by the laying of those bets, and when doing the
+latter then if the player loses you will win their stake amount, however
+if that player correctly predicts the segment of the wheel that is spun
+in and wins then you need to pay them out their winnings.
+4.5.3 Raffles
+5
+
+The Raffles on PeerBet are another game where there is no house
+edge involved and as such everyone taking part in it has a fair and
+more importantly equal chance of winning when playing it, just like a
+lottery. Once all of the tickets for your Raffle have been sold then the
+draw will take place, and the winners will then be announced and they
+will instantly be paid their winnings.
+4.3 Bit777
+
+Bit777 was one of the first Bitcoin casinos, founded in 2012, to offer a full-suite of
+interactive games to the gaming community. The games available on the site,
+which are flash-based, were developed by UltraPlay, one of the largest online
+gaming software companies. Over its 5-year life, Bit777 has handled over 100,000
+Bitcoin in wagers. Monster Byte acquired Bit777, and the software which powers
+Bit777, in early 2014 from UltraPlay.
+While not Provably Fair, Bit777 utilizes the Mersenne Twister randomizing
+technology and its games have been RNG tested. Bit777 offers users a plethora of
+games that are not available on Monster Byte’s provably fair casino, Bitcoinrush.io.
+Bit777 also runs a mystery jackpot, so that users have a chance of winning even
+when they “lose” their wager.
+Bit777 currently offers the following games:
+● Roulette (6 variations)
+○ 8 Wheel Roulette
+○ 3 Wheel Roulette
+6
+
+●
+
+●
+
+●
+
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+○ American Roulette
+○ European Roulette
+○ French Roulette
+○ La Boule
+Blackjack (8 variations)
+○ Blackjack SH
+○ Blackjack MH
+○ Blackjack Switch
+○ Blackjack Surrender
+○ Blackjack Exposure
+○ Blackjack Snapjax
+○ Blackjack Pontoon
+Video Poker (4 variations)
+○ Jacks or Better
+○ Jokers Export
+○ Deuces Wild
+○ All American
+Slots (4 variations)
+○ Blazin 7’s
+○ Royal Bars
+○ The Pawn Machine
+○ Hot Fruits
+Sic Bo
+Red Dog
+Let Em Ride
+Baccarat
+Casino War
+Tri-Card Poker
+Trey Poker
+3 Card Brag
+Caribbean Stud
+Stud Poker
+Texas Hold ‘Em (as well as Texas Hold Em Bonus)
+
+5.0 ICO Overview
+The ICO presale will begin on July 3rd 2017 at 16:00 UTC, and extend until July 8th
+16:00 UTC or whenever the presale is sold out, whichever occurs first. During the
+7
+
+pre-sale, 2,500,000 Monster Byte tokens will be sold at $0.08 USD, a 31.5%
+discount over the general sale.
+The general sale will open at July 8th at 16:00, 7,500,000 Monster Byte tokens will
+then be sold at $0.11 USD.
+All tokens will be sold exclusively on the Monster Byte ICO portal,
+https://www.monsterbyte.io​. Users can purchase tokens with Bitcoin, Waves,
+Litecoin, Dash, Ethereum, and Shapeshift.
+In total, we anticipate raising $1,025,000 USD which will give Monster Byte a $4.4M
+post-money valuation*. We chose not to have an open cap as savvy investors
+should know exactly what they are buying into, with a well-defined capitalization
+model.
+*If there is an extremely high demand, Monster Byte reserves the right to issue a third ICO
+wave in which principals will offer their tokens up for sale to the general public at a price
+TBD. If this were to occur, we would provide 5 days notices via various mediums.
+
+6.0. Exchanges
+The Monster Byte token is a Waves platform based token​. We anticipate that the
+majority of Monster Byte trading will occur in the Waves Decentralized Exchange
+(DEX). However, in an effort to increase liquidity and exposure of Monster Byte to a
+broader population, we will also endeavour to include Monster Byte tokens in some
+classic exchanges.
+As such, our efforts will be concentrated in listing Monster Byte on (in order of
+priority):
+Must:
+1. DEX
+2. Tidex
+Should:
+3. Bittrex
+4. Other exchanges may be added if a good opportunity is presented.
+We will also submit Monster Byte in Coinmarketcap which as solid way to
+ensure that we expose Monster Byte to the wider population.
+7.0 Benefits
+
+8
+
+Monster Byte Token holders will benefit from us listing this token on the Waves
+Platform due to the ability to easily trade tokens against other assets and
+cryptocurrencies all within the DEX, a very liquid decentralized exchange in the
+Waves LiteApp Wallet.
+On a quarterly basis, all Monster Byte token holders are entitled to their share of
+our collective profit (revenue - expenses). Dividends will be paid in bitcoin, and
+detailed quarterly reports will be published to provide full transparency on our
+operations. An example of a recent report is located here: ​Q1 2017 Report
+8.0 Economics: Monster Byte B2C Revenue Model
+Since we are not a startup, and have very valuable and practical experience in this
+space, we have the ability to share our Historic, and Projected, P&L:
+https://docs.google.com/spreadsheets/d/14hV9RUtrdPeDusRDwdjyFzwmMep3tVOE
+daVuOSd4J3M/edit?usp=sharing
+5.1 Sportsbook
+The sportsbook as a whole has been a very good lesson learned, we
+were handling risk at first, then offset with a third party (who went
+bankrupt and left us holding the bad) then we handled the risk
+ourselves again a bit more intelligently.
+Without going into some our intellectual property, we now have a new
+model that allows us to earn anywhere from 2%-4% on all bets
+placed, regardless of the user wins or loses.
+5.2 Casino Edge
+It’s true, the house always wins. In the casino, we hold anywhere from
+1-7% edge based on the game being played in both BitcoinRush.io and
+Bit777.com.
+
+5.3 Peerbet
+In Dice, the house retains a 1% edge; and just like other dice sites;
+however, this bankroll is still all crowdfunded; so we make a small
+commission of the profits (and losses) the investor endures on
+PeerBet. In addition, we also charge smaller altcoins a commission
+(paid in btc) to list their coin on PeerBet, a recent example of this is
+PepeCoin.
+
+9
+
+9.0 Economics: Monster Byte B2B Revenue Model
+Syndication of our products and intellectual property is a new venture for Monster
+Byte, and something we aim to have off the ground in late 2017. Most pricing
+models that other gaming providers support is a monthly ‘license’ fee, in addition to
+a share of the operator’s revenue.
+We strive to achieve an extremely similar model; however, will likely offer
+significant discounts and potential premiums to first-time ‘tenants’ or operators of
+our software to not only test the software, but also the support model necessary to
+support such a line of business.
+
+10.0 Competitive Analysis
+Cryptocurrency Gaming has a rather complex barrier of entry due to the highly
+technical nature of handling cryptocurrencies safely, as well as catering to the
+needs of cryptocurrency players (e.g. Provably Fair Gaming); however, online
+gambling as a whole is an extremely competitive marketplace. In order to be
+successful, we need to be able to differentiate ourselves from the competition by
+offering more gambling options, a rich and interactive experience, all while
+providing the best rewards to keep players coming back.
+Most of our competitors are leveraging the same ‘off-the-shelf’ solutions provided
+by European gaming providers. While this software is tangibly best in class, our
+competitors run into consistent challenges being able to differentiate themselves.
+Due to the fact that we own all our intellectual software, and can modify it at will,
+we believe we properly compete with all the competitors below.
+Main competitors
+-
+
+-
+
+Bitcasino.io
+- Launched January 2014
+- Games offered: Baccarat, Blackjack, Casual Games, Hd Slots, Jackpot
+Games, Live Games, Lottery, Roulette, Slots, Table Games, Video
+Poker
+- Disadvantage: Not Provably Fair, Software is in the control of BetSoft.
+Betcoin.ag
+- Launched February 2014
+- Games offered: Blackjack, Card Games, Dice, Hd Slots, Live Games,
+Roulette
+- Disadvantage: Not Provably Fair, Software is in the control of BetSoft.
+10
+
+-
+
+-
+
+-
+
+-
+
+Bitstarz.com
+- Launched June 2014
+- Games offered Dice, Hd Slots, Jackpot Games, Live Games, Slots,
+Table Games
+- Accepts BTC as well as fiat currency
+- Disadvantage: Not Provably Fair, does not own its software
+FortuneJack.com
+- Launched September 2014
+- Games offered Bingo, Blackjack, Dice, Hd Slots, Keno, Live Games,
+Slots
+- Accepts BTC, Ethereum, and fiat currency
+- Disadvantage: Not Provably Fair, Poor community presence, deemed
+untrustworthy by most
+CloudBet.com
+- Launched November 2013
+- Has a wide-ranging sportsbook
+- Casino games offered: Baccarat, Blackjack, Craps, Hd Slots, Roulette,
+Slots
+- Disadvantage: Not Provably Fair
+Nitrogensports.eu
+- Launched February 2013
+- Sportsbook offering 30+ sporting options to bet on, easily the leader in
+the Bitcoin Sportsbook space
+- Contains a Poker game which offers Cash Games, Sit & Go’s, and
+Tournaments.
+- Has a casino which offers the following games: Blackjack, Poker, Dice
+- Disadvantage: While having a superior sportsbook, NitrogenSports.eu
+has a very limited Casino Offering
+
+11.0 Marketing Plan
+By virtue of already being established and reputable for years, we will focus a fair
+amount of our attention on acquiring new customers via aggressive giveaways and
+play based promotions across our portals. This effort includes hiring staff that will
+serve as ‘community managers’ helping promote our various brands in social media
+and forums.
+Historically, we’ve also found our biggest ROI when it comes to marketing has
+always been improvement with our SEO rankings. So In parallel with the
+promotions above, we will outsource our organic and paid search efforts to a
+professional firm that has proven experience in the online gambling marketplace.
+11
+
+12.0 Developmental Roadmap
+While we do have very well-established gaming portals, with active users, there is a
+clear need to update the user experience across the board, as well as better market
+our collective brand.
+Immediately following the ICO, our near-term development and marketing
+initiatives are as follows:
+1. July 2017:​ Hire additional marketing staff, including community managers
+for both BitcoinRush.io and PeerBet.org to entice more play, and
+camaraderie, within the community. Amazingly in the past four years we
+have not had any dedicated marketing staff, or community presence. With
+more active community presence we believe we will convert, or “win back”
+many users that haven’t been to our consumer sites in years based on the
+many advantages our sites have (​automated comps based on volume of play
+not wins or losses, strong affiliate brand, etc​).
+2. August 2017​: Launch the Updated BitcoinRush.io Sportsbook, this includes
+a complete overhaul of the UX (​designed in a responsive manner for mobile
+users​), also includes the new risk-management platform, which allows
+Monster Byte to retain 2%-4% of every bet placed regardless if the players
+wins or loses.
+
+3. ​August 2017:​ ​PeerBet.org, one of the oldest dice sites around, will be
+relaunched with a far more modern look and feel; built with a responsive
+design for mobile and tablet play.
+
+12
+
+4. ​September 2017:​ We will natively add additional coin support on
+BitcoinRush.io. Just ahead of the US NFL season, we will begin accepting
+other cryptocurrency coins, including Waves, Ethereum, Litecoin, Dash, and
+others. This broadens our reach of players by substantially lowering the
+barrier of entry, and cost for customers around the world to place wagers in
+both the Casino and Sportsbook
+5. ​November 2017:​ B2B APIs. Casino and Sportsbook APIs will be available
+for consumption by third party operators that want the benefit of our no-risk
+sportsbook, and provably fair casino platform. Monster Byte will charge a
+yearly platform licensing fee, as well as partake in a share of the operator's
+revenue.
+6. ​January 2018​: As part of a broader global strategy, we will launch
+additional language support on all consumer sites we own and operate.
+Starting with Mandarin Chinese, we anticipate a large lift with Asian gamblers
+that are entering the cryptocurrency marketplace in force, and also have
+always historically embraced gambling.
+
+13.0 ICO Token Allocation
+The following is the exact breakdown of Monster Byte tokens. In total there are
+40,000,000 Monster Byte tokens. We will not issue any beyond that amount. If the
+ICO were to sell out completely, it would give Monster Byte a run rate of 12
+months, so Principals, Owners, and New Hires would not execute any tokens on the
+open market. However, If there is a need for additional capital beyond the 12
+
+13
+
+month period, Principals / Owners will sell tokens OTC, or in a controlled and
+responsible way as to avoid impact of the price of Monster Byte Inc.
+# of tokens
+Principals / Owners / New Hires
+
+51.10%
+
+20,588,428
+
+Havelock Unit Holders
+
+20.15%
+
+8,061,572
+
+Waves Sale
+
+25.00%
+
+10,000,000
+
+Bounties
+
+1.50%
+
+600,000
+
+Advisors
+
+1.88%
+
+750,000
+
+14.0 Conclusion
+We stand firm that the Monster Byte ICO is an extremely unique and exciting
+opportunity you will not find in the plethora of ICOs launching daily. This is
+primarily due to:
+●
+●
+●
+
+Our proven track record, as we’ve been operating in the cryptocurrency
+gaming space since 2013.
+This is not an idea or startup, we are post-revenue, all our products are
+launched and have active usage.
+Our team has collective over 40 years experience in the internet technology
+and gaming sector. We are confident we can execute on the roadmap we’ve
+set for ourselves.
+
+This is your chance to invest in one of the fastest growing industries. Sports betting
+and online gambling is one of the best use cases for cryptocurrencies. Currently,
+online gambling as a whole is a $46 Billion/year market. Depending on estimates, it
+is expected to be approximately $50 Billion/year by 2019. At the same time, due
+the benefits of both the player and operator, cryptocurrency gambling is going to
+‘eat into’ this market gradually year over year.
+Please visit our website and sign up for our newsletter to get the latest updates on
+the ICO and presale.
+Web​: ​https://www.monsterbyte.io/ico
+Slack​:​https://join.slack.com/monsterbyte/shared_invite/MjAyMzg4Njk4OTMzLTE0O
+TgxNjk2MDQtOTgyMjRmYzI0Mg
+Bitcointalk:​ ​https://bitcointalk.org/index.php?topic=1980482
+
+14
+
+
